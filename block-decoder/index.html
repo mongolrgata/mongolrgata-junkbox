@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Блочный декодер</title>
+    <style>
+        table {
+            table-layout: fixed;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        button {
+            width: 100%;
+        }
+
+        #encoded-text, #search-value, #replace-value, #text-rules {
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        #decoded-text, #rules {
+            height: calc(100vh - 87px);
+            overflow-y: scroll;
+        }
+
+        #decoded-text {
+            font: 11px monospace;
+            color: darkgray;
+            word-break: break-all;
+        }
+
+        #rules {
+
+        }
+
+        /*noinspection CssUnusedSymbol*/
+        .code {
+            overflow: hidden;
+            font: 13px monospace;
+            white-space: pre;
+            text-overflow: ellipsis;
+        }
+
+        /*noinspection CssUnusedSymbol*/
+        .search-value {
+            background-color: #60B0F0;
+        }
+
+        /*noinspection CssUnusedSymbol*/
+        .replace-value {
+            background-color: #98D9A8;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<table>
+    <colgroup>
+        <col width="100%">
+        <col width="128px">
+    </colgroup>
+    <tr>
+        <td><label for="encoded-text"></label><input id="encoded-text" type="text"></td>
+        <td>
+            <button id="load-encoded-text">Загрузить</button>
+        </td>
+
+    </tr>
+</table>
+<table>
+    <colgroup>
+        <col width="50%">
+        <col width="50%">
+        <col width="128px">
+    </colgroup>
+    <tr>
+        <td><label for="search-value"></label><input id="search-value" type="text"></td>
+        <td><label for="replace-value"></label><input id="replace-value" type="text"></td>
+        <td>
+            <button id="load-rules">Добавить</button>
+        </td>
+    </tr>
+</table>
+<table>
+    <colgroup>
+        <col width="100%">
+        <col width="128px">
+        <col width="128px">
+        <col width="128px">
+    </colgroup>
+    <tr>
+        <td><label for="text-rules"></label><input id="text-rules" type="text"></td>
+        <td>
+            <button id="stringify-rules">Stringify</button>
+        </td>
+        <td>
+            <button id="parse-rules">Parse</button>
+        </td>
+        <td>
+            <button id="to-object-rules">To object</button>
+        </td>
+    </tr>
+</table>
+
+<table>
+    <colgroup>
+        <col width="50%">
+        <col width="50%">
+    </colgroup>
+    <tr>
+        <td>
+            <div id="decoded-text"></div>
+        </td>
+        <td style="vertical-align: top;">
+            <div id="rules"></div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
