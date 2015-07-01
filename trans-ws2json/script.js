@@ -1,58 +1,57 @@
 var $template = $(
-    '<div class="line-row">' +
-    '<table style="border-top: 1px solid lightgray;">' +
-    '   <colgroup>                                                      ' +
-    '       <col width="86px">                                          ' +
-    '       <col width="100%">                                          ' +
-    '   </colgroup>                                                     ' +
-    '<tr>' +
-    '<td class="you-need-me" valign="top">' +
-    '   <div class="id-code-cell">' +
-    '       <div class="id-code">' +
-    '       </div>' +
-    '       <div class="name">' +
-    '       </div>' +
-    '       <div class="line-state">' +
-    '             <label><input class="init" type="radio" value="1">Черновик</label><br>' +
+    '<div class="line-row">                                                                          ' +
+    '<table style="border-top: 1px solid lightgray;">                                                ' +
+    '   <colgroup>                                                                                   ' +
+    '       <col width="86px">                                                                       ' +
+    '       <col width="100%">                                                                       ' +
+    '   </colgroup>                                                                                  ' +
+    '<tr>                                                                                            ' +
+    '<td class="you-need-me" valign="top">                                                           ' +
+    '   <div class="id-code-cell">                                                                   ' +
+    '       <div class="id-code">                                                                    ' +
+    '       </div>                                                                                   ' +
+    '       <div class="name">                                                                       ' +
+    '       </div>                                                                                   ' +
+    '       <div class="line-state">                                                                 ' +
+    '             <label><input class="init" type="radio" value="1">Черновик</label><br>     ' +
     '             <label><input class="cont" type="radio" value="2">На контроле</label><br>' +
-    '             <label><input class="best" type="radio" value="3">Итоговый</label><br>' +
-    '       </div>' +
-    '   </div>' +
-    '</td>' +
-    '<td>' +
-    '   <div class="lines">' +
-    '       <div class="en-line">' +
-    '       </div>' +
-    '       <div class="ru-line">' +
-    '           <textarea class="trans"></textarea>' +
-    '       </div>' +
-    '   </div>' +
-    '</td>' +
-    '</tr>' +
-    '</table>' +
-    '</div>'
+    '             <label><input class="best" type="radio" value="3">Итоговый</label><br>     ' +
+    '       </div>                                                                                   ' +
+    '   </div>                                                                                       ' +
+    '</td>                                                                                           ' +
+    '<td>                                                                                            ' +
+    '   <div class="lines">                                                                          ' +
+    '       <div class="en-line">                                                                    ' +
+    '       </div>                                                                                   ' +
+    '       <div class="ru-line">                                                                    ' +
+    '           <textarea class="trans"></textarea>                                                  ' +
+    '       </div>                                                                                   ' +
+    '   </div>                                                                                       ' +
+    '</td>                                                                                           ' +
+    '</tr>                                                                                           ' +
+    '</table>                                                                                        ' +
+    '</div>                                                                                          '
 );
 
 function getData() {
-   return JSON.parse(localStorage.getItem('f_data') || '[]');
+    return JSON.parse(localStorage.getItem('f_data') || '[]');
 }
 
 function getDataJSON() {
-   return localStorage.getItem('f_data') || '[]';
+    return localStorage.getItem('f_data') || '[]';
 }
 
 function setData(val) {
-   localStorage.setItem('f_data', JSON.stringify(val, null, 4));
+    localStorage.setItem('f_data', JSON.stringify(val, null, 4));
 }
 
 function getName() {
-   return localStorage.getItem('f_name') || '';
+    return localStorage.getItem('f_name') || '';
 }
 
 function setName(val) {
-   localStorage.setItem('f_name', val);
+    localStorage.setItem('f_name', val);
 }
-
 
 var code_table = [
     {"71B9" : "↵<br>"},
@@ -132,7 +131,6 @@ var code_table = [
 ];
 
 /**
- * DONE
  * @param {string} encodedStr
  * @returns {string}
  */
@@ -161,9 +159,6 @@ function decode(encodedStr) {
     return result;
 }
 
-/**
- * DONE
- */
 function parseFileData() {
     var $linesBox = $('.lines-box');
     var f_data = getData();
@@ -173,24 +168,28 @@ function parseFileData() {
     for (var i = 0, n = f_data.length; i < n; ++i) {
         var $temp = $template.clone();
         var id = f_data[i].id;
+        //noinspection JSUnresolvedVariable
         var st = f_data[i].line.state || 1;
+        //noinspection JSUnresolvedVariable
         var en = f_data[i].line.en;
+        //noinspection JSUnresolvedVariable
         var ru = f_data[i].line.ru;
         var name = f_data[i].name;
 
-        var foo = function() {
-           var $radio = $(this);
-           var $row = $radio.closest('.line-row');
-           var oldData = $row.data('linkedObj');
-           oldData.line.state = $radio.val();
-           $row.data('linkedObj', oldData);
+        var foo = function () {
+            var $radio = $(this);
+            var $row = $radio.closest('.line-row');
+            var oldData = $row.data('linkedObj');
+            //noinspection JSUnresolvedVariable
+            oldData.line.state = $radio.val();
+            $row.data('linkedObj', oldData);
         };
 
-        /*var $enLine =*/ $temp.find('.en-line').html(decode(en));
-        /*var $ruLine =*/ $temp.find('.ru-line').find('textarea').val(ru);
-        /*var $name =*/ $temp.find('.name').text(decode(name) || '<NONAME>');
-        /*var $idCode =*/ $temp.find('.id-code').text('ID:' + id);
-        /*var $lineSt =*/ $temp.find('.line-state');
+        $temp.find('.en-line').html(decode(en));
+        $temp.find('.ru-line').find('textarea').val(ru);
+        $temp.find('.name').text(decode(name) || '<NONAME>');
+        $temp.find('.id-code').text('ID:' + id);
+        $temp.find('.line-state');
         $temp.find('label input').prop('name', id);
         $temp.find('.init').prop('checked', st == 1).change(foo);
         $temp.find('.cont').prop('checked', st == 2).change(foo);
@@ -209,6 +208,7 @@ $(document).ready(function () {
 
         setName(f_in.name);
 
+        //noinspection SpellCheckingInspection
         reader.onloadend = function (e) {
             var result = e.currentTarget.result;
             setData(JSON.parse(result));
@@ -230,16 +230,21 @@ $(document).ready(function () {
             var aFileParts = [srtRes];
             var oMyBlob = new Blob(aFileParts, {type : 'application/json'});
 
+            //noinspection JSUnresolvedVariable
             window.requestFileSystem = window.requestFileSystem || window.webkitRequestFileSystem;
 
+            //noinspection JSUnresolvedVariable
             window.requestFileSystem(
                 window.TEMPORARY,
                 1024 * 1024,
                 function (fs) {
+                    //noinspection JSUnresolvedFunction
                     fs.root.getFile(getName(), {create : true}, function (fileEntry) {
+                        //noinspection JSUnresolvedFunction
                         fileEntry.createWriter(function (fileWriter) {
                             fileWriter.addEventListener("writeend", function () {
                                 // navigate to file, will download
+                                //noinspection JSUnresolvedFunction
                                 location.href = fileEntry.toURL();
                             }, false);
 
@@ -261,6 +266,7 @@ $(document).ready(function () {
             var rec = line.data('linkedObj');
             //noinspection UnnecessaryLocalVariableJS
             var ru = line.find('textarea').val();
+            //noinspection JSUnresolvedVariable
             rec.line.ru = ru;
             newData.push(rec);
 
