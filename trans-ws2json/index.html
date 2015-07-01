@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Редактор ws2json</title>
+    <style>
+        table {
+            table-layout: fixed;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .lines-box {
+
+        }
+
+        /*noinspection CssUnusedSymbol*/
+        .line-row {
+
+        }
+
+        /*noinspection CssUnusedSymbol*/
+        .id-code {
+            color: gray;
+            font: 11px monospace;
+        }
+
+        /*noinspection CssUnusedSymbol*/
+        .name {
+            font: 13px monospace;
+        }
+
+        /*noinspection CssUnusedSymbol*/
+        .id-code-cell {
+
+        }
+
+        /*noinspection CssUnusedSymbol*/
+        .lines .en-line {
+            height: 64px;
+            overflow: auto;
+            background: lightgray;
+            font: 13px monospace;
+            padding: 8px;
+        }
+
+        /*noinspection CssUnusedSymbol*/
+        .lines .ru-line {
+            height: 64px;
+            overflow: hidden;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        .lines textarea {
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<div>
+    <input type="file" id="file-in" style="margin-bottom: 8px; font-family: monospace;">
+    <button id="save-file">Сохранить</button>
+</div>
+<div class="lines-box">
+
+</div>
+</body>
+</html>
