@@ -1,19 +1,21 @@
-var f_data = null;
 var $template = $(
     '<div class="line-row">' +
-    '<table>' +
+    '<table style="border-top: 1px solid lightgray;">' +
     '   <colgroup>                                                      ' +
-    '       <col width="64px">                                          ' +
+    '       <col width="86px">                                          ' +
     '       <col width="100%">                                          ' +
     '   </colgroup>                                                     ' +
     '<tr>' +
-    '<td valign="top">' +
+    '<td class="you-need-me" valign="top">' +
     '   <div class="id-code-cell">' +
     '       <div class="id-code">' +
     '       </div>' +
     '       <div class="name">' +
     '       </div>' +
     '       <div class="line-state">' +
+    '             <label><input class="init" type="radio" value="1">Черновик</label><br>' +
+    '             <label><input class="cont" type="radio" value="2">На контроле</label><br>' +
+    '             <label><input class="best" type="radio" value="3">Итоговый</label><br>' +
     '       </div>' +
     '   </div>' +
     '</td>' +
@@ -30,6 +32,27 @@ var $template = $(
     '</table>' +
     '</div>'
 );
+
+function getData() {
+   return JSON.parse(localStorage.getItem('f_data') || '[]');
+}
+
+function getDataJSON() {
+   return localStorage.getItem('f_data') || '[]';
+}
+
+function setData(val) {
+   localStorage.setItem('f_data', JSON.stringify(val, null, 4));
+}
+
+function getName() {
+   return localStorage.getItem('f_name') || '';
+}
+
+function setName(val) {
+   localStorage.setItem('f_name', val);
+}
+
 
 var code_table = [
     {"71B9" : "↵<br>"},
@@ -109,23 +132,23 @@ var code_table = [
 ];
 
 /**
- *
- * @param {string} endcodedStr
+ * DONE
+ * @param {string} encodedStr
  * @returns {string}
  */
-function decode(endcodedStr) {
-    endcodedStr = endcodedStr.toUpperCase();
+function decode(encodedStr) {
+    encodedStr = encodedStr.toUpperCase();
 
     var result = '';
     var i = 0;
 
-    m:while (i < endcodedStr.length) {
+    m:while (i < encodedStr.length) {
         for (var k = 0, n = code_table.length; k < n; ++k) {
             var old = Object.keys(code_table[k])[0];
-            var nevv = code_table[k][old];
+            var newie = code_table[k][old];
 
-            if (endcodedStr.indexOf(old, i) === i) {
-                result += nevv;
+            if (encodedStr.indexOf(old, i) === i) {
+                result += newie;
                 i += old.length;
                 continue m;
             }
@@ -138,38 +161,57 @@ function decode(endcodedStr) {
     return result;
 }
 
+/**
+ * DONE
+ */
 function parseFileData() {
     var $linesBox = $('.lines-box');
+    var f_data = getData();
 
     $linesBox.empty();
 
     for (var i = 0, n = f_data.length; i < n; ++i) {
         var $temp = $template.clone();
         var id = f_data[i].id;
-        var st = f_data[i].state;
+        var st = f_data[i].line.state || 1;
         var en = f_data[i].line.en;
         var ru = f_data[i].line.ru;
         var name = f_data[i].name;
 
-        var $enLine = $temp.find('.en-line').html(decode(en));
-        var $ruLine = $temp.find('.ru-line').find('textarea').val(ru);
-        var $name = $temp.find('.name').text(decode(name) || '<NONAME>');
-        var $idCode = $temp.find('.id-code').text('ID:' + id);
-        var $lineSt = $temp.find('.line-state');
+        var foo = function() {
+           var $radio = $(this);
+           var $row = $radio.closest('.line-row');
+           var oldData = $row.data('linkedObj');
+           oldData.line.state = $radio.val();
+           $row.data('linkedObj', oldData);
+        };
 
-        $linesBox.append($temp.data('id', id));
+        /*var $enLine =*/ $temp.find('.en-line').html(decode(en));
+        /*var $ruLine =*/ $temp.find('.ru-line').find('textarea').val(ru);
+        /*var $name =*/ $temp.find('.name').text(decode(name) || '<NONAME>');
+        /*var $idCode =*/ $temp.find('.id-code').text('ID:' + id);
+        /*var $lineSt =*/ $temp.find('.line-state');
+        $temp.find('label input').prop('name', id);
+        $temp.find('.init').prop('checked', st == 1).change(foo);
+        $temp.find('.cont').prop('checked', st == 2).change(foo);
+        $temp.find('.best').prop('checked', st == 3).change(foo);
+
+        $linesBox.append($temp.data('linkedObj', f_data[i]));
     }
 }
 
 $(document).ready(function () {
+    parseFileData();
+
     $('#file-in').change(function () {
         var f_in = this.files[0];
         var reader = new FileReader();
 
-        reader.onloadend = function (e) {
-            var lol = e.currentTarget.result;
-            f_data = JSON.parse(lol);
+        setName(f_in.name);
 
+        reader.onloadend = function (e) {
+            var result = e.currentTarget.result;
+            setData(JSON.parse(result));
             parseFileData();
         };
 
@@ -179,12 +221,12 @@ $(document).ready(function () {
     $('#save-file').click(function () {
         var rows = $('.line-row');
         var count = rows.length;
-        var test = [];
+        var newData = [];
 
         function doMyThing() {
-            console.log(test);
+            setData(newData);
 
-            var srtRes = JSON.stringify(f_data, null, 4);
+            var srtRes = getDataJSON();
             var aFileParts = [srtRes];
             var oMyBlob = new Blob(aFileParts, {type : 'application/json'});
 
@@ -194,7 +236,7 @@ $(document).ready(function () {
                 window.TEMPORARY,
                 1024 * 1024,
                 function (fs) {
-                    fs.root.getFile('test.ws2.json', {create : true}, function (fileEntry) { // test.bin is filename
+                    fs.root.getFile(getName(), {create : true}, function (fileEntry) {
                         fileEntry.createWriter(function (fileWriter) {
                             fileWriter.addEventListener("writeend", function () {
                                 // navigate to file, will download
@@ -203,11 +245,12 @@ $(document).ready(function () {
 
                             fileWriter.write(oMyBlob);
                         }, function () {
+                            // dunno
                         });
                     }, function () {
+                        // dunno
                     });
-                },
-                function () {
+                }, function () {
                     // dunno
                 }
             );
@@ -215,10 +258,11 @@ $(document).ready(function () {
 
         rows.each(function (index, element) {
             var line = $(element);
-            var id = line.data('id');
+            var rec = line.data('linkedObj');
+            //noinspection UnnecessaryLocalVariableJS
             var ru = line.find('textarea').val();
-
-            test.push(ru);
+            rec.line.ru = ru;
+            newData.push(rec);
 
             if (!--count) doMyThing();
         });
