@@ -152,7 +152,7 @@ function decode(encodedStr) {
 
     for (i = 0; i < encodedStr.length; i += 2) {
         var lol = encodedStr.substr(i, 2);
-        lol = pad_with_zeroes(parseInt(lol, 16).toString(2), 8);
+        lol = leadZeroes(parseInt(lol, 16).toString(2), 8);
         lol = lol.substr(7, 2) + lol.substr(0, 6);
         result += String.fromCharCode(parseInt(lol, 2));
     }
