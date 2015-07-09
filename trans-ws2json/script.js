@@ -53,82 +53,82 @@ function setName(val) {
     localStorage.setItem('f_name', val);
 }
 
-var code_table = [
-    {"71B9" : "↵<br>"},
-    {"05" : "A"},
-    {"09" : "B"},
-    {"0D" : "C"},
-    {"11" : "D"},
-    {"15" : "E"},
-    {"19" : "F"},
-    {"1D" : "G"},
-    {"21" : "H"},
-    {"25" : "I"},
-    {"29" : "J"},
-    {"2D" : "K"},
-    {"31" : "L"},
-    {"35" : "M"},
-    {"39" : "N"},
-    {"3D" : "O"},
-    {"41" : "P"},
-    {"45" : "Q"},
-    {"49" : "R"},
-    {"4D" : "S"},
-    {"51" : "T"},
-    {"55" : "U"},
-    {"59" : "V"},
-    {"5D" : "W"},
-    {"61" : "X"},
-    {"65" : "Y"},
-    {"69" : "Z"},
-    {"80" : " "},
-    {"84" : "!"},
-    {"85" : "a"},
-    {"89" : "b"},
-    {"8D" : "c"},
-    {"91" : "d"},
-    {"95" : "e"},
-    {"99" : "f"},
-    {"9C" : "'"},
-    {"9D" : "g"},
-    {"A0" : "("},
-    {"A1" : "h"},
-    {"A4" : ")"},
-    {"A5" : "i"},
-    {"A9" : "j"},
-    {"AD" : "k"},
-    {"B0" : ","},
-    {"B1" : "l"},
-    {"B4" : "-"},
-    {"B5" : "m"},
-    {"B8" : "."},
-    {"B9" : "n"},
-    {"BD" : "o"},
-    {"C0" : "0"},
-    {"C1" : "p"},
-    {"C4" : "1"},
-    {"C5" : "q"},
-    {"C8" : "2"},
-    {"C9" : "r"},
-    {"CC" : "3"},
-    {"CD" : "s"},
-    {"D0" : "4"},
-    {"D1" : "t"},
-    {"D4" : "5"},
-    {"D5" : "u"},
-    {"D8" : "6"},
-    {"D9" : "v"},
-    {"DC" : "7"},
-    {"DD" : "w"},
-    {"E0" : "8"},
-    {"E1" : "x"},
-    {"E4" : "9"},
-    {"E5" : "y"},
-    {"E8" : ":"},
-    {"E9" : "z"},
-    {"EC" : ";"},
-    {"FC" : "?"}
-];
+//var code_table = [
+//    {"71B9": "↵<br>"},
+//    {"05": "A"},
+//    {"09": "B"},
+//    {"0D": "C"},
+//    {"11": "D"},
+//    {"15": "E"},
+//    {"19": "F"},
+//    {"1D": "G"},
+//    {"21": "H"},
+//    {"25": "I"},
+//    {"29": "J"},
+//    {"2D": "K"},
+//    {"31": "L"},
+//    {"35": "M"},
+//    {"39": "N"},
+//    {"3D": "O"},
+//    {"41": "P"},
+//    {"45": "Q"},
+//    {"49": "R"},
+//    {"4D": "S"},
+//    {"51": "T"},
+//    {"55": "U"},
+//    {"59": "V"},
+//    {"5D": "W"},
+//    {"61": "X"},
+//    {"65": "Y"},
+//    {"69": "Z"},
+//    {"80": " "},
+//    {"84": "!"},
+//    {"85": "a"},
+//    {"89": "b"},
+//    {"8D": "c"},
+//    {"91": "d"},
+//    {"95": "e"},
+//    {"99": "f"},
+//    {"9C": "'"},
+//    {"9D": "g"},
+//    {"A0": "("},
+//    {"A1": "h"},
+//    {"A4": ")"},
+//    {"A5": "i"},
+//    {"A9": "j"},
+//    {"AD": "k"},
+//    {"B0": ","},
+//    {"B1": "l"},
+//    {"B4": "-"},
+//    {"B5": "m"},
+//    {"B8": "."},
+//    {"B9": "n"},
+//    {"BD": "o"},
+//    {"C0": "0"},
+//    {"C1": "p"},
+//    {"C4": "1"},
+//    {"C5": "q"},
+//    {"C8": "2"},
+//    {"C9": "r"},
+//    {"CC": "3"},
+//    {"CD": "s"},
+//    {"D0": "4"},
+//    {"D1": "t"},
+//    {"D4": "5"},
+//    {"D5": "u"},
+//    {"D8": "6"},
+//    {"D9": "v"},
+//    {"DC": "7"},
+//    {"DD": "w"},
+//    {"E0": "8"},
+//    {"E1": "x"},
+//    {"E4": "9"},
+//    {"E5": "y"},
+//    {"E8": ":"},
+//    {"E9": "z"},
+//    {"EC": ";"},
+//    {"FC": "?"}
+//];
 
 /**
  * @param {string} encodedStr
@@ -138,23 +138,40 @@ function decode(encodedStr) {
     encodedStr = encodedStr.toUpperCase();
 
     var result = '';
-    var i = 0;
+    var i;
 
-    m:while (i < encodedStr.length) {
-        for (var k = 0, n = code_table.length; k < n; ++k) {
-            var old = Object.keys(code_table[k])[0];
-            var newie = code_table[k][old];
+    function leadZeroes(number, length) {
+        var result = '' + number;
 
-            if (encodedStr.indexOf(old, i) === i) {
-                result += newie;
-                i += old.length;
-                continue m;
-            }
+        while (result.length < length) {
+            result = '0' + result;
         }
 
-        result += '#';
-        i += 2;
+        return result;
     }
+
+    for (i = 0; i < encodedStr.length; i += 2) {
+        var lol = encodedStr.substr(i, 2);
+        lol = pad_with_zeroes(parseInt(lol, 16).toString(2), 8);
+        lol = lol.substr(7, 2) + lol.substr(0, 6);
+        result += String.fromCharCode(parseInt(lol, 2));
+    }
+
+    //m:while (i < encodedStr.length) {
+    //    for (var k = 0, n = code_table.length; k < n; ++k) {
+    //        var old = Object.keys(code_table[k])[0];
+    //        var newie = code_table[k][old];
+    //
+    //        if (encodedStr.indexOf(old, i) === i) {
+    //            result += newie;
+    //            i += old.length;
+    //            continue m;
+    //        }
+    //    }
+    //
+    //    result += '#';
+    //    i += 2;
+    //}
 
     return result;
 }
@@ -169,11 +186,11 @@ function parseFileData() {
         var $temp = $template.clone();
         var id = f_data[i].id;
         //noinspection JSUnresolvedVariable
-        var st = f_data[i].line.state || 1;
+        var st = 1;
         //noinspection JSUnresolvedVariable
-        var en = f_data[i].line.en;
+        var en = f_data[i].line;
         //noinspection JSUnresolvedVariable
-        var ru = f_data[i].line.ru;
+        var ru = f_data[i].ru || '';
         var name = f_data[i].name;
 
         var foo = function () {
@@ -228,7 +245,7 @@ $(document).ready(function () {
 
             var srtRes = getDataJSON();
             var aFileParts = [srtRes];
-            var oMyBlob = new Blob(aFileParts, {type : 'application/json'});
+            var oMyBlob = new Blob(aFileParts, {type: 'application/json'});
 
             //noinspection JSUnresolvedVariable
             window.requestFileSystem = window.requestFileSystem || window.webkitRequestFileSystem;
@@ -239,7 +256,7 @@ $(document).ready(function () {
                 1024 * 1024,
                 function (fs) {
                     //noinspection JSUnresolvedFunction
-                    fs.root.getFile(getName(), {create : true}, function (fileEntry) {
+                    fs.root.getFile(getName(), {create: true}, function (fileEntry) {
                         //noinspection JSUnresolvedFunction
                         fileEntry.createWriter(function (fileWriter) {
                             fileWriter.addEventListener("writeend", function () {
@@ -267,7 +284,7 @@ $(document).ready(function () {
             //noinspection UnnecessaryLocalVariableJS
             var ru = line.find('textarea').val();
             //noinspection JSUnresolvedVariable
-            rec.line.ru = ru;
+            rec.ru = ru;
             newData.push(rec);
 
             if (!--count) doMyThing();
