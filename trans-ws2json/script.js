@@ -1,37 +1,37 @@
 var $template = $(
-    '<div class="line-row">                                                                ' +
-    '<table style="border-top: 1px solid lightgray;">                                      ' +
-    '   <colgroup>                                                                         ' +
-    '       <col width="86px">                                                             ' +
-    '       <col width="100%">                                                             ' +
-    '   </colgroup>                                                                        ' +
-    '<tr>                                                                                  ' +
-    '<td class="you-need-me" valign="top">                                                 ' +
-    '   <div class="id-code-cell">                                                         ' +
-    '       <div class="id-code">                                                          ' +
-    '       </div>                                                                         ' +
-    '       <div class="name">                                                             ' +
-    '       </div>                                                                         ' +
-    '       <div class="line-state">                                                       ' +
-    '             <label><input class="null" type="radio" value="0">TODO</label><br>       ' +
-    '             <label><input class="init" type="radio" value="1">Черновик</label><br>   ' +
-    '             <label><input class="cont" type="radio" value="2">На контроле</label><br>' +
-    '             <label><input class="best" type="radio" value="3">Итоговый</label><br>   ' +
-    '       </div>                                                                         ' +
-    '   </div>                                                                             ' +
-    '</td>                                                                                 ' +
-    '<td>                                                                                  ' +
-    '   <div class="lines">                                                                ' +
-    '       <div class="en-line">                                                          ' +
-    '       </div>                                                                         ' +
-    '       <div class="ru-line">                                                          ' +
-    '           <textarea class="trans"></textarea>                                        ' +
-    '       </div>                                                                         ' +
-    '   </div>                                                                             ' +
-    '</td>                                                                                 ' +
-    '</tr>                                                                                 ' +
-    '</table>                                                                              ' +
-    '</div>                                                                               '
+    '<div class="line-row">                                                                   ' +
+    '<table style="border-top: 1px solid lightgray;">                                         ' +
+    '   <colgroup>                                                                            ' +
+    '       <col width="86px">                                                                ' +
+    '       <col width="100%">                                                                ' +
+    '   </colgroup>                                                                           ' +
+    '<tr class="color-full">                                                                  ' +
+    '   <td class="you-need-me" valign="top">                                                 ' +
+    '      <div class="id-code-cell">                                                         ' +
+    '          <div class="id-code">                                                          ' +
+    '          </div>                                                                         ' +
+    '          <div class="name">                                                             ' +
+    '          </div>                                                                         ' +
+    '          <div class="line-state">                                                       ' +
+    '                <label><input class="null" type="radio" value="0">TODO</label><br>       ' +
+    '                <label><input class="init" type="radio" value="1">Черновик</label><br>   ' +
+    '                <label><input class="cont" type="radio" value="2">На контроле</label><br>' +
+    '                <label><input class="best" type="radio" value="3">Итоговый</label><br>   ' +
+    '          </div>                                                                         ' +
+    '      </div>                                                                             ' +
+    '   </td>                                                                                 ' +
+    '   <td>                                                                                  ' +
+    '      <div class="lines">                                                                ' +
+    '          <div class="en-line">                                                          ' +
+    '          </div>                                                                         ' +
+    '          <div class="ru-line">                                                          ' +
+    '              <textarea class="trans"></textarea>                                        ' +
+    '          </div>                                                                         ' +
+    '      </div>                                                                             ' +
+    '   </td>                                                                                 ' +
+    '</tr>                                                                                    ' +
+    '</table>                                                                                 ' +
+    '</div>                                                                                   '
 );
 
 function getData() {
@@ -79,6 +79,12 @@ function parseFileData() {
             $('.more-stats').text('( ' + cntArr.join(' | ') + ' )');
         }
 
+        function colorMe(me, colorNumber) {
+            me.closest('.color-full').css({
+                backgroundColor: ['transparent', 'transparent', '#fc3', '#06c'][me.val()]
+            });
+        }
+
         var foo = function () {
             var $radio = $(this);
             var $row = $radio.closest('.line-row');
@@ -87,6 +93,8 @@ function parseFileData() {
             oldData.line.state = $radio.val();
 
             $row.data('linkedObj', oldData);
+
+            colorMe($radio);
 
             recount();
         };
@@ -106,8 +114,10 @@ function parseFileData() {
 
         $linesBox.append($temp.data('linkedObj', f_data[i]));
 
-        recount();
+        colorMe($temp.find(':checked'));
     }
+
+    recount();
 
     $('.stats').text('Всего строк: ' + f_data.length);
 }
