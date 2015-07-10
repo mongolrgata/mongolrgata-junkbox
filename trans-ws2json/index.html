@@ -11,7 +11,7 @@
         }
 
         .lines-box {
-            margin-top: 44px;
+            margin-top: 64px;
         }
 
         /*noinspection CssUnusedSymbol*/
@@ -64,21 +64,23 @@
             font: 8px sans-serif;
         }
 
-        /*.line-row:nth-child(even) .you-need-me {*/
-        /*background: lightgray;*/
-        /*}*/
+        .stat-box {
+            font-family: monospace;
+        }
     </style>
-    <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="jquery-2.1.4.min.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
-<div style="position: fixed; top: 0; left: 0; right: 0; height: 24px; background: white; padding: 10px;">
+<div style="position: fixed; top: 0; left: 0; right: 0; height: 44px; background: white; padding: 10px;">
     <input type="file" id="file-in" style="margin-bottom: 8px; font-family: monospace;">
     <button id="save-file">Сохранить</button>
     <button id="just-save">Просто сохранить</button>
+    <div class="stat-box">
+        <span class="stats"></span>
+        <span class="more-stats"></span>
+    </div>
 </div>
-<div class="lines-box">
-
-</div>
+<div class="lines-box"></div>
 </body>
 </html>
