@@ -186,11 +186,11 @@ function parseFileData() {
         var $temp = $template.clone();
         var id = f_data[i].id;
         //noinspection JSUnresolvedVariable
-        var st = 1;
+        var st = f_data[i].line.state || 1;
         //noinspection JSUnresolvedVariable
-        var en = f_data[i].line;
+        var en = f_data[i].line.en;
         //noinspection JSUnresolvedVariable
-        var ru = f_data[i].ru || '';
+        var ru = f_data[i].line.ru || '';
         var name = f_data[i].name;
 
         var foo = function () {
@@ -202,9 +202,9 @@ function parseFileData() {
             $row.data('linkedObj', oldData);
         };
 
-        $temp.find('.en-line').html(decode(en));
+        $temp.find('.en-line').html(en);
         $temp.find('.ru-line').find('textarea').val(ru);
-        $temp.find('.name').text(decode(name) || '<NONAME>');
+        $temp.find('.name').text(name || '<NONAME>');
         $temp.find('.id-code').text('ID:' + id);
         $temp.find('.line-state');
         $temp.find('label input').prop('name', id);
@@ -233,6 +233,29 @@ $(document).ready(function () {
         };
 
         reader.readAsBinaryString(f_in);
+    });
+
+    $('#just-save').click(function() {
+        var rows = $('.line-row');
+        var count = rows.length;
+        var newData = [];
+
+        function doMyThing() {
+            setData(newData);
+            alert('saved');
+        }
+
+        rows.each(function (index, element) {
+            var line = $(element);
+            var rec = line.data('linkedObj');
+            //noinspection UnnecessaryLocalVariableJS
+            var ru = line.find('textarea').val();
+            //noinspection JSUnresolvedVariable
+            rec.line.ru = ru;
+            newData.push(rec);
+
+            if (!--count) doMyThing();
+        });
     });
 
     $('#save-file').click(function () {
@@ -284,7 +307,7 @@ $(document).ready(function () {
             //noinspection UnnecessaryLocalVariableJS
             var ru = line.find('textarea').val();
             //noinspection JSUnresolvedVariable
-            rec.ru = ru;
+            rec.line.ru = ru;
             newData.push(rec);
 
             if (!--count) doMyThing();
