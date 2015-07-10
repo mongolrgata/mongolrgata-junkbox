@@ -14,28 +14,24 @@
             margin-top: 64px;
         }
 
-        /*noinspection CssUnusedSymbol*/
         .line-state {
             padding-top: 24px;
         }
 
-        /*noinspection CssUnusedSymbol*/
+        .id-code-cell {
+            position: absolute;
+            left: 18px;
+        }
+
         .id-code {
             color: gray;
             font: 11px monospace;
         }
 
-        /*noinspection CssUnusedSymbol*/
         .name {
             font: 13px monospace;
         }
 
-        /*noinspection CssUnusedSymbol*/
-        .line-row {
-
-        }
-
-        /*noinspection CssUnusedSymbol*/
         .lines .en-line {
             height: 64px;
             overflow: auto;
@@ -44,7 +40,6 @@
             padding: 8px;
         }
 
-        /*noinspection CssUnusedSymbol*/
         .lines .ru-line {
             height: 64px;
             overflow: hidden;
@@ -52,6 +47,11 @@
 
         textarea {
             resize: none;
+        }
+
+        .color-line {
+            height: 144px;
+            width: 4px;
         }
 
         .lines textarea {
@@ -72,7 +72,7 @@
     <script src="script.js"></script>
 </head>
 <body>
-<div style="position: fixed; top: 0; left: 0; right: 0; height: 44px; background: white; padding: 10px;">
+<div style="position: fixed; top: 0; left: 0; right: 0; height: 44px; background: white; padding: 10px;z-index: 100500;">
     <input type="file" id="file-in" style="margin-bottom: 8px; font-family: monospace;">
     <button id="save-file">Сохранить</button>
     <button id="just-save">Просто сохранить</button>

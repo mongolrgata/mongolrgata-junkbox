@@ -1,37 +1,39 @@
 var $template = $(
-    '<div class="line-row">                                                                   ' +
-    '<table style="border-top: 1px solid lightgray;">                                         ' +
-    '   <colgroup>                                                                            ' +
-    '       <col width="86px">                                                                ' +
-    '       <col width="100%">                                                                ' +
-    '   </colgroup>                                                                           ' +
-    '<tr class="color-full">                                                                  ' +
-    '   <td class="you-need-me" valign="top">                                                 ' +
-    '      <div class="id-code-cell">                                                         ' +
-    '          <div class="id-code">                                                          ' +
-    '          </div>                                                                         ' +
-    '          <div class="name">                                                             ' +
-    '          </div>                                                                         ' +
-    '          <div class="line-state">                                                       ' +
-    '                <label><input class="null" type="radio" value="0">TODO</label><br>       ' +
-    '                <label><input class="init" type="radio" value="1">Черновик</label><br>   ' +
-    '                <label><input class="cont" type="radio" value="2">На контроле</label><br>' +
-    '                <label><input class="best" type="radio" value="3">Итоговый</label><br>   ' +
-    '          </div>                                                                         ' +
-    '      </div>                                                                             ' +
-    '   </td>                                                                                 ' +
-    '   <td>                                                                                  ' +
-    '      <div class="lines">                                                                ' +
-    '          <div class="en-line">                                                          ' +
-    '          </div>                                                                         ' +
-    '          <div class="ru-line">                                                          ' +
-    '              <textarea class="trans"></textarea>                                        ' +
-    '          </div>                                                                         ' +
-    '      </div>                                                                             ' +
-    '   </td>                                                                                 ' +
-    '</tr>                                                                                    ' +
-    '</table>                                                                                 ' +
-    '</div>                                                                                   '
+    '<div class="line-row">                                                                      ' +
+    '<table style="border-top: 1px solid lightgray;">                                            ' +
+    '   <colgroup>                                                                               ' +
+    '       <col width="86px">                                                                   ' +
+    '       <col width="100%">                                                                   ' +
+    '   </colgroup>                                                                              ' +
+    '<tr class="color-full">                                                                     ' +
+    '   <td class="you-need-me" valign="top">                                                    ' +
+    '      <div class="color-line">                                                              ' +
+    '         <div class="id-code-cell">                                                         ' +
+    '             <div class="id-code">                                                          ' +
+    '             </div>                                                                         ' +
+    '             <div class="name">                                                             ' +
+    '             </div>                                                                         ' +
+    '             <div class="line-state">                                                       ' +
+    '                   <label><input class="null" type="radio" value="0">TODO</label><br>       ' +
+    '                   <label><input class="init" type="radio" value="1">Черновик</label><br>   ' +
+    '                   <label><input class="cont" type="radio" value="2">На контроле</label><br>' +
+    '                   <label><input class="best" type="radio" value="3">Итоговый</label><br>   ' +
+    '             </div>                                                                         ' +
+    '         </div>                                                                             ' +
+    '      </div>                                                                                ' +
+    '   </td>                                                                                    ' +
+    '   <td>                                                                                     ' +
+    '      <div class="lines">                                                                   ' +
+    '          <div class="en-line">                                                             ' +
+    '          </div>                                                                            ' +
+    '          <div class="ru-line">                                                             ' +
+    '              <textarea class="trans"></textarea>                                           ' +
+    '          </div>                                                                            ' +
+    '      </div>                                                                                ' +
+    '   </td>                                                                                    ' +
+    '</tr>                                                                                       ' +
+    '</table>                                                                                    ' +
+    '</div>                                                                                      '
 );
 
 function getData() {
@@ -79,9 +81,9 @@ function parseFileData() {
             $('.more-stats').text('( ' + cntArr.join(' | ') + ' )');
         }
 
-        function colorMe(me, colorNumber) {
-            me.closest('.color-full').css({
-                backgroundColor: ['transparent', 'transparent', '#fc3', '#06c'][me.val()]
+        function colorMe(me) {
+            me.closest('.color-line').css({
+                backgroundColor: ['transparent', 'black', '#fc3', '#06c'][me.val()]
             });
         }
 
@@ -100,15 +102,16 @@ function parseFileData() {
         };
 
         $temp.find('.en-line').html(en);
-        $temp.find('.ru-line').find('textarea').val(ru).change(function () {
-
-        });
         $temp.find('.name').text(name || '<NONAME>');
         $temp.find('.id-code').text('ID:' + id);
         $temp.find('.line-state');
         $temp.find('label input').prop('name', id);
         $temp.find('.null').prop('checked', st == 0).change(foo);
-        $temp.find('.init').prop('checked', st == 1).change(foo);
+        var $init = $temp.find('.init').prop('checked', st == 1).change(foo);
+        $temp.find('.ru-line').find('textarea').val(ru).change((function () {
+            this.prop('checked', true);
+            colorMe(this);
+        }).bind($init));
         $temp.find('.cont').prop('checked', st == 2).change(foo);
         $temp.find('.best').prop('checked', st == 3).change(foo);
 
