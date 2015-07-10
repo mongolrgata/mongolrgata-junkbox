@@ -188,7 +188,7 @@ function parseFileData() {
         //noinspection JSUnresolvedVariable
         var st = f_data[i].line.state || 1;
         //noinspection JSUnresolvedVariable
-        var en = f_data[i].line.en;
+        var en = f_data[i].line.en.replace(/\\n/g, '<br>');
         //noinspection JSUnresolvedVariable
         var ru = f_data[i].line.ru || '';
         var name = f_data[i].name;
