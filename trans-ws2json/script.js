@@ -110,8 +110,7 @@ function parseFileData() {
         var $init = $temp.find('.init').prop('checked', st == 1).change(foo);
         $temp.find('.ru-line').find('textarea').val(ru).change((function () {
             this.prop('checked', true);
-            colorMe(this);
-            recount();
+            foo.call(this);
         }).bind($init));
         $temp.find('.cont').prop('checked', st == 2).change(foo);
         $temp.find('.best').prop('checked', st == 3).change(foo);
