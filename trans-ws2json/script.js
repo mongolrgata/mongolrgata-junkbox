@@ -19,6 +19,7 @@ var $template = $(
     '                   <label><input class="cont" type="radio" value="2">На контроле</label><br>' +
     '                   <label><input class="best" type="radio" value="3">Итоговый</label><br>   ' +
     '             </div>                                                                         ' +
+    '             <button class="quote">quote</button>                                           ' +
     '         </div>                                                                             ' +
     '      </div>                                                                                ' +
     '   </td>                                                                                    ' +
@@ -108,12 +109,15 @@ function parseFileData() {
         $temp.find('label input').prop('name', id);
         $temp.find('.null').prop('checked', st == 0).change(foo);
         var $init = $temp.find('.init').prop('checked', st == 1).change(foo);
-        $temp.find('.ru-line').find('textarea').val(ru).change((function () {
+        var $text = $temp.find('.ru-line').find('textarea').val(ru).change((function () {
             this.prop('checked', true);
             foo.call(this);
         }).bind($init));
         $temp.find('.cont').prop('checked', st == 2).change(foo);
         $temp.find('.best').prop('checked', st == 3).change(foo);
+        $temp.find('.quote').click((function () {
+            this.val(this.val() + '«»');
+        }).bind($text));
 
         $linesBox.append($temp.data('linkedObj', f_data[i]));
 
