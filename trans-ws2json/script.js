@@ -189,7 +189,7 @@ $(document).ready(function () {
                 window.TEMPORARY,
                 1024 * 1024,
                 function (fs) {
-                    fs.root.getFile(getName(), {create: true}, function (fileEntry) {
+                    fs.root.getFile(getName() + '.bin', {create: true}, function (fileEntry) {
                         fileEntry.createWriter(function (fileWriter) {
                             fileWriter.addEventListener("writeend", function () {
                                 location.href = fileEntry.toURL();
