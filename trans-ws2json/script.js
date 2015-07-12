@@ -112,11 +112,16 @@ function parseFileData() {
         var $text = $temp.find('.ru-line').find('textarea').val(ru).change((function () {
             this.prop('checked', true);
             foo.call(this);
+            if ($('#silent-save').prop('checked')) {
+                silentSave();
+            }
         }).bind($init));
         $temp.find('.cont').prop('checked', st == 2).change(foo);
         $temp.find('.best').prop('checked', st == 3).change(foo);
         $temp.find('.quote').click((function () {
-            this.val(this.val() + '«»');
+            this.val('«' + this.val() + '»');
+            this.focus();
+            this[0].setSelectionRange(this.val().length - 1, this.val().length - 1);
         }).bind($text));
 
         $linesBox.append($temp.data('linkedObj', f_data[i]));
@@ -131,6 +136,26 @@ function parseFileData() {
 
 var dummyFoo = function () {
 };
+
+function silentSave() {
+    var rows = $('.line-row');
+    var count = rows.length;
+    var newData = [];
+
+    function doMyThing() {
+        setData(newData);
+    }
+
+    rows.each(function (index, element) {
+        var line = $(element);
+        var rec = line.data('linkedObj');
+
+        rec.line.ru = line.find('textarea').val();
+        newData.push(rec);
+
+        if (!--count) doMyThing();
+    });
+}
 
 $(document).ready(function () {
     parseFileData();
