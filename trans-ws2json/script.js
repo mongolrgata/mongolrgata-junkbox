@@ -172,7 +172,7 @@ $(document).ready(function () {
             parseFileData();
         };
 
-        reader.readAsBinaryString(f_in);
+        reader.readAsText(f_in);
     });
 
     $('#just-save').click(function () {
