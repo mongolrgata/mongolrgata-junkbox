@@ -58,7 +58,7 @@ function setName(val) {
 }
 
 function getSaveMode() {
-    return localStorage.getItem('save_mode') || 'silent';
+    return localStorage.getItem('save_mode') || 'manual';
 }
 
 function setSaveMode(val) {
@@ -96,8 +96,13 @@ function parseFileData() {
             me.closest('.color-line').css({
                 backgroundColor: globalColorScheme[me.val()]
             });
-            if (!noRepaintScroll)
+            if (!noRepaintScroll) {
                 colorScroll();
+
+                if ($('#silent-save').prop('checked')) {
+                    silentSave();
+                }
+            }
         }
 
         var foo = function () {
@@ -124,9 +129,6 @@ function parseFileData() {
         var $text = $temp.find('.ru-line').find('textarea').val(ru).change((function () {
             this.prop('checked', true);
             foo.call(this);
-            if ($('#silent-save').prop('checked')) {
-                silentSave();
-            }
         }).bind($init));
         $temp.find('.cont').prop('checked', st == 2).change(foo);
         $temp.find('.best').prop('checked', st == 3).change(foo);
