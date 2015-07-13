@@ -6,7 +6,7 @@ var $template = $(
     '       <col width="100%">                                                                   ' +
     '   </colgroup>                                                                              ' +
     '<tr class="color-full">                                                                     ' +
-    '   <td class="you-need-me" valign="top">                                                    ' +
+    '   <td class="you-need-me" valign="top" tabindex="-1">                                      ' +
     '      <div class="color-line">                                                              ' +
     '         <div class="id-code-cell">                                                         ' +
     '             <div class="id-code">                                                          ' +
@@ -28,7 +28,7 @@ var $template = $(
     '          <div class="en-line">                                                             ' +
     '          </div>                                                                            ' +
     '          <div class="ru-line">                                                             ' +
-    '              <textarea class="trans"></textarea>                                           ' +
+    '              <textarea class="trans" tabindex="1"></textarea>                              ' +
     '          </div>                                                                            ' +
     '      </div>                                                                                ' +
     '   </td>                                                                                    ' +
@@ -57,6 +57,16 @@ function setName(val) {
     localStorage.setItem('f_name', val);
 }
 
+function getSaveMode() {
+    return localStorage.getItem('save_mode') || 'silent';
+}
+
+function setSaveMode(val) {
+    localStorage.setItem('save_mode', val);
+}
+
+var globalColorScheme = ['white', 'black', '#fc3', '#06c'];
+
 function parseFileData() {
     var $linesBox = $('.lines-box');
     var f_data = getData();
@@ -82,10 +92,12 @@ function parseFileData() {
             $('.more-stats').text('( ' + cntArr.join(' | ') + ' )');
         }
 
-        function colorMe(me) {
+        function colorMe(me, noRepaintScroll) {
             me.closest('.color-line').css({
-                backgroundColor: ['transparent', 'black', '#fc3', '#06c'][me.val()]
+                backgroundColor: globalColorScheme[me.val()]
             });
+            if (!noRepaintScroll)
+                colorScroll();
         }
 
         var foo = function () {
@@ -126,9 +138,10 @@ function parseFileData() {
 
         $linesBox.append($temp.data('linkedObj', f_data[i]));
 
-        colorMe($temp.find(':checked'));
+        colorMe($temp.find(':checked'), true);
     }
 
+    colorScroll();
     recount();
 
     $('.stats').text('Всего строк: ' + f_data.length);
@@ -136,6 +149,26 @@ function parseFileData() {
 
 var dummyFoo = function () {
 };
+
+function colorScroll() {
+    var $cs = $('.color-scroll');
+    var $rows = $('[type="radio"]:checked');
+
+    $cs.empty();
+
+    for (var i = 0, n = $rows.length; i < n; ++i) {
+        var $div = $('<div/>').css({
+            backgroundColor: globalColorScheme[$($rows[i]).val()],
+            position: 'absolute',
+            left: 0,
+            right: 0,
+            top: ((100/n)*i) + '%',
+            bottom: ((100/n)*(n-i-1)) + '%'
+        });
+
+        $div.appendTo($cs);
+    }
+}
 
 function silentSave() {
     var rows = $('.line-row');
@@ -173,6 +206,10 @@ $(document).ready(function () {
         };
 
         reader.readAsText(f_in);
+    });
+
+    $('#silent-save').prop('checked', getSaveMode() === 'silent').change(function() {
+        setSaveMode($(this).prop('checked') ? 'silent' : 'manual');
     });
 
     $('#just-save').click(function () {
