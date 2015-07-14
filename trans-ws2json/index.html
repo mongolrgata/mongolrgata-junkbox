@@ -35,6 +35,10 @@
 
         .name {
             font: 13px monospace;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            max-width: 68px;
+            overflow: hidden;
         }
 
         .lines .en-line {
@@ -83,6 +87,11 @@
             z-index: 100501;
             border: 1px solid gray;
         }
+
+        .you-need-me {
+            position: relative;
+            overflow: hidden;
+        }
     </style>
     <script src="jquery-2.1.4.min.js"></script>
     <script src="script.js"></script>
@@ -93,6 +102,7 @@
     <button id="save-file">Сохранить</button>
     <button id="just-save">Просто сохранить</button>
     <input type="checkbox" id="silent-save"><label for="silent-save">режим перманентного сохранения</label>
+
     <div class="stat-box">
         <span class="stats"></span>
         <span class="more-stats"></span>

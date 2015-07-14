@@ -120,7 +120,7 @@ function parseFileData() {
         };
 
         $temp.find('.en-line').html(en);
-        $temp.find('.name').text(name || '<NONAME>');
+        $temp.find('.name').text(name || '<NONAME>').prop('title', name);
         $temp.find('.id-code').text('ID:' + id);
         $temp.find('.line-state');
         $temp.find('label input').prop('name', id);
