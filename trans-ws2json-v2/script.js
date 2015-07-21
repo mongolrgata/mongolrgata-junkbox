@@ -28,6 +28,8 @@ var $template = $(
     '      <div class="lines">                                                                   ' +
     '          <div class="en-line">                                                             ' +
     '          </div>                                                                            ' +
+    '          <div class="jp-line">                                                             ' +
+    '          </div>                                                                            ' +
     '          <div class="ru-line">                                                             ' +
     '              <textarea class="trans" tabindex="1"></textarea>                              ' +
     '          </div>                                                                            ' +
@@ -143,6 +145,7 @@ function parseFileData() {
         }
 
         $temp.find('.en-line').html(en);
+        $temp.find('.jp-line').html(jp);
         $temp.find('.name').text(en_name || '<NONAME>').prop('title', en_name);
         $temp.find('.id-code').text('ID:' + id);
         $temp.find('.line-state');
