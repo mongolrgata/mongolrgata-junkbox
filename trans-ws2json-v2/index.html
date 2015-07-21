@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Редактор ws2json</title>
+    <style>
+        .quote {
+            position: absolute;
+            top: 30px;
+        }
+
+        table {
+            table-layout: fixed;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .lines-box {
+            margin-top: 64px;
+        }
+
+        .line-state {
+            padding-top: 24px;
+            white-space: nowrap;
+        }
+
+        .id-code-cell {
+            position: absolute;
+            left: 18px;
+        }
+
+        .id-code {
+            color: gray;
+            font: 11px monospace;
+        }
+
+        .name {
+            font: 13px monospace;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            max-width: 68px;
+            overflow: hidden;
+        }
+
+        .lines .en-line {
+            height: 64px;
+            overflow: auto;
+            background: lightgray;
+            font: 13px monospace;
+            padding: 8px;
+        }
+
+        .lines .ru-line {
+            height: 64px;
+            overflow: hidden;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        .color-line {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+        }
+
+        .lines textarea {
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+        }
+
+        label {
+            font: 8px sans-serif;
+        }
+
+        .stat-box {
+            font-family: monospace;
+        }
+
+        .color-scroll {
+            position: fixed;
+            right: 0;
+            top: 17px;
+            bottom: 17px;
+            width: 24px;
+            background: gray;
+            z-index: 100501;
+            border: 1px solid gray;
+        }
+
+        .you-need-me {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .add-comm {
+            position: absolute;
+            right: 0;
+            bottom: 2px;
+            width: 10px;
+            height: 20px;
+        }
+
+        .comm-box {
+            position: relative;
+        }
+
+        .comm {
+            width: 100%
+        }
+
+        .del-comm {
+            position: absolute;
+            top: 0;
+            right: 20px;
+        }
+    </style>
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<div style="position: fixed; top: 0; left: 0; right: 0; height: 44px; background: white; padding: 10px;z-index: 100500;">
+    <input type="file" id="file-in" style="margin-bottom: 8px; font-family: monospace;">
+    <button id="save-file">Сохранить</button>
+    <button id="just-save">Просто сохранить</button>
+    <input type="checkbox" id="silent-save"><label for="silent-save">режим перманентного сохранения</label>
+
+    <div class="stat-box">
+        <span class="stats"></span>
+        <span class="more-stats"></span>
+    </div>
+</div>
+<div class="lines-box"></div>
+<div class="color-scroll"></div>
+</body>
+</html>
