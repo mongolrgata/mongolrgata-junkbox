@@ -166,6 +166,7 @@ function parseFileData() {
         }
 
         $linesBox.append($temp.data('linkedObj', item).data('idObj', id));
+        console.log(item);
 
         colorMe($temp.find(':checked'), true);
     }
@@ -210,9 +211,7 @@ function bigSave(doMyThing) {
         var rec = line.data('linkedObj');
         var comms = line.find('.comm');
 
-        rec.data.ru = {};
         rec.data.ru.line = line.find('textarea').val();
-        rec.data.ru.name = '';
         rec.comments = [];
         if (comms.length > 0) {
             for (var i = 0, n = comms.length; i < n; ++i) {
