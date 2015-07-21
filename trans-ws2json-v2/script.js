@@ -11,8 +11,6 @@ var $template = $(
     '         <div class="id-code-cell">                                                         ' +
     '             <div class="id-code">                                                          ' +
     '             </div>                                                                         ' +
-    '             <div class="name">                                                             ' +
-    '             </div>                                                                         ' +
     '             <div class="line-state">                                                       ' +
     '                   <label><input class="null" type="radio" value="0">Сделай!</label><br>    ' +
     '                   <label><input class="init" type="radio" value="1">Черновик</label><br>   ' +
@@ -77,14 +75,13 @@ function parseFileData() {
         var comms = item.comments || [];
         var data = item.data;
         var st = item.state || 0;
-
-        var jp = data && data.jp && data.jp.line && data.jp.line.replace(/\\n/g, '<br>');
-        var en = data && data.en && data.en.line && data.en.line.replace(/\\n/g, '<br>');
-        var ru = data && data.ru && data.ru.line || '';
-
-        var jp_name = data && data.jp && data.jp.name;
-        var en_name = data && data.en && data.en.name;
+        var jp_name = data && data.jp && (data.jp.name || '&lt;NONAME&gt;');
+        var en_name = data && data.en && (data.en.name || '&lt;NONAME&gt;');
         var ru_name = data && data.ru && data.ru.name;
+
+        var jp = '<span class="name">' + jp_name + ':</span><br>' + (data && data.jp && data.jp.line && data.jp.line.replace(/\\n/g, '<br>'));
+        var en = '<span class="name">' + en_name + ':</span><br>' + (data && data.en && data.en.line && data.en.line.replace(/\\n/g, '<br>'));
+        var ru = data && data.ru && data.ru.line || '';
 
         function recount() {
             var len = Object.keys(f_data_v2).length;
@@ -146,7 +143,6 @@ function parseFileData() {
 
         $temp.find('.en-line').html(en);
         $temp.find('.jp-line').html(jp);
-        $temp.find('.name').text(en_name || '<NONAME>').prop('title', en_name);
         $temp.find('.id-code').text('ID:' + id);
         $temp.find('.line-state');
         $temp.find('label input').prop('name', id);
