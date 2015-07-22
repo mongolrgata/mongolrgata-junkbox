@@ -17,7 +17,7 @@ var $template = $(
     '                   <label><input class="cont" type="radio" value="2">Вычитка</label><br>    ' +
     '                   <label><input class="best" type="radio" value="3">Итоговый</label><br>   ' +
     '             </div>                                                                         ' +
-    '             <button class="quote">quote</button>                                           ' +
+    '             <button class="quote">alt+q</button>                                           ' +
     '         </div>                                                                             ' +
     '      </div>                                                                                ' +
     '      <button class="add-comm"> </button>                                                   ' +
@@ -320,6 +320,14 @@ $(document).ready(function () {
         $('.print-version').hide();
     }
 }).keydown(function (event) {
+    if (event.which === 81 && event.altKey) {
+        var $text = $(':focus').closest('.ru-line').find('textarea');
+        (function () {
+            this.val('«' + this.val() + '»');
+            this.focus();
+            this[0].setSelectionRange(this.val().length - 1, this.val().length - 1);
+        }).call($text);
+    }
     if (event.which === '1'.charCodeAt(0) && event.altKey) {
         if (!event.shiftKey) {
             $('body').animate({
