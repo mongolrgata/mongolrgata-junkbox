@@ -319,4 +319,49 @@ $(document).ready(function () {
     if (e.keyCode == 27) {
         $('.print-version').hide();
     }
+}).keydown(function (event) {
+    if (event.which === '1'.charCodeAt(0) && event.altKey) {
+        if (!event.shiftKey) {
+            $('body').animate({
+                scrollTop: $($($(".line-row:in-viewport").last()).nextAll().find('.null:checked')[0]).offset().top - 256
+            }, 500);
+        } else {
+            $('body').animate({
+                scrollTop: $($($(".line-row:in-viewport")[0]).prevAll().find('.null:checked').last()).offset().top - 256
+            }, 500);
+        }
+    }
+    if (event.which === '2'.charCodeAt(0) && event.altKey) {
+        if (!event.shiftKey) {
+            $('body').animate({
+                scrollTop: $($($(".line-row:in-viewport").last()).nextAll().find('.init:checked')[0]).offset().top - 256
+            }, 500);
+        } else {
+            $('body').animate({
+                scrollTop: $($($(".line-row:in-viewport")[0]).prevAll().find('.init:checked').last()).offset().top - 256
+            }, 500);
+        }
+    }
+    if (event.which === '3'.charCodeAt(0) && event.altKey) {
+        if (!event.shiftKey) {
+            $('body').animate({
+                scrollTop: $($($(".line-row:in-viewport").last()).nextAll().find('.cont:checked')[0]).offset().top - 256
+            }, 500);
+        } else {
+            $('body').animate({
+                scrollTop: $($($(".line-row:in-viewport")[0]).prevAll().find('.cont:checked').last()).offset().top - 256
+            }, 500);
+        }
+    }
+    if (event.which === '4'.charCodeAt(0) && event.altKey) {
+        if (!event.shiftKey) {
+            $('body').animate({
+                scrollTop: $($($(".line-row:in-viewport").last()).nextAll().find('.best:checked')[0]).offset().top - 256
+            }, 500);
+        } else {
+            $('body').animate({
+                scrollTop: $($($(".line-row:in-viewport")[0]).prevAll().find('.best:checked').last()).offset().top - 256
+            }, 500);
+        }
+    }
 });

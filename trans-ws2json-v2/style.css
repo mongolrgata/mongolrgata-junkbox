@@ -151,3 +151,11 @@ label {
     font-family: monospace;
     color: lightgray;
 }
+
+.scroll-info {
+    position: absolute;
+    top: 0;
+    right: 64px;
+    font-family: monospace;
+    font-size: 10px;
+}
