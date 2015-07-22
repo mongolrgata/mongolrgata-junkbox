@@ -12,7 +12,7 @@ var $template = $(
     '             <div class="id-code">                                                          ' +
     '             </div>                                                                         ' +
     '             <div class="line-state">                                                       ' +
-    '                   <label><input class="null" type="radio" value="0">Сделай!</label><br>    ' +
+    '                   <label><input class="null" type="radio" value="0">Пустой</label><br>     ' +
     '                   <label><input class="init" type="radio" value="1">Черновик</label><br>   ' +
     '                   <label><input class="cont" type="radio" value="2">Вычитка</label><br>    ' +
     '                   <label><input class="best" type="radio" value="3">Итоговый</label><br>   ' +
@@ -94,6 +94,7 @@ function parseFileData() {
 
             $('.more-stats').text('( ' + cntArr.join(' | ') + ' )');
         }
+
         function colorMe(me, noRepaintScroll) {
             me.closest('.color-line').css({
                 backgroundColor: globalColorScheme[me.val()]
@@ -106,6 +107,7 @@ function parseFileData() {
                 }
             }
         }
+
         function changeState() {
             var $radio = $(this);
             var $row = $radio.closest('.line-row');
@@ -119,6 +121,7 @@ function parseFileData() {
 
             recount();
         }
+
         function addComm(val) {
             var $commBox = $('<div class="comm-box"/>').append(
                 $('<input type="text" class="comm">').val(val instanceof Object ? '' : val).change(function () {
@@ -166,7 +169,6 @@ function parseFileData() {
         }
 
         $linesBox.append($temp.data('linkedObj', item).data('idObj', id));
-        console.log(item);
 
         colorMe($temp.find(':checked'), true);
     }
@@ -182,7 +184,7 @@ var dummyFoo = function () {
 
 function colorScroll() {
     var $cs = $('.color-scroll');
-    var $rows = $('[type="radio"]:checked');
+    var $rows = $('[type="radio"]:checked:visible');
 
     $cs.empty();
 
@@ -258,6 +260,23 @@ $(document).ready(function () {
             setData(newData);
             alert('saved');
         });
+    });
+
+    $('.null-check').change(function() {
+        $('.null:checked').closest('.line-row').toggle($(this).prop('checked'));
+        colorScroll()
+    });
+    $('.init-check').change(function() {
+        $('.init:checked').closest('.line-row').toggle($(this).prop('checked'));
+        colorScroll()
+    });
+    $('.cont-check').change(function() {
+        $('.cont:checked').closest('.line-row').toggle($(this).prop('checked'));
+        colorScroll()
+    });
+    $('.best-check').change(function() {
+        $('.best:checked').closest('.line-row').toggle($(this).prop('checked'));
+        colorScroll()
     });
 
     $('#save-file').click(function () {
