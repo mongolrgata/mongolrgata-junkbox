@@ -1,6 +1,6 @@
 var $template = $(
     '<div class="line-row">                                                                      ' +
-    '<table style="border-top: 1px solid lightgray;">                                            ' +
+    '<table class="atbop">                                                                       ' +
     '   <colgroup>                                                                               ' +
     '       <col width="86px">                                                                   ' +
     '       <col width="100%">                                                                   ' +
@@ -36,6 +36,22 @@ var $template = $(
     '</tr>                                                                                       ' +
     '</table>                                                                                    ' +
     '</div>                                                                                      '
+);
+
+var $nameTemplate = $(
+    '<tr class="name-var">              ' +
+    '   <td>                            ' +
+    '       <div class="en-name"></div> ' +
+    '   </td>                           ' +
+    '   <td>                            ' +
+    '       <div class="jp-name"></div> ' +
+    '   </td>                           ' +
+    '   <td>                            ' +
+    '       <div class="ru-name">       ' +
+    '           <input type="text">     ' +
+    '       </div>                      ' +
+    '   </td>                           ' +
+    '</tr>                              '
 );
 
 function getData() {
@@ -179,7 +195,7 @@ function parseFileData() {
     $('.stats').text('Всего строк: ' + Object.keys(f_data_v2).length);
 }
 
-var dummyFoo = function () {
+function dummyFoo() {
 };
 
 function colorScroll() {
@@ -250,18 +266,15 @@ $(document).ready(function () {
 
         reader.readAsText(f_in);
     });
-
     $('#silent-save').prop('checked', getSaveMode() === 'silent').change(function () {
         setSaveMode($(this).prop('checked') ? 'silent' : 'manual');
     });
-
     $('#just-save').click(function () {
         bigSave(function doMyThing(newData) {
             setData(newData);
             alert('saved');
         });
     });
-
     $('.null-check').change(function () {
         $('.null:checked').closest('.line-row').toggle($(this).prop('checked'));
         colorScroll()
@@ -278,7 +291,6 @@ $(document).ready(function () {
         $('.best:checked').closest('.line-row').toggle($(this).prop('checked'));
         colorScroll()
     });
-
     $('#save-file').click(function () {
         bigSave(function doMyThing(newData) {
             setData(newData);
@@ -306,7 +318,6 @@ $(document).ready(function () {
             );
         });
     });
-
     $('#prepare-print').click(function () {
         var $ta = $('.print-text ');
 
@@ -315,9 +326,72 @@ $(document).ready(function () {
         $ta.focus();
         $ta[0].setSelectionRange(0, $ta.val().length);
     });
+    $('#name-map').click(function () {
+        var cont = $('.name-list');
+        var data = getData();
+        var name_map = {};
+
+        cont.empty();
+
+        for (var key in data) {
+            var en_name = data[key].data.en.name || '<NONAME>';
+            var jp_name = data[key].data.jp.name;
+            var ru_name = data[key].data.ru.name;
+
+            if (!name_map[en_name])
+                name_map[en_name] = {
+                    'jp_arr': [],
+                    'ru_trans': ''
+                };
+
+            if (name_map[en_name].jp_arr.indexOf(jp_name) === -1) {
+                name_map[en_name].jp_arr.push(jp_name);
+            }
+
+            if (!name_map[en_name].ru_trans) {
+                name_map[en_name].ru_trans = ru_name;
+            }
+        }
+
+        for (var name in name_map) {
+            var $tr = $nameTemplate.clone();
+            var jp_arr = name_map[name].jp_arr;
+            var ru_trans = name_map[name].ru_trans;
+
+            $tr.find('.en-name').text(name);
+            $tr.find('.jp-name').text(jp_arr.join(' | '));
+            $tr.find('input').val(ru_trans);
+
+            cont.append($tr);
+        }
+
+        $('.all-names').show();
+    });
+    $('#use-names').click(function () {
+        var data = getData();
+        var $names = $('.name-var');
+        var dict = {};
+
+        for (var i = 0; i < $names.length; ++i) {
+            var nameRow = $($names[i]);
+            var enName = nameRow.find('.en-name').text();
+            var ruName = nameRow.find('input').val();
+
+            dict[enName] = ruName;
+        }
+
+        for(var key in data) {
+            var originName = data[key].data.en.name;
+            data[key].data.ru.name = dict[originName] || '';
+        }
+
+        setData(data);
+        $('.all-names').hide();
+    });
 }).keyup(function (e) {
     if (e.keyCode == 27) {
         $('.print-version').hide();
+        $('.all-names').hide();
     }
 }).keydown(function (event) {
     if (event.which === 81 && event.altKey) {
