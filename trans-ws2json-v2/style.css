@@ -1,3 +1,11 @@
+.tr-popup {
+    position: absolute;
+    background: white;
+    border: 1px solid black;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
 .hover {
     position: fixed;
     left: 0;
@@ -206,4 +214,12 @@ label {
     right: 64px;
     font-family: monospace;
     font-size: 10px;
+}
+
+.trans-info {
+    position: absolute;
+    top: 16px;
+    right: 264px;
+    font-family: monospace;
+    font-size: 12px;
 }
