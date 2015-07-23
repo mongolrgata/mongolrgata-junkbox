@@ -366,6 +366,7 @@ $(document).ready(function () {
         }
 
         $('.all-names').show();
+        $('.hover').show();
     });
     $('#use-names').click(function () {
         var data = getData();
@@ -387,11 +388,13 @@ $(document).ready(function () {
 
         setData(data);
         $('.all-names').hide();
+        $('.hover').hide();
     });
 }).keyup(function (e) {
     if (e.keyCode == 27) {
         $('.print-version').hide();
         $('.all-names').hide();
+        $('.hover').hide();
     }
 }).keydown(function (event) {
     if (event.which === 81 && event.altKey) {
