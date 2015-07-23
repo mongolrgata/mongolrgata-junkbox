@@ -1,3 +1,15 @@
+.head-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 44px;
+    background: white;
+    padding: 10px;
+    z-index: 100500;
+    border-bottom: 1px solid black;
+}
+
 .quote {
     position: absolute;
     top: 14px;
@@ -140,7 +152,7 @@ label {
     top: 0;
     left: 0;
     bottom: 0;
-    width:100%;
+    width: 100%;
     box-sizing: border-box;
 }
 
