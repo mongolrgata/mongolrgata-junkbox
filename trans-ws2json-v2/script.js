@@ -159,7 +159,7 @@ function parseFileData() {
 
         var jp = '<span class="name">' + jp_name + ':</span><br>' + (data && data['jp'] && data['jp'].line && data['jp'].line.replace(/\\n/g, '<br>'));
         var en = ['<span class="name">', en_name, ' [<span class="ru-trans-name">', ru_name, '</span>]', ':</span><br>'].join('') + (data && data['en'] && data['en'].line && data['en'].line.replace(/\\n/g, '<br>'));
-        var ru = data && data.ru && data.ru.line || '';
+        var ru = (data && data.ru && data.ru.line || '').replace(/\\n/g, '\n');
 
         function recount() {
             var len = Object.keys(f_data_v2).length;
@@ -291,7 +291,7 @@ function bigSave(doMyThing) {
         var rec = line.data('linkedObj');
         var comms = line.find('.comm');
 
-        rec.data.ru.line = line.find('textarea').val();
+        rec.data.ru.line = line.find('textarea').val().replace(/\n/g, '\\n');
         rec.comments = [];
         if (comms.length > 0) {
             for (var i = 0, n = comms.length; i < n; ++i) {
