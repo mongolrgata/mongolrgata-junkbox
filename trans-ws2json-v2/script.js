@@ -85,7 +85,7 @@ function getSelectionCoords(win) {
                 if (span.getClientRects) {
                     // Ensure span has dimensions and position by
                     // adding a zero-width space character
-                    span.appendChild( doc.createTextNode("\u200b") );
+                    span.appendChild(doc.createTextNode("\u200b"));
                     range.insertNode(span);
                     rect = span.getClientRects()[0];
                     x = rect.left;
@@ -99,7 +99,7 @@ function getSelectionCoords(win) {
             }
         }
     }
-    return { x: x, y: y };
+    return {x: x, y: y};
 }
 function getData() {
     return JSON.parse(localStorage.getItem('f_data_v2') || '[]');
@@ -132,18 +132,21 @@ function parseFileData() {
     $linesBox.empty();
 
     for (var id in f_data_v2) {
+        if (!f_data_v2.hasOwnProperty(id))
+            continue;
+
         var $temp = $template.clone();
         var item = f_data_v2[id];
 
         var comms = item.comments || [];
         var data = item.data;
         var st = item.state || 0;
-        var jp_name = data && data.jp && (data.jp.name || '&lt;NONAME&gt;');
-        var en_name = data && data.en && (data.en.name || '&lt;NONAME&gt;');
+        var jp_name = data && data['jp'] && (data['jp'].name || '&lt;NONAME&gt;');
+        var en_name = data && data['en'] && (data['en'].name || '&lt;NONAME&gt;');
         var ru_name = data && data.ru && data.ru.name;
 
-        var jp = '<span class="name">' + jp_name + ':</span><br>' + (data && data.jp && data.jp.line && data.jp.line.replace(/\\n/g, '<br>'));
-        var en = '<span class="name">' + en_name + ':</span><br>' + (data && data.en && data.en.line && data.en.line.replace(/\\n/g, '<br>'));
+        var jp = '<span class="name">' + jp_name + ':</span><br>' + (data && data['jp'] && data['jp'].line && data['jp'].line.replace(/\\n/g, '<br>'));
+        var en = ['<span class="name">', en_name, ' [', ru_name, ']', ':</span><br>'].join('') + (data && data['en'] && data['en'].line && data['en'].line.replace(/\\n/g, '<br>'));
         var ru = data && data.ru && data.ru.line || '';
 
         function recount() {
@@ -243,7 +246,7 @@ function parseFileData() {
 }
 
 function dummyFoo() {
-};
+}
 
 function colorScroll() {
     var $cs = $('.color-scroll');
@@ -381,8 +384,11 @@ $(document).ready(function () {
         cont.empty();
 
         for (var key in data) {
-            var en_name = data[key].data.en.name || '<NONAME>';
-            var jp_name = data[key].data.jp.name;
+            if (!data.hasOwnProperty(key))
+                continue;
+
+            var en_name = data[key].data['en'].name || '<NONAME>';
+            var jp_name = data[key].data['jp'].name;
             var ru_name = data[key].data.ru.name;
 
             if (!name_map[en_name])
@@ -401,6 +407,9 @@ $(document).ready(function () {
         }
 
         for (var name in name_map) {
+            if (!name_map.hasOwnProperty(name))
+                continue;
+
             var $tr = $nameTemplate.clone();
             var jp_arr = name_map[name].jp_arr;
             var ru_trans = name_map[name].ru_trans;
@@ -423,13 +432,14 @@ $(document).ready(function () {
         for (var i = 0; i < $names.length; ++i) {
             var nameRow = $($names[i]);
             var enName = nameRow.find('.en-name').text();
-            var ruName = nameRow.find('input').val();
-
-            dict[enName] = ruName;
+            dict[enName] = nameRow.find('input').val();
         }
 
-        for(var key in data) {
-            var originName = data[key].data.en.name;
+        for (var key in data) {
+            if (!data.hasOwnProperty(key))
+                continue;
+
+            var originName = data[key].data['en'].name;
             data[key].data.ru.name = dict[originName] || '';
         }
 
@@ -475,12 +485,12 @@ $(document).ready(function () {
                 lang: 'en-ru',
                 format: 'html'
             },
-            function(result) {
+            function (result) {
 
                 $('<div class="tr-popup"/>').text(result.text.join(' | ')).css({
                     top: y,
                     left: x
-                }).click(function() {
+                }).click(function () {
                     this.remove();
                 }).appendTo('body');
             }
