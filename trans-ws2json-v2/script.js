@@ -54,6 +54,18 @@ var $nameTemplate = $(
     '</tr>                              '
 );
 
+function updateNames() {
+    var $names = $('.en-line .ru-trans-name');
+    var data = getData();
+
+    $names.each(function () {
+        var id = $(this).data('id');
+        var curName = data[id].data.ru.name;
+
+        $(this).text(curName);
+    });
+}
+
 function getSelectionCoords(win) {
     win = win || window;
     var doc = win.document;
@@ -146,7 +158,7 @@ function parseFileData() {
         var ru_name = data && data.ru && data.ru.name;
 
         var jp = '<span class="name">' + jp_name + ':</span><br>' + (data && data['jp'] && data['jp'].line && data['jp'].line.replace(/\\n/g, '<br>'));
-        var en = ['<span class="name">', en_name, ' [', ru_name, ']', ':</span><br>'].join('') + (data && data['en'] && data['en'].line && data['en'].line.replace(/\\n/g, '<br>'));
+        var en = ['<span class="name">', en_name, ' [<span class="ru-trans-name">', ru_name, '</span>]', ':</span><br>'].join('') + (data && data['en'] && data['en'].line && data['en'].line.replace(/\\n/g, '<br>'));
         var ru = data && data.ru && data.ru.line || '';
 
         function recount() {
@@ -210,7 +222,7 @@ function parseFileData() {
             this.find('.lines').append($commBox);
         }
 
-        $temp.find('.en-line').html(en);
+        $temp.find('.en-line').html(en).find('.ru-trans-name').data('id', id);
         $temp.find('.jp-line').html(jp);
         $temp.find('.id-code').text('ID:' + id);
         $temp.find('.line-state');
@@ -444,6 +456,7 @@ $(document).ready(function () {
         }
 
         setData(data);
+        updateNames();
         $('.all-names').hide();
         $('.hover').hide();
     });
