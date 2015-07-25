@@ -469,11 +469,29 @@ $(document).ready(function () {
 }).keydown(function (event) {
     if (event.which === 81 && event.altKey) {
         var $text = $(':focus').closest('.ru-line').find('textarea');
-        (function () {
-            this.val('«' + this.val() + '»');
-            this.focus();
-            this[0].setSelectionRange(this.val().length - 1, this.val().length - 1);
-        }).call($text);
+
+        if (!event.shiftKey) {
+            (function () {
+                this.val('«' + this.val() + '»');
+                this.focus();
+                this[0].setSelectionRange(this.val().length - 1, this.val().length - 1);
+            }).call($text);
+        } else {
+            if (!event.ctrlKey) {
+                (function () {
+                    this.val(this.val() + '«»');
+                    this.focus();
+                    this[0].setSelectionRange(this.val().length - 1, this.val().length - 1);
+                }).call($text);
+            }
+            else {
+                (function () {
+                    this.val(this.val() + '„“');
+                    this.focus();
+                    this[0].setSelectionRange(this.val().length - 1, this.val().length - 1);
+                }).call($text);
+            }
+        }
     }
     if (event.which === 84 && event.altKey) {
         function getSelectionText() {
