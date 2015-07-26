@@ -293,7 +293,7 @@ function bigSave(doMyThing) {
         var comms = line.find('.comm');
 
         rec.data.ru.line = line.find('textarea').val().replace(/\n/g, '\\n');
-        rec.data.ru.name = oldData[id].ru.name;
+        rec.data.ru.name = oldData[id].data.ru.name;
         rec.comments = [];
         if (comms.length > 0) {
             for (var i = 0, n = comms.length; i < n; ++i) {
