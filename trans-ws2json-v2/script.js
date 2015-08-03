@@ -316,6 +316,22 @@ function silentSave() {
 $(document).ready(function () {
     parseFileData();
 
+    function loadByUrl(filename) {
+        $('.repo-list').hide();
+
+        $.get(
+            filename,
+            {},
+            function (result) {
+                appendRecentFiles(filename);
+
+                $('.hover').hide();
+                setData(JSON.parse(result));
+                parseFileData();
+            }
+        );
+    }
+
     $('#file-in').change(function () {
         var f_in = this.files[0];
         var reader = new FileReader();
@@ -381,6 +397,67 @@ $(document).ready(function () {
                 }, dummyFoo
             );
         });
+    });
+    $('.load-raw-file').click(function () {
+        loadByUrl([
+            'https://raw.githubusercontent.com/PSDGames/cool-beauty-translate',
+            $('.branches-list option:selected').text(),
+            $('.branch-files-list option:selected').text()
+        ].join('/'));
+    });
+    $('#open-repo').click(function () {
+        var $select = $('.branches-list');
+        var $selectFile = $('.branch-files-list');
+        var $recentFiles = $('.recent-files');
+        var recentList = getRecentFiles();
+
+        $select.empty();
+        $select.unbind();
+        $select.append($('<option/>'));
+
+        $selectFile.empty();
+        $selectFile.unbind();
+        $selectFile.append($('<option/>'));
+
+        $recentFiles.empty();
+
+        for (var i = 0, n = recentList.length; i < n; ++i) {
+            var filename = recentList[i];
+            $recentFiles.prepend(
+                $('<p class="recent-filename"/>')
+                    .text('...' + filename.substr(filename.length - 64, 64))
+                    .attr('full_link', filename)
+                    .click(function () {
+                        loadByUrl($(this).attr('full_link'));
+                    })
+            );
+        }
+
+        getAllBranches(function (result) {
+            for (var i = 0, n = result.length; i < n; ++i) {
+                var item = result[i];
+
+                $select.append($('<option/>').text(item['branch-name']).prop('value', item['branch-sha']));
+            }
+
+            $select.change(function () {
+                var sha = $(this).val();
+
+                $selectFile.empty();
+                $selectFile.unbind();
+                $selectFile.append($('<option/>'));
+
+                getAllBranchFiles(sha, function (result) {
+                    for (var i = 0, n = result.length; i < n; ++i) {
+                        var item = result[i];
+                        $selectFile.append($('<option/>').text(item['file-name']));
+                    }
+                });
+            });
+        });
+
+        $('.repo-list').show();
+        $('.hover').show();
     });
     $('#prepare-print').click(function () {
         var $ta = $('.print-text ');
@@ -466,6 +543,7 @@ $(document).ready(function () {
     if (e.keyCode == 27) {
         $('.print-version').hide();
         $('.all-names').hide();
+        $('.repo-list').hide();
         $('.hover').hide();
     }
 }).keydown(function (event) {
@@ -582,3 +660,66 @@ $(document).ready(function () {
         }
     }
 });
+
+function testAllBranches() {
+    getAllBranches(function (result) {
+        console.log(result);
+    });
+}
+
+function getAllBranches(callback) {
+    $.get(
+        'https://api.github.com/repos/PSDGames/cool-beauty-translate/branches',
+        {},
+        function (result) {
+            var newResult = [];
+
+            for (var key in result) {
+                newResult.push({
+                    'branch-name': result[key].name,
+                    'branch-sha': result[key].commit.sha
+                });
+            }
+
+            callback(newResult);
+        }
+    );
+}
+
+function getAllBranchFiles(sha, callback) {
+    $.get(
+        'https://api.github.com/repos/PSDGames/cool-beauty-translate/git/trees/' + sha,
+        {
+            recursive: 1
+        },
+        function (result) {
+            var newResult = [];
+
+            for (var i = 0, n = result.tree.length; i < n; ++i) {
+                var item = result.tree[i];
+
+                if (item.type === 'blob') {
+                    newResult.push({
+                        'file-name': item.path
+                    });
+                }
+            }
+
+            callback(newResult);
+        }
+    );
+}
+
+function getRecentFiles() {
+    return JSON.parse(localStorage.getItem('recent-files') || '[]');
+}
+
+function appendRecentFiles(filename) {
+    var oldlist = getRecentFiles();
+    oldlist.push(filename);
+    oldlist.reverse();
+    $.unique(oldlist);
+    oldlist.reverse();
+
+    localStorage.setItem('recent-files', JSON.stringify(oldlist));
+}

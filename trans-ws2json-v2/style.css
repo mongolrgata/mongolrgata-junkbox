@@ -21,7 +21,7 @@
     margin-bottom: 16px;
 }
 
-.all-names {
+.all-names, .repo-list {
     padding: 16px;
     overflow-y: auto;
     position: fixed;
@@ -223,4 +223,17 @@ label {
     right: 264px;
     font-family: monospace;
     font-size: 12px;
+}
+
+.recent-filename {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: monospace;
+    margin: 2px;
+}
+
+.recent-filename:hover {
+    background-color: #9ac1f0;
 }
