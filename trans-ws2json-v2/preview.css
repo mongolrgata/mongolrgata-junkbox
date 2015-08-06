@@ -20,7 +20,7 @@
     background-image: url('img/000.png');
 }
 
-.ru-trans-name {
+.prev-mode .ru-trans-name {
     visibility: visible !important;
 
     position: absolute !important;
