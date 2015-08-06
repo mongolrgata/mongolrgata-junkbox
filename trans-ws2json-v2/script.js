@@ -515,6 +515,9 @@ $(document).ready(function () {
         $('.all-names').show();
         $('.hover').show();
     });
+    $('#goto-prev-mode').click(function () {
+        $('body').addClass('prev-mode');
+    });
     $('#use-names').click(function () {
         var data = getData();
         var $names = $('.name-var');
@@ -541,6 +544,7 @@ $(document).ready(function () {
     });
 }).keyup(function (e) {
     if (e.keyCode == 27) {
+        $('body').removeClass('prev-mode');
         $('.print-version').hide();
         $('.all-names').hide();
         $('.repo-list').hide();

@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <title>Редактор ws2json</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="preview.css">
     <script src="jquery-2.1.4.min.js"></script>
     <script src="jquery.viewport.mini.js"></script>
     <script src="script.js"></script>
 </head>
-<body>
+<body class="prev-mode">
 <div class="head-menu">
     <input type="file" id="file-in" style="margin-bottom: 8px; font-family: monospace;">
     <button id="open-repo">Открыть из репа</button>
@@ -25,6 +26,7 @@
         <label><input class="cont-check" type="checkbox" checked>Вычитка</label>
         <label><input class="best-check" type="checkbox" checked>Итоговый</label>
         <button id="name-map">Словарь имён</button>
+        <button id="goto-prev-mode">Предпросм.</button>
     </div>
 
     <div class="trans-info">
@@ -43,7 +45,9 @@
 <div class="lines-box"></div>
 <div class="color-scroll"></div>
 <div class="print-version">
-    <textarea class="print-text"></textarea>
+    <label>
+        <textarea class="print-text"></textarea>
+    </label>
     <span class="print-message">ESC, чтобы закрыть</span>
 </div>
 
@@ -55,10 +59,14 @@
 </div>
 
 <div class="repo-list">
-    <select class="branches-list">
-    </select>
-    <select class="branch-files-list">
-    </select>
+    <label>
+        <select class="branches-list">
+        </select>
+    </label>
+    <label>
+        <select class="branch-files-list">
+        </select>
+    </label>
     <button class="load-raw-file">ГРУЗИ!</button>
     <div class="recent-files"></div>
 </div>
