@@ -808,6 +808,5 @@ function __shiftMap(oldData, key) {
 }
 
 function shiftData(fromKey) {
-    debugger;
     setData(__shiftMap(getData(), fromKey));
 }
