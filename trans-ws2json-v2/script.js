@@ -727,3 +727,87 @@ function appendRecentFiles(filename) {
 
     localStorage.setItem('recent-files', JSON.stringify(oldlist));
 }
+
+/**
+ * Выравнивание строки по левому краю
+ * @param {number} width целевая ширина строки
+ * @param {string} [fillChar] символ-заполнитель
+ * @returns {string}
+ */
+String.prototype.lJust = function lJust(width, fillChar) {
+    fillChar = (fillChar || ' ').charAt(0);
+    return this + new Array(Math.max(0, width - this.length + 1)).join(fillChar);
+};
+
+/**
+ * Выравнивание строки по правому краю
+ * @param {number} width целевая ширина строки
+ * @param {string} [fillChar] символ-заполнитель
+ * @returns {string}
+ */
+String.prototype.rJust = function rJust(width, fillChar) {
+    fillChar = (fillChar || ' ').charAt(0);
+    return new Array(Math.max(0, width - this.length + 1)).join(fillChar) + this;
+};
+
+/**
+ * Выравнивание строки по центру
+ * @param {number} width целевая ширина строки
+ * @param {string} [fillChar] символ-заполнитель
+ * @returns {string}
+ */
+String.prototype.center = function center(width, fillChar) {
+    fillChar = (fillChar || ' ').charAt(0);
+    return this.rJust((+width + this.length) >> 1, fillChar).lJust(width, fillChar);
+};
+
+function toHexId(number) {
+    return number.toString(16).rJust(4, '0');
+}
+
+function __shiftMap(oldData, key) {
+    var keys = Object.keys(oldData);
+    var len = keys.length;
+    var new_end = toHexId(len);
+    var dummy = {
+        comments: [],
+        data: {
+            en: {
+                name: "",
+                line: ""
+            },
+            jp: {
+                name: "",
+                line: ""
+            },
+            ru: {
+                name: "",
+                line: ""
+            }
+        },
+        state: 0
+    };
+
+    oldData[new_end] = dummy;
+
+    var prevKey = new_end;
+    for (var i = len - 1; true; --i) {
+        var curKey = toHexId(i);
+
+        if (curKey === key) {
+            break;
+        }
+
+        oldData[prevKey] = oldData[curKey];
+        oldData[curKey] = dummy;
+
+        prevKey = curKey;
+    }
+
+    return oldData;
+}
+
+function shiftData(fromKey) {
+    debugger;
+    setData(__shiftMap(getData(), fromKey));
+}
