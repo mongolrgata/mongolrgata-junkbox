@@ -57,12 +57,14 @@
 .add-line-after {
     position: absolute;
     top: 14px;
+    width: 24px;
 }
 
 .del-line {
     position: absolute;
     top: 14px;
     left: 36px;
+    width: 24px;
 }
 
 .atbop {

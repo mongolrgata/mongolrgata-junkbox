@@ -17,8 +17,8 @@ var $template = $(
     '                   <label><input class="cont" type="radio" value="2">Вычитка</label><br>    ' +
     '                   <label><input class="best" type="radio" value="3">Итоговый</label><br>   ' +
     '             </div>                                                                         ' +
-    '             <button class="add-line-after" title="добавить строку после">+</button>        ' +
-    '             <button class="del-line" title="удалить строку">-</button>                     ' +
+    '             <button class="add-line-after" title="добавить реплику после">+</button>       ' +
+    '             <button class="del-line" title="удалить реплику">-</button>                    ' +
     '         </div>                                                                             ' +
     '      </div>                                                                                ' +
     '      <button class="add-comm"> </button>                                                   ' +
@@ -230,7 +230,7 @@ function parseFileData() {
         $temp.find('label input').prop('name', id);
         $temp.find('.null').prop('checked', st == 0).change(changeState);
         var $init = $temp.find('.init').prop('checked', st == 1).change(changeState);
-        var $text = $temp.find('.ru-line').find('textarea').val(ru).change((function () {
+        $temp.find('.ru-line').find('textarea').val(ru).change((function () {
             this.prop('checked', true);
             changeState.call(this);
         }).bind($init));
