@@ -555,28 +555,17 @@ $(document).ready(function () {
 }).keydown(function (event) {
     if (event.which === 81 && event.altKey) {
         var $text = $(':focus').closest('.ru-line').find('textarea');
+        var textarea = $text[0];
+        var offsetStart = textarea.selectionStart;
+        var offsetEnd = textarea.selectionEnd;
 
-        if (!event.shiftKey) {
-            (function () {
-                this.val('«' + this.val() + '»');
-                this.focus();
-                this[0].setSelectionRange(this.val().length - 1, this.val().length - 1);
-            }).call($text);
-        } else {
-            if (!event.ctrlKey) {
-                (function () {
-                    this.val(this.val() + '«»');
-                    this.focus();
-                    this[0].setSelectionRange(this.val().length - 1, this.val().length - 1);
-                }).call($text);
-            }
-            else {
-                (function () {
-                    this.val(this.val() + '„“');
-                    this.focus();
-                    this[0].setSelectionRange(this.val().length - 1, this.val().length - 1);
-                }).call($text);
-            }
+        if (!event.ctrlKey) {
+            replaceSelectedText(textarea, '«' + ShowSelection(textarea) + '»');
+            textarea.setSelectionRange(offsetStart + 1, offsetEnd + 1);
+        }
+        else {
+            replaceSelectedText(textarea, '„' + ShowSelection(textarea) + '“');
+            textarea.setSelectionRange(offsetStart + 1, offsetEnd + 1);
         }
     }
     if (event.which === 84 && event.altKey) {
@@ -593,13 +582,14 @@ $(document).ready(function () {
         var bScroll = $($('body')[0]).scrollTop();
         var x = coor.x;
         var y = coor.y + bScroll - 22;
+        var isEnglish = $(getSelectedNode()).hasClass('en-line');
 
         $.get(
             'https://translate.yandex.net/api/v1.5/tr.json/translate',
             {
                 key: 'trnsl.1.1.20150723T181540Z.cfda1cc4fccb8bb0.372eb61d5cb01dde22bfc3a3cd8c468fd2dd8e66',
                 text: text,
-                lang: 'en-ru',
+                lang: isEnglish ? 'en-ru' : 'ja-ru',
                 format: 'html'
             },
             function (result) {
@@ -834,4 +824,85 @@ function shiftData(fromKey) {
 function unshiftData(fromKey) {
     setData(__unshiftMap(getData(), fromKey));
     parseFileData();
+}
+
+function ShowSelection(element) {
+    var textComponent = element;
+    var selectedText;
+    // IE version
+    if (document.selection != undefined) {
+        textComponent.focus();
+        var sel = document.selection.createRange();
+        selectedText = sel.text;
+    }
+    // Mozilla version
+    else if (textComponent.selectionStart != undefined) {
+        var startPos = textComponent.selectionStart;
+        var endPos = textComponent.selectionEnd;
+        selectedText = textComponent.value.substring(startPos, endPos)
+    }
+    return selectedText;
+}
+
+function getInputSelection(el) {
+    var start = 0, end = 0, normalizedValue, range,
+        textInputRange, len, endRange;
+
+    if (typeof el.selectionStart == "number" && typeof el.selectionEnd == "number") {
+        start = el.selectionStart;
+        end = el.selectionEnd;
+    } else {
+        range = document.selection.createRange();
+
+        if (range && range.parentElement() == el) {
+            len = el.value.length;
+            normalizedValue = el.value.replace(/\r\n/g, "\n");
+
+            // Create a working TextRange that lives only in the input
+            textInputRange = el.createTextRange();
+            textInputRange.moveToBookmark(range.getBookmark());
+
+            // Check if the start and end of the selection are at the very end
+            // of the input, since moveStart/moveEnd doesn't return what we want
+            // in those cases
+            endRange = el.createTextRange();
+            endRange.collapse(false);
+
+            if (textInputRange.compareEndPoints("StartToEnd", endRange) > -1) {
+                start = end = len;
+            } else {
+                start = -textInputRange.moveStart("character", -len);
+                start += normalizedValue.slice(0, start).split("\n").length - 1;
+
+                if (textInputRange.compareEndPoints("EndToEnd", endRange) > -1) {
+                    end = len;
+                } else {
+                    end = -textInputRange.moveEnd("character", -len);
+                    end += normalizedValue.slice(0, end).split("\n").length - 1;
+                }
+            }
+        }
+    }
+
+    return {
+        start: start,
+        end: end
+    };
+}
+
+function replaceSelectedText(el, text) {
+    var sel = getInputSelection(el), val = el.value;
+    el.value = val.slice(0, sel.start) + text + val.slice(sel.end);
+}
+
+function getSelectedNode()
+{
+    if (document.selection)
+        return document.selection.createRange().parentElement();
+    else
+    {
+        var selection = window.getSelection();
+        if (selection.rangeCount > 0)
+            return selection.getRangeAt(0).startContainer.parentNode;
+    }
 }
