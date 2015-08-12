@@ -54,9 +54,15 @@
     border-bottom: 1px solid black;
 }
 
-.quote {
+.add-line-after {
     position: absolute;
     top: 14px;
+}
+
+.del-line {
+    position: absolute;
+    top: 14px;
+    left: 36px;
 }
 
 .atbop {

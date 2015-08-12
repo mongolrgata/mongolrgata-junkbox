@@ -17,7 +17,8 @@ var $template = $(
     '                   <label><input class="cont" type="radio" value="2">Вычитка</label><br>    ' +
     '                   <label><input class="best" type="radio" value="3">Итоговый</label><br>   ' +
     '             </div>                                                                         ' +
-    '             <button class="quote">alt+q</button>                                           ' +
+    '             <button class="add-line-after" title="добавить строку после">+</button>        ' +
+    '             <button class="del-line" title="удалить строку">-</button>                     ' +
     '         </div>                                                                             ' +
     '      </div>                                                                                ' +
     '      <button class="add-comm"> </button>                                                   ' +
@@ -235,11 +236,12 @@ function parseFileData() {
         }).bind($init));
         $temp.find('.cont').prop('checked', st == 2).change(changeState);
         $temp.find('.best').prop('checked', st == 3).change(changeState);
-        $temp.find('.quote').click((function () {
-            this.val('«' + this.val() + '»');
-            this.focus();
-            this[0].setSelectionRange(this.val().length - 1, this.val().length - 1);
-        }).bind($text));
+        $temp.find('.add-line-after').data('idObj', id).click(function () {
+            shiftData($(this).data('idObj'));
+        });
+        $temp.find('.del-line').data('idObj', id).click(function () {
+            unshiftData($(this).data('idObj'));
+        });
         $temp.find('.add-comm').click(addComm.bind($temp));
 
         for (var j = 0, len = comms.length; j < len; ++j) {
@@ -807,6 +809,29 @@ function __shiftMap(oldData, key) {
     return oldData;
 }
 
+function __unshiftMap(oldData, key) {
+    var keys = Object.keys(oldData);
+    var len = keys.length;
+    var curKey = toHexId(len - 1);
+
+    for (var i = parseInt(key, 16) + 1; i < len; i++) {
+        var prevKey = toHexId(i - 1);
+        curKey = toHexId(i);
+
+        oldData[prevKey] = oldData[curKey];
+    }
+
+    delete oldData[curKey];
+
+    return oldData;
+}
+
 function shiftData(fromKey) {
     setData(__shiftMap(getData(), fromKey));
+    parseFileData();
+}
+
+function unshiftData(fromKey) {
+    setData(__unshiftMap(getData(), fromKey));
+    parseFileData();
 }
