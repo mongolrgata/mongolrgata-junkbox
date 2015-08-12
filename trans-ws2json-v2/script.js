@@ -554,7 +554,7 @@ $(document).ready(function () {
     }
 }).keydown(function (event) {
     if (event.which === 81 && event.altKey) {
-        var $text = $(':focus').closest('.ru-line').find('textarea');
+        var $text = $(':focus').closest('.ru-line, .comm-box').find('textarea, input');
         var textarea = $text[0];
         var offsetStart = textarea.selectionStart;
         var offsetEnd = textarea.selectionEnd;
