@@ -17,8 +17,8 @@ var $template = $(
     '                   <label><input class="cont" type="radio" value="2">Вычитка</label><br>    ' +
     '                   <label><input class="best" type="radio" value="3">Итоговый</label><br>   ' +
     '             </div>                                                                         ' +
-    '             <button class="add-line-after" title="добавить реплику после">+</button>       ' +
-    '             <button class="del-line" title="удалить реплику">-</button>                    ' +
+    '             <button class="add-line-after danger-button" title="добавить реплику после">+</button>       ' +
+    '             <button class="del-line danger-button" title="удалить реплику">-</button>                    ' +
     '         </div>                                                                             ' +
     '      </div>                                                                                ' +
     '      <button class="add-comm"> </button>                                                   ' +
@@ -570,6 +570,9 @@ $(document).ready(function () {
     });
     $('#goto-prev-mode').click(function () {
         $('body').addClass('prev-mode');
+    });
+    $('#show-me').click(function () {
+        $('body').addClass('danger-zone-mode-on');
     });
     $('#use-names').click(function () {
         var data = getData();
