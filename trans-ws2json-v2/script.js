@@ -121,6 +121,11 @@ function setHistoryPosition(value) {
 }
 function undo() {
     var history = JSON.parse(localStorage.getItem('history_v2') || '[]');
+
+    if (history.length === 0) {
+        return;
+    }
+
     var history_position = +(localStorage.getItem('history_position_v2') || '0');
     var new_history_position = Math.min(history_position + 1, history.length - 1);
 
@@ -131,6 +136,11 @@ function undo() {
 }
 function redo() {
     var history = JSON.parse(localStorage.getItem('history_v2') || '[]');
+
+    if (history.length === 0) {
+        return;
+    }
+
     var history_position = +(localStorage.getItem('history_position_v2') || '0');
     var new_history_position = Math.max(history_position - 1, 0);
 
