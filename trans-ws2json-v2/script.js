@@ -624,7 +624,7 @@ $(document).ready(function () {
         var offsetStart = textarea.selectionStart;
         var offsetEnd = textarea.selectionEnd;
 
-        if (!event.ctrlKey) {
+        if (!event.shiftKey) {
             replaceSelectedText(textarea, '«' + ShowSelection(textarea) + '»');
             textarea.setSelectionRange(offsetStart + 1, offsetEnd + 1);
         }
