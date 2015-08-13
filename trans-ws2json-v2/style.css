@@ -227,10 +227,10 @@ label {
 
 .trans-info {
     position: absolute;
-    top: 16px;
+    top: 0;
     right: 264px;
     font-family: monospace;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .recent-filename {
