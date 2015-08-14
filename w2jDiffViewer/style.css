@@ -64,3 +64,36 @@ html, body {
     font-weight: bold;
     font-family: monospace;
 }
+
+.legend {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.not-match-br-point {
+    background-color: lightgray;
+}
+
+.big-not-match {
+    background-color: black;
+    color: white
+}
+
+.red-grad1 {
+    background-color: rgba(255,0,0,0);
+}
+.red-grad2 {
+    background-color: rgba(255,0,0,0.2);
+}
+.red-grad3 {
+    background-color: rgba(255,0,0,0.4);
+}
+.red-grad4 {
+    background-color: rgba(255,0,0,0.6);
+}
+.red-grad5 {
+    background-color: rgba(255,0,0,0.8);
+}
+.red-grad6 {
+    background-color: rgba(255,0,0,1);
+}
