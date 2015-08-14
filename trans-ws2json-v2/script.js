@@ -982,7 +982,7 @@ function getSelectedNode() {
 
 function splitTextatea($textarea) {
     var textarea = $textarea[0];
-    var oldText = $textarea.val();
+    var oldText = $textarea.val().replace(/\n/g, ' ');
     var splitted = oldText.split(' ');
 
     if (!splitted.length) {

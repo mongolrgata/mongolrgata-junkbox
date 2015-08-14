@@ -58,6 +58,7 @@
 
 .prev-mode .trans.min-height {
     height: 1px !important;
+    overflow: hidden !important;
 }
 
 .prev-mode .big-split-button {
