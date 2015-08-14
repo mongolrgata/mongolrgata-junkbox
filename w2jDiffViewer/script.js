@@ -24,10 +24,12 @@ function getAllBranches(callback) {
             var newResult = [];
 
             for (var key in result) {
-                newResult.push({
-                    'branch-name': result[key].name,
-                    'branch-sha': result[key].commit.sha
-                });
+                if (result[key].name === 'gh-pages') {
+                    newResult.push({
+                        'branch-name': result[key].name,
+                        'branch-sha': result[key].commit.sha
+                    });
+                }
             }
 
             callback(newResult);
