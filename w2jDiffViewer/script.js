@@ -1,11 +1,13 @@
 var $template = $(
-    '<div class="row">      ' +
-    '  <div class="id-code">' +
-    '  </div>               ' +
-    '  <div class="line">   ' +
-    '    <span class="text"></span>' +
-    '  </div>               ' +
-    '</div>                 '
+    '<div class="row">                   ' +
+    '  <div class="id-code">             ' +
+    '  </div>                            ' +
+    '  <div class="line">                ' +
+    '    <span class="text"></span>      ' +
+    '  </div>                            ' +
+    '  <button class="shift">+</button>  ' +
+    '  <button class="unshift">-</button>' +
+    '</div>                              '
 );
 
 function setDiffJSON(obj) {
@@ -121,6 +123,10 @@ $(document).ready(function () {
         $('.json-data').val('');
 
         var list = JSON.parse(diffData);
+        var dummy = {
+            id: "",
+            line: ""
+        };
 
         setDiffJSON(list);
 
@@ -134,9 +140,79 @@ $(document).ready(function () {
 
             $left.css({
                 backgroundColor: 'rgba(255,0,0,' + ('' + dlt / 5) + ')'
+            }).find('.shift').data('index', i).click(function () {
+                var index = $(this).data('index');
+                var list = JSON.parse(getDiffJSON());
+
+                for (var i = index; i < list.length; ++i) {
+                    var oldId = list[i].left.id;
+                    if (oldId === "") {
+                        continue;
+                    }
+
+                    oldId = parseInt(oldId, 16) + 1;
+
+                    list[i].left.id = (+oldId).toString(16).rJust(4, '0');
+                }
+
+                $('.json-data').val(JSON.stringify(list));
+                $('.inner').click();
+            });
+            $left.find('.unshift').data('index', i).click(function () {
+                var index = $(this).data('index');
+                var list = JSON.parse(getDiffJSON());
+
+                for (var i = index; i < list.length; ++i) {
+                    var oldId = list[i].left.id;
+                    if (oldId === "") {
+                        continue;
+                    }
+
+                    oldId = parseInt(oldId, 16) - 1;
+
+                    list[i].left.id = (+oldId).toString(16).rJust(4, '0');
+                }
+
+                $('.json-data').val(JSON.stringify(list));
+                $('.inner').click();
             });
             $right.css({
                 backgroundColor: 'rgba(255,0,0,' + ('' + dlt / 5) + ')'
+            }).find('.shift').data('index', i).click(function () {
+                var index = $(this).data('index');
+                var list = JSON.parse(getDiffJSON());
+
+                for (var i = index; i < list.length; ++i) {
+                    var oldId = list[i].right.id;
+                    if (oldId === "") {
+                        continue;
+                    }
+
+                    oldId = parseInt(oldId, 16) + 1;
+
+                    list[i].right.id = (+oldId).toString(16).rJust(4, '0');
+                }
+
+                $('.json-data').val(JSON.stringify(list));
+                $('.inner').click();
+            });
+            $right.find('.unshift').data('index', i).click(function () {
+                var index = $(this).data('index');
+                var list = JSON.parse(getDiffJSON());
+
+                for (var i = index; i < list.length; ++i) {
+                    var oldId = list[i].right.id;
+                    if (oldId === "") {
+                        continue;
+                    }
+
+                    oldId = parseInt(oldId, 16) - 1;
+
+                    list[i].right.id = (+oldId).toString(16).rJust(4, '0');
+                }
+
+                $('.json-data').val(JSON.stringify(list));
+                $('.inner').click();
             });
 
             if (list[i].left.id === "") {
@@ -184,10 +260,10 @@ $(document).ready(function () {
             $('.right').append($right);
         }
     });
-    $('.sort-left').click(function() {
+    $('.sort-left').click(function () {
         var list = JSON.parse(getDiffJSON());
 
-        list.sort(function(a, b) {
+        list.sort(function (a, b) {
             var idA = a.left.id;
             var idB = b.left.id;
 
@@ -207,10 +283,10 @@ $(document).ready(function () {
         $('.json-data').val(JSON.stringify(list));
         $('.inner').click();
     });
-    $('.sort-right').click(function() {
+    $('.sort-right').click(function () {
         var list = JSON.parse(getDiffJSON());
 
-        list.sort(function(a, b) {
+        list.sort(function (a, b) {
             var idA = a.right.id;
             var idB = b.right.id;
 
@@ -231,3 +307,14 @@ $(document).ready(function () {
         $('.inner').click();
     });
 });
+
+/**
+ * Выравнивание строки по правому краю
+ * @param {number} width целевая ширина строки
+ * @param {string} [fillChar] символ-заполнитель
+ * @returns {string}
+ */
+String.prototype.rJust = function rJust(width, fillChar) {
+    fillChar = (fillChar || ' ').charAt(0);
+    return new Array(Math.max(0, width - this.length + 1)).join(fillChar) + this;
+};

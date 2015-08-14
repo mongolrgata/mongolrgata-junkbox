@@ -27,6 +27,7 @@ html, body {
 }
 
 .row {
+    position: relative;
     height: 64px;
     border: 1px solid black;
     border-bottom: none;
@@ -96,4 +97,18 @@ html, body {
 }
 .red-grad6 {
     background-color: rgba(255,0,0,1);
+}
+
+.shift {
+    position: absolute;
+    bottom: 0;
+    right: 28px;
+    width: 24px;
+}
+
+.unshift {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 24px;
 }
