@@ -184,4 +184,50 @@ $(document).ready(function () {
             $('.right').append($right);
         }
     });
+    $('.sort-left').click(function() {
+        var list = JSON.parse(getDiffJSON());
+
+        list.sort(function(a, b) {
+            var idA = a.left.id;
+            var idB = b.left.id;
+
+            if (idA === "") {
+                return 1;
+            }
+            if (idB === "") {
+                return -1;
+            }
+
+            idA = parseInt(idA, 16);
+            idB = parseInt(idB, 16);
+
+            return (idA - idB);
+        });
+
+        $('.json-data').val(JSON.stringify(list));
+        $('.inner').click();
+    });
+    $('.sort-right').click(function() {
+        var list = JSON.parse(getDiffJSON());
+
+        list.sort(function(a, b) {
+            var idA = a.right.id;
+            var idB = b.right.id;
+
+            if (idA === "") {
+                return 1;
+            }
+            if (idB === "") {
+                return -1;
+            }
+
+            idA = parseInt(idA, 16);
+            idB = parseInt(idB, 16);
+
+            return (idA - idB);
+        });
+
+        $('.json-data').val(JSON.stringify(list));
+        $('.inner').click();
+    });
 });
