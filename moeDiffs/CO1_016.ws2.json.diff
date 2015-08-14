@@ -1,0 +1,5162 @@
+[
+    {
+        "left": {
+            "id": "0000", 
+            "line": "The last day of term."
+        }, 
+        "right": {
+            "id": "0000", 
+            "line": "The last day of term."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0001", 
+            "line": "That night."
+        }, 
+        "right": {
+            "id": "0001", 
+            "line": "That night."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0002", 
+            "line": "'Aoi, I'm sorry but could you wash this bath towel?'"
+        }, 
+        "right": {
+            "id": "0002", 
+            "line": "'Aoi, I'm sorry to ask this but could you wash\\nthis bath towel?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0003", 
+            "line": "'Sure. Could you just put it in the wash basket?'"
+        }, 
+        "right": {
+            "id": "0003", 
+            "line": "'Sure, could you just put it in the wash basket?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0004", 
+            "line": "'Thank you!'"
+        }, 
+        "right": {
+            "id": "0004", 
+            "line": "'Thank you!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0005", 
+            "line": "'The air conditioner in my room isn't working very\\nwell.'"
+        }, 
+        "right": {
+            "id": "0005", 
+            "line": "'The air conditioner in my room doesn't work very\\nwell.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0006", 
+            "line": "'I'll call an electrician during the summer holiday\\nto come and take a look.'"
+        }, 
+        "right": {
+            "id": "0006", 
+            "line": "'I'll call an electrician, during the summer and\\nhave them take a look.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0007", 
+            "line": "'Thanks!'"
+        }, 
+        "right": {
+            "id": "0007", 
+            "line": "'Thanks!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0008", 
+            "line": "'Umm...... There's no breakfast tomorrow morning,\\nis there?'"
+        }, 
+        "right": {
+            "id": "0008", 
+            "line": "'Um...there's no breakfast tomorrow morning is\\nthere?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0009", 
+            "line": "'If you're here, I'll make something.'"
+        }, 
+        "right": {
+            "id": "0009", 
+            "line": "'If you're here then I'll make something'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000a", 
+            "line": "'Oh, yes please......'"
+        }, 
+        "right": {
+            "id": "000a", 
+            "line": "'Oh, yes please...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000b", 
+            "line": "Everyone is busy."
+        }, 
+        "right": {
+            "id": "000b", 
+            "line": "Everyone is busy."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000c", 
+            "line": "Of course they are. All of the boarders are heading\\nhome for the summer holidays."
+        }, 
+        "right": {
+            "id": "000c", 
+            "line": "Of course they are, all of the boarders are\\nheading home for the summer."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000d", 
+            "line": "The ones leaving early will be going back tomorrow\\nmorning."
+        }, 
+        "right": {
+            "id": "000d", 
+            "line": "The ones that are leaving early will be going\\nback tomorrow."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000e", 
+            "line": "'It's so hot, I'm dying......'"
+        }, 
+        "right": {
+            "id": "000e", 
+            "line": "'It's so hot! I''m dying...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000f", 
+            "line": "Holding a fan in one hand, Kanako comes out of the\\ndressing room."
+        }, 
+        "right": {
+            "id": "000f", 
+            "line": "Holding a fan in one hand, Kanako comes out of\\nthe dressing room."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0010", 
+            "line": "......In her underwear."
+        }, 
+        "right": {
+            "id": "0010", 
+            "line": "...in her underwear."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0011", 
+            "line": "'Whoa there, Kanako!'"
+        }, 
+        "right": {
+            "id": "0011", 
+            "line": "'Whoa there Kanako!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0012", 
+            "line": "'Maybe I should turn on the air conditioner in the\\nhallway.'"
+        }, 
+        "right": {
+            "id": "0012", 
+            "line": "'Maybe I should turn on the air conditioner in\\nthe hallway.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0013", 
+            "line": "'Just because it's hot, you shouldn't be walking\\naround in your underwear.'"
+        }, 
+        "right": {
+            "id": "0013", 
+            "line": "'Just because it's so hot, it doesn't mean you\\nshould be walking around in your underwear.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0014", 
+            "line": "'But I get so sweaty that my shirt sticks to me,\\nand it feels horrible...... whew, it's so hot......'"
+        }, 
+        "right": {
+            "id": "0014", 
+            "line": "'But I get so sweaty! My shirt sticks to me and\\nit feels horrible... Whew, it's so hot.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0015", 
+            "line": "She mutters to herself as she goes into the dining\\nhall."
+        }, 
+        "right": {
+            "id": "0015", 
+            "line": "She mutters to herself as she enters the dining\\nhall."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0016", 
+            "line": "'Geez......'"
+        }, 
+        "right": {
+            "id": "0016", 
+            "line": "'Geez...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0017", 
+            "line": "'Quaaaack......'"
+        }, 
+        "right": {
+            "id": "0017", 
+            "line": "'Quaaack!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0018", 
+            "line": "This time, hat comes walking limply out of Kotori's\\nroom."
+        }, 
+        "right": {
+            "id": "0018", 
+            "line": "This time, Hat comes walking out with a limp from\\nKotori's Room."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0019", 
+            "line": "'What's up? Are you worn out from the heat? After\\nI've finished tidying up, I'll spray some water on\\nyou, so hold on a minute.'"
+        }, 
+        "right": {
+            "id": "0019", 
+            "line": "'What's up? Is the heat geting to you? After I've\\nfinished cleaning up, I'll spray some water on\\nyou so just hold on a minute.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001a", 
+            "line": "'Quack...!'"
+        }, 
+        "right": {
+            "id": "001a", 
+            "line": "'Quack!...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001b", 
+            "line": "I, the dorm mother, have to get ready to see\\neveryone off, so of course, I'm a little busy."
+        }, 
+        "right": {
+            "id": "001b", 
+            "line": "I, the dorm mother, have to get ready to see\\neveryone off. So of course, I'm a little busy."
+        }
+    }, 
+    {
+        "left": {
+            "id": "001c", 
+            "line": "That's why I left to come home halfway through\\ntoday's club activities."
+        }, 
+        "right": {
+            "id": "001c", 
+            "line": "That's why I left to come home halfway through\\ntoday's club activities."
+        }
+    }, 
+    {
+        "left": {
+            "id": "001d", 
+            "line": "'Quack?'"
+        }, 
+        "right": {
+            "id": "001d", 
+            "line": "'Quack?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001e", 
+            "line": "Drained of strength and completely exhausted,\\nHat sensed something and suddenly raised his head."
+        }, 
+        "right": {
+            "id": "001e", 
+            "line": "Drained of strength and completely exhausted, Hat\\nsensed something and suddenly raised his head."
+        }
+    }, 
+    {
+        "left": {
+            "id": "001f", 
+            "line": "'I'm home!'"
+        }, 
+        "right": {
+            "id": "001f", 
+            "line": "'I'm home!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0020", 
+            "line": "'Welcome back. You're a little late, aren't you?'"
+        }, 
+        "right": {
+            "id": "0020", 
+            "line": "'Welcome back. You're a little late, aren't you?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0021", 
+            "line": "'I stayed right till the end. Whew...... I'm beat......'"
+        }, 
+        "right": {
+            "id": "0021", 
+            "line": "'I stayed right till the end. Whew... I'm\\nbeat...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0022", 
+            "line": "'Quack, quack!'"
+        }, 
+        "right": {
+            "id": "0022", 
+            "line": "'Quack, quack!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0023", 
+            "line": "'OK, OK, I'm home now, Hat.'"
+        }, 
+        "right": {
+            "id": "0023", 
+            "line": "'OK, OK, I'm home now, Hat.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0024", 
+            "line": "Kotori, who was exhausted, picked up Hat and put\\nhim on her lap."
+        }, 
+        "right": {
+            "id": "0024", 
+            "line": "Kotori, who was exhausted, picked up Hat and put\\nhim on her lap."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0025", 
+            "line": "'It's so hot...... I'm really thirsty......'"
+        }, 
+        "right": {
+            "id": "0025", 
+            "line": "'It's so hot... I'm really thirsty...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0026", 
+            "line": "'OK, I got it.'"
+        }, 
+        "right": {
+            "id": "0026", 
+            "line": "'OK, I got it.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0027", 
+            "line": "I pushed the wheelchair and took Kotori into the\\ndining hall."
+        }, 
+        "right": {
+            "id": "0027", 
+            "line": "I pushed the wheelchair, and took Kotori into the\\ndining hall."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0028", 
+            "line": "'Welcome back, Kotori. Looks like you've been\\nworking hard.'"
+        }, 
+        "right": {
+            "id": "0028", 
+            "line": "'Welcome back, Kotori. Looks like you've been\\nworking hard.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0029", 
+            "line": "'Yeah, kind of.'"
+        }, 
+        "right": {
+            "id": "0029", 
+            "line": "'Yeah, kind of.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002a", 
+            "line": "'Is barley tea OK?'"
+        }, 
+        "right": {
+            "id": "002a", 
+            "line": "'Is barley tea OK?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002b", 
+            "line": "'Yeah, thanks.'"
+        }, 
+        "right": {
+            "id": "002b", 
+            "line": "'Yeah, thanks.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002c", 
+            "line": "'Glug, glug...... Aaah...... I've come back to life!'"
+        }, 
+        "right": {
+            "id": "002c", 
+            "line": "'Glug, glug... Aaah... I've come back to life!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002d", 
+            "line": "'Do you want something to eat?'"
+        }, 
+        "right": {
+            "id": "002d", 
+            "line": "'Do you want something to eat?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002e", 
+            "line": "'Yes please.'"
+        }, 
+        "right": {
+            "id": "002e", 
+            "line": "'Yes please.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002f", 
+            "line": "I take the dinner I had prepared and heat it up in\\nthe microwave."
+        }, 
+        "right": {
+            "id": "002f", 
+            "line": "I take the dinner I had prepared and heat it up\\nin the microwave."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0030", 
+            "line": "'What a hero!'"
+        }, 
+        "right": {
+            "id": "0030", 
+            "line": "'What a hero!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0031", 
+            "line": "'It's all part of being the dorm mother.'"
+        }, 
+        "right": {
+            "id": "0031", 
+            "line": "'It's all part of being the dorm mother.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0032", 
+            "line": "As of today, Kotori and the others had already\\nstarted 'camping'."
+        }, 
+        "right": {
+            "id": "0032", 
+            "line": "As of today, Kotori and the others have already\\nstarted 'camping'."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0033", 
+            "line": "I couldn't stay till the end because I had dorm\\nmother jobs to do, so felt bad and made my\\napologies about this and that."
+        }, 
+        "right": {
+            "id": "0033", 
+            "line": "I couldn't stay till the end because I had dorm\\nmother jobs to do. So, I felt bad and apologized\\nabout this and that."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0034", 
+            "line": "But that ends today."
+        }, 
+        "right": {
+            "id": "0034", 
+            "line": "But that ends today."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0035", 
+            "line": "From tomorrow, I will be freed from these duties!"
+        }, 
+        "right": {
+            "id": "0035", 
+            "line": "From tomorrow, I will be freed from these duties!"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0036", 
+            "line": "'(I have to do the maintenance and administration\\nfor the building though.)'"
+        }, 
+        "right": {
+            "id": "0036", 
+            "line": "'(I have to do the maintenance and administration\\nfor the building though.)'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0037", 
+            "line": "However, no doubt about it, I'll be able to take\\npart in the camping as I please."
+        }, 
+        "right": {
+            "id": "0037", 
+            "line": "However, there's no doubt about it -- I'll be\\nable to take part in the camping."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0038", 
+            "line": "'Whoa! It's so spicy!'"
+        }, 
+        "right": {
+            "id": "0038", 
+            "line": "'Whoa! It's so spicy!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0039", 
+            "line": "Kotori makes a real racket while eating her sesame,\\nmiso and chili oil noodles."
+        }, 
+        "right": {
+            "id": "0039", 
+            "line": "Kotori makes a real racket while eating her\\nsesame, miso, and chili oil noodles."
+        }
+    }, 
+    {
+        "left": {
+            "id": "003a", 
+            "line": "'Hat, get away from me! If you eat this,\\nyou'll die for sure!'"
+        }, 
+        "right": {
+            "id": "003a", 
+            "line": "'Hat, get away from me! If you eat this, you'll\\ndie for sure!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "003b", 
+            "line": "'Quack! Quack!'"
+        }, 
+        "right": {
+            "id": "003b", 
+            "line": "'Quack! Quack!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "003c", 
+            "line": "Kotori chases away Hat, who is after the vegetables\\nin the noodles."
+        }, 
+        "right": {
+            "id": "003c", 
+            "line": "Kotori chases away Hat, who is after the\\nvegetables in the noodles."
+        }
+    }, 
+    {
+        "left": {
+            "id": "003d", 
+            "line": "'Sluuuurp...... so spicy!!!! It's delicious but so\\nspicy!!'"
+        }, 
+        "right": {
+            "id": "003d", 
+            "line": "'Sluuuurp... So spicy!!!! It's delicious but so\\nspicy!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "003e", 
+            "line": "It sounds like she's complaining but she also seems\\nto like it."
+        }, 
+        "right": {
+            "id": "003e", 
+            "line": "It sounds like she's complaining but she also\\nseems to like it."
+        }
+    }, 
+    {
+        "left": {
+            "id": "003f", 
+            "line": "'By the way, you're not going back home, are you?'"
+        }, 
+        "right": {
+            "id": "003f", 
+            "line": "'By the way, you're not going back home, are\\nyou?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0040", 
+            "line": "I ask her."
+        }, 
+        "right": {
+            "id": "0040", 
+            "line": "I ask her."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0041", 
+            "line": "'Sluuuurp...... no, I'm not.'"
+        }, 
+        "right": {
+            "id": "0041", 
+            "line": "'Sluuuurp... No, I'm not.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0042", 
+            "line": "'Did you cancel going back so that you could do the\\ncamping thing?'"
+        }, 
+        "right": {
+            "id": "0042", 
+            "line": "'Did you cancel going back so that you could do\\nthe camping thing?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0043", 
+            "line": "'Hmm? No, that's not it. That was my plan from the\\nbeginning.'"
+        }, 
+        "right": {
+            "id": "0043", 
+            "line": "'Hmm? No, that's not it. That was my plan from\\nthe beginning.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0044", 
+            "line": "'Really?'"
+        }, 
+        "right": {
+            "id": "0044", 
+            "line": "'Really?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0045", 
+            "line": "Somehow, I'm not totally convinced and look at\\nKotori."
+        }, 
+        "right": {
+            "id": "0045", 
+            "line": "Somehow, I'm not totally convinced and look at\\nKotori."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0046", 
+            "line": "'......This is hard to eat, though.'"
+        }, 
+        "right": {
+            "id": "0046", 
+            "line": "'...This is hard to eat, though.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0047", 
+            "line": "'Oh, sorry.'"
+        }, 
+        "right": {
+            "id": "0047", 
+            "line": "'Oh, sorry.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0048", 
+            "line": "Kotori is disabled."
+        }, 
+        "right": {
+            "id": "0048", 
+            "line": "Kotori is disabled."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0049", 
+            "line": "Thinking about it, she would probably spend her\\nsummer holidays and so on at home."
+        }, 
+        "right": {
+            "id": "0049", 
+            "line": "Thinking about it, she would probably spend her\\nsummer holidays and so on at home."
+        }
+    }, 
+    {
+        "left": {
+            "id": "004a", 
+            "line": "It seems strange for her to be living here in the\\ndormitory, away from her parents."
+        }, 
+        "right": {
+            "id": "004a", 
+            "line": "It seems strange for her to be living here in the\\ndormitory, away from her parents."
+        }
+    }, 
+    {
+        "left": {
+            "id": "004b", 
+            "line": "'(I wonder if there's a reason for it......?)'"
+        }, 
+        "right": {
+            "id": "004b", 
+            "line": "'(I wonder if there's a reason for it...?)'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "004c", 
+            "line": "As I vacantly think to myself about those kinds of\\nthings......"
+        }, 
+        "right": {
+            "id": "004c", 
+            "line": "As I vacantly think to myself about those kinds\\nof things..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "004d", 
+            "line": "'I'm not going back either!'"
+        }, 
+        "right": {
+            "id": "004d", 
+            "line": "'I'm not going back either!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "004e", 
+            "line": "'Whaaaat!?'"
+        }, 
+        "right": {
+            "id": "004e", 
+            "line": "'Whaaaat!?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "004f", 
+            "line": "'......Why are you so surprised? Don't you want me\\nhere?'"
+        }, 
+        "right": {
+            "id": "004f", 
+            "line": "'...Why are you so surprised? Don't you want me\\nhere?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0050", 
+            "line": "'No, it's not that......'"
+        }, 
+        "right": {
+            "id": "0050", 
+            "line": "'No, it's not that...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0051", 
+            "line": "'My house is quite close to here. Actually,\\nI could come to this school without staying in the\\ndormitory.'"
+        }, 
+        "right": {
+            "id": "0051", 
+            "line": "'My house is quite close to here. Actually, I\\ncould come to this school without staying in the\\ndormitory.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0052", 
+            "line": "'So why do you stay here?'"
+        }, 
+        "right": {
+            "id": "0052", 
+            "line": "'So why do you stay here?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0053", 
+            "line": "'I got kicked out......'"
+        }, 
+        "right": {
+            "id": "0053", 
+            "line": "'I got kicked out...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0054", 
+            "line": "'Both my parents got remarried. I have a\\nstep-brother who's a similar age to me......'"
+        }, 
+        "right": {
+            "id": "0054", 
+            "line": "'Both my parents got remarried. I have a\\nstep-brother who's a similar age to me...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0055", 
+            "line": "It somehow seems quite serious."
+        }, 
+        "right": {
+            "id": "0055", 
+            "line": "It somehow seems quite serious."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0056", 
+            "line": "Kotori also subconsciously stops moving her\\nchopsticks."
+        }, 
+        "right": {
+            "id": "0056", 
+            "line": "Kotori also subconsciously stops moving her\\nchopsticks."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0057", 
+            "line": "'I always walk around in my underwear after I get\\nout of the bath, so my mother told me 'Get outta\\nhere!''"
+        }, 
+        "right": {
+            "id": "0057", 
+            "line": "'I always walk around in my underwear after I get\\nout of the bath, so my mother told me 'Get outta\\nhere!''"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0058", 
+            "line": "''Are you trying to mess up my marriage,\\nyou ungrateful so-and-so!?' she said.\\nDon't you think that's mean?'"
+        }, 
+        "right": {
+            "id": "0058", 
+            "line": "'Are you trying to mess up my marriage, you\\nungrateful so-and-so!?,' she said. Don't you\\nthink that's mean?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0059", 
+            "line": "Kotori muttered 'What a waste of time it was taking\\nyour story seriously......' as she went back to eating\\nher food."
+        }, 
+        "right": {
+            "id": "0059", 
+            "line": "Kotori muttered 'What a waste of time it was\\ntaking your story seriously...', as she went back\\nto eating her food."
+        }
+    }, 
+    {
+        "left": {
+            "id": "005a", 
+            "line": "'Hmm, I think that's kind of your fault for\\nwandering round in your underwear......'"
+        }, 
+        "right": {
+            "id": "005a", 
+            "line": "'Hmm, I think that's kind of your fault for\\nwandering round in your underwear...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "005b", 
+            "line": "Besides, after getting kicked out for that,\\nshe came here only to do exactly the same thing."
+        }, 
+        "right": {
+            "id": "005b", 
+            "line": "Besides, after getting kicked out for that, she\\ncame here only to do exactly the same thing."
+        }
+    }, 
+    {
+        "left": {
+            "id": "005c", 
+            "line": "'Well, I go there to show my face from time to time\\nbut basically, I'm gonna be staying here,\\nso let's have a good time.'"
+        }, 
+        "right": {
+            "id": "005c", 
+            "line": "'Well, I go there to show my face from time to\\ntime. But basically, I'm gonna be staying here,\\nso let's have a good time.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "005d", 
+            "line": "Somehow, it looks like the boarders won't all be\\nleaving for the summer after all."
+        }, 
+        "right": {
+            "id": "005d", 
+            "line": "Somehow, it looks like the boarders won't all be\\nleaving for the summer after all."
+        }
+    }, 
+    {
+        "left": {
+            "id": "005e", 
+            "line": "'No, not like that! You're putting on too much\\nresin!'"
+        }, 
+        "right": {
+            "id": "005e", 
+            "line": "'No, not like that! You're putting on too much\\nresin!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "005f", 
+            "line": "'Huh......!? If anything, it's too thin, isn't it?'"
+        }, 
+        "right": {
+            "id": "005f", 
+            "line": "'Huh...!? If anything, it's too thin, isn't it?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0060", 
+            "line": "'If there's a high ratio of resin, it will lose\\nstrength. I told you this before, didn't I?'"
+        }, 
+        "right": {
+            "id": "0060", 
+            "line": "'If there's a high ratio of resin, it will lose\\nstrength. I told you this before, didn't I?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0061", 
+            "line": "'But it's too thin, don't you think......?'"
+        }, 
+        "right": {
+            "id": "0061", 
+            "line": "'But it's too thin, don't you think...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0062", 
+            "line": "The first few days of 'camping'. The construction of\\nthe main wings was proceeding smoothly."
+        }, 
+        "right": {
+            "id": "0062", 
+            "line": "The first few days of 'camping'. The construction\\nof the main wings was proceeding smoothly."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0063", 
+            "line": "Ageha was focusing on the Robot Club,\\nand when she had time, she would come to the\\ngarage to see us."
+        }, 
+        "right": {
+            "id": "0063", 
+            "line": "Ageha was focusing on the Robotics Club, and when\\nshe had time, she would come to the garage to see\\nus."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0064", 
+            "line": "And to quarrel with Kotori."
+        }, 
+        "right": {
+            "id": "0064", 
+            "line": "...and to quarrel with Kotori."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0065", 
+            "line": "'Here, I'll show you how it's done.'"
+        }, 
+        "right": {
+            "id": "0065", 
+            "line": "'Here, I'll show you how it's done.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0066", 
+            "line": "'Oh, Amane, what're you doing?'"
+        }, 
+        "right": {
+            "id": "0066", 
+            "line": "'Oh, Amane, what're you doing?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0067", 
+            "line": "'Yeah that's right, leave this to us,\\nplease go over there to cool off.'"
+        }, 
+        "right": {
+            "id": "0067", 
+            "line": "'Yeah that's right, leave this to us. Please, go\\nover there to cool off.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0068", 
+            "line": "'......Uh, but I wanted to join in too......'"
+        }, 
+        "right": {
+            "id": "0068", 
+            "line": "'...Uh, but I wanted to join in too...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0069", 
+            "line": "Just like a grandmother who'd been treated like a\\nnuisance by her daughter and son-in-law, Amane,\\nlooking downhearted, went back to where she was\\nbefore."
+        }, 
+        "right": {
+            "id": "0069", 
+            "line": "Just like a grandmother who'd been treated like a\\nnuisance by her daughter and son-in-law, Amane,\\nlooking downhearted, went back to where she was\\nbefore."
+        }
+    }, 
+    {
+        "left": {
+            "id": "006a", 
+            "line": "'Hey, you guys. Don't be mean to Amane.'"
+        }, 
+        "right": {
+            "id": "006a", 
+            "line": "'Hey, you guys. Don't be mean to Amane.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "006b", 
+            "line": "'We're not being mean...... Are we?'"
+        }, 
+        "right": {
+            "id": "006b", 
+            "line": "'We're not being mean... Are we?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "006c", 
+            "line": "'That's right. We don't want it to fall apart in\\nmidair when you or Amane are flying, so we're just\\nbeing 'cruel to be kind'.'"
+        }, 
+        "right": {
+            "id": "006c", 
+            "line": "'That's right. We don't want it to fall apart in\\nmidair when you or Amane are flying, so we're\\njust being 'cruel to be kind'.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "006d", 
+            "line": "Even so, it's not gonna fall apart in midair."
+        }, 
+        "right": {
+            "id": "006d", 
+            "line": "Even so, it's not gonna fall apart in midair."
+        }
+    }, 
+    {
+        "left": {
+            "id": "006e", 
+            "line": "'It's fine. I would just......'"
+        }, 
+        "right": {
+            "id": "006e", 
+            "line": "'It's fine. I would just...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "006f", 
+            "line": "'See? You've knocked the confidence out of her.'"
+        }, 
+        "right": {
+            "id": "006f", 
+            "line": "'See? You've knocked the confidence out of her.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0070", 
+            "line": "'Uh......'"
+        }, 
+        "right": {
+            "id": "0070", 
+            "line": "'Uh...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0071", 
+            "line": "'OK, OK, please, help us over here. You can polish\\nthis finished part.'"
+        }, 
+        "right": {
+            "id": "0071", 
+            "line": "'OK, OK, please, help us over here. You can\\npolish this finished part.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0072", 
+            "line": "'Is that alright?'"
+        }, 
+        "right": {
+            "id": "0072", 
+            "line": "'Is that alright?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0073", 
+            "line": "'Y...yeah...... (Something like that can be redone\\nlater......)'"
+        }, 
+        "right": {
+            "id": "0073", 
+            "line": "'Y-...Yeah... (Something like that can be redone\\nlater...)'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0074", 
+            "line": "'Hee hee hee, I'm gonna polish it!'"
+        }, 
+        "right": {
+            "id": "0074", 
+            "line": "'Hee hee hee, I'm gonna polish it!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0075", 
+            "line": "Amane throws herself into polishing a part that was\\nfinished yesterday."
+        }, 
+        "right": {
+            "id": "0075", 
+            "line": "Amane throws herself into polishing a part that\\nwas finished yesterday."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0076", 
+            "line": "It's one of the huge plates."
+        }, 
+        "right": {
+            "id": "0076", 
+            "line": "It's one of the huge plates."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0077", 
+            "line": "It's built by joining several separately made\\nplates."
+        }, 
+        "right": {
+            "id": "0077", 
+            "line": "It's built by joining several separately made\\nplates."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0078", 
+            "line": "It's the top part of the left wing and will be\\nbonded to the underside part once it's complete."
+        }, 
+        "right": {
+            "id": "0078", 
+            "line": "It's the top part of the left wing and will be\\nbonded to the underside part once it's complete."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0079", 
+            "line": "Before that, we have to polish it until it's shiny\\nbut it takes a really long time."
+        }, 
+        "right": {
+            "id": "0079", 
+            "line": "Before that, we have to polish it until it's\\nshiny. But, it takes a really long time."
+        }
+    }, 
+    {
+        "left": {
+            "id": "007a", 
+            "line": "That's because it has such a large surface area."
+        }, 
+        "right": {
+            "id": "007a", 
+            "line": "That's because it has such a large surface area."
+        }
+    }, 
+    {
+        "left": {
+            "id": "007b", 
+            "line": "'It's so well made. Ageha, Kotori, you guys are\\ngreat......'"
+        }, 
+        "right": {
+            "id": "007b", 
+            "line": "'It's so well made. Ageha, Kotori, you guys are\\ngreat...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "007c", 
+            "line": "She admires it as she polishes."
+        }, 
+        "right": {
+            "id": "007c", 
+            "line": "She admires it as she polishes."
+        }
+    }, 
+    {
+        "left": {
+            "id": "007d", 
+            "line": "'......Yes, it looks like this will be a really good\\naircraft.'"
+        }, 
+        "right": {
+            "id": "007d", 
+            "line": "'...Yes, it looks like this will be a really good\\naircraft.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "007e", 
+            "line": "Listening to Amane talking to herself..."
+        }, 
+        "right": {
+            "id": "007e", 
+            "line": "Listening to Amane talking to herself..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "007f", 
+            "line": "'Hee hee!'"
+        }, 
+        "right": {
+            "id": "007f", 
+            "line": "'Hee hee!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0080", 
+            "line": "'Eh heh heh......'"
+        }, 
+        "right": {
+            "id": "0080", 
+            "line": "'Eh heh heh...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0081", 
+            "line": "They both smile awkwardly."
+        }, 
+        "right": {
+            "id": "0081", 
+            "line": "They both smile awkwardly."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0082", 
+            "line": "For some reason, they're happiest when being \\npraised by Amane."
+        }, 
+        "right": {
+            "id": "0082", 
+            "line": "For some reason, they're happiest when being\\npraised by Amane."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0083", 
+            "line": "'You guys seem to be having fun......'"
+        }, 
+        "right": {
+            "id": "0083", 
+            "line": "'You guys seem to be having fun...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0084", 
+            "line": "I go to help too but I don't get the same feeling of\\nactually making it as they do."
+        }, 
+        "right": {
+            "id": "0084", 
+            "line": "I go to help too, but I don't get the same\\nfeeling of actually making it as they do."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0085", 
+            "line": "'What do you mean? When these wings are finished,\\nyou're the one who's gonna be flying it.'"
+        }, 
+        "right": {
+            "id": "0085", 
+            "line": "'What do you mean? When these wings are finished,\\nyou're the one who's gonna be flying it.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0086", 
+            "line": "'That's right. You're the pilot.'"
+        }, 
+        "right": {
+            "id": "0086", 
+            "line": "'That's right. You're the pilot.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0087", 
+            "line": "'Y...yeah.'"
+        }, 
+        "right": {
+            "id": "0087", 
+            "line": "'Y-Yeah.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0088", 
+            "line": "Oh yeah."
+        }, 
+        "right": {
+            "id": "0088", 
+            "line": "Oh yeah."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0089", 
+            "line": "These wings that everyone is working so hard to\\nbuild, are what I will use to fly."
+        }, 
+        "right": {
+            "id": "0089", 
+            "line": "These wings that everyone is working so hard to\\nbuild, are what I will use to fly."
+        }
+    }, 
+    {
+        "left": {
+            "id": "008a", 
+            "line": "Riding on everyone's hopes......"
+        }, 
+        "right": {
+            "id": "008a", 
+            "line": "Riding on everyone's hopes..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "008b", 
+            "line": "As if words aren't enough, seeing everyone actually\\nworking on it like this, it really starts to feel\\nlike that."
+        }, 
+        "right": {
+            "id": "008b", 
+            "line": "As if words aren't enough, seeing everyone\\nactually working on it like this, it really\\nstarts to feel like that."
+        }
+    }, 
+    {
+        "left": {
+            "id": "008c", 
+            "line": "I never thought about that when I was riding a bike."
+        }, 
+        "right": {
+            "id": "008c", 
+            "line": "I never thought about that when I was riding a\\nbike."
+        }
+    }, 
+    {
+        "left": {
+            "id": "008d", 
+            "line": "'(Bikes are also made by someone, piece by piece,\\nand it's something they put their heart and soul\\ninto......)'"
+        }, 
+        "right": {
+            "id": "008d", 
+            "line": "'(Bikes are also made by someone, piece by piece,\\nand it's something they put their heart and soul\\ninto...)'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "008e", 
+            "line": "At that time, I was simply obsessed with riding,\\nand I guess I was still immature."
+        }, 
+        "right": {
+            "id": "008e", 
+            "line": "At that time, I was simply obsessed with riding,\\nand I guess I was still immature."
+        }
+    }, 
+    {
+        "left": {
+            "id": "008f", 
+            "line": "'OK, back to work!'"
+        }, 
+        "right": {
+            "id": "008f", 
+            "line": "'OK, back to work!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0090", 
+            "line": "'Yeah! I wanna get this finished today!'"
+        }, 
+        "right": {
+            "id": "0090", 
+            "line": "'Yeah! I wanna get this finished today!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0091", 
+            "line": "After being praised by Amane, they looked like they\\nwere even more fired up."
+        }, 
+        "right": {
+            "id": "0091", 
+            "line": "After being praised by Amane, they looked like\\nthey were even more fired up."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0092", 
+            "line": "Then, the sun went down."
+        }, 
+        "right": {
+            "id": "0092", 
+            "line": "Then, the sun went down."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0093", 
+            "line": "About the same time, Ageha, who had been to the\\nRobot Club for a while, came back and said 'Alright,\\nhere we go!' "
+        }, 
+        "right": {
+            "id": "0093", 
+            "line": "About the same time, Ageha, who had been to the\\nRobotics Club for a while, came back and said\\n'Alright, here we go!"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0094", 
+            "line": "In other words, it's time to show what our 'camping'\\nhere is all about."
+        }, 
+        "right": {
+            "id": "0094", 
+            "line": "In other words, it's time to show what our\\n'camping' here is all about."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0095", 
+            "line": "'I'm comin' in!'"
+        }, 
+        "right": {
+            "id": "0095", 
+            "line": "'I'm comin' in!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0096", 
+            "line": "'Huh? An-chan?'"
+        }, 
+        "right": {
+            "id": "0096", 
+            "line": "'Huh? An-chan?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0097", 
+            "line": "'Yo, Aoi.'"
+        }, 
+        "right": {
+            "id": "0097", 
+            "line": "'Yo, Aoi.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0098", 
+            "line": "Carrying a big watermelon under his arm as he came\\ninto the garage, was An-chan."
+        }, 
+        "right": {
+            "id": "0098", 
+            "line": "Carrying a big watermelon under his arm as he\\ncame into the garage, was An-chan."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0099", 
+            "line": "'......I'm coming in too.'"
+        }, 
+        "right": {
+            "id": "0099", 
+            "line": "'...I'm coming in too.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "009a", 
+            "line": "Behind him, was Hotaru."
+        }, 
+        "right": {
+            "id": "009a", 
+            "line": "Behind him, was Hotaru."
+        }
+    }, 
+    {
+        "left": {
+            "id": "009b", 
+            "line": "'?'"
+        }, 
+        "right": {
+            "id": "009b", 
+            "line": "'?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "009c", 
+            "line": "'What's that, An-chan??'"
+        }, 
+        "right": {
+            "id": "009c", 
+            "line": "'What's that, An-chan??'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "009d", 
+            "line": "'I was given it.'"
+        }, 
+        "right": {
+            "id": "009d", 
+            "line": "'I was given it.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "009e", 
+            "line": "'Your mom gave it to me but I didn't think my family\\nand I would be able to eat all of it,\\nso I brought it here.'"
+        }, 
+        "right": {
+            "id": "009e", 
+            "line": "'Your mom gave it to me, but I didn't think my\\nfamily and I would be able to eat all of it. So,\\nI brought it here.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "009f", 
+            "line": "An-chan says 'Right?' as if asking Hotaru to confirm\\nhis story."
+        }, 
+        "right": {
+            "id": "009f", 
+            "line": "An-chan says 'Right?' as if asking Hotaru to\\nconfirm his story."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a0", 
+            "line": "Hotaru must be the one who brought that big\\nwatermelon to An-chan's house."
+        }, 
+        "right": {
+            "id": "00a0", 
+            "line": "Hotaru must be the one who brought that big\\nwatermelon to An-chan's house."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a1", 
+            "line": "Passing the watermelon to me, An-chan looks around\\nthe inside of the garage."
+        }, 
+        "right": {
+            "id": "00a1", 
+            "line": "Passing the watermelon to me, An-chan looks\\naround the inside of the garage."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a2", 
+            "line": "'Hey, it hasn't changed a bit...... It's still messy\\nand dirty.'"
+        }, 
+        "right": {
+            "id": "00a2", 
+            "line": "'Hey, it hasn't changed a bit... It's still messy\\nand dirty.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a3", 
+            "line": "'An-chan, have you been here before?'"
+        }, 
+        "right": {
+            "id": "00a3", 
+            "line": "'An-chan, have you been here before?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a4", 
+            "line": "'Yeah, a long time ago.'"
+        }, 
+        "right": {
+            "id": "00a4", 
+            "line": "'Yeah, a long time ago.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a5", 
+            "line": "An-chan graduated from this school."
+        }, 
+        "right": {
+            "id": "00a5", 
+            "line": "An-chan graduated from this school."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a6", 
+            "line": "That's why it's not really that strange but this\\ngarage is in a deserted place far from the school\\nbuilding."
+        }, 
+        "right": {
+            "id": "00a6", 
+            "line": "That's why it's not really that strange. But,\\nthis garage is in a deserted place far from the\\nschool building."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a7", 
+            "line": "An-chan walks further inside."
+        }, 
+        "right": {
+            "id": "00a7", 
+            "line": "An-chan walks further inside."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a8", 
+            "line": "Inside was Amane, muttering and looking at the\\ndrawing board."
+        }, 
+        "right": {
+            "id": "00a8", 
+            "line": "Inside was Amane, muttering and looking at the\\ndrawing board."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a9", 
+            "line": "She was so deep in concentration, she didn't notice\\nat all what was going on."
+        }, 
+        "right": {
+            "id": "00a9", 
+            "line": "She was so deep in concentration, she didn't\\nnotice at all what was going on."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00aa", 
+            "line": "'To reduce the drag, I guess we need curved surfaces\\nhere......'"
+        }, 
+        "right": {
+            "id": "00aa", 
+            "line": "'To reduce the drag, I guess we need curved\\nsurfaces here...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ab", 
+            "line": "'Still the same old you, Amane.'"
+        }, 
+        "right": {
+            "id": "00ab", 
+            "line": "'Still the same old you, Amane.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ac", 
+            "line": "'......?'"
+        }, 
+        "right": {
+            "id": "00ac", 
+            "line": "'...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ad", 
+            "line": "Realizing that An-chan was looking at her,\\nAmane raised her head."
+        }, 
+        "right": {
+            "id": "00ad", 
+            "line": "Realizing that An-chan was looking at her, Amane\\nraised her head."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ae", 
+            "line": "Her expression looked like she was completely taken\\naback."
+        }, 
+        "right": {
+            "id": "00ae", 
+            "line": "Her expression looked like she was completely\\ntaken aback."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00af", 
+            "line": "'Tatsuya......?'"
+        }, 
+        "right": {
+            "id": "00af", 
+            "line": "'Tatsuya...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b0", 
+            "line": "'Yo.'"
+        }, 
+        "right": {
+            "id": "00b0", 
+            "line": "'Yo.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b1", 
+            "line": "'Is that you, Tatsuya!?'"
+        }, 
+        "right": {
+            "id": "00b1", 
+            "line": "'Is that you, Tatsuya!?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b2", 
+            "line": "'It's been a while.'"
+        }, 
+        "right": {
+            "id": "00b2", 
+            "line": "'It's been a while.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b3", 
+            "line": "As An-chan spoke to her, Amane got out of her chair\\nand walked round and round him."
+        }, 
+        "right": {
+            "id": "00b3", 
+            "line": "As An-chan spoke to her, Amane got out of her\\nchair and walked round and round him."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b4", 
+            "line": "Then, she pats him on the shoulder..."
+        }, 
+        "right": {
+            "id": "00b4", 
+            "line": "Then, she pats him on the shoulder..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b5", 
+            "line": "'It really is you, Tatsuya! It's been such a long\\ntime!'"
+        }, 
+        "right": {
+            "id": "00b5", 
+            "line": "'It really is you, Tatsuya! It's been such a long\\ntime!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b6", 
+            "line": "'What? What? What's all this about?'"
+        }, 
+        "right": {
+            "id": "00b6", 
+            "line": "'What? What? What's all this about?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b7", 
+            "line": "'I dunno......'"
+        }, 
+        "right": {
+            "id": "00b7", 
+            "line": "'I dunno...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b8", 
+            "line": "'That's what I wanna know too......'"
+        }, 
+        "right": {
+            "id": "00b8", 
+            "line": "'That's what I wanna know too...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b9", 
+            "line": "It seems that these two are old acquaintances."
+        }, 
+        "right": {
+            "id": "00b9", 
+            "line": "It seems that these two are old acquaintances."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ba", 
+            "line": "Hotaru starts cutting the watermelon with one of the\\nutility knives used in our work."
+        }, 
+        "right": {
+            "id": "00ba", 
+            "line": "Hotaru starts cutting the watermelon with one of\\nthe utility knives used in our work."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00bb", 
+            "line": "'This brings back memories...... But what is this,\\nall of a sudden?'"
+        }, 
+        "right": {
+            "id": "00bb", 
+            "line": "'This brings back memories... But what is this,\\nall of a sudden?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00bc", 
+            "line": "'Before, you asked Aoi, to get some glider parts,\\ndidn't you?'"
+        }, 
+        "right": {
+            "id": "00bc", 
+            "line": "'Before, you asked Aoi, to get some glider parts,\\ndidn't you?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00bd", 
+            "line": "'I thought that it might have been you.'"
+        }, 
+        "right": {
+            "id": "00bd", 
+            "line": "'I thought that it might have been you.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00be", 
+            "line": "'OK, I have a question!'"
+        }, 
+        "right": {
+            "id": "00be", 
+            "line": "'OK, I have a question!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00bf", 
+            "line": "Kotori puts her hand straight up."
+        }, 
+        "right": {
+            "id": "00bf", 
+            "line": "Kotori puts her hand straight up."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c0", 
+            "line": "'Go ahead, missy.'"
+        }, 
+        "right": {
+            "id": "00c0", 
+            "line": "'Go ahead, missy.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c1", 
+            "line": "'......Do you two know each other?'"
+        }, 
+        "right": {
+            "id": "00c1", 
+            "line": "'...Do you two know each other?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c2", 
+            "line": "Ageha and I wanted to ask too, but somehow found it\\nhard to ask, whereas Kotori just went straight in\\nand did it anyway. Nice."
+        }, 
+        "right": {
+            "id": "00c2", 
+            "line": "Ageha and I wanted to ask too, but somehow found\\nit hard to ask, whereas Kotori just went straight\\nin and did it anyway. Nice."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c3", 
+            "line": "'Yeah. I graduated from here and Amane was here at\\nthe same time as me.'"
+        }, 
+        "right": {
+            "id": "00c3", 
+            "line": "'Yeah. I graduated from here and Amane was here\\nat the same time as me.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c4", 
+            "line": "Ageha and I count An-chan's age on our fingers."
+        }, 
+        "right": {
+            "id": "00c4", 
+            "line": "Ageha and I count An-chan's age on our fingers."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c5", 
+            "line": "'You'd be about the same age......'"
+        }, 
+        "right": {
+            "id": "00c5", 
+            "line": "'You'd be about the same age...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c6", 
+            "line": "An-chan, who had started working, and Amane,\\nwho was still a student."
+        }, 
+        "right": {
+            "id": "00c6", 
+            "line": "An-chan, who had started working, and Amane, who\\nwas still a student."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c7", 
+            "line": "However, there was no mistaking it, these two were\\nthe same age. "
+        }, 
+        "right": {
+            "id": "00c7", 
+            "line": "However, there was no mistaking it, these two\\nwere the same age."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c8", 
+            "line": "'We haven't met since I graduated but you're still\\ndoing it, aren't you?'"
+        }, 
+        "right": {
+            "id": "00c8", 
+            "line": "'We haven't met since I graduated but you're\\nstill doing it, aren't you?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c9", 
+            "line": "An-chan smiles as he speaks."
+        }, 
+        "right": {
+            "id": "00c9", 
+            "line": "An-chan smiles as he speaks."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ca", 
+            "line": "'Are you still aiming for it?'"
+        }, 
+        "right": {
+            "id": "00ca", 
+            "line": "'Are you still aiming for it?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00cb", 
+            "line": "'Yeah.'"
+        }, 
+        "right": {
+            "id": "00cb", 
+            "line": "'Yeah.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00cc", 
+            "line": "'I can't give up until I see the passage of cloud\\nwith my own eyes.'"
+        }, 
+        "right": {
+            "id": "00cc", 
+            "line": "'I can't give up until I see the passage of cloud\\nwith my own eyes.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00cd", 
+            "line": "'I see. I remember now......'"
+        }, 
+        "right": {
+            "id": "00cd", 
+            "line": "'I see. I remember now...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ce", 
+            "line": "Somehow, it feels like we can't join in with this\\nconversation."
+        }, 
+        "right": {
+            "id": "00ce", 
+            "line": "Somehow, it feels like we can't join in with this\\nconversation."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00cf", 
+            "line": "And then..."
+        }, 
+        "right": {
+            "id": "00cf", 
+            "line": "And then..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d0", 
+            "line": "'I've cut the watermelon.'"
+        }, 
+        "right": {
+            "id": "00d0", 
+            "line": "'I've cut the watermelon.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d1", 
+            "line": "Hotaru put the watermelon on a dish (the one that\\nKotori made from FRP) and brought it over."
+        }, 
+        "right": {
+            "id": "00d1", 
+            "line": "Hotaru put the watermelon on a dish (the one that\\nKotori made from FRP) and brought it over."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d2", 
+            "line": "'It's not cut very well though.'"
+        }, 
+        "right": {
+            "id": "00d2", 
+            "line": "'It's not cut very well though.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d3", 
+            "line": "Because she tried to cut it with a utility knife,\\nthe shapes of the slices are a little strange.\\nIt still tastes the same though."
+        }, 
+        "right": {
+            "id": "00d3", 
+            "line": "Because she tried to cut it with a utility knife,\\nthe shapes of the slices are a little strange. It\\nstill tastes the same though."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d4", 
+            "line": "Everyone picks up a slice and takes a big bite."
+        }, 
+        "right": {
+            "id": "00d4", 
+            "line": "Everyone picks up a slice and takes a big bite."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d5", 
+            "line": "'It's not cold, but it's delicious!'"
+        }, 
+        "right": {
+            "id": "00d5", 
+            "line": "'It's not cold, but it's delicious!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d6", 
+            "line": "'It is! Wow, it's really sweet!'"
+        }, 
+        "right": {
+            "id": "00d6", 
+            "line": "'It is! Wow, it's really sweet!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d7", 
+            "line": "'Have some too, Amane......'"
+        }, 
+        "right": {
+            "id": "00d7", 
+            "line": "'Have some too, Amane...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d8", 
+            "line": "'Thanks.'"
+        }, 
+        "right": {
+            "id": "00d8", 
+            "line": "'Thanks.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d9", 
+            "line": "Amane takes the slice of watermelon offered to her\\nby Hotaru."
+        }, 
+        "right": {
+            "id": "00d9", 
+            "line": "Amane takes the slice of watermelon offered to\\nher by Hotaru."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00da", 
+            "line": "'I haven't had watermelon in ages. How many years\\nhas it been......?'"
+        }, 
+        "right": {
+            "id": "00da", 
+            "line": "'I haven't had watermelon in ages. How many years\\nhas it been...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00db", 
+            "line": "As she says that, she seems a little lost as to how\\nto eat it, and looking round at everyone else,\\nshe copies the way we do it and takes a big bite."
+        }, 
+        "right": {
+            "id": "00db", 
+            "line": "As she says that, she seems a little lost as to\\nhow to eat it, and looking round at everyone\\nelse, she copies the way we do it and takes a big\\nbite."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00dc", 
+            "line": "I also eat it in the same way, taking bites and not\\nworrying about manners. When it's summer,\\nyou've just gotta have watermelon."
+        }, 
+        "right": {
+            "id": "00dc", 
+            "line": "I also eat it in the same way, taking bites and\\nnot worrying about manners. When it's summer,\\nyou've just gotta have watermelon."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00dd", 
+            "line": "'What are you doing these days, Tatsuya?'"
+        }, 
+        "right": {
+            "id": "00dd", 
+            "line": "'What are you doing these days, Tatsuya?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00de", 
+            "line": "'I work in the factory at my family's house.'"
+        }, 
+        "right": {
+            "id": "00de", 
+            "line": "'I work in the factory at my family's house.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00df", 
+            "line": "'Oh, that place...... I read about it recently when it\\nfeatured in a magazine.'"
+        }, 
+        "right": {
+            "id": "00df", 
+            "line": "'Oh, that place... I read about it recently when\\nit featured in a magazine.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e0", 
+            "line": "'Huh? You were in a magazine, An-chan?'"
+        }, 
+        "right": {
+            "id": "00e0", 
+            "line": "'Huh? You were in a magazine, An-chan?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e1", 
+            "line": "'Not me. Our factory was in there.'"
+        }, 
+        "right": {
+            "id": "00e1", 
+            "line": "'Not me. Our factory was in there.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e2", 
+            "line": "'What kind of article was it?'"
+        }, 
+        "right": {
+            "id": "00e2", 
+            "line": "'What kind of article was it?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e3", 
+            "line": "'It was about town factories in Japan that NASA had\\nrequested rocket parts from.'"
+        }, 
+        "right": {
+            "id": "00e3", 
+            "line": "'It was about town factories in Japan that NASA\\nhad requested rocket parts from.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e4", 
+            "line": "'Town factories make rocket parts??'"
+        }, 
+        "right": {
+            "id": "00e4", 
+            "line": "'Town factories make rocket parts??'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e5", 
+            "line": "'There are some parts that can't be made well by\\nmachines. Craftsmen like us make things like that.'"
+        }, 
+        "right": {
+            "id": "00e5", 
+            "line": "'There are some parts that can't be made well by\\nmachines. Craftsmen like us make things like\\nthat.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e6", 
+            "line": "'Do you make them too, An-chan?'"
+        }, 
+        "right": {
+            "id": "00e6", 
+            "line": "'Do you make them too, An-chan?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e7", 
+            "line": "'I helped with the parts that were in the article.'"
+        }, 
+        "right": {
+            "id": "00e7", 
+            "line": "'I helped with the parts that were in the\\narticle.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e8", 
+            "line": "'Yes, the launch was a success, so they must be\\nflying in space right now.'"
+        }, 
+        "right": {
+            "id": "00e8", 
+            "line": "'Yes, the launch was a success, so they must be\\nflying in space right now.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e9", 
+            "line": "'The parts that An-chan made are flying through\\nspace......?'"
+        }, 
+        "right": {
+            "id": "00e9", 
+            "line": "'The parts that An-chan made are flying through\\nspace...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ea", 
+            "line": "That's just so incredible, it feels really\\nmysterious."
+        }, 
+        "right": {
+            "id": "00ea", 
+            "line": "That's just so incredible, it feels really\\nmysterious."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00eb", 
+            "line": "'Whoa...... listening to your story, An-chan,\\nhas made me feel all tingly!'"
+        }, 
+        "right": {
+            "id": "00eb", 
+            "line": "'Whoa... listening to your story, An-chan, has\\nmade me feel all tingly!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ec", 
+            "line": "'Kotori, let's get back to work!'"
+        }, 
+        "right": {
+            "id": "00ec", 
+            "line": "'Kotori, let's get back to work!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ed", 
+            "line": "'Yum yum, munch munch...... gulp! OK!'"
+        }, 
+        "right": {
+            "id": "00ed", 
+            "line": "'Yum yum, munch munch... gulp! OK!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ee", 
+            "line": "Kotori, who was still halfway through her\\nwatermelon, ate the rest of it in one go,\\nand went after Ageha."
+        }, 
+        "right": {
+            "id": "00ee", 
+            "line": "Kotori, who was still halfway through her\\nwatermelon, ate the rest of it in one go, and\\nwent after Ageha."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ef", 
+            "line": "'Let's get this baby flying!'"
+        }, 
+        "right": {
+            "id": "00ef", 
+            "line": "'Let's get this baby flying!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f0", 
+            "line": "'Yeah!'"
+        }, 
+        "right": {
+            "id": "00f0", 
+            "line": "'Yeah!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f1", 
+            "line": "'There's a good mood about the place.'"
+        }, 
+        "right": {
+            "id": "00f1", 
+            "line": "'There's a good mood about the place.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f2", 
+            "line": "'Yeah. It feels just like old times, right?'"
+        }, 
+        "right": {
+            "id": "00f2", 
+            "line": "'Yeah. It feels just like old times, right?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f3", 
+            "line": "'......It sure does.'"
+        }, 
+        "right": {
+            "id": "00f3", 
+            "line": "'...It sure does.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f4", 
+            "line": "'What do you think of this?'"
+        }, 
+        "right": {
+            "id": "00f4", 
+            "line": "'What do you think of this?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f5", 
+            "line": "'......Yeah, it looks good.'"
+        }, 
+        "right": {
+            "id": "00f5", 
+            "line": "'...Yeah, it looks good.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f6", 
+            "line": "'Ageha, he said it's good!'"
+        }, 
+        "right": {
+            "id": "00f6", 
+            "line": "'Ageha, he said it's good!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f7", 
+            "line": "'An-chan, look at this.'"
+        }, 
+        "right": {
+            "id": "00f7", 
+            "line": "'An-chan, look at this.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f8", 
+            "line": "'OK, hold on.'"
+        }, 
+        "right": {
+            "id": "00f8", 
+            "line": "'OK, hold on.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f9", 
+            "line": "After everyone had eaten the watermelon,\\nAn-chan and Hotaru helped with the rest of the work\\nin garage."
+        }, 
+        "right": {
+            "id": "00f9", 
+            "line": "After everyone had eaten the watermelon, An-chan\\nand Hotaru helped with the rest of the work in\\ngarage."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00fa", 
+            "line": "Having a couple of extra hands was a big help,\\nand after all, An-chan is a pro. He showed us how to\\ndo things, which was really encouraging."
+        }, 
+        "right": {
+            "id": "00fa", 
+            "line": "Having a couple of extra hands was a big help,\\nand after all, An-chan is a pro. He showed us how\\nto do things, which was really encouraging."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00fb", 
+            "line": "Thanks to that, we got an unexpected amount of work\\ndone."
+        }, 
+        "right": {
+            "id": "00fb", 
+            "line": "Thanks to that, we got an unexpected amount of\\nwork done."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00fc", 
+            "line": "'Just from the work we did today, we've been able to\\nshorten the schedule, haven't we?'"
+        }, 
+        "right": {
+            "id": "00fc", 
+            "line": "'Just from the work we did today, we've been able\\nto shorten the schedule, haven't we?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00fd", 
+            "line": "'We got about four or five days' work done.'"
+        }, 
+        "right": {
+            "id": "00fd", 
+            "line": "'We got about four or five days' work done.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00fe", 
+            "line": "'This An-chan guy you know, he's a unbelievable.\\nHow did he get to be like that?'"
+        }, 
+        "right": {
+            "id": "00fe", 
+            "line": "'This An-chan guy you know, he's unbelievable.\\nHow did he get to be like that?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ff", 
+            "line": "As we spoke together, Amane was sitting away from\\nus, by herself, watching us."
+        }, 
+        "right": {
+            "id": "00ff", 
+            "line": "As we spoke together, Amane was sitting away from\\nus, by herself, watching us."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0100", 
+            "line": "I go over to her for some reason."
+        }, 
+        "right": {
+            "id": "0100", 
+            "line": "I go over to her for some reason."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0101", 
+            "line": "'Ha ha ha, it sure is lively, isn't it?'"
+        }, 
+        "right": {
+            "id": "0101", 
+            "line": "'Ha ha ha, it sure is lively, isn't it?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0102", 
+            "line": "'This is the first time that this many people have\\ngathered here.'"
+        }, 
+        "right": {
+            "id": "0102", 
+            "line": "'This is the first time that this many people\\nhave gathered here.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0103", 
+            "line": "Amane closes her eyes a little as she smiles\\nhappily."
+        }, 
+        "right": {
+            "id": "0103", 
+            "line": "Amane closes her eyes a little as she smiles\\nhappily."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0104", 
+            "line": "'I see...... So you and Tatsuya are childhood friends,\\nhuh?'"
+        }, 
+        "right": {
+            "id": "0104", 
+            "line": "'I see... So you and Tatsuya are childhood\\nfriends, huh?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0105", 
+            "line": "'I was surprised too. That you and An-chan know\\neach other.'"
+        }, 
+        "right": {
+            "id": "0105", 
+            "line": "'I was surprised too. That you and An-chan know\\neach other.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0106", 
+            "line": "'......Tatsuya is like a senior to you guys,\\nright? He used to be a member of this club.'"
+        }, 
+        "right": {
+            "id": "0106", 
+            "line": "'...Tatsuya is like a senior to you guys, right?\\nHe used to be a member of this club.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0107", 
+            "line": "'What's that, you say?'"
+        }, 
+        "right": {
+            "id": "0107", 
+            "line": "'What's that, you say?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0108", 
+            "line": "From what I heard of their conversation,\\nI thought that might've been the case."
+        }, 
+        "right": {
+            "id": "0108", 
+            "line": "From what I heard of their conversation, I\\nthought that might've been the case."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0109", 
+            "line": "'He graduated first though. The one who restored the\\ncockpit was Tatsuya.'"
+        }, 
+        "right": {
+            "id": "0109", 
+            "line": "'He graduated first though. The one who restored\\nthe cockpit was Tatsuya.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "010a", 
+            "line": "'He's not like me; he's good with his hands.\\nIf Tatsuya had made them, the main wings would\\nnever have broken.'"
+        }, 
+        "right": {
+            "id": "010a", 
+            "line": "'He's not like me; he's good with his hands. If\\nTatsuya had made them, the main wings would never\\nhave broken.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "010b", 
+            "line": "'Is that so......?'"
+        }, 
+        "right": {
+            "id": "010b", 
+            "line": "'Is that so...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "010c", 
+            "line": "I didn't know but I had been touching something\\nAn-chan had left behind."
+        }, 
+        "right": {
+            "id": "010c", 
+            "line": "I didn't know but I had been touching something\\nAn-chan had left behind."
+        }
+    }, 
+    {
+        "left": {
+            "id": "010d", 
+            "line": "'(But why didn't An-chan tell me that he used to be\\na member of the Soaring Club......?)'"
+        }, 
+        "right": {
+            "id": "010d", 
+            "line": "'(But why didn't An-chan tell me that he used to\\nbe a member of the Soaring Club...?)'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "010e", 
+            "line": "Is it just because he didn't think there was any\\nneed to tell me?"
+        }, 
+        "right": {
+            "id": "010e", 
+            "line": "Is it just because he didn't think there was any\\nneed to tell me?"
+        }
+    }, 
+    {
+        "left": {
+            "id": "010f", 
+            "line": "Or is there some other reason......?"
+        }, 
+        "right": {
+            "id": "010f", 
+            "line": "Or is there some other reason...?"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0110", 
+            "line": "'Aoi, stop being lazy and come over here and help!'"
+        }, 
+        "right": {
+            "id": "0110", 
+            "line": "'Aoi, stop being lazy and come over here and\\nhelp!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0111", 
+            "line": "'That's right! We're gonna do as much as we can\\ntoday!'"
+        }, 
+        "right": {
+            "id": "0111", 
+            "line": "'That's right! We're gonna do as much as we can\\ntoday!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0112", 
+            "line": "'Oh, sorry! OK, I'm gonna go help.'"
+        }, 
+        "right": {
+            "id": "0112", 
+            "line": "'Oh, sorry! OK, I'm gonna go help.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0113", 
+            "line": "'Sure.'"
+        }, 
+        "right": {
+            "id": "0113", 
+            "line": "'Sure.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0114", 
+            "line": "As I go to join the circle of people,\\nAmane smiles as she watches me go."
+        }, 
+        "right": {
+            "id": "0114", 
+            "line": "As I go to join the circle of people, Amane\\nsmiles as she watches me go."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0115", 
+            "line": "And so, our 'camping' went on late into the night."
+        }, 
+        "right": {
+            "id": "0115", 
+            "line": "And so, our 'camping' went on late into the\\nnight."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0116", 
+            "line": "'Well then, we'd better head back. Hotaru's got a\\ncurfew too.'"
+        }, 
+        "right": {
+            "id": "0116", 
+            "line": "'Well then, we'd better head back. Hotaru's got a\\ncurfew too.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0117", 
+            "line": "An-chan came here in a small truck from the factory\\nand it seems like he's going to drop Hotaru off on\\nthe way home."
+        }, 
+        "right": {
+            "id": "0117", 
+            "line": "An-chan came here in a small truck from the\\nfactory and it seems like he's going to drop\\nHotaru off on the way home."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0118", 
+            "line": "'Thanks for today, An-chan. You really helped us\\nout.'"
+        }, 
+        "right": {
+            "id": "0118", 
+            "line": "'Thanks for today, An-chan. You really helped us\\nout.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0119", 
+            "line": "'Thank you so much!'"
+        }, 
+        "right": {
+            "id": "0119", 
+            "line": "'Thank you so much!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "011a", 
+            "line": "Following Ageha, Kotori also bows her head."
+        }, 
+        "right": {
+            "id": "011a", 
+            "line": "Following Ageha, Kotori also bows her head."
+        }
+    }, 
+    {
+        "left": {
+            "id": "011b", 
+            "line": "Speaking of which, I've never seen Kotori be so\\npolite before....."
+        }, 
+        "right": {
+            "id": "011b", 
+            "line": "Speaking of which, I've never seen Kotori be so\\npolite before..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "011c", 
+            "line": "'Hey, if it's for you guys, I'll help you out\\nanytime!'"
+        }, 
+        "right": {
+            "id": "011c", 
+            "line": "'Hey, if it's for you guys, I'll help you out\\nanytime!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "011d", 
+            "line": "'Besides, it's like going back to my school days.\\nIt was fun.'"
+        }, 
+        "right": {
+            "id": "011d", 
+            "line": "'Besides, it's like going back to my school days.\\nIt was fun.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "011e", 
+            "line": "'See ya, Amane.'"
+        }, 
+        "right": {
+            "id": "011e", 
+            "line": "'See ya, Amane.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "011f", 
+            "line": "'Yeah, see ya.'"
+        }, 
+        "right": {
+            "id": "011f", 
+            "line": "'Yeah, see ya.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0120", 
+            "line": "'Hotaru, can you tell Mom I'll be back late?'"
+        }, 
+        "right": {
+            "id": "0120", 
+            "line": "'Hotaru, can you tell Mom I'll be back late?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0121", 
+            "line": "'OK, will do.'"
+        }, 
+        "right": {
+            "id": "0121", 
+            "line": "'OK, will do.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0122", 
+            "line": "Taking Hotaru with him, An-chan left."
+        }, 
+        "right": {
+            "id": "0122", 
+            "line": "Taking Hotaru with him, An-chan left."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0123", 
+            "line": "The usual members were still here."
+        }, 
+        "right": {
+            "id": "0123", 
+            "line": "The usual members were still here."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0124", 
+            "line": "'OK, we'd better get ready to go home.'"
+        }, 
+        "right": {
+            "id": "0124", 
+            "line": "'OK, we'd better get ready to go home.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0125", 
+            "line": "'You're right. We've got nothing else to do until\\nthe resin dries.'"
+        }, 
+        "right": {
+            "id": "0125", 
+            "line": "'You're right. We've got nothing else to do until\\nthe resin dries.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0126", 
+            "line": "'Amane, are you going to stay here for a little\\nlonger today too?'"
+        }, 
+        "right": {
+            "id": "0126", 
+            "line": "'Amane, are you going to stay here for a little\\nlonger today too?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0127", 
+            "line": "'Yeah.'"
+        }, 
+        "right": {
+            "id": "0127", 
+            "line": "'Yeah.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0128", 
+            "line": "Amane answers as she goes back to the seat by the\\ndrawing board."
+        }, 
+        "right": {
+            "id": "0128", 
+            "line": "Amane answers as she goes back to the seat by the\\ndrawing board."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0129", 
+            "line": "'Amane, what time do you usually go home?'"
+        }, 
+        "right": {
+            "id": "0129", 
+            "line": "'Amane, what time do you usually go home?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "012a", 
+            "line": "On most days, she stays here working even after the\\nrest of us have gone home."
+        }, 
+        "right": {
+            "id": "012a", 
+            "line": "On most days, she stays here working even after\\nthe rest of us have gone home."
+        }
+    }, 
+    {
+        "left": {
+            "id": "012b", 
+            "line": "'Now that you mention it, she's always here before\\nwe are in the mornings.'"
+        }, 
+        "right": {
+            "id": "012b", 
+            "line": "'Now that you mention it, she's always here\\nbefore we are in the mornings.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "012c", 
+            "line": "'That's true.'"
+        }, 
+        "right": {
+            "id": "012c", 
+            "line": "'That's true.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "012d", 
+            "line": "'What time do you get here?'"
+        }, 
+        "right": {
+            "id": "012d", 
+            "line": "'What time do you get here?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "012e", 
+            "line": "'Hmm? I dunno.'"
+        }, 
+        "right": {
+            "id": "012e", 
+            "line": "'Hmm? I dunno.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "012f", 
+            "line": "She's already got half of her attention on the\\ndrawing board, so doesn't really put much effort\\ninto her answer."
+        }, 
+        "right": {
+            "id": "012f", 
+            "line": "She's already got half of her attention on the\\ndrawing board, so doesn't really put much effort\\ninto her answer."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0130", 
+            "line": "'Well then......'"
+        }, 
+        "right": {
+            "id": "0130", 
+            "line": "'Well then...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0131", 
+            "line": "'Huh!? Could it be......?'"
+        }, 
+        "right": {
+            "id": "0131", 
+            "line": "'Huh!? Could it be...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0132", 
+            "line": "At that moment, everyone arrived at the same\\nanswer."
+        }, 
+        "right": {
+            "id": "0132", 
+            "line": "At that moment, everyone arrived at the same\\nanswer."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0133", 
+            "line": "'Amane, you don't go home, do you?'"
+        }, 
+        "right": {
+            "id": "0133", 
+            "line": "'Amane, you don't go home, do you?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0134", 
+            "line": "'In other words, do you live here?'"
+        }, 
+        "right": {
+            "id": "0134", 
+            "line": "'In other words, do you live here?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0135", 
+            "line": "'Hmm? Yeah.'"
+        }, 
+        "right": {
+            "id": "0135", 
+            "line": "'Hmm? Yeah.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0136", 
+            "line": "I recalled the conversation I'd had with her a few\\ndays ago."
+        }, 
+        "right": {
+            "id": "0136", 
+            "line": "I recalled the conversation I'd had with her a\\nfew days ago."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0137", 
+            "line": "......Yesterday, I went back home for the first time\\nages."
+        }, 
+        "right": {
+            "id": "0137", 
+            "line": "...Yesterday, I went back home for the first time\\nages."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0138", 
+            "line": "Yes, that's what she said."
+        }, 
+        "right": {
+            "id": "0138", 
+            "line": "Yes, that's what she said."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0139", 
+            "line": "I misunderstood; I thought that she usually lives\\nalone and hadn't been back to her house in a long\\ntime."
+        }, 
+        "right": {
+            "id": "0139", 
+            "line": "I misunderstood; I thought that she usually lives\\nalone and hadn't been back to her house in a long\\ntime."
+        }
+    }, 
+    {
+        "left": {
+            "id": "013a", 
+            "line": "'My house is far from here. I have a chair and desk,\\nso there's no inconvenience for me.'"
+        }, 
+        "right": {
+            "id": "013a", 
+            "line": "'My house is far from here. I have a chair and\\ndesk, so there's no inconvenience for me.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "013b", 
+            "line": "'It must be inconvenient, though! There's no bed,\\nno bath, no food!'"
+        }, 
+        "right": {
+            "id": "013b", 
+            "line": "'It must be inconvenient, though! There's no bed,\\nno bath, no food!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "013c", 
+            "line": "'If I need a bath, there are the showers in the gym,\\nyou know? As for food, I can eat the school\\ncanteen's food.'"
+        }, 
+        "right": {
+            "id": "013c", 
+            "line": "'If I need a bath, there are the showers in the\\ngym, you know? As for food, I can eat the school\\ncanteen's food.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "013d", 
+            "line": "'No, no, the canteen food is only served at\\nlunchtime. Also, it's not open during the summer\\nholiday......'"
+        }, 
+        "right": {
+            "id": "013d", 
+            "line": "'No, no, the canteen food is only served at\\nlunchtime. Also, it's not open during the summer\\nholiday...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "013e", 
+            "line": "I thought that must be why she's always so\\nhungry......"
+        }, 
+        "right": {
+            "id": "013e", 
+            "line": "I thought that must be why she's always so\\nhungry..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "013f", 
+            "line": "'Could it be, Amane, that you've been doing this for\\na long time......?'"
+        }, 
+        "right": {
+            "id": "013f", 
+            "line": "'Could it be, Amane, that you've been doing this\\nfor a long time...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0140", 
+            "line": "Kotori asks cautiously."
+        }, 
+        "right": {
+            "id": "0140", 
+            "line": "Kotori asks cautiously."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0141", 
+            "line": "'Hmm? I guess so, yes.'"
+        }, 
+        "right": {
+            "id": "0141", 
+            "line": "'Hmm? I guess so, yes.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0142", 
+            "line": "This is no good...... we need to do something about\\nthis, quickly."
+        }, 
+        "right": {
+            "id": "0142", 
+            "line": "This is no good... we need to do something about\\nthis, quickly."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0143", 
+            "line": "'....so that's how it is, Mom.'"
+        }, 
+        "right": {
+            "id": "0143", 
+            "line": "'...so that's how it is, Mom.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0144", 
+            "line": "'You can use the empty rooms however you like.\\nYou're taking care of the place during your summer\\nholiday, so I don't mind letting you do something\\nlike that.'"
+        }, 
+        "right": {
+            "id": "0144", 
+            "line": "'You can use the empty rooms however you like.\\nYou're taking care of the place during your\\nsummer holiday, so I don't mind letting you do\\nsomething like that.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0145", 
+            "line": "'Thanks Mom!'"
+        }, 
+        "right": {
+            "id": "0145", 
+            "line": "'Thanks Mom!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0146", 
+            "line": "'Come on in, Amane.'"
+        }, 
+        "right": {
+            "id": "0146", 
+            "line": "'Come on in, Amane.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0147", 
+            "line": "'Ok, I'm coming in......'"
+        }, 
+        "right": {
+            "id": "0147", 
+            "line": "'Ok, I'm coming in...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0148", 
+            "line": "Everyone had forcibly brought Amane to the\\ndormitory."
+        }, 
+        "right": {
+            "id": "0148", 
+            "line": "Everyone had forcibly brought Amane to the\\ndormitory."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0149", 
+            "line": "There are a lot of empty rooms here, and since most\\nof the boarders had gone home, it wouldn't be\\ncausing much of an inconvenience."
+        }, 
+        "right": {
+            "id": "0149", 
+            "line": "There are a lot of empty rooms here, and since\\nmost of the boarders had gone home, it wouldn't\\nbe causing much of an inconvenience."
+        }
+    }, 
+    {
+        "left": {
+            "id": "014a", 
+            "line": "'Flying Fish Manor......'"
+        }, 
+        "right": {
+            "id": "014a", 
+            "line": "'Flying Fish Manor...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "014b", 
+            "line": "Amane stares at the entrance lobby, which is far\\nmore grand than you would expect for a student\\ndormitory."
+        }, 
+        "right": {
+            "id": "014b", 
+            "line": "Amane stares at the entrance lobby, which is far\\nmore grand than you would expect for a student\\ndormitory."
+        }
+    }, 
+    {
+        "left": {
+            "id": "014c", 
+            "line": "Speaking of which, it seems that Amane already knew\\nabout Flying Fish Manor."
+        }, 
+        "right": {
+            "id": "014c", 
+            "line": "Speaking of which, it seems that Amane already\\nknew about Flying Fish Manor."
+        }
+    }, 
+    {
+        "left": {
+            "id": "014d", 
+            "line": "That's probably because Isuka was living here\\nbefore."
+        }, 
+        "right": {
+            "id": "014d", 
+            "line": "That's probably because Isuka was living here\\nbefore."
+        }
+    }, 
+    {
+        "left": {
+            "id": "014e", 
+            "line": "'Kwah! Kwaaaah!'"
+        }, 
+        "right": {
+            "id": "014e", 
+            "line": "'Kwah! Kwaaaah!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "014f", 
+            "line": "Sensing that Kotori had come home, Hat came out to\\nwelcome here."
+        }, 
+        "right": {
+            "id": "014f", 
+            "line": "Sensing that Kotori had come home, Hat came out\\nto welcome here."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0150", 
+            "line": "As usual, he went to sit on Kotori's lap, but..."
+        }, 
+        "right": {
+            "id": "0150", 
+            "line": "As usual, he went to sit on Kotori's lap, but..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0151", 
+            "line": "'Hat? Is that you, Hat?'"
+        }, 
+        "right": {
+            "id": "0151", 
+            "line": "'Hat? Is that you, Hat?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0152", 
+            "line": "'Kwah?'"
+        }, 
+        "right": {
+            "id": "0152", 
+            "line": "'Kwah?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0153", 
+            "line": "'Huh?'"
+        }, 
+        "right": {
+            "id": "0153", 
+            "line": "'Huh?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0154", 
+            "line": "Amane goes over to Hat and starts stroking his head."
+        }, 
+        "right": {
+            "id": "0154", 
+            "line": "Amane goes over to Hat, and starts stroking his\\nhead."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0155", 
+            "line": "'Ah ha ha, you look well, Hat!'"
+        }, 
+        "right": {
+            "id": "0155", 
+            "line": "'Ah ha ha, you look well, Hat!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0156", 
+            "line": "'Gah gah!'"
+        }, 
+        "right": {
+            "id": "0156", 
+            "line": "'Gah gah!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0157", 
+            "line": "'You're still here then, huh?'"
+        }, 
+        "right": {
+            "id": "0157", 
+            "line": "'You're still here then, huh?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0158", 
+            "line": "'You know about Hat......?'"
+        }, 
+        "right": {
+            "id": "0158", 
+            "line": "'You know about Hat...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0159", 
+            "line": "'Yes, I do. He was brought here by Isuka.'"
+        }, 
+        "right": {
+            "id": "0159", 
+            "line": "'Yes, I do. He was brought here by Isuka.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "015a", 
+            "line": "'Huh? Really?'"
+        }, 
+        "right": {
+            "id": "015a", 
+            "line": "'Huh? Really?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "015b", 
+            "line": "When Kanako was talking about Hat before,\\nshe said it wasn't clear who started keeping Hat\\nhere, or when he was first brought here."
+        }, 
+        "right": {
+            "id": "015b", 
+            "line": "When Kanako was talking about Hat before, she\\nsaid it wasn't clear who started keeping Hat\\nhere, or when he was first brought here."
+        }
+    }, 
+    {
+        "left": {
+            "id": "015c", 
+            "line": "So this duck was brought here by Isuka?"
+        }, 
+        "right": {
+            "id": "015c", 
+            "line": "So this duck was brought here by Isuka?"
+        }
+    }, 
+    {
+        "left": {
+            "id": "015d", 
+            "line": "It wasn't really a big mystery or anything but now\\nthat it's been so easily cleared up, Ageha seems\\nkind of disappointed."
+        }, 
+        "right": {
+            "id": "015d", 
+            "line": "It wasn't really a big mystery or anything. But,\\nnow that it's been so easily cleared up, Ageha\\nseems kind of disappointed."
+        }
+    }, 
+    {
+        "left": {
+            "id": "015e", 
+            "line": "'Isn't this nice? That you can all live here\\ntogether?'"
+        }, 
+        "right": {
+            "id": "015e", 
+            "line": "'Isn't this nice? That you can all live here\\ntogether?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "015f", 
+            "line": "'You should stay here too. There are lots of rooms\\nhere.'"
+        }, 
+        "right": {
+            "id": "015f", 
+            "line": "'You should stay here too. There are lots of\\nrooms here.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0160", 
+            "line": "'Huh? Would that be OK?'"
+        }, 
+        "right": {
+            "id": "0160", 
+            "line": "'Huh? Would that be OK?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0161", 
+            "line": "'There's only one room that you can use straight\\naway though.'"
+        }, 
+        "right": {
+            "id": "0161", 
+            "line": "'There's only one room that you can use straight\\naway though.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0162", 
+            "line": "There are some that I haven't been able to clean,\\nso they smell a bit moldy, and there are others used\\nas storage space."
+        }, 
+        "right": {
+            "id": "0162", 
+            "line": "There are some that I haven't been able to clean,\\nso they smell a bit moldy, and there are others\\nused as storage space."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0163", 
+            "line": "There's no air conditioning either, so the living\\nconditions in the other rooms would be pretty bad."
+        }, 
+        "right": {
+            "id": "0163", 
+            "line": "There's no air conditioning either, so the living\\nconditions in the other rooms would be pretty\\nbad."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0164", 
+            "line": "'I can't stay in Aoi's room...... can I?'"
+        }, 
+        "right": {
+            "id": "0164", 
+            "line": "'I can't stay in Aoi's room... can I?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0165", 
+            "line": "'Of course not, we're not kids anymore!'"
+        }, 
+        "right": {
+            "id": "0165", 
+            "line": "'Of course not, we're not kids anymore!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0166", 
+            "line": "'But we used to have sleepovers all the time.'"
+        }, 
+        "right": {
+            "id": "0166", 
+            "line": "'But we used to have sleepovers all the time.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0167", 
+            "line": "Staying over at each other's houses is something we\\nwould always do during the summer holidays."
+        }, 
+        "right": {
+            "id": "0167", 
+            "line": "Staying over at each other's houses is something\\nwe would always do during the summer holidays."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0168", 
+            "line": "'In that case......'"
+        }, 
+        "right": {
+            "id": "0168", 
+            "line": "'In that case...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0169", 
+            "line": "'Hmm?'"
+        }, 
+        "right": {
+            "id": "0169", 
+            "line": "'Hmm?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "016a", 
+            "line": "'......No, it's nothing. Forget it.'"
+        }, 
+        "right": {
+            "id": "016a", 
+            "line": "'...No, it's nothing. Forget it.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "016b", 
+            "line": "'Don't be like that, tell us what you were gonna\\nsay!'"
+        }, 
+        "right": {
+            "id": "016b", 
+            "line": "'Don't be like that, tell us what you were gonna\\nsay!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "016c", 
+            "line": "'......Wh...why don't you stay in my room......?'"
+        }, 
+        "right": {
+            "id": "016c", 
+            "line": "'...Wh-Why don't you stay in my room...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "016d", 
+            "line": "'......'"
+        }, 
+        "right": {
+            "id": "016d", 
+            "line": "'...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "016e", 
+            "line": "'I... take it back! Forget I said anything!'"
+        }, 
+        "right": {
+            "id": "016e", 
+            "line": "'I... take it back! Forget I said anything!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "016f", 
+            "line": "'Would that be OK?'"
+        }, 
+        "right": {
+            "id": "016f", 
+            "line": "'Would that be OK?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0170", 
+            "line": "'Huh? Ah...... umm...... It's OK...... I don't really\\nmind.'"
+        }, 
+        "right": {
+            "id": "0170", 
+            "line": "'Huh? Ah... umm... It's OK... I don't really\\nmind.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0171", 
+            "line": "'There's only one bed but I have a futon for when\\nHibari stays over.......'"
+        }, 
+        "right": {
+            "id": "0171", 
+            "line": "'There's only one bed, but I have a futon for\\nwhen Hibari stays over...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0172", 
+            "line": "'I'd love to stay over!'"
+        }, 
+        "right": {
+            "id": "0172", 
+            "line": "'I'd love to stay over!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0173", 
+            "line": "Ageha unexpectedly jumps at the chance,\\nas Kotori nervously replies..."
+        }, 
+        "right": {
+            "id": "0173", 
+            "line": "Ageha unexpectedly jumps at the chance, as Kotori\\nnervously replies..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0174", 
+            "line": "'Well, in that case......'"
+        }, 
+        "right": {
+            "id": "0174", 
+            "line": "'Well, in that case...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0175", 
+            "line": "'Alright then. Well, as of today, this is where\\nwe'll be lodging.'"
+        }, 
+        "right": {
+            "id": "0175", 
+            "line": "'Alright then. Well, as of today, this is where\\nwe'll be lodging.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0176", 
+            "line": "And that's how it went."
+        }, 
+        "right": {
+            "id": "0176", 
+            "line": "And that's how it went."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0177", 
+            "line": "'This being the case, could you tell Mom, Hotaru?'"
+        }, 
+        "right": {
+            "id": "0177", 
+            "line": "'This being the case, could you tell Mom,\\nHotaru?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0178", 
+            "line": "'Yes, that's right. Aoi's place. OK, see you!'"
+        }, 
+        "right": {
+            "id": "0178", 
+            "line": "'Yes, that's right. Aoi's place. OK, see you!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0179", 
+            "line": "After a late dinner, Ageha got in contact with her\\nparents."
+        }, 
+        "right": {
+            "id": "0179", 
+            "line": "After a late dinner, Ageha got in contact with\\nher parents."
+        }
+    }, 
+    {
+        "left": {
+            "id": "017a", 
+            "line": "She asked Hotaru, who had been taken home already\\nby An-chan, to tell them, because she might've been\\nscolded if she'd told them directly."
+        }, 
+        "right": {
+            "id": "017a", 
+            "line": "She asked Hotaru, who had been taken home already\\nby An-chan, to tell them, because she might've\\nbeen scolded if she'd told them directly."
+        }
+    }, 
+    {
+        "left": {
+            "id": "017b", 
+            "line": "Normally it wouldn't be a problem for her to stay at\\nthe dormitory, but it was kind of out of the blue."
+        }, 
+        "right": {
+            "id": "017b", 
+            "line": "Normally it wouldn't be a problem for her to stay\\nat the dormitory, but it was kind of out of the\\nblue."
+        }
+    }, 
+    {
+        "left": {
+            "id": "017c", 
+            "line": "'Whew...... that was a nice bath!'"
+        }, 
+        "right": {
+            "id": "017c", 
+            "line": "'Whew... that was a nice bath!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "017d", 
+            "line": "said Kanako, who was over there."
+        }, 
+        "right": {
+            "id": "017d", 
+            "line": "said Kanako, who was over there."
+        }
+    }, 
+    {
+        "left": {
+            "id": "017e", 
+            "line": "'Whoa! She's naked!'"
+        }, 
+        "right": {
+            "id": "017e", 
+            "line": "'Whoa! She's naked!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "017f", 
+            "line": "'I'm wearing underwear though.'"
+        }, 
+        "right": {
+            "id": "017f", 
+            "line": "'I'm wearing underwear though.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0180", 
+            "line": "'I've told you so many times not to wander around\\nlooking like that!'"
+        }, 
+        "right": {
+            "id": "0180", 
+            "line": "'I've told you so many times not to wander around\\nlooking like that!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0181", 
+            "line": "'But it's hot. Anyway, the bathroom's empty.'"
+        }, 
+        "right": {
+            "id": "0181", 
+            "line": "'But it's hot. Anyway, the bathroom's empty.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0182", 
+            "line": "'OK, Ageha and the others can go first.\\nI'll go in there last.'"
+        }, 
+        "right": {
+            "id": "0182", 
+            "line": "'OK, Ageha and the others can go first. I'll go\\nin there last.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0183", 
+            "line": "'OK!'"
+        }, 
+        "right": {
+            "id": "0183", 
+            "line": "'OK!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0184", 
+            "line": "'Oh, yes. I'll leave Kotori with you.'"
+        }, 
+        "right": {
+            "id": "0184", 
+            "line": "'Oh, yes. I'll leave Kotori with you.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0185", 
+            "line": "'What do you mean by that?'"
+        }, 
+        "right": {
+            "id": "0185", 
+            "line": "'What do you mean by that?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0186", 
+            "line": "'I...it's fine. You don't need to......'"
+        }, 
+        "right": {
+            "id": "0186", 
+            "line": "'I...it's fine. You don't need to...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0187", 
+            "line": "'You don't need to be shy about it. You're always\\nsaying how you want to have a long soak in the\\nbath.'"
+        }, 
+        "right": {
+            "id": "0187", 
+            "line": "'You don't need to be shy about it. You're always\\nsaying how you want to have a long soak in the\\nbath.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0188", 
+            "line": "'I'm not shy about it......'"
+        }, 
+        "right": {
+            "id": "0188", 
+            "line": "'I'm not shy about it...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0189", 
+            "line": "Kotori looked embarrassed but Ageha didn't ask what\\nthis was all about."
+        }, 
+        "right": {
+            "id": "0189", 
+            "line": "Kotori looked embarrassed, but Ageha didn't ask\\nwhat this was all about."
+        }
+    }, 
+    {
+        "left": {
+            "id": "018a", 
+            "line": "She just pushed Kotori's wheelchair along,\\nlike it was no big deal."
+        }, 
+        "right": {
+            "id": "018a", 
+            "line": "She just pushed Kotori's wheelchair along, like\\nit was no big deal."
+        }
+    }, 
+    {
+        "left": {
+            "id": "018b", 
+            "line": "'Alright, let's go, Kotori.'"
+        }, 
+        "right": {
+            "id": "018b", 
+            "line": "'Alright, let's go, Kotori.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "018c", 
+            "line": "'Whaaaat!?'"
+        }, 
+        "right": {
+            "id": "018c", 
+            "line": "'Whaaaat!?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "018d", 
+            "line": "Kotori was surprised that Ageha was so unfazed\\nabout it all."
+        }, 
+        "right": {
+            "id": "018d", 
+            "line": "Kotori was surprised that Ageha was so unfazed\\nabout it all."
+        }
+    }, 
+    {
+        "left": {
+            "id": "018e", 
+            "line": "'Oh...... you don't like me pushing you along like\\nthis?'"
+        }, 
+        "right": {
+            "id": "018e", 
+            "line": "'Oh... you don't like me pushing you along like\\nthis?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "018f", 
+            "line": "'No, that's not it!'"
+        }, 
+        "right": {
+            "id": "018f", 
+            "line": "'No, that's not it!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0190", 
+            "line": "'Aoi pushes my wheelchair all the time,\\nso I don't really mind.'"
+        }, 
+        "right": {
+            "id": "0190", 
+            "line": "'Aoi pushes my wheelchair all the time, so I\\ndon't really mind.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0191", 
+            "line": "'I'm actually quite glad that you want to push my\\nwheelchair......'"
+        }, 
+        "right": {
+            "id": "0191", 
+            "line": "'I'm actually quite glad that you want to push my\\nwheelchair...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0192", 
+            "line": "'If I were you, I would let just about anyone push\\nmy wheelchair, it beats walking.'"
+        }, 
+        "right": {
+            "id": "0192", 
+            "line": "'If I were you, I would let just about anyone\\npush my wheelchair, it beats walking.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0193", 
+            "line": "Amane, without realizing, really put her foot in her\\nmouth."
+        }, 
+        "right": {
+            "id": "0193", 
+            "line": "Amane, without realizing, really put her foot in\\nher mouth."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0194", 
+            "line": "'What are you talking about!? If I could walk,\\nI wouldn't be in this stupid wheelchair, would I,\\nyou idiot!'"
+        }, 
+        "right": {
+            "id": "0194", 
+            "line": "'What are you talking about!? If I could walk, I\\nwouldn't be in this stupid wheelchair, would I,\\nyou idiot!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0195", 
+            "line": "'Oh gosh, I'm so sorry!'"
+        }, 
+        "right": {
+            "id": "0195", 
+            "line": "'Hauu~'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0196", 
+            "line": "Amane reeled back like she'd just been flicked\\nreally hard in the forehead."
+        }, 
+        "right": {
+            "id": "0196", 
+            "line": "Amane reeled back like she'd just been flicked\\nreally hard in the forehead."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0197", 
+            "line": "'Oh no...... Kotori's angry with me......'"
+        }, 
+        "right": {
+            "id": "0197", 
+            "line": "'Oh no... Kotori's angry with me...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0198", 
+            "line": "These days, I feel that she's becoming more and\\nmore impolite towards Amane but it can't really be\\nhelped in this case."
+        }, 
+        "right": {
+            "id": "0198", 
+            "line": "These days, I feel that she's becoming more and\\nmore impolite towards Amane. But, it can't really\\nbe helped in this case."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0199", 
+            "line": "'OK, let's all chill out.'"
+        }, 
+        "right": {
+            "id": "0199", 
+            "line": "'OK, let's all chill out.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "019a", 
+            "line": "said Ageha as she looked at Kotori, like she was\\ntrying to appease her somehow."
+        }, 
+        "right": {
+            "id": "019a", 
+            "line": "said Ageha, as she looked at Kotori, like she was\\ntrying to appease her somehow."
+        }
+    }, 
+    {
+        "left": {
+            "id": "019b", 
+            "line": "'Sorry, I got a bit carried away there.'"
+        }, 
+        "right": {
+            "id": "019b", 
+            "line": "'Sorry, I got a bit carried away there.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "019c", 
+            "line": "'Hee hee!'"
+        }, 
+        "right": {
+            "id": "019c", 
+            "line": "'Hee hee!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "019d", 
+            "line": "'Well then, let's go to the bathroom. Amane,\\nyou're coming too, aren't you?'"
+        }, 
+        "right": {
+            "id": "019d", 
+            "line": "'Well then, let's go to the bathroom. Amane,\\nyou're coming too, aren't you?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "019e", 
+            "line": "'......Yeah, sure.'"
+        }, 
+        "right": {
+            "id": "019e", 
+            "line": "'...Yeah, sure.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "019f", 
+            "line": "The girls followed each other into the bathroom."
+        }, 
+        "right": {
+            "id": "019f", 
+            "line": "The girls followed each other into the bathroom."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a0", 
+            "line": "As I saw them off, I mumbled to myself..."
+        }, 
+        "right": {
+            "id": "01a0", 
+            "line": "As I saw them off, I mumbled to myself..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a1", 
+            "line": "'(Way to go, Kotori!)'"
+        }, 
+        "right": {
+            "id": "01a1", 
+            "line": "'(Way to go, Kotori!)'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a2", 
+            "line": "I kind of felt like a parent watching over his child\\nas she grows up."
+        }, 
+        "right": {
+            "id": "01a2", 
+            "line": "I kind of felt like a parent watching over his\\nchild as she grows up."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a3", 
+            "line": "'Wow, big baths really are the best, aren't they?'"
+        }, 
+        "right": {
+            "id": "01a3", 
+            "line": "'Wow, big baths really are the best, aren't\\nthey?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a4", 
+            "line": "'It feels great......'"
+        }, 
+        "right": {
+            "id": "01a4", 
+            "line": "'It feels great...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a5", 
+            "line": "'......'"
+        }, 
+        "right": {
+            "id": "01a5", 
+            "line": "'...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a6", 
+            "line": "'What's up, Kotori? Why don't you come over here?'"
+        }, 
+        "right": {
+            "id": "01a6", 
+            "line": "'What's up, Kotori? Why don't you come over\\nhere?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a7", 
+            "line": "'I said I only needed a shower......'"
+        }, 
+        "right": {
+            "id": "01a7", 
+            "line": "'I said I only needed a shower...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a8", 
+            "line": "'C'mon, it's OK. I wanted us to take a bath\\ntogether.'"
+        }, 
+        "right": {
+            "id": "01a8", 
+            "line": "'C'mon, it's OK. I wanted us to take a bath\\ntogether.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a9", 
+            "line": "'All the girls, having a nice time in the bath!'"
+        }, 
+        "right": {
+            "id": "01a9", 
+            "line": "'All the girls, having a nice time in the bath!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01aa", 
+            "line": "'It's just that you two are...... so big...... I'm OK\\nover here.'"
+        }, 
+        "right": {
+            "id": "01aa", 
+            "line": "'It's just that you two are... so big... I'm OK\\nover here.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ab", 
+            "line": "'So big? What do you mean?'"
+        }, 
+        "right": {
+            "id": "01ab", 
+            "line": "'So big? What do you mean?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ac", 
+            "line": "'Well, look at the way they're floating in the water\\nlike that! Amane, you eat so much but you're still\\nin such good shape......'"
+        }, 
+        "right": {
+            "id": "01ac", 
+            "line": "'Well, look at the way they're floating in the\\nwater like that! Amane, you eat so much but\\nyou're still in such good shape...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ad", 
+            "line": "'Most of the calories go to her boobs and her brain,\\nso they're being burned off, no doubt about it.'"
+        }, 
+        "right": {
+            "id": "01ad", 
+            "line": "'Most of the calories go to her boobs and her\\nbrain, so they're being burned off, no doubt\\nabout it.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ae", 
+            "line": "'Speaking of which, Ageha, you're the same...... what\\nis it with everyone?'"
+        }, 
+        "right": {
+            "id": "01ae", 
+            "line": "'Speaking of which, Ageha, you're the same...\\nwhat is it with everyone?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01af", 
+            "line": "'Huh? You look nice, Kotori. Your skin is so smooth\\nand pretty.'"
+        }, 
+        "right": {
+            "id": "01af", 
+            "line": "'Huh? You look nice, Kotori. Your skin is so\\nsmooth and pretty.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b0", 
+            "line": "'Oh, really? ......Eh heh heh......'"
+        }, 
+        "right": {
+            "id": "01b0", 
+            "line": "'Oh, really? ...Eh heh heh...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b1", 
+            "line": "'By the way, Amane. Can I ask you something?'"
+        }, 
+        "right": {
+            "id": "01b1", 
+            "line": "'By the way, Amane. Can I ask you something?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b2", 
+            "line": "'What's that?'"
+        }, 
+        "right": {
+            "id": "01b2", 
+            "line": "'What's that?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b3", 
+            "line": "'Do you have a boyfriend?'"
+        }, 
+        "right": {
+            "id": "01b3", 
+            "line": "'Do you have a boyfriend?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b4", 
+            "line": "'A boyfriend?'"
+        }, 
+        "right": {
+            "id": "01b4", 
+            "line": "'A boyfriend?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b5", 
+            "line": "'Yes, a boyfriend.'"
+        }, 
+        "right": {
+            "id": "01b5", 
+            "line": "'Yes, a boyfriend.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b6", 
+            "line": "'......'"
+        }, 
+        "right": {
+            "id": "01b6", 
+            "line": "'...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b7", 
+            "line": "'Hmm...... nope.'"
+        }, 
+        "right": {
+            "id": "01b7", 
+            "line": "'Hmm... Nope.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b8", 
+            "line": "'No way! You're so beautiful and have such a nice\\nfigure, you must be popular, right?'"
+        }, 
+        "right": {
+            "id": "01b8", 
+            "line": "'No way! You're so beautiful and have such a nice\\nfigure, you must be popular, right?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b9", 
+            "line": "'Really? I hardly ever leave the garage,\\nso I don't really know.'"
+        }, 
+        "right": {
+            "id": "01b9", 
+            "line": "'Really? I hardly ever leave the garage, so I\\ndon't really know.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ba", 
+            "line": "'What about that guy, An-chan, who was there today?'"
+        }, 
+        "right": {
+            "id": "01ba", 
+            "line": "'What about that guy, An-chan, who was there\\ntoday?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01bb", 
+            "line": "'Yeah! That's what I thought too!'"
+        }, 
+        "right": {
+            "id": "01bb", 
+            "line": "'Yeah! That's what I thought too!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01bc", 
+            "line": "'What is exactly is your relationship with An-chan?'"
+        }, 
+        "right": {
+            "id": "01bc", 
+            "line": "'What is exactly is your relationship with\\nAn-chan?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01bd", 
+            "line": "'Tatsuya and I were in the Soaring Club together.\\nI don't think of him as my boyfriend though.'"
+        }, 
+        "right": {
+            "id": "01bd", 
+            "line": "'Tatsuya and I were in the Soaring Club together.\\nI don't think of him as my boyfriend though.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01be", 
+            "line": "'Even so, when you met each other, there was\\nsomething meaningful between the two of you.'"
+        }, 
+        "right": {
+            "id": "01be", 
+            "line": "'Even so, when you met each other, there was\\nsomething meaningful between the two of you.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01bf", 
+            "line": "'I thought so too! The two of you are both so\\ngood-looking, you'd make a great couple!'"
+        }, 
+        "right": {
+            "id": "01bf", 
+            "line": "'I thought so too! The two of you are both so\\ngood-looking, you'd make a great couple!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c0", 
+            "line": "'Tatsuya and I would make a good couple? I've never\\nthought about that before......'"
+        }, 
+        "right": {
+            "id": "01c0", 
+            "line": "'Tatsuya and I would make a good couple? I've\\nnever thought about that before...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c1", 
+            "line": "'So, Kotori, do you like Aoi?'"
+        }, 
+        "right": {
+            "id": "01c1", 
+            "line": "'So, Kotori, do you like Aoi?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c2", 
+            "line": "'Whaaaat!!?'"
+        }, 
+        "right": {
+            "id": "01c2", 
+            "line": "'Whaaaat!!?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c3", 
+            "line": "'What's this all of a sudden!? I thought we were\\ntalking about you here, Amane!'"
+        }, 
+        "right": {
+            "id": "01c3", 
+            "line": "'What's this all of a sudden!? I thought we were\\ntalking about you here, Amane!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c4", 
+            "line": "'Oh, you're getting all flustered. This is highly\\nsuspicious, you know......'"
+        }, 
+        "right": {
+            "id": "01c4", 
+            "line": "'Oh, you're getting all flustered. This is highly\\nsuspicious, you know...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c5", 
+            "line": "'No, you're wrong! That's not it at all!!'"
+        }, 
+        "right": {
+            "id": "01c5", 
+            "line": "'No, you're wrong! That's not it at all!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c6", 
+            "line": "'Are you sure about that? I think that you and Aoi\\nmake a better couple.'"
+        }, 
+        "right": {
+            "id": "01c6", 
+            "line": "'Are you sure about that? I think that you and\\nAoi make a better couple.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c7", 
+            "line": "'Huh, really......? You think so......??'"
+        }, 
+        "right": {
+            "id": "01c7", 
+            "line": "'Huh, really...? You think so...??'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c8", 
+            "line": "'Oh, you don't seem as annoyed as I thought you'd\\nbe.'"
+        }, 
+        "right": {
+            "id": "01c8", 
+            "line": "'Oh, you don't seem as annoyed as I thought you'd\\nbe.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c9", 
+            "line": "'You've got it all wrong! It's because Amane was\\nsaying such weird things...... Aww......'"
+        }, 
+        "right": {
+            "id": "01c9", 
+            "line": "'You've got it all wrong! It's because Amane was\\nsaying such weird things... Aww...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ca", 
+            "line": "'B...besides, Aoi likes you, doesn't he, Ageha?'"
+        }, 
+        "right": {
+            "id": "01ca", 
+            "line": "'B...besides, Aoi likes you, doesn't he, Ageha?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01cb", 
+            "line": "'Hmm? Why do you think that? We're just childhood\\nfriends.'"
+        }, 
+        "right": {
+            "id": "01cb", 
+            "line": "'Hmm? Why do you think that? We're just childhood\\nfriends.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01cc", 
+            "line": "'I heard about it. I heard that in the past,\\nAoi had confessed his feelings for you.'"
+        }, 
+        "right": {
+            "id": "01cc", 
+            "line": "'I heard about it. I heard that in the past, Aoi\\nhad confessed his feelings for you.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01cd", 
+            "line": "'Ohh......'"
+        }, 
+        "right": {
+            "id": "01cd", 
+            "line": "'Ohh...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ce", 
+            "line": "'How do you know about that!!? Do you mean to say\\nthat Aoi told you about......?'"
+        }, 
+        "right": {
+            "id": "01ce", 
+            "line": "'How do you know about that!!? Do you mean to say\\nthat Aoi told you about...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01cf", 
+            "line": "'It's what that loud-mouthed guy was saying.'"
+        }, 
+        "right": {
+            "id": "01cf", 
+            "line": "'It's what that loud-mouthed guy was saying.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d0", 
+            "line": "'Ma-bou! That moron...... Next time I see him,\\nI'll punch him into next week!'"
+        }, 
+        "right": {
+            "id": "01d0", 
+            "line": "'Ma-bou! That moron... Next time I see him, I'll\\npunch him into next week!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d1", 
+            "line": "'......So it was true.'"
+        }, 
+        "right": {
+            "id": "01d1", 
+            "line": "'...So it was true.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d2", 
+            "line": "'Geez, no, no. That was when we were just little\\nkids, it's not like that at all.'"
+        }, 
+        "right": {
+            "id": "01d2", 
+            "line": "'Geez, no, no. That was when we were just little\\nkids, it's not like that at all.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d3", 
+            "line": "'It sounds like you've thought that excuse up\\nbefore. This is highly suspicious, you know......'"
+        }, 
+        "right": {
+            "id": "01d3", 
+            "line": "'It sounds like you've thought that excuse up\\nbefore. This is highly suspicious, you know...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d4", 
+            "line": "'Urk......! A...at that time, it had already been\\ndecided that Aoi was moving away, so I think it's\\njust because he suddenly felt lonely.'"
+        }, 
+        "right": {
+            "id": "01d4", 
+            "line": "'Urk...! A...at that time, it had already been\\ndecided that Aoi was moving away, so I think it's\\njust because he suddenly felt lonely.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d5", 
+            "line": "'It's really not what you think.'"
+        }, 
+        "right": {
+            "id": "01d5", 
+            "line": "'It's really not what you think.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d6", 
+            "line": "'Is the reason you turned him down because you\\ndon't like him in that way, Ageha?'"
+        }, 
+        "right": {
+            "id": "01d6", 
+            "line": "'Is the reason you turned him down because you\\ndon't like him in that way, Ageha?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d7", 
+            "line": "'Huh? No, well...... it's......'"
+        }, 
+        "right": {
+            "id": "01d7", 
+            "line": "'Huh? No, well... it's...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d8", 
+            "line": "'Oh! You do like him! Ageha likes Aoi! Ageha\\nlikes Aoi!'"
+        }, 
+        "right": {
+            "id": "01d8", 
+            "line": "'Oh! You do like him! Ageha likes Aoi! Ageha\\nlikes Aoi!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d9", 
+            "line": "'What are you, a little kid or something!?'"
+        }, 
+        "right": {
+            "id": "01d9", 
+            "line": "'What are you, a little kid or something!?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01da", 
+            "line": "'I wonder if Aoi still likes you now?'"
+        }, 
+        "right": {
+            "id": "01da", 
+            "line": "'I wonder if Aoi still likes you now?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01db", 
+            "line": "'No, I don't think so. Our friendship is going\\nreally well though.'"
+        }, 
+        "right": {
+            "id": "01db", 
+            "line": "'No, I don't think so. Our friendship is going\\nreally well though.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01dc", 
+            "line": "'If I had to say, I think he likes you more, Kotori.'"
+        }, 
+        "right": {
+            "id": "01dc", 
+            "line": "'If I had to say, I think he likes you more,\\nKotori.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01dd", 
+            "line": "'What? No way! If he liked me, he wouldn't karate\\nchop me on the top of the head!'"
+        }, 
+        "right": {
+            "id": "01dd", 
+            "line": "'What? No way! If he liked me, he wouldn't karate\\nchop me on the top of the head!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01de", 
+            "line": "'He never karate chops you, Ageha!'"
+        }, 
+        "right": {
+            "id": "01de", 
+            "line": "'He never karate chops you, Ageha!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01df", 
+            "line": "'I don't know if you can really base it on that,\\nthough......'"
+        }, 
+        "right": {
+            "id": "01df", 
+            "line": "'I don't know if you can really base it on that,\\nthough...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e0", 
+            "line": "'So there's no one in particular that he likes......'"
+        }, 
+        "right": {
+            "id": "01e0", 
+            "line": "'So there's no one in particular that he\\nlikes...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e1", 
+            "line": "'Ah......'"
+        }, 
+        "right": {
+            "id": "01e1", 
+            "line": "'Ah...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e2", 
+            "line": "'Hmm......'"
+        }, 
+        "right": {
+            "id": "01e2", 
+            "line": "'Hmm...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e3", 
+            "line": "'Hmm? Why are you both looking at me?'"
+        }, 
+        "right": {
+            "id": "01e3", 
+            "line": "'Hmm? Why are you both looking at me?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e4", 
+            "line": "'I think that Aoi would probably like you the most,\\nAmane.'"
+        }, 
+        "right": {
+            "id": "01e4", 
+            "line": "'I think that Aoi would probably like you the\\nmost, Amane.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e5", 
+            "line": "'I agree.'"
+        }, 
+        "right": {
+            "id": "01e5", 
+            "line": "'I agree.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e6", 
+            "line": "'??'"
+        }, 
+        "right": {
+            "id": "01e6", 
+            "line": "'??'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e7", 
+            "line": "'The truth is, when Aoi is looking at you from afar,\\nI've seen him blushing so many times.'"
+        }, 
+        "right": {
+            "id": "01e7", 
+            "line": "'The truth is, when Aoi is looking at you from\\nafar, I've seen him blushing so many times.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e8", 
+            "line": "'Yeah, I've seen that too! Also, when you're talking\\nto him, he gets all nervous and blushes,\\nand he seems completely love-struck!'"
+        }, 
+        "right": {
+            "id": "01e8", 
+            "line": "'Yeah, I've seen that too! Also, when you're\\ntalking to him, he gets all nervous and blushes,\\nand he seems completely love-struck!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e9", 
+            "line": "'He does, he does! She's right, you know!'"
+        }, 
+        "right": {
+            "id": "01e9", 
+            "line": "'He does, he does! She's right, you know!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ea", 
+            "line": "'When it comes to joining the Soaring Club,\\nhe was very enthusiastic about it right from the\\nbeginning.'"
+        }, 
+        "right": {
+            "id": "01ea", 
+            "line": "'When it comes to joining the Soaring Club, he\\nwas very enthusiastic about it right from the\\nbeginning.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01eb", 
+            "line": "'Even though he didn't really know anything about\\ngliders.'"
+        }, 
+        "right": {
+            "id": "01eb", 
+            "line": "'Even though he didn't really know anything about\\ngliders.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ec", 
+            "line": "'I can understand it if he likes you.'"
+        }, 
+        "right": {
+            "id": "01ec", 
+            "line": "'I can understand it if he likes you.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ed", 
+            "line": "'I can understand it too.'"
+        }, 
+        "right": {
+            "id": "01ed", 
+            "line": "'I can understand it too.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ee", 
+            "line": "'Understand what?'"
+        }, 
+        "right": {
+            "id": "01ee", 
+            "line": "'Understand what?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ef", 
+            "line": "'Haaaaa......! This huge bath is the greatest!'"
+        }, 
+        "right": {
+            "id": "01ef", 
+            "line": "'Haaaaa...! This huge bath is the greatest!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f0", 
+            "line": "'Whew...... that felt really good!'"
+        }, 
+        "right": {
+            "id": "01f0", 
+            "line": "'Whew... that felt really good!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f1", 
+            "line": "'Whoa...... I feel a little dizzy......'"
+        }, 
+        "right": {
+            "id": "01f1", 
+            "line": "'Whoa... I feel a little dizzy...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f2", 
+            "line": "The three girls get out of the bath, stand in front\\nof the electric fan, open the fridge,\\nand pour some barley tea."
+        }, 
+        "right": {
+            "id": "01f2", 
+            "line": "The three girls get out of the bath, stand in\\nfront of the electric fan, open the fridge, and\\npour some barley tea."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f3", 
+            "line": "'You were in the bath for a really long time,\\nweren't you? I could hear voices coming from inside.\\nWhat were you talking about?'"
+        }, 
+        "right": {
+            "id": "01f3", 
+            "line": "'You were in the bath for a really long time,\\nweren't you? I could hear voices coming from\\ninside. What were you talking about?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f4", 
+            "line": "From the hallway, I could hear laughing and\\nscreaming coming from the bathroom from time to\\ntime."
+        }, 
+        "right": {
+            "id": "01f4", 
+            "line": "From the hallway, I could hear laughing, and\\nscreaming coming from the bathroom from time to\\ntime."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f5", 
+            "line": "I couldn't catch exactly what they were saying but\\nit sounded like they were getting pretty excited\\nabout something."
+        }, 
+        "right": {
+            "id": "01f5", 
+            "line": "I couldn't catch exactly what they were saying\\nbut it sounded like they were getting pretty\\nexcited about something."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f6", 
+            "line": "'It's a secret! Right, Kotori?'"
+        }, 
+        "right": {
+            "id": "01f6", 
+            "line": "'It's a secret! Right, Kotori?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f7", 
+            "line": "'Glug glug glug...... That's right. No boys allowed.'"
+        }, 
+        "right": {
+            "id": "01f7", 
+            "line": "'Glug glug glug... That's right. No boys\\nallowed.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f8", 
+            "line": "I worry when they say it like that. What the hell\\nwere they talking about?"
+        }, 
+        "right": {
+            "id": "01f8", 
+            "line": "I worry when they say it like that. What the hell\\nwere they talking about?"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f9", 
+            "line": "'Well then, shall we get ready for bed?'"
+        }, 
+        "right": {
+            "id": "01f9", 
+            "line": "'Well then, shall we get ready for bed?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01fa", 
+            "line": "'OK!'"
+        }, 
+        "right": {
+            "id": "01fa", 
+            "line": "'OK!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01fb", 
+            "line": "I hear Kotori's wheelchair squeaking as she moves\\noff behind me, and Ageha goes with her."
+        }, 
+        "right": {
+            "id": "01fb", 
+            "line": "I hear Kotori's wheelchair squeaking as she moves\\noff behind me, and Ageha goes with her."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01fc", 
+            "line": "'OK then, goodnight!'"
+        }, 
+        "right": {
+            "id": "01fc", 
+            "line": "'OK then, goodnight!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01fd", 
+            "line": "'Goodnight.'"
+        }, 
+        "right": {
+            "id": "01fd", 
+            "line": "'Goodnight.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01fe", 
+            "line": "'Yeah, goodnight.'"
+        }, 
+        "right": {
+            "id": "01fe", 
+            "line": "'Yeah, goodnight.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ff", 
+            "line": "I watch them leave and then run myself a bath."
+        }, 
+        "right": {
+            "id": "01ff", 
+            "line": "I watch them leave and then run myself a bath."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0200", 
+            "line": "'Amane, are you going to bed too? I just finished\\ngetting your room ready.'"
+        }, 
+        "right": {
+            "id": "0200", 
+            "line": "'Amane, are you going to bed too? I just finished\\ngetting your room ready.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0201", 
+            "line": "'Hmm? Yeah.'"
+        }, 
+        "right": {
+            "id": "0201", 
+            "line": "'Hmm? Yeah.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0202", 
+            "line": "Amane had already laid the plans out on the dining\\nhall table, and was holding a glass of milk in one\\nhand while looking at the designs she was holding in\\nthe other."
+        }, 
+        "right": {
+            "id": "0202", 
+            "line": "Amane had already laid the plans out on the\\ndining hall table, and was holding a glass of\\nmilk in one hand while looking at the designs she\\nwas holding in the other."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0203", 
+            "line": "It seemed like she wouldn't hear me whatever I said,\\nso I decided to go ahead and take a bath."
+        }, 
+        "right": {
+            "id": "0203", 
+            "line": "It seemed like she wouldn't hear me whatever I\\nsaid, so I decided to go ahead and take a bath."
+        }
+    }
+]

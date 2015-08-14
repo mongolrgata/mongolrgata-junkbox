@@ -1,0 +1,462 @@
+[
+    {
+        "left": {
+            "id": "0000", 
+            "line": "'OK, everyone, for rather a long time,\\nI have caused you a lot of inconvenience but......'"
+        }, 
+        "right": {
+            "id": "0000", 
+            "line": "'OK, everyone, for rather a long time, I have\\ncaused you a lot of inconvenience but...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0001", 
+            "line": "'As of today, I, Ageha Himegi, will be making a full\\nreturn to the Soaring Club!'"
+        }, 
+        "right": {
+            "id": "0001", 
+            "line": "'As of today, I, Ageha Himegi, will be making a\\nfull return to the Soaring Club!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0002", 
+            "line": "Clap clap clap."
+        }, 
+        "right": {
+            "id": "0002", 
+            "line": "Clap clap clap."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0003", 
+            "line": "A small round of applause echoes around the garage."
+        }, 
+        "right": {
+            "id": "0003", 
+            "line": "A small round of applause echoes around the\\ngarage."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0004", 
+            "line": "'You were so close. If you'd won two more matches,\\nyou would've gotten through the prefectural\\nqualifiers.'"
+        }, 
+        "right": {
+            "id": "0004", 
+            "line": "'You were so close. If you'd won two more\\nmatches, you would've gotten through the\\nprefectural qualifiers.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0005", 
+            "line": "'No, I think that would be aiming a little too high.'"
+        }, 
+        "right": {
+            "id": "0005", 
+            "line": "'No, I think that would be aiming a little too\\nhigh.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0006", 
+            "line": "In the local qualifiers of the Robot Contest that\\nwere held yesterday, Ageha and her team of juniors\\nlost in the third match."
+        }, 
+        "right": {
+            "id": "0006", 
+            "line": "In the local qualifiers of the Robot Contest that\\nwere held yesterday, Ageha and her team of\\njuniors lost in the third match."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0007", 
+            "line": "If a team wins in the fourth match, they gain the\\nright to enter the national championship."
+        }, 
+        "right": {
+            "id": "0007", 
+            "line": "If a team wins in the fourth match, they gain the\\nright to enter the national championship."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0008", 
+            "line": "Losing in the third round is the kind of result that\\nmakes it hard to say whether they came close or not,\\nbut in the next match, the team that beat Ageha's\\nteam won."
+        }, 
+        "right": {
+            "id": "0008", 
+            "line": "Losing in the third round is the kind of result\\nthat makes it hard to say whether they came close\\nor not, but in the next match, the team that beat\\nAgeha's team won."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0009", 
+            "line": "'Thanks to Kotori too, for coming to watch us.'"
+        }, 
+        "right": {
+            "id": "0009", 
+            "line": "'Thanks to Kotori too, for coming to watch us.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000a", 
+            "line": "'Yeah...... It really was close.'"
+        }, 
+        "right": {
+            "id": "000a", 
+            "line": "'Yeah... It really was close.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000b", 
+            "line": "Since Ageha was in two clubs at the same time,\\nwhen we had any time to spare, we would go and\\nhelp the Robot Club."
+        }, 
+        "right": {
+            "id": "000b", 
+            "line": "Since Ageha was in two clubs at the same time,\\nwhen we had any time to spare, we would go and\\nhelp the Robot Club."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000c", 
+            "line": "On the day of the contest, we helped carry the\\nequipment and went to the contest venue."
+        }, 
+        "right": {
+            "id": "000c", 
+            "line": "On the day of the contest, we helped carry the\\nequipment and went to the contest venue."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000d", 
+            "line": "It was the first time I'd been to see the Robot\\nContest but it was pretty interesting."
+        }, 
+        "right": {
+            "id": "000d", 
+            "line": "It was the first time I'd been to see the Robot\\nContest but it was pretty interesting."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000e", 
+            "line": "The teams weren't just there to win, they also\\nwanted to do their best to show their ideas and how\\ngreat their robots were."
+        }, 
+        "right": {
+            "id": "000e", 
+            "line": "The teams weren't just there to win, they also\\nwanted to do their best to show their ideas and\\nhow great their robots were."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000f", 
+            "line": "Even when they gave a performance that might put\\nthem at a disadvantage in the match, they didn't\\nease up."
+        }, 
+        "right": {
+            "id": "000f", 
+            "line": "Even when they gave a performance that might put\\nthem at a disadvantage in the match, they didn't\\nease up."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0010", 
+            "line": "When I saw this, I felt I had begun to understand\\nhow Ageha could become so obsessed with it."
+        }, 
+        "right": {
+            "id": "0010", 
+            "line": "When I saw this, I felt I had begun to understand\\nhow Ageha could become so obsessed with it."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0011", 
+            "line": "'Also, thank you Amane, for coming to help us.'"
+        }, 
+        "right": {
+            "id": "0011", 
+            "line": "'Also, thank you Amane, for coming to help us.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0012", 
+            "line": "'Huh? What did Amane do?'"
+        }, 
+        "right": {
+            "id": "0012", 
+            "line": "'Huh? What did Amane do?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0013", 
+            "line": "'I... I didn't really do anything......!'"
+        }, 
+        "right": {
+            "id": "0013", 
+            "line": "'I... I didn't really do anything...!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0014", 
+            "line": "'You came to see us on several occasions,\\nimproved the weak points in the design and gave us\\nlots of ideas.'"
+        }, 
+        "right": {
+            "id": "0014", 
+            "line": "'You came to see us on several occasions,\\nimproved the weak points in the design and gave\\nus lots of ideas.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0015", 
+            "line": "'Amane, you're amazing! You really do have different\\nideas!'"
+        }, 
+        "right": {
+            "id": "0015", 
+            "line": "'Amane, you're amazing! You really do have\\ndifferent ideas!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0016", 
+            "line": "'Wow, Amane! You did all that and managed to keep\\nit a secret from us!'"
+        }, 
+        "right": {
+            "id": "0016", 
+            "line": "'Wow, Amane! You did all that and managed to keep\\nit a secret from us!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0017", 
+            "line": "I had no idea. When on earth did she do that?"
+        }, 
+        "right": {
+            "id": "0017", 
+            "line": "I had no idea. When on earth did she do that?"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0018", 
+            "line": "'I... I didn't think there was anything I could do to\\nhelp......'"
+        }, 
+        "right": {
+            "id": "0018", 
+            "line": "'I... I didn't think there was anything I could\\ndo to help...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0019", 
+            "line": "'Everyone was able to make something with you,\\nand they were so happy because it gave us a lot of\\nmotivation!'"
+        }, 
+        "right": {
+            "id": "0019", 
+            "line": "'Everyone was able to make something with you,\\nand they were so happy because it gave us a lot\\nof motivation!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001a", 
+            "line": "'They all really wanted to win, and said they were\\nfull of confidence and that they would win next\\ntime!'"
+        }, 
+        "right": {
+            "id": "001a", 
+            "line": "'They all really wanted to win, and said they\\nwere full of confidence and that they would win\\nnext time!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001b", 
+            "line": "'Oh...... that's good......'"
+        }, 
+        "right": {
+            "id": "001b", 
+            "line": "'Oh... that's good...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001c", 
+            "line": "It's good that they want to win. If you don't aim\\nfor the top, you can't win in the matches."
+        }, 
+        "right": {
+            "id": "001c", 
+            "line": "It's good that they want to win. If you don't aim\\nfor the top, you can't win in the matches."
+        }
+    }, 
+    {
+        "left": {
+            "id": "001d", 
+            "line": "'There is also one other important announcement.'"
+        }, 
+        "right": {
+            "id": "001d", 
+            "line": "'There is also one other important announcement.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001e", 
+            "line": "Ageha spoke in a formal tone."
+        }, 
+        "right": {
+            "id": "001e", 
+            "line": "Ageha spoke in a formal tone."
+        }
+    }, 
+    {
+        "left": {
+            "id": "001f", 
+            "line": "'Yesterday, I quit the Robot Club!'"
+        }, 
+        "right": {
+            "id": "001f", 
+            "line": "'Yesterday, I quit the Robot Club!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0020", 
+            "line": "'Whaaaaat!!?'"
+        }, 
+        "right": {
+            "id": "0020", 
+            "line": "'Whaaaaat!!?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0021", 
+            "line": "'Really?'"
+        }, 
+        "right": {
+            "id": "0021", 
+            "line": "'Really?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0022", 
+            "line": "'The truth is, I had already decided it.\\nI like making robots but now, I think that building\\nthe glider is more fun.'"
+        }, 
+        "right": {
+            "id": "0022", 
+            "line": "'The truth is, I had already decided it. I like\\nmaking robots but now, I think that building the\\nglider is more fun.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0023", 
+            "line": "'Which is why, from now on, I will only be a member\\nof this club. Let's do our best!'"
+        }, 
+        "right": {
+            "id": "0023", 
+            "line": "'Which is why, from now on, I will only be a\\nmember of this club. Let's do our best!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0024", 
+            "line": "We all let out a big cheer and the garage was filled\\nwith a much more rapturous applause this time."
+        }, 
+        "right": {
+            "id": "0024", 
+            "line": "'We all let out a big cheer and the garage was\\nfilled with a much more rapturous applause this\\ntime."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0025", 
+            "line": "'......So that means we can finally start the last\\nspurt of making the main wings!'"
+        }, 
+        "right": {
+            "id": "0025", 
+            "line": "'...So that means we can finally start the last\\nspurt of making the main wings!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0026", 
+            "line": "'Aoi, please return to your pilot training.'"
+        }, 
+        "right": {
+            "id": "0026", 
+            "line": "'Aoi, please return to your pilot training.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0027", 
+            "line": "'No, it's OK, I can help too.'"
+        }, 
+        "right": {
+            "id": "0027", 
+            "line": "'No, it's OK, I can help too.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0028", 
+            "line": "'No no, once the main wings are complete,\\nwe will perform a test flight straight away.'"
+        }, 
+        "right": {
+            "id": "0028", 
+            "line": "'No no, once the main wings are complete, we will\\nperform a test flight straight away.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0029", 
+            "line": "'Before that, you need to learn how pilot it\\nperfectly.'"
+        }, 
+        "right": {
+            "id": "0029", 
+            "line": "'Before that, you need to learn how pilot it\\nperfectly.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002a", 
+            "line": "'I let you be the pilot, so you must carry out your\\nduties!'"
+        }, 
+        "right": {
+            "id": "002a", 
+            "line": "'I let you be the pilot, so you must carry out\\nyour duties!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002b", 
+            "line": "'I will!'"
+        }, 
+        "right": {
+            "id": "002b", 
+            "line": "'I will!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002c", 
+            "line": "I have a role to fulfill."
+        }, 
+        "right": {
+            "id": "002c", 
+            "line": "I have a role to fulfill."
+        }
+    }, 
+    {
+        "left": {
+            "id": "002d", 
+            "line": "Finally, the first test flight is just around the\\ncorner."
+        }, 
+        "right": {
+            "id": "002d", 
+            "line": "Finally, the first test flight is just around the\\ncorner."
+        }
+    }
+]

@@ -1,0 +1,452 @@
+[
+    {
+        "left": {
+            "id": "0000", 
+            "line": "'......Yaaaawn......'"
+        }, 
+        "right": {
+            "id": "0000", 
+            "line": "'...Yaaaawn...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0001", 
+            "line": "I try to stifle my yawn, as I watch the sky just\\nbefore the break of dawn."
+        }, 
+        "right": {
+            "id": "0001", 
+            "line": "I try to stifle my yawn, as I watch the sky just\\nbefore the break of dawn."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0002", 
+            "line": "Today, it's my turn to watch it."
+        }, 
+        "right": {
+            "id": "0002", 
+            "line": "Today, it's my turn to watch it."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0003", 
+            "line": "We have to watch over the sky before dawn,\\nto see whether or not there are any signs that the\\nMorning Glory will occur."
+        }, 
+        "right": {
+            "id": "0003", 
+            "line": "We have to watch over the sky before dawn, to see\\nwhether or not there are any signs that the\\nMorning Glory will occur."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0004", 
+            "line": "'Aaaaah.......'"
+        }, 
+        "right": {
+            "id": "0004", 
+            "line": "'Aaaaah...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0005", 
+            "line": "But last night, I couldn't fall asleep until the\\nusual time, so I didn't get enough sleep.\\nI came outside after what only amounted to a short\\nnap."
+        }, 
+        "right": {
+            "id": "0005", 
+            "line": "But last night, I couldn't fall asleep until the\\nusual time, so I didn't get enough sleep. I came\\noutside after what only amounted to a short nap."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0006", 
+            "line": "That's why I'm sleepy."
+        }, 
+        "right": {
+            "id": "0006", 
+            "line": "That's why I'm sleepy."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0007", 
+            "line": "............"
+        }, 
+        "right": {
+            "id": "0007", 
+            "line": "..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0008", 
+            "line": "It's no good, if I stay still like this,\\nI'm gonna fall asleep."
+        }, 
+        "right": {
+            "id": "0008", 
+            "line": "It's no good, if I stay still like this, I'm\\ngonna fall asleep."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0009", 
+            "line": "I'll try moving my body a little......"
+        }, 
+        "right": {
+            "id": "0009", 
+            "line": "I'll try moving my body a little..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000a", 
+            "line": "While going for a stroll, I go as far as the hill\\nwhere the windmills stand."
+        }, 
+        "right": {
+            "id": "000a", 
+            "line": "While going for a stroll, I go as far as the hill\\nwhere the windmills stand."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000b", 
+            "line": "As always, there's nothing unusual about the sky."
+        }, 
+        "right": {
+            "id": "000b", 
+            "line": "As always, there's nothing unusual about the sky."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000c", 
+            "line": "Of course, there's no one on the hill,\\nand the lonely windmills turn."
+        }, 
+        "right": {
+            "id": "000c", 
+            "line": "Of course, there's no one on the hill, and the\\nlonely windmills turn."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000d", 
+            "line": "............"
+        }, 
+        "right": {
+            "id": "000d", 
+            "line": "..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000e", 
+            "line": "I stand there a while, staring blankly at the sky."
+        }, 
+        "right": {
+            "id": "000e", 
+            "line": "I stand there a while, staring blankly at the\\nsky."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000f", 
+            "line": "............"
+        }, 
+        "right": {
+            "id": "000f", 
+            "line": "..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0010", 
+            "line": "So, it's dawn already......?"
+        }, 
+        "right": {
+            "id": "0010", 
+            "line": "So, it's dawn already...?"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0011", 
+            "line": "Time to go back."
+        }, 
+        "right": {
+            "id": "0011", 
+            "line": "Time to go back."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0012", 
+            "line": "Hmm?"
+        }, 
+        "right": {
+            "id": "0012", 
+            "line": "Hmm?"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0013", 
+            "line": "'............'"
+        }, 
+        "right": {
+            "id": "0013", 
+            "line": "'...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0014", 
+            "line": "'............'"
+        }, 
+        "right": {
+            "id": "0014", 
+            "line": "'...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0015", 
+            "line": "Along the way, I pass by two girls."
+        }, 
+        "right": {
+            "id": "0015", 
+            "line": "Along the way, I pass by two girls."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0016", 
+            "line": "Going for a stroll, this early in the morning?\\nThat's strange......"
+        }, 
+        "right": {
+            "id": "0016", 
+            "line": "Going for a stroll, this early in the morning?\\nThat's strange..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0017", 
+            "line": "But, I feel like I've seen them before...... Is it\\njust my imagination?"
+        }, 
+        "right": {
+            "id": "0017", 
+            "line": "But, I feel like I've seen them before... Is it\\njust my imagination?"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0018", 
+            "line": "............"
+        }, 
+        "right": {
+            "id": "0018", 
+            "line": "..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0019", 
+            "line": "Meh, whatever."
+        }, 
+        "right": {
+            "id": "0019", 
+            "line": "Meh, whatever."
+        }
+    }, 
+    {
+        "left": {
+            "id": "001a", 
+            "line": "Anyway, I'm heading back."
+        }, 
+        "right": {
+            "id": "001a", 
+            "line": "Anyway, I'm heading back."
+        }
+    }, 
+    {
+        "left": {
+            "id": "001b", 
+            "line": "'It does feel good to go for a stroll in the\\nmorning, after all.'"
+        }, 
+        "right": {
+            "id": "001b", 
+            "line": "'It does feel good to go for a stroll in the\\nmorning, after all.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001c", 
+            "line": "'Really? We're just walking, so I don't really see\\nwhy we have to do it so early in the morning.'"
+        }, 
+        "right": {
+            "id": "001c", 
+            "line": "'Really? We're just walking, so I don't really\\nsee why we have to do it so early in the\\nmorning.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001d", 
+            "line": "'Well, you didn't have to come with me.'"
+        }, 
+        "right": {
+            "id": "001d", 
+            "line": "'Well, you didn't have to come with me.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001e", 
+            "line": "'Well, if you go out for a stroll in the early\\nmorning and get kidnapped, it'll cause problems for\\nme.'"
+        }, 
+        "right": {
+            "id": "001e", 
+            "line": "'Well, if you go out for a stroll in the early\\nmorning and get kidnapped, it'll cause problems\\nfor me.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001f", 
+            "line": "'I'm not that stupid, you know!'"
+        }, 
+        "right": {
+            "id": "001f", 
+            "line": "'I'm not that stupid, you know!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0020", 
+            "line": "'Is that so? Hee hee.'"
+        }, 
+        "right": {
+            "id": "0020", 
+            "line": "'Is that so? Hee hee.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0021", 
+            "line": "'Uhhh......'"
+        }, 
+        "right": {
+            "id": "0021", 
+            "line": "'Uhhh...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0022", 
+            "line": "'A...anyway! It feels nice to go for a stroll in the\\nmorning!'"
+        }, 
+        "right": {
+            "id": "0022", 
+            "line": "'A...anyway! It feels nice to go for a stroll in\\nthe morning!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0023", 
+            "line": "'There's nobody here, the air is fresh...... It's like\\nstepping into another world.'"
+        }, 
+        "right": {
+            "id": "0023", 
+            "line": "'There's nobody here, the air is fresh... It's\\nlike stepping into another world.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0024", 
+            "line": "'That's why I like morning strolls.'"
+        }, 
+        "right": {
+            "id": "0024", 
+            "line": "'That's why I like morning strolls.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0025", 
+            "line": "'Hey sis, this is the same world, by the way.'"
+        }, 
+        "right": {
+            "id": "0025", 
+            "line": "'Hey sis, this is the same world, by the way.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0026", 
+            "line": "'I know that! I know but that doesn't matter,\\ndoes it?'"
+        }, 
+        "right": {
+            "id": "0026", 
+            "line": "'I know that! I know but that doesn't matter,\\ndoes it?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0027", 
+            "line": "'This is why, sometimes, when I feel like I'm\\ngetting lost in myself, I like to go for a morning\\nstroll and look at the view.'"
+        }, 
+        "right": {
+            "id": "0027", 
+            "line": "'This is why, sometimes, when I feel like I'm\\ngetting lost in myself, I like to go for a\\nmorning stroll and look at the view.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0028", 
+            "line": "'I see. That sounds like the kind of thing you'd\\nsay.'"
+        }, 
+        "right": {
+            "id": "0028", 
+            "line": "'I see. That sounds like the kind of thing you'd\\nsay.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0029", 
+            "line": "'Yoru, you're joking aren't you?'"
+        }, 
+        "right": {
+            "id": "0029", 
+            "line": "'Yoru, you're joking aren't you?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002a", 
+            "line": "'......I'll come with you on a stroll from time to\\ntime. Well, it's nice to take a break.'"
+        }, 
+        "right": {
+            "id": "002a", 
+            "line": "'...I'll come with you on a stroll from time to\\ntime. Well, it's nice to take a break.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002b", 
+            "line": "'Really?'"
+        }, 
+        "right": {
+            "id": "002b", 
+            "line": "'Really?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002c", 
+            "line": "'......Yeah.'"
+        }, 
+        "right": {
+            "id": "002c", 
+            "line": "'...Yeah.'"
+        }
+    }
+]

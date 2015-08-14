@@ -1,0 +1,652 @@
+[
+    {
+        "left": {
+            "id": "0000", 
+            "line": "The last day of the summer holiday."
+        }, 
+        "right": {
+            "id": "0000", 
+            "line": "The last day of the summer holiday."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0001", 
+            "line": "'......'"
+        }, 
+        "right": {
+            "id": "0015", 
+            "line": "'...No.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0002", 
+            "line": "'Amane.'"
+        }, 
+        "right": {
+            "id": "0002", 
+            "line": "'Amane.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0003", 
+            "line": "'Huh? Hey there, Aoi. Why are you up so early?'"
+        }, 
+        "right": {
+            "id": "0003", 
+            "line": "'Huh? Hey there, Aoi. Why are you up so early?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0004", 
+            "line": "'That's my line. You weren't in the dormitory,\\nso I thought you might be here.'"
+        }, 
+        "right": {
+            "id": "0004", 
+            "line": "'That's my line. You weren't in the dormitory, so\\nI thought you might be here.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0005", 
+            "line": "I woke up early, but I didn't see Amane anywhere,\\nand all her things in her room were carefully packed\\naway."
+        }, 
+        "right": {
+            "id": "0005", 
+            "line": "I woke up early, but I didn't see Amane anywhere.\\nAll her things in her room were carefully packed\\naway."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0006", 
+            "line": "'Yeah. I thought I'd tidy everything up before the\\nothers come back.'"
+        }, 
+        "right": {
+            "id": "0006", 
+            "line": "'Yeah. I thought I'd tidy everything up before\\nthe others come back.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0007", 
+            "line": "'I'll soon be going to my dad's lab.'"
+        }, 
+        "right": {
+            "id": "0007", 
+            "line": "'I'll soon be going to my dad's lab.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0008", 
+            "line": "'......!?'"
+        }, 
+        "right": {
+            "id": "0008", 
+            "line": "'...!?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0009", 
+            "line": "Today is the last day of the summer holiday."
+        }, 
+        "right": {
+            "id": "0009", 
+            "line": "Today is the last day of the summer holiday."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000a", 
+            "line": "In other words, the day that Amane leaves the\\nschool."
+        }, 
+        "right": {
+            "id": "000a", 
+            "line": "In other words, the day that Amane leaves the\\nschool."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000b", 
+            "line": "'We still have one more day, though.'"
+        }, 
+        "right": {
+            "id": "000b", 
+            "line": "'We still have one more day, though.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000c", 
+            "line": "'Hmm. But there's nothing left to do, is there?'"
+        }, 
+        "right": {
+            "id": "000c", 
+            "line": "'Hmm. But there's nothing left to do, is there?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000d", 
+            "line": "Everyone was planning to get up before dawn again\\nand go to the runway."
+        }, 
+        "right": {
+            "id": "000d", 
+            "line": "Everyone was planning to get up before dawn again\\nand go to the runway."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000e", 
+            "line": "We didn't think that a miraculous phenomenon would\\noccur two days in a row, but even so,\\nwe wanted to believe there was a slight chance."
+        }, 
+        "right": {
+            "id": "000e", 
+            "line": "We didn't think that a miraculous phenomenon\\nwould occur two days in a row, but even so, we\\nwanted to believe there was a slight chance."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000f", 
+            "line": "However, I knew that we wouldn't be able to do it\\nagain so soon."
+        }, 
+        "right": {
+            "id": "000f", 
+            "line": "However, I knew that we wouldn't be able to do it\\nagain so soon."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0010", 
+            "line": "At that time, we were caught in the downdraft,\\nthen forcibly pulling up the aircraft meant it\\nsustained huge G forces, damaging parts of the\\nglider."
+        }, 
+        "right": {
+            "id": "0010", 
+            "line": "At that time, we were caught in the downdraft,\\nthen forcibly pulling up the aircraft meant it\\nsustained huge G forces, damaging parts of the\\nglider."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0011", 
+            "line": "It's possible to fix it, but at the very least,\\nthere was no hope that we'd be able to fly today."
+        }, 
+        "right": {
+            "id": "0011", 
+            "line": "It's possible to fix it, but at the very least,\\nthere was no hope that we'd be able to fly today."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0012", 
+            "line": "Amane's objective was to fly to the Morning Glory."
+        }, 
+        "right": {
+            "id": "0012", 
+            "line": "Amane's objective was to fly to the Morning\\nGlory."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0013", 
+            "line": "Now that goal had been achieved, there was nothing\\nleft to do."
+        }, 
+        "right": {
+            "id": "0013", 
+            "line": "Now that goal had been achieved, there was\\nnothing left to do."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0014", 
+            "line": "'You haven't seen any of the others, have you?'"
+        }, 
+        "right": {
+            "id": "0014", 
+            "line": "'You haven't seen any of the others, have you?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0015", 
+            "line": "'......No.'"
+        }, 
+        "right": {
+            "id": "0020", 
+            "line": "'...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0016", 
+            "line": "'Why not?'"
+        }, 
+        "right": {
+            "id": "0016", 
+            "line": "'Why not?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0017", 
+            "line": "'Because this year's summer holiday was so fun.\\nIt's hard for me...... to leave this place.'"
+        }, 
+        "right": {
+            "id": "0017", 
+            "line": "'Because this year's summer holiday was so fun.\\nIt's hard for me... to leave this place.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0018", 
+            "line": "'......'"
+        }, 
+        "right": {
+            "id": "0001", 
+            "line": "'...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0019", 
+            "line": "'I'm sorry but could you say something to them for\\nme? I'm not much of a talker......'"
+        }, 
+        "right": {
+            "id": "0019", 
+            "line": "'I'm sorry but could you say something to them\\nfor me? I'm not much of a talker...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001a", 
+            "line": "Amane speaks with a really troubled look on her\\nface, and continued to pack all of the things she\\nhad organized into a large travel bag."
+        }, 
+        "right": {
+            "id": "001a", 
+            "line": "Amane speaks with a really troubled look on her\\nface, and continued to pack all of the things she\\nhad organized into a large travel bag."
+        }
+    }, 
+    {
+        "left": {
+            "id": "001b", 
+            "line": "She's been living here a long time, so she has a lot\\nof personal items."
+        }, 
+        "right": {
+            "id": "001b", 
+            "line": "She's been living here a long time, so she has a\\nlot of personal items."
+        }
+    }, 
+    {
+        "left": {
+            "id": "001c", 
+            "line": "'I'll help you carry it.'"
+        }, 
+        "right": {
+            "id": "001c", 
+            "line": "'I'll help you carry it.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001d", 
+            "line": "'No, it's OK. It's mostly things that I don't need\\nanyway, so I'll just leave behind anything I can't\\ncarry.'"
+        }, 
+        "right": {
+            "id": "001d", 
+            "line": "'No, it's OK. It's mostly things that I don't\\nneed anyway, so I'll just leave behind anything I\\ncan't carry.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001e", 
+            "line": "Amane speaks while gazing at her desk,\\nwhich is still cluttered."
+        }, 
+        "right": {
+            "id": "001e", 
+            "line": "Amane speaks while gazing at her desk, which is\\nstill cluttered."
+        }
+    }, 
+    {
+        "left": {
+            "id": "001f", 
+            "line": "As she looks it over, her gaze stops at the photo\\nframe."
+        }, 
+        "right": {
+            "id": "001f", 
+            "line": "As she looks it over, her gaze stops at the photo\\nframe."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0020", 
+            "line": "'......'"
+        }, 
+        "right": {
+            "id": "0018", 
+            "line": "'...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0021", 
+            "line": "'Are you leaving his behind too?'"
+        }, 
+        "right": {
+            "id": "0021", 
+            "line": "'Are you leaving his behind too?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0022", 
+            "line": "'Yeah.'"
+        }, 
+        "right": {
+            "id": "0022", 
+            "line": "'Yeah.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0023", 
+            "line": "She smiles as if to say 'Even if I took it with me,\\nI wouldn't know what to do with it'."
+        }, 
+        "right": {
+            "id": "0023", 
+            "line": "'She smiles as if to say 'Even if I took it with\\nme, I wouldn't know what to do with it'."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0024", 
+            "line": "Seeing her sad smile made all the feelings of regret\\nthat I'd bottled up come pouring out."
+        }, 
+        "right": {
+            "id": "0024", 
+            "line": "Seeing her sad smile made all the feelings of\\nregret that I'd bottled up come pouring out."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0025", 
+            "line": "'I......'"
+        }, 
+        "right": {
+            "id": "0025", 
+            "line": "'I...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0026", 
+            "line": "'?'"
+        }, 
+        "right": {
+            "id": "0026", 
+            "line": "'?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0027", 
+            "line": "'I'm...... gonna continue it.'"
+        }, 
+        "right": {
+            "id": "0027", 
+            "line": "'I'm... gonna continue it.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0028", 
+            "line": "'I'll improve, and I will definitely fly to the\\nMorning Glory in the glider that you and the others\\nhave made!'"
+        }, 
+        "right": {
+            "id": "0028", 
+            "line": "'I'll improve, and I will definitely fly to the\\nMorning Glory in the glider that you and the\\nothers have made!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0029", 
+            "line": "'......Sure.'"
+        }, 
+        "right": {
+            "id": "0029", 
+            "line": "'...Sure.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002a", 
+            "line": "Amane nods, and after thinking a moment,\\nputs down her bag and stands in front of me."
+        }, 
+        "right": {
+            "id": "002a", 
+            "line": "Amane nods, and after thinking a moment, puts\\ndown her bag and stands in front of me."
+        }
+    }, 
+    {
+        "left": {
+            "id": "002b", 
+            "line": "She takes my hand and holds it gently."
+        }, 
+        "right": {
+            "id": "002b", 
+            "line": "She takes my hand and holds it gently."
+        }
+    }, 
+    {
+        "left": {
+            "id": "002c", 
+            "line": "In the garage, which doesn't have air conditioning,\\nit's as hot as a sauna."
+        }, 
+        "right": {
+            "id": "002c", 
+            "line": "In the garage, which doesn't have air\\nconditioning, it's as hot as a sauna."
+        }
+    }, 
+    {
+        "left": {
+            "id": "002d", 
+            "line": "My hands are covered in sweat but hers are as \\nsmooth and as soft as freshly washed sheets."
+        }, 
+        "right": {
+            "id": "002d", 
+            "line": "My hands are covered in sweat but hers are as\\nsmooth and as soft as freshly washed sheets."
+        }
+    }, 
+    {
+        "left": {
+            "id": "002e", 
+            "line": "Then Amane, with eyes like a little kid's...... but a\\nlittle more grown-up than yesterday, looks me in the\\neyes."
+        }, 
+        "right": {
+            "id": "002e", 
+            "line": "Then Amane, with eyes like a little kid's... but\\na little more grown-up than yesterday, looks me\\nin the eyes."
+        }
+    }, 
+    {
+        "left": {
+            "id": "002f", 
+            "line": "'......Thank you, Aoi.'"
+        }, 
+        "right": {
+            "id": "002f", 
+            "line": "'...Thank you, Aoi.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0030", 
+            "line": "'Thanks to you guys, in the end...... I was able to go\\nto that place.'"
+        }, 
+        "right": {
+            "id": "0030", 
+            "line": "'Thanks to you guys, in the end... I was able to\\ngo to that place.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0031", 
+            "line": "'To the sky that until now, I'd only been able to\\nlook at from below.'"
+        }, 
+        "right": {
+            "id": "0031", 
+            "line": "'To the sky that until now, I'd only been able to\\nlook at from below.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0032", 
+            "line": "As Amane speaks, she has a small, yet fulfilled\\nsmile."
+        }, 
+        "right": {
+            "id": "0032", 
+            "line": "As Amane speaks, she has a small, yet fulfilled\\nsmile."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0033", 
+            "line": "'How about Isuka's feelings......?'"
+        }, 
+        "right": {
+            "id": "0033", 
+            "line": "'How about Isuka's feelings...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0034", 
+            "line": "I wanted to ask her if she understood the reason why\\nIsuka had become so obsessed with gliders."
+        }, 
+        "right": {
+            "id": "0034", 
+            "line": "I wanted to ask her if she understood the reason\\nwhy Isuka had become so obsessed with gliders."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0035", 
+            "line": "'To be honest, I still don't really know. But,\\nit's been decided.'"
+        }, 
+        "right": {
+            "id": "0035", 
+            "line": "'To be honest, I still don't really know. But,\\nit's been decided.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0036", 
+            "line": "'So, thank you.'"
+        }, 
+        "right": {
+            "id": "0036", 
+            "line": "'So, thank you.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0037", 
+            "line": "Amane shuts her eyes and hugs me gently."
+        }, 
+        "right": {
+            "id": "0037", 
+            "line": "Amane shuts her eyes and hugs me gently."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0038", 
+            "line": "To tell the truth..."
+        }, 
+        "right": {
+            "id": "0038", 
+            "line": "To tell the truth..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0039", 
+            "line": "...I thought I was gonna cry."
+        }, 
+        "right": {
+            "id": "0039", 
+            "line": "...I thought I was gonna cry."
+        }
+    }, 
+    {
+        "left": {
+            "id": "003a", 
+            "line": "'Use the things in here however you want,\\nThe winch at the runway is equipment that belongs \\nto the Soaring Club.'"
+        }, 
+        "right": {
+            "id": "003a", 
+            "line": "'Use the things in here however you want, The\\nwinch at the runway is equipment that belongs to\\nthe Soaring Club.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "003b", 
+            "line": "'......What about these designs?'"
+        }, 
+        "right": {
+            "id": "003b", 
+            "line": "'...What about these designs?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "003c", 
+            "line": "The designs had been left on the drawing board."
+        }, 
+        "right": {
+            "id": "003c", 
+            "line": "The designs had been left on the drawing board."
+        }
+    }, 
+    {
+        "left": {
+            "id": "003d", 
+            "line": "'I finished them last night but I don't need them\\nanymore.'"
+        }, 
+        "right": {
+            "id": "003d", 
+            "line": "'I finished them last night but I don't need them\\nanymore.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "003e", 
+            "line": "'I'm sorry but if you don't need them,\\njust throw them away.'"
+        }, 
+        "right": {
+            "id": "003e", 
+            "line": "'I'm sorry but if you don't need them, just throw\\nthem away.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "003f", 
+            "line": "'I couldn't do that......'"
+        }, 
+        "right": {
+            "id": "003f", 
+            "line": "'I couldn't do that...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0040", 
+            "line": "'Well then, if I don't get going, I'll miss my bus.'"
+        }, 
+        "right": {
+            "id": "0040", 
+            "line": "'Well then, if I don't get going, I'll miss my\\nbus.'"
+        }
+    }
+]

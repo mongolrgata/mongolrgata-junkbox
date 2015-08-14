@@ -1,0 +1,5802 @@
+[
+    {
+        "left": {
+            "id": "0000", 
+            "line": "'I'm hungry......'"
+        }, 
+        "right": {
+            "id": "0000", 
+            "line": "'I'm hungry...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0001", 
+            "line": "'They're still not back yet......? They must be\\nworking hard.'"
+        }, 
+        "right": {
+            "id": "0001", 
+            "line": "'They're still not back yet...? They must be\\nworking hard.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0002", 
+            "line": "'Is there anything in the fridge......?'"
+        }, 
+        "right": {
+            "id": "0002", 
+            "line": "'Is there anything in the fridge...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0003", 
+            "line": "'Quack Quack'"
+        }, 
+        "right": {
+            "id": "0003", 
+            "line": "'Quack Quack'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0004", 
+            "line": "'Wassup, senior Hat? What's wrong, are you hungry\\ntoo?'"
+        }, 
+        "right": {
+            "id": "0004", 
+            "line": "'Wassup, senior Hat? What's wrong, are you hungry\\ntoo?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0005", 
+            "line": "'Quack! Quack!'"
+        }, 
+        "right": {
+            "id": "0005", 
+            "line": "'Quack! Quack!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0006", 
+            "line": "'It's not food you're after? So, do you want a\\nwash?'"
+        }, 
+        "right": {
+            "id": "0006", 
+            "line": "'It's not food you're after? So, do you want a\\nwash?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0007", 
+            "line": "'Quack......'"
+        }, 
+        "right": {
+            "id": "0007", 
+            "line": "'Quack...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0008", 
+            "line": "'I see. I see.'"
+        }, 
+        "right": {
+            "id": "0008", 
+            "line": "'I see. I see.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0009", 
+            "line": "'It's quite cool today, isn't it? I'll be OK to wear\\nmore than just my underwear.'"
+        }, 
+        "right": {
+            "id": "0009", 
+            "line": "'It's quite cool today, isn't it? I'll be OK to\\nwear more than just my underwear.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000a", 
+            "line": "'Quack!'"
+        }, 
+        "right": {
+            "id": "000a", 
+            "line": "'Quack!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000b", 
+            "line": "'OK, OK, you want a wash. Let's go!'"
+        }, 
+        "right": {
+            "id": "000b", 
+            "line": "'OK, OK, you want a wash. Let's go!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000c", 
+            "line": "'Quack!'"
+        }, 
+        "right": {
+            "id": "000c", 
+            "line": "'Quack!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000d", 
+            "line": "'Looks like it feels nice. I'll have a shower later\\ntoo.'"
+        }, 
+        "right": {
+            "id": "000d", 
+            "line": "'Looks like it feels nice. I'll have a shower\\nlater too.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000e", 
+            "line": "'Quack, Quack!'"
+        }, 
+        "right": {
+            "id": "000e", 
+            "line": "'Quack, Quack!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000f", 
+            "line": "'......Hmm?'"
+        }, 
+        "right": {
+            "id": "000f", 
+            "line": "'...Hmm?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0010", 
+            "line": "'Hey, senior Hat. What's that?'"
+        }, 
+        "right": {
+            "id": "0010", 
+            "line": "'Hey, senior Hat. What's that?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0011", 
+            "line": "'Quack?'"
+        }, 
+        "right": {
+            "id": "0011", 
+            "line": "'Quack?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0012", 
+            "line": "'Look, at the sky......'"
+        }, 
+        "right": {
+            "id": "0012", 
+            "line": "'Look, at the sky...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0013", 
+            "line": "'......Doesn't it seem faintly purple?'"
+        }, 
+        "right": {
+            "id": "0013", 
+            "line": "'...Doesn't it seem faintly purple?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0014", 
+            "line": "'The direction is......'"
+        }, 
+        "right": {
+            "id": "0014", 
+            "line": "'The direction is...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0015", 
+            "line": "'East!'"
+        }, 
+        "right": {
+            "id": "0015", 
+            "line": "'East!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0016", 
+            "line": "'Which means......!'"
+        }, 
+        "right": {
+            "id": "0016", 
+            "line": "'Which means...!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0017", 
+            "line": "The eastern sky was bluish-purple."
+        }, 
+        "right": {
+            "id": "0017", 
+            "line": "The eastern sky was bluish-purple."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0018", 
+            "line": "We were tidying up after finishing flight training\\nfor the day, but we stopped working to gaze at the\\neastern sky."
+        }, 
+        "right": {
+            "id": "0018", 
+            "line": "We were tidying up after finishing flight\\ntraining for the day, but we stopped working to\\ngaze at the eastern sky."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0019", 
+            "line": "'This is a sign...... isn't it?'"
+        }, 
+        "right": {
+            "id": "0019", 
+            "line": "'This is a sign... isn't it?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001a", 
+            "line": "This was the moment we'd been waiting for,\\nbut we were careful not to get our hopes up yet."
+        }, 
+        "right": {
+            "id": "001a", 
+            "line": "This was the moment we'd been waiting for, but we\\nwere careful not to get our hopes up yet."
+        }
+    }, 
+    {
+        "left": {
+            "id": "001b", 
+            "line": "'We don't know. But until now, it hasn't been that\\ncolor.'"
+        }, 
+        "right": {
+            "id": "001b", 
+            "line": "'We don't know. But until now, it hasn't been\\nthat color.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001c", 
+            "line": "'Well, I don't know. At least not since we started\\npaying attention to it.'"
+        }, 
+        "right": {
+            "id": "001c", 
+            "line": "'Well, I don't know. At least not since we\\nstarted paying attention to it.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001d", 
+            "line": "'The air temperature is 25 degrees centigrade.\\nThat's 3 degrees lower than yesterday!'"
+        }, 
+        "right": {
+            "id": "001d", 
+            "line": "'The air temperature is 25 degrees centigrade.\\nThat's 3 degrees lower than yesterday!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001e", 
+            "line": "'The overall temperature is quite high...... and there\\nis a breeze. This could be it.'"
+        }, 
+        "right": {
+            "id": "001e", 
+            "line": "'The overall temperature is quite high... and\\nthere is a breeze. This could be it.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001f", 
+            "line": "We all look towards Amane."
+        }, 
+        "right": {
+            "id": "001f", 
+            "line": "We all look towards Amane."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0020", 
+            "line": "Amane looks to the eastern sky..."
+        }, 
+        "right": {
+            "id": "0020", 
+            "line": "Amane looks to the eastern sky..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0021", 
+            "line": "'......'"
+        }, 
+        "right": {
+            "id": "0021", 
+            "line": "'...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0022", 
+            "line": "She was just standing there quietly."
+        }, 
+        "right": {
+            "id": "0022", 
+            "line": "She was just standing there quietly."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0023", 
+            "line": "While looking at the signs that indicated that the\\nphenomenon could occur, she seemed to be assessing\\nthe situation."
+        }, 
+        "right": {
+            "id": "0023", 
+            "line": "While looking at the signs that indicated that\\nthe phenomenon could occur, she seemed to be\\nassessing the situation."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0024", 
+            "line": "Or maybe she was praying......"
+        }, 
+        "right": {
+            "id": "0024", 
+            "line": "Or maybe she was praying..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0025", 
+            "line": "'Amane!'"
+        }, 
+        "right": {
+            "id": "0025", 
+            "line": "'Amane!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0026", 
+            "line": "'Y...yeah......?'"
+        }, 
+        "right": {
+            "id": "0026", 
+            "line": "'Y...yeah...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0027", 
+            "line": "'It might occur tomorrow morning.'"
+        }, 
+        "right": {
+            "id": "0027", 
+            "line": "'It might occur tomorrow morning.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0028", 
+            "line": "There are two days left of the summer holidays."
+        }, 
+        "right": {
+            "id": "0028", 
+            "line": "There are two days left of the summer holidays."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0029", 
+            "line": "This was the time limit for Amane's activities with\\nthe Soaring Club."
+        }, 
+        "right": {
+            "id": "0029", 
+            "line": "This was the time limit for Amane's activities\\nwith the Soaring Club."
+        }
+    }, 
+    {
+        "left": {
+            "id": "002a", 
+            "line": "'Amane?'"
+        }, 
+        "right": {
+            "id": "002a", 
+            "line": "'Amane?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002b", 
+            "line": "'I... I know...... yeah, I'm OK......'"
+        }, 
+        "right": {
+            "id": "002b", 
+            "line": "'I... I know... yeah, I'm OK...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002c", 
+            "line": "I gave Kotori a prod and spoke quietly to her."
+        }, 
+        "right": {
+            "id": "002c", 
+            "line": "I gave Kotori a prod and spoke quietly to her."
+        }
+    }, 
+    {
+        "left": {
+            "id": "002d", 
+            "line": "'(The second in charge should take care of occasions\\nlike this.)'"
+        }, 
+        "right": {
+            "id": "002d", 
+            "line": "'(The second in charge should take care of\\noccasions like this.)'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002e", 
+            "line": "'(Y...yes, you're right!)'"
+        }, 
+        "right": {
+            "id": "002e", 
+            "line": "'(Y...yes, you're right!)'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002f", 
+            "line": "'Ahem...... Listen up, everyone.'"
+        }, 
+        "right": {
+            "id": "002f", 
+            "line": "'Ahem... Listen up, everyone.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0030", 
+            "line": "'The Morning Glory will definitely be occurring\\ntomorrow morning! That is what we believe!'"
+        }, 
+        "right": {
+            "id": "0030", 
+            "line": "'The Morning Glory will definitely be occurring\\ntomorrow morning! That is what we believe!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0031", 
+            "line": "'That is why today, regardless of whose turn it is,\\nwe will all wake up before dawn, and prepare for\\nflight!'"
+        }, 
+        "right": {
+            "id": "0031", 
+            "line": "'That is why today, regardless of whose turn it\\nis, we will all wake up before dawn, and prepare\\nfor flight!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0032", 
+            "line": "'Alright!'"
+        }, 
+        "right": {
+            "id": "0032", 
+            "line": "'Alright!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0033", 
+            "line": "'......'"
+        }, 
+        "right": {
+            "id": "0033", 
+            "line": "'...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0034", 
+            "line": "It's 4 AM."
+        }, 
+        "right": {
+            "id": "0034", 
+            "line": "It's 4 AM."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0035", 
+            "line": "'Don't make too much noise. Kanako is still\\nsleeping.'"
+        }, 
+        "right": {
+            "id": "0035", 
+            "line": "'Don't make too much noise. Kanako is still\\nsleeping.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0036", 
+            "line": "'Roger that.'"
+        }, 
+        "right": {
+            "id": "0036", 
+            "line": "'Roger that.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0037", 
+            "line": "'ROGER... Agh!'"
+        }, 
+        "right": {
+            "id": "0037", 
+            "line": "'ROGER... Agh!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0038", 
+            "line": "'Kotori!'"
+        }, 
+        "right": {
+            "id": "0038", 
+            "line": "'Kotori!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0039", 
+            "line": "'S...sorry......'"
+        }, 
+        "right": {
+            "id": "0039", 
+            "line": "'S...sorry...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "003a", 
+            "line": "We got up at the usual time for people whose turn it\\nis to watch the dawn sky, and carried our things\\noutside the dormitory."
+        }, 
+        "right": {
+            "id": "003a", 
+            "line": "We got up at the usual time for people whose turn\\nit is to watch the dawn sky, and carried our\\nthings outside the dormitory."
+        }
+    }, 
+    {
+        "left": {
+            "id": "003b", 
+            "line": "There is still one hour before the morning sun\\nrises."
+        }, 
+        "right": {
+            "id": "003b", 
+            "line": "There is still one hour before the morning sun\\nrises."
+        }
+    }, 
+    {
+        "left": {
+            "id": "003c", 
+            "line": "We have to complete our launch preparations before\\nthen."
+        }, 
+        "right": {
+            "id": "003c", 
+            "line": "We have to complete our launch preparations\\nbefore then."
+        }
+    }, 
+    {
+        "left": {
+            "id": "003d", 
+            "line": "'It's quite cold, isn't it......?'"
+        }, 
+        "right": {
+            "id": "003d", 
+            "line": "'It's quite cold, isn't it...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "003e", 
+            "line": "'It's a little chilly to be wearing such light\\nclothes.'"
+        }, 
+        "right": {
+            "id": "003e", 
+            "line": "'It's a little chilly to be wearing such light\\nclothes.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "003f", 
+            "line": "'Amane, will you be alright in those clothes?'"
+        }, 
+        "right": {
+            "id": "003f", 
+            "line": "'Amane, will you be alright in those clothes?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0040", 
+            "line": "'Yeah...... I'll be fine.'"
+        }, 
+        "right": {
+            "id": "0040", 
+            "line": "'Yeah... I'll be fine.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0041", 
+            "line": "'Look lively, Amane! You'll soon be flying above the\\nclouds.'"
+        }, 
+        "right": {
+            "id": "0041", 
+            "line": "'Look lively, Amane! You'll soon be flying above\\nthe clouds.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0042", 
+            "line": "'Kotori, you're speaking really loudly. Ageha,\\nhow's the sky?'"
+        }, 
+        "right": {
+            "id": "0042", 
+            "line": "'Kotori, you're speaking really loudly. Ageha,\\nhow's the sky?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0043", 
+            "line": "'Hmm...... I don't really know.'"
+        }, 
+        "right": {
+            "id": "0043", 
+            "line": "'Hmm... I don't really know.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0044", 
+            "line": "The sky was covered in darkness, and it wasn't\\npossible to see with the naked eye whether or not\\nthere were any clouds."
+        }, 
+        "right": {
+            "id": "0044", 
+            "line": "The sky was covered in darkness, and it wasn't\\npossible to see with the naked eye whether or not\\nthere were any clouds."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0045", 
+            "line": "'Anyway, let's hurry. If we hang about for too long,\\nwe won't make it in time for dawn.'"
+        }, 
+        "right": {
+            "id": "0045", 
+            "line": "'Anyway, let's hurry. If we hang about for too\\nlong, we won't make it in time for dawn.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0046", 
+            "line": "We reach the runway and immediately begin work on\\nthe assembly."
+        }, 
+        "right": {
+            "id": "0046", 
+            "line": "We reach the runway and immediately begin work on\\nthe assembly."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0047", 
+            "line": "'Right aileron.'"
+        }, 
+        "right": {
+            "id": "0047", 
+            "line": "'Right aileron.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0048", 
+            "line": "'OK.'"
+        }, 
+        "right": {
+            "id": "0048", 
+            "line": "'OK.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0049", 
+            "line": "'Left aileron.'"
+        }, 
+        "right": {
+            "id": "0049", 
+            "line": "'Left aileron.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "004a", 
+            "line": "'No problems.'"
+        }, 
+        "right": {
+            "id": "004a", 
+            "line": "'No problems.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "004b", 
+            "line": "'Next, is the elevator.'"
+        }, 
+        "right": {
+            "id": "004b", 
+            "line": "'Next, is the elevator.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "004c", 
+            "line": "While this is going on, I eat a rice ball that I had\\nmade the night before."
+        }, 
+        "right": {
+            "id": "004c", 
+            "line": "While this is going on, I eat a rice ball that I\\nhad made the night before."
+        }
+    }, 
+    {
+        "left": {
+            "id": "004d", 
+            "line": "I have to do something about my empty stomach."
+        }, 
+        "right": {
+            "id": "004d", 
+            "line": "I have to do something about my empty stomach."
+        }
+    }, 
+    {
+        "left": {
+            "id": "004e", 
+            "line": "'......'"
+        }, 
+        "right": {
+            "id": "004e", 
+            "line": "'...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "004f", 
+            "line": "'Amane, what have you been doing since just now?'"
+        }, 
+        "right": {
+            "id": "004f", 
+            "line": "'Amane, what have you been doing since just now?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0050", 
+            "line": "'Sorry...... It's nothing, really.'"
+        }, 
+        "right": {
+            "id": "0050", 
+            "line": "'Sorry... It's nothing, really.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0051", 
+            "line": "'We'll be fine, I'm sure it will go well. Here,\\nhave a rice ball, and liven up a bit!'"
+        }, 
+        "right": {
+            "id": "0051", 
+            "line": "'We'll be fine, I'm sure it will go well. Here,\\nhave a rice ball, and liven up a bit!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0052", 
+            "line": "'Yeah, thanks.'"
+        }, 
+        "right": {
+            "id": "0052", 
+            "line": "'Yeah, thanks.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0053", 
+            "line": "'Aoi, how's it looking?'"
+        }, 
+        "right": {
+            "id": "0053", 
+            "line": "'Aoi, how's it looking?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0054", 
+            "line": "'I don't know. In the training, I've finally figured\\nout how to catch the thermals.'"
+        }, 
+        "right": {
+            "id": "0054", 
+            "line": "'I don't know. In the training, I've finally\\nfigured out how to catch the thermals.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0055", 
+            "line": "The highest we've flown in training has been 600\\nmeters."
+        }, 
+        "right": {
+            "id": "0055", 
+            "line": "The highest we've flown in training has been 600\\nmeters."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0056", 
+            "line": "We won't be able to reach the Morning Glory at\\naltitudes like that."
+        }, 
+        "right": {
+            "id": "0056", 
+            "line": "We won't be able to reach the Morning Glory at\\naltitudes like that."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0057", 
+            "line": "Suddenly, a strong wind blows."
+        }, 
+        "right": {
+            "id": "0057", 
+            "line": "Suddenly, a strong wind blows."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0058", 
+            "line": "'Aoi, apply the dive breaks!'"
+        }, 
+        "right": {
+            "id": "0058", 
+            "line": "'Aoi, apply the dive breaks!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0059", 
+            "line": "'Got it!'"
+        }, 
+        "right": {
+            "id": "0059", 
+            "line": "'Got it!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "005a", 
+            "line": "When the glider is on the ground, lift will be\\ncreated if wind hits the main wings."
+        }, 
+        "right": {
+            "id": "005a", 
+            "line": "When the glider is on the ground, lift will be\\ncreated if wind hits the main wings."
+        }
+    }, 
+    {
+        "left": {
+            "id": "005b", 
+            "line": "With winds this strong, if we're careless,\\nthe aircraft might start floating upwards."
+        }, 
+        "right": {
+            "id": "005b", 
+            "line": "With winds this strong, if we're careless, the\\naircraft might start floating upwards."
+        }
+    }, 
+    {
+        "left": {
+            "id": "005c", 
+            "line": "That's why we make use of the equipment used to\\nreduce lift during landing. If the lift is at a low\\nlevel, it will be OK even if the wind hits it."
+        }, 
+        "right": {
+            "id": "005c", 
+            "line": "That's why we make use of the equipment used to\\nreduce lift during landing. If the lift is at a\\nlow level, it will be OK even if the wind hits\\nit."
+        }
+    }, 
+    {
+        "left": {
+            "id": "005d", 
+            "line": "'It's suddenly become very windy, hasn't it? This\\ncould be because of the Morning Glory.'"
+        }, 
+        "right": {
+            "id": "005d", 
+            "line": "'It's suddenly become very windy, hasn't it? This\\ncould be because of the Morning Glory.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "005e", 
+            "line": "It said in the book that when this occurred in\\nBurketown, Australia, raging winds were blowing\\nbeneath the clouds."
+        }, 
+        "right": {
+            "id": "005e", 
+            "line": "It said in the book that when this occurred in\\nBurketown, Australia, raging winds were blowing\\nbeneath the clouds."
+        }
+    }, 
+    {
+        "left": {
+            "id": "005f", 
+            "line": "'We'll need to use a crosswind launch......'"
+        }, 
+        "right": {
+            "id": "005f", 
+            "line": "'We'll need to use a crosswind launch...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0060", 
+            "line": "Of course, when strong winds blow from the side,\\nthe glider will be blown with them, so we need to\\nuse a special technique for take off."
+        }, 
+        "right": {
+            "id": "0060", 
+            "line": "Of course, when strong winds blow from the side,\\nthe glider will be blown with them, so we need to\\nuse a special technique for take off."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0061", 
+            "line": "We haven't practiced it much but we should be OK."
+        }, 
+        "right": {
+            "id": "0061", 
+            "line": "We haven't practiced it much but we should be OK."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0062", 
+            "line": "'Look, dawn is breaking!'"
+        }, 
+        "right": {
+            "id": "0062", 
+            "line": "'Look, dawn is breaking!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0063", 
+            "line": "The eastern sky became dimly bright."
+        }, 
+        "right": {
+            "id": "0063", 
+            "line": "The eastern sky became dimly bright."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0064", 
+            "line": "Also, the conditions of the sky became clear."
+        }, 
+        "right": {
+            "id": "0064", 
+            "line": "Also, the conditions of the sky became clear."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0065", 
+            "line": "'Look at the clouds over there!'"
+        }, 
+        "right": {
+            "id": "0065", 
+            "line": "'Look at the clouds over there!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0066", 
+            "line": "Dawn hadn't broken yet and the sky was still gloomy,\\nbut we could see the outline of the clouds."
+        }, 
+        "right": {
+            "id": "0066", 
+            "line": "Dawn hadn't broken yet and the sky was still\\ngloomy, but we could see the outline of the\\nclouds."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0067", 
+            "line": "These clouds could be called Morning Glory and were\\nfine and delicate and looked like they could\\ndisappear any minute."
+        }, 
+        "right": {
+            "id": "0067", 
+            "line": "These clouds could be called Morning Glory and\\nwere fine and delicate and looked like they could\\ndisappear any minute."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0068", 
+            "line": "'Kotori, prepare for launch!'"
+        }, 
+        "right": {
+            "id": "0068", 
+            "line": "'Kotori, prepare for launch!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0069", 
+            "line": "'Roger!'"
+        }, 
+        "right": {
+            "id": "0069", 
+            "line": "'Roger!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "006a", 
+            "line": "Everyone quickly got into position."
+        }, 
+        "right": {
+            "id": "006a", 
+            "line": "Everyone quickly got into position."
+        }
+    }, 
+    {
+        "left": {
+            "id": "006b", 
+            "line": "Amane and I got into our seats in the cockpit."
+        }, 
+        "right": {
+            "id": "006b", 
+            "line": "Amane and I got into our seats in the cockpit."
+        }
+    }, 
+    {
+        "left": {
+            "id": "006c", 
+            "line": "'The crosswind is really strong, Aoi.'"
+        }, 
+        "right": {
+            "id": "006c", 
+            "line": "'The crosswind is really strong, Aoi.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "006d", 
+            "line": "'OK. I'll use full rudder from the start!'"
+        }, 
+        "right": {
+            "id": "006d", 
+            "line": "'OK. I'll use full rudder from the start!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "006e", 
+            "line": "I push down on the rudder pedal even though we're\\nnot moving yet."
+        }, 
+        "right": {
+            "id": "006e", 
+            "line": "I push down on the rudder pedal even though we're\\nnot moving yet."
+        }
+    }, 
+    {
+        "left": {
+            "id": "006f", 
+            "line": "If we are hit with a crosswind during take off,\\nthe glider's nose will face into the wind.\\nThis is called the weathervane effect."
+        }, 
+        "right": {
+            "id": "006f", 
+            "line": "If we are hit with a crosswind during take off,\\nthe glider's nose will face into the wind. This\\nis called the weathervane effect."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0070", 
+            "line": "By turning the rudder in the opposite direction,\\nwe can reduce the weathervane effect."
+        }, 
+        "right": {
+            "id": "0070", 
+            "line": "By turning the rudder in the opposite direction,\\nwe can reduce the weathervane effect."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0071", 
+            "line": "However, because the rudder has almost no effect\\nuntil we pick up speed, we need to push the rudder\\npedal before launch and gradually release it as we\\naccelerate."
+        }, 
+        "right": {
+            "id": "0071", 
+            "line": "However, because the rudder has almost no effect\\nuntil we pick up speed, we need to push the\\nrudder pedal before launch and gradually release\\nit as we accelerate."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0072", 
+            "line": "'(This is the first time we've taken off in such\\nstrong winds.)'"
+        }, 
+        "right": {
+            "id": "0072", 
+            "line": "'(This is the first time we've taken off in such\\nstrong winds.)'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0073", 
+            "line": "This kind of feels like a rehearsal, but we have to\\ndo it."
+        }, 
+        "right": {
+            "id": "0073", 
+            "line": "This kind of feels like a rehearsal, but we have\\nto do it."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0074", 
+            "line": "'The runway is clear!'"
+        }, 
+        "right": {
+            "id": "0074", 
+            "line": "'The runway is clear!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0075", 
+            "line": "Ageha came to let us know that there were no\\nobstructions on the runway."
+        }, 
+        "right": {
+            "id": "0075", 
+            "line": "Ageha came to let us know that there were no\\nobstructions on the runway."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0076", 
+            "line": "Then, moving round to the side of the glider,\\nshe lifts up the left wing. A little higher than\\nusual."
+        }, 
+        "right": {
+            "id": "0076", 
+            "line": "Then, moving round to the side of the glider, she\\nlifts up the left wing. A little higher than\\nusual."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0077", 
+            "line": "The wind is blowing from the front-right direction."
+        }, 
+        "right": {
+            "id": "0077", 
+            "line": "The wind is blowing from the front-right\\ndirection."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0078", 
+            "line": "If the wings are horizontal during take off,\\nthe wind from the side will go under the right wing,\\nmessing up the balance."
+        }, 
+        "right": {
+            "id": "0078", 
+            "line": "If the wings are horizontal during take off, the\\nwind from the side will go under the right wing,\\nmessing up the balance."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0079", 
+            "line": "That's why we need to launch with the right wing a\\nlittle lower, to stop the crosswind from going under\\nit."
+        }, 
+        "right": {
+            "id": "0079", 
+            "line": "That's why we need to launch with the right wing\\na little lower, to stop the crosswind from going\\nunder it."
+        }
+    }, 
+    {
+        "left": {
+            "id": "007a", 
+            "line": "To maintain the bank angle at which Ageha is tilting\\nit, I move the yoke to the right, to operate the\\nright aileron."
+        }, 
+        "right": {
+            "id": "007a", 
+            "line": "To maintain the bank angle at which Ageha is\\ntilting it, I move the yoke to the right, to\\noperate the right aileron."
+        }
+    }, 
+    {
+        "left": {
+            "id": "007b", 
+            "line": "'Launch preparations complete. Here we go, Amane!'"
+        }, 
+        "right": {
+            "id": "007b", 
+            "line": "'Launch preparations complete. Here we go,\\nAmane!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "007c", 
+            "line": "'......Yeah.'"
+        }, 
+        "right": {
+            "id": "007c", 
+            "line": "'...Yeah.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "007d", 
+            "line": "Amane replied nervously."
+        }, 
+        "right": {
+            "id": "007d", 
+            "line": "Amane replied nervously."
+        }
+    }, 
+    {
+        "left": {
+            "id": "007e", 
+            "line": "I give the thumbs up to signal to Ageha outside."
+        }, 
+        "right": {
+            "id": "007e", 
+            "line": "I give the thumbs up to signal to Ageha outside."
+        }
+    }, 
+    {
+        "left": {
+            "id": "007f", 
+            "line": "'Launch preparations complete. Lift it up, Kotori!'"
+        }, 
+        "right": {
+            "id": "007f", 
+            "line": "'Launch preparations complete. Lift it up,\\nKotori!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0080", 
+            "line": "KREEEEEAK......"
+        }, 
+        "right": {
+            "id": "0080", 
+            "line": "KREEEEEAK..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0081", 
+            "line": "The moment Ageha gave the signal, the winch started\\nmoving, as if it couldn't wait."
+        }, 
+        "right": {
+            "id": "0081", 
+            "line": "The moment Ageha gave the signal, the winch\\nstarted moving, as if it couldn't wait."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0082", 
+            "line": "The glider steadily accelerates."
+        }, 
+        "right": {
+            "id": "0082", 
+            "line": "The glider steadily accelerates."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0083", 
+            "line": "I pull back on the yoke."
+        }, 
+        "right": {
+            "id": "0083", 
+            "line": "I pull back on the yoke."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0084", 
+            "line": "'It's all up to you, Aoi!'"
+        }, 
+        "right": {
+            "id": "0084", 
+            "line": "'It's all up to you, Aoi!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0085", 
+            "line": "Leaving behind Ageha, who was holding up the wing\\nand running with us, the glider floated into the\\nair!"
+        }, 
+        "right": {
+            "id": "0085", 
+            "line": "Leaving behind Ageha, who was holding up the wing\\nand running with us, the glider floated into the\\nair!"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0086", 
+            "line": "'......!'"
+        }, 
+        "right": {
+            "id": "0086", 
+            "line": "'...!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0087", 
+            "line": "'Ugh!'"
+        }, 
+        "right": {
+            "id": "0087", 
+            "line": "'Ugh!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0088", 
+            "line": "The glider wobbled like crazy when the crosswind\\nhits it!"
+        }, 
+        "right": {
+            "id": "0088", 
+            "line": "The glider wobbled like crazy when the crosswind\\nhits it!"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0089", 
+            "line": "'Are you OK, Aoi, Amane?'"
+        }, 
+        "right": {
+            "id": "0089", 
+            "line": "'Are you OK, Aoi, Amane?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "008a", 
+            "line": "'We're OK, we've leveled out!'"
+        }, 
+        "right": {
+            "id": "008a", 
+            "line": "'We're OK, we've leveled out!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "008b", 
+            "line": "'S...somehow, we're alright.'"
+        }, 
+        "right": {
+            "id": "008b", 
+            "line": "'S...somehow, we're alright.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "008c", 
+            "line": "'Roger!'"
+        }, 
+        "right": {
+            "id": "008c", 
+            "line": "'Roger!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "008d", 
+            "line": "As we accelerate, the ailerons start working,\\nand we are able to maintain the bank according to\\nthe crosswind."
+        }, 
+        "right": {
+            "id": "008d", 
+            "line": "As we accelerate, the ailerons start working, and\\nwe are able to maintain the bank according to the\\ncrosswind."
+        }
+    }, 
+    {
+        "left": {
+            "id": "008e", 
+            "line": "Tilting the rudder in the direction of the incoming\\nwind, the glider steadily rises into the sky."
+        }, 
+        "right": {
+            "id": "008e", 
+            "line": "Tilting the rudder in the direction of the\\nincoming wind, the glider steadily rises into the\\nsky."
+        }
+    }, 
+    {
+        "left": {
+            "id": "008f", 
+            "line": "'Unnnh...... our airspeed is really fast! We're\\nclimbing much more quickly than usual!!'"
+        }, 
+        "right": {
+            "id": "008f", 
+            "line": "'Unnnh... our airspeed is really fast! We're\\nclimbing much more quickly than usual!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0090", 
+            "line": "Even if it looks like we're flying at the same\\nspeed, if the headwind is strong, the speed of the\\nwind hitting the glider, in other words,\\nthe airspeed is different."
+        }, 
+        "right": {
+            "id": "0090", 
+            "line": "Even if it looks like we're flying at the same\\nspeed, if the headwind is strong, the speed of\\nthe wind hitting the glider, in other words, the\\nairspeed is different."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0091", 
+            "line": "When the airspeed is high, lift increases,\\nwhich causes the aircraft to rise."
+        }, 
+        "right": {
+            "id": "0091", 
+            "line": "When the airspeed is high, lift increases, which\\ncauses the aircraft to rise."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0092", 
+            "line": "Today, the wind is strong."
+        }, 
+        "right": {
+            "id": "0092", 
+            "line": "Today, the wind is strong."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0093", 
+            "line": "The power of the winch pulling us, fights against\\nthe power of the main wings lifting us up,\\ncausing the glider to shake."
+        }, 
+        "right": {
+            "id": "0093", 
+            "line": "The power of the winch pulling us, fights against\\nthe power of the main wings lifting us up,\\ncausing the glider to shake."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0094", 
+            "line": "'Releasing!'"
+        }, 
+        "right": {
+            "id": "0094", 
+            "line": "'Releasing!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0095", 
+            "line": "Just before passing over Kotori's head,\\nwho is operating the winch, I released the tow rope."
+        }, 
+        "right": {
+            "id": "0095", 
+            "line": "Just before passing over Kotori's head, who is\\noperating the winch, I released the tow rope."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0096", 
+            "line": "Whooosh......"
+        }, 
+        "right": {
+            "id": "0096", 
+            "line": "Whooosh..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0097", 
+            "line": "Freed from the force that was holding us down,\\nthe glider was suddenly thrown up into the air!"
+        }, 
+        "right": {
+            "id": "0097", 
+            "line": "Freed from the force that was holding us down,\\nthe glider was suddenly thrown up into the air!"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0098", 
+            "line": "I immediately turn around to check that the tow rope\\nhas been released."
+        }, 
+        "right": {
+            "id": "0098", 
+            "line": "I immediately turn around to check that the tow\\nrope has been released."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0099", 
+            "line": "'Release confirmed. The launch is a success.'"
+        }, 
+        "right": {
+            "id": "0099", 
+            "line": "'Release confirmed. The launch is a success.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "009a", 
+            "line": "'OK!'"
+        }, 
+        "right": {
+            "id": "009a", 
+            "line": "'OK!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "009b", 
+            "line": "I check the altitude on the altimeter."
+        }, 
+        "right": {
+            "id": "009b", 
+            "line": "I check the altitude on the altimeter."
+        }
+    }, 
+    {
+        "left": {
+            "id": "009c", 
+            "line": "We are currently 300 meters above the ground."
+        }, 
+        "right": {
+            "id": "009c", 
+            "line": "We are currently 300 meters above the ground."
+        }
+    }, 
+    {
+        "left": {
+            "id": "009d", 
+            "line": "Then, I looked up to the sky above."
+        }, 
+        "right": {
+            "id": "009d", 
+            "line": "Then, I looked up to the sky above."
+        }
+    }, 
+    {
+        "left": {
+            "id": "009e", 
+            "line": "Outside the dome-shaped canopy, all I could see was\\nsky."
+        }, 
+        "right": {
+            "id": "009e", 
+            "line": "Outside the dome-shaped canopy, all I could see\\nwas sky."
+        }
+    }, 
+    {
+        "left": {
+            "id": "009f", 
+            "line": "A sky changing from night to morning."
+        }, 
+        "right": {
+            "id": "009f", 
+            "line": "A sky changing from night to morning."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a0", 
+            "line": "Indigo, orange and pale yellow...... the morning sun\\npaints a complex gradient as far as the eye can\\nsee..."
+        }, 
+        "right": {
+            "id": "00a0", 
+            "line": "Indigo, orange and pale yellow... the morning sun\\npaints a complex gradient as far as the eye can\\nsee..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a1", 
+            "line": "...and there, in the middle, a straight line of\\nclouds stretched out."
+        }, 
+        "right": {
+            "id": "00a1", 
+            "line": "...and there, in the middle, a straight line of\\nclouds stretched out."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a2", 
+            "line": "'Amazing......'"
+        }, 
+        "right": {
+            "id": "00a2", 
+            "line": "'Amazing...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a3", 
+            "line": "I felt like I was being sucked into it as I stared\\nat this spectacle."
+        }, 
+        "right": {
+            "id": "00a3", 
+            "line": "I felt like I was being sucked into it as I\\nstared at this spectacle."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a4", 
+            "line": "'Hmm? What are those clouds?'"
+        }, 
+        "right": {
+            "id": "00a4", 
+            "line": "'Hmm? What are those clouds?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a5", 
+            "line": "'Wow. You're right, what are they? They're very\\nunusual clouds, aren't they? They look just like\\nsomeone has painted them.'"
+        }, 
+        "right": {
+            "id": "00a5", 
+            "line": "'Wow. You're right, what are they? They're very\\nunusual clouds, aren't they? They look just like\\nsomeone has painted them.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a6", 
+            "line": "'If that were the case, they're not painted very\\nwell.'"
+        }, 
+        "right": {
+            "id": "00a6", 
+            "line": "'If that were the case, they're not painted very\\nwell.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a7", 
+            "line": "'That's not true. I think they're really pretty.\\nIt's a good painting.'"
+        }, 
+        "right": {
+            "id": "00a7", 
+            "line": "'That's not true. I think they're really pretty.\\nIt's a good painting.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a8", 
+            "line": "'Hah! As always, you'll praise anything,\\nwon't you? ......Hmm?'"
+        }, 
+        "right": {
+            "id": "00a8", 
+            "line": "'Hah! As always, you'll praise anything, won't\\nyou? ...Hmm?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00a9", 
+            "line": "'Hey, sis. What's that......?'"
+        }, 
+        "right": {
+            "id": "00a9", 
+            "line": "'Hey, sis. What's that...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00aa", 
+            "line": "'Huh? ...... Something is flying up there?'"
+        }, 
+        "right": {
+            "id": "00aa", 
+            "line": "'Huh? ... Something is flying up there?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ab", 
+            "line": "'Could it be?'"
+        }, 
+        "right": {
+            "id": "00ab", 
+            "line": "'Could it be?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ac", 
+            "line": "'......The glider that we saw before!'"
+        }, 
+        "right": {
+            "id": "00ac", 
+            "line": "'...The glider that we saw before!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ad", 
+            "line": "'What are they doing so early in the morning,\\nI wonder?'"
+        }, 
+        "right": {
+            "id": "00ad", 
+            "line": "'What are they doing so early in the morning, I\\nwonder?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ae", 
+            "line": "'They're flying...... aren't they?'"
+        }, 
+        "right": {
+            "id": "00ae", 
+            "line": "'They're flying... aren't they?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00af", 
+            "line": "'I can see that. That's not what I mean.'"
+        }, 
+        "right": {
+            "id": "00af", 
+            "line": "'I can see that. That's not what I mean.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b0", 
+            "line": "'Well, they're trying to go over there,\\naren't they?'"
+        }, 
+        "right": {
+            "id": "00b0", 
+            "line": "'Well, they're trying to go over there, aren't\\nthey?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b1", 
+            "line": "'Over there?'"
+        }, 
+        "right": {
+            "id": "00b1", 
+            "line": "'Over there?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b2", 
+            "line": "'See? To those clouds.'"
+        }, 
+        "right": {
+            "id": "00b2", 
+            "line": "'See? To those clouds.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b3", 
+            "line": "'It's so pretty......'"
+        }, 
+        "right": {
+            "id": "00b3", 
+            "line": "'It's so pretty...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b4", 
+            "line": "'Yeah......'"
+        }, 
+        "right": {
+            "id": "00b4", 
+            "line": "'Yeah...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b5", 
+            "line": "'It's so mysterious...... How could something like\\nthis occur?'"
+        }, 
+        "right": {
+            "id": "00b5", 
+            "line": "'It's so mysterious... How could something like\\nthis occur?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b6", 
+            "line": "'It really is like a miracle.'"
+        }, 
+        "right": {
+            "id": "00b6", 
+            "line": "'It really is like a miracle.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b7", 
+            "line": "'But isn't it a bit different to that photo?'"
+        }, 
+        "right": {
+            "id": "00b7", 
+            "line": "'But isn't it a bit different to that photo?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b8", 
+            "line": "'Yeah......'"
+        }, 
+        "right": {
+            "id": "00b8", 
+            "line": "'Yeah...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00b9", 
+            "line": "'Isn't it going to get even bigger?'"
+        }, 
+        "right": {
+            "id": "00b9", 
+            "line": "'Isn't it going to get even bigger?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ba", 
+            "line": "'I dunno......'"
+        }, 
+        "right": {
+            "id": "00ba", 
+            "line": "'I dunno...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00bb", 
+            "line": "'Where are Aoi and Amane?'"
+        }, 
+        "right": {
+            "id": "00bb", 
+            "line": "'Where are Aoi and Amane?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00bc", 
+            "line": "'Wait a sec. I'll look through the binoculars.'"
+        }, 
+        "right": {
+            "id": "00bc", 
+            "line": "'Wait a sec. I'll look through the binoculars.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00bd", 
+            "line": "'Ummm...... Ah, there they are!'"
+        }, 
+        "right": {
+            "id": "00bd", 
+            "line": "'Ummm... Ah, there they are!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00be", 
+            "line": "'Where, where?'"
+        }, 
+        "right": {
+            "id": "00be", 
+            "line": "'Where, where?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00bf", 
+            "line": "'See? Above the lake. It just shone!'"
+        }, 
+        "right": {
+            "id": "00bf", 
+            "line": "'See? Above the lake. It just shone!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c0", 
+            "line": "'Grrr...... Whoaaaa......!!'"
+        }, 
+        "right": {
+            "id": "00c0", 
+            "line": "'Grrr... Whoaaaa...!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c1", 
+            "line": "Clutching the yoke, I somehow manage to maintain\\nour position."
+        }, 
+        "right": {
+            "id": "00c1", 
+            "line": "Clutching the yoke, I somehow manage to maintain\\nour position."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c2", 
+            "line": "'The airflow is getting really rough! It's taking\\neverything I've got just to keep our position!'"
+        }, 
+        "right": {
+            "id": "00c2", 
+            "line": "'The airflow is getting really rough! It's taking\\neverything I've got just to keep our position!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c3", 
+            "line": "On days where the airflow is stable, I only need to\\nhold onto the yoke lightly."
+        }, 
+        "right": {
+            "id": "00c3", 
+            "line": "On days where the airflow is stable, I only need\\nto hold onto the yoke lightly."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c4", 
+            "line": "However, in these rough skies, the glider is shaking\\nall the time, and we don't know when it will be hit\\nwith sudden winds."
+        }, 
+        "right": {
+            "id": "00c4", 
+            "line": "However, in these rough skies, the glider is\\nshaking all the time, and we don't know when it\\nwill be hit with sudden winds."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c5", 
+            "line": "I need all my concentration as the glider takes the\\nwind."
+        }, 
+        "right": {
+            "id": "00c5", 
+            "line": "I need all my concentration as the glider takes\\nthe wind."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c6", 
+            "line": "'Are you OK, Aoi?'"
+        }, 
+        "right": {
+            "id": "00c6", 
+            "line": "'Are you OK, Aoi?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c7", 
+            "line": "'I...I'm fine! More importantly, can you search for\\nsome thermals, Amane?'"
+        }, 
+        "right": {
+            "id": "00c7", 
+            "line": "'I...I'm fine! More importantly, can you search\\nfor some thermals, Amane?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c8", 
+            "line": "'Understood!'"
+        }, 
+        "right": {
+            "id": "00c8", 
+            "line": "'Understood!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00c9", 
+            "line": "Amane looks outside the canopy, to search for places\\nwhere thermals may occur."
+        }, 
+        "right": {
+            "id": "00c9", 
+            "line": "Amane looks outside the canopy, to search for\\nplaces where thermals may occur."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ca", 
+            "line": "Clouds are the markers used for finding thermals."
+        }, 
+        "right": {
+            "id": "00ca", 
+            "line": "Clouds are the markers used for finding thermals."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00cb", 
+            "line": "Clouds are formed when the warm upward drafts are\\ncooled in the sky. "
+        }, 
+        "right": {
+            "id": "00cb", 
+            "line": "Clouds are formed when the warm upward drafts are\\ncooled in the sky."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00cc", 
+            "line": "Therefore, thermals are usually below them."
+        }, 
+        "right": {
+            "id": "00cc", 
+            "line": "Therefore, thermals are usually below them."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00cd", 
+            "line": "As I watch the variometer, I fly based on guesswork."
+        }, 
+        "right": {
+            "id": "00cd", 
+            "line": "As I watch the variometer, I fly based on\\nguesswork."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ce", 
+            "line": "The variometer is one of the instruments in the\\nglider, and tells us whether it is rising or\\ndescending based on atmospheric pressure."
+        }, 
+        "right": {
+            "id": "00ce", 
+            "line": "The variometer is one of the instruments in the\\nglider, and tells us whether it is rising or\\ndescending based on atmospheric pressure."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00cf", 
+            "line": "If there is a sudden change in the variometer,\\nit's possible that we've entered a thermal without\\nrealizing."
+        }, 
+        "right": {
+            "id": "00cf", 
+            "line": "If there is a sudden change in the variometer,\\nit's possible that we've entered a thermal\\nwithout realizing."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d0", 
+            "line": "'There's no reaction, huh?'"
+        }, 
+        "right": {
+            "id": "00d0", 
+            "line": "'There's no reaction, huh?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d1", 
+            "line": "The reaction from the variometer was slow,\\nand the glider was gradually descending."
+        }, 
+        "right": {
+            "id": "00d1", 
+            "line": "The reaction from the variometer was slow, and\\nthe glider was gradually descending."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d2", 
+            "line": "'There, it's a cloud!'"
+        }, 
+        "right": {
+            "id": "00d2", 
+            "line": "'There, it's a cloud!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d3", 
+            "line": "Amane called from the front seat."
+        }, 
+        "right": {
+            "id": "00d3", 
+            "line": "Amane called from the front seat."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d4", 
+            "line": "'Where?'"
+        }, 
+        "right": {
+            "id": "00d4", 
+            "line": "'Where?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d5", 
+            "line": "'Ummm...... four o'clock!'"
+        }, 
+        "right": {
+            "id": "00d5", 
+            "line": "'Ummm... four o'clock!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d6", 
+            "line": "'Roger!'"
+        }, 
+        "right": {
+            "id": "00d6", 
+            "line": "'Roger!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d7", 
+            "line": "I pull the yoke to the right and push the rudder\\npedals, and the glider turns."
+        }, 
+        "right": {
+            "id": "00d7", 
+            "line": "I pull the yoke to the right and push the rudder\\npedals, and the glider turns."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d8", 
+            "line": "'Hrrrn...... the rudder feels heavy......!'"
+        }, 
+        "right": {
+            "id": "00d8", 
+            "line": "'Hrrrn... the rudder feels heavy...!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00d9", 
+            "line": "When the ailerons or the rudder take strong winds,\\nthey become heavier, but that means that their\\neffect is stronger."
+        }, 
+        "right": {
+            "id": "00d9", 
+            "line": "When the ailerons or the rudder take strong\\nwinds, they become heavier, but that means that\\ntheir effect is stronger."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00da", 
+            "line": "'Is that it?'"
+        }, 
+        "right": {
+            "id": "00da", 
+            "line": "'Is that it?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00db", 
+            "line": "In my field of vision, I can see the small cloud\\nAmane had found."
+        }, 
+        "right": {
+            "id": "00db", 
+            "line": "In my field of vision, I can see the small cloud\\nAmane had found."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00dc", 
+            "line": "It was a small, fine, elongated cloud."
+        }, 
+        "right": {
+            "id": "00dc", 
+            "line": "It was a small, fine, elongated cloud."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00dd", 
+            "line": "'Please let this work......!'"
+        }, 
+        "right": {
+            "id": "00dd", 
+            "line": "'Please let this work...!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00de", 
+            "line": "I feel like I'm praying as I fly under the cloud."
+        }, 
+        "right": {
+            "id": "00de", 
+            "line": "I feel like I'm praying as I fly under the cloud."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00df", 
+            "line": "We continue for a while and we don't seem to be\\nhitting any thermals."
+        }, 
+        "right": {
+            "id": "00df", 
+            "line": "We continue for a while and we don't seem to be\\nhitting any thermals."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e0", 
+            "line": "After all, we can't see them, so we don't really\\nknow if they are there or not."
+        }, 
+        "right": {
+            "id": "00e0", 
+            "line": "After all, we can't see them, so we don't really\\nknow if they are there or not."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e1", 
+            "line": "'Where is it!?'"
+        }, 
+        "right": {
+            "id": "00e1", 
+            "line": "'Where is it!?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e2", 
+            "line": "I go to turn, so that we can head towards another\\narea, then..."
+        }, 
+        "right": {
+            "id": "00e2", 
+            "line": "I go to turn, so that we can head towards another\\narea, then..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e3", 
+            "line": "Whooosh......"
+        }, 
+        "right": {
+            "id": "00e3", 
+            "line": "Whooosh..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e4", 
+            "line": "'Whoa!!'"
+        }, 
+        "right": {
+            "id": "00e4", 
+            "line": "'Whoa!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e5", 
+            "line": "Suddenly, the left wing lifts up, tilting the\\naircraft."
+        }, 
+        "right": {
+            "id": "00e5", 
+            "line": "Suddenly, the left wing lifts up, tilting the\\naircraft."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e6", 
+            "line": "'Aoi, this is......!'"
+        }, 
+        "right": {
+            "id": "00e6", 
+            "line": "'Aoi, this is...!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e7", 
+            "line": "'Yes, I know!'"
+        }, 
+        "right": {
+            "id": "00e7", 
+            "line": "'Yes, I know!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e8", 
+            "line": "This wasn't the feeling of being shaken by a\\ncrosswind."
+        }, 
+        "right": {
+            "id": "00e8", 
+            "line": "This wasn't the feeling of being shaken by a\\ncrosswind."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00e9", 
+            "line": "A rising thermal grazed the wings."
+        }, 
+        "right": {
+            "id": "00e9", 
+            "line": "A rising thermal grazed the wings."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ea", 
+            "line": "I quickly turn the rudder to the left."
+        }, 
+        "right": {
+            "id": "00ea", 
+            "line": "I quickly turn the rudder to the left."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00eb", 
+            "line": "The variometer reacts. The glider was rising."
+        }, 
+        "right": {
+            "id": "00eb", 
+            "line": "The variometer reacts. The glider was rising."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ec", 
+            "line": "'We've entered a thermal!'"
+        }, 
+        "right": {
+            "id": "00ec", 
+            "line": "'We've entered a thermal!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ed", 
+            "line": "As we confirmed that, I continued to turn the\\nglider. "
+        }, 
+        "right": {
+            "id": "00ed", 
+            "line": "As we confirmed that, I continued to turn the\\nglider."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ee", 
+            "line": "Thermals extend upwards through the atmosphere,\\nlike a pillar."
+        }, 
+        "right": {
+            "id": "00ee", 
+            "line": "Thermals extend upwards through the atmosphere,\\nlike a pillar."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ef", 
+            "line": "In most cases, the strongest lift is in the center,\\nknown as the core."
+        }, 
+        "right": {
+            "id": "00ef", 
+            "line": "In most cases, the strongest lift is in the\\ncenter, known as the core."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f0", 
+            "line": "Normally, it gradually gets weaker the further you\\ngo towards the outside."
+        }, 
+        "right": {
+            "id": "00f0", 
+            "line": "Normally, it gradually gets weaker the further\\nyou go towards the outside."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f1", 
+            "line": "That's why, If you want to climb higher,\\nyou have to get as close to the core of the thermals\\nas possible."
+        }, 
+        "right": {
+            "id": "00f1", 
+            "line": "That's why, If you want to climb higher, you have\\nto get as close to the core of the thermals as\\npossible."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f2", 
+            "line": "I turn the glider to search for the core."
+        }, 
+        "right": {
+            "id": "00f2", 
+            "line": "I turn the glider to search for the core."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f3", 
+            "line": "The variometer tells us that we are rising.\\nWe are getting closer and closer to the core."
+        }, 
+        "right": {
+            "id": "00f3", 
+            "line": "The variometer tells us that we are rising. We\\nare getting closer and closer to the core."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f4", 
+            "line": "'Looks like we've entered the core.'"
+        }, 
+        "right": {
+            "id": "00f4", 
+            "line": "'Looks like we've entered the core.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f5", 
+            "line": "said Amane as she looked at the instruments."
+        }, 
+        "right": {
+            "id": "00f5", 
+            "line": "said Amane as she looked at the instruments."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f6", 
+            "line": "I try to keep the glider circling in the same area,\\nin an attempt to rise in the core of the thermal."
+        }, 
+        "right": {
+            "id": "00f6", 
+            "line": "I try to keep the glider circling in the same\\narea, in an attempt to rise in the core of the\\nthermal."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f7", 
+            "line": "'Alright, we're climbing.'"
+        }, 
+        "right": {
+            "id": "00f7", 
+            "line": "'Alright, we're climbing.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f8", 
+            "line": "Through the seat, I felt that the glider was rising."
+        }, 
+        "right": {
+            "id": "00f8", 
+            "line": "Through the seat, I felt that the glider was\\nrising."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00f9", 
+            "line": "It's jokingly called the 'Ass meter' but you can\\nfeel all sorts of G forces through the seat,\\nand is one of the sensations that are important for\\npiloting a glider."
+        }, 
+        "right": {
+            "id": "00f9", 
+            "line": "'It's jokingly called the 'Ass meter' but you can\\nfeel all sorts of G forces through the seat, and\\nis one of the sensations that are important for\\npiloting a glider."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00fa", 
+            "line": "That's because the thing that informs of you of the\\nglider's reactions the quickest is not the\\ninstruments, it's the seat that is in direct contact\\nwith your body."
+        }, 
+        "right": {
+            "id": "00fa", 
+            "line": "That's because the thing that informs of you of\\nthe glider's reactions the quickest is not the\\ninstruments, it's the seat that is in direct\\ncontact with your body."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00fb", 
+            "line": "While getting a positive response, and not wanting\\nto lose it, I paid close attention while operating\\nthe controls."
+        }, 
+        "right": {
+            "id": "00fb", 
+            "line": "While getting a positive response, and not\\nwanting to lose it, I paid close attention while\\noperating the controls."
+        }
+    }, 
+    {
+        "left": {
+            "id": "00fc", 
+            "line": "'They're rising!'"
+        }, 
+        "right": {
+            "id": "00fc", 
+            "line": "'They're rising!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00fd", 
+            "line": "'Looks like they were able to ride a thermal.'"
+        }, 
+        "right": {
+            "id": "00fd", 
+            "line": "'Looks like they were able to ride a thermal.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00fe", 
+            "line": "'Aoi! Aoi!'"
+        }, 
+        "right": {
+            "id": "00fe", 
+            "line": "'Aoi! Aoi!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "00ff", 
+            "line": "'Aoi's busy right now.'"
+        }, 
+        "right": {
+            "id": "00ff", 
+            "line": "'Aoi's busy right now.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0100", 
+            "line": "'Amane, it looks like it's going well!'"
+        }, 
+        "right": {
+            "id": "0100", 
+            "line": "'Amane, it looks like it's going well!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0101", 
+            "line": "'Yeah. Right now, we are rising on a thermal.\\nOur altitude has reached 500 meters.'"
+        }, 
+        "right": {
+            "id": "0101", 
+            "line": "'Yeah. Right now, we are rising on a thermal. Our\\naltitude has reached 500 meters.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0102", 
+            "line": "'Yes, c'mon!'"
+        }, 
+        "right": {
+            "id": "0102", 
+            "line": "'Yes, c'mon!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0103", 
+            "line": "'It seems like the airflow is getting rough,\\nbut how about the sky above you?'"
+        }, 
+        "right": {
+            "id": "0103", 
+            "line": "'It seems like the airflow is getting rough, but\\nhow about the sky above you?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0104", 
+            "line": "'It's pretty rough but we'll be alright.\\nAoi is doing his best.'"
+        }, 
+        "right": {
+            "id": "0104", 
+            "line": "'It's pretty rough but we'll be alright. Aoi is\\ndoing his best.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0105", 
+            "line": "'It seems like it's all going according to plan.'"
+        }, 
+        "right": {
+            "id": "0105", 
+            "line": "'It seems like it's all going according to plan.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0106", 
+            "line": "'Keep going, go above the clouds!'"
+        }, 
+        "right": {
+            "id": "0106", 
+            "line": "'Keep going, go above the clouds!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0107", 
+            "line": "'We really want to do that but......'"
+        }, 
+        "right": {
+            "id": "0107", 
+            "line": "'We really want to do that but...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0108", 
+            "line": "'Huh? What's wrong?'"
+        }, 
+        "right": {
+            "id": "0108", 
+            "line": "'Huh? What's wrong?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0109", 
+            "line": "'If we rise a little higher, we'll leave this\\nthermal.'"
+        }, 
+        "right": {
+            "id": "0109", 
+            "line": "'If we rise a little higher, we'll leave this\\nthermal.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "010a", 
+            "line": "'Eh? Why?'"
+        }, 
+        "right": {
+            "id": "010a", 
+            "line": "'Eh? Why?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "010b", 
+            "line": "'The lift is weak, and our rate of climb is slow.\\n...... At this rate, we won't make it.'"
+        }, 
+        "right": {
+            "id": "010b", 
+            "line": "'The lift is weak, and our rate of climb is slow.\\n... At this rate, we won't make it.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "010c", 
+            "line": "'We won't be able to rise any higher here.'"
+        }, 
+        "right": {
+            "id": "010c", 
+            "line": "'We won't be able to rise any higher here.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "010d", 
+            "line": "The G forces that felt so strong at first,\\nwere now getting weaker."
+        }, 
+        "right": {
+            "id": "010d", 
+            "line": "The G forces that felt so strong at first, were\\nnow getting weaker."
+        }
+    }, 
+    {
+        "left": {
+            "id": "010e", 
+            "line": "We'd risen to a certain extent, but we were now just\\nmaintaining the current altitude."
+        }, 
+        "right": {
+            "id": "010e", 
+            "line": "We'd risen to a certain extent, but we were now\\njust maintaining the current altitude."
+        }
+    }, 
+    {
+        "left": {
+            "id": "010f", 
+            "line": "If we stay here like this, the thermal might grow\\nand we might be able to gain stronger lift."
+        }, 
+        "right": {
+            "id": "010f", 
+            "line": "If we stay here like this, the thermal might grow\\nand we might be able to gain stronger lift."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0110", 
+            "line": "Well, if we think about the time, it's quite likely\\nthat will happen."
+        }, 
+        "right": {
+            "id": "0110", 
+            "line": "Well, if we think about the time, it's quite\\nlikely that will happen."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0111", 
+            "line": "This is because thermals get bigger as the sunlight\\nhits the earth, which heats quicker than the air,\\nand with this level of heat, the air close to the\\nground warms up, causing thermals to occur."
+        }, 
+        "right": {
+            "id": "0111", 
+            "line": "This is because thermals get bigger as the\\nsunlight hits the earth, which heats quicker than\\nthe air, and with this level of heat, the air\\nclose to the ground warms up, causing thermals to\\noccur."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0112", 
+            "line": "Since last night was so cool, when the morning sun\\nhits the earth, more and more strong thermals will\\nstart rising."
+        }, 
+        "right": {
+            "id": "0112", 
+            "line": "Since last night was so cool, when the morning\\nsun hits the earth, more and more strong thermals\\nwill start rising."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0113", 
+            "line": "But we don't have time for that."
+        }, 
+        "right": {
+            "id": "0113", 
+            "line": "But we don't have time for that."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0114", 
+            "line": "If we wait a little longer for the sun to come up\\ncompletely, the Morning Glory will disappear."
+        }, 
+        "right": {
+            "id": "0114", 
+            "line": "If we wait a little longer for the sun to come up\\ncompletely, the Morning Glory will disappear."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0115", 
+            "line": "'We're getting out of this thermal!'"
+        }, 
+        "right": {
+            "id": "0115", 
+            "line": "'We're getting out of this thermal!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0116", 
+            "line": "'Understood.'"
+        }, 
+        "right": {
+            "id": "0116", 
+            "line": "'Understood.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0117", 
+            "line": "As we look up to the Morning Glory in the distance,\\nwe flew out of the thermal."
+        }, 
+        "right": {
+            "id": "0117", 
+            "line": "As we look up to the Morning Glory in the\\ndistance, we flew out of the thermal."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0118", 
+            "line": "'We've traveled pretty far, haven't we?'"
+        }, 
+        "right": {
+            "id": "0118", 
+            "line": "'We've traveled pretty far, haven't we?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0119", 
+            "line": "Thermals are often thought to extend straight up\\nlike a pillar through the air, but actually they\\ndon't go straight up."
+        }, 
+        "right": {
+            "id": "0119", 
+            "line": "Thermals are often thought to extend straight up\\nlike a pillar through the air, but actually they\\ndon't go straight up."
+        }
+    }, 
+    {
+        "left": {
+            "id": "011a", 
+            "line": "In the same way that smoke is blown by the wind,\\nthermals twist when hit by wind from the side."
+        }, 
+        "right": {
+            "id": "011a", 
+            "line": "In the same way that smoke is blown by the wind,\\nthermals twist when hit by wind from the side."
+        }
+    }, 
+    {
+        "left": {
+            "id": "011b", 
+            "line": "While we were climbing in the thermal that was\\nleaning to one side because of the wind,\\nwe've moved further away from the Morning Glory."
+        }, 
+        "right": {
+            "id": "011b", 
+            "line": "While we were climbing in the thermal that was\\nleaning to one side because of the wind, we've\\nmoved further away from the Morning Glory."
+        }
+    }, 
+    {
+        "left": {
+            "id": "011c", 
+            "line": "The Morning Glory doesn't just stay in one place."
+        }, 
+        "right": {
+            "id": "011c", 
+            "line": "The Morning Glory doesn't just stay in one place."
+        }
+    }, 
+    {
+        "left": {
+            "id": "011d", 
+            "line": "It is rotating as it rolls, moving across the lake."
+        }, 
+        "right": {
+            "id": "011d", 
+            "line": "It is rotating as it rolls, moving across the\\nlake."
+        }
+    }, 
+    {
+        "left": {
+            "id": "011e", 
+            "line": "If it gets too far away, then we'll have no means of\\ncatching up with it other than 'falling' to increase\\nour propulsion, which makes things difficult."
+        }, 
+        "right": {
+            "id": "011e", 
+            "line": "If it gets too far away, then we'll have no means\\nof catching up with it other than 'falling' to\\nincrease our propulsion, which makes things\\ndifficult."
+        }
+    }, 
+    {
+        "left": {
+            "id": "011f", 
+            "line": "'Increasing speed.'"
+        }, 
+        "right": {
+            "id": "011f", 
+            "line": "'Increasing speed.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0120", 
+            "line": "I push the yoke forward, pointing the nose\\ndownwards."
+        }, 
+        "right": {
+            "id": "0120", 
+            "line": "I push the yoke forward, pointing the nose\\ndownwards."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0121", 
+            "line": "While sliding down on the air, the glider\\naccelerates."
+        }, 
+        "right": {
+            "id": "0121", 
+            "line": "While sliding down on the air, the glider\\naccelerates."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0122", 
+            "line": "'Unhh....... Uhh......'"
+        }, 
+        "right": {
+            "id": "0122", 
+            "line": "'Unhh... Uhh...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0123", 
+            "line": "Whenever the nose is pointed downwards,\\nthe ground always comes into view."
+        }, 
+        "right": {
+            "id": "0123", 
+            "line": "Whenever the nose is pointed downwards, the\\nground always comes into view."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0124", 
+            "line": "Amane, who is scared of heights, stifles her\\nscreams."
+        }, 
+        "right": {
+            "id": "0124", 
+            "line": "Amane, who is scared of heights, stifles her\\nscreams."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0125", 
+            "line": "'Amane, we'll be OK! This glider will not fall,\\nI'll make sure of that!'"
+        }, 
+        "right": {
+            "id": "0125", 
+            "line": "'Amane, we'll be OK! This glider will not fall,\\nI'll make sure of that!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0126", 
+            "line": "'Y...yeah......!'"
+        }, 
+        "right": {
+            "id": "0126", 
+            "line": "'Y...yeah...!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0127", 
+            "line": "'......It's falling.'"
+        }, 
+        "right": {
+            "id": "0127", 
+            "line": "'...It's falling.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0128", 
+            "line": "'Huh? No way! That can't be! See, it's flying!'"
+        }, 
+        "right": {
+            "id": "0128", 
+            "line": "'Huh? No way! That can't be! See, it's flying!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0129", 
+            "line": "'But, the altitude is decreasing again.\\nSo they left the thermal. In this situation,\\nthat might have been a wise decision......'"
+        }, 
+        "right": {
+            "id": "0129", 
+            "line": "'But, the altitude is decreasing again. So they\\nleft the thermal. In this situation, that might\\nhave been a wise decision...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "012a", 
+            "line": "'Thermal?'"
+        }, 
+        "right": {
+            "id": "012a", 
+            "line": "'Thermal?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "012b", 
+            "line": "'......'"
+        }, 
+        "right": {
+            "id": "012b", 
+            "line": "'...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "012c", 
+            "line": "'Hey, what's a thermal?'"
+        }, 
+        "right": {
+            "id": "012c", 
+            "line": "'Hey, what's a thermal?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "012d", 
+            "line": "'......It's nothing.'"
+        }, 
+        "right": {
+            "id": "012d", 
+            "line": "'...It's nothing.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "012e", 
+            "line": "'But they are still descending. They have to find\\nthe next thermal quickly.'"
+        }, 
+        "right": {
+            "id": "012e", 
+            "line": "'But they are still descending. They have to find\\nthe next thermal quickly.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "012f", 
+            "line": "'Grrrr!'"
+        }, 
+        "right": {
+            "id": "012f", 
+            "line": "'Grrrr!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0130", 
+            "line": "'We've caught up with it.'"
+        }, 
+        "right": {
+            "id": "0130", 
+            "line": "'We've caught up with it.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0131", 
+            "line": "'But we've lost a lot of altitude.'"
+        }, 
+        "right": {
+            "id": "0131", 
+            "line": "'But we've lost a lot of altitude.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0132", 
+            "line": "To get back the altitude that we'd lost,\\nwe search for the next thermal."
+        }, 
+        "right": {
+            "id": "0132", 
+            "line": "To get back the altitude that we'd lost, we\\nsearch for the next thermal."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0133", 
+            "line": "In theory, they occur more easily above ground that\\nlooks like soil, or wide areas of asphalt,\\nlike parking lots."
+        }, 
+        "right": {
+            "id": "0133", 
+            "line": "In theory, they occur more easily above ground\\nthat looks like soil, or wide areas of asphalt,\\nlike parking lots."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0134", 
+            "line": "'How about over there?'"
+        }, 
+        "right": {
+            "id": "0134", 
+            "line": "'How about over there?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0135", 
+            "line": "Amane pointed towards the runway from which we\\nhad taken off."
+        }, 
+        "right": {
+            "id": "0135", 
+            "line": "Amane pointed towards the runway from which we\\nhad taken off."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0136", 
+            "line": "It was a wide area of soil, in the sunlight.\\nIt certainly met the conditions needed for thermals\\nto be made easily."
+        }, 
+        "right": {
+            "id": "0136", 
+            "line": "It was a wide area of soil, in the sunlight. It\\ncertainly met the conditions needed for thermals\\nto be made easily."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0137", 
+            "line": "'Alright!'"
+        }, 
+        "right": {
+            "id": "0137", 
+            "line": "'Alright!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0138", 
+            "line": "'Huh? They're coming back! Are they planning on\\nlanding?'"
+        }, 
+        "right": {
+            "id": "0138", 
+            "line": "'Huh? They're coming back! Are they planning on\\nlanding?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0139", 
+            "line": "'Could it be that there's a problem?'"
+        }, 
+        "right": {
+            "id": "0139", 
+            "line": "'Could it be that there's a problem?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "013a", 
+            "line": "'Aoi, Aoi! What's wrong? Did something happen?'"
+        }, 
+        "right": {
+            "id": "013a", 
+            "line": "'Aoi, Aoi! What's wrong? Did something happen?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "013b", 
+            "line": "'Don't panic, we're just searching for thermals!'"
+        }, 
+        "right": {
+            "id": "013b", 
+            "line": "'Don't panic, we're just searching for thermals!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "013c", 
+            "line": "'So you don't have a problem?'"
+        }, 
+        "right": {
+            "id": "013c", 
+            "line": "'So you don't have a problem?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "013d", 
+            "line": "'That's right!'"
+        }, 
+        "right": {
+            "id": "013d", 
+            "line": "'That's right!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "013e", 
+            "line": "'Phew......'"
+        }, 
+        "right": {
+            "id": "013e", 
+            "line": "'Phew...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "013f", 
+            "line": "'But at this time, it must be hard to find\\nthermals......'"
+        }, 
+        "right": {
+            "id": "013f", 
+            "line": "'But at this time, it must be hard to find\\nthermals...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0140", 
+            "line": "'It's good if you have the perfect places,\\nor clouds that look like thermals will form near\\nthem.'"
+        }, 
+        "right": {
+            "id": "0140", 
+            "line": "'It's good if you have the perfect places, or\\nclouds that look like thermals will form near\\nthem.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0141", 
+            "line": "'Are there any other signs?'"
+        }, 
+        "right": {
+            "id": "0141", 
+            "line": "'Are there any other signs?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0142", 
+            "line": "'Hmm...... The only other thing is to actually try\\nflying into them......'"
+        }, 
+        "right": {
+            "id": "0142", 
+            "line": "'Hmm... The only other thing is to actually try\\nflying into them...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0143", 
+            "line": "'Unnh...... but they're so close!'"
+        }, 
+        "right": {
+            "id": "0143", 
+            "line": "'Unnh... but they're so close!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0144", 
+            "line": "'Pass me the binoculars! I'll try searching to see\\nif anything's out there!!'"
+        }, 
+        "right": {
+            "id": "0144", 
+            "line": "'Pass me the binoculars! I'll try searching to\\nsee if anything's out there!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0145", 
+            "line": "We did get some lift above the runway after all."
+        }, 
+        "right": {
+            "id": "0145", 
+            "line": "We did get some lift above the runway after all."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0146", 
+            "line": "But it was weak."
+        }, 
+        "right": {
+            "id": "0146", 
+            "line": "But it was weak."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0147", 
+            "line": "It wasn't enough to raise the heavy double-seater\\nglider."
+        }, 
+        "right": {
+            "id": "0147", 
+            "line": "It wasn't enough to raise the heavy double-seater\\nglider."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0148", 
+            "line": "It must be because the ground hasn't warmed up\\nenough to create strong thermals."
+        }, 
+        "right": {
+            "id": "0148", 
+            "line": "It must be because the ground hasn't warmed up\\nenough to create strong thermals."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0149", 
+            "line": "'Dammit...... Aren't there any around here?'"
+        }, 
+        "right": {
+            "id": "0149", 
+            "line": "'Dammit... Aren't there any around here?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "014a", 
+            "line": "'Uhh......'"
+        }, 
+        "right": {
+            "id": "014a", 
+            "line": "'Uhh...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "014b", 
+            "line": "In the meantime, the glider is gradually descending."
+        }, 
+        "right": {
+            "id": "014b", 
+            "line": "In the meantime, the glider is gradually\\ndescending."
+        }
+    }, 
+    {
+        "left": {
+            "id": "014c", 
+            "line": "'Whooooah!!'"
+        }, 
+        "right": {
+            "id": "014c", 
+            "line": "'Whooooah!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "014d", 
+            "line": "'Waah!'"
+        }, 
+        "right": {
+            "id": "014d", 
+            "line": "'Waah!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "014e", 
+            "line": "Then, the wind came."
+        }, 
+        "right": {
+            "id": "014e", 
+            "line": "Then, the wind came."
+        }
+    }, 
+    {
+        "left": {
+            "id": "014f", 
+            "line": "Perhaps because of the influence of the Morning\\nGlory, the airflow is being disturbed."
+        }, 
+        "right": {
+            "id": "014f", 
+            "line": "Perhaps because of the influence of the Morning\\nGlory, the airflow is being disturbed."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0150", 
+            "line": "The glider wobbles as it is hit by the strong winds,\\ntemporarily reducing the lift, and causing a drop in\\naltitude."
+        }, 
+        "right": {
+            "id": "0150", 
+            "line": "The glider wobbles as it is hit by the strong\\nwinds, temporarily reducing the lift, and causing\\na drop in altitude."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0151", 
+            "line": "I start to feel impatient."
+        }, 
+        "right": {
+            "id": "0151", 
+            "line": "I start to feel impatient."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0152", 
+            "line": "'......Should we have stayed over there after all?'"
+        }, 
+        "right": {
+            "id": "0152", 
+            "line": "'...Should we have stayed over there after all?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0153", 
+            "line": "'But, if we'd done that......'"
+        }, 
+        "right": {
+            "id": "0153", 
+            "line": "'But, if we'd done that...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0154", 
+            "line": "The cloud from before was moving even further away\\nfrom the direction we want to head in."
+        }, 
+        "right": {
+            "id": "0154", 
+            "line": "The cloud from before was moving even further\\naway from the direction we want to head in."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0155", 
+            "line": "Even if we can rise to the altitude we need,\\nwe would be too late."
+        }, 
+        "right": {
+            "id": "0155", 
+            "line": "Even if we can rise to the altitude we need, we\\nwould be too late."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0156", 
+            "line": "How much time has passed since we took off?"
+        }, 
+        "right": {
+            "id": "0156", 
+            "line": "How much time has passed since we took off?"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0157", 
+            "line": "Meanwhile, the sky has become brighter and has\\nchanged from the morning glow to light blue."
+        }, 
+        "right": {
+            "id": "0157", 
+            "line": "Meanwhile, the sky has become brighter and has\\nchanged from the morning glow to light blue."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0158", 
+            "line": "'Looks like we can't reach it......'"
+        }, 
+        "right": {
+            "id": "0158", 
+            "line": "'Looks like we can't reach it...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0159", 
+            "line": "Amane mumbled to herself..."
+        }, 
+        "right": {
+            "id": "0159", 
+            "line": "Amane mumbled to herself..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "015a", 
+            "line": "...while looking up at the passage of cloud,\\nstretching across the sky."
+        }, 
+        "right": {
+            "id": "015a", 
+            "line": "...while looking up at the passage of cloud,\\nstretching across the sky."
+        }
+    }, 
+    {
+        "left": {
+            "id": "015b", 
+            "line": "'No, that's not true! It's right in front of us!'"
+        }, 
+        "right": {
+            "id": "015b", 
+            "line": "'No, that's not true! It's right in front of us!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "015c", 
+            "line": "'I guess so......'"
+        }, 
+        "right": {
+            "id": "015c", 
+            "line": "'I guess so...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "015d", 
+            "line": "'I'll...... We'll do something about it!'"
+        }, 
+        "right": {
+            "id": "015d", 
+            "line": "'I'll... We'll do something about it!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "015e", 
+            "line": "Kotori and Ageha were also looking for clouds,\\nfrom the ground."
+        }, 
+        "right": {
+            "id": "015e", 
+            "line": "Kotori and Ageha were also looking for clouds,\\nfrom the ground."
+        }
+    }, 
+    {
+        "left": {
+            "id": "015f", 
+            "line": "We haven't reached the time limit yet."
+        }, 
+        "right": {
+            "id": "015f", 
+            "line": "We haven't reached the time limit yet."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0160", 
+            "line": "'They're losing a lot altitude. They can't find any\\nthermals.'"
+        }, 
+        "right": {
+            "id": "0160", 
+            "line": "'They're losing a lot altitude. They can't find\\nany thermals.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0161", 
+            "line": "'Ooooh....... What will they do? At this rate,\\nthey won't reach those pretty clouds.'"
+        }, 
+        "right": {
+            "id": "0161", 
+            "line": "'Ooooh... What will they do? At this rate, they\\nwon't reach those pretty clouds.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0162", 
+            "line": "'Come on, you can do it!'"
+        }, 
+        "right": {
+            "id": "0162", 
+            "line": "'Come on, you can do it!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0163", 
+            "line": "'It doesn't matter how hard you try, you can't just\\nmake thermals appear.'"
+        }, 
+        "right": {
+            "id": "0163", 
+            "line": "'It doesn't matter how hard you try, you can't\\njust make thermals appear.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0164", 
+            "line": "'That bird of prey, a kite, is flying over there.'"
+        }, 
+        "right": {
+            "id": "0164", 
+            "line": "'That bird of prey, a kite, is flying over\\nthere.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0165", 
+            "line": "'It would be good if the glider could flap its wings\\nlike a bird......'"
+        }, 
+        "right": {
+            "id": "0165", 
+            "line": "'It would be good if the glider could flap its\\nwings like a bird...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0166", 
+            "line": "'That's why I said that they should have an\\nengine......'"
+        }, 
+        "right": {
+            "id": "0166", 
+            "line": "'That's why I said that they should have an\\nengine...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0167", 
+            "line": "'......Huh?'"
+        }, 
+        "right": {
+            "id": "0167", 
+            "line": "'...Huh?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0168", 
+            "line": "'What is it, Yoru?'"
+        }, 
+        "right": {
+            "id": "0168", 
+            "line": "'What is it, Yoru?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0169", 
+            "line": "'Looks like it's coming this way.'"
+        }, 
+        "right": {
+            "id": "0169", 
+            "line": "'Looks like it's coming this way.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "016a", 
+            "line": "'Huh......? You're right, it's coming towards us......'"
+        }, 
+        "right": {
+            "id": "016a", 
+            "line": "'Huh...? You're right, it's coming towards us...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "016b", 
+            "line": "'Come on! Do your best!'"
+        }, 
+        "right": {
+            "id": "016b", 
+            "line": "'Come on! Do your best!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "016c", 
+            "line": "'......That's strange, there are no clouds like that\\nin the sky over here either.'"
+        }, 
+        "right": {
+            "id": "016c", 
+            "line": "'...That's strange, there are no clouds like that\\nin the sky over here either.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "016d", 
+            "line": "'Do your very best!'"
+        }, 
+        "right": {
+            "id": "016d", 
+            "line": "'Do your very best!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "016e", 
+            "line": "'You were right, Kotori!'"
+        }, 
+        "right": {
+            "id": "016e", 
+            "line": "'You were right, Kotori!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "016f", 
+            "line": "'Yeah, no doubt about it! Even with the binoculars,\\nit still looks tiny though!'"
+        }, 
+        "right": {
+            "id": "016f", 
+            "line": "'Yeah, no doubt about it! Even with the\\nbinoculars, it still looks tiny though!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0170", 
+            "line": "In response to Kotori's transmission,\\nwe headed across the lake towards Windmill Hill."
+        }, 
+        "right": {
+            "id": "0170", 
+            "line": "In response to Kotori's transmission, we headed\\nacross the lake towards Windmill Hill."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0171", 
+            "line": "There should be some thermals over there."
+        }, 
+        "right": {
+            "id": "0171", 
+            "line": "There should be some thermals over there."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0172", 
+            "line": "'But, there aren't any clouds that seem to indicate\\nthermals.'"
+        }, 
+        "right": {
+            "id": "0172", 
+            "line": "'But, there aren't any clouds that seem to\\nindicate thermals.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0173", 
+            "line": "'Just because there are thermals, it doesn't always\\nmean that clouds are formed.'"
+        }, 
+        "right": {
+            "id": "0173", 
+            "line": "'Just because there are thermals, it doesn't\\nalways mean that clouds are formed.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0174", 
+            "line": "'I think that could be because the hill is on a\\nslope.'"
+        }, 
+        "right": {
+            "id": "0174", 
+            "line": "'I think that could be because the hill is on a\\nslope.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0175", 
+            "line": "'Do you mean that thermals occur more easily above\\nslopes?'"
+        }, 
+        "right": {
+            "id": "0175", 
+            "line": "'Do you mean that thermals occur more easily\\nabove slopes?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0176", 
+            "line": "'Yeah.'"
+        }, 
+        "right": {
+            "id": "0176", 
+            "line": "'Yeah.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0177", 
+            "line": "'The sunlight hits the ground diagonally,\\nright? But if the surface is also diagonal,\\nthe sunlight hits it directly.'"
+        }, 
+        "right": {
+            "id": "0177", 
+            "line": "'The sunlight hits the ground diagonally, right?\\nBut if the surface is also diagonal, the sunlight\\nhits it directly.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0178", 
+            "line": "'This concentrates the energy, warming it more\\neasily.'"
+        }, 
+        "right": {
+            "id": "0178", 
+            "line": "'This concentrates the energy, warming it more\\neasily.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0179", 
+            "line": "It's true, the sloping surface of the hill that we\\nare heading towards is shining from being in the\\ndirect light of the morning sun."
+        }, 
+        "right": {
+            "id": "0179", 
+            "line": "It's true, the sloping surface of the hill that\\nwe are heading towards is shining from being in\\nthe direct light of the morning sun."
+        }
+    }, 
+    {
+        "left": {
+            "id": "017a", 
+            "line": "'How is it, Kotori?'"
+        }, 
+        "right": {
+            "id": "017a", 
+            "line": "'How is it, Kotori?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "017b", 
+            "line": "'It's there, I found it! It's a lot higher than the\\none just now!'"
+        }, 
+        "right": {
+            "id": "017b", 
+            "line": "'It's there, I found it! It's a lot higher than\\nthe one just now!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "017c", 
+            "line": "'There's no mistaking it, I can see a kite!!'"
+        }, 
+        "right": {
+            "id": "017c", 
+            "line": "'There's no mistaking it, I can see a kite!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "017d", 
+            "line": "We can't confirm that from where we are right now,\\nbut it seems that a kite is flying above the hill."
+        }, 
+        "right": {
+            "id": "017d", 
+            "line": "We can't confirm that from where we are right\\nnow, but it seems that a kite is flying above the\\nhill."
+        }
+    }, 
+    {
+        "left": {
+            "id": "017e", 
+            "line": "Kites are birds that glide to high altitudes using\\nupward drafts."
+        }, 
+        "right": {
+            "id": "017e", 
+            "line": "Kites are birds that glide to high altitudes\\nusing upward drafts."
+        }
+    }, 
+    {
+        "left": {
+            "id": "017f", 
+            "line": "In other words, there is a thermal over there."
+        }, 
+        "right": {
+            "id": "017f", 
+            "line": "In other words, there is a thermal over there."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0180", 
+            "line": "However, that doesn't necessarily mean there is\\nenough lift to raise a heavy double-seater glider."
+        }, 
+        "right": {
+            "id": "0180", 
+            "line": "However, that doesn't necessarily mean there is\\nenough lift to raise a heavy double-seater\\nglider."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0181", 
+            "line": "But there's nothing else left for us to try."
+        }, 
+        "right": {
+            "id": "0181", 
+            "line": "But there's nothing else left for us to try."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0182", 
+            "line": "I didn't think of anything other than aiming for\\nthat point."
+        }, 
+        "right": {
+            "id": "0182", 
+            "line": "I didn't think of anything other than aiming for\\nthat point."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0183", 
+            "line": "Eventually, the glider crossed the lake,\\nand approached the air above Windmill Hill."
+        }, 
+        "right": {
+            "id": "0183", 
+            "line": "Eventually, the glider crossed the lake, and\\napproached the air above Windmill Hill."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0184", 
+            "line": "FWOOOSH!!"
+        }, 
+        "right": {
+            "id": "0184", 
+            "line": "FWOOOSH!!"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0185", 
+            "line": "'Waaah!'"
+        }, 
+        "right": {
+            "id": "0185", 
+            "line": "'Waaah!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0186", 
+            "line": "'Whoa!!'"
+        }, 
+        "right": {
+            "id": "0186", 
+            "line": "'Whoa!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0187", 
+            "line": "Suddenly, we were shaken vertically."
+        }, 
+        "right": {
+            "id": "0187", 
+            "line": "Suddenly, we were shaken vertically."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0188", 
+            "line": "The variometer told us that the glider had dropped\\nsharply."
+        }, 
+        "right": {
+            "id": "0188", 
+            "line": "The variometer told us that the glider had\\ndropped sharply."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0189", 
+            "line": "......We've been caught in a downward draft!?"
+        }, 
+        "right": {
+            "id": "0189", 
+            "line": "...We've been caught in a downward draft!?"
+        }
+    }, 
+    {
+        "left": {
+            "id": "018a", 
+            "line": "I panicked, and the next moment..."
+        }, 
+        "right": {
+            "id": "018a", 
+            "line": "I panicked, and the next moment..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "018b", 
+            "line": "...we felt a huge impact."
+        }, 
+        "right": {
+            "id": "018b", 
+            "line": "...we felt a huge impact."
+        }
+    }, 
+    {
+        "left": {
+            "id": "018c", 
+            "line": "'We're rising!'"
+        }, 
+        "right": {
+            "id": "018c", 
+            "line": "'We're rising!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "018d", 
+            "line": "Suddenly, it felt like we were being pushed from\\nbelow, and the glider steadily floated upwards."
+        }, 
+        "right": {
+            "id": "018d", 
+            "line": "Suddenly, it felt like we were being pushed from\\nbelow, and the glider steadily floated upwards."
+        }
+    }, 
+    {
+        "left": {
+            "id": "018e", 
+            "line": "Then, a little later, the variometer informs us that\\nwe are rising."
+        }, 
+        "right": {
+            "id": "018e", 
+            "line": "Then, a little later, the variometer informs us\\nthat we are rising."
+        }
+    }, 
+    {
+        "left": {
+            "id": "018f", 
+            "line": "We had ridden a thermal."
+        }, 
+        "right": {
+            "id": "018f", 
+            "line": "We had ridden a thermal."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0190", 
+            "line": "'It's pretty strong! We can do this, Amane!!'"
+        }, 
+        "right": {
+            "id": "0190", 
+            "line": "'It's pretty strong! We can do this, Amane!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0191", 
+            "line": "'Yeah!'"
+        }, 
+        "right": {
+            "id": "0191", 
+            "line": "'Yeah!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0192", 
+            "line": "'Ah ha! They're climbing, they're climbing! Look,\\nAgeha!!'"
+        }, 
+        "right": {
+            "id": "0192", 
+            "line": "'Ah ha! They're climbing, they're climbing! Look,\\nAgeha!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0193", 
+            "line": "'Oh, so they are. That's great, they've gotten up so\\nhigh already.'"
+        }, 
+        "right": {
+            "id": "0193", 
+            "line": "'Oh, so they are. That's great, they've gotten up\\nso high already.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0194", 
+            "line": "'See, there was one after all!'"
+        }, 
+        "right": {
+            "id": "0194", 
+            "line": "'See, there was one after all!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0195", 
+            "line": "'Yeah, way to go, Kotori!'"
+        }, 
+        "right": {
+            "id": "0195", 
+            "line": "'Yeah, way to go, Kotori!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0196", 
+            "line": "'Eh heh heh! It's nice getting praise!'"
+        }, 
+        "right": {
+            "id": "0196", 
+            "line": "'Eh heh heh! It's nice getting praise!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0197", 
+            "line": "'Does it look like they can climb all the way up?'"
+        }, 
+        "right": {
+            "id": "0197", 
+            "line": "'Does it look like they can climb all the way\\nup?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0198", 
+            "line": "'They've got pretty strong lift, I think they can\\nmake it.'"
+        }, 
+        "right": {
+            "id": "0198", 
+            "line": "'They've got pretty strong lift, I think they can\\nmake it.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0199", 
+            "line": "'Take care of Amane.'"
+        }, 
+        "right": {
+            "id": "0199", 
+            "line": "'Take care of Amane.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "019a", 
+            "line": "'Leave it to me.'"
+        }, 
+        "right": {
+            "id": "019a", 
+            "line": "'Leave it to me.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "019b", 
+            "line": "'Alright, go on! To the other side of the clouds!'"
+        }, 
+        "right": {
+            "id": "019b", 
+            "line": "'Alright, go on! To the other side of the\\nclouds!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "019c", 
+            "line": "'Yeah! On the wings that you guys made!'"
+        }, 
+        "right": {
+            "id": "019c", 
+            "line": "'Yeah! On the wings that you guys made!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "019d", 
+            "line": "'Amazing...... They've gone up so high......'"
+        }, 
+        "right": {
+            "id": "019d", 
+            "line": "'Amazing... They've gone up so high...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "019e", 
+            "line": "'......'"
+        }, 
+        "right": {
+            "id": "019e", 
+            "line": "'...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "019f", 
+            "line": "'How can they fly so high just by riding the wind?'"
+        }, 
+        "right": {
+            "id": "019f", 
+            "line": "'How can they fly so high just by riding the\\nwind?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a0", 
+            "line": "'If you want to know the theory, I can tell you.\\nDo you want to hear it?'"
+        }, 
+        "right": {
+            "id": "01a0", 
+            "line": "'If you want to know the theory, I can tell you.\\nDo you want to hear it?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a1", 
+            "line": "'No, it's OK..... Even if you tell me,\\nI won't understand it. Also......'"
+        }, 
+        "right": {
+            "id": "01a1", 
+            "line": "'No, it's OK... Even if you tell me, I won't\\nunderstand it. Also...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a2", 
+            "line": "'......I don't think that something like that can be\\nexplained with theory.'"
+        }, 
+        "right": {
+            "id": "01a2", 
+            "line": "'...I don't think that something like that can be\\nexplained with theory.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a3", 
+            "line": "'Ha! Without theory, something that big would never\\nbe able to fly.'"
+        }, 
+        "right": {
+            "id": "01a3", 
+            "line": "'Ha! Without theory, something that big would\\nnever be able to fly.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a4", 
+            "line": "'Amazing...... Yeah, it's amazing.'"
+        }, 
+        "right": {
+            "id": "01a4", 
+            "line": "'Amazing... Yeah, it's amazing.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a5", 
+            "line": "Before we knew it, the powerful thermals occurring\\nabove Windmill Hill had lifted us high up in the\\nsky."
+        }, 
+        "right": {
+            "id": "01a5", 
+            "line": "Before we knew it, the powerful thermals\\noccurring above Windmill Hill had lifted us high\\nup in the sky."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a6", 
+            "line": "We were getting closer and closer to the Morning\\nGlory."
+        }, 
+        "right": {
+            "id": "01a6", 
+            "line": "We were getting closer and closer to the Morning\\nGlory."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a7", 
+            "line": "'We're getting closer, Amane.'"
+        }, 
+        "right": {
+            "id": "01a7", 
+            "line": "'We're getting closer, Amane.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a8", 
+            "line": "'Yeah......'"
+        }, 
+        "right": {
+            "id": "01a8", 
+            "line": "'Yeah...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01a9", 
+            "line": "The clouds that, from below, looked small and\\nintermittent, were actually pretty big when we got\\nclose to them."
+        }, 
+        "right": {
+            "id": "01a9", 
+            "line": "The clouds that, from below, looked small and\\nintermittent, were actually pretty big when we\\ngot close to them."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01aa", 
+            "line": "I wonder how wide they are? At the very least,\\nthey would comfortably be able to cover the width of\\nthis glider."
+        }, 
+        "right": {
+            "id": "01aa", 
+            "line": "I wonder how wide they are? At the very least,\\nthey would comfortably be able to cover the width\\nof this glider."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ab", 
+            "line": "They stretched out to around the distance needed to\\ngo diagonally across the lake."
+        }, 
+        "right": {
+            "id": "01ab", 
+            "line": "They stretched out to around the distance needed\\nto go diagonally across the lake."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ac", 
+            "line": "'It's a little far, isn't it......'"
+        }, 
+        "right": {
+            "id": "01ac", 
+            "line": "'It's a little far, isn't it...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ad", 
+            "line": "'It's OK. If we can keep going above the clouds,\\nit should be easy to pass across them.'"
+        }, 
+        "right": {
+            "id": "01ad", 
+            "line": "'It's OK. If we can keep going above the clouds,\\nit should be easy to pass across them.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ae", 
+            "line": "The thermal that we were riding was pretty powerful."
+        }, 
+        "right": {
+            "id": "01ae", 
+            "line": "The thermal that we were riding was pretty\\npowerful."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01af", 
+            "line": "As Amane had just explained, the slope of the hill\\nis hit directly by the sunlight, so it heats up\\nquickly."
+        }, 
+        "right": {
+            "id": "01af", 
+            "line": "As Amane had just explained, the slope of the\\nhill is hit directly by the sunlight, so it heats\\nup quickly."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b0", 
+            "line": "In other words, that means that the difference in\\ntemperature is bigger compared to the surrounding\\narea."
+        }, 
+        "right": {
+            "id": "01b0", 
+            "line": "In other words, that means that the difference in\\ntemperature is bigger compared to the surrounding\\narea."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b1", 
+            "line": "If there is no difference in temperature,\\nthen thermals will not be created, and if the\\ndifference is big, then strong thermals will be\\nmade."
+        }, 
+        "right": {
+            "id": "01b1", 
+            "line": "If there is no difference in temperature, then\\nthermals will not be created, and if the\\ndifference is big, then strong thermals will be\\nmade."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b2", 
+            "line": "The upward draft that Kotori had found for us feels\\nstrong enough to take us all the way to the horizon."
+        }, 
+        "right": {
+            "id": "01b2", 
+            "line": "The upward draft that Kotori had found for us\\nfeels strong enough to take us all the way to the\\nhorizon."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b3", 
+            "line": "While this is happening, the sun is rising,\\nand the air temperature is increasing."
+        }, 
+        "right": {
+            "id": "01b3", 
+            "line": "While this is happening, the sun is rising, and\\nthe air temperature is increasing."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b4", 
+            "line": "Morning Glory occurs for about two hours from the\\nbeginning of dawn."
+        }, 
+        "right": {
+            "id": "01b4", 
+            "line": "Morning Glory occurs for about two hours from the\\nbeginning of dawn."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b5", 
+            "line": "'(C'mon...... C'mon......)'"
+        }, 
+        "right": {
+            "id": "01b5", 
+            "line": "'(C'mon... C'mon...)'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b6", 
+            "line": "I'm getting impatient."
+        }, 
+        "right": {
+            "id": "01b6", 
+            "line": "I'm getting impatient."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b7", 
+            "line": "However, if we try too hard, we'll lose balance,\\nand we might lose altitude."
+        }, 
+        "right": {
+            "id": "01b7", 
+            "line": "However, if we try too hard, we'll lose balance,\\nand we might lose altitude."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b8", 
+            "line": "While checking the rate of ascent on the variometer,\\nI turn the glider to aim for the core of the\\nthermal, the most effective part."
+        }, 
+        "right": {
+            "id": "01b8", 
+            "line": "While checking the rate of ascent on the\\nvariometer, I turn the glider to aim for the core\\nof the thermal, the most effective part."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01b9", 
+            "line": "Eventually......"
+        }, 
+        "right": {
+            "id": "01b9", 
+            "line": "Eventually..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ba", 
+            "line": "The glider that Amane and I were riding reached the\\naltitude of the Morning Glory that we were aiming\\nfor."
+        }, 
+        "right": {
+            "id": "01ba", 
+            "line": "The glider that Amane and I were riding reached\\nthe altitude of the Morning Glory that we were\\naiming for."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01bb", 
+            "line": "Then, we had soon risen above that, and reached a\\nposition where we could view it from above."
+        }, 
+        "right": {
+            "id": "01bb", 
+            "line": "Then, we had soon risen above that, and reached a\\nposition where we could view it from above."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01bc", 
+            "line": "'Look, Amane!'"
+        }, 
+        "right": {
+            "id": "01bc", 
+            "line": "'Look, Amane!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01bd", 
+            "line": "'Yeah...... I can see it.'"
+        }, 
+        "right": {
+            "id": "01bd", 
+            "line": "'Yeah... I can see it.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01be", 
+            "line": "I knew she'd be looking at it, but I said it anyway."
+        }, 
+        "right": {
+            "id": "01be", 
+            "line": "I knew she'd be looking at it, but I said it\\nanyway."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01bf", 
+            "line": "It's because I was so moved."
+        }, 
+        "right": {
+            "id": "01bf", 
+            "line": "It's because I was so moved."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c0", 
+            "line": "Is there anyone who wouldn't be moved to see a\\nspectacle like this?"
+        }, 
+        "right": {
+            "id": "01c0", 
+            "line": "Is there anyone who wouldn't be moved to see a\\nspectacle like this?"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c1", 
+            "line": "With the bluish-purple sky in the background,\\nthe passage of clouds shone as they were bathed in\\nthe pale pink sunlight."
+        }, 
+        "right": {
+            "id": "01c1", 
+            "line": "With the bluish-purple sky in the background, the\\npassage of clouds shone as they were bathed in\\nthe pale pink sunlight."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c2", 
+            "line": "Words like 'beautiful' wouldn't really express it at\\nall."
+        }, 
+        "right": {
+            "id": "01c2", 
+            "line": "Words like 'beautiful' wouldn't really express it\\nat all."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c3", 
+            "line": "The word that came to mind was 'divine'."
+        }, 
+        "right": {
+            "id": "01c3", 
+            "line": "The word that came to mind was 'divine'."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c4", 
+            "line": "My trembling hands gripped the yoke to gain an\\naltitude to allow us to stay above the clouds,\\nI turn into the thermal."
+        }, 
+        "right": {
+            "id": "01c4", 
+            "line": "My trembling hands gripped the yoke to gain an\\naltitude to allow us to stay above the clouds, I\\nturn into the thermal."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c5", 
+            "line": "I glanced at the front seat, and I saw Amane from\\nthe side."
+        }, 
+        "right": {
+            "id": "01c5", 
+            "line": "I glanced at the front seat, and I saw Amane from\\nthe side."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c6", 
+            "line": "Her eyes were opened wide like a little kid's as she\\nlooked at the passage of clouds stretching across\\nthe sky."
+        }, 
+        "right": {
+            "id": "01c6", 
+            "line": "Her eyes were opened wide like a little kid's as\\nshe looked at the passage of clouds stretching\\nacross the sky."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c7", 
+            "line": "'This is the view that Isuka wanted to show me......'"
+        }, 
+        "right": {
+            "id": "01c7", 
+            "line": "'This is the view that Isuka wanted to show\\nme...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c8", 
+            "line": "'To bring me...... to this place......'"
+        }, 
+        "right": {
+            "id": "01c8", 
+            "line": "'To bring me... to this place...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01c9", 
+            "line": "'Amane, can you get the camera?'"
+        }, 
+        "right": {
+            "id": "01c9", 
+            "line": "'Amane, can you get the camera?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ca", 
+            "line": "'O...oh yeah, that's right.'"
+        }, 
+        "right": {
+            "id": "01ca", 
+            "line": "'O...oh yeah, that's right.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01cb", 
+            "line": "Before we took off, Ageha had given her a digital\\ncamera."
+        }, 
+        "right": {
+            "id": "01cb", 
+            "line": "Before we took off, Ageha had given her a digital\\ncamera."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01cc", 
+            "line": "She asked us to take a picture if we were able to\\nfly above the Morning Glory."
+        }, 
+        "right": {
+            "id": "01cc", 
+            "line": "She asked us to take a picture if we were able to\\nfly above the Morning Glory."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01cd", 
+            "line": "This was the perfect viewpoint, looking across the\\nclouds."
+        }, 
+        "right": {
+            "id": "01cd", 
+            "line": "This was the perfect viewpoint, looking across\\nthe clouds."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ce", 
+            "line": "'I've taken it.'"
+        }, 
+        "right": {
+            "id": "01ce", 
+            "line": "'I've taken it.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01cf", 
+            "line": "'Alright, let's go. To that place.'"
+        }, 
+        "right": {
+            "id": "01cf", 
+            "line": "'Alright, let's go. To that place.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d0", 
+            "line": "'......Yeah.'"
+        }, 
+        "right": {
+            "id": "01d0", 
+            "line": "'...Yeah.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d1", 
+            "line": "Amane nodded as if preparing herself."
+        }, 
+        "right": {
+            "id": "01d1", 
+            "line": "Amane nodded as if preparing herself."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d2", 
+            "line": "We didn't come here to look at the clouds."
+        }, 
+        "right": {
+            "id": "01d2", 
+            "line": "We didn't come here to look at the clouds."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d3", 
+            "line": "We came to pass across them."
+        }, 
+        "right": {
+            "id": "01d3", 
+            "line": "We came to pass across them."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d4", 
+            "line": "Once we had gained enough altitude, I tilted the\\nyoke and turned the glider."
+        }, 
+        "right": {
+            "id": "01d4", 
+            "line": "Once we had gained enough altitude, I tilted the\\nyoke and turned the glider."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d5", 
+            "line": "Now, it's time for us to go!"
+        }, 
+        "right": {
+            "id": "01d5", 
+            "line": "Now, it's time for us to go!"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d6", 
+            "line": "The airflow here was calm, and we could fly without\\nbeing shaken by crosswinds."
+        }, 
+        "right": {
+            "id": "01d6", 
+            "line": "The airflow here was calm, and we could fly\\nwithout being shaken by crosswinds."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d7", 
+            "line": "In the upper parts of the sky, there were hardly any\\nclouds, and the clear light blue gradient spread out\\nin all directions."
+        }, 
+        "right": {
+            "id": "01d7", 
+            "line": "In the upper parts of the sky, there were hardly\\nany clouds, and the clear light blue gradient\\nspread out in all directions."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d8", 
+            "line": "While paying attention to our rate of descent,\\nwe traveled along the space of crystal-clear light."
+        }, 
+        "right": {
+            "id": "01d8", 
+            "line": "While paying attention to our rate of descent, we\\ntraveled along the space of crystal-clear light."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01d9", 
+            "line": "We are approaching the passage of light."
+        }, 
+        "right": {
+            "id": "01d9", 
+            "line": "We are approaching the passage of light."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01da", 
+            "line": "A rolling airflow occurs around the clouds,\\nand if we can ride that, we can pass along the\\npassage of clouds as far as we want."
+        }, 
+        "right": {
+            "id": "01da", 
+            "line": "A rolling airflow occurs around the clouds, and\\nif we can ride that, we can pass along the\\npassage of clouds as far as we want."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01db", 
+            "line": "'We've finally arrived......'"
+        }, 
+        "right": {
+            "id": "01db", 
+            "line": "'We've finally arrived...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01dc", 
+            "line": "'......'"
+        }, 
+        "right": {
+            "id": "01dc", 
+            "line": "'...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01dd", 
+            "line": "The Morning Glory was right there, at our\\nfingertips."
+        }, 
+        "right": {
+            "id": "01dd", 
+            "line": "The Morning Glory was right there, at our\\nfingertips."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01de", 
+            "line": "......And as I thought that..."
+        }, 
+        "right": {
+            "id": "01de", 
+            "line": "...And as I thought that..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01df", 
+            "line": "....all of a sudden, it happened."
+        }, 
+        "right": {
+            "id": "01df", 
+            "line": "...all of a sudden, it happened."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e0", 
+            "line": "As our view swung round, the divine road of cloud\\nthat should've been there in front of us,\\nin the space of a moment, was getting further away."
+        }, 
+        "right": {
+            "id": "01e0", 
+            "line": "As our view swung round, the divine road of cloud\\nthat should've been there in front of us, in the\\nspace of a moment, was getting further away."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e1", 
+            "line": "We suddenly lost lift, and then a few moments later,\\nwe realized that the glider was rapidly descending."
+        }, 
+        "right": {
+            "id": "01e1", 
+            "line": "We suddenly lost lift, and then a few moments\\nlater, we realized that the glider was rapidly\\ndescending."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e2", 
+            "line": "'......!!?'"
+        }, 
+        "right": {
+            "id": "01e2", 
+            "line": "'...!!?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e3", 
+            "line": "'............'"
+        }, 
+        "right": {
+            "id": "01e3", 
+            "line": "'...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e4", 
+            "line": "I quickly pulled at the yoke but there was no\\nresponse."
+        }, 
+        "right": {
+            "id": "01e4", 
+            "line": "I quickly pulled at the yoke but there was no\\nresponse."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e5", 
+            "line": "The field of vision span round, and we couldn't even\\nfigure out if we were facing up or down."
+        }, 
+        "right": {
+            "id": "01e5", 
+            "line": "The field of vision span round, and we couldn't\\neven figure out if we were facing up or down."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e6", 
+            "line": "'(......What is this? What's going on!!?)'"
+        }, 
+        "right": {
+            "id": "01e6", 
+            "line": "'(...What is this? What's going on!!?)'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e7", 
+            "line": "Is it a stall?"
+        }, 
+        "right": {
+            "id": "01e7", 
+            "line": "Is it a stall?"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e8", 
+            "line": "However, there were no signs that was going to\\nhappen."
+        }, 
+        "right": {
+            "id": "01e8", 
+            "line": "However, there were no signs that was going to\\nhappen."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01e9", 
+            "line": "It was just like......"
+        }, 
+        "right": {
+            "id": "01e9", 
+            "line": "It was just like..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ea", 
+            "line": "Yes, it was just like there was no air and we had\\nlost all of our lift."
+        }, 
+        "right": {
+            "id": "01ea", 
+            "line": "Yes, it was just like there was no air and we had\\nlost all of our lift."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01eb", 
+            "line": "......We're falling!"
+        }, 
+        "right": {
+            "id": "01eb", 
+            "line": "...We're falling!"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ec", 
+            "line": "'......!!?'"
+        }, 
+        "right": {
+            "id": "01ec", 
+            "line": "'...!!?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ed", 
+            "line": "'What is it, what happened?'"
+        }, 
+        "right": {
+            "id": "01ed", 
+            "line": "'What is it, what happened?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ee", 
+            "line": "'They're falling!'"
+        }, 
+        "right": {
+            "id": "01ee", 
+            "line": "'They're falling!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ef", 
+            "line": "'No way! Give me the binoculars!!'"
+        }, 
+        "right": {
+            "id": "01ef", 
+            "line": "'No way! Give me the binoculars!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f0", 
+            "line": "'......This is bad, what happened!?'"
+        }, 
+        "right": {
+            "id": "01f0", 
+            "line": "'...This is bad, what happened!?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f1", 
+            "line": "'Aoi, Aoi, come in! Aoi......!!!!!'"
+        }, 
+        "right": {
+            "id": "01f1", 
+            "line": "'Aoi, Aoi, come in! Aoi...!!!!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f2", 
+            "line": "'Aoi, Aoi, come in! Aoi......!!!!!'"
+        }, 
+        "right": {
+            "id": "01f2", 
+            "line": "'Aoi, Aoi, come in! Aoi...!!!!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f3", 
+            "line": "'Urrggghhhhh......!!! I can't...... deal with that right\\nnow......'"
+        }, 
+        "right": {
+            "id": "01f3", 
+            "line": "'Urrggghhhhh...!!! I can't... deal with that\\nright now...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f4", 
+            "line": "The surface of the lake appeared from the other side\\nof the canopy."
+        }, 
+        "right": {
+            "id": "01f4", 
+            "line": "The surface of the lake appeared from the other\\nside of the canopy."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f5", 
+            "line": "We were falling with the nose pointing straight\\ndown."
+        }, 
+        "right": {
+            "id": "01f5", 
+            "line": "We were falling with the nose pointing straight\\ndown."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f6", 
+            "line": "'Aoi!!?'"
+        }, 
+        "right": {
+            "id": "01f6", 
+            "line": "'Aoi!!?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f7", 
+            "line": "'I'll level it out!!'"
+        }, 
+        "right": {
+            "id": "01f7", 
+            "line": "'I'll level it out!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f8", 
+            "line": "In the heat of the moment, I didn't know which\\ncontrols I used......"
+        }, 
+        "right": {
+            "id": "01f8", 
+            "line": "In the heat of the moment, I didn't know which\\ncontrols I used..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01f9", 
+            "line": "Anyway, I tried to lift the nose up and stabilize\\nthe wings."
+        }, 
+        "right": {
+            "id": "01f9", 
+            "line": "Anyway, I tried to lift the nose up and stabilize\\nthe wings."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01fa", 
+            "line": "'WHOOOOOOOAAAAAAHHHHH!!!!!!!!'"
+        }, 
+        "right": {
+            "id": "01fa", 
+            "line": "'WHOOOOOOOAAAAAAHHHHH!!!!!!!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01fb", 
+            "line": "FWOOOSH!!"
+        }, 
+        "right": {
+            "id": "01fb", 
+            "line": "FWOOOSH!!"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01fc", 
+            "line": "A shock ran through me that felt like the fuselage\\nmight be crushed."
+        }, 
+        "right": {
+            "id": "01fc", 
+            "line": "A shock ran through me that felt like the\\nfuselage might be crushed."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01fd", 
+            "line": "To us, the pilots, the vibrations passed through our\\nbodies, and for a moment, I thought that we had\\ncrashed."
+        }, 
+        "right": {
+            "id": "01fd", 
+            "line": "To us, the pilots, the vibrations passed through\\nour bodies, and for a moment, I thought that we\\nhad crashed."
+        }
+    }, 
+    {
+        "left": {
+            "id": "01fe", 
+            "line": "'Haaa... haaa..... Are we OK.....?'"
+        }, 
+        "right": {
+            "id": "01fe", 
+            "line": "'Haaa... haaa... Are we OK...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "01ff", 
+            "line": "'Looks like it......'"
+        }, 
+        "right": {
+            "id": "01ff", 
+            "line": "'Looks like it...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0200", 
+            "line": "The nose and the wings leveled out and the glider\\nhad gained lift and was floating."
+        }, 
+        "right": {
+            "id": "0200", 
+            "line": "The nose and the wings leveled out and the glider\\nhad gained lift and was floating."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0201", 
+            "line": "We were 200 meters from the surface of the water."
+        }, 
+        "right": {
+            "id": "0201", 
+            "line": "We were 200 meters from the surface of the water."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0202", 
+            "line": "In a moment, we had fallen almost 800 meters."
+        }, 
+        "right": {
+            "id": "0202", 
+            "line": "In a moment, we had fallen almost 800 meters."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0203", 
+            "line": "If it was a few seconds later, it would've been too\\nlate......"
+        }, 
+        "right": {
+            "id": "0203", 
+            "line": "If it was a few seconds later, it would've been\\ntoo late..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0204", 
+            "line": "My whole body trembled with fear and relief."
+        }, 
+        "right": {
+            "id": "0204", 
+            "line": "My whole body trembled with fear and relief."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0205", 
+            "line": "'Are you alright, Amane?'"
+        }, 
+        "right": {
+            "id": "0205", 
+            "line": "'Are you alright, Amane?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0206", 
+            "line": "'Yeah, somehow......'"
+        }, 
+        "right": {
+            "id": "0206", 
+            "line": "'Yeah, somehow...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0207", 
+            "line": "Her shoulders were shaking but her reply was OK."
+        }, 
+        "right": {
+            "id": "0207", 
+            "line": "Her shoulders were shaking but her reply was OK."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0208", 
+            "line": "'What the hell happened just now......?'"
+        }, 
+        "right": {
+            "id": "0208", 
+            "line": "'What the hell happened just now...?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0209", 
+            "line": "The were no signs that the airflow had become\\nseparated from the main wings, in other words,\\na stall."
+        }, 
+        "right": {
+            "id": "0209", 
+            "line": "The were no signs that the airflow had become\\nseparated from the main wings, in other words, a\\nstall."
+        }
+    }, 
+    {
+        "left": {
+            "id": "020a", 
+            "line": "It is often said that it can occur without warning,\\nbut for it to occur somewhere that had such stable\\nairflow......"
+        }, 
+        "right": {
+            "id": "020a", 
+            "line": "It is often said that it can occur without\\nwarning, but for it to occur somewhere that had\\nsuch stable airflow..."
+        }
+    }, 
+    {
+        "left": {
+            "id": "020b", 
+            "line": "'......We might have been caught in a strong \\ndownward draft.'"
+        }, 
+        "right": {
+            "id": "020b", 
+            "line": "'...We might have been caught in a strong\\ndownward draft.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "020c", 
+            "line": "'You mean just now?'"
+        }, 
+        "right": {
+            "id": "020c", 
+            "line": "'You mean just now?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "020d", 
+            "line": "If that were true, it was pretty strong.\\nDo things like this really happen?"
+        }, 
+        "right": {
+            "id": "020d", 
+            "line": "If that were true, it was pretty strong. Do\\nthings like this really happen?"
+        }
+    }, 
+    {
+        "left": {
+            "id": "020e", 
+            "line": "'In the summer, in the vicinity of the center of\\nlakes or big rivers, it seems that sometimes\\ndownbursts occur.'"
+        }, 
+        "right": {
+            "id": "020e", 
+            "line": "'In the summer, in the vicinity of the center of\\nlakes or big rivers, it seems that sometimes\\ndownbursts occur.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "020f", 
+            "line": "Downbursts are powerful downward drafts."
+        }, 
+        "right": {
+            "id": "020f", 
+            "line": "Downbursts are powerful downward drafts."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0210", 
+            "line": "If a downburst, a giant mass of air, falls to earth,\\nit is powerful enough to cause severe damage."
+        }, 
+        "right": {
+            "id": "0210", 
+            "line": "If a downburst, a giant mass of air, falls to\\nearth, it is powerful enough to cause severe\\ndamage."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0211", 
+            "line": "'If we were swallowed by something like that,\\nwe wouldn't stand a chance......'"
+        }, 
+        "right": {
+            "id": "0211", 
+            "line": "'If we were swallowed by something like that, we\\nwouldn't stand a chance...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0212", 
+            "line": "The place where we were, was in the vicinity of the\\ncenter of a lake, like Amane was saying."
+        }, 
+        "right": {
+            "id": "0212", 
+            "line": "The place where we were, was in the vicinity of\\nthe center of a lake, like Amane was saying."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0213", 
+            "line": "We were so distracted by the Morning Glory,\\nthat was we lost sight of our own position."
+        }, 
+        "right": {
+            "id": "0213", 
+            "line": "We were so distracted by the Morning Glory, that\\nwas we lost sight of our own position."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0214", 
+            "line": "Because of the lake, the air cools, and it's\\npossible that a strong downward draft would be\\ncreated."
+        }, 
+        "right": {
+            "id": "0214", 
+            "line": "Because of the lake, the air cools, and it's\\npossible that a strong downward draft would be\\ncreated."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0215", 
+            "line": "If the air itself falls down, a glider,\\nwhich floats using the power of the air,\\nwould have no choice but to be taken down with it."
+        }, 
+        "right": {
+            "id": "0215", 
+            "line": "If the air itself falls down, a glider, which\\nfloats using the power of the air, would have no\\nchoice but to be taken down with it."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0216", 
+            "line": "That might be why we lost lift and fell,\\nsuddenly and without any warning signs."
+        }, 
+        "right": {
+            "id": "0216", 
+            "line": "That might be why we lost lift and fell, suddenly\\nand without any warning signs."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0217", 
+            "line": "'Aoi! Amane! Please come respond!!'"
+        }, 
+        "right": {
+            "id": "0217", 
+            "line": "'Aoi! Amane! Please come respond!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0218", 
+            "line": "We heard Kotori's tearful voice over the radio."
+        }, 
+        "right": {
+            "id": "0218", 
+            "line": "We heard Kotori's tearful voice over the radio."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0219", 
+            "line": "'We're OK. Somehow we managed to level it out.'"
+        }, 
+        "right": {
+            "id": "0219", 
+            "line": "'We're OK. Somehow we managed to level it out.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "021a", 
+            "line": "'!!'"
+        }, 
+        "right": {
+            "id": "021a", 
+            "line": "'!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "021b", 
+            "line": "'......!!'"
+        }, 
+        "right": {
+            "id": "021b", 
+            "line": "'...!!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "021c", 
+            "line": "'What a relief......'"
+        }, 
+        "right": {
+            "id": "021c", 
+            "line": "'What a relief...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "021d", 
+            "line": "'What on earth happened?'"
+        }, 
+        "right": {
+            "id": "021d", 
+            "line": "'What on earth happened?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "021e", 
+            "line": "'We don't know. Amane said that we might've been\\ncaught in a strong downward draft.'"
+        }, 
+        "right": {
+            "id": "021e", 
+            "line": "'We don't know. Amane said that we might've been\\ncaught in a strong downward draft.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "021f", 
+            "line": "'A little more and we would be upside-down in the\\nlake.'"
+        }, 
+        "right": {
+            "id": "021f", 
+            "line": "'A little more and we would be upside-down in the\\nlake.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0220", 
+            "line": "'......!!?'"
+        }, 
+        "right": {
+            "id": "0220", 
+            "line": "'...!!?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0221", 
+            "line": "'H...hey, Kotori's heart's gonna stop, you know!'"
+        }, 
+        "right": {
+            "id": "0221", 
+            "line": "'H...hey, Kotori's heart's gonna stop, you know!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0222", 
+            "line": "'S...sorry. But we're alright now.'"
+        }, 
+        "right": {
+            "id": "0222", 
+            "line": "'S...sorry. But we're alright now.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0223", 
+            "line": "'Phew......'"
+        }, 
+        "right": {
+            "id": "0223", 
+            "line": "'Phew...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0224", 
+            "line": "'What was that? What happened?'"
+        }, 
+        "right": {
+            "id": "0224", 
+            "line": "'What was that? What happened?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0225", 
+            "line": "'I don't know. It could've been a malfunction...... or\\nthey were caught in a strong downward draft.'"
+        }, 
+        "right": {
+            "id": "0225", 
+            "line": "'I don't know. It could've been a malfunction...\\nor they were caught in a strong downward draft.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0226", 
+            "line": "'But......'"
+        }, 
+        "right": {
+            "id": "0226", 
+            "line": "'But...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0227", 
+            "line": "'Yes, somehow they managed to level it out before\\nthey fell.'"
+        }, 
+        "right": {
+            "id": "0227", 
+            "line": "'Yes, somehow they managed to level it out before\\nthey fell.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0228", 
+            "line": "'Whew......'"
+        }, 
+        "right": {
+            "id": "0228", 
+            "line": "'Whew...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0229", 
+            "line": "'That was really close. If they were any later,\\nthey would've died.'"
+        }, 
+        "right": {
+            "id": "0229", 
+            "line": "'That was really close. If they were any later,\\nthey would've died.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "022a", 
+            "line": "'!?'"
+        }, 
+        "right": {
+            "id": "022a", 
+            "line": "'!?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "022b", 
+            "line": "'I guess...... It's dangerous for people to fly\\nthrough the air.'"
+        }, 
+        "right": {
+            "id": "022b", 
+            "line": "'I guess... It's dangerous for people to fly\\nthrough the air.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "022c", 
+            "line": "'Yes.'"
+        }, 
+        "right": {
+            "id": "022c", 
+            "line": "'Yes.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "022d", 
+            "line": "'For humans, who don't have wings, to aim for the\\nsky, they need to be brave. It's dangerous too.\\nBut even so, people, who can't fly......'"
+        }, 
+        "right": {
+            "id": "022d", 
+            "line": "'For humans, who don't have wings, to aim for the\\nsky, they need to be brave. It's dangerous too.\\nBut even so, people, who can't fly...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "022e", 
+            "line": "'......Sis?'"
+        }, 
+        "right": {
+            "id": "022e", 
+            "line": "'...Sis?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "022f", 
+            "line": "'......The Morning Glory!'"
+        }, 
+        "right": {
+            "id": "022f", 
+            "line": "'...The Morning Glory!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0230", 
+            "line": "I quickly looked above."
+        }, 
+        "right": {
+            "id": "0230", 
+            "line": "I quickly looked above."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0231", 
+            "line": "The place where we were just now, is much further\\naway."
+        }, 
+        "right": {
+            "id": "0231", 
+            "line": "The place where we were just now, is much further\\naway."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0232", 
+            "line": "It's dazzling to think that we were so high up."
+        }, 
+        "right": {
+            "id": "0232", 
+            "line": "It's dazzling to think that we were so high up."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0233", 
+            "line": "'Let's go up one more time!'"
+        }, 
+        "right": {
+            "id": "0233", 
+            "line": "'Let's go up one more time!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0234", 
+            "line": "'It's no good, Aoi. We won't make it in time.'"
+        }, 
+        "right": {
+            "id": "0234", 
+            "line": "'It's no good, Aoi. We won't make it in time.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0235", 
+            "line": "'Really? We won't know unless we try!'"
+        }, 
+        "right": {
+            "id": "0235", 
+            "line": "'Really? We won't know unless we try!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0236", 
+            "line": "As I shouted, I looked to the sky."
+        }, 
+        "right": {
+            "id": "0236", 
+            "line": "As I shouted, I looked to the sky."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0237", 
+            "line": "At some point, the dawn sky had disappeared,\\nand the sky was now filled with a clear, blue color."
+        }, 
+        "right": {
+            "id": "0237", 
+            "line": "At some point, the dawn sky had disappeared, and\\nthe sky was now filled with a clear, blue color."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0238", 
+            "line": "Exposed to the sunlight, the passage of cloud was\\nnothing like it was at the beginning,\\nand was thinning out, and gradually disappearing."
+        }, 
+        "right": {
+            "id": "0238", 
+            "line": "Exposed to the sunlight, the passage of cloud was\\nnothing like it was at the beginning, and was\\nthinning out, and gradually disappearing."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0239", 
+            "line": "I turn the glider towards Windmill Hill."
+        }, 
+        "right": {
+            "id": "0239", 
+            "line": "I turn the glider towards Windmill Hill."
+        }
+    }, 
+    {
+        "left": {
+            "id": "023a", 
+            "line": "If we have the powerful thermal from before,\\nwe might be able to make it."
+        }, 
+        "right": {
+            "id": "023a", 
+            "line": "If we have the powerful thermal from before, we\\nmight be able to make it."
+        }
+    }, 
+    {
+        "left": {
+            "id": "023b", 
+            "line": "I will take Amane there!"
+        }, 
+        "right": {
+            "id": "023b", 
+            "line": "I will take Amane there!"
+        }
+    }, 
+    {
+        "left": {
+            "id": "023c", 
+            "line": "'That's enough for now.'"
+        }, 
+        "right": {
+            "id": "023c", 
+            "line": "'That's enough for now.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "023d", 
+            "line": "'But......!'"
+        }, 
+        "right": {
+            "id": "023d", 
+            "line": "'But...!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "023e", 
+            "line": "'We weren't able to go to that place but I was able\\nto see...... even if just for a short time,\\nthe sight that Isuka wanted to show me.'"
+        }, 
+        "right": {
+            "id": "023e", 
+            "line": "'We weren't able to go to that place but I was\\nable to see... even if just for a short time, the\\nsight that Isuka wanted to show me.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "023f", 
+            "line": "'That is enough.'"
+        }, 
+        "right": {
+            "id": "023f", 
+            "line": "'That is enough.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0240", 
+            "line": "'Amane......'"
+        }, 
+        "right": {
+            "id": "0240", 
+            "line": "'Amane...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0241", 
+            "line": "Amane looked through the canopy at the clouds \\nabove."
+        }, 
+        "right": {
+            "id": "0241", 
+            "line": "Amane looked through the canopy at the clouds\\nabove."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0242", 
+            "line": "'......This is goodbye.'"
+        }, 
+        "right": {
+            "id": "0242", 
+            "line": "'...This is goodbye.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0243", 
+            "line": "Amane's whisper, along with the passage of cloud,\\nfaded away into the sky."
+        }, 
+        "right": {
+            "id": "0243", 
+            "line": "Amane's whisper, along with the passage of cloud,\\nfaded away into the sky."
+        }
+    }
+]

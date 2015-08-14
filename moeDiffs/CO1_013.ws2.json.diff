@@ -1,0 +1,502 @@
+[
+    {
+        "left": {
+            "id": "0000", 
+            "line": "'Just because it's summer, so you mustn't go to\\nsleep with your stomach exposed, you'll catch a\\ncold.'"
+        }, 
+        "right": {
+            "id": "0000", 
+            "line": "'You mustn't go to sleep with your stomach\\nexposed just because it's summer, you'll catch a\\ncold.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0001", 
+            "line": "'Make sure you brush your teeth and send me a text\\nonce a day...... no, three times a day.'"
+        }, 
+        "right": {
+            "id": "0001", 
+            "line": "'Make sure you brush your teeth, and send me a\\ntext once... No, three times a day.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0002", 
+            "line": "'I've got it, I've got it, OK?'"
+        }, 
+        "right": {
+            "id": "0002", 
+            "line": "'I've got it, I've got it, okay?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0003", 
+            "line": "'Aoi.'"
+        }, 
+        "right": {
+            "id": "0003", 
+            "line": "'Aoi.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0004", 
+            "line": "'Yes?'"
+        }, 
+        "right": {
+            "id": "0004", 
+            "line": "'Yes?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0005", 
+            "line": "'Please, take good care of Kotori.'"
+        }, 
+        "right": {
+            "id": "0005", 
+            "line": "'Please, take good care of Kotori.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0006", 
+            "line": "'Sure, leave it to me.'"
+        }, 
+        "right": {
+            "id": "0006", 
+            "line": "'Sure, leave it to me.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0007", 
+            "line": "I thought I sounded a little arrogant,\\nbut I answered as the dorm mother and as Kotori's\\nfriend."
+        }, 
+        "right": {
+            "id": "0007", 
+            "line": "I thought I sounded a little arrogant, but I\\nanswered as the dorm mother and as Kotori's\\nfriend."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0008", 
+            "line": "'See you, Kotori. If anything happens,\\ncall me straight away.'"
+        }, 
+        "right": {
+            "id": "0008", 
+            "line": "'See you, Kotori. If anything happens, call me\\nright away.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0009", 
+            "line": "Worried about her sister until the end,\\nHibari got in the car and left."
+        }, 
+        "right": {
+            "id": "0009", 
+            "line": "Worried about her sister until the end, Hibari\\ngot in the car and left."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000a", 
+            "line": "Today is Monday, the start of the week.\\nIt looks like she's going straight to work."
+        }, 
+        "right": {
+            "id": "000a", 
+            "line": "Today is Monday, the start of the week. It looks\\nlike she's going straight to work."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000b", 
+            "line": "She came here in her own car and apparently her\\nworkplace and her house are about an hour away."
+        }, 
+        "right": {
+            "id": "000b", 
+            "line": "She came here in her own car and apparently her\\nworkplace and her house are about an hour away."
+        }
+    }, 
+    {
+        "left": {
+            "id": "000c", 
+            "line": "'......Hibari stayed for two nights, so I'm worn out.'"
+        }, 
+        "right": {
+            "id": "000c", 
+            "line": "'...Hibari stayed for two nights, so I'm\\nworn-out.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000d", 
+            "line": "'She's a good sister, isn't she?'"
+        }, 
+        "right": {
+            "id": "000d", 
+            "line": "'She's a good sister, isn't she?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000e", 
+            "line": "'Yes, I realize that. I just want her to know when\\nto leave me by myself.'"
+        }, 
+        "right": {
+            "id": "000e", 
+            "line": "'Yes, I realize that. I just want her to know\\nwhen to leave me by myself.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "000f", 
+            "line": "Would Kotori be able to leave her sister alone?"
+        }, 
+        "right": {
+            "id": "000f", 
+            "line": "Would Kotori be able to leave her sister alone?"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0010", 
+            "line": "'OK then, shall we go to school now?'"
+        }, 
+        "right": {
+            "id": "0010", 
+            "line": "'Okay then, shall we go to school now?'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0011", 
+            "line": "'Therefore...... That is to say, this situation......'"
+        }, 
+        "right": {
+            "id": "0011", 
+            "line": "'Therefore... That is to say, this situation...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0012", 
+            "line": "In the sixth lesson of the day, I felt restless."
+        }, 
+        "right": {
+            "id": "0012", 
+            "line": "In the sixth class of the day, I felt restless."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0013", 
+            "line": "When this finishes, school is done for the day."
+        }, 
+        "right": {
+            "id": "0013", 
+            "line": "When this finishes, school is done for the day."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0014", 
+            "line": "In other words, it's time for club activities."
+        }, 
+        "right": {
+            "id": "0014", 
+            "line": "In other words, it's time for club activities."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0015", 
+            "line": "Yesterday was Sunday, and the clubs take a day off."
+        }, 
+        "right": {
+            "id": "0015", 
+            "line": "Yesterday was Sunday, so clubs take the day off."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0016", 
+            "line": "I was told that my pilot training would start today,\\nso I couldn't stop myself from feeling like I was\\nitching to go. "
+        }, 
+        "right": {
+            "id": "0016", 
+            "line": "I was told that my pilot training would start\\ntoday, so I couldn't stop myself from feeling\\nlike I was itching to go."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0017", 
+            "line": "'This is covered in the end of term test,\\nso make good notes.'"
+        }, 
+        "right": {
+            "id": "0017", 
+            "line": "'This is covered in the end of term test, so take\\ngood notes.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0018", 
+            "line": "The teacher's laid-back way of speaking actually\\nmakes me feel even more annoyed."
+        }, 
+        "right": {
+            "id": "0018", 
+            "line": "The teacher's laidback way of speaking actually\\nmakes me feel even more annoyed."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0019", 
+            "line": "While I stare at the clock on the wall at the back\\nof the classroom, I wait for time to pass."
+        }, 
+        "right": {
+            "id": "0019", 
+            "line": "While I stare at the clock on the wall at the\\nback of the classroom, I wait for time to pass."
+        }
+    }, 
+    {
+        "left": {
+            "id": "001a", 
+            "line": "It rang! The bell rang!"
+        }, 
+        "right": {
+            "id": "001a", 
+            "line": "It rang! The bell rang!"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001b", 
+            "line": "'OK, that's all for today. The things we studied\\ntoday will be in the end of term test,\\nso make sure to review it later.'"
+        }, 
+        "right": {
+            "id": "001b", 
+            "line": "'Okay, that's all for today. The things we\\nstudied today will be on the end of term test, so\\nmake sure to review it later.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001c", 
+            "line": "The teacher repeats the contents of the lesson,\\nbefore the class chairperson give the order to\\n'Stand', then 'Bow!'"
+        }, 
+        "right": {
+            "id": "001c", 
+            "line": "The teacher repeats the contents of the lesson,\\nthen the class chairperson gives the order to\\n'Stand!', then 'Bow!"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001d", 
+            "line": "'See you, teach'!'"
+        }, 
+        "right": {
+            "id": "001d", 
+            "line": "'See you, teach!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001e", 
+            "line": "'Yeah. Don't run in the hallway.'"
+        }, 
+        "right": {
+            "id": "001e", 
+            "line": "'Yeah. Don't run in the hallway.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "001f", 
+            "line": "As I go into the hallway, Kotori, whose seat is near\\nthe doorway, is already outside, on standby."
+        }, 
+        "right": {
+            "id": "001f", 
+            "line": "As I go into the hallway, Kotori, whose seat is\\nnear the doorway, is already outside waiting."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0020", 
+            "line": "'You took your time.'"
+        }, 
+        "right": {
+            "id": "0020", 
+            "line": "'You took your time.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0021", 
+            "line": "'I can't do much about that, my seat's next to the\\nwindow.'"
+        }, 
+        "right": {
+            "id": "0021", 
+            "line": "'I can't do much about that, my seat's next to\\nthe window.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0022", 
+            "line": "'OK, let's go.'"
+        }, 
+        "right": {
+            "id": "0022", 
+            "line": "'Okay, let's go.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0023", 
+            "line": "'Ah, hold on. Ageha's not here yet.'"
+        }, 
+        "right": {
+            "id": "0023", 
+            "line": "'Ah, hold on. Ageha's not here yet.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0024", 
+            "line": "We looked into the classroom, where Ageha was\\nsurrounded by several girls, talking to them about\\nsomething."
+        }, 
+        "right": {
+            "id": "0024", 
+            "line": "We looked into the classroom, where Ageha was\\nsurrounded by several girls, talking to them\\nabout something."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0025", 
+            "line": "'That's why this is......'"
+        }, 
+        "right": {
+            "id": "0025", 
+            "line": "'That's why this is...'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0026", 
+            "line": "It looks like there was something in the lesson just\\nnow that they didn't understand, and they were\\nasking her about it."
+        }, 
+        "right": {
+            "id": "0026", 
+            "line": "It looks like there was something in the lesson\\njust now that they didn't understand, and they\\nwere asking her about it."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0027", 
+            "line": "They make a big deal about grades at this school."
+        }, 
+        "right": {
+            "id": "0027", 
+            "line": "They make a big deal about grades at this school."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0028", 
+            "line": "If you fail any subjects, it's possible that you\\nhave to repeat the year."
+        }, 
+        "right": {
+            "id": "0028", 
+            "line": "If you fail any subjects, it's possible that you\\nhave to repeat the year."
+        }
+    }, 
+    {
+        "left": {
+            "id": "0029", 
+            "line": "It's not like Ageha's grades are anything special\\nbut for certain specialized subjects,\\nshe is usually near the top of the rankings."
+        }, 
+        "right": {
+            "id": "0029", 
+            "line": "It's not like Ageha's grades are anything\\nspecial. But, in certain subjects, she's usually\\nnear the top of the rankings."
+        }
+    }, 
+    {
+        "left": {
+            "id": "002a", 
+            "line": "That's why, just before the end of term exams,\\nher friends go to her for help."
+        }, 
+        "right": {
+            "id": "002a", 
+            "line": "That's why, just before the end of term exams,\\nher friends go to her for help."
+        }
+    }, 
+    {
+        "left": {
+            "id": "002b", 
+            "line": "'Hey, Ageha!'"
+        }, 
+        "right": {
+            "id": "002b", 
+            "line": "'Hey, Ageha!'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002c", 
+            "line": "'Oh, Aoi. Hang on, I'll soon be finished.'"
+        }, 
+        "right": {
+            "id": "002c", 
+            "line": "'Oh, Aoi. Hang on, I'll be finished soon.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002d", 
+            "line": "Ageha waves through a gap in the wall of girls\\nsurrounding her."
+        }, 
+        "right": {
+            "id": "002d", 
+            "line": "Ageha waves through a gap in the wall of girls\\nsurrounding her."
+        }
+    }, 
+    {
+        "left": {
+            "id": "002e", 
+            "line": "'Hey, Aoi.'"
+        }, 
+        "right": {
+            "id": "002e", 
+            "line": "'Hey, Aoi.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "002f", 
+            "line": "'She said it would take just a little longer.'"
+        }, 
+        "right": {
+            "id": "002f", 
+            "line": "'She said it would take just a little longer.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0030", 
+            "line": "'Oh. Well then, let's go on ahead.'"
+        }, 
+        "right": {
+            "id": "0030", 
+            "line": "'Oh. Well then, let's go on ahead.'"
+        }
+    }, 
+    {
+        "left": {
+            "id": "0031", 
+            "line": "'But she asked us to wait for her.'"
+        }, 
+        "right": {
+            "id": "0031", 
+            "line": "'But she asked us to wait for her.'"
+        }
+    }
+]
