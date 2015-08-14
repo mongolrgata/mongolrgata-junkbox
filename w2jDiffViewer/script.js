@@ -150,14 +150,27 @@ $(document).ready(function () {
             }
 
             if (list[i].left.line !== list[i].right.line) {
-                $left.find('.text').css({
-                    backgroundColor: 'black',
-                    color: 'white'
-                });
-                $right.find('.text').css({
-                    backgroundColor: 'black',
-                    color: 'white'
-                });
+                var compLeft = list[i].left.line.replace(/\\n/g, '').replace(/[^a-zA-Z]/gm, '').toLocaleLowerCase();
+                var compRight = list[i].right.line.replace(/\\n/g, '').replace(/[^a-zA-Z]/gm, '').toLocaleLowerCase();
+
+                if (compLeft !== compRight) {
+                    $left.find('.text').css({
+                        backgroundColor: 'black',
+                        color: 'white'
+                    });
+                    $right.find('.text').css({
+                        backgroundColor: 'black',
+                        color: 'white'
+                    });
+                }
+                else {
+                    $left.find('.text').css({
+                        backgroundColor: 'lightgray'
+                    });
+                    $right.find('.text').css({
+                        backgroundColor: 'lightgray'
+                    });
+                }
             }
 
             $left.find('.id-code').text(list[i].left.id);
