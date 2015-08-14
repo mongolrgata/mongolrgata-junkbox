@@ -367,6 +367,13 @@ function silentSave() {
 }
 
 $(document).ready(function () {
+    $('.big-split-button').click(function () {
+        if (confirm('Вы уверены? Это действие распидорасит все реплики и поставит переносы в автоматическоми режиме.')) {
+            splitAll();
+            silentSave();
+        }
+    });
+
     parseFileData();
 
     function loadByUrl(filename) {
@@ -970,5 +977,45 @@ function getSelectedNode() {
         var selection = window.getSelection();
         if (selection.rangeCount > 0)
             return selection.getRangeAt(0).startContainer.parentNode;
+    }
+}
+
+function splitTextatea($textarea) {
+    var textarea = $textarea[0];
+    var oldText = $textarea.val();
+    var splitted = oldText.split(' ');
+
+    if (!splitted.length) {
+        return;
+    }
+
+    $textarea.addClass('min-height');
+    $textarea.val('');
+
+    var curVal = splitted[0];
+    var lastScroll = textarea.scrollHeight;
+
+    for (var i = 1; i < splitted.length; ++i) {
+        var tmpVal = curVal + (' ' + splitted[i]);
+
+        $textarea.val(tmpVal);
+
+        if (lastScroll !== textarea.scrollHeight) {
+            tmpVal = curVal + ('\n' + splitted[i]);
+        }
+
+        curVal = tmpVal;
+        lastScroll = textarea.scrollHeight;
+    }
+
+    $textarea.val(curVal);
+    $textarea.removeClass('min-height');
+}
+
+function splitAll() {
+    var $trans = $('.trans');
+
+    for (var i = 0; i < $trans.length; ++i) {
+        splitTextatea($($trans[i]));
     }
 }

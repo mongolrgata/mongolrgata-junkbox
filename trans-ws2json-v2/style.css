@@ -258,3 +258,7 @@ label {
 .recent-filename:hover {
     background-color: #9ac1f0;
 }
+
+.big-split-button {
+    display: none;
+}
