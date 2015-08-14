@@ -45,3 +45,21 @@ html, body {
 .error {
     background-color: lightpink;
 }
+
+.mn {
+    position: absolute;
+    top: 24px;
+    left: 660px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.rp {
+    position: absolute;
+    top: 24px;
+    right: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: monospace;
+}

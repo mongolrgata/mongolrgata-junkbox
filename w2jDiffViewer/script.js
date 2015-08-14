@@ -18,7 +18,7 @@ function getDiffJSON() {
 
 function getAllBranches(callback) {
     $.get(
-        'https://api.github.com/repos/PSDGames/cool-beauty-translate/branches',
+        'https://api.github.com/repos/mongolrgata/mongolrgata-junkbox/branches',
         {},
         function (result) {
             var newResult = [];
@@ -37,7 +37,7 @@ function getAllBranches(callback) {
 
 function getAllBranchFiles(sha, callback) {
     $.get(
-        'https://api.github.com/repos/PSDGames/cool-beauty-translate/git/trees/' + sha,
+        'https://api.github.com/repos/mongolrgata/mongolrgata-junkbox/git/trees/' + sha,
         {
             recursive: 1
         },
@@ -47,7 +47,7 @@ function getAllBranchFiles(sha, callback) {
             for (var i = 0, n = result.tree.length; i < n; ++i) {
                 var item = result.tree[i];
 
-                if (item.type === 'blob') {
+                if (item.type === 'blob' && item.path.indexOf('moeDiffs/') !== -1) {
                     newResult.push({
                         'file-name': item.path
                     });
@@ -107,7 +107,7 @@ $(document).ready(function () {
 
     $('.load-raw-file').click(function () {
         loadByUrl([
-            'https://raw.githubusercontent.com/PSDGames/cool-beauty-translate',
+            'https://raw.githubusercontent.com/mongolrgata/mongolrgata-junkbox',
             $('.branches-list option:selected').text(),
             $('.branch-files-list option:selected').text()
         ].join('/'));
