@@ -149,7 +149,14 @@ function redo() {
     setData(JSON.parse(history[new_history_position]), true);
     parseFileData();
 }
+function getHistoryOn() {
+    return localStorage.getItem('history') || 'off';
+}
 function addHistoryState() {
+    if (getHistoryOn() === 'on') {
+        return;
+    }
+
     var history_position = +(localStorage.getItem('history_position_v2') || '0');
     var history = JSON.parse(localStorage.getItem('history_v2') || '[]');
     var oldData = getDataJSON();
