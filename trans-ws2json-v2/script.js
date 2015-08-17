@@ -322,13 +322,6 @@ function silentSave() {
 }
 
 $(document).ready(function () {
-    $('.big-split-button').click(function () {
-        if (confirm('Вы уверены? Это действие распидорасит все реплики и поставит переносы как бык поссал.')) {
-            splitAll();
-            silentSave();
-        }
-    });
-
     parseFileData();
 
     function loadByUrl(filename) {
@@ -935,6 +928,15 @@ function getSelectedNode() {
     }
 }
 
+//region Splitter
+$(document).ready(function () {
+    $('.big-split-button').click(function () {
+        if (confirm('Вы уверены? Это действие распидорасит все реплики и поставит переносы как бык поссал.')) {
+            splitAll();
+            silentSave();
+        }
+    });
+});
 function splitTextatea($textarea) {
     var textarea = $textarea[0];
     var oldText = $textarea.val().replace(/\n/g, ' ');
@@ -966,7 +968,6 @@ function splitTextatea($textarea) {
     $textarea.val(curVal);
     $textarea.removeClass('min-height');
 }
-
 function splitAll() {
     var $trans = $('.trans');
 
@@ -974,6 +975,7 @@ function splitAll() {
         splitTextatea($($trans[i]));
     }
 }
+//endregion
 
 //region History
 var MAX_HISTORY_DEPTH = 10;
