@@ -1,3 +1,4 @@
+//region Templates
 var $template = $(
     '<div class="line-row">                                                                      ' +
     '<table class="atbop">                                                                       ' +
@@ -54,8 +55,7 @@ var $nameTemplate = $(
     '   </td>                           ' +
     '</tr>                              '
 );
-
-var MAX_HISTORY_DEPTH = 10;
+//endregion
 
 function updateNames() {
     var $names = $('.en-line .ru-trans-name');
@@ -115,66 +115,6 @@ function getSelectionCoords(win) {
         }
     }
     return {x: x, y: y};
-}
-function setHistoryPosition(value) {
-    localStorage.setItem('history_position_v2', value);
-}
-function undo() {
-    if (getHistoryOn() === 'off') {
-        return;
-    }
-
-    var history = JSON.parse(localStorage.getItem('history_v2') || '[]');
-
-    if (history.length === 0) {
-        return;
-    }
-
-    var history_position = +(localStorage.getItem('history_position_v2') || '0');
-    var new_history_position = Math.min(history_position + 1, history.length - 1);
-
-    setHistoryPosition(new_history_position);
-
-    setData(JSON.parse(history[new_history_position]), true);
-    parseFileData();
-}
-function redo() {
-    if (getHistoryOn() === 'off') {
-        return;
-    }
-
-    var history = JSON.parse(localStorage.getItem('history_v2') || '[]');
-
-    if (history.length === 0) {
-        return;
-    }
-
-    var history_position = +(localStorage.getItem('history_position_v2') || '0');
-    var new_history_position = Math.max(history_position - 1, 0);
-
-    setHistoryPosition(new_history_position);
-
-    setData(JSON.parse(history[new_history_position]), true);
-    parseFileData();
-}
-function getHistoryOn() {
-    return localStorage.getItem('history') || 'off';
-}
-function addHistoryState() {
-    if (getHistoryOn() === 'off') {
-        return;
-    }
-
-    var history_position = +(localStorage.getItem('history_position_v2') || '0');
-    var history = JSON.parse(localStorage.getItem('history_v2') || '[]');
-    var oldData = getDataJSON();
-
-    history = history.splice(history_position);
-    history.unshift(oldData);
-    history.splice(MAX_HISTORY_DEPTH);
-
-    localStorage.setItem('history_v2', JSON.stringify(history));
-    setHistoryPosition('0');
 }
 function getData() {
     return JSON.parse(localStorage.getItem('f_data_v2') || '[]');
@@ -1034,3 +974,68 @@ function splitAll() {
         splitTextatea($($trans[i]));
     }
 }
+
+//region History
+var MAX_HISTORY_DEPTH = 10;
+
+function getHistoryOn() {
+    return localStorage.getItem('history') || 'off';
+}
+function setHistoryPosition(value) {
+    localStorage.setItem('history_position_v2', value);
+}
+function addHistoryState() {
+    if (getHistoryOn() === 'off') {
+        return;
+    }
+
+    var history_position = +(localStorage.getItem('history_position_v2') || '0');
+    var history = JSON.parse(localStorage.getItem('history_v2') || '[]');
+    var oldData = getDataJSON();
+
+    history = history.splice(history_position);
+    history.unshift(oldData);
+    history.splice(MAX_HISTORY_DEPTH);
+
+    localStorage.setItem('history_v2', JSON.stringify(history));
+    setHistoryPosition('0');
+}
+function undo() {
+    if (getHistoryOn() === 'off') {
+        return;
+    }
+
+    var history = JSON.parse(localStorage.getItem('history_v2') || '[]');
+
+    if (history.length === 0) {
+        return;
+    }
+
+    var history_position = +(localStorage.getItem('history_position_v2') || '0');
+    var new_history_position = Math.min(history_position + 1, history.length - 1);
+
+    setHistoryPosition(new_history_position);
+
+    setData(JSON.parse(history[new_history_position]), true);
+    parseFileData();
+}
+function redo() {
+    if (getHistoryOn() === 'off') {
+        return;
+    }
+
+    var history = JSON.parse(localStorage.getItem('history_v2') || '[]');
+
+    if (history.length === 0) {
+        return;
+    }
+
+    var history_position = +(localStorage.getItem('history_position_v2') || '0');
+    var new_history_position = Math.max(history_position - 1, 0);
+
+    setHistoryPosition(new_history_position);
+
+    setData(JSON.parse(history[new_history_position]), true);
+    parseFileData();
+}
+//endregion
