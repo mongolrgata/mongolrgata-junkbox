@@ -120,6 +120,10 @@ function setHistoryPosition(value) {
     localStorage.setItem('history_position_v2', value);
 }
 function undo() {
+    if (getHistoryOn() === 'on') {
+        return;
+    }
+
     var history = JSON.parse(localStorage.getItem('history_v2') || '[]');
 
     if (history.length === 0) {
@@ -135,6 +139,10 @@ function undo() {
     parseFileData();
 }
 function redo() {
+    if (getHistoryOn() === 'on') {
+        return;
+    }
+
     var history = JSON.parse(localStorage.getItem('history_v2') || '[]');
 
     if (history.length === 0) {
@@ -375,7 +383,7 @@ function silentSave() {
 
 $(document).ready(function () {
     $('.big-split-button').click(function () {
-        if (confirm('Вы уверены? Это действие распидорасит все реплики и поставит переносы в автоматическоми режиме.')) {
+        if (confirm('Вы уверены? Это действие распидорасит все реплики и поставит переносы как бык поссал.')) {
             splitAll();
             silentSave();
         }
