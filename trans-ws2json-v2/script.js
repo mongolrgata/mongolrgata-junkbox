@@ -120,7 +120,7 @@ function setHistoryPosition(value) {
     localStorage.setItem('history_position_v2', value);
 }
 function undo() {
-    if (getHistoryOn() === 'on') {
+    if (getHistoryOn() === 'off') {
         return;
     }
 
@@ -139,7 +139,7 @@ function undo() {
     parseFileData();
 }
 function redo() {
-    if (getHistoryOn() === 'on') {
+    if (getHistoryOn() === 'off') {
         return;
     }
 
@@ -161,7 +161,7 @@ function getHistoryOn() {
     return localStorage.getItem('history') || 'off';
 }
 function addHistoryState() {
-    if (getHistoryOn() === 'on') {
+    if (getHistoryOn() === 'off') {
         return;
     }
 
