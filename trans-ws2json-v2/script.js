@@ -201,10 +201,14 @@ function parseFileData() {
             }
         }
 
-        function changeState() {
+        function changeState(event, flag) {
             var $radio = $(this);
             var $row = $radio.closest('.line-row');
             var oldData = $row.data('linkedObj');
+
+            if (!flag) {
+                oldData.state = +$radio.val();
+            }
 
             if (getAutoStateMode() === 'enable') {
                 oldData.state = +$radio.val();
@@ -250,7 +254,7 @@ function parseFileData() {
             if (getAutoStateMode() === 'enable') {
                 this.prop('checked', true);
             }
-            changeState.call(this);
+            changeState.call(this, undefined, true);
         }).bind($init));
         $temp.find('.cont').prop('checked', st == 2).change(changeState);
         $temp.find('.best').prop('checked', st == 3).change(changeState);
