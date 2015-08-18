@@ -142,7 +142,7 @@ function setSaveMode(val) {
     localStorage.setItem('save_mode_v2', val);
 }
 function getAutoStateMode() {
-    return localStorage.getItem('autostate_mode_v2') || 'disable';
+    return localStorage.getItem('autostate_mode_v2') || 'enable';
 }
 function setAutoStateMode(val) {
     localStorage.setItem('autostate_mode_v2', val);
