@@ -141,6 +141,12 @@ function getSaveMode() {
 function setSaveMode(val) {
     localStorage.setItem('save_mode_v2', val);
 }
+function getAutoStateMode() {
+    return localStorage.getItem('autostate_mode_v2') || 'disable';
+}
+function setAutoStateMode(val) {
+    localStorage.setItem('autostate_mode_v2', val);
+}
 
 var globalColorScheme = ['white', 'black', '#fc3', '#06c'];
 
@@ -181,9 +187,11 @@ function parseFileData() {
         }
 
         function colorMe(me, noRepaintScroll) {
-            me.closest('.color-line').css({
-                backgroundColor: globalColorScheme[me.val()]
-            });
+            if (me.prop('checked')) {
+                me.closest('.color-line').css({
+                    backgroundColor: globalColorScheme[me.val()]
+                });
+            }
             if (!noRepaintScroll) {
                 colorScroll();
 
@@ -198,7 +206,9 @@ function parseFileData() {
             var $row = $radio.closest('.line-row');
             var oldData = $row.data('linkedObj');
 
-            oldData.state = +$radio.val();
+            if (getAutoStateMode() === 'enable') {
+                oldData.state = +$radio.val();
+            }
 
             $row.data('linkedObj', oldData);
 
@@ -237,7 +247,9 @@ function parseFileData() {
         $temp.find('.null').prop('checked', st == 0).change(changeState);
         var $init = $temp.find('.init').prop('checked', st == 1).change(changeState);
         $temp.find('.ru-line').find('textarea').val(ru).change((function () {
-            this.prop('checked', true);
+            if (getAutoStateMode() === 'enable') {
+                this.prop('checked', true);
+            }
             changeState.call(this);
         }).bind($init));
         $temp.find('.cont').prop('checked', st == 2).change(changeState);
@@ -356,6 +368,9 @@ $(document).ready(function () {
     });
     $('#silent-save').prop('checked', getSaveMode() === 'silent').change(function () {
         setSaveMode($(this).prop('checked') ? 'silent' : 'manual');
+    });
+    $('#autostate-mode').prop('checked', getAutoStateMode() === 'enable').change(function () {
+        setAutoStateMode($(this).prop('checked') ? 'enable' : 'disable');
     });
     $('#just-save').click(function () {
         bigSave(function doMyThing(newData) {
