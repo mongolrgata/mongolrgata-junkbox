@@ -68,7 +68,6 @@ function updateNames() {
         $(this).text(curName);
     });
 }
-
 function getSelectionCoords(win) {
     win = win || window;
     var doc = win.document;
@@ -116,6 +115,8 @@ function getSelectionCoords(win) {
     }
     return {x: x, y: y};
 }
+
+//region LocalStorage
 function getData() {
     return JSON.parse(localStorage.getItem('f_data_v2') || '[]');
 }
@@ -147,6 +148,7 @@ function getAutoStateMode() {
 function setAutoStateMode(val) {
     localStorage.setItem('autostate_mode_v2', val);
 }
+//endregion
 
 var globalColorScheme = ['white', 'black', '#fc3', '#06c'];
 
@@ -697,8 +699,112 @@ $(document).ready(function () {
             }, 500);
         }
     }
+    if (event.which === 65 && event.altKey) {
+        var $lol = $(':focus');
+        $lol.closest('.line-row').find('.null').prop('checked', true).change();
+        event.stopPropagation();
+        event.preventDefault();
+    }
+    if (event.which === 83 && event.altKey) {
+        var $lol = $(':focus');
+        $lol.closest('.line-row').find('.init').prop('checked', true).change();
+        event.stopPropagation();
+        event.preventDefault();
+    }
+    if (event.which === 68 && event.altKey) {
+        var $lol = $(':focus');
+        $lol.closest('.line-row').find('.cont').prop('checked', true).change();
+        event.stopPropagation();
+        event.preventDefault();
+    }
+    if (event.which === 70 && event.altKey) {
+        var $lol = $(':focus');
+        $lol.closest('.line-row').find('.best').prop('checked', true).change();
+        event.stopPropagation();
+        event.preventDefault();
+    }
 });
 
+function ShowSelection(element) {
+    var textComponent = element;
+    var selectedText;
+    // IE version
+    if (document.selection != undefined) {
+        textComponent.focus();
+        var sel = document.selection.createRange();
+        selectedText = sel.text;
+    }
+    // Mozilla version
+    else if (textComponent.selectionStart != undefined) {
+        var startPos = textComponent.selectionStart;
+        var endPos = textComponent.selectionEnd;
+        selectedText = textComponent.value.substring(startPos, endPos)
+    }
+    return selectedText;
+}
+
+function getInputSelection(el) {
+    var start = 0, end = 0, normalizedValue, range,
+        textInputRange, len, endRange;
+
+    if (typeof el.selectionStart == "number" && typeof el.selectionEnd == "number") {
+        start = el.selectionStart;
+        end = el.selectionEnd;
+    } else {
+        range = document.selection.createRange();
+
+        if (range && range.parentElement() == el) {
+            len = el.value.length;
+            normalizedValue = el.value.replace(/\r\n/g, "\n");
+
+            // Create a working TextRange that lives only in the input
+            textInputRange = el.createTextRange();
+            textInputRange.moveToBookmark(range.getBookmark());
+
+            // Check if the start and end of the selection are at the very end
+            // of the input, since moveStart/moveEnd doesn't return what we want
+            // in those cases
+            endRange = el.createTextRange();
+            endRange.collapse(false);
+
+            if (textInputRange.compareEndPoints("StartToEnd", endRange) > -1) {
+                start = end = len;
+            } else {
+                start = -textInputRange.moveStart("character", -len);
+                start += normalizedValue.slice(0, start).split("\n").length - 1;
+
+                if (textInputRange.compareEndPoints("EndToEnd", endRange) > -1) {
+                    end = len;
+                } else {
+                    end = -textInputRange.moveEnd("character", -len);
+                    end += normalizedValue.slice(0, end).split("\n").length - 1;
+                }
+            }
+        }
+    }
+
+    return {
+        start: start,
+        end: end
+    };
+}
+
+function replaceSelectedText(el, text) {
+    var sel = getInputSelection(el), val = el.value;
+    el.value = val.slice(0, sel.start) + text + val.slice(sel.end);
+}
+
+function getSelectedNode() {
+    if (document.selection)
+        return document.selection.createRange().parentElement();
+    else {
+        var selection = window.getSelection();
+        if (selection.rangeCount > 0)
+            return selection.getRangeAt(0).startContainer.parentNode;
+    }
+}
+
+//region RepoWorks
 function testAllBranches() {
     getAllBranches(function (result) {
         console.log(result);
@@ -761,7 +867,9 @@ function appendRecentFiles(filename) {
 
     localStorage.setItem('recent-files', JSON.stringify(oldlist));
 }
+//endregion
 
+//region DangerZone
 /**
  * Выравнивание строки по левому краю
  * @param {number} width целевая ширина строки
@@ -867,85 +975,7 @@ function unshiftData(fromKey) {
     setData(__unshiftMap(getData(), fromKey));
     parseFileData();
 }
-
-function ShowSelection(element) {
-    var textComponent = element;
-    var selectedText;
-    // IE version
-    if (document.selection != undefined) {
-        textComponent.focus();
-        var sel = document.selection.createRange();
-        selectedText = sel.text;
-    }
-    // Mozilla version
-    else if (textComponent.selectionStart != undefined) {
-        var startPos = textComponent.selectionStart;
-        var endPos = textComponent.selectionEnd;
-        selectedText = textComponent.value.substring(startPos, endPos)
-    }
-    return selectedText;
-}
-
-function getInputSelection(el) {
-    var start = 0, end = 0, normalizedValue, range,
-        textInputRange, len, endRange;
-
-    if (typeof el.selectionStart == "number" && typeof el.selectionEnd == "number") {
-        start = el.selectionStart;
-        end = el.selectionEnd;
-    } else {
-        range = document.selection.createRange();
-
-        if (range && range.parentElement() == el) {
-            len = el.value.length;
-            normalizedValue = el.value.replace(/\r\n/g, "\n");
-
-            // Create a working TextRange that lives only in the input
-            textInputRange = el.createTextRange();
-            textInputRange.moveToBookmark(range.getBookmark());
-
-            // Check if the start and end of the selection are at the very end
-            // of the input, since moveStart/moveEnd doesn't return what we want
-            // in those cases
-            endRange = el.createTextRange();
-            endRange.collapse(false);
-
-            if (textInputRange.compareEndPoints("StartToEnd", endRange) > -1) {
-                start = end = len;
-            } else {
-                start = -textInputRange.moveStart("character", -len);
-                start += normalizedValue.slice(0, start).split("\n").length - 1;
-
-                if (textInputRange.compareEndPoints("EndToEnd", endRange) > -1) {
-                    end = len;
-                } else {
-                    end = -textInputRange.moveEnd("character", -len);
-                    end += normalizedValue.slice(0, end).split("\n").length - 1;
-                }
-            }
-        }
-    }
-
-    return {
-        start: start,
-        end: end
-    };
-}
-
-function replaceSelectedText(el, text) {
-    var sel = getInputSelection(el), val = el.value;
-    el.value = val.slice(0, sel.start) + text + val.slice(sel.end);
-}
-
-function getSelectedNode() {
-    if (document.selection)
-        return document.selection.createRange().parentElement();
-    else {
-        var selection = window.getSelection();
-        if (selection.rangeCount > 0)
-            return selection.getRangeAt(0).startContainer.parentNode;
-    }
-}
+//endregion
 
 //region Splitter
 $(document).ready(function () {
