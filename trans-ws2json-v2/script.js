@@ -158,6 +158,18 @@ function parseFileData() {
 
     $linesBox.empty();
 
+    function recount() {
+        var len = Object.keys(f_data_v2).length;
+        var cntArr = [
+            Math.round($('.null:checked').length * 10000 / len) / 100 + '%',
+            Math.round($('.init:checked').length * 10000 / len) / 100 + '%',
+            Math.round($('.cont:checked').length * 10000 / len) / 100 + '%',
+            Math.round($('.best:checked').length * 10000 / len) / 100 + '%'
+        ];
+
+        $('.more-stats').text('( ' + cntArr.join(' | ') + ' )');
+    }
+
     for (var id in f_data_v2) {
         if (!f_data_v2.hasOwnProperty(id))
             continue;
@@ -174,19 +186,7 @@ function parseFileData() {
 
         var jp = '<span class="name">' + jp_name + ':</span><br>' + (data && data['jp'] && data['jp'].line && data['jp'].line.replace(/\\n/g, '<br>'));
         var en = ['<span class="name">', en_name, ' [<span class="ru-trans-name">', ru_name, '</span>]', ':</span><br>'].join('') + (data && data['en'] && data['en'].line && data['en'].line.replace(/\\n/g, '<br>'));
-        var ru = (data && data.ru && data.ru.line || '').replace(/\\n/g, '\n');
-
-        function recount() {
-            var len = Object.keys(f_data_v2).length;
-            var cntArr = [
-                Math.round($('.null:checked').length * 10000 / len) / 100 + '%',
-                Math.round($('.init:checked').length * 10000 / len) / 100 + '%',
-                Math.round($('.cont:checked').length * 10000 / len) / 100 + '%',
-                Math.round($('.best:checked').length * 10000 / len) / 100 + '%'
-            ];
-
-            $('.more-stats').text('( ' + cntArr.join(' | ') + ' )');
-        }
+        var ru = (data && data.ru && data.ru.line || '').replace(/\\n/g, '\n')
 
         function colorMe(me, noRepaintScroll) {
             if (me.prop('checked')) {
