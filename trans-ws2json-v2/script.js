@@ -339,10 +339,12 @@ function silentSave() {
     });
 }
 
+var loadByUrl;
+
 $(document).ready(function () {
     parseFileData();
 
-    function loadByUrl(filename) {
+    loadByUrl = function loadByUrl(filename) {
         $('.repo-list').hide();
 
         $.get(
@@ -804,6 +806,21 @@ function getSelectedNode() {
     }
 }
 
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
+
 //region RepoWorks
 function testAllBranches() {
     getAllBranches(function (result) {
@@ -1090,3 +1107,17 @@ function redo() {
     parseFileData();
 }
 //endregion
+
+$(document).ready(function () {
+    var branch = getUrlParameter('branch');
+    var file = getUrlParameter('file');
+
+    if (!branch || !file)
+        return;
+
+    loadByUrl([
+        'https://raw.githubusercontent.com/PSDGames/cool-beauty-translate',
+        branch,
+        file
+    ].join('/'));
+});
