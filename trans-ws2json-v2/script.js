@@ -344,8 +344,10 @@ var loadByUrl;
 $(document).ready(function () {
     parseFileData();
 
-    loadByUrl = function loadByUrl(filename) {
+    loadByUrl = function loadByUrl(filename, moreFunction) {
         $('.repo-list').hide();
+
+        moreFunction = moreFunction || dummyFoo();
 
         $.get(
             filename,
@@ -356,9 +358,11 @@ $(document).ready(function () {
                 $('.hover').hide();
                 setData(JSON.parse(result));
                 parseFileData();
+
+                moreFunction();
             }
         );
-    }
+    };
 
     $('#file-in').change(function () {
         var f_in = this.files[0];
@@ -1108,9 +1112,27 @@ function redo() {
 }
 //endregion
 
+function shake(div){
+    var interval = 100;
+    var distance = 10;
+    var times = 4;
+
+    $(div).css('position','relative');
+
+    for(var iter=0;iter<(times+1);iter++){
+        $(div).animate({
+            left:((iter%2==0 ? distance : distance*-1))
+        },interval);
+    }//for
+
+    $(div).animate({ left: 0},interval);
+
+}
+
 $(document).ready(function () {
     var branch = getUrlParameter('branch');
     var file = getUrlParameter('file');
+    var id = getUrlParameter('id');
 
     if (!branch || !file)
         return;
@@ -1119,5 +1141,11 @@ $(document).ready(function () {
         'https://raw.githubusercontent.com/PSDGames/cool-beauty-translate',
         branch,
         file
-    ].join('/'));
+    ].join('/'), function() {
+        $('body').animate({
+            scrollTop: $('.line-row:contains("' + id + '")').offset().top - 256
+        }, 500, 'swing', function() {
+            shake($('.line-row:contains("' + id + '")'));
+        });
+    });
 });
