@@ -1,9 +1,9 @@
-define('FSM', function() {
+define(['helpers'], function (helpers) {
    var FSM = function () {
       this._fsm = [[]];
 
       for (var i = 0; i <= 0xFF; ++i) {
-         this.addRule([i], /*['[', hexlify(i), ']'].join('')*/ '' + i);
+         this.addRule([i], ['[', helpers.hexlify(i), ']'].join(''));
       }
    };
 
@@ -28,6 +28,7 @@ define('FSM', function() {
    FSM.prototype.decode = function (bytes) {
       var stateFrom = 0;
       var result = '';
+      var buffer = '';
 
       for (var i = 0, n = bytes.length; i < n; ++i) {
          var byte = bytes[i];
