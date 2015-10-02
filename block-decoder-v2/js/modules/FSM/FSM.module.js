@@ -7,6 +7,10 @@ define(['helpers'], function (helpers) {
       }
    };
 
+   FSM.prototype._decodeSingle = function (byte) {
+      return this._fsm[this._fsm[0][byte]].value;
+   };
+
    FSM.prototype.addRule = function (left, right) {
       var stateFrom = 0;
 
@@ -35,14 +39,16 @@ define(['helpers'], function (helpers) {
          var stateTo = this._fsm[stateFrom][byte];
 
          if (!stateTo) {
-            result += this._fsm[stateFrom].value;
             stateFrom = this._fsm[0][byte];
+            result += buffer;
+            buffer = this._decodeSingle(byte);
          } else {
-            stateFrom = this._fsm[stateFrom][byte];
+            stateFrom = stateTo;
+            buffer = this._fsm[stateTo].value || buffer + this._decodeSingle(byte);
          }
       }
 
-      return result;
+      return result + buffer;
    };
 
    return FSM;
