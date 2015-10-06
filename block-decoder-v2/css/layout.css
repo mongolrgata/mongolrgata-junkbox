@@ -17,6 +17,7 @@
 
 .template-with-header > div:last-child {
     flex-grow: 1;
+    overflow: auto;
 }
 
 .template-two-columns {
@@ -25,8 +26,5 @@
 
 .template-two-columns > div {
     width: 50%;
-}
-
-.scroll {
-    overflow-y: scroll;
+    overflow: auto;
 }
