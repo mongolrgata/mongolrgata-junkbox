@@ -3,19 +3,24 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script data-main="js/main.js" src="js/lib/require.js"></script>
 </head>
 <body>
 <div class="full-size template-with-header">
-    <div id="menu">
+    <div id="main-menu">
         <input type="file" id="file-in">
     </div>
     <div class="template-two-columns">
-        <div></div>
+        <div id="text" class="scroll"></div>
         <div class="template-with-header">
-            <div></div>
-            <div></div>
+            <div id="rule-menu">
+                <input type="text" id="left">
+                <input type="text" id="right">
+                <button id="add-rule">Добавить</button>
+            </div>
+            <div class="scroll"></div>
         </div>
     </div>
 </div>

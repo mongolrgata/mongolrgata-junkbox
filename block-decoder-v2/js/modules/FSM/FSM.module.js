@@ -1,55 +1,68 @@
 define(['helpers'], function (helpers) {
-   var FSM = function () {
-      this._fsm = [[]];
+    var FSM = function (rules) {
+        this.reset(rules || {});
+    };
 
-      for (var i = 0; i <= 0xFF; ++i) {
-         this.addRule([i], ['[', helpers.hexlify(i), ']'].join(''));
-      }
-   };
+    FSM.prototype._decodeSingle = function (byte) {
+        return this._fsm[this._fsm[0][byte]].value;
+    };
 
-   FSM.prototype._decodeSingle = function (byte) {
-      return this._fsm[this._fsm[0][byte]].value;
-   };
+    FSM.prototype.reset = function (rules) {
+        this._fsm = [[]];
+        this._rules = {};
 
-   FSM.prototype.addRule = function (left, right) {
-      var stateFrom = 0;
+        for (var i = 0; i <= 0xFF; ++i) {
+            var hexI = ['[', helpers.hexlify(i), ']'].join('');
+            this.addRule(hexI, hexI);
+        }
 
-      for (var i = 0, n = left.length; i < n; ++i) {
-         var byte = left[i];
-         var stateTo = this._fsm[stateFrom][byte];
+        for (var left in rules) {
+            if (rules.hasOwnProperty(left)) {
+                this.addRule(left, rules.left);
+            }
+        }
+    };
 
-         if (!stateTo) {
-            stateTo = this._fsm.push([]) - 1;
-            this._fsm[stateFrom][byte] = stateTo;
-         }
+    FSM.prototype.addRule = function (left, right) {
+        var stateFrom = 0;
 
-         stateFrom = stateTo;
-      }
+        for (var i = 0, n = helpers.split(left).length; i < n; ++i) {
+            var byte = left[i];
+            var stateTo = this._fsm[stateFrom][byte];
 
-      this._fsm[stateFrom].value = right;
-   };
+            if (!stateTo) {
+                stateTo = this._fsm.push([]) - 1;
+                this._fsm[stateFrom][byte] = stateTo;
+            }
 
-   FSM.prototype.decode = function (bytes) {
-      var stateFrom = 0;
-      var result = '';
-      var buffer = '';
-
-      for (var i = 0, n = bytes.length; i < n; ++i) {
-         var byte = bytes[i];
-         var stateTo = this._fsm[stateFrom][byte];
-
-         if (!stateTo) {
-            stateFrom = this._fsm[0][byte];
-            result += buffer;
-            buffer = this._decodeSingle(byte);
-         } else {
             stateFrom = stateTo;
-            buffer = this._fsm[stateTo].value || buffer + this._decodeSingle(byte);
-         }
-      }
+        }
 
-      return result + buffer;
-   };
+        this._fsm[stateFrom].value = right;
+        this._rules[left] = right;
+    };
 
-   return FSM;
+    FSM.prototype.decode = function (bytes) {
+        var stateFrom = 0;
+        var result = '';
+        var buffer = '';
+
+        for (var i = 0, n = bytes.length; i < n; ++i) {
+            var byte = bytes[i];
+            var stateTo = this._fsm[stateFrom][byte];
+
+            if (!stateTo) {
+                stateFrom = this._fsm[0][byte];
+                result += buffer;
+                buffer = this._decodeSingle(byte);
+            } else {
+                stateFrom = stateTo;
+                buffer = this._fsm[stateTo].value || buffer + this._decodeSingle(byte);
+            }
+        }
+
+        return result + buffer;
+    };
+
+    return FSM;
 });
