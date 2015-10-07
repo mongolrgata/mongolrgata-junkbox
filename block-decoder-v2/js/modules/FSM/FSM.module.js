@@ -52,6 +52,26 @@ define(['helpers'], function (helpers) {
     };
 
     /**
+     * @returns {{}}
+     */
+    FSM.prototype.getRules = function () {
+        return this._rules;
+    };
+
+    /**
+     * @param {{}} rules
+     */
+    FSM.prototype.setRules = function (rules) {
+        this.reset();
+
+        for (var left in rules) {
+            if (rules.hasOwnProperty(left)) {
+                this.addRule(left, rules[left]);
+            }
+        }
+    };
+
+    /**
      * Добавить правило
      * @param {string} left формат: '[XX][XX]..[XX]'
      * @param {string} right
@@ -69,13 +89,7 @@ define(['helpers'], function (helpers) {
         var rules = this._rules;
         delete rules[left];
 
-        this.reset();
-
-        for (left in rules) {
-            if (rules.hasOwnProperty(left)) {
-                this.addRule(left, rules[left]);
-            }
-        }
+        this.setRules(rules);
     };
 
     /**

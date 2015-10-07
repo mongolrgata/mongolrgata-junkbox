@@ -36,6 +36,18 @@ define(function () {
         {}
     );
 
+    defineStealthProperties(Number.prototype,
+        /** @lends Number.prototype */
+        {
+            rotr8: function rotr8(shift_size) {
+                return (this >> shift_size) | (this << (8 - shift_size) & 0xff)
+            },
+            rotl8: function rotl8(shift_size) {
+                return (this << shift_size) & 0xff | (this >> (8 - shift_size));
+            }
+        }
+    );
+
     defineStealthProperties(Array.prototype,
         /** @lends Array.prototype */
         {}

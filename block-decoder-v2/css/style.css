@@ -10,6 +10,7 @@
     background-color: lightgray;
 }
 
-#text {
+#text, #rules {
+    white-space: pre-wrap;
     font-family: monospace;
 }
