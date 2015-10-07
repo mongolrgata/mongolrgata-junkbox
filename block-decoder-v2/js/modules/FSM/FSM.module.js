@@ -30,6 +30,11 @@ define(['helpers'], function (helpers) {
         this._fsm[stateFrom].value = string;
     };
 
+    /**
+     * @param {number} byte
+     * @returns {string}
+     * @private
+     */
     FSM.prototype._decodeSingle = function (byte) {
         return this._fsm[this._fsm[0][byte]].value;
     };
@@ -73,6 +78,11 @@ define(['helpers'], function (helpers) {
         }
     };
 
+    /**
+     * Применить правила
+     * @param {Array} bytes
+     * @returns {string}
+     */
     FSM.prototype.decode = function (bytes) {
         var stateFrom = 0;
         var result = '';
