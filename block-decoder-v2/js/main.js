@@ -1,12 +1,13 @@
 require.config({
     paths: {
         jquery: 'lib/jquery-2.1.4.min',
+        doT: 'lib/doT.min',
         FSM: 'modules/FSM/FSM.module',
         Storage: 'modules/Storage/Storage.module'
     }
 });
 
-require(['jquery', 'FSM', 'Storage'], function ($, FSM, Storage) {
+require(['jquery', 'doT', 'FSM', 'Storage'], function ($, doT, FSM, Storage) {
     var bytesKey = '6f258d60-b1c6-4bc1-9acb-40d4f06598c9';
     var rulesKey = 'fca0e74c-6483-43bb-86b0-746a30650b67';
 
