@@ -1,33 +1,22 @@
 define(['helpers'], function (helpers) {
-    var FSM = function (rules) {
-        this.reset(rules || {});
+    /**
+     * FSM-объект
+     * @constructor
+     */
+    var FSM = function () {
+        this.reset();
     };
 
-    FSM.prototype._decodeSingle = function (byte) {
-        return this._fsm[this._fsm[0][byte]].value;
-    };
-
-    FSM.prototype.reset = function (rules) {
-        this._fsm = [[]];
-        this._rules = {};
-
-        for (var i = 0; i <= 0xFF; ++i) {
-            var hexI = ['[', helpers.hexlify(i), ']'].join('');
-            this.addRule(hexI, hexI);
-        }
-
-        for (var left in rules) {
-            if (rules.hasOwnProperty(left)) {
-                this.addRule(left, rules.left);
-            }
-        }
-    };
-
-    FSM.prototype.addRule = function (left, right) {
+    /**
+     * @param {Array} bytes
+     * @param {string} string
+     * @private
+     */
+    FSM.prototype._addRule = function (bytes, string) {
         var stateFrom = 0;
 
-        for (var i = 0, n = helpers.split(left).length; i < n; ++i) {
-            var byte = left[i];
+        for (var i = 0, n = bytes.length; i < n; ++i) {
+            var byte = bytes[i];
             var stateTo = this._fsm[stateFrom][byte];
 
             if (!stateTo) {
@@ -38,8 +27,50 @@ define(['helpers'], function (helpers) {
             stateFrom = stateTo;
         }
 
-        this._fsm[stateFrom].value = right;
+        this._fsm[stateFrom].value = string;
+    };
+
+    FSM.prototype._decodeSingle = function (byte) {
+        return this._fsm[this._fsm[0][byte]].value;
+    };
+
+    /**
+     * Сбросить в начальное состояние
+     */
+    FSM.prototype.reset = function () {
+        this._fsm = [[]];
+        this._rules = {};
+
+        for (var i = 0; i <= 0xFF; ++i) {
+            this._addRule([i], ['[', helpers.hexlify(i), ']'].join(''));
+        }
+    };
+
+    /**
+     * Добавить правило
+     * @param {string} left формат: '[XX][XX]..[XX]'
+     * @param {string} right
+     */
+    FSM.prototype.addRule = function (left, right) {
+        this._addRule(helpers.splitBytes(left), right);
         this._rules[left] = right;
+    };
+
+    /**
+     * Удалить правило
+     * @param {string} left формат: '[XX][XX]..[XX]'
+     */
+    FSM.prototype.deleteRule = function (left) {
+        var rules = this._rules;
+        delete rules[left];
+
+        this.reset();
+
+        for (left in rules) {
+            if (rules.hasOwnProperty(left)) {
+                this.addRule(left, rules[left]);
+            }
+        }
     };
 
     FSM.prototype.decode = function (bytes) {

@@ -6,16 +6,18 @@ require.config({
     }
 });
 
-require(['jquery', 'FSM', 'Storage', 'helpers'], function ($, FSM, Storage, helpers) {
-    var key = '883dad36-7d5a-48c2-8d1e-e97308486f6d';
-    var fsm = Storage.load(key, new FSM());
+require(['jquery', 'FSM', 'Storage'], function ($, FSM, Storage) {
+    var bytesKey = '6f258d60-b1c6-4bc1-9acb-40d4f06598c9';
+    var rulesKey = 'fca0e74c-6483-43bb-86b0-746a30650b67';
+
+    var fsm = new FSM();
 
     $(document).ready(function () {
         var $left = $('#left');
         var $right = $('#right');
 
         var repaint = function repaint () {
-
+            $('#text').text(fsm.decode(Storage.load(bytesKey, [])));
         };
 
         $('#file-in')
@@ -28,9 +30,9 @@ require(['jquery', 'FSM', 'Storage', 'helpers'], function ($, FSM, Storage, help
 
                 reader.onloadend = function (e) {
                     var result = e.currentTarget.result;
-                    var view = new Uint8Array(result);
+                    Storage.save(bytesKey, Array.from(new Uint8Array(result)));
 
-                    $('#text').text(fsm.decode(view));
+                    repaint();
                 };
 
                 reader.readAsArrayBuffer(f_in);
@@ -38,7 +40,8 @@ require(['jquery', 'FSM', 'Storage', 'helpers'], function ($, FSM, Storage, help
 
         $('#add-rule')
             .click(function () {
-                fsm.addRule(helpers.split($left.val()), $right.val());
+                fsm.addRule($left.val(), $right.val());
+
                 repaint();
             });
 
