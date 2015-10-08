@@ -7,7 +7,7 @@ require.config({
     }
 });
 
-require(['jquery', 'doT', 'FSM', 'Storage'], function ($, doT, FSM, Storage) {
+require(['jquery', 'doT', 'FSM', 'Storage', 'text!../templates/rule.html'], function ($, doT, FSM, Storage, ruleT) {
     var bytesKey = '6f258d60-b1c6-4bc1-9acb-40d4f06598c9';
     var rulesKey = 'fca0e74c-6483-43bb-86b0-746a30650b67';
 
@@ -150,17 +150,20 @@ require(['jquery', 'doT', 'FSM', 'Storage'], function ($, doT, FSM, Storage) {
         var $left = $('#left');
         var $right = $('#right');
 
+        var ruleFn = doT.template(ruleT);
+
         var repaint = function repaint () {
             $text.text(fsm.decode(Storage.load(bytesKey, [])));
-
-            // TODO
-            var rules = fsm.getRules();
-
             $rules.empty();
+
+            var rules = fsm.getRules();
             for (var left in rules) {
                 if (rules.hasOwnProperty(left)) {
                     $rules.append(
-                        $('<div/>').text(left + ' ' + rules[left])
+                        ruleFn({
+                            left: left,
+                            right: rules[left]
+                        })
                     );
                 }
             }
