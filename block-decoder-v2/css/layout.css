@@ -20,11 +20,15 @@
     overflow: auto;
 }
 
-.template-two-columns {
+.template-with-menu {
     display: flex;
 }
 
-.template-two-columns > div {
-    width: 50%;
+.template-with-menu > div:first-child {
+    flex-grow: 1;
     overflow: auto;
+}
+
+.template-with-menu > div:last-child {
+    flex-shrink: 0;
 }

@@ -7,6 +7,9 @@ define(['extends'], {
             return parseInt(value.slice(1, 3), 16);
         });
     },
+    defined: function defined(value) {
+        return typeof value !== 'undefined' ? value : null;
+    },
     codeTable: function charTable() {
         var result = {};
 

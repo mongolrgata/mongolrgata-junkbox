@@ -31,6 +31,25 @@ define(['helpers'], function (helpers) {
     };
 
     /**
+     * @param {number} stateFrom
+     * @param {number} byte
+     * @returns {number|null}
+     * @private
+     */
+    FSM.prototype._stateTo = function (stateFrom, byte) {
+        return helpers.defined(this._fsm[stateFrom][byte]);
+    };
+
+    /**
+     * @param {number} state
+     * @returns {number|null}
+     * @private
+     */
+    FSM.prototype._stateValue = function (state) {
+        return helpers.defined(this._fsm[state].value);
+    };
+
+    /**
      * @param {number} byte
      * @returns {string}
      * @private
@@ -98,25 +117,37 @@ define(['helpers'], function (helpers) {
      * @returns {string}
      */
     FSM.prototype.decode = function (bytes) {
-        var stateFrom = 0;
         var result = '';
         var buffer = '';
+        var tail = '';
 
-        for (var i = 0, n = bytes.length; i < n; ++i) {
+        var stateFrom = 0;
+
+        for (var i = 0, p = 0, n = bytes.length; i < n;) {
             var byte = bytes[i];
-            var stateTo = this._fsm[stateFrom][byte];
+            var stateTo = this._stateTo(stateFrom, byte);
 
-            if (!stateTo) {
-                stateFrom = this._fsm[0][byte];
-                result += buffer;
-                buffer = this._decodeSingle(byte);
-            } else {
+            if (stateTo !== null) {
+                var value = this._stateValue(stateTo);
+
+                if (value !== null) {
+                    buffer = value;
+                    tail = '';
+                    p = i;
+                } else {
+                    tail += this._decodeSingle(byte);
+                }
+
                 stateFrom = stateTo;
-                buffer = this._fsm[stateTo].value || buffer + this._decodeSingle(byte);
+                ++i;
+            } else {
+                result += buffer;
+                stateFrom = 0;
+                i = p + 1;
             }
         }
 
-        return result + buffer;
+        return result + buffer + tail;
     };
 
     return FSM;
