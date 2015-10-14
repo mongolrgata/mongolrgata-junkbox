@@ -149,6 +149,7 @@ require(['jquery', 'doT', 'FSM', 'Storage', 'text!../templates/rule.html'], func
         var $rules = $('#rules');
         var $left = $('#left');
         var $right = $('#right');
+        var $rulesJSON = $('#rules-json');
 
         var ruleFn = doT.template(ruleT);
 
@@ -190,6 +191,19 @@ require(['jquery', 'doT', 'FSM', 'Storage', 'text!../templates/rule.html'], func
         $('#add-rule')
             .click(function () {
                 fsm.addRule($left.val(), $right.val());
+                Storage.save(rulesKey, fsm.getRules());
+
+                repaint();
+            });
+
+        $('#get-rules')
+            .click(function () {
+                $rulesJSON.val(JSON.stringify(fsm.getRules(), null, 4));
+            });
+
+        $('#set-rules')
+            .click(function () {
+                fsm.setRules(JSON.parse($rulesJSON.val()));
                 Storage.save(rulesKey, fsm.getRules());
 
                 repaint();

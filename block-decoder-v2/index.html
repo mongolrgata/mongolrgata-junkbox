@@ -16,9 +16,32 @@
         <div id="text"></div>
         <div class="template-with-header">
             <div id="rule-menu">
-                <input type="text" id="left" title="bytes">
-                <input type="text" id="right" title="string">
-                <button id="add-rule">Добавить</button>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="text" id="left" title="bytes">
+                        </td>
+                        <td>
+                            <input type="text" id="right" title="string">
+                        </td>
+                        <td>
+                            <button id="add-rule">Добавить</button>
+                        </td>
+                    </tr>
+                    <tr style="height: 0;">
+                        <td rowspan="2" colspan="2">
+                            <textarea id="rules-json"></textarea>
+                        </td>
+                        <td valign="top">
+                            <button id="get-rules">Экспорт</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+                            <button id="set-rules">Импорт</button>
+                        </td>
+                    </tr>
+                </table>
             </div>
             <div id="rules"></div>
         </div>

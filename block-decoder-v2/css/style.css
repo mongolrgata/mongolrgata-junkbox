@@ -1,4 +1,4 @@
-#main-menu, #rule-menu {
+#main-menu {
     padding: 8px;
 }
 
@@ -13,4 +13,15 @@
 #text, #rules {
     white-space: pre-wrap;
     font-family: monospace;
+}
+
+#rules-json {
+    box-sizing: border-box;
+    width: 100%;
+    height: 128px;
+    resize: vertical;
+}
+
+button {
+    width: 128px;
 }
