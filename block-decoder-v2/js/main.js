@@ -12,7 +12,7 @@ require(['jquery', 'doT', 'FSM', 'Storage', 'helpers', 'text!../templates/rule.h
     var rulesKey = 'fca0e74c-6483-43bb-86b0-746a30650b67';
 
     var fsm = new FSM();
-    fsm.setRules(Storage.load(rulesKey, helpers.defaultRules));
+    fsm.setRules(Storage.load(rulesKey, helpers.defaultRulesASCII));
 
     $(document).ready(function () {
         var $text = $('#text');
@@ -23,8 +23,10 @@ require(['jquery', 'doT', 'FSM', 'Storage', 'helpers', 'text!../templates/rule.h
 
         var ruleFn = doT.template(ruleT);
 
-        var repaint = function repaint () {
-            $text.text(fsm.decode(Storage.load(bytesKey, [])));
+        var repaint = function repaint() {
+            $text.text(fsm.decode(Storage.load(bytesKey, []).map(function (value) {
+                return value.rotr8(2);
+            })));
             $rules.empty();
 
             var rules = fsm.getRules();
@@ -81,7 +83,7 @@ require(['jquery', 'doT', 'FSM', 'Storage', 'helpers', 'text!../templates/rule.h
 
         $('#reset-rules')
             .click(function () {
-                fsm.setRules(helpers.defaultRules);
+                fsm.setRules(helpers.defaultRulesASCII);
                 Storage.save(rulesKey, fsm.getRules());
 
                 repaint();

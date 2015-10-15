@@ -20,6 +20,8 @@
     width: 100%;
     height: 128px;
     resize: vertical;
+    white-space: pre;
+    word-wrap: normal;
 }
 
 button {
