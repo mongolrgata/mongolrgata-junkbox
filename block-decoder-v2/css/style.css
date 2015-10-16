@@ -10,8 +10,13 @@
     background-color: lightgray;
 }
 
+#rules {
+    background-color: darkgray;
+}
+
 #text, #rules {
     white-space: pre-wrap;
+    word-wrap: break-word;
     font-family: monospace;
 }
 
