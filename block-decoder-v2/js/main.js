@@ -21,25 +21,32 @@ require(['jquery', 'doT', 'FSM', 'Storage', 'helpers', 'text!../templates/rule.h
         var $right = $('#right');
         var $rulesJSON = $('#rules-json');
 
-        var ruleFn = doT.template(ruleT);
-
         var repaint = function repaint() {
             $text.text(fsm.decode(Storage.load(bytesKey, []).map(function (value) {
                 return value.rotr8(2);
             })));
-            $rules.empty();
 
-            var rules = fsm.getRules();
-            for (var left in rules) {
-                if (rules.hasOwnProperty(left)) {
-                    $rules.append(
-                        ruleFn({
-                            left: left,
-                            right: rules[left]
-                        })
-                    );
-                }
-            }
+            $rules.empty().append(
+                doT.template(ruleT)(
+                    (function (rules) {
+                        var result = [];
+
+                        for (var left in rules) {
+                            if (rules.hasOwnProperty(left)) {
+                                result.push({
+                                    left: left,
+                                    right: rules[left],
+                                    enabled: true
+                                });
+                            }
+                        }
+
+                        return {
+                            rules: result
+                        };
+                    })(fsm.getRules())
+                )
+            );
         };
 
         $('#file-in')
@@ -88,6 +95,11 @@ require(['jquery', 'doT', 'FSM', 'Storage', 'helpers', 'text!../templates/rule.h
 
                 repaint();
             });
+
+        $rules.on('change', '.rule-checkbox', function () {
+            // TODO
+            console.log($(this).prop('checked'));
+        });
 
         repaint();
     });

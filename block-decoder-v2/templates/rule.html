@@ -1,1 +1,14 @@
-<div style="margin: 8px;">{{!it.left}} {{!it.right}}</div>
+<table>
+    <colgroup>
+        <col>
+        <col>
+        <col>
+    </colgroup>
+    {{~ it.rules :rule}}
+    <tr>
+        <td><input class="rule-checkbox" type="checkbox" {{? rule.enabled}}checked{{?}}></td>
+        <td>{{!rule.left}}</td>
+        <td>{{!rule.right}}</td>
+    </tr>
+    {{~}}
+</table>
