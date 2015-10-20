@@ -5,7 +5,7 @@ define(['helpers'], function (helpers) {
      */
     var State = function State() {
         this._value = null;
-        //this._isFinite = false;
+        this._isFinite = false;
         this._transitions = new Array(255);
     };
 
@@ -23,6 +23,20 @@ define(['helpers'], function (helpers) {
      */
     State.prototype.getValue = function getValue() {
         return this._value;
+    };
+
+    /**
+     * @param {boolean} isFinite
+     */
+    State.prototype.setFinite = function setFinite(isFinite) {
+        this._isFinite = isFinite;
+    };
+
+    /**
+     * @returns {boolean}
+     */
+    State.prototype.isFinite = function isFinite() {
+        return this._isFinite;
     };
 
     /**

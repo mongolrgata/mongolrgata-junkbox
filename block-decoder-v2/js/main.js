@@ -2,6 +2,7 @@ require.config({
     paths: {
         jquery: 'lib/jquery-2.1.4.min',
         doT: 'lib/doT.min',
+        Rule: 'modules/Rule/Rule.module',
         State: 'modules/State/State.module',
         FSM: 'modules/FSM/FSM.module',
         Storage: 'modules/Storage/Storage.module'
@@ -15,8 +16,6 @@ require(['jquery', 'doT', 'FSM', 'Storage', 'helpers', 'text!../templates/rule.h
     var fsm = new FSM();
     //fsm.setRules(Storage.load(rulesKey, helpers.defaultRulesASCII));
 
-    console.log(fsm);
-
     $(document).ready(function () {
         var $text = $('#text');
         var $rules = $('#rules');
@@ -29,27 +28,9 @@ require(['jquery', 'doT', 'FSM', 'Storage', 'helpers', 'text!../templates/rule.h
                 return value.rotr8(2);
             })));
 
-            //$rules.empty().append(
-            //    doT.template(ruleT)(
-            //        (function (rules) {
-            //            var result = [];
-            //
-            //            for (var left in rules) {
-            //                if (rules.hasOwnProperty(left)) {
-            //                    result.push({
-            //                        left: left,
-            //                        right: rules[left],
-            //                        enabled: true
-            //                    });
-            //                }
-            //            }
-            //
-            //            return {
-            //                rules: result
-            //            };
-            //        })(fsm.getRules())
-            //    )
-            //);
+            $rules.empty().append(doT.template(ruleT)({
+                // TODO
+            }));
         };
 
         $('#file-in')
@@ -72,7 +53,7 @@ require(['jquery', 'doT', 'FSM', 'Storage', 'helpers', 'text!../templates/rule.h
 
         //$('#add-rule')
         //    .click(function () {
-        //        fsm.addRule($left.val(), $right.val());
+        //        fsm.setRule($left.val(), $right.val());
         //        Storage.save(rulesKey, fsm.getRules());
         //
         //        repaint();

@@ -1,4 +1,4 @@
-define(['State', 'helpers'], function (State, helpers) {
+define(['Rule', 'State', 'helpers'], function (Rule, State, helpers) {
     /**
      * Создать FSM-объект
      * @constructor
@@ -20,9 +20,10 @@ define(['State', 'helpers'], function (State, helpers) {
      * Установить правило
      * @param {Array} bytes
      * @param {string} string
+     * @param {boolean} isEnabled
      * @private
      */
-    FSM.prototype._setRule = function _setRule(bytes, string) {
+    FSM.prototype._setRule = function _setRule(bytes, string, isEnabled) {
         var stateCurrent = this._getRootState();
 
         for (var i = 0, n = bytes.length; i < n; ++i) {
@@ -38,6 +39,7 @@ define(['State', 'helpers'], function (State, helpers) {
         }
 
         stateCurrent.setValue(string);
+        stateCurrent.setFinite(isEnabled);
     };
 
     /**
@@ -45,60 +47,46 @@ define(['State', 'helpers'], function (State, helpers) {
      * @returns {string}
      * @private
      */
-    FSM.prototype._decodeSingle = function (byte) {
+    FSM.prototype._decodeSingle = function _decodeSingle(byte) {
         return this._getRootState().getTransition(byte).getValue();
     };
 
     /**
      * Сбросить FSM-объект
      */
-    FSM.prototype.reset = function () {
+    FSM.prototype.reset = function reset() {
         this._fsm = new State();
+        //this._rules = {};
 
         for (var i = 0; i <= 0xFF; ++i) {
-            this._setRule([i], ['[', helpers.hexlify(i), ']'].join(''));
+            this._setRule([i], ['[', helpers.hexlify(i), ']'].join(''), true);
         }
     };
 
     ///**
-    // * @returns {{}}
+    // * @param {Rule} rule
     // */
-    //FSM.prototype.getRules = function () {
-    //    return this._rules;
+    //FSM.prototype.setRule = function setRule(rule) {
+    //    this._setRule(rule);
+    //    this._rules.push(rule);
     //};
     //
     ///**
-    //* @param {{}} rules
-    //*/
-    //FSM.prototype.setRules = function (rules) {
+    // * @param {Array} rules
+    // */
+    //FSM.prototype.setRules = function setRules(rules) {
     //    this.reset();
     //
-    //    for (var left in rules) {
-    //        if (rules.hasOwnProperty(left)) {
-    //            this.addRule(left, rules[left]);
-    //        }
+    //    for (var i = 0, n = rules.length; i < n; ++i) {
+    //        this.setRule(rules[i]);
     //    }
     //};
     //
     ///**
-    //* Добавить правило
-    //* @param {string} left формат: '[XX][XX]..[XX]'
-    //* @param {string} right
-    //*/
-    //FSM.prototype.addRule = function (left, right) {
-    //    this._setRule(helpers.splitBytes(left), right);
-    //    //this._rules[left] = right;
-    //};
-    //
-    ///**
-    // * Удалить правило
-    // * @param {string} left формат: '[XX][XX]..[XX]'
+    // * @returns {Array}
     // */
-    //FSM.prototype.deleteRule = function (left) {
-    //    var rules = this._rules;
-    //    delete rules[left];
-    //
-    //    this.setRules(rules);
+    //FSM.prototype.getRules = function () {
+    //    return this._rules;
     //};
 
     /**
@@ -106,7 +94,7 @@ define(['State', 'helpers'], function (State, helpers) {
      * @param {Array} bytes
      * @returns {string}
      */
-    FSM.prototype.decode = function (bytes) {
+    FSM.prototype.decode = function decode(bytes) {
         var result = '';
         var buffer = '';
         var tail = '';
@@ -123,8 +111,9 @@ define(['State', 'helpers'], function (State, helpers) {
                 i = p + 1;
             } else {
                 var value = stateTo.getValue();
+                var isFinite = stateTo.isFinite();
 
-                if (value === null) {
+                if (value === null || !isFinite) {
                     tail += this._decodeSingle(byte);
                 } else {
                     buffer = value;
