@@ -8,7 +8,7 @@ define(['extends'], {
         });
     },
     defined: function defined(value) {
-        return typeof value !== 'undefined' ? value : null;
+        return typeof value === 'undefined' ? null : value;
     },
     codeTable: function codeTable() {
         var result = {};

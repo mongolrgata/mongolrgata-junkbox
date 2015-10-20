@@ -2,6 +2,7 @@ require.config({
     paths: {
         jquery: 'lib/jquery-2.1.4.min',
         doT: 'lib/doT.min',
+        State: 'modules/State/State.module',
         FSM: 'modules/FSM/FSM.module',
         Storage: 'modules/Storage/Storage.module'
     }
@@ -12,7 +13,9 @@ require(['jquery', 'doT', 'FSM', 'Storage', 'helpers', 'text!../templates/rule.h
     var rulesKey = 'fca0e74c-6483-43bb-86b0-746a30650b67';
 
     var fsm = new FSM();
-    fsm.setRules(Storage.load(rulesKey, helpers.defaultRulesASCII));
+    //fsm.setRules(Storage.load(rulesKey, helpers.defaultRulesASCII));
+
+    console.log(fsm);
 
     $(document).ready(function () {
         var $text = $('#text');
@@ -26,27 +29,27 @@ require(['jquery', 'doT', 'FSM', 'Storage', 'helpers', 'text!../templates/rule.h
                 return value.rotr8(2);
             })));
 
-            $rules.empty().append(
-                doT.template(ruleT)(
-                    (function (rules) {
-                        var result = [];
-
-                        for (var left in rules) {
-                            if (rules.hasOwnProperty(left)) {
-                                result.push({
-                                    left: left,
-                                    right: rules[left],
-                                    enabled: true
-                                });
-                            }
-                        }
-
-                        return {
-                            rules: result
-                        };
-                    })(fsm.getRules())
-                )
-            );
+            //$rules.empty().append(
+            //    doT.template(ruleT)(
+            //        (function (rules) {
+            //            var result = [];
+            //
+            //            for (var left in rules) {
+            //                if (rules.hasOwnProperty(left)) {
+            //                    result.push({
+            //                        left: left,
+            //                        right: rules[left],
+            //                        enabled: true
+            //                    });
+            //                }
+            //            }
+            //
+            //            return {
+            //                rules: result
+            //            };
+            //        })(fsm.getRules())
+            //    )
+            //);
         };
 
         $('#file-in')
@@ -67,39 +70,39 @@ require(['jquery', 'doT', 'FSM', 'Storage', 'helpers', 'text!../templates/rule.h
                 reader.readAsArrayBuffer(f_in);
             });
 
-        $('#add-rule')
-            .click(function () {
-                fsm.addRule($left.val(), $right.val());
-                Storage.save(rulesKey, fsm.getRules());
-
-                repaint();
-            });
-
-        $('#get-rules')
-            .click(function () {
-                $rulesJSON.val(JSON.stringify(fsm.getRules(), null, 4));
-            });
-
-        $('#set-rules')
-            .click(function () {
-                fsm.setRules(JSON.parse($rulesJSON.val()));
-                Storage.save(rulesKey, fsm.getRules());
-
-                repaint();
-            });
-
-        $('#reset-rules')
-            .click(function () {
-                fsm.setRules(helpers.defaultRulesASCII);
-                Storage.save(rulesKey, fsm.getRules());
-
-                repaint();
-            });
-
-        $rules.on('change', '.rule-checkbox', function () {
-            // TODO
-            console.log($(this).prop('checked'));
-        });
+        //$('#add-rule')
+        //    .click(function () {
+        //        fsm.addRule($left.val(), $right.val());
+        //        Storage.save(rulesKey, fsm.getRules());
+        //
+        //        repaint();
+        //    });
+        //
+        //$('#get-rules')
+        //    .click(function () {
+        //        $rulesJSON.val(JSON.stringify(fsm.getRules(), null, 4));
+        //    });
+        //
+        //$('#set-rules')
+        //    .click(function () {
+        //        fsm.setRules(JSON.parse($rulesJSON.val()));
+        //        Storage.save(rulesKey, fsm.getRules());
+        //
+        //        repaint();
+        //    });
+        //
+        //$('#reset-rules')
+        //    .click(function () {
+        //        fsm.setRules(helpers.defaultRulesASCII);
+        //        Storage.save(rulesKey, fsm.getRules());
+        //
+        //        repaint();
+        //    });
+        //
+        //$rules.on('change', '.rule-checkbox', function () {
+        //    // TODO
+        //    console.log($(this).prop('checked'));
+        //});
 
         repaint();
     });
