@@ -1,19 +1,20 @@
 define(['helpers'], function (helpers) {
     /**
      * Создать Rule-объект
-     * @param {Array|string} left
+     * @param {string} left
      * @param {string} right
-     * @param {boolean} isEnabled
      * @constructor
      */
-    var Rule = function Rule(left, right, isEnabled) {
+    var Rule = function Rule(left, right) {
         if (typeof left === 'string') {
             left = helpers.splitBytes(left);
         }
 
         this._left = left;
         this._right = right;
-        this._isEnabled = isEnabled;
+
+        // TODO
+        this._isEnabled = true;
     };
 
     /**

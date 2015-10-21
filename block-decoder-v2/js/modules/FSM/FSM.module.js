@@ -18,12 +18,14 @@ define(['Rule', 'State', 'helpers'], function (Rule, State, helpers) {
 
     /**
      * Установить правило
-     * @param {Array} bytes
-     * @param {string} string
-     * @param {boolean} isEnabled
+     * @param {Rule} rule
      * @private
      */
-    FSM.prototype._setRule = function _setRule(bytes, string, isEnabled) {
+    FSM.prototype._setRule = function _setRule(rule) {
+        var bytes = rule.getLeft();
+        var string = rule.getRight();
+        var isEnabled = rule.isEnabled();
+
         var stateCurrent = this._getRootState();
 
         for (var i = 0, n = bytes.length; i < n; ++i) {
@@ -56,38 +58,45 @@ define(['Rule', 'State', 'helpers'], function (Rule, State, helpers) {
      */
     FSM.prototype.reset = function reset() {
         this._fsm = new State();
-        //this._rules = {};
+        this._rules = {};
 
         for (var i = 0; i <= 0xFF; ++i) {
-            this._setRule([i], ['[', helpers.hexlify(i), ']'].join(''), true);
+            var hex = ['[', helpers.hexlify(i), ']'].join('');
+            this._setRule(new Rule(hex, hex));
         }
     };
 
-    ///**
-    // * @param {Rule} rule
-    // */
-    //FSM.prototype.setRule = function setRule(rule) {
-    //    this._setRule(rule);
-    //    this._rules.push(rule);
-    //};
-    //
-    ///**
-    // * @param {Array} rules
-    // */
-    //FSM.prototype.setRules = function setRules(rules) {
-    //    this.reset();
-    //
-    //    for (var i = 0, n = rules.length; i < n; ++i) {
-    //        this.setRule(rules[i]);
-    //    }
-    //};
-    //
-    ///**
-    // * @returns {Array}
-    // */
-    //FSM.prototype.getRules = function () {
-    //    return this._rules;
-    //};
+    /**
+     * Установить правило
+     * @param {string} left
+     * @param {string} right
+     */
+    FSM.prototype.setRule = function setRule(left, right) {
+        this._setRule(new Rule(left, right));
+        this._rules[left] = right;
+    };
+
+    /**
+     * Установить словарь правил
+     * @param {Object} rules
+     */
+    FSM.prototype.setRules = function setRules(rules) {
+        this.reset();
+
+        for (var left in rules) {
+            if (rules.hasOwnProperty(left)) {
+                this.setRule(left, rules[left]);
+            }
+        }
+    };
+
+    /**
+     * Получить словарь правил
+     * @returns {Object}
+     */
+    FSM.prototype.getRules = function () {
+        return this._rules;
+    };
 
     /**
      * Применить правила
