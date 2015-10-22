@@ -2,16 +2,16 @@ define(['helpers'], function (helpers) {
     /**
      * Создать Rule-объект
      * @param {string} left
-     * @param {string} right
+     * @param {Array} right
      * @constructor
      */
     var Rule = function Rule(left, right) {
-        this._origin = left;
-        this._left = helpers.splitBytes(left);
-        this._right = right;
+        this._origin = {};
+        this._origin[left] = right;
 
-        // TODO
-        this._isEnabled = true;
+        this._left = helpers.splitBytes(left);
+        this._right = right[0];
+        this._isEnabled = right[1];
     };
 
     /**

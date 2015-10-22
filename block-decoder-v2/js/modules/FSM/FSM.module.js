@@ -1,4 +1,4 @@
-define(['Rule', 'State', 'extends'], function (Rule, State) {
+define(['Rule', 'State', 'helpers', 'extends'], function (Rule, State, helpers) {
     /**
      * Создать FSM-объект
      * @constructor
@@ -50,7 +50,8 @@ define(['Rule', 'State', 'extends'], function (Rule, State) {
      * @private
      */
     FSM.prototype._decodeSingle = function _decodeSingle(byte) {
-        return this._getRootState().getTransition(byte).getValue();
+        return ['[', byte.toHex(2), ']'].join('');
+        //return this._getRootState().getTransition(byte).getValue();
     };
 
     /**
@@ -62,14 +63,14 @@ define(['Rule', 'State', 'extends'], function (Rule, State) {
 
         for (var i = 0; i <= 0xFF; ++i) {
             var hex = ['[', i.toHex(2), ']'].join('');
-            this._setRule(new Rule(hex, hex));
+            this._setRule(new Rule(hex, [hex, true]));
         }
     };
 
     /**
      * Установить правило
      * @param {string} left
-     * @param {string} right
+     * @param {Array} right
      */
     FSM.prototype.setRule = function setRule(left, right) {
         this._setRule(new Rule(left, right));
@@ -115,7 +116,9 @@ define(['Rule', 'State', 'extends'], function (Rule, State) {
             var stateTo = stateCurrent.getTransition(byte);
 
             if (stateTo === null) {
-                result += buffer;
+                result += buffer + tail;
+                buffer = '';
+                tail = '';
                 stateTo = this._getRootState();
                 i = p + 1;
             } else {
@@ -137,6 +140,30 @@ define(['Rule', 'State', 'extends'], function (Rule, State) {
         }
 
         return result + buffer + tail;
+    };
+
+    /**
+     * @param {string} left
+     * @param {boolean} isEnabled
+     */
+    FSM.prototype.setEnabled = function setEnabled(left, isEnabled) {
+        var bytes = helpers.splitBytes(left);
+        var stateCurrent = this._getRootState();
+
+        for (var i = 0, n = bytes.length; i < n; ++i) {
+            var byte = bytes[i];
+            var stateTo = stateCurrent.getTransition(byte);
+
+            if (stateTo === null) {
+                return;
+            }
+
+            stateCurrent = stateTo;
+        }
+
+        stateCurrent.setFinite(isEnabled);
+
+        this._rules[left][1] = isEnabled;
     };
 
     return FSM;

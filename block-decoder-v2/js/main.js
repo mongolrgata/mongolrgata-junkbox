@@ -37,7 +37,7 @@ require(['jquery', 'doT', 'Rule', 'FSM', 'Storage', 'helpers', 'text!../template
                             var rule = new Rule(left, rules[left]);
 
                             result.push({
-                                left: rule.getOrigin(),
+                                left: Object.keys(rule.getOrigin())[0],
                                 right: rule.getRight(),
                                 enabled: rule.isEnabled()
                             });
@@ -71,7 +71,7 @@ require(['jquery', 'doT', 'Rule', 'FSM', 'Storage', 'helpers', 'text!../template
 
         $('#add-rule')
             .click(function () {
-                fsm.setRule($left.val(), $right.val());
+                fsm.setRule($left.val(), [$right.val(), true]);
                 Storage.save(rulesKey, fsm.getRules());
 
                 repaint();
@@ -99,8 +99,12 @@ require(['jquery', 'doT', 'Rule', 'FSM', 'Storage', 'helpers', 'text!../template
             });
 
         $rules.on('change', '.rule-checkbox', function () {
-            // TODO
-            console.log($(this).prop('checked'));
+            var $self = $(this);
+
+            fsm.setEnabled($self.closest('tr').find('.left').text(), $self.prop('checked'));
+            Storage.save(rulesKey, fsm.getRules());
+
+            repaint();
         });
 
         repaint();
