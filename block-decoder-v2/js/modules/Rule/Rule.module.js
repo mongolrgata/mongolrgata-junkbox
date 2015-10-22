@@ -6,15 +6,19 @@ define(['helpers'], function (helpers) {
      * @constructor
      */
     var Rule = function Rule(left, right) {
-        if (typeof left === 'string') {
-            left = helpers.splitBytes(left);
-        }
-
-        this._left = left;
+        this._origin = left;
+        this._left = helpers.splitBytes(left);
         this._right = right;
 
         // TODO
         this._isEnabled = true;
+    };
+
+    /**
+     * @returns {string}
+     */
+    Rule.prototype.getOrigin = function getOrigin() {
+        return this._origin;
     };
 
     /**

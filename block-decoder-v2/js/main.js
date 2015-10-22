@@ -9,7 +9,7 @@ require.config({
     }
 });
 
-require(['jquery', 'doT', 'FSM', 'Storage', 'helpers', 'text!../templates/rule.html'], function ($, doT, FSM, Storage, helpers, ruleT) {
+require(['jquery', 'doT', 'Rule', 'FSM', 'Storage', 'helpers', 'text!../templates/rule.html'], function ($, doT, Rule, FSM, Storage, helpers, ruleT) {
     var bytesKey = '6f258d60-b1c6-4bc1-9acb-40d4f06598c9';
     var rulesKey = 'fca0e74c-6483-43bb-86b0-746a30650b67';
 
@@ -29,23 +29,25 @@ require(['jquery', 'doT', 'FSM', 'Storage', 'helpers', 'text!../templates/rule.h
             })));
 
             $rules.empty().append(doT.template(ruleT)(
-                //(function (rules) {
-                //    var result = [];
-                //
-                //    for (var left in rules) {
-                //        if (rules.hasOwnProperty(left)) {
-                //            result.push({
-                //                left: left,
-                //                right: rules[left],
-                //                enabled: true
-                //            });
-                //        }
-                //    }
-                //
-                //    return {
-                //        rules: result
-                //    };
-                //})(fsm.getRules())
+                (function (rules) {
+                    var result = [];
+
+                    for (var left in rules) {
+                        if (rules.hasOwnProperty(left)) {
+                            var rule = new Rule(left, rules[left]);
+
+                            result.push({
+                                left: rule.getOrigin(),
+                                right: rule.getRight(),
+                                enabled: rule.isEnabled()
+                            });
+                        }
+                    }
+
+                    return {
+                        rules: result
+                    };
+                })(fsm.getRules())
             ));
         };
 

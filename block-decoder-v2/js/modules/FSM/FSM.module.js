@@ -1,4 +1,4 @@
-define(['Rule', 'State', 'helpers'], function (Rule, State, helpers) {
+define(['Rule', 'State', 'extends'], function (Rule, State) {
     /**
      * Создать FSM-объект
      * @constructor
@@ -61,7 +61,7 @@ define(['Rule', 'State', 'helpers'], function (Rule, State, helpers) {
         this._rules = {};
 
         for (var i = 0; i <= 0xFF; ++i) {
-            var hex = ['[', helpers.hexlify(i), ']'].join('');
+            var hex = ['[', i.toHex(2), ']'].join('');
             this._setRule(new Rule(hex, hex));
         }
     };

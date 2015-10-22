@@ -44,6 +44,9 @@ define(function () {
             },
             rotl8: function rotl8(shift_size) {
                 return (this << shift_size) & 0xff | (this >> (8 - shift_size));
+            },
+            toHex: function toHex(width) {
+                return this.toString(16).toUpperCase().rJust(width, '0');
             }
         }
     );
