@@ -137,9 +137,10 @@ $(document).ready(function () {
             var $left = $template.clone();
             var $right = $template.clone();
             var dlt = Math.min(Math.abs(parseInt(list[i].left.id, 16) - parseInt(list[i].right.id, 16)), 5);
+            var tooBig = Math.abs(parseInt(list[i].left.id, 16) - parseInt(list[i].right.id, 16)) >= 10;
 
             $left.css({
-                backgroundColor: 'rgba(255,0,0,' + ('' + dlt / 5) + ')'
+                backgroundColor: tooBig ? 'rgb(103, 54, 54)' : 'rgba(255,0,0,' + ('' + dlt / 5) + ')'
             }).find('.shift').data('index', i).click(function () {
                 var index = $(this).data('index');
                 var list = JSON.parse(getDiffJSON());
@@ -177,7 +178,7 @@ $(document).ready(function () {
                 $('.inner').click();
             });
             $right.css({
-                backgroundColor: 'rgba(255,0,0,' + ('' + dlt / 5) + ')'
+                backgroundColor: tooBig ? 'rgb(103, 54, 54)' : 'rgba(255,0,0,' + ('' + dlt / 5) + ')'
             }).find('.shift').data('index', i).click(function () {
                 var index = $(this).data('index');
                 var list = JSON.parse(getDiffJSON());
