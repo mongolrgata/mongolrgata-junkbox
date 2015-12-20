@@ -87,6 +87,8 @@ define([], function () {
         this._p1 = null;
         this._p2 = null;
         this._p3 = new Point(point2[0], point2[1]);
+        this._xMap = {};
+        this._yMap = {};
 
         this.processData(data);
         this.findParams();
@@ -95,7 +97,19 @@ define([], function () {
     };
 
     BezierSolver.prototype.processData = function (data) {
-        // TODO
+        for (var i = 0; i < data.length; ++i) {
+            var x = data[i][0];
+            var y = data[i][1];
+
+            if (this._xMap[x] === undefined) {
+                this._xMap[x] = y;
+            }
+            if (this._yMap[y] === undefined) {
+                this._yMap[y] = x;
+            }
+        }
+
+        //console.log(this._xMap, this._yMap);
     };
 
     BezierSolver.prototype._findParamsInSquares = function (_p11, _p12, _p21, _p22) {
@@ -166,8 +180,23 @@ define([], function () {
         ]
     };
 
-    BezierSolver.prototype.estimate = function () {
-        return Math.random();
+    BezierSolver.prototype.estimate = function (p1, p2) {
+        var p0 = this._p0;
+        var p3 = this._p3;
+
+        var result = 0;
+        for (var t = 0.0; t <= 1.0; t += 0.1) {
+            var resPoint = bezier(t, p0, p1, p2, p3);
+            var resX = resPoint.x;
+            var resY = resPoint.y;
+
+            var bestX = this._yMap[Math.round(resY)];
+            var bestY = this._xMap[Math.round(resX)];
+
+            result += Math.abs(resX - bestX) + Math.abs(resY - bestY);
+        }
+
+        return result;
     };
 
     BezierSolver.prototype.findParams = function () {
