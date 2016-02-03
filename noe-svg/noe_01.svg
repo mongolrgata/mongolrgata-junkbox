@@ -17,9 +17,9 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="noe_01.svg"
-   inkscape:export-filename="C:\Users\mongo_000\Desktop\noe_faces\noe_svg\circle.png"
-   inkscape:export-xdpi="7.3180122"
-   inkscape:export-ydpi="7.3180122">
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180"
+   inkscape:export-filename=".\output\noe_svg_01.png">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.03125"
-     inkscape:cx="3750.1836"
-     inkscape:cy="3164.2929"
+     inkscape:zoom="0.0625"
+     inkscape:cx="4003.0026"
+     inkscape:cy="3115.6186"
      inkscape:document-units="px"
      inkscape:current-layer="layer13"
      showgrid="false"
@@ -40,11 +40,11 @@
      units="px"
      showborder="true"
      inkscape:showpageshadow="false"
-     inkscape:window-width="951"
-     inkscape:window-height="404"
-     inkscape:window-x="280"
-     inkscape:window-y="438"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1816"
+     inkscape:window-height="1057"
+     inkscape:window-x="96"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      showguides="false" />
   <defs
      id="defs4">
@@ -80,7 +80,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="Зрачок"
      id="layer13"
      inkscape:groupmode="layer">
@@ -332,16 +332,16 @@
      inkscape:groupmode="layer"
      sodipodi:insensitive="true">
     <image
-       sodipodi:absref="D:\[TEST]\mongolrgata-junkbox\noe-svg\sources\noe_01.png"
+       sodipodi:absref="D:\mongolrgata-junkbox\noe-svg\sources\noe_01.png"
        xlink:href="sources\noe_01.png"
-       y="-3054.1711"
-       x="-4490.6113"
-       id="image4155"
-       style="opacity:1;stroke:none;image-rendering:optimizeQuality"
-       preserveAspectRatio="none"
-       height="6945"
+       transform="translate(4490.6113,3054.1711)"
        width="8889"
-       transform="translate(4490.6113,3054.1711)" />
+       height="6945"
+       preserveAspectRatio="none"
+       style="opacity:1;stroke:none;image-rendering:optimizeQuality"
+       id="image4155"
+       x="-4490.6113"
+       y="-3054.1711" />
   </g>
   <g
      sodipodi:insensitive="true"
