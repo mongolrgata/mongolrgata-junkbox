@@ -28,7 +28,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.0625"
-     inkscape:cx="4003.0026"
+     inkscape:cx="-932.9974"
      inkscape:cy="3115.6186"
      inkscape:document-units="px"
      inkscape:current-layer="layer13"
@@ -83,7 +83,8 @@
      style="display:none"
      inkscape:label="Зрачок"
      id="layer13"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <ellipse
        ry="370"
        rx="272"
@@ -334,14 +335,14 @@
     <image
        sodipodi:absref="D:\mongolrgata-junkbox\noe-svg\sources\noe_01.png"
        xlink:href="sources\noe_01.png"
-       transform="translate(4490.6113,3054.1711)"
-       width="8889"
-       height="6945"
-       preserveAspectRatio="none"
-       style="opacity:1;stroke:none;image-rendering:optimizeQuality"
-       id="image4155"
+       y="-3054.1711"
        x="-4490.6113"
-       y="-3054.1711" />
+       id="image4155"
+       style="opacity:1;stroke:none;image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="6945"
+       width="8889"
+       transform="translate(4490.6113,3054.1711)" />
   </g>
   <g
      sodipodi:insensitive="true"
