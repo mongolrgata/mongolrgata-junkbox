@@ -119,7 +119,7 @@ function updateRules() {
 }
 
 /**
- * DONE
+ * CONFLICT WAS HERE
  * @param searchValue
  * @param replaceValue
  */
