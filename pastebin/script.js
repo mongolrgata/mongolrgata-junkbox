@@ -1,9 +1,7 @@
+DataTransferItemList.prototype[Symbol.iterator] = Array.prototype[Symbol.iterator];
+
 document.onpaste = function (event) {
-    var items = event.clipboardData.items;
-
-    if (items) {
-        var item = items[0];
-
+    for (var item of event.clipboardData.items) {
         if (item.kind === 'file' && item.type.startsWith('image/')) {
             var blob = item.getAsFile();
 
