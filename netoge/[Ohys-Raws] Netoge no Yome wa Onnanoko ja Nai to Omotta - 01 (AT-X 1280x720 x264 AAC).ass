@@ -13,8 +13,9 @@ Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Hor
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Active Line: 1
-Video Position: 1136
+Scroll Position: 93
+Active Line: 106
+Video Position: 11284
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -22,80 +23,80 @@ Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:45.52,0:00:47.36,Default,,0,0,0,,Line001
-Dialogue: 0,0:00:47.36,0:00:48.98,Default,,0,0,0,,Line002
-Dialogue: 0,0:00:53.07,0:00:54.70,Default,,0,0,0,,Line003
-Dialogue: 0,0:00:55.95,0:00:58.45,Default,,0,0,0,,Line004
-Dialogue: 0,0:00:58.45,0:00:59.95,Default,,0,0,0,,Line005
-Dialogue: 0,0:01:01.37,0:01:05.71,Default,,0,0,0,,Line006
+Dialogue: 0,0:00:45.52,0:00:47.36,Default,,0,0,0,,Возьми меня…
+Dialogue: 0,0:00:47.36,0:00:48.98,Default,,0,0,0,,…в жёны!
+Dialogue: 0,0:00:53.07,0:00:54.70,Default,,0,0,0,,Вынужден отказаться.
+Dialogue: 0,0:00:55.95,0:00:58.45,Default,,0,0,0,,Как же...
+Dialogue: 0,0:00:58.45,0:00:59.95,Default,,0,0,0,,Почему?
+Dialogue: 0,0:01:01.37,0:01:05.71,Default,,0,0,0,,Я принял решение {}
 Dialogue: 0,0:01:05.71,0:01:08.38,Default,,0,0,0,,Line007
-Dialogue: 0,0:01:08.38,0:01:10.96,Default,,0,0,0,,Line008
-Dialogue: 0,0:01:10.96,0:01:14.05,Default,,0,0,0,,Line009
-Dialogue: 0,0:01:14.05,0:01:16.93,Default,,0,0,0,,Line010
+Dialogue: 0,0:01:08.38,0:01:10.96,Default,,0,0,0,,Ясно понятно.
+Dialogue: 0,0:01:10.96,0:01:14.05,Default,,0,0,0,,В таком случае… возьми меня в жёны!
+Dialogue: 0,0:01:14.05,0:01:16.93,Default,,0,0,0,,А? {}
 Dialogue: 0,0:01:16.93,0:01:19.30,Default,,0,0,0,,Line011
 Dialogue: 0,0:01:19.30,0:01:21.76,Default,,0,0,0,,Line012
 Dialogue: 0,0:01:21.76,0:01:25.69,Default,,0,0,0,,Line013
 Dialogue: 0,0:01:25.69,0:01:28.56,Default,,0,0,0,,Line014
 Dialogue: 0,0:01:28.56,0:01:30.19,Default,,0,0,0,,Line015
 Dialogue: 0,0:01:30.19,0:01:33.40,Default,,0,0,0,,Чому нет то?!
-Dialogue: 0,0:01:37.11,0:01:38.62,Default,,0,0,0,,Line017
-Dialogue: 0,0:01:48.54,0:01:50.50,Default,,0,0,0,,Line018
-Dialogue: 0,0:02:05.02,0:02:07.23,Default,,0,0,0,,Line019
-Dialogue: 0,0:02:18.32,0:02:19.82,Default,,0,0,0,,Line020
+Dialogue: 0,0:01:37.11,0:01:38.62,Default,,0,0,0,,Враг атакует!
+Dialogue: 0,0:01:48.54,0:01:50.50,Default,,0,0,0,,— Швайн!\N— Вижу!
+Dialogue: 0,0:02:05.02,0:02:07.23,Default,,0,0,0,,Хмпф. Изи.
+Dialogue: 0,0:02:18.32,0:02:19.82,Default,,0,0,0,,Русиян!
 Dialogue: 0,0:02:21.78,0:02:24.87,Default,,0,0,0,,Line021
-Dialogue: 0,0:02:29.25,0:02:30.63,Default,,0,0,0,,Line022
+Dialogue: 0,0:02:29.25,0:02:30.63,Default,,0,0,0,,Дурёха!
 Dialogue: 0,0:02:30.63,0:02:32.34,Default,,0,0,0,,Line023
 Dialogue: 0,0:02:37.26,0:02:38.26,Default,,0,0,0,,Ась?
-Dialogue: 0,0:02:38.26,0:02:39.76,Default,,0,0,0,,Line025
-Dialogue: 0,0:02:52.15,0:02:53.56,Default,,0,0,0,,Line026
-Dialogue: 0,0:02:53.56,0:02:55.36,Default,,0,0,0,,Line027
+Dialogue: 0,0:02:38.26,0:02:39.76,Default,,0,0,0,,Ако!
+Dialogue: 0,0:02:52.15,0:02:53.56,Default,,0,0,0,,Русиян!
+Dialogue: 0,0:02:53.56,0:02:55.36,Default,,0,0,0,,Стой в арьергарде и хиляй!
 Dialogue: 0,0:02:59.32,0:03:01.20,Default,,0,0,0,,Line028
-Dialogue: 0,0:03:04.24,0:03:06.12,Default,,0,0,0,,Line029
+Dialogue: 0,0:03:04.24,0:03:06.12,Default,,0,0,0,,Лидер, {}
 Dialogue: 0,0:03:09.25,0:03:10.92,Default,,0,0,0,,Line030
-Dialogue: 0,0:03:12.38,0:03:14.50,Default,,0,0,0,,Line031
+Dialogue: 0,0:03:12.38,0:03:14.50,Default,,0,0,0,,Узрите!
 Dialogue: 0,0:03:14.50,0:03:17.26,Default,,0,0,0,,Line032
-Dialogue: 0,0:03:31.39,0:03:33.31,Default,,0,0,0,,Line033
+Dialogue: 0,0:03:31.39,0:03:33.31,Default,,0,0,0,,— Хмпф\N— wp, лидер!
 Dialogue: 0,0:03:33.31,0:03:34.81,Default,,0,0,0,,Line034
 Dialogue: 0,0:03:34.81,0:03:36.69,Default,,0,0,0,,Line035
 Dialogue: 0,0:03:36.69,0:03:39.28,Default,,0,0,0,,Line036
 Dialogue: 0,0:03:39.28,0:03:41.82,Default,,0,0,0,,Line037
 Dialogue: 0,0:03:41.82,0:03:43.66,Default,,0,0,0,,Line038
 Dialogue: 0,0:03:43.66,0:03:46.08,Default,,0,0,0,,Line039
-Dialogue: 0,0:03:46.08,0:03:48.62,Default,,0,0,0,,Line040
+Dialogue: 0,0:03:46.08,0:03:48.62,Default,,0,0,0,,Хмпф. Вёрнёмся к нашим баранам.
 Dialogue: 0,0:03:48.62,0:03:50.04,Default,,0,0,0,,Line041
 Dialogue: 0,0:03:50.04,0:03:52.67,Default,,0,0,0,,Line042
-Dialogue: 0,0:03:53.79,0:03:59.01,Default,,0,0,0,,Line043
+Dialogue: 0,0:03:53.79,0:03:59.01,Default,,0,0,0,,А-а-а-ах! Прости меня, Русиян! {}
 Dialogue: 0,0:03:59.01,0:04:00.51,Default,,0,0,0,,Line044
 Dialogue: 0,0:04:09.81,0:04:11.31,Default,,0,0,0,,Line045
 Dialogue: 0,0:04:11.31,0:04:14.02,Default,,0,0,0,,Line046
 Dialogue: 0,0:04:14.02,0:04:19.03,Default,,0,0,0,,Line047
-Dialogue: 0,0:04:19.03,0:04:20.65,Default,,0,0,0,,Line048
-Dialogue: 0,0:04:27.37,0:04:28.74,Default,,0,0,0,,Line049
-Dialogue: 0,0:04:29.87,0:04:31.25,Default,,0,0,0,,Line050
+Dialogue: 0,0:04:19.03,0:04:20.65,Default,,0,0,0,,У-угу.
+Dialogue: 0,0:04:27.37,0:04:28.74,Default,,0,0,0,,[Спокойной]
+Dialogue: 0,0:04:29.87,0:04:31.25,Default,,0,0,0,,[Спокойной ночи]
 Dialogue: 0,0:04:40.46,0:04:42.51,Default,,0,0,0,,Первая кровь!
 Dialogue: 0,0:04:42.51,0:04:45.43,Default,,0,0,0,,Line052
 Dialogue: 0,0:04:45.43,0:04:47.97,Default,,0,0,0,,Line053
 Dialogue: 0,0:04:47.97,0:04:50.39,Default,,0,0,0,,Line054
-Dialogue: 0,0:04:50.39,0:04:51.93,Default,,0,0,0,,Line055
-Dialogue: 0,0:04:51.93,0:04:55.14,Default,,0,0,0,,Line056
+Dialogue: 0,0:04:50.39,0:04:51.93,Default,,0,0,0,,Нет, я не об этом.
+Dialogue: 0,0:04:51.93,0:04:55.14,Default,,0,0,0,,Слышь, Нисимура, посоветуй аниме.
 Dialogue: 0,0:04:55.14,0:04:59.69,Default,,0,0,0,,Line057
 Dialogue: 0,0:04:59.69,0:05:02.49,Default,,0,0,0,,Line058
 Dialogue: 0,0:05:02.49,0:05:04.11,Default,,0,0,0,,Line059
 Dialogue: 0,0:05:04.11,0:05:06.70,Default,,0,0,0,,Line060
 Dialogue: 0,0:05:06.70,0:05:11.41,Default,,0,0,0,,Line061
-Dialogue: 0,0:05:11.41,0:05:13.33,Default,,0,0,0,,Line062
+Dialogue: 0,0:05:11.41,0:05:13.33,Default,,0,0,0,,Срамота.
 Dialogue: 0,0:05:13.33,0:05:16.50,Default,,0,0,0,,Line063
 Dialogue: 0,0:05:16.50,0:05:18.67,Default,,0,0,0,,Line064
 Dialogue: 0,0:05:18.67,0:05:22.63,Default,,0,0,0,,Line065
 Dialogue: 0,0:05:22.63,0:05:24.92,Default,,0,0,0,,Line066
 Dialogue: 0,0:05:24.92,0:05:27.43,Default,,0,0,0,,Line067
-Dialogue: 0,0:05:27.43,0:05:28.68,Default,,0,0,0,,Line068
+Dialogue: 0,0:05:27.43,0:05:28.68,Default,,0,0,0,,Да заткнись ты уже!
 Dialogue: 0,0:05:28.68,0:05:30.05,Default,,0,0,0,,Line069
 Dialogue: 0,0:05:30.05,0:05:31.64,Default,,0,0,0,,Line070
 Dialogue: 0,0:05:31.64,0:05:33.98,Default,,0,0,0,,Line071
 Dialogue: 0,0:05:33.98,0:05:35.56,Default,,0,0,0,,Line072
 Dialogue: 0,0:05:35.56,0:05:37.52,Default,,0,0,0,,Line073
-Dialogue: 0,0:05:37.52,0:05:39.81,Default,,0,0,0,,Line074
+Dialogue: 0,0:05:37.52,0:05:39.81,Default,,0,0,0,,Ёпрст, Акане…
 Dialogue: 0,0:05:39.81,0:05:41.90,Default,,0,0,0,,Line075
 Dialogue: 0,0:05:41.90,0:05:45.82,Default,,0,0,0,,Line076
 Dialogue: 0,0:05:45.82,0:05:47.78,Default,,0,0,0,,Line077
@@ -106,30 +107,30 @@ Dialogue: 0,0:05:57.96,0:05:59.17,Default,,0,0,0,,Line081
 Dialogue: 0,0:05:59.17,0:06:01.38,Default,,0,0,0,,Line082
 Dialogue: 0,0:06:01.38,0:06:05.05,Default,,0,0,0,,Line083
 Dialogue: 0,0:06:05.05,0:06:08.01,Default,,0,0,0,,Line085
-Dialogue: 0,0:06:08.01,0:06:09.76,Default,,0,0,0,,Line086
+Dialogue: 0,0:06:08.01,0:06:09.76,Default,,0,0,0,,Хмм…
 Dialogue: 0,0:06:09.76,0:06:13.76,Default,,0,0,0,,Line087
 Dialogue: 0,0:06:13.76,0:06:14.81,Default,,0,0,0,,Line088
 Dialogue: 0,0:06:14.81,0:06:17.44,Default,,0,0,0,,Line089
 Dialogue: 0,0:06:17.44,0:06:18.98,Default,,0,0,0,,Line090
-Dialogue: 0,0:06:20.94,0:06:22.86,Default,,0,0,0,,Line091
-Dialogue: 0,0:06:22.86,0:06:25.32,Default,,0,0,0,,Line092
-Dialogue: 0,0:06:31.24,0:06:33.28,Default,,0,0,0,,Line093
+Dialogue: 0,0:06:20.94,0:06:22.86,Default,,0,0,0,,Звиняй! Всё в порядке?
+Dialogue: 0,0:06:22.86,0:06:25.32,Default,,0,0,0,,Ах… нет…
+Dialogue: 0,0:06:31.24,0:06:33.28,Default,,0,0,0,,За что ты так со мной?
 Dialogue: 0,0:06:41.88,0:06:46.17,Default,,0,0,0,,Line094
-Dialogue: 0,0:06:46.17,0:06:48.80,Default,,0,0,0,,Line095
-Dialogue: 0,0:06:51.72,0:06:53.22,Default,,0,0,0,,Line096
-Dialogue: 0,0:07:11.74,0:07:14.91,Default,,0,0,0,,Line097
-Dialogue: 0,0:07:14.91,0:07:18.37,Default,,0,0,0,,Line098
+Dialogue: 0,0:06:46.17,0:06:48.80,Default,,0,0,0,,Начнём школьное собрание.
+Dialogue: 0,0:06:51.72,0:06:53.22,Default,,0,0,0,,Link start!
+Dialogue: 0,0:07:11.74,0:07:14.91,Default,,0,0,0,,Онлайновая RPG, в которую мы играем,
+Dialogue: 0,0:07:14.91,0:07:18.37,Default,,0,0,0,,называется «Legendary Age» или сокращённо LA.
 Dialogue: 0,0:07:18.37,0:07:21.96,Default,,0,0,0,,Line099
 Dialogue: 0,0:07:21.96,0:07:23.79,Default,,0,0,0,,Line100
 Dialogue: 0,0:07:23.79,0:07:25.92,Default,,0,0,0,,Line101
 Dialogue: 0,0:07:25.92,0:07:28.26,Default,,0,0,0,,Line102
-Dialogue: 0,0:07:33.55,0:07:34.55,Default,,0,0,0,,Line103
-Dialogue: 0,0:07:34.55,0:07:38.81,Default,,0,0,0,,Line104
+Dialogue: 0,0:07:33.55,0:07:34.55,Default,,0,0,0,,Давай!
+Dialogue: 0,0:07:34.55,0:07:38.81,Default,,0,0,0,,Как бы то ни было, я призналась ему в любви на причале у озера.
 Dialogue: 0,0:07:38.81,0:07:42.73,Default,,0,0,0,,Line105
 Dialogue: 0,0:07:42.73,0:07:46.36,Default,,0,0,0,,Line106
-Dialogue: 0,0:07:46.36,0:07:50.61,Default,,0,0,0,,Line107
-Dialogue: 0,0:07:50.61,0:07:54.16,Default,,0,0,0,,Line108
-Dialogue: 0,0:07:55.95,0:07:58.95,Default,,0,0,0,,Line109
+Dialogue: 0,0:07:46.36,0:07:50.61,Default,,0,0,0,,Русиян подарил мне это кольцо, которое повышает вероятность резиста.
+Dialogue: 0,0:07:50.61,0:07:54.16,Default,,0,0,0,,Господа! Меня тут мало-помалу убивают!
+Dialogue: 0,0:07:55.95,0:07:58.95,Default,,0,0,0,,Хорош в чате сидеть!
 Dialogue: 0,0:08:05.04,0:08:07.13,Default,,0,0,0,,Line110
 Dialogue: 0,0:08:07.13,0:08:10.30,Default,,0,0,0,,Line111
 Dialogue: 0,0:08:10.30,0:08:13.43,Default,,0,0,0,,Line112
@@ -212,7 +213,7 @@ Dialogue: 0,0:12:00.90,0:12:02.36,Default,,0,0,0,,Line190
 Dialogue: 0,0:12:02.36,0:12:06.45,Default,,0,0,0,,Line191
 Dialogue: 0,0:12:06.45,0:12:08.12,Default,,0,0,0,,Line192
 Dialogue: 0,0:12:08.12,0:12:11.83,Default,,0,0,0,,Line193
-Dialogue: 0,0:12:13.83,0:12:15.79,Default,,0,0,0,,Line194
+Dialogue: 0,0:12:13.83,0:12:15.79,Default,,0,0,0,,Пришло время срывать покровы.
 Dialogue: 0,0:12:24.18,0:12:27.26,Default,,0,0,0,,Line195
 Dialogue: 0,0:12:27.26,0:12:29.77,Default,,0,0,0,,Line196
 Dialogue: 0,0:12:31.98,0:12:34.02,Default,,0,0,0,,Line197
@@ -261,8 +262,8 @@ Dialogue: 0,0:14:45.19,0:14:47.19,Default,,0,0,0,,Line239
 Dialogue: 0,0:14:47.19,0:14:48.53,Default,,0,0,0,,Line240
 Dialogue: 0,0:14:48.53,0:14:50.99,Default,,0,0,0,,Line241
 Dialogue: 0,0:14:50.99,0:14:54.24,Default,,0,0,0,,Line242
-Dialogue: 0,0:14:54.24,0:14:58.75,Default,,0,0,0,,Line244
-Dialogue: 0,0:14:58.75,0:15:01.04,Default,,0,0,0,,Line245
+Dialogue: 0,0:14:54.24,0:14:58.75,Default,,0,0,0,,Старшеклассница? Наш лидер? Обмазывающийся премиум шмотом? Ну уж нет.{}
+Dialogue: 0,0:14:58.75,0:15:01.04,Default,,0,0,0,,— Сиськи или ПНХО.\N— Вы всё врёти.
 Dialogue: 0,0:15:01.04,0:15:04.80,Default,,0,0,0,,Line246
 Dialogue: 0,0:15:04.80,0:15:07.21,Default,,0,0,0,,Line247
 Dialogue: 0,0:15:07.21,0:15:09.26,Default,,0,0,0,,Line248
