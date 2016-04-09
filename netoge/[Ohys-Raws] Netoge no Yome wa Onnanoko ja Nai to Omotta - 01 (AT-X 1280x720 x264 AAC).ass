@@ -16,9 +16,9 @@ Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Hor
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.375000
-Scroll Position: 299
-Active Line: 310
-Video Position: 26571
+Scroll Position: 344
+Active Line: 358
+Video Position: 29994
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -331,9 +331,9 @@ Dialogue: 0,0:17:56.05,0:17:59.76,Default,,0,0,0,,Меня зовут Госёи
 Dialogue: 0,0:17:59.76,0:18:01.89,Default,,0,0,0,,и президент студсовета.
 Dialogue: 0,0:18:01.89,0:18:04.02,Default,,0,0,0,,Я пришла на встречу прямо из школы,
 Dialogue: 0,0:18:04.02,0:18:06.14,Default,,0,0,0,,прошу простить мне мой формальный внешний вид.
-Dialogue: 0,0:18:06.14,0:18:10.23,Default,,0,0,0,,Мы уже достаточно близки, но встречаемся в первый раз.
-Dialogue: 0,0:18:10.23,0:18:12.94,Default,,0,0,0,,Line305
-Dialogue: 0,0:18:12.94,0:18:15.15,Default,,0,0,0,,Line306
+Dialogue: 0,0:18:06.14,0:18:10.23,Default,,0,0,0,,Мы уже достаточно близки, хотя и встречаемся в первый раз.
+Dialogue: 0,0:18:10.23,0:18:12.94,Default,,0,0,0,,Давайте постараемся воспольнить этот пробел{what do you say we take}
+Dialogue: 0,0:18:12.94,0:18:15.15,Default,,0,0,0,,и побольше узнать о каждом из нас.{for all it's worth}
 Dialogue: 0,0:18:19.41,0:18:21.91,Default,,0,0,0,,— Ты следующая.\N— А? Я?
 Dialogue: 0,0:18:23.37,0:18:28.21,Default,,0,0,0,,Сегава Акане. Первый класс старшей школы Маегасаки.
 Dialogue: 0,0:18:28.21,0:18:30.88,Default,,0,0,0,,И… эм…
@@ -378,8 +378,8 @@ Dialogue: 0,0:20:20.03,0:20:24.91,Default,,0,0,0,,Так то это азы се
 Dialogue: 0,0:20:24.91,0:20:26.41,Default,,0,0,0,,На тебя это похоже, Ако.
 Dialogue: 0,0:20:27.83,0:20:31.16,Default,,0,0,0,,И вот, в клубах я не состою.
 Dialogue: 0,0:20:31.16,0:20:33.37,Default,,0,0,0,,И друзей в школе у меня нет.
-Dialogue: 0,0:20:35.13,0:20:36.96,Default,,0,0,0,,Line350
-Dialogue: 0,0:20:36.96,0:20:39.59,Default,,0,0,0,,Line351
+Dialogue: 0,0:20:35.13,0:20:36.96,Default,,0,0,0,,Бывает так, что, когда я иду в школу,
+Dialogue: 0,0:20:36.96,0:20:39.59,Default,,0,0,0,,остальные принимают меня за нового человека.
 Dialogue: 0,0:20:41.09,0:20:44.26,Default,,0,0,0,,Э-это норма. Я президент студсовета,
 Dialogue: 0,0:20:44.26,0:20:45.43,Default,,0,0,0,,но у меня тоже нет друзей.
 Dialogue: 0,0:20:45.43,0:20:47.80,Default,,0,0,0,,С-смотри, мы теперь твои друзья.
