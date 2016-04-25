@@ -16,9 +16,8 @@ Video File: [LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 02 (AT-X 12
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 162
-Active Line: 191
-Video Position: 16419
+Active Line: 9
+Video Position: 594
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -29,22 +28,22 @@ Style: Def_I-T,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,10
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.80,0:00:05.84,Default,,0,0,0,,So Master, it turns out that you're\Nthe student council president.\NИ вот, совершенно случайно, оказалось
-Dialogue: 0,0:00:05.84,0:00:09.30,Default,,0,0,0,,Huh? As I recall, the student\Ncouncil president's father
-Dialogue: 0,0:00:09.30,0:00:10.76,Default,,0,0,0,,was one of the school's...
-Dialogue: 0,0:00:10.76,0:00:12.72,Default,,0,0,0,,Mm-hmm, he's on the board of directors.
-Dialogue: 0,0:00:12.72,0:00:15.27,Default,,0,0,0,,В натуре? You're from a rich family?!
-Dialogue: 0,0:00:15.27,0:00:17.60,Default,,0,0,0,,No, not really.
-Dialogue: 0,0:00:17.60,0:00:21.02,Default,,0,0,0,,At best, the family only owns a\Nhandful of companies and schools.
-Dialogue: 0,0:00:21.02,0:00:22.98,Default,,0,0,0,,I'm still plenty jealous.
-Dialogue: 0,0:00:22.98,0:00:24.73,Default,,0,0,0,,So {\i1}that's{\i0} it.
-Dialogue: 0,0:00:24.74,0:00:29.36,Default,,0,0,0,,If your family is that rich,\NI can understand how you spend so much.
-Dialogue: 0,0:00:29.37,0:00:33.33,Default,,0,0,0,,Hold on. The money I spend on\Nthe game is money I earn myself.
-Dialogue: 0,0:00:33.33,0:00:37.00,Default,,0,0,0,,I {\i1}did{\i0} borrow the seed money from\Nmy parents, but I've paid it all back.
-Dialogue: 0,0:00:37.00,0:00:40.79,Default,,0,0,0,,Wow. People who are promised\Na fortune in the future
+Dialogue: 0,0:00:01.80,0:00:05.84,Default,,0,0,0,,Вот это поворот: оказалось, что наш Лидер — президент студсовета.
+Dialogue: 0,0:00:05.84,0:00:09.30,Default,,0,0,0,,Хм? Насколько я помню, её отец…
+Dialogue: 0,0:00:09.30,0:00:10.76,Default,,0,0,0,,один из школьных...
+Dialogue: 0,0:00:10.76,0:00:12.72,Default,,0,0,0,,У-му, он из совета директоров.
+Dialogue: 0,0:00:12.72,0:00:15.27,Default,,0,0,0,,В натуре? Так ты из богатой семьи?!
+Dialogue: 0,0:00:15.27,0:00:17.60,Default,,0,0,0,,Нет, я бы не сказала.
+Dialogue: 0,0:00:17.60,0:00:21.02,Default,,0,0,0,,Нашей семье всего то и принадлежит парочка заводов да школ.
+Dialogue: 0,0:00:21.02,0:00:22.98,Default,,0,0,0,,Господа, я горю.
+Dialogue: 0,0:00:22.98,0:00:24.73,Default,,0,0,0,,Вон оно {\i1}чё{\i0}.
+Dialogue: 0,0:00:24.74,0:00:29.36,Default,,0,0,0,,Ну раз ты из богатеньких,\Nпонятно.
+Dialogue: 0,0:00:29.37,0:00:33.33,Default,,0,0,0,,Стапе. Те деньги, что я трачу в игре, я зарабатываю самостоятельно.
+Dialogue: 0,0:00:33.33,0:00:37.00,Default,,0,0,0,,Я позаимствовала стартовый капитал у родителей, но уже вернула его.
+Dialogue: 0,0:00:37.00,0:00:40.79,Default,,0,0,0,,Ах. People who are promised\Na fortune in the future
 Dialogue: 0,0:00:40.79,0:00:42.59,Default,,0,0,0,,can all just die.
-Dialogue: 0,0:00:46.38,0:00:48.76,Default,,0,0,0,,T-Take it easy, Ako.
-Dialogue: 0,0:00:49.26,0:00:51.59,Default,,0,0,0,,I'm sorry. I lost my head, there.
+Dialogue: 0,0:00:46.38,0:00:48.76,Default,,0,0,0,,Спокойствие, только спокойствие, Ако.
+Dialogue: 0,0:00:49.26,0:00:51.59,Default,,0,0,0,,Проши прощения. Мне снесло кукушечку.
 Dialogue: 0,0:00:51.60,0:00:55.06,Default,,0,0,0,,But you know, I kind of had the same reaction.
 Dialogue: 0,0:00:56.31,0:00:57.89,Default,,0,0,0,,Oh, yeah?
 Dialogue: 0,0:00:57.89,0:00:59.94,Default,,0,0,0,,It's a pretty strict home.
@@ -84,7 +83,7 @@ Dialogue: 0,0:04:14.59,0:04:16.88,Default,,0,0,0,,I won't deny anything about th
 Dialogue: 0,0:04:16.88,0:04:19.72,Default,,0,0,0,,Mm-hmm, there's no room for debate there.
 Dialogue: 0,0:04:19.72,0:04:22.47,Default,,0,0,0,,Ah! I can't hear you!
 Dialogue: 0,0:04:26.89,0:04:30.89,Default,,0,0,0,,So, um, listen... I'm sorry.
-Dialogue: 0,0:04:30.23,0:04:32.48,Def_Top,,0,0,0,,"Maegasaki Train Station"
+Dialogue: 0,0:04:30.23,0:04:32.48,Def_Top,,0,0,0,,[ж.д станция Маегасаки]
 Dialogue: 0,0:04:30.90,0:04:32.81,Default,,0,0,0,,Why are you apologizing?
 Dialogue: 0,0:04:32.81,0:04:37.65,Default,,0,0,0,,Well, to be honest,\NI thought all of you were guys!
 Dialogue: 0,0:04:37.65,0:04:39.28,Default,,0,0,0,,Oh, is that all?
@@ -110,17 +109,17 @@ Dialogue: 0,0:05:29.66,0:05:31.16,Default,,0,0,0,,Красавчег.
 Dialogue: 0,0:05:37.00,0:05:38.54,Default,,0,0,0,,А-Ако?
 Dialogue: 0,0:05:38.55,0:05:42.51,Default,,0,0,0,,You don't have to be jealous;\NI'm not out to steal your husband.
 Dialogue: 0,0:05:42.51,0:05:44.63,Default,,0,0,0,,--I wouldn't {\i1}want{\i0} him.\N--How rude!
-Dialogue: 0,0:05:46.60,0:05:47.89,Default,,0,0,0,,Well, see you later.
+Dialogue: 0,0:05:46.60,0:05:47.89,Default,,0,0,0,,До встречи.
 Dialogue: 0,0:05:47.89,0:05:48.93,Default,,0,0,0,,Ах.
-Dialogue: 0,0:05:49.43,0:05:53.35,Default,,0,0,0,,Русиян, ты ведь думал, что я никакая не девушка?
+Dialogue: 0,0:05:49.43,0:05:53.35,Default,,0,0,0,,Русиян, ты ведь думал, что никакая я не девушка?
 Dialogue: 0,0:05:53.35,0:05:56.65,Default,,0,0,0,,Прости, но я был уверен, что ты — потный качок.
-Dialogue: 0,0:05:56.65,0:06:02.28,Default,,0,0,0,,Ну ты чо? Тогда я сказала, что я девочка? И ты мне не поверил?
+Dialogue: 0,0:05:56.65,0:06:02.28,Default,,0,0,0,,Ну ты чо? Сказала же, что я девочка. И ты мне не поверил?
 Dialogue: 0,0:06:02.28,0:06:03.57,Default,,0,0,0,,П-прости.
-Dialogue: 0,0:06:03.57,0:06:08.87,Default,,0,0,0,,Still, that being the case,\Nwhy did you agree to marry me?
+Dialogue: 0,0:06:03.57,0:06:08.87,Default,,0,0,0,,Но раз ты так думал, почему тогда согласился жениться на мне?
 Dialogue: 0,0:06:08.87,0:06:11.49,Default,,0,0,0,,Мужики fine too.
 Dialogue: 0,0:06:11.50,0:06:12.75,Default,,0,0,0,,Что?!
-Dialogue: 0,0:06:12.75,0:06:14.71,Default,,0,0,0,,Не-не-не, я не про {\i1}то самое{\i0}!
-Dialogue: 0,0:06:14.71,0:06:16.96,Default,,0,0,0,,The game and reality are different things, so...!
+Dialogue: 0,0:06:12.75,0:06:14.71,Default,,0,0,0,,Не-не-не, я не в {\i1}том{\i0} смысле!
+Dialogue: 0,0:06:14.71,0:06:16.96,Default,,0,0,0,,Игры и реальность не имеют ничего общего, поэтому...!
 Dialogue: 0,0:06:18.75,0:06:23.13,Default,,0,0,0,,Even if you were a guy in real life,\Nin the game, you're still Ako,
 Dialogue: 0,0:06:23.13,0:06:24.72,Default,,0,0,0,,so I thought, why not?
 Dialogue: 0,0:06:24.72,0:06:28.14,Default,,0,0,0,,So um, what you're saying is,
@@ -128,11 +127,11 @@ Dialogue: 0,0:06:28.14,0:06:31.43,Default,,0,0,0,,age, looks, gender, and all th
 Dialogue: 0,0:06:31.43,0:06:33.81,Default,,0,0,0,,and you were just nice enough...
 Dialogue: 0,0:06:33.81,0:06:37.60,Default,,0,0,0,,...to start liking {\i1}me{\i0}, is that it?
 Dialogue: 0,0:06:38.81,0:06:41.07,Default,,0,0,0,,Да, именно так.
-Dialogue: 0,0:06:44.95,0:06:46.32,Default,,0,0,0,,Me, too!
+Dialogue: 0,0:06:44.95,0:06:46.32,Default,,0,0,0,,Аналогично!
 Dialogue: 0,0:06:46.32,0:06:50.16,Default,,0,0,0,,I wanted to be with you\Nbecause you are Rusian!
 Dialogue: 0,0:06:50.16,0:06:52.87,Default,,0,0,0,,Even if Rusian wasn't a boy\Nthe same age as me,
 Dialogue: 0,0:06:52.87,0:06:57.12,Default,,0,0,0,,or whoever I thought you were,\NI definitely, definitely...
-Dialogue: 0,0:06:57.12,0:06:59.25,Default,,0,0,0,,...loved you! I mean it!
+Dialogue: 0,0:06:57.12,0:06:59.25,Default,,0,0,0,,...loved you! Инфа 100%!
 Dialogue: 0,0:06:59.25,0:07:01.92,Default,,0,0,0,,Д-да. Вот спасибо, Ако.
 Dialogue: 0,0:07:04.67,0:07:05.67,Default,,0,0,0,,Calm down!
 Dialogue: 0,0:07:05.67,0:07:08.51,Default,,0,0,0,,Не давать волю своему либидо!\NНе давать волю своему либидо!
