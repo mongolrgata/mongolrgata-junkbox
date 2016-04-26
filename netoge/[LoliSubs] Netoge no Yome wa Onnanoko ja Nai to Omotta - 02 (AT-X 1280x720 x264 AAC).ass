@@ -11,14 +11,15 @@ PlayResY: 720
 PlayDepth: 16
 
 [Aegisub Project Garbage]
-Audio File: [LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 02 (AT-X 1280x720 x264 AAC).mkv
-Video File: [LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 02 (AT-X 1280x720 x264 AAC).mkv
+Last Style Storage: Default
+Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 02 (AT-X 1280x720 x264 AAC).mkv
+Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 02 (AT-X 1280x720 x264 AAC).mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 93
-Active Line: 113
-Video Position: 10273
+Scroll Position: 170
+Active Line: 197
+Video Position: 16709
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -57,6 +58,7 @@ Dialogue: 0,0:01:18.21,0:01:22.17,Default,,0,0,0,,Лидер! Вместе мы 
 Dialogue: 0,0:01:22.17,0:01:24.54,Default,,0,0,0,,Ако, ты не только в интернете такая крутая!
 Dialogue: 0,0:01:24.55,0:01:27.00,Default,,0,0,0,,И смех и грех.
 Dialogue: 0,0:01:27.01,0:01:30.26,Default,,0,0,0,,Я никогда не просил об этом.
+Dialogue: 0,0:01:30.98,0:01:39.07,Default,,0,0,0,,Сап, Двач, мур-мур-мур-мур, я ламповая няша ©
 Dialogue: 0,0:03:11.36,0:03:14.86,Def_Top,,0,0,0,,"ЛВЛ. 02: Думал, нам нельзя играть в сетевушки в школе?"
 Dialogue: 0,0:03:12.02,0:03:13.53,Default,,0,0,0,,Короче,
 Dialogue: 0,0:03:13.53,0:03:14.86,Default,,0,0,0,,выигрышная страта —
@@ -90,16 +92,16 @@ Dialogue: 0,0:04:30.90,0:04:32.81,Default,,0,0,0,,Почему ты извиня
 Dialogue: 0,0:04:32.81,0:04:37.65,Default,,0,0,0,,Честно говоря,\NЯ думал, что все вы мужики!
 Dialogue: 0,0:04:37.65,0:04:39.28,Default,,0,0,0,,Из-за этого?
 Dialogue: 0,0:04:39.28,0:04:40.28,Default,,0,0,0,,М?
-Dialogue: 0,0:04:40.28,0:04:43.03,Default,,0,0,0,,Хоть я и сказала вам, что являюсь старшекласницей,
+Dialogue: 0,0:04:40.28,0:04:43.03,Default,,0,0,0,,Хоть я и сказала, что являюсь старшекласницей,
 Dialogue: 0,0:04:43.03,0:04:45.24,Default,,0,0,0,,ты мне нисколечки не поверил.
 Dialogue: 0,0:04:45.24,0:04:49.12,Default,,0,0,0,,А стоило тебе нас увидеть, так ты такое выражение лица скорчил.
 Dialogue: 0,0:04:49.12,0:04:51.50,Default,,0,0,0,,По большей части из-за тебя.
 Dialogue: 0,0:04:51.50,0:04:55.29,Default,,0,0,0,,Я всегда старался не складывать игры и реальность в одну корзину,
 Dialogue: 0,0:04:55.29,0:04:58.34,Default,,0,0,0,,но мне в действительности было приятно встретиться с вами в действительности.
-Dialogue: 0,0:04:58.34,0:05:03.22,Default,,0,0,0,,Оказывается мои согильдийцы и в реале такие же клёвые как и в игре.
+Dialogue: 0,0:04:58.34,0:05:03.22,Default,,0,0,0,,Оказывается мои согильдийцы в реале такие же фапабельные как и в игре.
 Dialogue: 0,0:05:03.22,0:05:05.85,Default,,0,0,0,,Фу. Противный.
 Dialogue: 0,0:05:05.85,0:05:07.26,Default,,0,0,0,,Зачем грубить то?
-Dialogue: 0,0:05:07.26,0:05:11.39,Default,,0,0,0,,Что в реале, что в игре, я — цундере.
+Dialogue: 0,0:05:07.26,0:05:11.39,Default,,0,0,0,,Что в реале что в игре я — цундере.
 Dialogue: 0,0:05:11.89,0:05:14.65,Default,,0,0,0,,Думаю, не мне тебя судить.
 Dialogue: 0,0:05:14.65,0:05:17.19,Default,,0,0,0,,Перед сходкой я беспокоилась, не окажется ли Русиян извращенцем,
 Dialogue: 0,0:05:17.19,0:05:19.90,Default,,0,0,0,,который будет раздевать девушек взглядом. Так что мы в расчёте.
@@ -143,67 +145,67 @@ Dialogue: 0,0:07:12.35,0:07:13.93,Default,,0,0,0,,Точняк, Русиян!
 Dialogue: 0,0:07:15.64,0:07:17.44,Default,,0,0,0,,Увидимся! Поки-чпоки!
 Dialogue: 0,0:07:17.44,0:07:18.44,Default,,0,0,0,,О да...
 Dialogue: 0,0:07:42.13,0:07:44.25,Default,,0,0,0,,Э-Это... Это...
-Dialogue: 0,0:07:44.25,0:07:46.17,Default,,0,0,0,,Not too shabby, Rusian.
-Dialogue: 0,0:07:46.17,0:07:48.43,Default,,0,0,0,,Leave some for my bad self, would you?
-Dialogue: 0,0:07:49.43,0:07:52.10,Default,,0,0,0,,--Ako, your game is worse than usual.\N--Playing like this is still the same as always...
-Dialogue: 0,0:07:52.10,0:07:55.01,Default,,0,0,0,,--I-I'm doing the best I can.\N--...except {\i1}this{\i0} happens.
-Dialogue: 0,0:07:55.02,0:07:59.89,Default,,0,0,0,,Your healing can be a little bit slow,\Nbut I don't mind at all.
-Dialogue: 0,0:07:59.90,0:08:03.40,Default,,0,0,0,,Sometimes you just end up spinning\Nyour wheels. Don't worry about it, Ako.
-Dialogue: 0,0:08:06.32,0:08:08.28,Default,,0,0,0,,Yeah, don't worry about it.
-Dialogue: 0,0:08:08.28,0:08:13.37,Default,,0,0,0,,I've just been losing buttloads of\NEXP to death penalties, that's all.
-Dialogue: 0,0:08:13.37,0:08:15.12,Default,,0,0,0,,I'm sorry, Rusian!
-Dialogue: 0,0:08:18.91,0:08:21.50,Default,,0,0,0,,I'm kidding, I'm kidding.
-Dialogue: 0,0:08:22.00,0:08:25.17,Default,,0,0,0,,Well, I think I'm about ready to log off.
+Dialogue: 0,0:07:44.25,0:07:46.17,Default,,0,0,0,,Затащил катку, Русиян.
+Dialogue: 0,0:07:46.17,0:07:48.43,Default,,0,0,0,,Отцу ММО даже не пришлось вмешиваться.
+Dialogue: 0,0:07:49.43,0:07:52.10,Default,,0,0,0,,— А вот Ако сегодня вагонит больше обычного.\N— Вроде бы играем как обычно...
+Dialogue: 0,0:07:52.10,0:07:55.01,Default,,0,0,0,,— Да уж ракую как могу.\N—...за {\i1}небольшим{\i0} исключением.
+Dialogue: 0,0:07:55.02,0:07:59.89,Default,,0,0,0,,Ещё чуть-чуть и можно орден слоупока вручать,\Nрарная ачивка бтв.
+Dialogue: 0,0:07:59.90,0:08:03.40,Default,,0,0,0,,Порой с тебя пользы как с козла молока. Но тебе простительно, Ако.
+Dialogue: 0,0:08:06.32,0:08:08.28,Default,,0,0,0,,Да, пусть тебя это не заботит.
+Dialogue: 0,0:08:08.28,0:08:13.37,Default,,0,0,0,,Мне ведь наконец удалось отыграть штраф к опыту за прошлую смерть.
+Dialogue: 0,0:08:13.37,0:08:15.12,Default,,0,0,0,,Прости меня, Русиян!
+Dialogue: 0,0:08:18.91,0:08:21.50,Default,,0,0,0,,Да я тралю тебя, тралю.
+Dialogue: 0,0:08:22.00,0:08:25.17,Default,,0,0,0,,Дык вот, I think I'm about ready to log off.
 Dialogue: 0,0:08:25.17,0:08:27.42,Default,,0,0,0,,I have something to handle in the morning.
 Dialogue: 0,0:08:27.42,0:08:28.67,Default,,0,0,0,,At school?
 Dialogue: 0,0:08:29.17,0:08:32.47,Default,,0,0,0,,Right. Being the president is usually relaxed,
 Dialogue: 0,0:08:32.47,0:08:34.72,Default,,0,0,0,,but there are times when it gets busy.
-Dialogue: 0,0:08:34.72,0:08:38.47,Default,,0,0,0,,Feel free to call me "Master"\Nif you see me at school.
-Dialogue: 0,0:08:38.48,0:08:39.56,Default,,0,0,0,,I'm not doing that!
-Dialogue: 0,0:08:39.56,0:08:42.40,Default,,0,0,0,,Hey, Schew, you're slipping out of character.
-Dialogue: 0,0:08:42.40,0:08:43.56,Default,,0,0,0,,Y-Yeah, man.
-Dialogue: 0,0:08:43.56,0:08:45.06,Default,,0,0,0,,Well, me, too.
-Dialogue: 0,0:08:45.07,0:08:47.69,Default,,0,0,0,,I'm going to take a bath and go to bed.
-Dialogue: 0,0:08:47.69,0:08:49.19,Default,,0,0,0,,A bath...?
-Dialogue: 0,0:08:53.57,0:08:55.53,Default,,0,0,0,,What are you picturing?
-Dialogue: 0,0:08:55.53,0:08:57.74,Default,,0,0,0,,Huh? No! I wasn't!
-Dialogue: 0,0:08:59.37,0:09:01.21,Default,,0,0,0,,Bye, then.
-Dialogue: 0,0:09:01.21,0:09:03.50,Default,,0,0,0,,Yeah, go wash off that sweat in the tub!
-Dialogue: 0,0:09:03.50,0:09:04.92,Default,,0,0,0,,Like she's worked up a sweat.
-Dialogue: 0,0:09:04.92,0:09:09.09,Default,,0,0,0,,--Huh?\N--She's not a pig, like you, "Schwein-{\i1}san{\i0}."
-Dialogue: 0,0:09:09.09,0:09:10.63,Default,,0,0,0,,Don't call my bad self...
-Dialogue: 0,0:09:10.63,0:09:11.63,Default,,0,0,0,,Oink!
-Dialogue: 0,0:09:11.63,0:09:15.89,Default,,0,0,0,,...a pig, you twerp! You really\Nare a pest, you know!
+Dialogue: 0,0:08:34.72,0:08:38.47,Default,,0,0,0,,Не возражаю, если в школе вы будете обращаться ко мне как к гильдмастеру.
+Dialogue: 0,0:08:38.48,0:08:39.56,Default,,0,0,0,,Чёрта с два!
+Dialogue: 0,0:08:39.56,0:08:42.40,Default,,0,0,0,,Слышь, Шу, ты вышел из образа.
+Dialogue: 0,0:08:42.40,0:08:43.56,Default,,0,0,0,,Спасибо, чувак.
+Dialogue: 0,0:08:43.56,0:08:45.06,Default,,0,0,0,,Мне тоже пора.
+Dialogue: 0,0:08:45.07,0:08:47.69,Default,,0,0,0,,Пойду подмоюсь и в кроватку.
+Dialogue: 0,0:08:47.69,0:08:49.19,Default,,0,0,0,,Подмоешься...?
+Dialogue: 0,0:08:53.57,0:08:55.53,Default,,0,0,0,,Воображаешь её голой в ванной?
+Dialogue: 0,0:08:55.53,0:08:57.74,Default,,0,0,0,,Э? Нет же! Я бы никогда…
+Dialogue: 0,0:08:59.37,0:09:01.21,Default,,0,0,0,,Разрешите откланяться.
+Dialogue: 0,0:09:01.21,0:09:03.50,Default,,0,0,0,,Повелеваю, хорошенько промой там всё, и пот и соль!
+Dialogue: 0,0:09:03.50,0:09:04.92,Default,,0,0,0,,Не думаю, что она вообще потеет.
+Dialogue: 0,0:09:04.92,0:09:09.09,Default,,0,0,0,,— М?\N— Она те такая свинья как некоторые, уважаемый Швайн-сан.
+Dialogue: 0,0:09:09.09,0:09:10.63,Default,,0,0,0,,Отец всея ММО...
+Dialogue: 0,0:09:10.63,0:09:11.63,Default,,0,0,0,,Хрю!
+Dialogue: 0,0:09:11.63,0:09:15.89,Default,,0,0,0,,...никакая не свинья! Ты меня специально доводишь што ле?
 Dialogue: 0,0:09:15.89,0:09:17.97,Default,,0,0,0,,And here you are, associating with me.
 Dialogue: 0,0:09:17.97,0:09:20.81,Default,,0,0,0,,Now that you've seen my face,\Nthis is a lot harder to do!
 Dialogue: 0,0:09:20.81,0:09:22.69,Default,,0,0,0,,It would be, huh, being a pig?
-Dialogue: 0,0:09:24.77,0:09:28.44,Default,,0,0,0,,Remember, if you start acting\Nchummy with me at school,
-Dialogue: 0,0:09:28.44,0:09:30.57,Default,,0,0,0,,I really will stick you like a pig.
-Dialogue: 0,0:09:30.57,0:09:35.41,Default,,0,0,0,,I get it. I won't tell anyone,\Nand I won't change how I act.
-Dialogue: 0,0:09:35.41,0:09:36.57,Default,,0,0,0,,You mean it?
-Dialogue: 0,0:09:36.57,0:09:38.62,Default,,0,0,0,,--Oink!\N--Please?
-Dialogue: 0,0:09:38.62,0:09:41.62,Default,,0,0,0,,The game and reality are separate.
-Dialogue: 0,0:09:41.62,0:09:45.63,Default,,0,0,0,,Also, don't act too familiar with Ako, either.
-Dialogue: 0,0:09:45.63,0:09:47.71,Default,,0,0,0,,I'd hate for any funny rumors\Nto get started about her.
-Dialogue: 0,0:09:47.71,0:09:49.34,Default,,0,0,0,,I get it, already.
-Dialogue: 0,0:09:49.34,0:09:50.92,Default,,0,0,0,,Well, my bad self will log off now.
-Dialogue: 0,0:09:50.92,0:09:52.76,Default,,0,0,0,,Could you pick one character and stick with it?
-Dialogue: 0,0:09:52.76,0:09:54.30,Default,,0,0,0,,Oh, shut up!
+Dialogue: 0,0:09:24.77,0:09:28.44,Default,,0,0,0,,Внемли, если позволишь себе чего-нибудь лишнего в школе,
+Dialogue: 0,0:09:28.44,0:09:30.57,Default,,0,0,0,,я тебе пятачок укорочу, слово даю.
+Dialogue: 0,0:09:30.57,0:09:35.41,Default,,0,0,0,,Ладно-ладно. Я тебя не выдам и буду вести себя как обычно.
+Dialogue: 0,0:09:35.41,0:09:36.57,Default,,0,0,0,,Отвечаешь?
+Dialogue: 0,0:09:36.57,0:09:38.62,Default,,0,0,0,,— Хрю!\N— Не обманываешь?
+Dialogue: 0,0:09:38.62,0:09:41.62,Default,,0,0,0,,Игры и реальность не имеют ничего общего.
+Dialogue: 0,0:09:41.62,0:09:45.63,Default,,0,0,0,,И да, не будь слишком фамильярен с Ако.
+Dialogue: 0,0:09:45.63,0:09:47.71,Default,,0,0,0,,Будет нехорошо, если про неё пойдут всякие слухи.
+Dialogue: 0,0:09:47.71,0:09:49.34,Default,,0,0,0,,Да понял я.
+Dialogue: 0,0:09:49.34,0:09:50.92,Default,,0,0,0,,Пора и отцу ММО выходить.
+Dialogue: 0,0:09:50.92,0:09:52.76,Default,,0,0,0,,— Не могла бы ты уже определиться со своим образом?\N— Хрю!
+Dialogue: 0,0:09:52.76,0:09:54.30,Default,,0,0,0,,Я те ща ебну!
 Dialogue: 0,0:09:57.10,0:09:59.55,Default,,0,0,0,,З-здравия желаю... Нисимура...
 Dialogue: 0,0:09:59.56,0:10:01.27,Default,,0,0,0,,И-и тебе не хворать.
 Dialogue: 0,0:10:03.19,0:10:06.52,Default,,0,0,0,,Ась? Кто тебе позволил раскрывать рот в мою сторону?!
-Dialogue: 0,0:10:06.52,0:10:08.40,Default,,0,0,0,,Whoa, aren't you being a bit irrational?
-Dialogue: 0,0:10:08.40,0:10:10.32,Default,,0,0,0,,I see you two are getting along fine today.
-Dialogue: 0,0:10:10.32,0:10:12.78,Default,,0,0,0,,H-How do {\i1}I{\i0} get along fine\Nwith {\i1}that{\i0} disgusting guy?!
-Dialogue: 0,0:10:12.78,0:10:15.70,Default,,0,0,0,,Okay, I'm sorry, Segawa. My bad.
-Dialogue: 0,0:10:18.12,0:10:19.95,Default,,0,0,0,,Wait up, Akane!
+Dialogue: 0,0:10:06.52,0:10:08.40,Default,,0,0,0,,Вут? Мне надо было проигнорировать тебя?
+Dialogue: 0,0:10:08.40,0:10:10.32,Default,,0,0,0,,Похоже, лёд в ваших отношениях тронулся.
+Dialogue: 0,0:10:10.32,0:10:12.78,Default,,0,0,0,,Да что может тронуться при виде этого отвратительного создания?
+Dialogue: 0,0:10:12.78,0:10:15.70,Default,,0,0,0,,Короче, прости, Сегава. Я виноват.
+Dialogue: 0,0:10:18.12,0:10:19.95,Default,,0,0,0,,Обожди, Акане!
 Dialogue: 0,0:10:19.95,0:10:21.29,Default,,0,0,0,,Тебе тоже дали от ворот поворт?
 Dialogue: 0,0:10:21.29,0:10:23.12,Default,,0,0,0,,Да десять раз.
-Dialogue: 0,0:10:23.12,0:10:25.37,Default,,0,0,0,,Yeah, you've got no problem.
-Dialogue: 0,0:10:25.37,0:10:27.96,Default,,0,0,0,,You've got your two-dimensional,\Nno-depth waifu, after all.
-Dialogue: 0,0:10:27.96,0:10:28.92,Default,,0,0,0,,Mm-hmm.
-Dialogue: 0,0:10:29.04,0:10:32.46,Default,,0,0,0,,Listen, my waifu is surprisingly cute,\Nnot to mention wholeheartedly--
-Dialogue: 0,0:10:32.46,0:10:34.72,Default,,0,0,0,,Попался, Русиян!
+Dialogue: 0,0:10:23.12,0:10:25.37,Default,,0,0,0,,Да тебе оно и не надо.
+Dialogue: 0,0:10:25.37,0:10:27.96,Default,,0,0,0,,Всё таки у тебя уже есть твоя двумерная и плоская вайфу.
+Dialogue: 0,0:10:27.96,0:10:28.92,Default,,0,0,0,,Вот вот.
+Dialogue: 0,0:10:29.04,0:10:32.46,Default,,0,0,0,,Вообще то моя вайфу на поверку оказалась очень даже няшной, но самое главное…
+Dialogue: 0,0:10:32.46,0:10:34.72,Default,,0,0,0,,Нашёлся, Русиян!
 Dialogue: 0,0:10:35.72,0:10:37.93,Default,,0,0,0,,Русиян!
 Dialogue: 0,0:10:37.93,0:10:39.14,Default,,0,0,0,,Что за Русиян?
 Dialogue: 0,0:10:39.14,0:10:41.14,Default,,0,0,0,,Впервые слышу.
@@ -214,18 +216,18 @@ Dialogue: 0,0:10:47.23,0:10:48.73,Default,,0,0,0,,Н-нет...
 Dialogue: 0,0:10:48.73,0:10:51.69,Default,,0,0,0,,Русиян, значит, ты в классе Б.
 Dialogue: 0,0:10:51.69,0:10:53.15,Default,,0,0,0,,Русиян? Это она тебе?
 Dialogue: 0,0:10:53.15,0:10:55.70,Default,,0,0,0,,Нет, это... не...
-Dialogue: 0,0:10:57.36,0:11:01.78,Default,,0,0,0,,Is something the matter, Rusian?\NAre you not feeling well, Rusian?
-Dialogue: 0,0:11:01.79,0:11:05.16,Default,,0,0,0,,Are you okay, Rusian? Rusian?!
+Dialogue: 0,0:10:57.36,0:11:01.78,Default,,0,0,0,,Что не так, Русиян?\NТебе нездоровится, Русиян?
+Dialogue: 0,0:11:01.79,0:11:05.16,Default,,0,0,0,,Жить то будешь, Русиян? Русиян?!
 Dialogue: 0,0:11:06.25,0:11:08.87,Default,,0,0,0,,Русиян {\i1}то{\i0}, Русиян {\i1}сё{\i0}...
-Dialogue: 0,0:11:08.88,0:11:12.50,Default,,0,0,0,,Прекрати меня так называть!\NИ какого ты вообще хотела?!
-Dialogue: 0,0:11:12.50,0:11:16.51,Default,,0,0,0,,Так ведь, прошлой ночью мы так мало были вместе.
+Dialogue: 0,0:11:08.88,0:11:12.50,Default,,0,0,0,,Прекрати меня так называть!\NТы ошалела што ле?!
+Dialogue: 0,0:11:12.50,0:11:16.51,Default,,0,0,0,,Так ведь, прошлой ночью мы так мало побыли вместе.
 Dialogue: 0,0:11:16.51,0:11:17.42,Default,,0,0,0,,Э?
 Dialogue: 0,0:11:17.93,0:11:20.85,Default,,0,0,0,,— А-Ако, ты думаешь, что ты говоришь?\N— Не заставляйте меня говорить такое,
-Dialogue: 0,0:11:20.85,0:11:24.81,Default,,0,0,0,,--I-It's not like that! She doesn't\Nmean it that way! Really! Really!\N--Rusian... It's embarrassing, isn't it?
-Dialogue: 0,0:11:24.81,0:11:28.98,Default,,0,0,0,,--So, um, what {\i1}is{\i0} your\Nrelationship with each other?\N--Oh, Rusian, how embarrassing!
-Dialogue: 0,0:11:28.98,0:11:31.65,Default,,0,0,0,,Wait! Don't answer that!
-Dialogue: 0,0:11:31.65,0:11:33.40,Default,,0,0,0,,Rusian...
-Dialogue: 0,0:11:34.40,0:11:37.24,Default,,0,0,0,,...is my dear husband.
+Dialogue: 0,0:11:20.85,0:11:24.81,Default,,0,0,0,,— Не виноватый я! Она сама ко мне пришла! Во вам крест!\N— Русиян... Что мы скажем родителям?
+Dialogue: 0,0:11:24.81,0:11:28.98,Default,,0,0,0,,— Уважаемая, дык в каких вы отношениях дург с другом?\N— Ах, Русиян… стыдоба то какая.
+Dialogue: 0,0:11:28.98,0:11:31.65,Default,,0,0,0,,Стой! Ты имеешь право хранить молчание!
+Dialogue: 0,0:11:31.65,0:11:33.40,Default,,0,0,0,,Русиян...
+Dialogue: 0,0:11:34.40,0:11:37.24,Default,,0,0,0,,...мой возлюбленный хазбандо.
 Dialogue: 0,0:11:46.62,0:11:49.33,Default,,0,0,0,,Excuse me, Tamaki-{\i1}san{\i0}.
 Dialogue: 0,0:11:49.33,0:11:51.29,Default,,0,0,0,,I don't know from Rusians and husbands,
 Dialogue: 0,0:11:51.29,0:11:53.79,Default,,0,0,0,,but take that otaku talk outside, would you?
