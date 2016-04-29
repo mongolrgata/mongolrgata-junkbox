@@ -10,6 +10,16 @@ PlayResX: 1280
 PlayResY: 720
 PlayDepth: 16
 
+[Aegisub Project Garbage]
+Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 03 (AT-X 1280x720 x264 AAC).mkv
+Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 03 (AT-X 1280x720 x264 AAC).mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.500000
+Scroll Position: 145
+Active Line: 147
+Video Position: 13914
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,2,96,96,48,1
@@ -19,14 +29,13 @@ Style: Def_I-T,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,10
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
-Dialogue: 0,0:00:01.50,0:00:04.83,Default,,0,0,0,,Long time {\i1}nyao{\i0} see, Rusian!
-Dialogue: 0,0:00:04.83,0:00:06.67,Default,,0,0,0,,L-Long time no see...
-Dialogue: 0,0:00:06.67,0:00:09.38,Default,,0,0,0,,I see you're still playing this game.
-Dialogue: 0,0:00:09.38,0:00:11.09,Default,,0,0,0,,Of course I am.
-Dialogue: 0,0:00:11.09,0:00:16.76,Default,,0,0,0,,That's terrific. I was worried\Nthat maybe you quit the ga-{\i1}meow{\i0}.
-Dialogue: 0,0:00:16.76,0:00:20.56,Default,,0,0,0,,Ooh... you sure are cute,\Nall right, Nekohime-{\i1}san{\i0}.
-Dialogue: 0,0:00:20.56,0:00:22.56,Default,,0,0,0,,For being a guy on the inside.
+Dialogue: 0,0:00:01.50,0:00:04.83,Default,,0,0,0,,Вот так встреча, Русинян!
+Dialogue: 0,0:00:04.83,0:00:06.67,Default,,0,0,0,,Сколько лет, сколько зим...
+Dialogue: 0,0:00:06.67,0:00:09.38,Default,,0,0,0,,Ты всё ещё играешь в это корейское безобразие?
+Dialogue: 0,0:00:09.38,0:00:11.09,Default,,0,0,0,,Конечно играю.
+Dialogue: 0,0:00:11.09,0:00:16.76,Default,,0,0,0,,Замечательня. А то я беспокоилась, что ты пропал нявсегда.
+Dialogue: 0,0:00:17.70,0:00:20.56,Default,,0,0,0,,Ты всё ещё экзальтируешь меня, Некохиме-сан.
+Dialogue: 0,0:00:20.56,0:00:22.56,Default,,0,0,0,,Хотя под юбкой у тебя нехилый сюрприз.
 Dialogue: 0,0:00:22.56,0:00:25.65,Default,,0,0,0,,Oh, no, what happened back then\Nturned out to be a good experience.
 Dialogue: 0,0:00:25.65,0:00:29.11,Default,,0,0,0,,In fact, right now, it has\Nbecome one of my convictions.
 Dialogue: 0,0:00:29.11,0:00:30.19,Default,,0,0,0,,Convictions?
@@ -54,23 +63,23 @@ Dialogue: 0,0:03:12.59,0:03:15.51,Default,,0,0,0,,Hmm... Ako, I don't think\Nyou
 Dialogue: 0,0:03:15.51,0:03:17.81,Default,,0,0,0,,to be tossing that phrase around.
 Dialogue: 0,0:03:17.81,0:03:21.39,Default,,0,0,0,,Huh. Then if I level up, will it\Nraise our affection level, too?
 Dialogue: 0,0:03:21.39,0:03:24.86,Default,,0,0,0,,Did those two get to know\Neach other in some game?
-Dialogue: 0,0:03:24.86,0:03:26.82,Default,,0,0,0,,B-Beats me.
-Dialogue: 0,0:03:29.07,0:03:30.69,Default,,0,0,0,,Morning.
-Dialogue: 0,0:03:30.70,0:03:32.95,Default,,0,0,0,,Good morning.
+Dialogue: 0,0:03:24.86,0:03:26.82,Default,,0,0,0,,У-ударь меня.
+Dialogue: 0,0:03:29.07,0:03:30.69,Default,,0,0,0,,Здорова.
+Dialogue: 0,0:03:30.70,0:03:32.95,Default,,0,0,0,,Здоровей видали.
 Dialogue: 0,0:03:33.45,0:03:34.70,Default,,0,0,0,,Okay, see you later.
 Dialogue: 0,0:03:34.70,0:03:35.70,Default,,0,0,0,,Yeah.
-Dialogue: 0,0:03:40.58,0:03:43.83,Default,,0,0,0,,Nishimura-{\i1}kun{\i0}, can I have a moment?
+Dialogue: 0,0:03:40.58,0:03:43.83,Default,,0,0,0,,Нисимура-кун, можно я поимею момент?
 Dialogue: 0,0:03:43.83,0:03:47.59,Default,,0,0,0,,Nishimura-{\i1}kun{\i0}, are you and\NTamaki-{\i1}san{\i0} seeing each other?
 Dialogue: 0,0:03:47.59,0:03:49.88,Default,,0,0,0,,N-No, it's not like that!
 Dialogue: 0,0:03:49.88,0:03:51.13,Default,,0,0,0,,You {\i1}do{\i0} get along, though?
 Dialogue: 0,0:03:51.13,0:03:52.80,Default,,0,0,0,,Well, I guess so.
-Dialogue: 0,0:03:52.80,0:03:55.05,Default,,0,0,0,,Then make sure to be nice to her.
-Dialogue: 0,0:03:55.05,0:03:58.81,Default,,0,0,0,,Tamaki-{\i1}san{\i0} doesn't seem to have many friends.
+Dialogue: 0,0:03:52.80,0:03:55.05,Default,,0,0,0,,В таком случае будь нежен с ней.
+Dialogue: 0,0:03:55.05,0:03:58.81,Default,,0,0,0,,Тамаки-сан создаёт впечатление человека, у которого мало друзей.
 Dialogue: 0,0:03:58.81,0:04:01.10,Default,,0,0,0,,She has been missing a lot of school lately.
 Dialogue: 0,0:04:01.10,0:04:02.81,Default,,0,0,0,,So I've heard.
-Dialogue: 0,0:04:04.77,0:04:06.06,Default,,0,0,0,,Goshoin-{\i1}san{\i0}...
-Dialogue: 0,0:04:06.06,0:04:08.57,Default,,0,0,0,,Oh, Mast--Madam President.
-Dialogue: 0,0:04:08.57,0:04:10.86,Default,,0,0,0,,Hey, Nishimura Hideki-{\i1}kun{\i0}.
+Dialogue: 0,0:04:04.77,0:04:06.06,Default,,0,0,0,,Госёин-сан...
+Dialogue: 0,0:04:06.06,0:04:08.57,Default,,0,0,0,,О, Лид… Президент студсовета
+Dialogue: 0,0:04:08.57,0:04:10.86,Default,,0,0,0,,О, Нисимура Хидеки-кун.
 Dialogue: 0,0:04:10.86,0:04:14.03,Default,,0,0,0,,Ms. Saito, regarding what\Nwe spoke about yesterday...
 Dialogue: 0,0:04:14.03,0:04:18.83,Default,,0,0,0,,Oh, forgive me. I need to\Nget to the Literary Club.
 Dialogue: 0,0:04:18.83,0:04:22.12,Default,,0,0,0,,If you could at least provide me with a name?
@@ -104,9 +113,9 @@ Dialogue: 0,0:05:37.86,0:05:39.11,Default,,0,0,0,,I have one of those.
 Dialogue: 0,0:05:39.12,0:05:40.66,Default,,0,0,0,,Then use it!
 Dialogue: 0,0:05:43.74,0:05:46.37,Default,,0,0,0,,What are you laughing at, Master?
 Dialogue: 0,0:05:52.17,0:05:55.63,Default,,0,0,0,,This flame robe really is unattractive.
-Dialogue: 0,0:05:56.63,0:05:58.13,Default,,0,0,0,,Here it comes!
+Dialogue: 0,0:05:56.63,0:05:58.13,Default,,0,0,0,,Сагрил одного!
 Dialogue: 0,0:05:59.51,0:06:04.26,Default,,0,0,0,,All right, then, watch my\NUmaibo Staff shoot flames--
-Dialogue: 0,0:06:05.56,0:06:08.27,Default,,0,0,0,,What are you doing, Schwein?\NWhy are you holding my arm?
+Dialogue: 0,0:06:05.56,0:06:08.27,Default,,0,0,0,,Ты чё творишь, Швайн? Тебе ручка нужна?
 Dialogue: 0,0:06:08.27,0:06:11.06,Default,,0,0,0,,I thought we said that\Npremium items were off-limits.
 Dialogue: 0,0:06:11.06,0:06:14.40,Default,,0,0,0,,Hmm, in that case, I don't\Nhave any items I can use.
 Dialogue: 0,0:06:14.40,0:06:17.19,Default,,0,0,0,,Whoa, these are mostly\Npremium items, aren't they?!
@@ -136,7 +145,7 @@ Dialogue: 0,0:07:30.10,0:07:33.15,Default,,0,0,0,,Ah! Rusian, you're good at thi
 Dialogue: 0,0:07:34.19,0:07:39.15,Default,,0,0,0,,Whoo... That seemed a lot more\Nexhausting than our usual grinding.
 Dialogue: 0,0:07:39.15,0:07:42.49,Default,,0,0,0,,The second half went better,\Nand our efficiency went up, didn't it?
 Dialogue: 0,0:07:42.49,0:07:46.49,Default,,0,0,0,,That's because Nishimura worked\Nhalf of Ako's controls, isn't it?
-Dialogue: 0,0:07:46.49,0:07:48.99,Default,,0,0,0,,That was good work, Rusian.
+Dialogue: 0,0:07:46.49,0:07:48.99,Default,,0,0,0,,У тебя в ухе сколопендра, Русиян.
 Dialogue: 0,0:07:50.08,0:07:53.79,Default,,0,0,0,,I get the feeling that I was a\Nlot more use to everyone today.
 Dialogue: 0,0:07:53.79,0:07:56.63,Default,,0,0,0,,Y-Yeah, huh? That's great.
 Dialogue: 0,0:08:00.55,0:08:03.30,Default,,0,0,0,,I've been coming to school\Nwithout a break for a while now,
@@ -147,9 +156,9 @@ Dialogue: 0,0:08:12.52,0:08:14.73,Default,,0,0,0,,so whatever happens along\Nthe
 Dialogue: 0,0:08:14.73,0:08:17.52,Default,,0,0,0,,Hold on. I never agreed to that.
 Dialogue: 0,0:08:17.52,0:08:21.07,Default,,0,0,0,,Huh? Don't tell me you'd\Nrather we were dual-income?
 Dialogue: 0,0:08:21.57,0:08:24.66,Default,,0,0,0,,If I had to choose, I'd say I prefer two incomes.
-Dialogue: 0,0:08:24.66,0:08:27.37,Default,,0,0,0,,Huh? What was that?
+Dialogue: 0,0:08:24.66,0:08:27.37,Default,,0,0,0,,Ась? Чо сказал?
 Dialogue: 0,0:08:27.37,0:08:29.45,Default,,0,0,0,,I prefer two incomes.
-Dialogue: 0,0:08:29.45,0:08:31.33,Default,,0,0,0,,Huh? What was that?
+Dialogue: 0,0:08:29.45,0:08:31.33,Default,,0,0,0,,Чего-чего? Ни черта не слышно, что ты там мямлишь.
 Dialogue: 0,0:08:31.33,0:08:32.87,Default,,0,0,0,,Look, you!
 Dialogue: 0,0:08:34.96,0:08:37.50,Default,,0,0,0,,What's the matter, Rusian?
 Dialogue: 0,0:08:38.00,0:08:42.80,Default,,0,0,0,,Oh, I was just thinking that I'm\Ngetting used to being called "Rusian."
