@@ -16,10 +16,9 @@ Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 03 (AT-X 1280x720 x264 AAC).mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.625000
-Scroll Position: 10
-Active Line: 18
-Video Position: 4958
+Video Zoom Percent: 0.500000
+Active Line: 7
+Video Position: 11427
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -40,35 +39,33 @@ Dialogue: 0,0:00:09.38,0:00:11.09,Default,,0,0,0,,Конечно играю.
 Dialogue: 0,0:00:11.09,0:00:16.76,Default,,0,0,0,,Замечательня. А то я беспокоилась, что ты пропал нявсегда.
 Dialogue: 0,0:00:17.70,0:00:20.56,Default,,0,0,0,,Ты всё ещё экзальтируешь меня, Некохиме-сан.
 Dialogue: 0,0:00:20.56,0:00:22.56,Default,,0,0,0,,Хотя под юбкой у тебя нехилый сюрприз.
-Dialogue: 0,0:00:22.56,0:00:25.65,Default,,0,0,0,,Ах да, говоря о том, что случилось между нами, я это пережил.
-Dialogue: 0,0:00:25.65,0:00:29.11,Default,,0,0,0,,Более того, это переросло в своего рода убеждение.
-Dialogue: 0,0:00:29.11,0:00:30.19,Default,,0,0,0,,Убеждение?
-Dialogue: 0,0:00:30.19,0:00:33.11,Default,,0,0,0,,Да. «Эскапируй от реальности изо всех сил».
-Dialogue: 0,0:00:33.11,0:00:34.99,Default,,0,0,0,,«Реальность и игры не имеют ничего общего».
-Dialogue: 0,0:00:36.74,0:00:39.08,Default,,0,0,0,,Некохиме-сан, а ты тут какими судьбами?
-Dialogue: 0,0:00:39.08,0:00:41.95,Default,,0,0,0,,Давненько о тебе не было ни слуху ни духу.
-Dialogue: 0,0:00:41.96,0:00:44.75,Default,,0,0,0,,Да на работе нявалилось всего.
-Dialogue: 0,0:00:44.75,0:00:49.21,Default,,0,0,0,,Но сегодня один чел помянал игру ИРЛ, и я подумала тряхнуть стариной.
-Dialogue: 0,0:00:49.21,0:00:51.01,Default,,0,0,0,,Кулстори.
-Dialogue: 0,0:00:51.01,0:00:54.01,Default,,0,0,0,,Принятно снова встретиться, Русиян.
-Dialogue: 0,0:02:35.47,0:02:39.31,Def_Top,,0,0,0,,[ЛВЛ. 03: Думал, игры и реальность не имеют ничего общего?]
+Dialogue: 0,0:00:22.56,0:00:25.65,Default,,0,0,0,,Oh, no, what happened back then\Nturned out to be a good experience.
+Dialogue: 0,0:00:25.65,0:00:29.11,Default,,0,0,0,,In fact, right now, it has\Nbecome one of my convictions.
+Dialogue: 0,0:00:29.11,0:00:30.19,Default,,0,0,0,,Convictions?
+Dialogue: 0,0:00:30.19,0:00:33.11,Default,,0,0,0,,Yes. "Don't concern yourself with real life."
+Dialogue: 0,0:00:33.11,0:00:34.99,Default,,0,0,0,,"Reality and the game are separate."
+Dialogue: 0,0:00:36.74,0:00:39.08,Default,,0,0,0,,What about you, though, Nekohime-{\i1}san{\i0}?
+Dialogue: 0,0:00:39.08,0:00:41.95,Default,,0,0,0,,I had heard that you\Nhadn't logged in for a while.
+Dialogue: 0,0:00:41.96,0:00:44.75,Default,,0,0,0,,My job has gotten a little busy.
+Dialogue: 0,0:00:44.75,0:00:49.21,Default,,0,0,0,,Today, someone mentioned the game\Nin real life, and I decided to log in {\i1}meow{\i0}.
+Dialogue: 0,0:00:49.21,0:00:51.01,Default,,0,0,0,,Is that right?
+Dialogue: 0,0:00:51.01,0:00:54.01,Default,,0,0,0,,I'm glad to see you again, Rusian.
+Dialogue: 0,0:02:35.47,0:02:39.31,Def_Top,,0,0,0,,"LV. 03: I thought net games\Nand reality were different?"
 Dialogue: 0,0:02:37.85,0:02:39.81,Default,,0,0,0,,Ты чего здесь зависаешь?
-Dialogue: 0,0:02:39.81,0:02:43.48,Default,,0,0,0,,{\pos(640,620)}Очевидно же, чтобы уважить своего господина с утра пораньше.
-Dialogue: 0,0:02:43.48,0:02:49.28,Default,,0,0,0,,{\pos(640,620)}Эм, Тамаки-сан, похоже, что ты ещё не до конца разлогинилась из игры в реальность.
-Dialogue: 0,0:02:49.28,0:02:50.99,Default,,0,0,0,,{\pos(640,620)}Что ты делаешь? Прекрати.
-Dialogue: 0,0:02:50.99,0:02:52.07,Default,,0,0,0,,{\pos(640,620)}Шо?
-Dialogue: 0,0:02:52.07,0:02:55.99,Default,,0,0,0,,{\pos(640,620)}Не «шо», а «что». И да, ты говоришь «господин»
-Dialogue: 0,0:02:55.99,0:02:58.29,Default,,0,0,0,,будто горничная какая.
-Dialogue: 0,0:02:58.29,0:03:01.67,Default,,0,0,0,,Вот как? Ну тогда…
-Dialogue: 0,0:03:02.88,0:03:04.59,Default,,0,0,0,,Пора вставать мой...
-Dialogue: 0,0:03:05.59,0:03:06.20,Default,,0,0,0,,...же{\alpha&HFF&}ребец.
-Dialogue: 0,0:03:06.20,0:03:06.95,Default,,0,0,0,,...жере{\alpha&HFF&}бец.
-Dialogue: 0,0:03:06.95,0:03:08.01,Default,,0,0,0,,...жеребец.
-Dialogue: 0,0:03:11.09,0:03:12.59,Default,,0,0,0,,Игноришь меня?!
-Dialogue: 0,0:03:12.59,0:03:15.51,Default,,0,0,0,,Хмм... Не думаю, что твоя харизма достаточно прокачана,
-Dialogue: 0,0:03:15.51,0:03:17.81,Default,,0,0,0,,чтобы тебе открылась опция с такой фразой.
-Dialogue: 0,0:03:17.81,0:03:21.39,Default,,0,0,0,,Ашта? Неужели я запорола персонажа неудачно распределив статы?
-Dialogue: 0,0:03:21.39,0:03:24.86,Default,,0,0,0,,Что у них там за ролевые игры?
+Dialogue: 0,0:02:39.81,0:02:43.48,Default,,0,0,0,,Why, to pay my morning respects\Nto my master, of course.
+Dialogue: 0,0:02:43.48,0:02:49.28,Default,,0,0,0,,Uh, look, Tamaki-{\i1}san{\i0},\Nthat's in the {\i1}game{\i0}, not in real life.
+Dialogue: 0,0:02:49.28,0:02:50.99,Default,,0,0,0,,Would you stop doing that, already?
+Dialogue: 0,0:02:50.99,0:02:52.07,Default,,0,0,0,,Huh?
+Dialogue: 0,0:02:52.07,0:02:55.99,Default,,0,0,0,,Don't "huh?" me. Besides, calling me "master"
+Dialogue: 0,0:02:55.99,0:02:58.29,Default,,0,0,0,,makes you sound less like a wife,\Nand more like a maid.
+Dialogue: 0,0:02:58.29,0:03:01.67,Default,,0,0,0,,Is that right? Well then...
+Dialogue: 0,0:03:02.88,0:03:04.59,Default,,0,0,0,,It's morning...
+Dialogue: 0,0:03:05.59,0:03:08.01,Default,,0,0,0,,...hon-ey-bunch.
+Dialogue: 0,0:03:11.09,0:03:12.59,Default,,0,0,0,,You're ignoring that?!
+Dialogue: 0,0:03:12.59,0:03:15.51,Default,,0,0,0,,Hmm... Ako, I don't think\Nyou've got enough status
+Dialogue: 0,0:03:15.51,0:03:17.81,Default,,0,0,0,,to be tossing that phrase around.
+Dialogue: 0,0:03:17.81,0:03:21.39,Default,,0,0,0,,Huh. Then if I level up, will it\Nraise our affection level, too?
+Dialogue: 0,0:03:21.39,0:03:24.86,Default,,0,0,0,,Did those two get to know\Neach other in some game?
 Dialogue: 0,0:03:24.86,0:03:26.82,Default,,0,0,0,,У-ударь меня.
 Dialogue: 0,0:03:29.07,0:03:30.69,Default,,0,0,0,,Здорова.
 Dialogue: 0,0:03:30.70,0:03:32.95,Default,,0,0,0,,Здоровей видали.
