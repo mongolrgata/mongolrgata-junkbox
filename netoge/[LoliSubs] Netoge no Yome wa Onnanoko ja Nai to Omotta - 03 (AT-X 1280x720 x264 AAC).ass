@@ -17,8 +17,9 @@ Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Active Line: 7
-Video Position: 11427
+Scroll Position: 55
+Active Line: 79
+Video Position: 7178
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -39,68 +40,78 @@ Dialogue: 0,0:00:09.38,0:00:11.09,Default,,0,0,0,,Конечно играю.
 Dialogue: 0,0:00:11.09,0:00:16.76,Default,,0,0,0,,Замечательня. А то я беспокоилась, что ты пропал нявсегда.
 Dialogue: 0,0:00:17.70,0:00:20.56,Default,,0,0,0,,Ты всё ещё экзальтируешь меня, Некохиме-сан.
 Dialogue: 0,0:00:20.56,0:00:22.56,Default,,0,0,0,,Хотя под юбкой у тебя нехилый сюрприз.
-Dialogue: 0,0:00:22.56,0:00:25.65,Default,,0,0,0,,Oh, no, what happened back then\Nturned out to be a good experience.
-Dialogue: 0,0:00:25.65,0:00:29.11,Default,,0,0,0,,In fact, right now, it has\Nbecome one of my convictions.
-Dialogue: 0,0:00:29.11,0:00:30.19,Default,,0,0,0,,Convictions?
-Dialogue: 0,0:00:30.19,0:00:33.11,Default,,0,0,0,,Yes. "Don't concern yourself with real life."
-Dialogue: 0,0:00:33.11,0:00:34.99,Default,,0,0,0,,"Reality and the game are separate."
-Dialogue: 0,0:00:36.74,0:00:39.08,Default,,0,0,0,,What about you, though, Nekohime-{\i1}san{\i0}?
-Dialogue: 0,0:00:39.08,0:00:41.95,Default,,0,0,0,,I had heard that you\Nhadn't logged in for a while.
-Dialogue: 0,0:00:41.96,0:00:44.75,Default,,0,0,0,,My job has gotten a little busy.
-Dialogue: 0,0:00:44.75,0:00:49.21,Default,,0,0,0,,Today, someone mentioned the game\Nin real life, and I decided to log in {\i1}meow{\i0}.
-Dialogue: 0,0:00:49.21,0:00:51.01,Default,,0,0,0,,Is that right?
-Dialogue: 0,0:00:51.01,0:00:54.01,Default,,0,0,0,,I'm glad to see you again, Rusian.
-Dialogue: 0,0:02:35.47,0:02:39.31,Def_Top,,0,0,0,,"LV. 03: I thought net games\Nand reality were different?"
+Dialogue: 0,0:00:22.56,0:00:25.65,Default,,0,0,0,,Ах да, говоря о том, что случилось между нами, я это пережил.
+Dialogue: 0,0:00:25.65,0:00:29.11,Default,,0,0,0,,Более того, это переросло в своего рода убеждение.
+Dialogue: 0,0:00:29.11,0:00:30.19,Default,,0,0,0,,Убеждение?
+Dialogue: 0,0:00:30.19,0:00:33.11,Default,,0,0,0,,Да. «Эскапируй от реальности изо всех сил».
+Dialogue: 0,0:00:33.11,0:00:34.99,Default,,0,0,0,,«Реальность и игры не имеют ничего общего».
+Dialogue: 0,0:00:36.74,0:00:39.08,Default,,0,0,0,,Некохиме-сан, а ты тут какими судьбами?
+Dialogue: 0,0:00:39.08,0:00:41.95,Default,,0,0,0,,Давненько о тебе не было ни слуху ни духу.
+Dialogue: 0,0:00:41.96,0:00:44.75,Default,,0,0,0,,Да на работе нявалилось всего.
+Dialogue: 0,0:00:44.75,0:00:49.21,Default,,0,0,0,,Но сегодня один чел помянал игру ИРЛ, и я подумала тряхнуть стариной.
+Dialogue: 0,0:00:49.21,0:00:51.01,Default,,0,0,0,,Кулстори.
+Dialogue: 0,0:00:51.01,0:00:54.01,Default,,0,0,0,,Принятно снова встретиться, Русиян.
+Dialogue: 0,0:02:35.47,0:02:39.31,Def_Top,,0,0,0,,[ЛВЛ. 03: Думал, игры и реальность не имеют ничего общего?]
 Dialogue: 0,0:02:37.85,0:02:39.81,Default,,0,0,0,,Ты чего здесь зависаешь?
-Dialogue: 0,0:02:39.81,0:02:43.48,Default,,0,0,0,,Why, to pay my morning respects\Nto my master, of course.
-Dialogue: 0,0:02:43.48,0:02:49.28,Default,,0,0,0,,Uh, look, Tamaki-{\i1}san{\i0},\Nthat's in the {\i1}game{\i0}, not in real life.
-Dialogue: 0,0:02:49.28,0:02:50.99,Default,,0,0,0,,Would you stop doing that, already?
-Dialogue: 0,0:02:50.99,0:02:52.07,Default,,0,0,0,,Huh?
-Dialogue: 0,0:02:52.07,0:02:55.99,Default,,0,0,0,,Don't "huh?" me. Besides, calling me "master"
-Dialogue: 0,0:02:55.99,0:02:58.29,Default,,0,0,0,,makes you sound less like a wife,\Nand more like a maid.
-Dialogue: 0,0:02:58.29,0:03:01.67,Default,,0,0,0,,Is that right? Well then...
-Dialogue: 0,0:03:02.88,0:03:04.59,Default,,0,0,0,,It's morning...
-Dialogue: 0,0:03:05.59,0:03:08.01,Default,,0,0,0,,...hon-ey-bunch.
-Dialogue: 0,0:03:11.09,0:03:12.59,Default,,0,0,0,,You're ignoring that?!
-Dialogue: 0,0:03:12.59,0:03:15.51,Default,,0,0,0,,Hmm... Ako, I don't think\Nyou've got enough status
-Dialogue: 0,0:03:15.51,0:03:17.81,Default,,0,0,0,,to be tossing that phrase around.
-Dialogue: 0,0:03:17.81,0:03:21.39,Default,,0,0,0,,Huh. Then if I level up, will it\Nraise our affection level, too?
-Dialogue: 0,0:03:21.39,0:03:24.86,Default,,0,0,0,,Did those two get to know\Neach other in some game?
+Dialogue: 0,0:02:39.81,0:02:43.48,Default,,0,0,0,,{\pos(640,620)}Очевидно же, чтобы уважить своего господина с утра пораньше.
+Dialogue: 0,0:02:43.48,0:02:49.28,Default,,0,0,0,,{\pos(640,620)}Эм, Тамаки-сан, похоже, что ты ещё не до конца разлогинилась из игры в реальность.
+Dialogue: 0,0:02:49.28,0:02:50.99,Default,,0,0,0,,{\pos(640,620)}Что ты делаешь? Прекрати.
+Dialogue: 0,0:02:50.99,0:02:52.07,Default,,0,0,0,,{\pos(640,620)}Шо?
+Dialogue: 0,0:02:52.07,0:02:55.99,Default,,0,0,0,,{\pos(640,620)}Не «шо», а «что». И да, ты говоришь «господин»
+Dialogue: 0,0:02:55.99,0:02:58.29,Default,,0,0,0,,будто горничная какая.
+Dialogue: 0,0:02:58.29,0:03:01.67,Default,,0,0,0,,Вот как? Ну тогда…
+Dialogue: 0,0:03:02.88,0:03:04.59,Default,,0,0,0,,Пора вставать мой...
+Dialogue: 0,0:03:05.59,0:03:06.20,Default,,0,0,0,,...же{\alpha&HFF&}ребец.
+Dialogue: 0,0:03:06.20,0:03:06.95,Default,,0,0,0,,...жере{\alpha&HFF&}бец.
+Dialogue: 0,0:03:06.95,0:03:08.01,Default,,0,0,0,,...жеребец.
+Dialogue: 0,0:03:11.09,0:03:12.59,Default,,0,0,0,,Игноришь меня?!
+Dialogue: 0,0:03:12.59,0:03:15.51,Default,,0,0,0,,Хмм... Не думаю, что твоя харизма достаточно прокачана,
+Dialogue: 0,0:03:15.51,0:03:17.81,Default,,0,0,0,,чтобы тебе открылась опция с такой фразой.
+Dialogue: 0,0:03:17.81,0:03:21.39,Default,,0,0,0,,Ашта? Неужели я запорола персонажа неудачно распределив статы?
+Dialogue: 0,0:03:21.39,0:03:24.86,Default,,0,0,0,,Что у них там за ролевые игры?
 Dialogue: 0,0:03:24.86,0:03:26.82,Default,,0,0,0,,У-ударь меня.
 Dialogue: 0,0:03:29.07,0:03:30.69,Default,,0,0,0,,Здорова.
 Dialogue: 0,0:03:30.70,0:03:32.95,Default,,0,0,0,,Здоровей видали.
-Dialogue: 0,0:03:33.45,0:03:34.70,Default,,0,0,0,,Okay, see you later.
-Dialogue: 0,0:03:34.70,0:03:35.70,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:03:33.45,0:03:34.70,Default,,0,0,0,,Ну, я пойду.
+Dialogue: 0,0:03:34.70,0:03:35.70,Default,,0,0,0,,Давай.
 Dialogue: 0,0:03:40.58,0:03:43.83,NopeHeader,,0,0,0,,{\p1}m 810 636 l 881 612 l 952 636{\p0}
 Dialogue: 1,0:03:40.58,0:03:43.83,NopeFooter,,0,0,0,,{\p1}m 810 669 l 952 669 l 952 680 l 810 680 {\p0}
 Dialogue: 2,0:03:40.58,0:03:43.83,Nope,,0,0,0,,{\p1}m 808 636 l 808 669 l 954 670 l 954 636{\p0}
 Dialogue: 3,0:03:40.58,0:03:43.83,Default,,0,0,0,,Нисимура-кун, могу я иметь {\c&H0000FF&\3c&H000000&\3a&HFF&}Момент{\r} ?
 Dialogue: 0,0:03:43.83,0:03:47.59,Default,,0,0,0,,Нисимура-кун, ты и Тамаки-сан уже няшились под хвостик?
 Dialogue: 0,0:03:47.59,0:03:49.88,Default,,0,0,0,,Н-нет, до этого у нас ещё не дошло!
-Dialogue: 0,0:03:49.88,0:03:51.13,Default,,0,0,0,,You {\i1}do{\i0} get along, though?
-Dialogue: 0,0:03:51.13,0:03:52.80,Default,,0,0,0,,Well, I guess so.
+Dialogue: 0,0:03:49.88,0:03:51.13,Default,,0,0,0,,Вы же неплохо ладите?
+Dialogue: 0,0:03:51.13,0:03:52.80,Default,,0,0,0,,Полагаю, что да.
 Dialogue: 0,0:03:52.80,0:03:55.05,Default,,0,0,0,,В таком случае будь нежен с ней.
-Dialogue: 0,0:03:55.05,0:03:58.81,Default,,0,0,0,,Тамаки-сан создаёт впечатление человека, у которого мало друзей.
-Dialogue: 0,0:03:58.81,0:04:01.10,Default,,0,0,0,,She has been missing a lot of school lately.
-Dialogue: 0,0:04:01.10,0:04:02.81,Default,,0,0,0,,So I've heard.
+Dialogue: 0,0:03:55.05,0:03:58.81,Default,,0,0,0,,Тамаки-сан создаёт впечатление человека, у которого не так много друзей.
+Dialogue: 0,0:03:58.81,0:04:01.10,Default,,0,0,0,,До недавних пор она почти не ходила в школу.
+Dialogue: 0,0:04:01.10,0:04:02.81,Default,,0,0,0,,Наслышан, ага.
 Dialogue: 0,0:04:04.77,0:04:06.06,Default,,0,0,0,,Госёин-сан...
 Dialogue: 0,0:04:06.06,0:04:08.57,Default,,0,0,0,,О, Лид… Президент студсовета
 Dialogue: 0,0:04:08.57,0:04:10.86,Default,,0,0,0,,О, Нисимура Хидеки-кун.
-Dialogue: 0,0:04:10.86,0:04:14.03,Default,,0,0,0,,Ms. Saito, regarding what\Nwe spoke about yesterday...
-Dialogue: 0,0:04:14.03,0:04:18.83,Default,,0,0,0,,Oh, forgive me. I need to\Nget to the Literary Club.
-Dialogue: 0,0:04:18.83,0:04:22.12,Default,,0,0,0,,If you could at least provide me with a name?
-Dialogue: 0,0:04:23.04,0:04:24.54,Def_Top,,0,0,0,,"Modern Communication Electronic Game Club"
-Dialogue: 0,0:04:24.72,0:04:29.59,Default,,0,0,0,,H-e-l-l-o... Ru-si-an...
-Dialogue: 0,0:04:29.59,0:04:31.84,Default,,0,0,0,,You don't actually have to\Ntype out your chats, you know.
-Dialogue: 0,0:04:31.84,0:04:33.42,Default,,0,0,0,,Ah, that's right!
-Dialogue: 0,0:04:33.59,0:04:36.72,Default,,0,0,0,,Woo-hoo! It's so light, it's so light!
-Dialogue: 0,0:04:36.72,0:04:40.43,Default,,0,0,0,,All right, today, let's go to\Nthe Bluemke Megavolcano!
-Dialogue: 0,0:04:40.43,0:04:43.81,Default,,0,0,0,,Very well. Okay, everyone gear up.
-Dialogue: 0,0:04:43.81,0:04:45.31,Default,,0,0,0,,Yeah!
-Dialogue: 0,0:04:48.52,0:04:51.82,Default,,0,0,0,,Hmm? Hey, Ako, can I have a look at your gear?
-Dialogue: 0,0:04:51.82,0:04:53.61,Default,,0,0,0,,Okay, go ahead.
-Dialogue: 0,0:04:55.57,0:04:57.24,Default,,0,0,0,,Th-This is nuts.
-Dialogue: 0,0:04:57.24,0:04:58.28,Default,,0,0,0,,Huh?
+Dialogue: 0,0:04:10.86,0:04:14.03,Default,,0,0,0,,Учитель Саито, я по вопросу, который мы с вами обсуждали вчера…
+Dialogue: 0,0:04:14.03,0:04:18.83,Default,,0,0,0,,Ах это… Прошу извинить, но меня уже занял литературный клуб.
+Dialogue: 0,0:04:18.83,0:04:22.12,Default,,0,0,0,,Не разрешите нам хотя бы использовать ваше имя де-юре?
+Dialogue: 0,0:04:23.04,0:04:24.54,Def_Top,,0,0,0,,[Клуб изучения средств взаимодействия в онлайновых играх]
+Dialogue: 0,0:04:24.72,0:04:25.11,Default,,0,0,0,,Q_{\alpha&HFF&}Q мой милый Русиян [Enter]
+Dialogue: 0,0:04:25.11,0:04:25.62,Default,,0,0,0,,QQ_{\alpha&HFF&} мой милый Русиян [Enter]
+Dialogue: 0,0:04:25.62,0:04:26.16,Default,,0,0,0,,QQ мой_{\alpha&HFF&} милый Русиян [Enter]
+Dialogue: 0,0:04:26.16,0:04:26.66,Default,,0,0,0,,QQ мой ми_{\alpha&HFF&}лый Русиян [Enter]
+Dialogue: 0,0:04:26.66,0:04:27.28,Default,,0,0,0,,QQ мой милый_{\alpha&HFF&} Русиян [Enter]
+Dialogue: 0,0:04:27.28,0:04:27.70,Default,,0,0,0,,QQ мой милый Ру_{\alpha&HFF&}сиян [Enter]
+Dialogue: 0,0:04:27.70,0:04:28.20,Default,,0,0,0,,QQ мой милый Руси_{\alpha&HFF&}ян [Enter]
+Dialogue: 0,0:04:28.20,0:04:29.04,Default,,0,0,0,,QQ мой милый Русиян_{\alpha&HFF&} [Enter]
+Dialogue: 0,0:04:29.04,0:04:29.59,Default,,0,0,0,,QQ мой милый Русиян [Enter]{\alpha&HFF&}_
+Dialogue: 0,0:04:29.59,0:04:31.84,Default,,0,0,0,,Тебе не обязательно надиктовывать вслух.
+Dialogue: 0,0:04:31.84,0:04:33.42,Default,,0,0,0,,А? И правда же…
+Dialogue: 0,0:04:33.59,0:04:36.72,Default,,0,0,0,,Азаза! Кручу-верчу!
+Dialogue: 0,0:04:36.72,0:04:40.43,Default,,0,0,0,,Збс, сегодня пойдём к мегавулкану Блюмке!
+Dialogue: 0,0:04:40.43,0:04:43.81,Default,,0,0,0,,Очень хорошо. Всем подобрать себе шмот.
+Dialogue: 0,0:04:43.81,0:04:45.31,Default,,0,0,0,,Ура!
+Dialogue: 0,0:04:48.52,0:04:51.82,Default,,0,0,0,,Эй, Ако, дай-ка глянуть свой эквип.
+Dialogue: 0,0:04:51.82,0:04:53.61,Default,,0,0,0,,Пожалуйста, не стесняйся.
+Dialogue: 0,0:04:55.57,0:04:57.24,Default,,0,0,0,,В-всё очень плохо.
+Dialogue: 0,0:04:57.24,0:04:58.28,Default,,0,0,0,,Чеита?
 Dialogue: 0,0:04:58.28,0:04:59.41,Default,,0,0,0,,If we're going to the megavolcano,
 Dialogue: 0,0:04:59.41,0:05:01.83,Default,,0,0,0,,why are you equipping a robe\Nwith water resistance?
 Dialogue: 0,0:05:01.83,0:05:06.71,Default,,0,0,0,,I got this robe from you,\NRusian, so I wear it proudly.
