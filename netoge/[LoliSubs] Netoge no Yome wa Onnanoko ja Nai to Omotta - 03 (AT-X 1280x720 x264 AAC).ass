@@ -16,10 +16,10 @@ Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 03 (AT-X 1280x720 x264 AAC).mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.625000
-Scroll Position: 117
-Active Line: 122
-Video Position: 16463
+Video Zoom Percent: 0.500000
+Scroll Position: 270
+Active Line: 275
+Video Position: 22337
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -175,7 +175,7 @@ Dialogue: 0,0:08:21.57,0:08:24.66,Default,,0,0,0,,Если уж выбирать
 Dialogue: 0,0:08:24.66,0:08:27.37,Default,,0,0,0,,Ась? Чо сказал?
 Dialogue: 0,0:08:27.37,0:08:29.45,Default,,0,0,0,,Варуювонакилми.
 Dialogue: 0,0:08:29.45,0:08:31.33,Default,,0,0,0,,Чего? Что ты там мямлишь?
-Dialogue: 0,0:08:31.33,0:08:32.87,Default,,0,0,0,,Сюткина натравлю!
+Dialogue: 0,0:08:31.33,0:08:32.87,Default,,0,0,0,,Ой всё!
 Dialogue: 0,0:08:34.96,0:08:37.50,Default,,0,0,0,,Чо приуныл, Русиян?
 Dialogue: 0,0:08:38.00,0:08:42.80,Default,,0,0,0,,Да нет, похоже, я уже привык к тому, что ты называешь меня «Русияном». Такие дела.
 Dialogue: 0,0:08:42.80,0:08:46.05,Default,,0,0,0,,Ой, прости, Нисимура-кун.
@@ -204,7 +204,7 @@ Dialogue: 0,0:10:00.42,0:10:02.09,Default,,0,0,0,,Ты по-маленькому
 Dialogue: 0,0:10:02.09,0:10:03.88,Default,,0,0,0,,Как пойдёт.
 Dialogue: 0,0:10:11.18,0:10:12.25,Default,,0,0,0,,Так, на чём мы там оста…
 Dialogue: 0,0:10:13.26,0:10:15.39,Default,,0,0,0,,Вут? Как это понимать?!
-Dialogue: 0,0:10:15.39,0:10:17.39,Default,,0,0,0,,Шу-тян, тебе так идёт!
+Dialogue: 0,0:10:15.39,0:10:17.39,Default,,0,0,0,,Шу-тян кавайненькая!
 Dialogue: 0,0:10:17.39,0:10:19.06,Default,,0,0,0,,Шу, мочи!
 Dialogue: 0,0:10:19.06,0:10:20.06,Default,,0,0,0,,Ашта?
 Dialogue: 0,0:10:23.69,0:10:26.53,Default,,0,0,0,,Откуда у меня стручок порея? Да ещё и с таким дамагом!
@@ -228,85 +228,86 @@ Dialogue: 0,0:11:11.74,0:11:14.20,Default,,0,0,0,,У нас нет курато�
 Dialogue: 0,0:11:14.20,0:11:17.33,Default,,0,0,0,,у нас нет разрешения на деятельность клуба.
 Dialogue: 0,0:11:17.33,0:11:19.25,Default,,0,0,0,,Так что его роспуск лишь дело времени.
 Dialogue: 0,0:11:20.25,0:11:23.37,Default,,0,0,0,,Хотелось бы достичь нашей цели до того, как это произойдёт.
-Dialogue: 0,0:11:28.39,0:11:29.93,Default,,0,0,0,,Nekohime-{\i1}san{\i0}!
-Dialogue: 0,0:11:30.43,0:11:32.97,Default,,0,0,0,,Oh, Rusian!
-Dialogue: 0,0:11:32.98,0:11:36.56,Default,,0,0,0,,Um, I could use a little advice.
-Dialogue: 0,0:11:36.56,0:11:38.90,Default,,0,0,0,,Hmm, I see.
-Dialogue: 0,0:11:38.90,0:11:42.78,Default,,0,0,0,,She absolutely cannot distinguish\Nbetween real life and the game.
-Dialogue: 0,0:11:42.78,0:11:46.91,Default,,0,0,0,,I get it. I just heard a similar tale\Nfrom someone else close to {\i1}meow{\i0}.
-Dialogue: 0,0:11:46.91,0:11:50.33,Default,,0,0,0,,This girl is, how shall I say? At risk.
-Dialogue: 0,0:11:50.33,0:11:54.54,Default,,0,0,0,,One false step, and she could\Nhave had a really hard fall.
-Dialogue: 0,0:11:54.54,0:11:56.21,Default,,0,0,0,,Rusian, you're quite a guy.
-Dialogue: 0,0:11:56.21,0:11:58.21,Default,,0,0,0,,Huh? You think so?
-Dialogue: 0,0:11:58.21,0:12:00.29,Default,,0,0,0,,Have faith in yourself meow!
-Dialogue: 0,0:12:00.80,0:12:04.42,Default,,0,0,0,,Leave it to someone out in\Nthe world. That cheers me up.
-Dialogue: 0,0:12:04.42,0:12:08.09,Default,,0,0,0,,Um, if it's okay, I'd like to ask\Nyour advice again sometime, please.
-Dialogue: 0,0:12:08.09,0:12:09.68,Default,,0,0,0,,But of course.
-Dialogue: 0,0:12:12.31,0:12:15.31,Default,,0,0,0,,Ako... I mean, Tamaki-{\i1}san{\i0}...
-Dialogue: 0,0:12:15.31,0:12:17.10,Default,,0,0,0,,Come sit down here for a minute.
-Dialogue: 0,0:12:17.60,0:12:20.73,Default,,0,0,0,,Huh? Is something the matter, Rusian?
-Dialogue: 0,0:12:20.73,0:12:23.44,Default,,0,0,0,,I'm not Rusian. I'm Nishimura.
-Dialogue: 0,0:12:23.44,0:12:26.70,Default,,0,0,0,,Huh? Oh, right, Nishimura-{\i1}kun{\i0}.
-Dialogue: 0,0:12:26.70,0:12:30.99,Default,,0,0,0,,This club will end soon,\Nso I'm going to say this again.
-Dialogue: 0,0:12:30.99,0:12:32.99,Default,,0,0,0,,The game and reality are separate.
-Dialogue: 0,0:12:32.99,0:12:35.66,Default,,0,0,0,,Tamaki-{\i1}san{\i0}, in the game, you and I are married,
-Dialogue: 0,0:12:35.66,0:12:38.50,Default,,0,0,0,,but at school, we're ordinary classmates.
-Dialogue: 0,0:12:38.50,0:12:41.29,Default,,0,0,0,,From here on, let's treat\Neach other like regular friends.
-Dialogue: 0,0:12:42.30,0:12:44.80,Default,,0,0,0,,Also, when it comes to people\Nyou only know in the game,
-Dialogue: 0,0:12:44.80,0:12:49.18,Default,,0,0,0,,and who you haven't actually met,\Nyou shouldn't let your guard down.
-Dialogue: 0,0:12:49.18,0:12:53.05,Default,,0,0,0,,Rusian, did someone say something to you?
-Dialogue: 0,0:12:53.06,0:12:54.31,Default,,0,0,0,,Huh?
-Dialogue: 0,0:12:54.31,0:12:59.06,Default,,0,0,0,,You met someone, right?\NAnd they said something to you, right?
-Dialogue: 0,0:12:59.06,0:13:00.40,Default,,0,0,0,,Was it a woman?
-Dialogue: 0,0:13:00.40,0:13:01.98,Default,,0,0,0,,No, no, no, it wasn't!
-Dialogue: 0,0:13:01.98,0:13:04.44,Default,,0,0,0,,I see. So it {\i1}was {\i0}a woman.
-Dialogue: 0,0:13:04.44,0:13:06.32,Default,,0,0,0,,No, it wasn't!
-Dialogue: 0,0:13:06.82,0:13:11.28,Default,,0,0,0,,Rusian, a wife can tell at a glance\Nwhen her husband is unfaithful.
-Dialogue: 0,0:13:11.28,0:13:12.70,Default,,0,0,0,,I'm {\i1}not{\i0} being unfaithful!
-Dialogue: 0,0:13:12.70,0:13:14.87,Default,,0,0,0,,Could I ask for her name?
-Dialogue: 0,0:13:14.87,0:13:17.04,Default,,0,0,0,,--Why?\N--I want to pay my respects.
-Dialogue: 0,0:13:17.04,0:13:18.41,Default,,0,0,0,,No, don't!
-Dialogue: 0,0:13:18.41,0:13:23.71,Default,,0,0,0,,Why not? I just want to thank the person\Nwho is helping my husband out.
-Dialogue: 0,0:13:25.25,0:13:28.68,Default,,0,0,0,,Of all the things you've ever said,\NAko, that is the scariest.
-Dialogue: 0,0:13:30.18,0:13:32.05,Default,,0,0,0,,You just don't know...
-Dialogue: 0,0:13:32.05,0:13:36.31,Default,,0,0,0,,...when you're beaten! My anger\Nis euphoric right now, even for me!
-Dialogue: 0,0:13:37.77,0:13:39.93,Default,,0,0,0,,Your Japanese is taking a weird turn, there.
-Dialogue: 0,0:13:42.19,0:13:45.23,Default,,0,0,0,,And so, she saw through me in a second.
-Dialogue: 0,0:13:46.48,0:13:49.36,Default,,0,0,0,,Rusian, you're so easy to read, after all {\i1}meow{\i0}.
-Dialogue: 0,0:13:55.53,0:13:57.16,Default,,0,0,0,,I saw you.
-Dialogue: 0,0:13:57.16,0:13:59.33,Default,,0,0,0,,Wah! A-Ako!
-Dialogue: 0,0:13:59.33,0:14:02.29,Default,,0,0,0,,You like that woman who says "meow," huh?
-Dialogue: 0,0:14:02.29,0:14:05.54,Default,,0,0,0,,Rusian, is that kind of woman\Nthe girl of your dreams {\i1}meow{\i0}?
-Dialogue: 0,0:14:05.54,0:14:07.25,Default,,0,0,0,,Don't you do it, too!
-Dialogue: 0,0:14:07.25,0:14:09.34,Default,,0,0,0,,That person is just an acquaintance.
-Dialogue: 0,0:14:09.34,0:14:12.34,Default,,0,0,0,,Remember, the cross-player I\Nmentioned telling that I loved?
-Dialogue: 0,0:14:14.22,0:14:18.10,Default,,0,0,0,,Rusian, {\i1}that's{\i0} who you\Ntold you loved... you say?
-Dialogue: 0,0:14:18.10,0:14:20.23,Default,,0,0,0,,I'm so jeal-- This is outrag--
-Dialogue: 0,0:14:20.23,0:14:22.77,Default,,0,0,0,,I mean, what an awful person she is!
-Dialogue: 0,0:14:22.77,0:14:24.48,Default,,0,0,0,,Your true feelings are pretty obvious.
-Dialogue: 0,0:14:24.48,0:14:30.99,Default,,0,0,0,,Break my pure Rusian's heart, will she?\NI'll teach that woman a lesson!
-Dialogue: 0,0:14:30.99,0:14:34.11,Default,,0,0,0,,Cut it out, dummy!\NBothering me may be one thing,
-Dialogue: 0,0:14:34.12,0:14:37.12,Default,,0,0,0,,but I'm not going to let you\Nbother Nekohime-{\i1}san{\i0}, too.
-Dialogue: 0,0:14:37.12,0:14:38.28,Default,,0,0,0,,Rusian...
-Dialogue: 0,0:14:38.29,0:14:40.71,Default,,0,0,0,,You read me? I mean it this time.
-Dialogue: 0,0:14:41.71,0:14:43.21,Default,,0,0,0,,I understand.
-Dialogue: 0,0:14:43.21,0:14:47.84,Default,,0,0,0,,Well, I have some business to\Ntake care of, so I must be going.
-Dialogue: 0,0:14:47.84,0:14:50.46,Default,,0,0,0,,Huh? H-Hey, hold on...
-Dialogue: 0,0:14:57.05,0:14:58.97,Default,,0,0,0,,Say, Nishimura-{\i1}kun{\i0},
-Dialogue: 0,0:14:58.97,0:15:01.14,Default,,0,0,0,,is Tamaki-{\i1}san{\i0} not here today?
-Dialogue: 0,0:15:01.14,0:15:02.14,Default,,0,0,0,,Huh?
-Dialogue: 0,0:15:03.73,0:15:06.06,Default,,0,0,0,,She was in the game last night, right?
-Dialogue: 0,0:15:06.06,0:15:09.06,Default,,0,0,0,,Same as always-- Ah, it's Ako!
-Dialogue: 0,0:15:09.07,0:15:11.44,Default,,0,0,0,,What is that girl up to?
-Dialogue: 0,0:15:11.07,0:15:11.94,Def_Top,,0,0,0,,"Good morning"
-Dialogue: 0,0:15:12.07,0:15:12.65,Def_Top,,0,0,0,,"Rusian"
-Dialogue: 0,0:15:13.86,0:15:15.36,Default,,0,0,0,,Why aren't you at school?
-Dialogue: 0,0:15:15.36,0:15:19.33,Default,,0,0,0,,I had a bit of important business\Nto handle, so I took the day off.
-Dialogue: 0,0:15:19.33,0:15:20.91,Default,,0,0,0,,What important business?
-Dialogue: 0,0:15:22.25,0:15:23.33,Default,,0,0,0,,An offline meeting.
-Dialogue: 0,0:15:23.33,0:15:25.08,Default,,0,0,0,,Offline meeting?
-Dialogue: 0,0:15:25.08,0:15:27.00,Default,,0,0,0,,I don't know anything about it.
-Dialogue: 0,0:15:27.00,0:15:28.21,Default,,0,0,0,,With who?
+Dialogue: 0,0:11:28.39,0:11:29.93,Default,,0,0,0,,Некохиме-сан!
+Dialogue: 0,0:11:30.43,0:11:32.97,Default,,0,0,0,,Русиян!
+Dialogue: 0,0:11:32.98,0:11:36.56,Default,,0,0,0,,Это… Могу я спросить совета?
+Dialogue: 0,0:11:36.56,0:11:38.90,Default,,0,0,0,,Хм, понятня.
+Dialogue: 0,0:11:38.90,0:11:42.78,Default,,0,0,0,,Она совершенно не видит разницы между игрой и реальностью.
+Dialogue: 0,0:11:42.78,0:11:46.91,Default,,0,0,0,,Зняю такое. Один мой знякомый рассказывал подобную историю.
+Dialogue: 0,0:11:46.91,0:11:50.33,Default,,0,0,0,,Эта девочка… Как бы это сказать? Рискует.
+Dialogue: 0,0:11:50.33,0:11:54.54,Default,,0,0,0,,Один неверный шаг, и для неё всё закончится сопливой трагедией.
+Dialogue: 0,0:11:54.54,0:11:56.21,Default,,0,0,0,,Русиян, ты такой хороший.
+Dialogue: 0,0:11:56.21,0:11:58.21,Default,,0,0,0,,А? Ты так думаешь?
+Dialogue: 0,0:11:58.21,0:12:00.29,Default,,0,0,0,,Верь в себя ня!
+Dialogue: 0,0:12:00.80,0:12:04.42,Default,,0,0,0,,Нужно было просто обсудить с кем-то проблему. Это придало мне сил.
+Dialogue: 0,0:12:04.42,0:12:08.09,Default,,0,0,0,,Если ты не против, я бы хотел в будущем ещё спросить твоего совета.
+Dialogue: 0,0:12:08.09,0:12:09.68,Default,,0,0,0,,Ну конечня.
+Dialogue: 0,0:12:12.31,0:12:15.31,Default,,0,0,0,,Ако... То есть Тамаки-сан...
+Dialogue: 0,0:12:15.31,0:12:17.10,Default,,0,0,0,,Есть разговор. Присядь, пожалуйста.
+Dialogue: 0,0:12:17.60,0:12:20.73,Default,,0,0,0,,М? Что-то случилось, Русиян?
+Dialogue: 0,0:12:20.73,0:12:23.44,Default,,0,0,0,,Не Русиян, но Нисимура.
+Dialogue: 0,0:12:23.44,0:12:26.70,Default,,0,0,0,,А? Хорошо, Нисимура-кун.
+Dialogue: 0,0:12:26.70,0:12:30.99,Default,,0,0,0,,Клуб скоро распустят, так что я хотел бы кое-что сказать тебе напоследок.
+Dialogue: 0,0:12:30.99,0:12:32.99,Default,,0,0,0,,Игры и реальность не имеют ничего общего.
+Dialogue: 0,0:12:32.99,0:12:35.66,Default,,0,0,0,,Тамаки-сан, пусть в игре мы с тобой и поженились,
+Dialogue: 0,0:12:35.66,0:12:38.50,Default,,0,0,0,,но в школе мы всего лишь одноклассники.
+Dialogue: 0,0:12:38.50,0:12:41.29,Default,,0,0,0,,С этого момента давай вести себя как обычные друзья.
+Dialogue: 0,0:12:42.30,0:12:44.80,Default,,0,0,0,,И ещё, насчёт людей, с которыми ты познакомилась в игре
+Dialogue: 0,0:12:44.80,0:12:49.18,Default,,0,0,0,,и никогда не видела их в реальности, будь с ними осторожна.
+Dialogue: 0,0:12:49.18,0:12:53.05,Default,,0,0,0,,Русиян, кто-то промывал тебе мозги?
+Dialogue: 0,0:12:53.06,0:12:54.31,Default,,0,0,0,,Вут?
+Dialogue: 0,0:12:54.31,0:12:55.83,Default,,0,0,0,,Ты ведь встречался с кем-то?
+Dialogue: 0,0:12:55.83,0:12:59.06,Default,,0,0,0,,А потом этот кто-то внушил тебе что-то?
+Dialogue: 0,0:12:59.06,0:13:00.40,Default,,0,0,0,,Это была девушка?
+Dialogue: 0,0:13:00.40,0:13:01.98,Default,,0,0,0,,Ненене, всё не так!
+Dialogue: 0,0:13:01.98,0:13:04.44,Default,,0,0,0,,Значит… таки это девушка.
+Dialogue: 0,0:13:04.44,0:13:06.32,Default,,0,0,0,,Да нет же!
+Dialogue: 0,0:13:06.82,0:13:11.28,Default,,0,0,0,,Русиян, хорошая жена может в первого взгляда понять, что муж ей изменяет.
+Dialogue: 0,0:13:11.28,0:13:12.70,Default,,0,0,0,,Я требую адвоката!
+Dialogue: 0,0:13:12.70,0:13:14.87,Default,,0,0,0,,Могу я узнать её имя?
+Dialogue: 0,0:13:14.87,0:13:17.04,Default,,0,0,0,,— Зачем?\N— Хотела бы отдать дань уважения.
+Dialogue: 0,0:13:17.04,0:13:18.41,Default,,0,0,0,,Окстись!
+Dialogue: 0,0:13:18.41,0:13:23.71,Default,,0,0,0,,Отчего же? Я просто немного поговорю с девушкой, которая помогла моему мужу в трудную минуту.
+Dialogue: 0,0:13:25.25,0:13:28.68,Default,,0,0,0,,Чую это добром не кончится,\NАко, ты же яндере во плоти.
+Dialogue: 0,0:13:30.18,0:13:32.05,Default,,0,0,0,,Ты себе не представляешь...
+Dialogue: 0,0:13:32.05,0:13:36.31,Default,,0,0,0,,...как я сейчас горю! Подо мной стул нагрелся, что сидеть невозможно!
+Dialogue: 0,0:13:37.77,0:13:39.93,Default,,0,0,0,,Огнетушитель в углу комнаты.
+Dialogue: 0,0:13:42.19,0:13:45.23,Default,,0,0,0,,В итоге она раскусила меня в два счёта.
+Dialogue: 0,0:13:46.48,0:13:49.36,Default,,0,0,0,,Русиян, ты такой простофиня.
+Dialogue: 0,0:13:55.53,0:13:57.16,Default,,0,0,0,,А вот и я.
+Dialogue: 0,0:13:57.16,0:13:59.33,Default,,0,0,0,,Вуш! А-Ако?
+Dialogue: 0,0:13:59.33,0:14:02.29,Default,,0,0,0,,Вижу, ты западаешь на някающих девушек.
+Dialogue: 0,0:14:02.29,0:14:05.54,Default,,0,0,0,,Значит вот какой тип девушек в твоём вкусе, ня.
+Dialogue: 0,0:14:05.54,0:14:07.25,Default,,0,0,0,,Не смей!
+Dialogue: 0,0:14:07.25,0:14:09.34,Default,,0,0,0,,Просто мы играли раньше вместе.
+Dialogue: 0,0:14:09.34,0:14:12.34,Default,,0,0,0,,Помнишь, я рассказывал про трапа, которому признался в любви?
+Dialogue: 0,0:14:14.22,0:14:18.10,Default,,0,0,0,,Русиян признался в любви этому... человеку?
+Dialogue: 0,0:14:18.10,0:14:20.23,Default,,0,0,0,,А мне ни разу… Как же так…
+Dialogue: 0,0:14:20.23,0:14:22.77,Default,,0,0,0,,Точнее… Что за бесчувственная скотина?
+Dialogue: 0,0:14:22.77,0:14:24.48,Default,,0,0,0,,Клавиатуру не сломай.
+Dialogue: 0,0:14:24.48,0:14:30.99,Default,,0,0,0,,Любому, кто вздумал растоптать невинные чувства моего Русияна, я преподам такой урок, что его не скоро забудешь.
+Dialogue: 0,0:14:30.99,0:14:34.11,Default,,0,0,0,,Успокойся, бака! Я то ладно…
+Dialogue: 0,0:14:34.12,0:14:37.12,Default,,0,0,0,,но если будешь докучать\NНекохиме-сан, я тебя не прощу.
+Dialogue: 0,0:14:37.12,0:14:38.28,Default,,0,0,0,,Русиян...
+Dialogue: 0,0:14:38.29,0:14:40.71,Default,,0,0,0,,Поняла? В этот раз я не шучу.
+Dialogue: 0,0:14:41.71,0:14:43.21,Default,,0,0,0,,Я поняла.
+Dialogue: 0,0:14:43.21,0:14:47.84,Default,,0,0,0,,Засим у меня остались кое-какие дела, пожалуй, я пойду.
+Dialogue: 0,0:14:47.84,0:14:50.46,Default,,0,0,0,,Э? Эй, п-постой...
+Dialogue: 0,0:14:57.05,0:14:58.97,Default,,0,0,0,,Скажи, Нисимура-кун,
+Dialogue: 0,0:14:58.97,0:15:01.14,Default,,0,0,0,,сегодня Тамаки-сан не придёт?
+Dialogue: 0,0:15:01.14,0:15:02.14,Default,,0,0,0,,Вут?
+Dialogue: 0,0:15:03.73,0:15:06.06,Default,,0,0,0,,Она ведь заходила в игру прошлой ночью?
+Dialogue: 0,0:15:06.06,0:15:09.06,Default,,0,0,0,,Да, как всегда… О, Ако!
+Dialogue: 0,0:15:09.07,0:15:11.44,Default,,0,0,0,,Что она вытворяет?
+Dialogue: 0,0:15:11.07,0:15:11.94,Def_Top,,0,0,0,,[Добрый день]
+Dialogue: 0,0:15:12.07,0:15:12.65,Def_Top,,0,0,0,,[Русиян]
+Dialogue: 0,0:15:13.86,0:15:15.36,Default,,0,0,0,,Почему не в школе?
+Dialogue: 0,0:15:15.36,0:15:19.33,Default,,0,0,0,,Да кое-какое дельце нарисовалось, так что я взяла выходной.
+Dialogue: 0,0:15:19.33,0:15:20.91,Default,,0,0,0,,Что за дельце?
+Dialogue: 0,0:15:22.25,0:15:23.33,Default,,0,0,0,,Сходка.
+Dialogue: 0,0:15:23.33,0:15:25.08,Default,,0,0,0,,Сходка?
+Dialogue: 0,0:15:25.08,0:15:27.00,Default,,0,0,0,,Нет, я тут ни при чём.
+Dialogue: 0,0:15:27.00,0:15:28.21,Default,,0,0,0,,С кем это?
 Dialogue: 0,0:15:28.21,0:15:31.67,Default,,0,0,0,,It's a personal one-one-one,\Nwith someone that I know.
 Dialogue: 0,0:15:31.67,0:15:33.76,Default,,0,0,0,,Someone you know? In LA?
 Dialogue: 0,0:15:33.76,0:15:34.76,Default,,0,0,0,,Yes.
