@@ -11,14 +11,15 @@ PlayResY: 720
 PlayDepth: 16
 
 [Aegisub Project Garbage]
+Last Style Storage: Default
 Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 04 (AT-X 1280x720 x264 AAC).mkv
 Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 04 (AT-X 1280x720 x264 AAC).mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 60
-Active Line: 66
-Video Position: 7779
+Scroll Position: 57
+Active Line: 59
+Video Position: 2593
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -26,82 +27,82 @@ Style: Default,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100
 Style: Def_Top,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,8,96,96,48,1
 Style: Def_Ita,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.2,0,2,96,96,48,1
 Style: Def_I-T,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.2,0,8,96,96,48,1
+Style: Default_AN1,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,1,64,96,48,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 0,0:00:09.60,0:00:13.85,Default,,0,0,0,,{\an5}It happened after I declared\Nmy love to Nekohime-{\i1}san{\i0}.
-Dialogue: 0,0:00:09.60,0:00:13.85,Default,,0,0,0,,
+Dialogue: 0,0:00:09.60,0:00:13.85,Default,,0,0,0,,Случилось это тогда, когда я оправился от неудачного
 Dialogue: 0,0:00:13.85,0:00:17.14,Default,,0,0,0,,{\an5}Back when I was brokenhearted,\Nand playing solo.
-Dialogue: 0,0:00:13.85,0:00:17.14,Default,,0,0,0,,
+Dialogue: 0,0:00:13.85,0:00:17.14,Default,,0,0,0,,акта признания Некохиме-сан, и мне надоело играть соло.
 Dialogue: 0,0:00:19.94,0:00:22.36,Default,,0,0,0,,{\an5}You want to join our guild?
-Dialogue: 0,0:00:19.94,0:00:22.36,Default,,0,0,0,,
+Dialogue: 0,0:00:19.94,0:00:22.36,Default,,0,0,0,,Ты хочешь вступить в нашу гильдию?
 Dialogue: 0,0:00:22.36,0:00:24.61,Default,,0,0,0,,{\an5}Yes, if you'll please have me.
-Dialogue: 0,0:00:22.36,0:00:24.61,Default,,0,0,0,,
+Dialogue: 0,0:00:22.36,0:00:24.61,Default,,0,0,0,,Да, очень на это надеюсь.
 Dialogue: 0,0:00:24.61,0:00:27.11,Default,,0,0,0,,{\an5}Well, let me interview you, here.
-Dialogue: 0,0:00:24.61,0:00:27.11,Default,,0,0,0,,
+Dialogue: 0,0:00:24.61,0:00:27.11,Default,,0,0,0,,Тогда начнём собеседование.
 Dialogue: 0,0:00:27.11,0:00:28.40,Default,,0,0,0,,{\an5}Huh? Interview?
-Dialogue: 0,0:00:27.11,0:00:28.40,Default,,0,0,0,,
+Dialogue: 0,0:00:27.11,0:00:28.40,Default,,0,0,0,,Вут? Собеседование?
 Dialogue: 0,0:00:28.41,0:00:31.28,Default,,0,0,0,,{\an5}First, what are your reasons\Nfor wishing to join us?
-Dialogue: 0,0:00:28.41,0:00:31.28,Default,,0,0,0,,
+Dialogue: 0,0:00:28.41,0:00:31.28,Default,,0,0,0,,Для начала ответь, зачем ты хочешь в нашу гильдию?
 Dialogue: 0,0:00:31.28,0:00:35.04,Default,,0,0,0,,{\an5}Huh? Well, playing solo, it gets\Nkind of lonely, and I was thinking,
-Dialogue: 0,0:00:31.28,0:00:35.04,Default,,0,0,0,,
+Dialogue: 0,0:00:31.28,0:00:35.04,Default,,0,0,0,,А? Эм… Играть соло стало слишком утомительно, и я подумал,
 Dialogue: 0,0:00:35.04,0:00:38.62,Default,,0,0,0,,{\an5}if I joined a guild, I could try\Ndevoting myself more to the game.
-Dialogue: 0,0:00:35.04,0:00:38.62,Default,,0,0,0,,
+Dialogue: 0,0:00:35.04,0:00:38.62,Default,,0,0,0,,что если вступлю в какую-нибудь гильдию, то будет интереснее.
 Dialogue: 0,0:00:38.62,0:00:40.75,Default,,0,0,0,,{\an5}What do you do IRL?
-Dialogue: 0,0:00:38.62,0:00:40.75,Default,,0,0,0,,
+Dialogue: 0,0:00:38.62,0:00:40.75,Default,,0,0,0,,Чем ты занимаешься ИРЛ?
 Dialogue: 0,0:00:40.75,0:00:42.50,Default,,0,0,0,,{\an5}I-I'm a high school student.
-Dialogue: 0,0:00:40.75,0:00:42.50,Default,,0,0,0,,
+Dialogue: 0,0:00:40.75,0:00:42.50,Default,,0,0,0,,У-учусь в старшей школе.
 Dialogue: 0,0:00:42.50,0:00:44.75,Default,,0,0,0,,{\an5}Meaning that you're the type\Nwho drops out when it's time to eat,
-Dialogue: 0,0:00:42.50,0:00:44.75,Default,,0,0,0,,
+Dialogue: 0,0:00:42.50,0:00:45.98,Default,,0,0,0,,А это значит, что ты из тех, кто ливает, чтобы покушать или подмыться,
 Dialogue: 0,0:00:44.76,0:00:49.26,Default,,0,0,0,,{\an5}drops out when you need to bathe,\Nand can't log in late at night?
-Dialogue: 0,0:00:44.76,0:00:49.26,Default,,0,0,0,,
+Dialogue: 0,0:00:45.98,0:00:49.26,Default,,0,0,0,,и не может оставаться онлайн до поздней ночи.
 Dialogue: 0,0:00:49.26,0:00:51.47,Default,,0,0,0,,{\an5}Our style is such that, once we start grinding,
-Dialogue: 0,0:00:49.26,0:00:51.47,Default,,0,0,0,,
+Dialogue: 0,0:00:49.26,0:00:51.47,Default,,0,0,0,,Наш подход таков, что отправившись в данж,
 Dialogue: 0,0:00:51.47,0:00:54.06,Default,,0,0,0,,{\an5}we take at the very least three hours to finish,
-Dialogue: 0,0:00:51.47,0:00:54.06,Default,,0,0,0,,
+Dialogue: 0,0:00:51.47,0:00:54.06,Default,,0,0,0,,мы проводим там не менее трёх часов не прерываясь,
 Dialogue: 0,0:00:54.06,0:00:55.52,Default,,0,0,0,,{\an5}so I don't think you'll fit in.
-Dialogue: 0,0:00:54.06,0:00:55.52,Default,,0,0,0,,
+Dialogue: 0,0:00:54.06,0:00:55.52,Default,,0,0,0,,поэтому ты нам не подходишь.
 Dialogue: 0,0:00:55.52,0:01:00.44,Default,,0,0,0,,{\an5}I-I see. Well, if I dropped\Nout of school, I'd fit in--
-Dialogue: 0,0:00:55.52,0:01:00.44,Default,,0,0,0,,
+Dialogue: 0,0:00:55.52,0:01:00.44,Default,,0,0,0,,В-вот как. Намекаете на то, что мне нужно уйти из школы,
 Dialogue: 0,0:01:00.44,0:01:01.94,Default,,0,0,0,,{\an5}is that what you're getting at?
-Dialogue: 0,0:01:00.44,0:01:01.94,Default,,0,0,0,,
+Dialogue: 0,0:01:00.44,0:01:01.94,Default,,0,0,0,,чтобы вы меня приняли?
 Dialogue: 0,0:01:01.94,0:01:04.52,Default,,0,0,0,,{\an5}That's right. We have many people in our guild
-Dialogue: 0,0:01:01.94,0:01:04.52,Default,,0,0,0,,
+Dialogue: 0,0:01:01.94,0:01:04.52,Default,,0,0,0,,THIS. Большинство членов нашей гильдии
 Dialogue: 0,0:01:04.53,0:01:07.65,Default,,0,0,0,,{\an5}who have quit work and\Nschool to play net games.
-Dialogue: 0,0:01:04.53,0:01:07.65,Default,,0,0,0,,
+Dialogue: 0,0:01:04.53,0:01:07.65,Default,,0,0,0,,бросили работу и учёбу, чтобы это не отвлекало от игры.
 Dialogue: 0,0:01:10.82,0:01:13.32,Default,,0,0,0,,{\an5}You know about reincarnation, right?
-Dialogue: 0,0:01:10.82,0:01:13.32,Default,,0,0,0,,
+Dialogue: 0,0:01:10.82,0:01:13.32,Default,,0,0,0,,Ты же слышал про морф персонажа?{морф}
 Dialogue: 0,0:01:13.33,0:01:15.74,Default,,0,0,0,,{\an5}Yeah. Once you've maxed out your level,
-Dialogue: 0,0:01:13.33,0:01:15.74,Default,,0,0,0,,
+Dialogue: 0,0:01:13.33,0:01:15.74,Default,,0,0,0,,Офк. При достижении лампы,{каплевел}
 Dialogue: 0,0:01:15.74,0:01:19.25,Default,,0,0,0,,{\an5}you can create a new character\Nand bring your skills over to them.
-Dialogue: 0,0:01:15.74,0:01:19.25,Default,,0,0,0,,
+Dialogue: 0,0:01:15.74,0:01:19.25,Default,,0,0,0,,ты можешь переродиться\Nдля получения адванс-профы.
 Dialogue: 0,0:01:19.25,0:01:22.38,Default,,0,0,0,,{\an5}Our guild is loaded with characters like that.
-Dialogue: 0,0:01:19.25,0:01:22.38,Default,,0,0,0,,
+Dialogue: 0,0:01:19.25,0:01:22.38,Default,,0,0,0,,В нашей гильдии все персонажи именно такие.
 Dialogue: 0,0:01:25.05,0:01:29.47,Default,,0,0,0,,{\an5}Um, er, I uh, think that might\Nbe too much for me, so um...
-Dialogue: 0,0:01:25.05,0:01:29.47,Default,,0,0,0,,
+Dialogue: 0,0:01:25.05,0:01:29.47,Default,,0,0,0,,А… Ну… Я это… Д-думаю, для меня это слишком… в общем…
 Dialogue: 0,0:01:29.47,0:01:31.13,Default,,0,0,0,,{\an5}E-Excuse me!
-Dialogue: 0,0:01:29.47,0:01:31.13,Default,,0,0,0,,
+Dialogue: 0,0:01:29.47,0:01:31.13,Default,,0,0,0,,Я ливаю!
 Dialogue: 0,0:01:35.35,0:01:36.97,Default,,0,0,0,,{\an5}So that's what happened.
-Dialogue: 0,0:01:35.35,0:01:36.97,Default,,0,0,0,,
+Dialogue: 0,0:01:35.35,0:01:36.97,Default,,0,0,0,,Такая вот история.
 Dialogue: 0,0:01:36.97,0:01:39.73,Default,,0,0,0,,{\an5}That was a pretty hardcore guild, huh?
-Dialogue: 0,0:01:36.97,0:01:39.73,Default,,0,0,0,,
+Dialogue: 0,0:01:36.97,0:01:39.73,Default,,0,0,0,,Повезло же наткнуться на гильдию задротов.
 Dialogue: 0,0:01:39.73,0:01:44.81,Default,,0,0,0,,{\an5}Yeah, {\i1}hard{\i0} hardcore. A completely\Ndifferent, scarier world than ours.
-Dialogue: 0,0:01:39.73,0:01:44.81,Default,,0,0,0,,
+Dialogue: 0,0:01:39.73,0:01:44.81,Default,,0,0,0,,Да уж, сплошные корейцы. Они свидетели тёмной стороны игры.
 Dialogue: 0,0:01:45.32,0:01:48.19,Default,,0,0,0,,{\an5}Though scary wasn't all they were.
 Dialogue: 0,0:01:45.32,0:01:48.19,Default,,0,0,0,,
 Dialogue: 0,0:01:48.19,0:01:49.74,Default,,0,0,0,,{\an5}Say, hold up.
-Dialogue: 0,0:01:48.19,0:01:49.74,Default,,0,0,0,,
+Dialogue: 0,0:01:48.19,0:01:49.74,Default,,0,0,0,,Слышь, постой.
 Dialogue: 0,0:01:50.74,0:01:54.57,Default,,0,0,0,,{\an5}Even if you're not in our guild,\Nyou're still a fellow game player.
 Dialogue: 0,0:01:50.74,0:01:54.57,Default,,0,0,0,,
 Dialogue: 0,0:01:54.58,0:01:57.16,Default,,0,0,0,,{\an5}If you have trouble with anything,\Nfeel free to stop by anytime.
 Dialogue: 0,0:01:54.58,0:01:57.16,Default,,0,0,0,,
 Dialogue: 0,0:02:00.12,0:02:03.00,Default,,0,0,0,,{\an5}Still, it's kind of nice, isn't it?
-Dialogue: 0,0:02:00.12,0:02:03.00,Default,,0,0,0,,
+Dialogue: 0,0:02:00.12,0:02:03.00,Default,,0,0,0,,Всё же это так заманчиво.
 Dialogue: 0,0:02:03.00,0:02:04.29,Default,,0,0,0,,{\an5}What's nice?
-Dialogue: 0,0:02:03.00,0:02:04.29,Default,,0,0,0,,
+Dialogue: 0,0:02:03.00,0:02:04.29,Default,,0,0,0,,Что именно?
 Dialogue: 0,0:02:04.29,0:02:08.25,Default,,0,0,0,,{\an5}Living just for the game,\Nlike those guild people do.
-Dialogue: 0,0:02:04.29,0:02:08.25,Default,,0,0,0,,
+Dialogue: 0,0:02:04.29,0:02:08.25,Default,,0,0,0,,Подобно им, бросить всё ради игры.
 Dialogue: 0,0:02:08.26,0:02:11.09,Default,,0,0,0,,{\an5}Hey, now, you just barely got\Nso you're coming to school again,
 Dialogue: 0,0:02:08.26,0:02:11.09,Default,,0,0,0,,
 Dialogue: 0,0:02:11.09,0:02:12.88,Default,,0,0,0,,{\an5}and now you want to become a wreck again?
@@ -111,13 +112,13 @@ Dialogue: 0,0:02:12.89,0:02:15.80,Default,,0,0,0,,
 Dialogue: 0,0:02:15.80,0:02:18.35,Default,,0,0,0,,{\an5}and have you support me, Rusian...
 Dialogue: 0,0:02:15.80,0:02:18.35,Default,,0,0,0,,
 Dialogue: 0,0:02:22.14,0:02:25.31,Default,,0,0,0,,{\an5}I forgot my wallet at home.
-Dialogue: 0,0:02:22.14,0:02:25.31,Default,,0,0,0,,
+Dialogue: 0,0:02:22.14,0:02:25.31,Default,,0,0,0,,Кошелёк дома забыла.
 Dialogue: 0,0:02:25.31,0:02:26.35,Default,,0,0,0,,{\an5}Huh?
-Dialogue: 0,0:02:25.31,0:02:26.35,Default,,0,0,0,,
+Dialogue: 0,0:02:25.31,0:02:26.35,Default,,0,0,0,,Э?
 Dialogue: 0,0:02:26.36,0:02:28.19,Default,,0,0,0,,{\an5}Oh, but that's okay.
-Dialogue: 0,0:02:26.36,0:02:28.19,Default,,0,0,0,,
+Dialogue: 0,0:02:26.36,0:02:28.19,Default,,0,0,0,,Ах, но это ничего.
 Dialogue: 0,0:02:28.19,0:02:31.24,Default,,0,0,0,,{\an5}If I sell off some unwanted items,\NI can at least afford a soda.
-Dialogue: 0,0:02:28.19,0:02:31.24,Default,,0,0,0,,
+Dialogue: 0,0:02:28.19,0:02:31.24,Default,,0,0,0,,Чтобы купить что-нибудь ненужное,\Nнужно сначала продать что-нибудь ненужное.
 Dialogue: 0,0:02:31.24,0:02:34.16,Default,,0,0,0,,{\an5}Hey, we're not in the game right now.
 Dialogue: 0,0:02:31.24,0:02:34.16,Default,,0,0,0,,
 Dialogue: 0,0:02:34.16,0:02:37.32,Default,,0,0,0,,{\an5}That's true; I can't open my inventory.
@@ -127,7 +128,13 @@ Dialogue: 0,0:02:37.83,0:02:40.33,Default,,0,0,0,,
 Dialogue: 0,0:04:21.60,0:04:26.35,Def_Top,,0,0,0,,{\an5}"LV. 04: I thought her secret\Nwasn't going to get out?"
 Dialogue: 0,0:04:21.60,0:04:26.35,Def_Top,,0,0,0,,
 Dialogue: 0,0:04:21.60,0:04:25.22,Default,,0,0,0,,{\an5}--Maegasaki! Fight! Fight! Fight!\N--Oh! Oh! Oh!
-Dialogue: 0,0:04:21.60,0:04:25.22,Default,,0,0,0,,
+Dialogue: 0,0:04:21.60,0:04:22.57,Default_AN1,,0,0,0,,— За Родину!{\alpha&HFF&} Ать! Ать! Ать!\N— Оп! Оп! Оп!
+Dialogue: 0,0:04:22.57,0:04:22.90,Default_AN1,,0,0,0,,— За Родину! Ать!{\alpha&HFF&} Ать! Ать!\N— Оп! Оп! Оп!
+Dialogue: 0,0:04:22.90,0:04:23.32,Default_AN1,,0,0,0,,— За Родину! Ать!{\alpha&HFF&} Ать! Ать!{\alpha&H00F&}\N— Оп!{\alpha&HFF&} Оп! Оп!
+Dialogue: 0,0:04:23.32,0:04:23.61,Default_AN1,,0,0,0,,— За Родину! Ать! Ать!{\alpha&HFF&} Ать!{\alpha&H00F&}\N— Оп!{\alpha&HFF&} Оп! Оп!
+Dialogue: 0,0:04:23.61,0:04:23.95,Default_AN1,,0,0,0,,— За Родину! Ать! Ать!{\alpha&HFF&} Ать!{\alpha&H00F&}\N— Оп! Оп!{\alpha&HFF&} Оп!
+Dialogue: 0,0:04:23.95,0:04:24.41,Default_AN1,,0,0,0,,— За Родину! Ать! Ать! Ать!\N— Оп! Оп!{\alpha&HFF&} Оп!
+Dialogue: 0,0:04:24.41,0:04:25.22,Default_AN1,,0,0,0,,— За Родину! Ать! Ать! Ать!\N— Оп! Оп! Оп!
 Dialogue: 0,0:04:25.22,0:04:26.81,Default,,0,0,0,,{\an5}It's getting worse, huh?
 Dialogue: 0,0:04:25.22,0:04:26.81,Default,,0,0,0,,
 Dialogue: 0,0:04:26.81,0:04:30.60,Default,,0,0,0,,{\an5}N-No, this kind of thing\Nsometimes happens to even me.
@@ -143,7 +150,7 @@ Dialogue: 0,0:04:38.24,0:04:41.20,Default,,0,0,0,,
 Dialogue: 0,0:04:41.20,0:04:43.57,Default,,0,0,0,,{\an5}I know, right? I know, right?
 Dialogue: 0,0:04:41.20,0:04:43.57,Default,,0,0,0,,
 Dialogue: 0,0:04:43.58,0:04:45.70,Default,,0,0,0,,{\an5}Listen to all of you.
-Dialogue: 0,0:04:43.58,0:04:45.70,Default,,0,0,0,,
+Dialogue: 0,0:04:43.58,0:04:45.70,Default,,0,0,0,,Да вы поехавшие.
 Dialogue: 0,0:04:45.70,0:04:49.00,Default,,0,0,0,,{\an5}The whole idea of this Modern\NCommunications Electronic Game Club
 Dialogue: 0,0:04:45.70,0:04:49.00,Default,,0,0,0,,
 Dialogue: 0,0:04:49.00,0:04:51.25,Default,,0,0,0,,{\an5}was to make Tamaki-{\i1}san{\i0}\Nunderstand the difference
@@ -165,9 +172,9 @@ Dialogue: 0,0:05:19.07,0:05:21.78,Default,,0,0,0,,
 Dialogue: 0,0:05:21.78,0:05:24.49,Default,,0,0,0,,{\an5}And we're entirely to blame for that.
 Dialogue: 0,0:05:21.78,0:05:24.49,Default,,0,0,0,,
 Dialogue: 0,0:05:24.49,0:05:27.28,Default,,0,0,0,,{\an5}Okay, let's start this club meeting!
-Dialogue: 0,0:05:24.49,0:05:27.28,Default,,0,0,0,,
+Dialogue: 0,0:05:24.49,0:05:27.28,Default,,0,0,0,,Дык вот, давайте уже начнём!
 Dialogue: 0,0:05:27.29,0:05:29.66,Default,,0,0,0,,{\an5}Master, you sure are amped up.
-Dialogue: 0,0:05:27.29,0:05:29.66,Default,,0,0,0,,
+Dialogue: 0,0:05:27.29,0:05:29.66,Default,,0,0,0,,Лидер с трудом сдерживается.
 Dialogue: 0,0:05:29.66,0:05:32.25,Default,,0,0,0,,{\an5}Yeah. After all, today's update features
 Dialogue: 0,0:05:29.66,0:05:32.25,Default,,0,0,0,,
 Dialogue: 0,0:05:32.25,0:05:34.67,Default,,0,0,0,,{\an5}a new mystery box implementation.
