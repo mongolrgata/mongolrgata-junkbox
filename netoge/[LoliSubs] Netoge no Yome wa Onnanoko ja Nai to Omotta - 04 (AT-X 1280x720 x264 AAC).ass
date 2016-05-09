@@ -18,8 +18,8 @@ Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
 Scroll Position: 57
-Active Line: 59
-Video Position: 2593
+Active Line: 63
+Video Position: 3893
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -36,7 +36,7 @@ Dialogue: 0,0:00:09.60,0:00:13.85,Default,,0,0,0,,Случилось это то
 Dialogue: 0,0:00:13.85,0:00:17.14,Default,,0,0,0,,{\an5}Back when I was brokenhearted,\Nand playing solo.
 Dialogue: 0,0:00:13.85,0:00:17.14,Default,,0,0,0,,акта признания Некохиме-сан, и мне надоело играть соло.
 Dialogue: 0,0:00:19.94,0:00:22.36,Default,,0,0,0,,{\an5}You want to join our guild?
-Dialogue: 0,0:00:19.94,0:00:22.36,Default,,0,0,0,,Ты хочешь вступить в нашу гильдию?
+Dialogue: 0,0:00:19.94,0:00:22.36,Default,,0,0,0,,Хочешь присоединиться к нашей гильдии?
 Dialogue: 0,0:00:22.36,0:00:24.61,Default,,0,0,0,,{\an5}Yes, if you'll please have me.
 Dialogue: 0,0:00:22.36,0:00:24.61,Default,,0,0,0,,Да, очень на это надеюсь.
 Dialogue: 0,0:00:24.61,0:00:27.11,Default,,0,0,0,,{\an5}Well, let me interview you, here.
@@ -44,11 +44,11 @@ Dialogue: 0,0:00:24.61,0:00:27.11,Default,,0,0,0,,Тогда начнём соб
 Dialogue: 0,0:00:27.11,0:00:28.40,Default,,0,0,0,,{\an5}Huh? Interview?
 Dialogue: 0,0:00:27.11,0:00:28.40,Default,,0,0,0,,Вут? Собеседование?
 Dialogue: 0,0:00:28.41,0:00:31.28,Default,,0,0,0,,{\an5}First, what are your reasons\Nfor wishing to join us?
-Dialogue: 0,0:00:28.41,0:00:31.28,Default,,0,0,0,,Для начала ответь, зачем ты хочешь в нашу гильдию?
+Dialogue: 0,0:00:28.41,0:00:31.28,Default,,0,0,0,,Для начала ответь, зачем ты хочешь вступить гильдию?
 Dialogue: 0,0:00:31.28,0:00:35.04,Default,,0,0,0,,{\an5}Huh? Well, playing solo, it gets\Nkind of lonely, and I was thinking,
-Dialogue: 0,0:00:31.28,0:00:35.04,Default,,0,0,0,,А? Эм… Играть соло стало слишком утомительно, и я подумал,
+Dialogue: 0,0:00:31.28,0:00:35.04,Default,,0,0,0,,А? Эм… Играть соло оказалось утомительно, и я подумал,
 Dialogue: 0,0:00:35.04,0:00:38.62,Default,,0,0,0,,{\an5}if I joined a guild, I could try\Ndevoting myself more to the game.
-Dialogue: 0,0:00:35.04,0:00:38.62,Default,,0,0,0,,что если вступлю в какую-нибудь гильдию, то будет интереснее.
+Dialogue: 0,0:00:35.04,0:00:38.62,Default,,0,0,0,,что если вступлю в какую-нибудь гильдию, то станет повеселее.
 Dialogue: 0,0:00:38.62,0:00:40.75,Default,,0,0,0,,{\an5}What do you do IRL?
 Dialogue: 0,0:00:38.62,0:00:40.75,Default,,0,0,0,,Чем ты занимаешься ИРЛ?
 Dialogue: 0,0:00:40.75,0:00:42.50,Default,,0,0,0,,{\an5}I-I'm a high school student.
@@ -58,15 +58,15 @@ Dialogue: 0,0:00:42.50,0:00:45.98,Default,,0,0,0,,А это значит, что
 Dialogue: 0,0:00:44.76,0:00:49.26,Default,,0,0,0,,{\an5}drops out when you need to bathe,\Nand can't log in late at night?
 Dialogue: 0,0:00:45.98,0:00:49.26,Default,,0,0,0,,и не может оставаться онлайн до поздней ночи.
 Dialogue: 0,0:00:49.26,0:00:51.47,Default,,0,0,0,,{\an5}Our style is such that, once we start grinding,
-Dialogue: 0,0:00:49.26,0:00:51.47,Default,,0,0,0,,Наш подход таков, что отправившись в данж,
+Dialogue: 0,0:00:49.26,0:00:51.47,Default,,0,0,0,,У нас принято, отправляясь в данж,
 Dialogue: 0,0:00:51.47,0:00:54.06,Default,,0,0,0,,{\an5}we take at the very least three hours to finish,
-Dialogue: 0,0:00:51.47,0:00:54.06,Default,,0,0,0,,мы проводим там не менее трёх часов не прерываясь,
+Dialogue: 0,0:00:51.47,0:00:54.06,Default,,0,0,0,,проводить там 3+ часа непрерывной игры,
 Dialogue: 0,0:00:54.06,0:00:55.52,Default,,0,0,0,,{\an5}so I don't think you'll fit in.
-Dialogue: 0,0:00:54.06,0:00:55.52,Default,,0,0,0,,поэтому ты нам не подходишь.
+Dialogue: 0,0:00:54.06,0:00:55.52,Default,,0,0,0,,не думаю, что это для тебя.
 Dialogue: 0,0:00:55.52,0:01:00.44,Default,,0,0,0,,{\an5}I-I see. Well, if I dropped\Nout of school, I'd fit in--
-Dialogue: 0,0:00:55.52,0:01:00.44,Default,,0,0,0,,В-вот как. Намекаете на то, что мне нужно уйти из школы,
+Dialogue: 0,0:00:55.52,0:01:00.44,Default,,0,0,0,,В-вот как. Похоже, вам нужны люди, у которых нет личной жизни,
 Dialogue: 0,0:01:00.44,0:01:01.94,Default,,0,0,0,,{\an5}is that what you're getting at?
-Dialogue: 0,0:01:00.44,0:01:01.94,Default,,0,0,0,,чтобы вы меня приняли?
+Dialogue: 0,0:01:00.44,0:01:01.94,Default,,0,0,0,,я правильно понимаю?
 Dialogue: 0,0:01:01.94,0:01:04.52,Default,,0,0,0,,{\an5}That's right. We have many people in our guild
 Dialogue: 0,0:01:01.94,0:01:04.52,Default,,0,0,0,,THIS. Большинство членов нашей гильдии
 Dialogue: 0,0:01:04.53,0:01:07.65,Default,,0,0,0,,{\an5}who have quit work and\Nschool to play net games.
@@ -90,13 +90,13 @@ Dialogue: 0,0:01:36.97,0:01:39.73,Default,,0,0,0,,Повезло же наткн
 Dialogue: 0,0:01:39.73,0:01:44.81,Default,,0,0,0,,{\an5}Yeah, {\i1}hard{\i0} hardcore. A completely\Ndifferent, scarier world than ours.
 Dialogue: 0,0:01:39.73,0:01:44.81,Default,,0,0,0,,Да уж, сплошные корейцы. Они свидетели тёмной стороны игры.
 Dialogue: 0,0:01:45.32,0:01:48.19,Default,,0,0,0,,{\an5}Though scary wasn't all they were.
-Dialogue: 0,0:01:45.32,0:01:48.19,Default,,0,0,0,,
+Dialogue: 0,0:01:45.32,0:01:48.19,Default,,0,0,0,,Но не так страшён чёрт как его малюют.
 Dialogue: 0,0:01:48.19,0:01:49.74,Default,,0,0,0,,{\an5}Say, hold up.
 Dialogue: 0,0:01:48.19,0:01:49.74,Default,,0,0,0,,Слышь, постой.
 Dialogue: 0,0:01:50.74,0:01:54.57,Default,,0,0,0,,{\an5}Even if you're not in our guild,\Nyou're still a fellow game player.
-Dialogue: 0,0:01:50.74,0:01:54.57,Default,,0,0,0,,
+Dialogue: 0,0:01:50.74,0:01:54.57,Default,,0,0,0,,Пусть ты и не член нашей гильдии, но ты наш брат-задрот по духу.
 Dialogue: 0,0:01:54.58,0:01:57.16,Default,,0,0,0,,{\an5}If you have trouble with anything,\Nfeel free to stop by anytime.
-Dialogue: 0,0:01:54.58,0:01:57.16,Default,,0,0,0,,
+Dialogue: 0,0:01:54.58,0:01:57.16,Default,,0,0,0,,Если возникнуть какие-нибудь трудности, приходи не стесняйся.
 Dialogue: 0,0:02:00.12,0:02:03.00,Default,,0,0,0,,{\an5}Still, it's kind of nice, isn't it?
 Dialogue: 0,0:02:00.12,0:02:03.00,Default,,0,0,0,,Всё же это так заманчиво.
 Dialogue: 0,0:02:03.00,0:02:04.29,Default,,0,0,0,,{\an5}What's nice?
@@ -104,13 +104,13 @@ Dialogue: 0,0:02:03.00,0:02:04.29,Default,,0,0,0,,Что именно?
 Dialogue: 0,0:02:04.29,0:02:08.25,Default,,0,0,0,,{\an5}Living just for the game,\Nlike those guild people do.
 Dialogue: 0,0:02:04.29,0:02:08.25,Default,,0,0,0,,Подобно им, бросить всё ради игры.
 Dialogue: 0,0:02:08.26,0:02:11.09,Default,,0,0,0,,{\an5}Hey, now, you just barely got\Nso you're coming to school again,
-Dialogue: 0,0:02:08.26,0:02:11.09,Default,,0,0,0,,
+Dialogue: 0,0:02:08.26,0:02:11.09,Default,,0,0,0,,Воу воу, ты только-только начала нормально ходить в школу,
 Dialogue: 0,0:02:11.09,0:02:12.88,Default,,0,0,0,,{\an5}and now you want to become a wreck again?
-Dialogue: 0,0:02:11.09,0:02:12.88,Default,,0,0,0,,
+Dialogue: 0,0:02:11.09,0:02:12.88,Default,,0,0,0,,а уже снова собираешься захикковать.
 Dialogue: 0,0:02:12.89,0:02:15.80,Default,,0,0,0,,{\an5}Ah, if I could quit school and everything,
-Dialogue: 0,0:02:12.89,0:02:15.80,Default,,0,0,0,,
+Dialogue: 0,0:02:12.89,0:02:15.80,Default,,0,0,0,,Ах, как бы я хотела дропнуть школу и всё прочее,
 Dialogue: 0,0:02:15.80,0:02:18.35,Default,,0,0,0,,{\an5}and have you support me, Rusian...
-Dialogue: 0,0:02:15.80,0:02:18.35,Default,,0,0,0,,
+Dialogue: 0,0:02:15.80,0:02:18.35,Default,,0,0,0,,а Русиян бы меня содержал…
 Dialogue: 0,0:02:22.14,0:02:25.31,Default,,0,0,0,,{\an5}I forgot my wallet at home.
 Dialogue: 0,0:02:22.14,0:02:25.31,Default,,0,0,0,,Кошелёк дома забыла.
 Dialogue: 0,0:02:25.31,0:02:26.35,Default,,0,0,0,,{\an5}Huh?
@@ -120,11 +120,11 @@ Dialogue: 0,0:02:26.36,0:02:28.19,Default,,0,0,0,,Ах, но это ничего
 Dialogue: 0,0:02:28.19,0:02:31.24,Default,,0,0,0,,{\an5}If I sell off some unwanted items,\NI can at least afford a soda.
 Dialogue: 0,0:02:28.19,0:02:31.24,Default,,0,0,0,,Чтобы купить что-нибудь ненужное,\Nнужно сначала продать что-нибудь ненужное.
 Dialogue: 0,0:02:31.24,0:02:34.16,Default,,0,0,0,,{\an5}Hey, we're not in the game right now.
-Dialogue: 0,0:02:31.24,0:02:34.16,Default,,0,0,0,,
+Dialogue: 0,0:02:31.24,0:02:34.16,Default,,0,0,0,,Мы какбэ не в игре сейчас.
 Dialogue: 0,0:02:34.16,0:02:37.32,Default,,0,0,0,,{\an5}That's true; I can't open my inventory.
-Dialogue: 0,0:02:34.16,0:02:37.32,Default,,0,0,0,,
+Dialogue: 0,0:02:34.16,0:02:37.32,Default,,0,0,0,,Тысяча чертей! Опять инвентарь заглючило.
 Dialogue: 0,0:02:37.83,0:02:40.33,Default,,0,0,0,,{\an5}You don't suppose she's\Nactually getting {\i1}worse{\i0}?
-Dialogue: 0,0:02:37.83,0:02:40.33,Default,,0,0,0,,
+Dialogue: 0,0:02:37.83,0:02:40.33,Default,,0,0,0,,Чо смотришь? Вызывай санитаров.
 Dialogue: 0,0:04:21.60,0:04:26.35,Def_Top,,0,0,0,,{\an5}"LV. 04: I thought her secret\Nwasn't going to get out?"
 Dialogue: 0,0:04:21.60,0:04:26.35,Def_Top,,0,0,0,,
 Dialogue: 0,0:04:21.60,0:04:25.22,Default,,0,0,0,,{\an5}--Maegasaki! Fight! Fight! Fight!\N--Oh! Oh! Oh!
