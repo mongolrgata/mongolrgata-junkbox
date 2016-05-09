@@ -17,9 +17,9 @@ Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 57
-Active Line: 63
-Video Position: 3893
+Scroll Position: 105
+Active Line: 117
+Video Position: 7767
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -126,7 +126,7 @@ Dialogue: 0,0:02:34.16,0:02:37.32,Default,,0,0,0,,Тысяча чертей! О�
 Dialogue: 0,0:02:37.83,0:02:40.33,Default,,0,0,0,,{\an5}You don't suppose she's\Nactually getting {\i1}worse{\i0}?
 Dialogue: 0,0:02:37.83,0:02:40.33,Default,,0,0,0,,Чо смотришь? Вызывай санитаров.
 Dialogue: 0,0:04:21.60,0:04:26.35,Def_Top,,0,0,0,,{\an5}"LV. 04: I thought her secret\Nwasn't going to get out?"
-Dialogue: 0,0:04:21.60,0:04:26.35,Def_Top,,0,0,0,,
+Dialogue: 0,0:04:21.60,0:04:26.35,Def_Top,,0,0,0,,[Думал, шило в мешке утаишь?]
 Dialogue: 0,0:04:21.60,0:04:25.22,Default,,0,0,0,,{\an5}--Maegasaki! Fight! Fight! Fight!\N--Oh! Oh! Oh!
 Dialogue: 0,0:04:21.60,0:04:22.57,Default_AN1,,0,0,0,,— За Родину!{\alpha&HFF&} Ать! Ать! Ать!\N— Оп! Оп! Оп!
 Dialogue: 0,0:04:22.57,0:04:22.90,Default_AN1,,0,0,0,,— За Родину! Ать!{\alpha&HFF&} Ать! Ать!\N— Оп! Оп! Оп!
@@ -136,47 +136,47 @@ Dialogue: 0,0:04:23.61,0:04:23.95,Default_AN1,,0,0,0,,— За Родину! А�
 Dialogue: 0,0:04:23.95,0:04:24.41,Default_AN1,,0,0,0,,— За Родину! Ать! Ать! Ать!\N— Оп! Оп!{\alpha&HFF&} Оп!
 Dialogue: 0,0:04:24.41,0:04:25.22,Default_AN1,,0,0,0,,— За Родину! Ать! Ать! Ать!\N— Оп! Оп! Оп!
 Dialogue: 0,0:04:25.22,0:04:26.81,Default,,0,0,0,,{\an5}It's getting worse, huh?
-Dialogue: 0,0:04:25.22,0:04:26.81,Default,,0,0,0,,
+Dialogue: 0,0:04:25.22,0:04:26.81,Default_AN1,,0,0,0,,Клинический случай.
 Dialogue: 0,0:04:26.81,0:04:30.60,Default,,0,0,0,,{\an5}N-No, this kind of thing\Nsometimes happens to even me.
-Dialogue: 0,0:04:26.81,0:04:30.60,Default,,0,0,0,,
+Dialogue: 0,0:04:26.81,0:04:30.60,Default,,0,0,0,,{\pos(640,620)}Н-не, честно говоря, такое и со мной порой случается.
 Dialogue: 0,0:04:30.60,0:04:32.77,Default,,0,0,0,,{\an5}Yeah, like when you sleep in,\Nand think you can make it in time
-Dialogue: 0,0:04:30.60,0:04:32.77,Default,,0,0,0,,
+Dialogue: 0,0:04:30.60,0:04:32.77,Default,,0,0,0,,{\pos(640,620)}Ага, бывает спишь утром и в ус не дуешь,
 Dialogue: 0,0:04:32.77,0:04:35.57,Default,,0,0,0,,{\an5}if you magically teleport, and stuff.
-Dialogue: 0,0:04:32.77,0:04:35.57,Default,,0,0,0,,
+Dialogue: 0,0:04:32.77,0:04:35.57,Default,,0,0,0,,{\pos(640,620)}надеясь на варп в крайний момент.
 Dialogue: 0,0:04:35.57,0:04:38.23,Default,,0,0,0,,{\an5}Mm-hmm. When there is something I want,
-Dialogue: 0,0:04:35.57,0:04:38.23,Default,,0,0,0,,
+Dialogue: 0,0:04:35.57,0:04:38.23,Default,,0,0,0,,{\pos(640,620)}У-му, стоит мне увидеть что-нибудь годное,
 Dialogue: 0,0:04:38.24,0:04:41.20,Default,,0,0,0,,{\an5}I find myself looking for the\N"pay" button before I realize it.
-Dialogue: 0,0:04:38.24,0:04:41.20,Default,,0,0,0,,
+Dialogue: 0,0:04:38.24,0:04:41.20,Default,,0,0,0,,{\pos(640,620)}как я подсознательно ищу кнопку [ОМОТИКАЭРИ].
 Dialogue: 0,0:04:41.20,0:04:43.57,Default,,0,0,0,,{\an5}I know, right? I know, right?
-Dialogue: 0,0:04:41.20,0:04:43.57,Default,,0,0,0,,
+Dialogue: 0,0:04:41.20,0:04:43.57,Default,,0,0,0,,{\fs64}(  .  Y  .  )
 Dialogue: 0,0:04:43.58,0:04:45.70,Default,,0,0,0,,{\an5}Listen to all of you.
 Dialogue: 0,0:04:43.58,0:04:45.70,Default,,0,0,0,,Да вы поехавшие.
 Dialogue: 0,0:04:45.70,0:04:49.00,Default,,0,0,0,,{\an5}The whole idea of this Modern\NCommunications Electronic Game Club
-Dialogue: 0,0:04:45.70,0:04:49.00,Default,,0,0,0,,
+Dialogue: 0,0:04:45.70,0:04:49.00,Default,,0,0,0,,Суть клуба современных взаимодействий в сетевушках
 Dialogue: 0,0:04:49.00,0:04:51.25,Default,,0,0,0,,{\an5}was to make Tamaki-{\i1}san{\i0}\Nunderstand the difference
-Dialogue: 0,0:04:49.00,0:04:51.25,Default,,0,0,0,,
+Dialogue: 0,0:04:49.00,0:04:53.81,Default,,0,0,0,,заключалась в том, чтобы Тамаки-сан увидела разницу между игрой и реальностью.
 Dialogue: 0,0:04:51.25,0:04:53.83,Default,,0,0,0,,{\an5}between the game and reality, wasn't it?
-Dialogue: 0,0:04:51.25,0:04:53.83,Default,,0,0,0,,
+Dialogue: 0,0:04:51.25,0:04:53.83,Default,,0,0,0,,{nope}
 Dialogue: 0,0:04:53.84,0:04:56.63,Default,,0,0,0,,{\an5}But the way things are going,\NI think it might be better
-Dialogue: 0,0:04:53.84,0:04:56.63,Default,,0,0,0,,
+Dialogue: 0,0:04:53.84,0:04:56.63,Default,,0,0,0,,Но учитывая как обстоят дела, мне кажется,
 Dialogue: 0,0:04:56.63,0:05:00.51,Default,,0,0,0,,{\an5}to dissolve the club, and have\Nyou all quit playing online games.
-Dialogue: 0,0:04:56.63,0:05:00.51,Default,,0,0,0,,
+Dialogue: 0,0:04:56.63,0:05:00.51,Default,,0,0,0,,что будет лучше распустить клуб, и запретить вам играть в MMO.
 Dialogue: 0,0:05:00.51,0:05:03.34,Default,,0,0,0,,{\an5}I think that would be {\i1}meow{\i0}-trageous.
-Dialogue: 0,0:05:00.51,0:05:03.34,Default,,0,0,0,,
+Dialogue: 0,0:05:00.51,0:05:03.34,Default,,0,0,0,,Это возмутительня!
 Dialogue: 0,0:05:08.64,0:05:13.56,Default,,0,0,0,,{\an5}Ahem... Well, let's commit ourselves\Nto our club's activities today.
-Dialogue: 0,0:05:08.64,0:05:13.56,Default,,0,0,0,,
+Dialogue: 0,0:05:08.64,0:05:13.56,Default,,0,0,0,,Кхм… Т-тогда давайте приступим к выполнению обязанностей клуба.
 Dialogue: 0,0:05:13.56,0:05:16.40,Default,,0,0,0,,{\an5}I have a meeting to go to, so I'll be leaving.
-Dialogue: 0,0:05:13.56,0:05:16.40,Default,,0,0,0,,
+Dialogue: 0,0:05:13.56,0:05:16.40,Default,,0,0,0,,Н-не буду мешать вам задротствовать.
 Dialogue: 0,0:05:19.07,0:05:21.78,Default,,0,0,0,,{\an5}Nekohime-{\i1}sensei{\i0} sure does have it tough.
-Dialogue: 0,0:05:19.07,0:05:21.78,Default,,0,0,0,,
+Dialogue: 0,0:05:19.07,0:05:21.78,Default,,0,0,0,,Некохиме-сенсей когда-нибудь себе вены вскроет.
 Dialogue: 0,0:05:21.78,0:05:24.49,Default,,0,0,0,,{\an5}And we're entirely to blame for that.
-Dialogue: 0,0:05:21.78,0:05:24.49,Default,,0,0,0,,
+Dialogue: 0,0:05:21.78,0:05:24.49,Default,,0,0,0,,Зачем же так спойлерить?
 Dialogue: 0,0:05:24.49,0:05:27.28,Default,,0,0,0,,{\an5}Okay, let's start this club meeting!
 Dialogue: 0,0:05:24.49,0:05:27.28,Default,,0,0,0,,Дык вот, давайте уже начнём!
 Dialogue: 0,0:05:27.29,0:05:29.66,Default,,0,0,0,,{\an5}Master, you sure are amped up.
 Dialogue: 0,0:05:27.29,0:05:29.66,Default,,0,0,0,,Лидер с трудом сдерживается.
 Dialogue: 0,0:05:29.66,0:05:32.25,Default,,0,0,0,,{\an5}Yeah. After all, today's update features
-Dialogue: 0,0:05:29.66,0:05:32.25,Default,,0,0,0,,
+Dialogue: 0,0:05:29.66,0:05:32.25,Default,,0,0,0,,А то. 
 Dialogue: 0,0:05:32.25,0:05:34.67,Default,,0,0,0,,{\an5}a new mystery box implementation.
 Dialogue: 0,0:05:32.25,0:05:34.67,Default,,0,0,0,,
 Dialogue: 0,0:05:34.67,0:05:36.29,Default,,0,0,0,,{\an5}Are you planning to spend even more?
