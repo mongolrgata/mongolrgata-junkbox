@@ -17,9 +17,9 @@ Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 105
-Active Line: 117
-Video Position: 7767
+Scroll Position: 220
+Active Line: 228
+Video Position: 11468
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -176,89 +176,90 @@ Dialogue: 0,0:05:24.49,0:05:27.28,Default,,0,0,0,,Дык вот, давайте 
 Dialogue: 0,0:05:27.29,0:05:29.66,Default,,0,0,0,,{\an5}Master, you sure are amped up.
 Dialogue: 0,0:05:27.29,0:05:29.66,Default,,0,0,0,,Лидер с трудом сдерживается.
 Dialogue: 0,0:05:29.66,0:05:32.25,Default,,0,0,0,,{\an5}Yeah. After all, today's update features
-Dialogue: 0,0:05:29.66,0:05:32.25,Default,,0,0,0,,А то. 
+Dialogue: 0,0:05:29.66,0:05:32.25,Default,,0,0,0,,А то. Таки сегодня вышел патч, который добавляет
 Dialogue: 0,0:05:32.25,0:05:34.67,Default,,0,0,0,,{\an5}a new mystery box implementation.
-Dialogue: 0,0:05:32.25,0:05:34.67,Default,,0,0,0,,
+Dialogue: 0,0:05:32.25,0:05:34.67,Default,,0,0,0,,возможность покупать ящики с хренью как в TF2.
 Dialogue: 0,0:05:34.67,0:05:36.29,Default,,0,0,0,,{\an5}Are you planning to spend even more?
-Dialogue: 0,0:05:34.67,0:05:36.29,Default,,0,0,0,,
+Dialogue: 0,0:05:34.67,0:05:36.29,Default,,0,0,0,,Ещё одна бессмысленная трата денег?
 Dialogue: 0,0:05:36.29,0:05:39.67,Default,,0,0,0,,{\an5}No, you can't go buying mystery boxes.\NThey're a waste of money.
-Dialogue: 0,0:05:36.29,0:05:39.67,Default,,0,0,0,,
+Dialogue: 0,0:05:36.29,0:05:39.67,Default,,0,0,0,,Ну нет. Сдались тебе эти генераторы хлама? Деньги на ветер.
 Dialogue: 0,0:05:39.67,0:05:41.67,Default,,0,0,0,,{\an5}Don't be ridiculous!
-Dialogue: 0,0:05:39.67,0:05:41.67,Default,,0,0,0,,
+Dialogue: 0,0:05:39.67,0:05:41.67,Default,,0,0,0,,Бежите, глупцы?
 Dialogue: 0,0:05:41.68,0:05:46.05,Default,,0,0,0,,{\an5}Listen, mystery boxes fulfill the\Nwishes of every net game player,
-Dialogue: 0,0:05:41.68,0:05:46.05,Default,,0,0,0,,
+Dialogue: 0,0:05:41.68,0:05:46.05,Default,,0,0,0,,Короче, эти ящики призваны воплощать задротские желания
 Dialogue: 0,0:05:46.05,0:05:48.60,Default,,0,0,0,,{\an5}in that for a little money,\Nyou can chase your dreams!
-Dialogue: 0,0:05:46.05,0:05:48.60,Default,,0,0,0,,
+Dialogue: 0,0:05:46.05,0:05:48.60,Default,,0,0,0,,всего за жалкие $9.99 (+налоги+доставка+на пиво).
 Dialogue: 0,0:05:48.60,0:05:53.52,Default,,0,0,0,,{\an5}Hear, hear, Master! I don't have\Nany money, but I'd like to try it!
-Dialogue: 0,0:05:48.60,0:05:53.52,Default,,0,0,0,,
+Dialogue: 0,0:05:48.60,0:05:53.52,Default,,0,0,0,,О да, о да, Лидер! Пусть я и на мели, но тоже хотела бы попробовать!
 Dialogue: 0,0:05:53.52,0:05:56.02,Default,,0,0,0,,{\an5}Oh, Ako you're showing some promise, all right.
-Dialogue: 0,0:05:53.52,0:05:56.02,Default,,0,0,0,,
+Dialogue: 0,0:05:53.52,0:05:56.02,Default,,0,0,0,,О, наша Ако так неистово этого желает.
 Dialogue: 0,0:05:56.02,0:05:58.77,Default,,0,0,0,,{\an5}Okay, I'll contribute something to your account.
-Dialogue: 0,0:05:56.02,0:05:58.77,Default,,0,0,0,,
+Dialogue: 0,0:05:56.02,0:05:58.77,Default,,0,0,0,,Ок, куплю парочку и на твой аккаунт.
 Dialogue: 0,0:05:58.78,0:06:01.57,Default,,0,0,0,,{\an5}Huh? For real? Then, I'd like to play, too!
-Dialogue: 0,0:05:58.78,0:06:01.57,Default,,0,0,0,,
+Dialogue: 0,0:05:58.78,0:06:01.57,Default,,0,0,0,,Э? RLY? А мне тоже купишь?
 Dialogue: 0,0:06:01.57,0:06:04.24,Default,,0,0,0,,{\an5}Don't you guys have any pride?
-Dialogue: 0,0:06:01.57,0:06:04.24,Default,,0,0,0,,
+Dialogue: 0,0:06:01.57,0:06:04.24,Default,,0,0,0,,Вы вообще совесть потеряли?
 Dialogue: 0,0:06:04.24,0:06:06.95,Default,,0,0,0,,{\an5}I just want to try my luck.
-Dialogue: 0,0:06:04.24,0:06:06.95,Default,,0,0,0,,
-Dialogue: 0,0:06:06.95,0:06:09.62,Default,,0,0,0,,{\an5}Whatever items I get, I'll give them to Master.
-Dialogue: 0,0:06:06.95,0:06:09.62,Default,,0,0,0,,
-Dialogue: 0,0:06:09.62,0:06:11.62,Default,,0,0,0,,{\an5}--Huh?\N--Huh?
-Dialogue: 0,0:06:09.62,0:06:11.62,Default,,0,0,0,,
+Dialogue: 0,0:06:04.24,0:06:06.95,Default,,0,0,0,,Да ладно, я просто хочу испытать свою удачу.
+Dialogue: 0,0:06:06.95,0:06:09.62,Default,,0,0,0,,{\an5}{Whatever items I get, I'll give them to Master.}
+Dialogue: 0,0:06:06.95,0:06:09.51,Default,,0,0,0,,К тому же, чтобы мне не выпало, я отдам это Лидеру.
+Dialogue: 0,0:06:09.62,0:06:11.62,Default,,0,0,0,,{\an5}{--Huh?\N--Huh?}
+Dialogue: 0,0:06:09.51,0:06:11.62,Default,,0,0,0,,{\pos(800,440)}Э?
+Dialogue: 0,0:06:10.43,0:06:11.62,Default,,0,0,0,,{\pos(500,370)}Э?
 Dialogue: 0,0:06:12.91,0:06:15.79,Default,,0,0,0,,{\an5}It looks like your wife wants to help herself.
-Dialogue: 0,0:06:12.91,0:06:15.79,Default,,0,0,0,,
+Dialogue: 0,0:06:12.91,0:06:15.79,Default,,0,0,0,,Похоже твоя вайфу хотела всё присвоить себе.
 Dialogue: 0,0:06:15.79,0:06:20.13,Default,,0,0,0,,{\an5}Come on, Ako. I don't remember\Nhaving such a shameless wife.
-Dialogue: 0,0:06:15.79,0:06:20.13,Default,,0,0,0,,
+Dialogue: 0,0:06:15.79,0:06:20.13,Default,,0,0,0,,Ако, никогда бы не подумал, что моя вайфу может быть такой наглой.
 Dialogue: 0,0:06:20.13,0:06:23.80,Default,,0,0,0,,{\an5}That's not something I intended, either.
-Dialogue: 0,0:06:20.13,0:06:23.80,Default,,0,0,0,,
+Dialogue: 0,0:06:20.13,0:06:23.80,Default,,0,0,0,,А я чего? А я ничего…
 Dialogue: 0,0:06:26.22,0:06:28.64,Def_Top,,0,0,0,,{\an5}"Thank you very much for your purchase!"
-Dialogue: 0,0:06:26.22,0:06:28.64,Def_Top,,0,0,0,,
+Dialogue: 0,0:06:26.22,0:06:28.64,Def_Top,,0,0,0,,[Спасибо за покупку!]
 Dialogue: 0,0:06:27.48,0:06:29.43,Default,,0,0,0,,{\an5}All right, purchase complete.
-Dialogue: 0,0:06:27.48,0:06:29.43,Default,,0,0,0,,
+Dialogue: 0,0:06:27.48,0:06:29.43,Default,,0,0,0,,Так, платёж произведён.
 Dialogue: 0,0:06:29.43,0:06:31.43,Default,,0,0,0,,{\an5}All right, here it comes, people!
-Dialogue: 0,0:06:29.43,0:06:31.43,Default,,0,0,0,,
+Dialogue: 0,0:06:29.43,0:06:31.43,Default,,0,0,0,,Раззудись плечо, размахнись рука!
 Dialogue: 0,0:06:31.43,0:06:33.98,Default,,0,0,0,,{\an5}Today begins the Net Game Club's\N100-mystery-box tradition!
-Dialogue: 0,0:06:31.43,0:06:33.98,Default,,0,0,0,,
+Dialogue: 0,0:06:31.43,0:06:33.98,Default,,0,0,0,,Приступим к еженедельному эвенту открывания ящиков.
 Dialogue: 0,0:06:33.98,0:06:35.39,Default,,0,0,0,,{\an5}Yeah!
-Dialogue: 0,0:06:33.98,0:06:35.39,Default,,0,0,0,,
+Dialogue: 0,0:06:33.98,0:06:35.39,Default,,0,0,0,,Вперде!
 Dialogue: 0,0:06:35.40,0:06:38.86,Default,,0,0,0,,{\an5}Hey! Don't go making up weird traditions!
-Dialogue: 0,0:06:35.40,0:06:38.86,Default,,0,0,0,,
+Dialogue: 0,0:06:35.40,0:06:38.86,Default,,0,0,0,,Обожди-ка, только не надо превращать это в традицию.
 Dialogue: 0,0:06:42.65,0:06:47.49,Default,,0,0,0,,{\an5}Why did I not get a single rare item?
-Dialogue: 0,0:06:42.65,0:06:47.49,Default,,0,0,0,,
+Dialogue: 0,0:06:42.65,0:06:47.49,Default,,0,0,0,,Почему мне не повезло вытащить хоть одну рарку?
 Dialogue: 0,0:06:47.49,0:06:49.99,Default,,0,0,0,,{\an5}You're right. Not getting anything rare
-Dialogue: 0,0:06:47.49,0:06:49.99,Default,,0,0,0,,
+Dialogue: 0,0:06:47.49,0:06:49.99,Default,,0,0,0,,Вот уж да. Но остаться с коммонами
 Dialogue: 0,0:06:49.99,0:06:52.79,Default,,0,0,0,,{\an5}after all the mystery boxes you\Nwent through is itself amazing.
-Dialogue: 0,0:06:49.99,0:06:52.79,Default,,0,0,0,,
+Dialogue: 0,0:06:49.99,0:06:52.79,Default,,0,0,0,,при таком количестве траев своего рода тоже везение.
 Dialogue: 0,0:06:52.79,0:06:56.62,Default,,0,0,0,,{\an5}It's just like everything else in my life.
-Dialogue: 0,0:06:52.79,0:06:56.62,Default,,0,0,0,,
+Dialogue: 0,0:06:52.79,0:06:56.62,Default,,0,0,0,,Корейский рандом портит мне жизнь,
 Dialogue: 0,0:06:56.63,0:06:59.54,Default,,0,0,0,,{\an5}I get bad rolls in everything I do.
-Dialogue: 0,0:06:56.63,0:06:59.54,Default,,0,0,0,,
+Dialogue: 0,0:06:56.63,0:06:59.54,Default,,0,0,0,,чтобы я не делала, мне всегда не везёт.
 Dialogue: 0,0:06:59.54,0:07:03.63,Default,,0,0,0,,{\an5}It's all right. Everyone is equally\Nunderleveled when it comes to life.
-Dialogue: 0,0:06:59.54,0:07:03.63,Default,,0,0,0,,
+Dialogue: 0,0:06:59.54,0:07:03.63,Default,,0,0,0,,Да будет тебе, в жизни любому из нас не хватает левела.
 Dialogue: 0,0:07:03.63,0:07:07.01,Default,,0,0,0,,{\an5}Life is suckware. I want to quit playing.
-Dialogue: 0,0:07:03.63,0:07:07.01,Default,,0,0,0,,
+Dialogue: 0,0:07:03.63,0:07:07.01,Default,,0,0,0,,В жизни только графен хороший, хочу разлогиниться.
 Dialogue: 0,0:07:07.01,0:07:09.97,Default,,0,0,0,,{\an5}Let's keep going a little longer, okay?
-Dialogue: 0,0:07:07.01,0:07:09.97,Default,,0,0,0,,
+Dialogue: 0,0:07:07.01,0:07:09.97,Default,,0,0,0,,Может не будем с этим спешить?
 Dialogue: 0,0:07:09.97,0:07:13.10,Default,,0,0,0,,{\an5}I know! Let's get some\Nice cream to cheer us up!
-Dialogue: 0,0:07:09.97,0:07:13.10,Default,,0,0,0,,
+Dialogue: 0,0:07:09.97,0:07:13.10,Default,,0,0,0,,Эврика! Давай купим мороженки, чтобы взбодриться!
 Dialogue: 0,0:07:13.10,0:07:18.60,Default,,0,0,0,,{\an5}Sure! Oh, but I don't have my wallet.
-Dialogue: 0,0:07:13.10,0:07:18.60,Default,,0,0,0,,
+Dialogue: 0,0:07:13.10,0:07:18.60,Default,,0,0,0,,А давай! Только кошелка-то у меня нет.
 Dialogue: 0,0:07:19.94,0:07:21.52,Default,,0,0,0,,{\an5}Thank you very much.
-Dialogue: 0,0:07:19.94,0:07:21.52,Default,,0,0,0,,
+Dialogue: 0,0:07:19.94,0:07:21.52,Default,,0,0,0,,Приходите ещё.
 Dialogue: 0,0:07:29.32,0:07:30.33,Default,,0,0,0,,{\an5}Here.
-Dialogue: 0,0:07:29.32,0:07:30.33,Default,,0,0,0,,
+Dialogue: 0,0:07:29.32,0:07:30.33,Default,,0,0,0,,Жуй.
 Dialogue: 0,0:07:40.59,0:07:41.67,Default,,0,0,0,,{\an5}Morning.
-Dialogue: 0,0:07:40.59,0:07:41.67,Default,,0,0,0,,
+Dialogue: 0,0:07:40.59,0:07:41.67,Default,,0,0,0,,Утречка.
 Dialogue: 0,0:07:41.67,0:07:45.05,Default,,0,0,0,,{\an5}Good morning, Nishimura Rusian.
-Dialogue: 0,0:07:41.67,0:07:45.05,Default,,0,0,0,,
+Dialogue: 0,0:07:41.67,0:07:45.05,Default,,0,0,0,,Гуд морнинг, Нисимура Русиян.
 Dialogue: 0,0:07:45.55,0:07:48.64,Default,,0,0,0,,{\an5}Nishimura, your girlfriend isn't here yet.
-Dialogue: 0,0:07:45.55,0:07:48.64,Default,,0,0,0,,
+Dialogue: 0,0:07:45.55,0:07:48.64,Default,,0,0,0,,Нисимура, твоя тянка ещё не приходила.
 Dialogue: 0,0:07:49.64,0:07:52.39,Default,,0,0,0,,{\an5}I told you, she's not my girlfriend.
-Dialogue: 0,0:07:49.64,0:07:52.39,Default,,0,0,0,,
+Dialogue: 0,0:07:49.64,0:07:52.39,Default,,0,0,0,,Говорил же уже, она мне не тянка.
 Dialogue: 0,0:07:52.39,0:07:55.27,Default,,0,0,0,,{\an5}We know. She's your wife, right?
-Dialogue: 0,0:07:52.39,0:07:55.27,Default,,0,0,0,,
+Dialogue: 0,0:07:52.39,0:07:55.27,Default,,0,0,0,,Знаю-знаю. «Вайфу», так вроде?
 Dialogue: 0,0:07:55.27,0:07:58.35,Default,,0,0,0,,{\an5}Ugh, Nishimura, I'm not\Nsaying you should die, but...
-Dialogue: 0,0:07:55.27,0:07:58.35,Default,,0,0,0,,
+Dialogue: 0,0:07:55.27,0:07:58.35,Default,,0,0,0,,**
 Dialogue: 0,0:07:58.35,0:07:59.90,Default,,0,0,0,,{\an5}We hope your day sucks.
 Dialogue: 0,0:07:58.35,0:07:59.90,Default,,0,0,0,,
 Dialogue: 0,0:07:59.90,0:08:02.40,Default,,0,0,0,,{\an5}You guys are being a bit too frank.
