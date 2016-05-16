@@ -16,8 +16,9 @@ Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Active Line: 1
-Video Position: 76
+Scroll Position: 99
+Active Line: 104
+Video Position: 7767
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -25,113 +26,115 @@ Style: Default,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100
 Style: Def_Top,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,8,96,96,48,1
 Style: Def_Ita,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.2,0,2,96,96,48,1
 Style: Def_I-T,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.2,0,8,96,96,48,1
+Style: Default_AN1,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,1,64,740,48,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:03.13,0:00:05.59,Default,,0,0,0,,{\an5}Who's this, Rusian? A friend of yours?
-Dialogue: 0,0:00:03.13,0:00:05.59,Default,,0,0,0,,
+Dialogue: 0,0:00:03.13,0:00:05.59,Default,,0,0,0,,Кто это, Русиян? Твоя знакомая?
 Dialogue: 0,0:00:05.59,0:00:08.38,Default,,0,0,0,,{\an5}No, Sette-{\i1}san{\i0} here seems to be a newbie.
-Dialogue: 0,0:00:05.59,0:00:08.38,Default,,0,0,0,,
+Dialogue: 0,0:00:05.59,0:00:08.38,Default,,0,0,0,,Нет, Сетте-сан, как я понял, ньюфаг.
 Dialogue: 0,0:00:09.80,0:00:12.89,Default,,0,0,0,,{\an5}So I just looked after her for a bit.
-Dialogue: 0,0:00:09.80,0:00:12.89,Default,,0,0,0,,
+Dialogue: 0,0:00:09.80,0:00:12.89,Default,,0,0,0,,Так что я ей немного помогаю.
 Dialogue: 0,0:00:13.39,0:00:16.56,Default,,0,0,0,,{\an5}Hmm? All right.
-Dialogue: 0,0:00:13.39,0:00:16.56,Default,,0,0,0,,
+Dialogue: 0,0:00:13.39,0:00:16.56,Default,,0,0,0,,Ммм? Ок.
 Dialogue: 0,0:00:16.56,0:00:18.10,Default,,0,0,0,,{\an5}If that's the case,
-Dialogue: 0,0:00:16.56,0:00:18.10,Default,,0,0,0,,
+Dialogue: 0,0:00:16.56,0:00:18.10,Default,,0,0,0,,Раз уж на то пошло,
 Dialogue: 0,0:00:18.10,0:00:20.98,Default,,0,0,0,,{\an5}I, Schwein-{\i1}sama{\i0}, will take care of you.
-Dialogue: 0,0:00:18.10,0:00:20.98,Default,,0,0,0,,
+Dialogue: 0,0:00:18.10,0:00:20.98,Default,,0,0,0,,папик Швайн тебя всему научит.
 Dialogue: 0,0:00:24.36,0:00:26.86,Default,,0,0,0,,{\an5}Sch-we-in...?
-Dialogue: 0,0:00:24.36,0:00:26.86,Default,,0,0,0,,
+Dialogue: 0,0:00:24.36,0:00:27.17,Default,,0,0,0,,Ш-ва-ин…{\alpha&HFF&} LOL
+Dialogue: 0,0:00:27.17,0:00:27.84,Default,,0,0,0,,Ш-ва-ин… LOL
 Dialogue: 0,0:00:27.86,0:00:29.36,Default,,0,0,0,,{\an5}Huh?!
-Dialogue: 0,0:00:27.86,0:00:29.36,Default,,0,0,0,,
+Dialogue: 0,0:00:27.86,0:00:29.36,Default,,0,0,0,,Чо?
 Dialogue: 0,0:00:31.28,0:00:34.29,Default,,0,0,0,,{\an5}I... prefer... Rusian...
-Dialogue: 0,0:00:31.28,0:00:34.29,Default,,0,0,0,,
+Dialogue: 0,0:00:31.28,0:00:34.29,Default,,0,0,0,,Русиян… мне… норм…
 Dialogue: 0,0:00:34.29,0:00:35.54,Default,,0,0,0,,{\an5}Huh?!
-Dialogue: 0,0:00:34.29,0:00:35.54,Default,,0,0,0,,
+Dialogue: 0,0:00:34.29,0:00:35.54,Default,,0,0,0,,На-ах?!
 Dialogue: 0,0:00:35.54,0:00:38.46,Default,,0,0,0,,{\an5}Rusian... is... nice...
-Dialogue: 0,0:00:35.54,0:00:38.46,Default,,0,0,0,,
-Dialogue: 0,0:02:23.43,0:02:26.10,Def_Top,,0,0,0,,{\an5}"LV. 05: I thought reincarnating\Nwould give me my big chance?"
-Dialogue: 0,0:02:23.43,0:02:26.10,Def_Top,,0,0,0,,
-Dialogue: 0,0:02:25.02,0:02:28.10,Default,,0,0,0,,{\an5}What? You want to play\Na different game today?
-Dialogue: 0,0:02:25.02,0:02:28.10,Default,,0,0,0,,
-Dialogue: 0,0:02:26.10,0:02:28.10,Def_Top,,0,0,0,,{\an5}"Modern Communications\NElectronic Game Club"
-Dialogue: 0,0:02:26.10,0:02:28.10,Def_Top,,0,0,0,,
+Dialogue: 0,0:00:35.54,0:00:38.46,Default,,0,0,0,,Русиян… такой няша…
+Dialogue: 0,0:02:23.43,0:02:26.10,Def_Top,,0,0,0,,{\an5}{"LV. 05: I thought reincarnating\Nwould give me my big chance?"}
+Dialogue: 0,0:02:23.43,0:02:26.10,Def_Top,,0,0,0,,[Думаешь, переродившись, получишь второй шанс?]
+Dialogue: 0,0:02:25.02,0:02:28.10,Default,,0,0,0,,{\an5}{What? You want to play\Na different game today?}
+Dialogue: 0,0:02:25.02,0:02:28.10,Default_AN1,,0,0,0,,Сегодня хочешь поиграть во что-нибудь другое?
+Dialogue: 0,0:02:26.10,0:02:28.10,Def_Top,,0,0,0,,{\an5}{"Modern Communications\NElectronic Game Club"}
+Dialogue: 0,0:02:26.10,0:02:28.10,Def_Top,,0,0,0,,[Современнокоммуникацинноэлектроигровой клуб]
 Dialogue: 0,0:02:28.27,0:02:31.27,Default,,0,0,0,,{\an5}Yes. If everyone else is okay with that.
-Dialogue: 0,0:02:28.27,0:02:31.27,Default,,0,0,0,,
+Dialogue: 0,0:02:28.27,0:02:31.27,Default,,0,0,0,,{\pos(640,620)}Да. Если никто не будет против.
 Dialogue: 0,0:02:31.27,0:02:35.65,Default,,0,0,0,,{\an5}Sure, why not? This is the\NNet Game Club, not the {\i1}LA{\i0} Club.
-Dialogue: 0,0:02:31.27,0:02:35.65,Default,,0,0,0,,
+Dialogue: 0,0:02:31.27,0:02:35.65,Default,,0,0,0,,{\pos(640,620)}Почему бы и нет? На одной LA свет клином не сошелся.
 Dialogue: 0,0:02:35.65,0:02:40.03,Default,,0,0,0,,{\an5}Yeah. So, do you have any requests\Nfor what game you'd like?
-Dialogue: 0,0:02:35.65,0:02:40.03,Default,,0,0,0,,
+Dialogue: 0,0:02:35.65,0:02:40.03,Default,,0,0,0,,{\pos(640,620)}Вот вот. И в какую игры ты хотела бы сыграть?
 Dialogue: 0,0:02:40.03,0:02:42.66,Default,,0,0,0,,{\an5}I'd like to play something more exhilarating.
-Dialogue: 0,0:02:40.03,0:02:42.66,Default,,0,0,0,,
+Dialogue: 0,0:02:40.03,0:02:42.66,Default,,0,0,0,,{\pos(640,620)}Что угодно, только не моба.
 Dialogue: 0,0:02:42.66,0:02:45.66,Default,,0,0,0,,{\an5}Hmm... In that case...
-Dialogue: 0,0:02:42.66,0:02:45.66,Default,,0,0,0,,
+Dialogue: 0,0:02:42.66,0:02:45.66,Default,,0,0,0,,У-му… В таком случае…
 Dialogue: 0,0:02:45.66,0:02:47.38,Default,,0,0,0,,{\an5}How about this?
-Dialogue: 0,0:02:45.66,0:02:47.38,Default,,0,0,0,,
+Dialogue: 0,0:02:45.66,0:02:47.38,Default,,0,0,0,,Такая пойдёт?
 Dialogue: 0,0:02:47.38,0:02:49.08,Default,,0,0,0,,{\an5}{\i1}Ultra Force{\i0}?
-Dialogue: 0,0:02:47.38,0:02:49.08,Default,,0,0,0,,
+Dialogue: 0,0:02:47.38,0:02:49.08,Default,,0,0,0,,Уретра Форсу.
 Dialogue: 0,0:02:49.08,0:02:51.50,Default,,0,0,0,,{\an5}An FPS, huh?
-Dialogue: 0,0:02:49.08,0:02:51.50,Default,,0,0,0,,
+Dialogue: 0,0:02:49.08,0:02:51.50,Default,,0,0,0,,Пострелушка?
 Dialogue: 0,0:02:51.50,0:02:56.34,Default,,0,0,0,,{\an5}I've never played one like this.\NAre you sure I'll be all right?
-Dialogue: 0,0:02:51.50,0:02:56.34,Default,,0,0,0,,
+Dialogue: 0,0:02:51.50,0:02:56.34,Default,,0,0,0,,Никогда не играла в подобное. Думаете, я справлюсь?
 Dialogue: 0,0:02:56.34,0:02:58.30,Default,,0,0,0,,{\an5}I've got just the thing.
-Dialogue: 0,0:02:56.34,0:02:58.30,Default,,0,0,0,,
+Dialogue: 0,0:02:56.34,0:02:58.30,Default,,0,0,0,,Щас я тебя мотивирую.
 Dialogue: 0,0:02:58.30,0:03:01.55,Default,,0,0,0,,{\an5}Listen to me, Ako. Think of all of the enemies...
-Dialogue: 0,0:02:58.30,0:03:01.55,Default,,0,0,0,,
+Dialogue: 0,0:02:58.30,0:03:01.55,Default,,0,0,0,,Ако, внуши себе, что все враги…
 Dialogue: 0,0:03:01.56,0:03:03.14,Default,,0,0,0,,{\an5}...as normies!
-Dialogue: 0,0:03:01.56,0:03:03.14,Default,,0,0,0,,
+Dialogue: 0,0:03:01.56,0:03:03.14,Default,,0,0,0,,…нормалфаги!
 Dialogue: 0,0:03:03.14,0:03:07.06,Default,,0,0,0,,{\an5}The enemies are normies... Normies are...
-Dialogue: 0,0:03:03.14,0:03:07.06,Default,,0,0,0,,
+Dialogue: 0,0:03:03.14,0:03:07.06,Default,,0,0,0,,Враги — нормалфаги… Нормалфаги — …
 Dialogue: 0,0:03:07.06,0:03:08.56,Default,,0,0,0,,{\an5}...the enemy!
-Dialogue: 0,0:03:07.06,0:03:08.56,Default,,0,0,0,,
+Dialogue: 0,0:03:07.06,0:03:08.56,Default,,0,0,0,,… враги!
 Dialogue: 0,0:03:21.20,0:03:23.91,Default,,0,0,0,,{\an5}Team Deathmatch!!
-Dialogue: 0,0:03:21.20,0:03:23.91,Default,,0,0,0,,
+Dialogue: 0,0:03:21.20,0:03:23.91,Default,,0,0,0,,{Ноуп}
 Dialogue: 0,0:03:25.37,0:03:28.04,Default,,0,0,0,,{\an5}Team... Deathmatch...!
-Dialogue: 0,0:03:25.37,0:03:28.04,Default,,0,0,0,,
+Dialogue: 0,0:03:25.37,0:03:28.04,Default,,0,0,0,,Тииим… Десмаач…
 Dialogue: 0,0:03:28.04,0:03:30.46,Default,,0,0,0,,{\an5}You don't have to repeat the start signal.
-Dialogue: 0,0:03:28.04,0:03:30.46,Default,,0,0,0,,
+Dialogue: 0,0:03:28.04,0:03:30.46,Default,,0,0,0,,Больше так не делай.
 Dialogue: 0,0:03:40.64,0:03:43.47,Default,,0,0,0,,{\an5}Behold the force of the\Nself-destructing bazooka!
-Dialogue: 0,0:03:40.64,0:03:43.47,Default,,0,0,0,,
+Dialogue: 0,0:03:40.64,0:03:43.47,Default,,0,0,0,,Узрите мощь гамбит-базуки!
 Dialogue: 0,0:03:43.47,0:03:45.14,Default,,0,0,0,,{\an5}I got five kills with one shot!
-Dialogue: 0,0:03:43.47,0:03:45.14,Default,,0,0,0,,
+Dialogue: 0,0:03:43.47,0:03:45.14,Default,,0,0,0,,Пятерых один ударом!
 Dialogue: 0,0:03:45.14,0:03:48.06,Default,,0,0,0,,{\an5}Uh, you caught me with that one, too.
-Dialogue: 0,0:03:45.14,0:03:48.06,Default,,0,0,0,,
+Dialogue: 0,0:03:45.14,0:03:48.06,Default,,0,0,0,,Только твоим рокет-джампом и меня зацепило!
 Dialogue: 0,0:03:50.31,0:03:52.52,Default,,0,0,0,,{\an5}Damn, our position has been given away!
-Dialogue: 0,0:03:50.31,0:03:52.52,Default,,0,0,0,,
+Dialogue: 0,0:03:50.31,0:03:52.52,Default,,0,0,0,,Щорт, наша контрольная точка захвачена!
 Dialogue: 0,0:03:56.28,0:03:57.78,Default,,0,0,0,,{\an5}I-I'm dead...
-Dialogue: 0,0:03:56.28,0:03:57.78,Default,,0,0,0,,
+Dialogue: 0,0:03:56.28,0:03:57.78,Default,,0,0,0,,Респаун, я иду…
 Dialogue: 0,0:04:20.13,0:04:21.97,Default,,0,0,0,,{\an5}Was that Ako?
-Dialogue: 0,0:04:20.13,0:04:21.97,Default,,0,0,0,,
+Dialogue: 0,0:04:20.13,0:04:21.97,Default,,0,0,0,,Ако кемперит?
 Dialogue: 0,0:04:25.14,0:04:27.14,Default,,0,0,0,,{\an5}Beautiful!
-Dialogue: 0,0:04:25.14,0:04:27.14,Default,,0,0,0,,
+Dialogue: 0,0:04:25.14,0:04:27.14,Default,,0,0,0,,Бьютифул!
 Dialogue: 0,0:04:27.14,0:04:31.48,Default,,0,0,0,,{\an5}Rusian! I think this game might be for me!
-Dialogue: 0,0:04:27.14,0:04:31.48,Default,,0,0,0,,
+Dialogue: 0,0:04:27.14,0:04:31.48,Default,,0,0,0,,Русиян! Да я в этой игре тащу как царь!
 Dialogue: 0,0:04:31.48,0:04:33.27,Default,,0,0,0,,{\an5}Y-Yeah.
-Dialogue: 0,0:04:31.48,0:04:33.27,Default,,0,0,0,,
+Dialogue: 0,0:04:31.48,0:04:33.27,Default,,0,0,0,,В-внезапно.
 Dialogue: 0,0:04:41.28,0:04:47.33,Default,,0,0,0,,{\an5}Ugh, I stayed up all night playing\N{\i1}Ultra Force{\i0}, and I sure am sleepy.
 Dialogue: 0,0:04:41.28,0:04:47.33,Default,,0,0,0,,
 Dialogue: 0,0:04:47.33,0:04:52.50,Default,,0,0,0,,{\an5}Still, who'd have guessed that Ako\Nwould be so caught up in an FPS?
 Dialogue: 0,0:04:47.33,0:04:52.50,Default,,0,0,0,,
 Dialogue: 0,0:04:59.92,0:05:00.92,Default,,0,0,0,,{\an5}Hey.
-Dialogue: 0,0:04:59.92,0:05:00.92,Default,,0,0,0,,
+Dialogue: 0,0:04:59.92,0:05:00.92,Default,,0,0,0,,Слышь?
 Dialogue: 0,0:05:03.01,0:05:04.80,Default,,0,0,0,,{\an5}What were you doing out there?
-Dialogue: 0,0:05:03.01,0:05:04.80,Default,,0,0,0,,
+Dialogue: 0,0:05:03.01,0:05:04.80,Default,,0,0,0,,Ты чего по коридорам шкеришься?
 Dialogue: 0,0:05:04.80,0:05:08.47,Default,,0,0,0,,{\an5}I thought that there might be\Nenemy soldiers, and couldn't help it.
 Dialogue: 0,0:05:04.80,0:05:08.47,Default,,0,0,0,,
 Dialogue: 0,0:05:08.47,0:05:10.43,Default,,0,0,0,,{\an5}You're too caught up in it.
 Dialogue: 0,0:05:08.47,0:05:10.43,Default,,0,0,0,,
 Dialogue: 0,0:05:10.93,0:05:13.81,Default,,0,0,0,,{\an5}--Oh...\N--Hmm? What's the matter?
-Dialogue: 0,0:05:10.93,0:05:13.81,Default,,0,0,0,,
+Dialogue: 0,0:05:10.93,0:05:13.81,Default,,0,0,0,,— О…\N— Э? Ты чего?
 Dialogue: 0,0:05:13.81,0:05:15.31,Default,,0,0,0,,{\an5}Look down there.
-Dialogue: 0,0:05:13.81,0:05:15.31,Default,,0,0,0,,
+Dialogue: 0,0:05:13.81,0:05:15.31,Default,,0,0,0,,Глянь-ка во двор.
 Dialogue: 0,0:05:15.81,0:05:17.11,Default,,0,0,0,,{\an5}Normies.
-Dialogue: 0,0:05:15.81,0:05:17.11,Default,,0,0,0,,
+Dialogue: 0,0:05:15.81,0:05:17.11,Default,,0,0,0,,Нормалфаги детектед.
 Dialogue: 0,0:05:17.11,0:05:18.98,Default,,0,0,0,,{\an5}Yeah, normies, all right.
-Dialogue: 0,0:05:17.11,0:05:18.98,Default,,0,0,0,,
+Dialogue: 0,0:05:17.11,0:05:18.98,Default,,0,0,0,,Ну, нормалфаги, и что?
 Dialogue: 0,0:05:18.98,0:05:21.24,Default,,0,0,0,,{\an5}If this were {\i1}Ultra Force...{\i0}
-Dialogue: 0,0:05:18.98,0:05:21.24,Default,,0,0,0,,
+Dialogue: 0,0:05:18.98,0:05:21.24,Default,,0,0,0,,Будь мы в Урутра Форсу я бы…
 Dialogue: 0,0:05:21.24,0:05:23.95,Default,,0,0,0,,{\an5}Huh?! Hey, none of that!
-Dialogue: 0,0:05:21.24,0:05:23.95,Default,,0,0,0,,
+Dialogue: 0,0:05:21.24,0:05:23.95,Default,,0,0,0,,Э? 
 Dialogue: 0,0:05:23.95,0:05:25.41,Default,,0,0,0,,{\an5}None of what?
 Dialogue: 0,0:05:23.95,0:05:25.41,Default,,0,0,0,,
 Dialogue: 0,0:05:25.41,0:05:26.57,Default,,0,0,0,,{\an5}Akiyama-{\i1}san{\i0}...
