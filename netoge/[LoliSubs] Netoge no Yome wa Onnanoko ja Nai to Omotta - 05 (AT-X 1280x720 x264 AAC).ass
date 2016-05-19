@@ -11,14 +11,15 @@ PlayResY: 720
 PlayDepth: 16
 
 [Aegisub Project Garbage]
+Last Style Storage: Default
 Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 05 (AT-X 1280x720 x264 AAC).mkv
 Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 05 (AT-X 1280x720 x264 AAC).mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 156
-Active Line: 160
-Video Position: 9890
+Scroll Position: 280
+Active Line: 288
+Video Position: 14677
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -27,6 +28,7 @@ Style: Def_Top,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100
 Style: Def_Ita,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.2,0,2,96,96,48,1
 Style: Def_I-T,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.2,0,8,96,96,48,1
 Style: Default_AN1,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,1,64,740,48,1
+Style: DefaultList,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,1,200,96,48,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -194,127 +196,131 @@ Dialogue: 0,0:06:45.82,0:06:49.53,Default,,0,0,0,,♪ Потрачено. Бег
 Dialogue: 0,0:06:49.66,0:06:52.53,Def_Top,,0,0,0,,{\an5}"Staff Room"
 Dialogue: 0,0:06:49.66,0:06:52.53,Def_Top,,0,0,0,,[Учительская]
 Dialogue: 0,0:06:50.66,0:06:52.53,Default,,0,0,0,,{\an5}So that's what happened, is it?
-Dialogue: 0,0:06:50.66,0:06:52.53,Default,,0,0,0,,
+Dialogue: 0,0:06:50.66,0:06:52.53,Default,,0,0,0,,Так вот что произошло.
 Dialogue: 0,0:06:52.70,0:06:55.29,Default,,0,0,0,,{\an5}I never expected her to get so angry.
-Dialogue: 0,0:06:52.70,0:06:55.29,Default,,0,0,0,,
+Dialogue: 0,0:06:52.70,0:06:55.29,Default,,0,0,0,,Не ожидала, что она так разозлится.
 Dialogue: 0,0:06:55.29,0:06:58.71,Default,,0,0,0,,{\an5}I think it's better to think of it\Nas shock, rather than anger.
-Dialogue: 0,0:06:55.29,0:06:58.71,Default,,0,0,0,,
+Dialogue: 0,0:06:55.29,0:06:58.71,Default,,0,0,0,,Она скорее была в шоке, чем обозлена, ИМХО.
 Dialogue: 0,0:06:58.71,0:07:00.25,Default,,0,0,0,,{\an5}It's possible that Ako thought
-Dialogue: 0,0:06:58.71,0:07:00.25,Default,,0,0,0,,
+Dialogue: 0,0:06:58.71,0:07:00.25,Default,,0,0,0,,Возможно она подумала,
 Dialogue: 0,0:07:00.25,0:07:02.71,Default,,0,0,0,,{\an5}that Nishimura was being\Ntaken away from her by Nanako.
-Dialogue: 0,0:07:00.25,0:07:02.71,Default,,0,0,0,,
+Dialogue: 0,0:07:00.25,0:07:02.71,Default,,0,0,0,,что Нанако пытается приударить за Нисимурой.
 Dialogue: 0,0:07:02.71,0:07:05.63,Default,,0,0,0,,{\an5}No way! I don't think of\NNishimura-{\i1}kun{\i0} like that at all!
-Dialogue: 0,0:07:02.71,0:07:05.63,Default,,0,0,0,,
+Dialogue: 0,0:07:02.71,0:07:05.63,Default,,0,0,0,,Нонсенс! Нисимура-кун мне не интересен,
 Dialogue: 0,0:07:05.63,0:07:07.63,Default,,0,0,0,,{\an5}--Not in the least!\N--Brutal...
-Dialogue: 0,0:07:05.63,0:07:07.63,Default,,0,0,0,,
+Dialogue: 0,0:07:05.63,0:07:07.63,Default,,0,0,0,,— Вот ни столечки! \N— Ну и ладно…
 Dialogue: 0,0:07:07.63,0:07:09.89,Default,,0,0,0,,{\an5}Well, if it had been anyone other than Ako,
-Dialogue: 0,0:07:07.63,0:07:09.89,Default,,0,0,0,,
+Dialogue: 0,0:07:07.63,0:07:09.89,Default,,0,0,0,,Ну, всё бы было ничего, но Ако
 Dialogue: 0,0:07:09.89,0:07:12.97,Default,,0,0,0,,{\an5}this might not be such a big deal.
-Dialogue: 0,0:07:09.89,0:07:12.97,Default,,0,0,0,,
+Dialogue: 0,0:07:09.89,0:07:12.97,Default,,0,0,0,,наверняка восприняла это всерьёз.
 Dialogue: 0,0:07:12.97,0:07:17.77,Default,,0,0,0,,{\an5}In a situation like this, I guess\Nall of us going over to her house...
-Dialogue: 0,0:07:12.97,0:07:17.77,Default,,0,0,0,,
+Dialogue: 0,0:07:12.97,0:07:17.77,Default,,0,0,0,,Раз уж так всё сложилось, нам стоит сходить к ней домой…
 Dialogue: 0,0:07:17.77,0:07:19.56,Default,,0,0,0,,{\an5}...isn't going to work, is it?
-Dialogue: 0,0:07:17.77,0:07:19.56,Default,,0,0,0,,
+Dialogue: 0,0:07:17.77,0:07:19.56,Default,,0,0,0,,…но это не вариант.
 Dialogue: 0,0:07:19.56,0:07:22.11,Default,,0,0,0,,{\an5}It would probably make her that\Nmuch more stubborn, wouldn't it?
-Dialogue: 0,0:07:19.56,0:07:22.11,Default,,0,0,0,,
+Dialogue: 0,0:07:19.56,0:07:22.11,Default,,0,0,0,,Не усугубить бы ситуацию.
 Dialogue: 0,0:07:22.11,0:07:23.82,Default,,0,0,0,,{\an5}Yeah, it would.
-Dialogue: 0,0:07:22.11,0:07:23.82,Default,,0,0,0,,
+Dialogue: 0,0:07:22.11,0:07:23.82,Default,,0,0,0,,Да уж.
 Dialogue: 0,0:07:23.82,0:07:25.40,Default,,0,0,0,,{\an5}You're right.
-Dialogue: 0,0:07:23.82,0:07:25.40,Default,,0,0,0,,
+Dialogue: 0,0:07:23.82,0:07:25.40,Default,,0,0,0,,Твоя правда.
 Dialogue: 0,0:07:25.40,0:07:28.78,Default,,0,0,0,,{\an5}For now, we should just give her a little time.
-Dialogue: 0,0:07:25.40,0:07:28.78,Default,,0,0,0,,
+Dialogue: 0,0:07:25.40,0:07:28.78,Default,,0,0,0,,Давайте пока что оставим её в покое.
 Dialogue: 0,0:07:28.78,0:07:33.16,Default,,0,0,0,,{\an5}If we do that, I think Tamaki-{\i1}san{\i0}\Nwill become a bit more levelheaded.
-Dialogue: 0,0:07:28.78,0:07:33.16,Default,,0,0,0,,
+Dialogue: 0,0:07:28.78,0:07:33.16,Default,,0,0,0,,Пусть Тамаки-сан успокоится и приведёт мысли в порядок,
 Dialogue: 0,0:07:33.16,0:07:35.16,Default,,0,0,0,,{\an5}We'll figure out what to do after that.
-Dialogue: 0,0:07:33.16,0:07:35.16,Default,,0,0,0,,
+Dialogue: 0,0:07:33.16,0:07:35.16,Default,,0,0,0,,потом и подумаем, что делать дальше.
 Dialogue: 0,0:07:53.97,0:07:57.27,Default,,0,0,0,,{\an5}The root cause only rises to the level\Nof a misunderstanding, right?
-Dialogue: 0,0:07:53.97,0:07:57.27,Default,,0,0,0,,
+Dialogue: 0,0:07:53.97,0:07:57.27,Default,,0,0,0,,Всё произошло из-за банального недопонимания.
 Dialogue: 0,0:07:57.27,0:08:01.02,Default,,0,0,0,,{\an5}Yeah. If we lay it all out for Ako,\Nit should clear this up.
-Dialogue: 0,0:07:57.27,0:08:01.02,Default,,0,0,0,,
+Dialogue: 0,0:07:57.27,0:08:01.02,Default,,0,0,0,,Именно. Если объяснить всё Ако, то это должно решить проблему.
 Dialogue: 0,0:08:01.02,0:08:03.48,Default,,0,0,0,,{\an5}So, how do we talk to her?
-Dialogue: 0,0:08:01.02,0:08:03.48,Default,,0,0,0,,
+Dialogue: 0,0:08:01.02,0:08:03.48,Default,,0,0,0,,Дык как мы с ней поговорим?
 Dialogue: 0,0:08:03.48,0:08:06.19,Default,,0,0,0,,{\an5}I've been trying to call her for a while,\Nbut she's not answering.
-Dialogue: 0,0:08:03.48,0:08:06.19,Default,,0,0,0,,
+Dialogue: 0,0:08:03.48,0:08:06.19,Default,,0,0,0,,Пробовала звонить, но она не отвечает.
 Dialogue: 0,0:08:06.19,0:08:08.03,Default,,0,0,0,,{\an5}What do we do, Rusian?
-Dialogue: 0,0:08:06.19,0:08:08.03,Default,,0,0,0,,
+Dialogue: 0,0:08:06.19,0:08:08.03,Default,,0,0,0,,Дело — дрянь, Русиян.
 Dialogue: 0,0:08:08.03,0:08:09.90,Default,,0,0,0,,{\an5}I'll talk to Ako.
-Dialogue: 0,0:08:08.03,0:08:09.90,Default,,0,0,0,,
+Dialogue: 0,0:08:08.03,0:08:09.90,Default,,0,0,0,,Выйдем на связь.
 Dialogue: 0,0:08:09.90,0:08:12.99,Default,,0,0,0,,{\an5}Like I just said, how are you going to do that?
-Dialogue: 0,0:08:09.90,0:08:12.99,Default,,0,0,0,,
+Dialogue: 0,0:08:09.90,0:08:12.99,Default,,0,0,0,,Как ты себе это представляешь?
 Dialogue: 0,0:08:24.84,0:08:25.92,Default,,0,0,0,,{\an5}Ako!
-Dialogue: 0,0:08:24.84,0:08:25.92,Default,,0,0,0,,
+Dialogue: 0,0:08:24.84,0:08:25.92,Default,,0,0,0,,Ако!
 Dialogue: 0,0:08:25.92,0:08:27.42,Default,,0,0,0,,{\an5}So this is where you've been.
-Dialogue: 0,0:08:25.92,0:08:27.42,Default,,0,0,0,,
+Dialogue: 0,0:08:25.92,0:08:27.42,Default,,0,0,0,,Занесла же тебя нелёгкая.
 Dialogue: 0,0:08:27.42,0:08:31.26,Default,,0,0,0,,{\an5}Perfect timing. I was just about to level up.
-Dialogue: 0,0:08:27.42,0:08:31.26,Default,,0,0,0,,
+Dialogue: 0,0:08:27.42,0:08:31.26,Default,,0,0,0,,Хорошо, что пришёл. Я вот-вот апну уровень.
 Dialogue: 0,0:08:31.26,0:08:32.93,Default,,0,0,0,,{\an5}Would you like to join me?
-Dialogue: 0,0:08:31.26,0:08:32.93,Default,,0,0,0,,
+Dialogue: 0,0:08:31.26,0:08:32.93,Default,,0,0,0,,Хочешь посмотреть?
 Dialogue: 0,0:08:33.43,0:08:38.47,Default,,0,0,0,,{\an5}Listen to me. Akiyama-{\i1}san{\i0} doesn't think\Nanything at all about me, in the least!
-Dialogue: 0,0:08:33.43,0:08:38.47,Default,,0,0,0,,
+Dialogue: 0,0:08:33.43,0:08:38.47,Default,,0,0,0,,Выслушай. Акияма-сан меня совсем-совсем вот ни сколечки…
 Dialogue: 0,0:08:38.47,0:08:40.23,Default,,0,0,0,,{\an5}It doesn't matter anymore.
-Dialogue: 0,0:08:38.47,0:08:40.23,Default,,0,0,0,,
+Dialogue: 0,0:08:38.47,0:08:40.23,Default,,0,0,0,,Не важно… это всё.
 Dialogue: 0,0:08:40.23,0:08:41.10,Default,,0,0,0,,{\an5}Huh?
-Dialogue: 0,0:08:40.23,0:08:41.10,Default,,0,0,0,,
+Dialogue: 0,0:08:40.23,0:08:41.10,Default,,0,0,0,,Э?
 Dialogue: 0,0:08:41.10,0:08:43.27,Default,,0,0,0,,{\an5}I've given up everything.
-Dialogue: 0,0:08:41.10,0:08:43.27,Default,,0,0,0,,
+Dialogue: 0,0:08:41.10,0:08:43.27,Default,,0,0,0,,Теперь это всё не имеет значения.
 Dialogue: 0,0:08:43.27,0:08:46.32,Default,,0,0,0,,{\an5}Rusian, I'm forsaking any life\Nin which we're not a couple.
-Dialogue: 0,0:08:43.27,0:08:46.32,Default,,0,0,0,,
+Dialogue: 0,0:08:43.27,0:08:46.32,Default,,0,0,0,,Я покончу с той жизнью, в которой мы не вместе.
 Dialogue: 0,0:08:46.32,0:08:49.53,Default,,0,0,0,,{\an5}Forsaking life...? You don't mean...
-Dialogue: 0,0:08:46.32,0:08:49.53,Default,,0,0,0,,
+Dialogue: 0,0:08:46.32,0:08:49.53,Default,,0,0,0,,Покончишь с жизнью? Неужели ты…
 Dialogue: 0,0:08:49.53,0:08:51.65,Default,,0,0,0,,{\an5}I'm going to reincarnate.
-Dialogue: 0,0:08:49.53,0:08:51.65,Default,,0,0,0,,
+Dialogue: 0,0:08:49.53,0:08:51.65,Default,,0,0,0,,Я собираюсь переродиться.
 Dialogue: 0,0:08:51.65,0:08:54.32,Default,,0,0,0,,{\an5}--Huh?\N--I'm leveling up to the max,
-Dialogue: 0,0:08:51.65,0:08:54.32,Default,,0,0,0,,
+Dialogue: 0,0:08:51.65,0:08:54.32,Default,,0,0,0,,— А?\N— Я достигну лампы,
 Dialogue: 0,0:08:54.32,0:08:56.53,Default,,0,0,0,,{\an5}and betting on my chances in the next life.
-Dialogue: 0,0:08:54.32,0:08:56.53,Default,,0,0,0,,
+Dialogue: 0,0:08:54.32,0:08:56.53,Default,,0,0,0,,и отыграюсь в следующей жизни.
 Dialogue: 0,0:08:56.53,0:09:00.41,Default,,0,0,0,,{\an5}Uh, so, um... What are you saying?
-Dialogue: 0,0:08:56.53,0:09:00.41,Default,,0,0,0,,
-Dialogue: 0,0:09:00.41,0:09:03.83,Default,,0,0,0,,{\an5}What am I saying? Isn't that obvious?
-Dialogue: 0,0:09:00.41,0:09:03.83,Default,,0,0,0,,
-Dialogue: 0,0:09:03.83,0:09:07.75,Default,,0,0,0,,{\an5}I'm reincarnating within {\i1}LA,{\i0}\Nbecoming a new character,
-Dialogue: 0,0:09:03.83,0:09:07.75,Default,,0,0,0,,
-Dialogue: 0,0:09:07.75,0:09:11.05,Default,,0,0,0,,{\an5}and being reborn as a more\Ncheerful and popular self.
-Dialogue: 0,0:09:07.75,0:09:11.05,Default,,0,0,0,,
+Dialogue: 0,0:08:56.53,0:09:00.41,Default,,0,0,0,,Эм, это… Что ты несёшь?
+Dialogue: 0,0:09:00.41,0:09:03.83,Default,,0,0,0,,{\an5}{What am I saying? Isn't that obvious?}
+Dialogue: 0,0:09:00.41,0:09:03.83,Default,,0,0,0,,Что несу? Очевидно, не?
+Dialogue: 0,0:09:03.83,0:09:07.75,Default,,0,0,0,,{\an5}{I'm reincarnating within }{\i1}{LA,}{\i0}{\Nbecoming a new character},
+Dialogue: 0,0:09:03.83,0:09:05.48,DefaultList,,0,0,0,,1. Перерождашься в LA{\alpha&HFF&}\N2.\N3.\N4.\N5.
+Dialogue: 0,0:09:05.48,0:09:07.73,DefaultList,,0,0,0,,1. Перерождашься в LA\N2. Создаёшь нового персонажа{\alpha&HFF&}\N3.\N4.\N5.
+Dialogue: 0,0:09:07.73,0:09:08.86,DefaultList,,0,0,0,,1. Перерождашься в LA\N2. Создаёшь нового персонажа\N3. Становишься улучшенной версией себя{\alpha&HFF&}\N4.\N5.
+Dialogue: 0,0:09:08.86,0:09:09.36,DefaultList,,0,0,0,,1. Перерождашься в LA\N2. Создаёшь нового персонажа\N3. Становишься улучшенной версией себя\N4. ??????{\alpha&HFF&}\N5.
+Dialogue: 0,0:09:09.36,0:09:11.03,DefaultList,,0,0,0,,1. Перерождашься в LA\N2. Создаёшь нового персонажа\N3. Становишься улучшенной версией себя\N4. ??????\N5. PROFIT
+Dialogue: 0,0:09:07.75,0:09:11.05,Default,,0,0,0,,{\an5}{and being reborn as a more\Ncheerful and popular self.}
+Dialogue: 0,0:09:07.75,0:09:11.05,Default,,0,0,0,,{Nope}
 Dialogue: 0,0:09:11.05,0:09:13.84,Default,,0,0,0,,{\an5}My goal is my dream next life.
-Dialogue: 0,0:09:11.05,0:09:13.84,Default,,0,0,0,,
+Dialogue: 0,0:09:11.05,0:09:13.84,Default,,0,0,0,,Моя цель — новая жизнь.
 Dialogue: 0,0:09:13.84,0:09:18.01,Default,,0,0,0,,{\an5}When you say you're forsaking life,\Nare you serious about giving up reality?
-Dialogue: 0,0:09:13.84,0:09:18.01,Default,,0,0,0,,
+Dialogue: 0,0:09:13.84,0:09:18.01,Default,,0,0,0,,Говоря, что покончишь с жизнью, ты имела в виду, что бросишь всё ради игры?
 Dialogue: 0,0:09:18.01,0:09:20.89,Default,,0,0,0,,{\an5}Which means that I'll be quitting school.
-Dialogue: 0,0:09:18.01,0:09:20.89,Default,,0,0,0,,
+Dialogue: 0,0:09:18.01,0:09:20.89,Default,,0,0,0,,Таким образом я бросаю школу.
 Dialogue: 0,0:09:22.85,0:09:23.73,Default,,0,0,0,,{\an5}You're...
-Dialogue: 0,0:09:22.85,0:09:23.73,Default,,0,0,0,,
+Dialogue: 0,0:09:22.85,0:09:23.73,Default,,0,0,0,,Ты…
 Dialogue: 0,0:09:23.73,0:09:28.23,Default,,0,0,0,,{\an5}From now on, I'm living in {\i1}LA.{\i0}\NI don't need real life.
-Dialogue: 0,0:09:23.73,0:09:28.23,Default,,0,0,0,,
+Dialogue: 0,0:09:23.73,0:09:28.23,Default,,0,0,0,,С этих пор я живу в LA, реальность мне не нужна.
 Dialogue: 0,0:09:28.23,0:09:31.07,Default,,0,0,0,,{\an5}Ako, take it easy.
-Dialogue: 0,0:09:28.23,0:09:31.07,Default,,0,0,0,,
+Dialogue: 0,0:09:28.23,0:09:31.07,Default,,0,0,0,,Ако, хорош.
 Dialogue: 0,0:09:31.07,0:09:33.45,Default,,0,0,0,,{\an5}As long as I have {\i1}LA{\i0}, I can go on living.
-Dialogue: 0,0:09:31.07,0:09:33.45,Default,,0,0,0,,
+Dialogue: 0,0:09:31.07,0:09:33.45,Default,,0,0,0,,Пока у меня есть LA, я буду жить.
 Dialogue: 0,0:09:35.07,0:09:36.24,Default,,0,0,0,,{\an5}Don't obsess over this.
-Dialogue: 0,0:09:35.07,0:09:36.24,Default,,0,0,0,,
+Dialogue: 0,0:09:35.07,0:09:36.24,Default,,0,0,0,,Не делай из мухи слона.
 Dialogue: 0,0:09:36.24,0:09:40.33,Default,,0,0,0,,{\an5}Inside {\i1}LA{\i0}, Rusian, you are my husband.
-Dialogue: 0,0:09:36.24,0:09:40.33,Default,,0,0,0,,
+Dialogue: 0,0:09:36.24,0:09:40.33,Default,,0,0,0,,В это мире Русиян мой хазбандо.
 Dialogue: 0,0:09:40.33,0:09:43.83,Default,,0,0,0,,{\an5}Okay, I'm going to go do\Nmy best to reincarnate now.
-Dialogue: 0,0:09:40.33,0:09:43.83,Default,,0,0,0,,
+Dialogue: 0,0:09:40.33,0:09:43.83,Default,,0,0,0,,Засим я приложу все усилия, чтобы переродиться.
 Dialogue: 0,0:09:43.83,0:09:45.33,Default,,0,0,0,,{\an5}Hold on a second!
-Dialogue: 0,0:09:43.83,0:09:45.33,Default,,0,0,0,,
+Dialogue: 0,0:09:43.83,0:09:45.33,Default,,0,0,0,,Не уходи!
 Dialogue: 0,0:09:48.13,0:09:49.50,Default,,0,0,0,,{\an5}Damn it!
-Dialogue: 0,0:09:48.13,0:09:49.50,Default,,0,0,0,,
+Dialogue: 0,0:09:48.13,0:09:49.50,Default,,0,0,0,,Демоны!
 Dialogue: 0,0:09:49.50,0:09:52.05,Default,,0,0,0,,{\an5}Ako has turned her chat off.
-Dialogue: 0,0:09:49.50,0:09:52.05,Default,,0,0,0,,
+Dialogue: 0,0:09:49.50,0:09:52.05,Default,,0,0,0,,Ако вышла из чата.
 Dialogue: 0,0:09:52.05,0:09:53.38,Default,,0,0,0,,{\an5}She's denying us interaction.
-Dialogue: 0,0:09:52.05,0:09:53.38,Default,,0,0,0,,
+Dialogue: 0,0:09:52.05,0:09:53.38,Default,,0,0,0,,И в блеклист добавила?
 Dialogue: 0,0:09:53.38,0:09:56.55,Default,,0,0,0,,{\an5}She's completely closed\Nherself off inside the game.
-Dialogue: 0,0:09:53.38,0:09:56.55,Default,,0,0,0,,
+Dialogue: 0,0:09:53.38,0:09:56.55,Default,,0,0,0,,Походу решила окончательно уйти из реала в игру.
 Dialogue: 0,0:09:56.55,0:09:59.35,Default,,0,0,0,,{\an5}I guess that means the club has backfired.
-Dialogue: 0,0:09:56.55,0:09:59.35,Default,,0,0,0,,
+Dialogue: 0,0:09:56.55,0:09:59.35,Default,,0,0,0,,А значит от клуба не было никакой пользы.
 Dialogue: 0,0:09:59.35,0:10:02.64,Default,,0,0,0,,{\an5}Hmm, that may not be true.
-Dialogue: 0,0:09:59.35,0:10:02.64,Default,,0,0,0,,
+Dialogue: 0,0:09:59.35,0:10:02.64,Default,,0,0,0,,Хмм, это не совсем так.
 Dialogue: 0,0:10:03.98,0:10:07.06,Default,,0,0,0,,{\an5}Unlike the time she attacked me,
-Dialogue: 0,0:10:03.98,0:10:07.06,Default,,0,0,0,,
+Dialogue: 0,0:10:03.98,0:10:07.06,Default,,0,0,0,,Если в прошлый раз она набросилась на меня,
 Dialogue: 0,0:10:07.06,0:10:09.65,Default,,0,0,0,,{\an5}now she's just closing herself off, right?
-Dialogue: 0,0:10:07.06,0:10:09.65,Default,,0,0,0,,
+Dialogue: 0,0:10:07.06,0:10:09.65,Default,,0,0,0,,то теперь просто сбежала от реальности.
 Dialogue: 0,0:10:09.65,0:10:12.19,Default,,0,0,0,,{\an5}I think that, in her own way,\Nshe's showing improvement.
-Dialogue: 0,0:10:09.65,0:10:12.19,Default,,0,0,0,,
+Dialogue: 0,0:10:09.65,0:10:12.19,Default,,0,0,0,,Думаю, в её случае, это положительная динамика.
 Dialogue: 0,0:10:12.19,0:10:15.36,Default,,0,0,0,,{\an5}True, that is one way to look at it.
 Dialogue: 0,0:10:12.19,0:10:15.36,Default,,0,0,0,,
 Dialogue: 0,0:10:15.36,0:10:18.62,Default,,0,0,0,,{\an5}Also, I get the feeling that, more than likely,
