@@ -17,9 +17,9 @@ Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 504
-Active Line: 510
-Video Position: 24307
+Scroll Position: 653
+Active Line: 656
+Video Position: 29724
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -346,7 +346,7 @@ Dialogue: 0,0:10:49.56,0:10:52.19,Default,,0,0,0,,За последствия я
 Dialogue: 0,0:10:55.28,0:10:56.99,Default,,0,0,0,,{\an5}All right.
 Dialogue: 0,0:10:55.28,0:10:56.99,Default,,0,0,0,,Ладно-ладно.
 Dialogue: 0,0:10:56.99,0:11:00.45,Default,,0,0,0,,{\an5}But in return, you'll have to\Nlet me do this my own way.
-Dialogue: 0,0:10:56.99,0:11:00.45,Default,,0,0,0,,Но тогда я не буду стеснять себя в способе решения проблемы.
+Dialogue: 0,0:10:56.99,0:11:00.45,Default,,0,0,0,,Но тогда я не буду стеснять себя в методах.
 Dialogue: 0,0:11:02.66,0:11:04.54,Default,,0,0,0,,{\an5}Listen, about Ako...
 Dialogue: 0,0:11:02.66,0:11:04.54,Default,,0,0,0,,Кое-что об Ако…
 Dialogue: 0,0:11:04.54,0:11:05.54,Default,,0,0,0,,{\an5}Hmm?
@@ -544,149 +544,149 @@ Dialogue: 0,0:16:44.67,0:16:50.59,Default,,0,0,0,,Про бутылки я по�
 Dialogue: 0,0:16:50.59,0:16:53.84,Default,,0,0,0,,{\an5}Knock off the\Nheart-attack-inducing jokes, okay?
 Dialogue: 0,0:16:50.59,0:16:53.84,Default,,0,0,0,,У меня от таких шуток брат умер.
 Dialogue: 0,0:16:53.84,0:17:00.02,Default,,0,0,0,,{\an5}Um, so, Rusian, what brings you here?
-Dialogue: 0,0:16:53.84,0:17:00.02,Default,,0,0,0,,
+Dialogue: 0,0:16:53.84,0:17:00.02,Default,,0,0,0,,Ну… скажи, Русиян, зачем ты пришёл?
 Dialogue: 0,0:17:00.02,0:17:04.52,Default,,0,0,0,,{\an5}Are you here to ask me to\Ngo back to school with you?
-Dialogue: 0,0:17:00.02,0:17:04.52,Default,,0,0,0,,
+Dialogue: 0,0:17:00.02,0:17:04.52,Default,,0,0,0,,Потащишь меня в школу словно Ленин бревно?
 Dialogue: 0,0:17:05.02,0:17:06.98,Default,,0,0,0,,{\an5}--Don't be silly.\N--Huh?
-Dialogue: 0,0:17:05.02,0:17:06.98,Default,,0,0,0,,
+Dialogue: 0,0:17:05.02,0:17:06.98,Default,,0,0,0,,— Скажешь тоже.\N— А?
 Dialogue: 0,0:17:07.98,0:17:09.82,Default,,0,0,0,,{\an5}Let's have some fun today.
-Dialogue: 0,0:17:07.98,0:17:09.82,Default,,0,0,0,,
+Dialogue: 0,0:17:07.98,0:17:09.82,Default,,0,0,0,,Сегодня гриндим до посинения.
 Dialogue: 0,0:17:11.74,0:17:12.82,Default,,0,0,0,,{\an5}Huh?
-Dialogue: 0,0:17:11.74,0:17:12.82,Default,,0,0,0,,
+Dialogue: 0,0:17:11.74,0:17:12.82,Default,,0,0,0,,Штоу?
 Dialogue: 0,0:17:12.82,0:17:16.24,Default,,0,0,0,,{\an5}Remember, the healer has\Nto manage the cooldown time
-Dialogue: 0,0:17:12.82,0:17:16.24,Default,,0,0,0,,
+Dialogue: 0,0:17:12.82,0:17:16.24,Default,,0,0,0,,Слушай сюда, хиллеру важно\Nсогласовать время кулдауна
 Dialogue: 0,0:17:16.24,0:17:18.16,Default,,0,0,0,,{\an5}of each of the healing skills,
-Dialogue: 0,0:17:16.24,0:17:18.16,Default,,0,0,0,,
+Dialogue: 0,0:17:16.24,0:17:18.16,Default,,0,0,0,,своих лечащих заклинаний,
 Dialogue: 0,0:17:18.16,0:17:22.29,Default,,0,0,0,,{\an5}while using the right skill at\Nthe right time to chain combos,
-Dialogue: 0,0:17:18.16,0:17:22.29,Default,,0,0,0,,
+Dialogue: 0,0:17:18.16,0:17:22.29,Default,,0,0,0,,образуя непрерывные цепочки, если применять их в правильном порядке.
 Dialogue: 0,0:17:22.29,0:17:25.92,Default,,0,0,0,,{\an5}and also maintaining buff skills\Nand canceling enemy techniques.
-Dialogue: 0,0:17:22.29,0:17:25.92,Default,,0,0,0,,
+Dialogue: 0,0:17:22.29,0:17:25.92,Default,,0,0,0,,А ещё накладывать бафы на группу и отменять вражеские,
 Dialogue: 0,0:17:25.92,0:17:30.13,Default,,0,0,0,,{\an5}Also, having major recovery skill\Ncombos on tap in case we fail.
-Dialogue: 0,0:17:25.92,0:17:30.13,Default,,0,0,0,,
+Dialogue: 0,0:17:25.92,0:17:30.13,Default,,0,0,0,,и быть готовым поднять пати в крайнем случае.
 Dialogue: 0,0:17:30.13,0:17:33.72,Default,,0,0,0,,{\an5}Those are the basics.\NThey're the nuts and bolts of ideal play.
-Dialogue: 0,0:17:30.13,0:17:33.72,Default,,0,0,0,,
+Dialogue: 0,0:17:30.13,0:17:33.72,Default,,0,0,0,,Это фундаментальные принципы. Они лежат в основе идеальной игры.
 Dialogue: 0,0:17:33.72,0:17:34.97,Default,,0,0,0,,{\an5}Have you got that?
-Dialogue: 0,0:17:33.72,0:17:34.97,Default,,0,0,0,,
+Dialogue: 0,0:17:33.72,0:17:34.97,Default,,0,0,0,,Усволила?
 Dialogue: 0,0:17:35.47,0:17:39.18,Default,,0,0,0,,{\an5}I don't get it. For that matter,\NI don't get what's happening.
-Dialogue: 0,0:17:35.47,0:17:39.18,Default,,0,0,0,,
+Dialogue: 0,0:17:35.47,0:17:39.18,Default,,0,0,0,,Ни грамма. У меня вообще несварение с утра.
 Dialogue: 0,0:17:43.10,0:17:46.69,Default,,0,0,0,,{\an5}You're trying to top out your\Nlevel and reincarnate, right?
-Dialogue: 0,0:17:43.10,0:17:46.69,Default,,0,0,0,,
+Dialogue: 0,0:17:43.10,0:17:46.69,Default,,0,0,0,,Кто-то у нас собрается взять лампу и переродиться?
 Dialogue: 0,0:17:46.69,0:17:49.27,Default,,0,0,0,,{\an5}Then you have to be able to do this,\Nat least, or you'll get nowhere.
-Dialogue: 0,0:17:46.69,0:17:49.27,Default,,0,0,0,,
+Dialogue: 0,0:17:46.69,0:17:49.27,Default,,0,0,0,,Разберись хотя бы с этим, иначе мы ни к чему не придём.
 Dialogue: 0,0:17:49.28,0:17:52.19,Default,,0,0,0,,{\an5}That may be true, but...
-Dialogue: 0,0:17:49.28,0:17:52.19,Default,,0,0,0,,
+Dialogue: 0,0:17:49.28,0:17:52.19,Default,,0,0,0,,Так-то оно может и так…
 Dialogue: 0,0:17:52.19,0:17:54.28,Default,,0,0,0,,{\an5}In that case, I'll start tutoring you.
-Dialogue: 0,0:17:52.19,0:17:54.28,Default,,0,0,0,,
+Dialogue: 0,0:17:52.19,0:17:54.28,Default,,0,0,0,,Тогда давай ещё раз с начала.
 Dialogue: 0,0:17:54.28,0:17:57.99,Default,,0,0,0,,{\an5}Ugh! Rusian, you teach too hard.
-Dialogue: 0,0:17:54.28,0:17:57.99,Default,,0,0,0,,
+Dialogue: 0,0:17:54.28,0:17:57.99,Default,,0,0,0,,Эээх! Я уже мышкой пошевелить не могу.
 Dialogue: 0,0:17:57.99,0:18:01.41,Default,,0,0,0,,{\an5}Don't worry. I'll stick with you\Nuntil you can do it.
-Dialogue: 0,0:17:57.99,0:18:01.41,Default,,0,0,0,,
+Dialogue: 0,0:17:57.99,0:18:01.41,Default,,0,0,0,,Я не отстану от тебя, пока ты не научишься.
 Dialogue: 0,0:18:01.41,0:18:02.91,Default,,0,0,0,,{\an5}Okay.
-Dialogue: 0,0:18:01.41,0:18:02.91,Default,,0,0,0,,
+Dialogue: 0,0:18:01.41,0:18:02.91,Default,,0,0,0,,Ладно.
 Dialogue: 0,0:18:02.91,0:18:03.91,Default,,0,0,0,,{\an5}Then let's do it.
-Dialogue: 0,0:18:02.91,0:18:03.91,Default,,0,0,0,,
+Dialogue: 0,0:18:02.91,0:18:03.91,Default,,0,0,0,,Вперёд и в бой.
 Dialogue: 0,0:18:03.91,0:18:05.62,Default,,0,0,0,,{\an5}Watch it, that werewolf is squaring off.
-Dialogue: 0,0:18:03.91,0:18:05.62,Default,,0,0,0,,
+Dialogue: 0,0:18:03.91,0:18:05.62,Default,,0,0,0,,Не зевай, волколак сагрился на тебя.
 Dialogue: 0,0:18:05.62,0:18:07.63,Default,,0,0,0,,{\an5}The skills are coming your way.\NGet ready to heal.
-Dialogue: 0,0:18:05.62,0:18:07.63,Default,,0,0,0,,
+Dialogue: 0,0:18:05.62,0:18:07.63,Default,,0,0,0,,Будет аката по площади. Готовь хил.
 Dialogue: 0,0:18:07.63,0:18:10.00,Default,,0,0,0,,{\an5}Huh? Like this? Like this?
-Dialogue: 0,0:18:07.63,0:18:10.00,Default,,0,0,0,,
+Dialogue: 0,0:18:07.63,0:18:10.00,Default,,0,0,0,,А? Вот так? Вот так?
 Dialogue: 0,0:18:10.00,0:18:12.05,Default,,0,0,0,,{\an5}Your tempo is too fast,\Nand given the cooldown times,
-Dialogue: 0,0:18:10.00,0:18:12.05,Default,,0,0,0,,
+Dialogue: 0,0:18:10.00,0:18:12.05,Default,,0,0,0,,Слишком быстрый темп, следи за кулдауном,
 Dialogue: 0,0:18:12.05,0:18:13.67,Default,,0,0,0,,{\an5}you're breaking your combos.
-Dialogue: 0,0:18:12.05,0:18:13.67,Default,,0,0,0,,
+Dialogue: 0,0:18:12.05,0:18:13.67,Default,,0,0,0,,не разрывай цепочку.
 Dialogue: 0,0:18:13.67,0:18:16.22,Default,,0,0,0,,{\an5}Like this... and this...
-Dialogue: 0,0:18:13.67,0:18:16.22,Default,,0,0,0,,
+Dialogue: 0,0:18:13.67,0:18:16.22,Default,,0,0,0,,Вот так… вот так…
 Dialogue: 0,0:18:16.22,0:18:20.01,Default,,0,0,0,,{\an5}If you chain the timing just\Nright to secure the combo...
-Dialogue: 0,0:18:16.22,0:18:20.01,Default,,0,0,0,,
+Dialogue: 0,0:18:16.22,0:18:20.01,Default,,0,0,0,,Старайся подбирать последовательность так, чтобы
 Dialogue: 0,0:18:20.01,0:18:22.43,Default,,0,0,0,,{\an5}the cooldown times will fit\Nwithin the response time.
-Dialogue: 0,0:18:20.01,0:18:22.43,Default,,0,0,0,,
+Dialogue: 0,0:18:20.01,0:18:22.43,Default,,0,0,0,,каст скилла и кулдаун завершались одновременно.
 Dialogue: 0,0:18:22.43,0:18:25.10,Default,,0,0,0,,{\an5}Like this... and this...
-Dialogue: 0,0:18:22.43,0:18:25.10,Default,,0,0,0,,
+Dialogue: 0,0:18:22.43,0:18:25.10,Default,,0,0,0,,Вот так… вот так…
 Dialogue: 0,0:18:25.10,0:18:27.23,Default,,0,0,0,,{\an5}You're mixing up your skills. It's this one.
-Dialogue: 0,0:18:25.10,0:18:27.23,Default,,0,0,0,,
+Dialogue: 0,0:18:25.10,0:18:27.23,Default,,0,0,0,,Ты путаешь скиллы. Юзай этот.
 Dialogue: 0,0:18:27.23,0:18:29.36,Default,,0,0,0,,{\an5}This is impossible!
-Dialogue: 0,0:18:27.23,0:18:29.36,Default,,0,0,0,,
+Dialogue: 0,0:18:27.23,0:18:29.36,Default,,0,0,0,,Импосибру!
 Dialogue: 0,0:18:29.36,0:18:30.77,Default,,0,0,0,,{\an5}It's not impossible.
-Dialogue: 0,0:18:29.36,0:18:30.77,Default,,0,0,0,,
+Dialogue: 0,0:18:29.36,0:18:30.77,Default,,0,0,0,,Сама ты «импосибру».
 Dialogue: 0,0:18:30.78,0:18:32.82,Default,,0,0,0,,{\an5}If you want to reincarnate,\Ndo it like your life depends on it.
-Dialogue: 0,0:18:30.78,0:18:32.82,Default,,0,0,0,,
+Dialogue: 0,0:18:30.78,0:18:32.82,Default,,0,0,0,,Ты должна костьми лечь ради перерождения.
 Dialogue: 0,0:18:32.82,0:18:33.90,Default,,0,0,0,,{\an5}Right...
-Dialogue: 0,0:18:32.82,0:18:33.90,Default,,0,0,0,,
+Dialogue: 0,0:18:32.82,0:18:33.90,Default,,0,0,0,,Обязательно…
 Dialogue: 0,0:18:33.90,0:18:36.82,Default,,0,0,0,,{\an5}Whoa, your skill timing is still too fast!
-Dialogue: 0,0:18:33.90,0:18:36.82,Default,,0,0,0,,
+Dialogue: 0,0:18:33.90,0:18:36.82,Default,,0,0,0,,Снова в тайминг не попадаешь!
 Dialogue: 0,0:18:38.03,0:18:41.54,Default,,0,0,0,,{\an5}Like this... and this...
-Dialogue: 0,0:18:38.03,0:18:41.54,Default,,0,0,0,,
+Dialogue: 0,0:18:38.03,0:18:41.54,Default,,0,0,0,,Вот так… вот так…
 Dialogue: 0,0:18:42.04,0:18:44.62,Default,,0,0,0,,{\an5}Oh, Schew and Master have logged in.
-Dialogue: 0,0:18:42.04,0:18:44.62,Default,,0,0,0,,
+Dialogue: 0,0:18:42.04,0:18:44.62,Default,,0,0,0,,О, Шу и Лидер залогинились.
 Dialogue: 0,0:18:44.62,0:18:47.87,Default,,0,0,0,,{\an5}Huh? Is it club meeting time already?
-Dialogue: 0,0:18:44.62,0:18:47.87,Default,,0,0,0,,
+Dialogue: 0,0:18:44.62,0:18:47.87,Default,,0,0,0,,Э? Они уже в клубе?
 Dialogue: 0,0:18:47.88,0:18:50.13,Default,,0,0,0,,{\an5}Ako, mind if I borrow this cable?
-Dialogue: 0,0:18:47.88,0:18:50.13,Default,,0,0,0,,
+Dialogue: 0,0:18:47.88,0:18:50.13,Default,,0,0,0,,Ако, я позаимствую витую пару?
 Dialogue: 0,0:18:50.13,0:18:51.80,Default,,0,0,0,,{\an5}Oh, yes.
-Dialogue: 0,0:18:50.13,0:18:51.80,Default,,0,0,0,,
+Dialogue: 0,0:18:50.13,0:18:51.80,Default,,0,0,0,,А? Офк.
 Dialogue: 0,0:18:51.80,0:18:53.26,Default,,0,0,0,,{\an5}Thank you.
-Dialogue: 0,0:18:51.80,0:18:53.26,Default,,0,0,0,,
+Dialogue: 0,0:18:51.80,0:18:53.26,Default,,0,0,0,,Санк ю.
 Dialogue: 0,0:18:53.76,0:18:58.09,Default,,0,0,0,,{\an5}Okay, I'll log in on this one that\NI borrowed from Master, and...
-Dialogue: 0,0:18:53.76,0:18:58.09,Default,,0,0,0,,
+Dialogue: 0,0:18:53.76,0:18:58.09,Default,,0,0,0,,Скажем спасибо Лидеру за этот чудный девайс…
 Dialogue: 0,0:19:04.77,0:19:08.77,Default,,0,0,0,,{\an5}Hey, you guys! What were you\Ndoing that you had to skip school?
-Dialogue: 0,0:19:04.77,0:19:08.77,Default,,0,0,0,,
+Dialogue: 0,0:19:04.77,0:19:08.77,Default,,0,0,0,,Эй, хрустящая парочка! Вы совсем страх потеряли,что оба не пришли в школу?
 Dialogue: 0,0:19:08.77,0:19:09.98,Default,,0,0,0,,{\an5}We were playing together.
-Dialogue: 0,0:19:08.77,0:19:09.98,Default,,0,0,0,,
+Dialogue: 0,0:19:08.77,0:19:09.98,Default,,0,0,0,,Мы развлекались вдвоём.
 Dialogue: 0,0:19:09.98,0:19:11.48,Default,,0,0,0,,{\an5}Huh?!
-Dialogue: 0,0:19:09.98,0:19:11.48,Default,,0,0,0,,
+Dialogue: 0,0:19:09.98,0:19:11.48,Default,,0,0,0,,Шта?!
 Dialogue: 0,0:19:12.65,0:19:14.86,Default,,0,0,0,,{\an5}I'm seriously going to kick your ass!
-Dialogue: 0,0:19:12.65,0:19:14.86,Default,,0,0,0,,
+Dialogue: 0,0:19:12.65,0:19:14.86,Default,,0,0,0,,При встрече я вам пальчик сломаю!
 Dialogue: 0,0:19:14.86,0:19:17.32,Default,,0,0,0,,{\an5}What do you guys think you're doing?
-Dialogue: 0,0:19:14.86,0:19:17.32,Default,,0,0,0,,
+Dialogue: 0,0:19:14.86,0:19:17.32,Default,,0,0,0,,Это ни в какие ворота не лезет.
 Dialogue: 0,0:19:17.32,0:19:20.57,Default,,0,0,0,,{\an5}{\i1}Me{\i0}-yeah! If they find out\Nyou cut school to goof around,
-Dialogue: 0,0:19:17.32,0:19:20.57,Default,,0,0,0,,
+Dialogue: 0,0:19:17.32,0:19:20.57,Default,,0,0,0,,Точня! Если кто-нибудь узнает, чем вы занимались,
 Dialogue: 0,0:19:20.57,0:19:22.41,Default,,0,0,0,,{\an5}they'll come down on you!
-Dialogue: 0,0:19:20.57,0:19:22.41,Default,,0,0,0,,
+Dialogue: 0,0:19:20.57,0:19:22.41,Default,,0,0,0,,вам несдобровать!
 Dialogue: 0,0:19:22.41,0:19:24.16,Default,,0,0,0,,{\an5}Sensei...
-Dialogue: 0,0:19:22.41,0:19:24.16,Default,,0,0,0,,
+Dialogue: 0,0:19:22.41,0:19:24.16,Default,,0,0,0,,Учитель…
 Dialogue: 0,0:19:24.16,0:19:27.33,Default,,0,0,0,,{\an5}I'm not your sensei, I'm Nekohime-{\i1}san{\i0}.
-Dialogue: 0,0:19:24.16,0:19:27.33,Default,,0,0,0,,
+Dialogue: 0,0:19:24.16,0:19:27.33,Default,,0,0,0,,Ня вот и нет, Некохиме-сан я…
 Dialogue: 0,0:19:27.33,0:19:30.71,Default,,0,0,0,,{\an5}Nekohime-{\i1}san{\i0}, we need to talk. May we?
-Dialogue: 0,0:19:27.33,0:19:30.71,Default,,0,0,0,,
+Dialogue: 0,0:19:27.33,0:19:30.71,Default,,0,0,0,,Некохиме-сан, хочу кое-что сказать. Вы не против?
 Dialogue: 0,0:19:30.71,0:19:33.92,Default,,0,0,0,,{\an5}Hmm? What's the matter, Rusian?
-Dialogue: 0,0:19:30.71,0:19:33.92,Default,,0,0,0,,
+Dialogue: 0,0:19:30.71,0:19:33.92,Default,,0,0,0,,М? Что у тебя ня уме, Русиян?
 Dialogue: 0,0:19:33.92,0:19:36.09,Default,,0,0,0,,{\an5}I'm quitting school.
-Dialogue: 0,0:19:33.92,0:19:36.09,Default,,0,0,0,,
+Dialogue: 0,0:19:33.92,0:19:36.09,Default,,0,0,0,,Я ухожу из школы.
 Dialogue: 0,0:19:36.09,0:19:38.42,Default,,0,0,0,,{\an5}--Huh?!\N--Rusian, what are you saying?
-Dialogue: 0,0:19:36.09,0:19:38.42,Default,,0,0,0,,
+Dialogue: 0,0:19:36.09,0:19:38.42,Default,,0,0,0,,— ААА?\N— Русиян, ты чего?
 Dialogue: 0,0:19:38.43,0:19:41.26,Default,,0,0,0,,{\an5}If Ako is quitting school, then so am I.
-Dialogue: 0,0:19:38.43,0:19:41.26,Default,,0,0,0,,
+Dialogue: 0,0:19:38.43,0:19:41.26,Default,,0,0,0,,Ако ушла из школы и я вместе с ней.
 Dialogue: 0,0:19:41.26,0:19:44.68,Default,,0,0,0,,{\an5}Honestly, putting up with\Nthe otaku cracks has been hard,
-Dialogue: 0,0:19:41.26,0:19:44.68,Default,,0,0,0,,
+Dialogue: 0,0:19:41.26,0:19:44.68,Default,,0,0,0,,Честно говоря, устал быть гонимым за то, что я отаку,
 Dialogue: 0,0:19:44.68,0:19:47.06,Default,,0,0,0,,{\an5}and I'd rather slack off and just play the game.
-Dialogue: 0,0:19:44.68,0:19:47.06,Default,,0,0,0,,
+Dialogue: 0,0:19:44.68,0:19:47.06,Default,,0,0,0,,лучше сидеть дома и обниматься с дакимакурой.
 Dialogue: 0,0:19:47.06,0:19:51.90,Default,,0,0,0,,{\an5}In other words, you've got\Ntoo much stress built up, huh?
-Dialogue: 0,0:19:47.06,0:19:51.90,Default,,0,0,0,,
+Dialogue: 0,0:19:47.06,0:19:51.90,Default,,0,0,0,,Хочешь сказать, что хватит это терпеть?
 Dialogue: 0,0:19:51.90,0:19:53.98,Default,,0,0,0,,{\an5}Um, Rusian...
-Dialogue: 0,0:19:51.90,0:19:53.98,Default,,0,0,0,,
+Dialogue: 0,0:19:51.90,0:19:53.98,Default,,0,0,0,,Русиян…
 Dialogue: 0,0:19:59.07,0:20:02.57,Default,,0,0,0,,{\an5}You'll have to let me do this my own way.
-Dialogue: 0,0:19:59.07,0:20:02.57,Default,,0,0,0,,
+Dialogue: 0,0:19:59.07,0:20:02.57,Default,,0,0,0,,{\i1}Я не буду стеснять себя в методах.{\i0}
 Dialogue: 0,0:20:02.58,0:20:05.29,Default,,0,0,0,,{\an5}I guess my paws are tied. Okay.
-Dialogue: 0,0:20:02.58,0:20:05.29,Default,,0,0,0,,
+Dialogue: 0,0:20:02.58,0:20:05.29,Default,,0,0,0,,Нячего не поделаешь. Да будет так.
 Dialogue: 0,0:20:05.29,0:20:07.37,Default,,0,0,0,,{\an5}You can't!
-Dialogue: 0,0:20:05.29,0:20:07.37,Default,,0,0,0,,
+Dialogue: 0,0:20:05.29,0:20:07.37,Default,,0,0,0,,Так нельзя!
 Dialogue: 0,0:20:07.37,0:20:11.04,Default,,0,0,0,,{\an5}Why not? If it's okay for you, why not me, too?
-Dialogue: 0,0:20:07.37,0:20:11.04,Default,,0,0,0,,
+Dialogue: 0,0:20:07.37,0:20:11.04,Default,,0,0,0,,Почему это? Тебе можно, а мне нет што ле?
 Dialogue: 0,0:20:11.04,0:20:14.84,Default,,0,0,0,,{\an5}Well, if you do that, Rusian...
-Dialogue: 0,0:20:11.04,0:20:14.84,Default,,0,0,0,,
+Dialogue: 0,0:20:11.04,0:20:14.84,Default,,0,0,0,,Ведь если ты так поступишь, тогда…
 Dialogue: 0,0:20:14.84,0:20:19.38,Default,,0,0,0,,{\an5}...you won't see Master or\NSchew-{\i1}chan{\i0} in real life anymore...
-Dialogue: 0,0:20:14.84,0:20:19.38,Default,,0,0,0,,
+Dialogue: 0,0:20:14.84,0:20:19.38,Default,,0,0,0,,…ты больше никогда не увидишь Лидера и Шу-тян в реальности…
 Dialogue: 0,0:20:19.38,0:20:24.47,Default,,0,0,0,,{\an5}That's true enough. So Ako,\Nyou're okay with that happening to {\i1}you{\i0}?
-Dialogue: 0,0:20:19.38,0:20:24.47,Default,,0,0,0,,
+Dialogue: 0,0:20:19.38,0:20:24.47,Default,,0,0,0,,Так оно и будет. Но скажи мне, Ако, тебя-то такой расклад устраивает?
 Dialogue: 0,0:20:27.93,0:20:29.98,Default,,0,0,0,,{\an5}Well, I...
-Dialogue: 0,0:20:27.93,0:20:29.98,Default,,0,0,0,,
+Dialogue: 0,0:20:27.93,0:20:29.98,Default,,0,0,0,,Я-то…
 Dialogue: 0,0:20:30.48,0:20:33.02,Default,,0,0,0,,{\an5}They're not chatting back anymore.
-Dialogue: 0,0:20:30.48,0:20:33.02,Default,,0,0,0,,
+Dialogue: 0,0:20:30.48,0:20:33.02,Default,,0,0,0,,Они больше не отвечают на сообщения…
 Dialogue: 0,0:20:34.02,0:20:37.53,Default,,0,0,0,,{\an5}It doesn't look like they've turned chat off.
-Dialogue: 0,0:20:34.02,0:20:37.53,Default,,0,0,0,,
+Dialogue: 0,0:20:34.02,0:20:37.53,Default,,0,0,0,,Не похоже, чтобы они выходили из чата…
 Dialogue: 0,0:20:37.53,0:20:39.78,Default,,0,0,0,,{\an5}It sounds to me like they must be busy.
-Dialogue: 0,0:20:37.53,0:20:39.78,Default,,0,0,0,,
+Dialogue: 0,0:20:37.53,0:20:39.78,Default,,0,0,0,,По-видимому у них там появилсь свои дела.
 Dialogue: 0,0:20:39.78,0:20:41.57,Default,,0,0,0,,{\an5}Busy with what?
 Dialogue: 0,0:20:39.78,0:20:41.57,Default,,0,0,0,,
 Dialogue: 0,0:20:41.57,0:20:43.53,Default,,0,0,0,,{\an5}I'm dropping out for a bit.
