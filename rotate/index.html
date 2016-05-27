@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="script.js"></script>
+    <style>
+        canvas {
+            width: 512px;
+            height: 512px;
+            background-color: white;
+        }
+
+        body {
+            background-color: lightgray;
+            margin: 16px;
+            width: 916px;
+            position: relative;
+        }
+        .settings {
+            margin: 8px;
+        }
+    </style>
+</head>
+<body>
+<div style="position: absolute; top: 0; right: 16px;">
+    <div class="settings">
+        <label>
+            α = <input type="number" name="alpha" min="-359" max="359" value="0" onchange="onChangeAngle()">
+        </label>
+        <label>
+            β = <input type="number" name="beta" min="-359" max="359" value="0" onchange="onChangeAngle()">
+        </label>
+        <label>
+            γ = <input type="number" name="gamma" min="-359" max="359" value="0" onchange="onChangeAngle()">
+        </label>
+    </div>
+    <div class="settings">
+        <label>
+            X = <input type="number" name="X" min="-10000" max="10000" value="0" onchange="onChangeAngle()">
+        </label>
+        <label>
+            Y = <input type="number" name="Y" min="-10000" max="10000" value="0" onchange="onChangeAngle()">
+        </label>
+        <label>
+            Z = <input type="number" name="Z" min="-10000" max="10000" value="200" onchange="onChangeAngle()">
+        </label>
+    </div>
+    <div class="settings">
+        <label>
+            width = <input type="number" name="width" min="0" max="10000" value="100" onchange="onChangeAngle()">
+        </label>
+        <label>
+            height = <input type="number" name="height" min="0" max="10000" value="100" onchange="onChangeAngle()">
+        </label>
+    </div>
+</div>
+<canvas>
+</canvas>
+</body>
+</html>
