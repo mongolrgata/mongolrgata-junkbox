@@ -18,8 +18,13 @@
             width: 916px;
             position: relative;
         }
+
         .settings {
             margin: 8px;
+        }
+        
+        [type="range"] {
+            width: 300px;
         }
     </style>
 </head>
@@ -27,13 +32,28 @@
 <div style="position: absolute; top: 0; right: 16px;">
     <div class="settings">
         <label>
-            α = <input type="number" name="alpha" min="-359" max="359" value="0" onchange="onChangeAngle()">
+            <span style="color: red">α = </span><input type="number" name="alpha" min="-359" max="359" value="0" onchange="onChangeAngle()">
         </label>
         <label>
-            β = <input type="number" name="beta" min="-359" max="359" value="0" onchange="onChangeAngle()">
+            <span style="color: green">β = </span><input type="number" name="beta" min="-359" max="359" value="0" onchange="onChangeAngle()">
         </label>
         <label>
-            γ = <input type="number" name="gamma" min="-359" max="359" value="0" onchange="onChangeAngle()">
+            <span style="color: blue">γ = </span><input type="number" name="gamma" min="-359" max="359" value="0" onchange="onChangeAngle()">
+        </label>
+    </div>
+    <div class="settings">
+        <label>
+            <input type="range" name="alphaR" min="-359" max="359" value="0" onchange="onChangeRange()">
+        </label>
+    </div>
+    <div class="settings">
+        <label>
+            <input type="range" name="betaR" min="-359" max="359" value="0" onchange="onChangeRange()">
+        </label>
+    </div>
+    <div class="settings">
+        <label>
+            <input type="range" name="gammaR" min="-359" max="359" value="0" onchange="onChangeRange()">
         </label>
     </div>
     <div class="settings">
@@ -54,6 +74,10 @@
         <label>
             height = <input type="number" name="height" min="0" max="10000" value="100" onchange="onChangeAngle()">
         </label>
+    </div>
+    <div class="settings">
+        <button id="start">Start</button>
+        <button id="random">Random</button>
     </div>
 </div>
 <canvas>

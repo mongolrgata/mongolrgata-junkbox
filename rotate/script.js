@@ -164,28 +164,37 @@ $(document).ready(function () {
     onChangeAngle();
 });
 
+var notDraw = false;
+var noLines = false;
+
 function drawRect(α, β, γ, xh, yh, zh, width, height) {
     var canvas = $('canvas')[0];
     var context = canvas.getContext('2d');
     context.clearRect(0, 0, canvas.width, canvas.height);
-    
+
     function calcPoint(point) {
         return point.calcScreen(xh, yh, zh).move(200, 200);
     }
 
     function drawLine(p1, p2) {
+        if (notDraw)
+            return;
+
         p1 = calcPoint(p1);
         p2 = calcPoint(p2);
-        
+
         context.beginPath();
         context.moveTo(p1.getX(), p1.getY());
         context.lineTo(p2.getX(), p2.getY());
         context.stroke();
     }
-    
+
     function drawCircle(pC, r) {
+        if (notDraw)
+            return;
+
         pC = calcPoint(pC);
-        
+
         context.arc(pC.getX(), pC.getY(), r, 0, 2 * Math.PI, false);
         context.stroke();
     }
@@ -212,22 +221,28 @@ function drawRect(α, β, γ, xh, yh, zh, width, height) {
     drawLine($p2, $p3);
     drawLine($p3, $p0);
 
-    context.beginPath();
-    var _O = new Point(0, 0, 0);
-    context.strokeStyle = 'red';
-    drawLine(_O.move(-10, 0, 0).rotate(M), _O.move(10, 0, 0).rotate(M));
-    drawLine(_O.move(0, -10, 0).rotate(M), _O.move(0, 10, 0).rotate(M));
-    drawLine(_O.move(0, 0, -10).rotate(M), _O.move(0, 0, 10).rotate(M));
+    if (!noLines) {
+        context.beginPath();
+        var _O = new Point(0, 0, 0);
+        context.lineWidth = 3;
+        context.strokeStyle = 'red';
+        drawLine(_O.move(-20, 0, 0).rotate(M), _O.move(20, 0, 0).rotate(M));
+        context.strokeStyle = 'green';
+        drawLine(_O.move(0, -20, 0).rotate(M), _O.move(0, 20, 0).rotate(M));
+        context.strokeStyle = 'blue';
+        drawLine(_O.move(0, 0, -20).rotate(M), _O.move(0, 0, 20).rotate(M));
+        context.lineWidth = 1;
 
-    context.beginPath();
-    var _H = new Point(xh, yh, zh);
-    context.strokeStyle = 'black';
-    drawCircle(_H, 2);
+        context.beginPath();
+        var _H = new Point(xh, yh, zh);
+        context.strokeStyle = 'black';
+        drawCircle(_H, 2);
+    }
 
     console.error('DONE');
 }
 
-onChangeAngle = function () {
+var onChangeAngle = function () {
     var alpha = +$('[name="alpha"]').val();
     var beta = +$('[name="beta"]').val();
     var gamma = +$('[name="gamma"]').val();
@@ -237,5 +252,64 @@ onChangeAngle = function () {
     var width = +$('[name="width"]').val();
     var height = +$('[name="height"]').val();
 
+    $('[name="alphaR"]').val(alpha);
+    $('[name="betaR"]').val(beta);
+    $('[name="gammaR"]').val(gamma);
+
     drawRect(alpha, beta, gamma, XH, YH, ZH, width, height);
 };
+
+var onChangeRange = function () {
+    var alpha = +$('[name="alphaR"]').val();
+    var beta = +$('[name="betaR"]').val();
+    var gamma = +$('[name="gammaR"]').val();
+
+    $('[name="alpha"]').val(alpha);
+    $('[name="beta"]').val(beta);
+    $('[name="gamma"]').val(gamma);
+
+    onChangeAngle();
+};
+
+$(document).ready(function () {
+    $('#start').click(function () {
+        var alpha = 0;
+        var beta = 0;
+        var gamma = 0;
+
+        var id = setInterval(function () {
+            if ((gamma += 10) === 360) {
+                gamma = 0;
+                if ((beta += 10) === 360) {
+                    beta = 0;
+                    if ((alpha += 10) === 360) {
+                        alpha = 0;
+                        clearInterval(id);
+                        console.info('SPIN');
+                        return;
+                    }
+                }
+            }
+
+            $('[name="alpha"]').val(alpha);
+            $('[name="beta"]').val(beta);
+            $('[name="gamma"]').val(gamma);
+
+            onChangeAngle();
+        }, 10);
+    });
+
+    $('#random').click(function () {
+        var alpha = Math.round(Math.random() * 360);
+        var beta = Math.round(Math.random() * 360);
+        var gamma = Math.round(Math.random() * 360);
+
+        $('[name="alpha"]').val(alpha);
+        $('[name="beta"]').val(beta);
+        $('[name="gamma"]').val(gamma);
+
+        noLines = true;
+        onChangeAngle();
+        noLines = false;
+    });
+});
