@@ -300,9 +300,9 @@ $(document).ready(function () {
     });
 
     $('#random').click(function () {
-        var alpha = Math.round(Math.random() * 360);
-        var beta = Math.round(Math.random() * 360);
-        var gamma = Math.round(Math.random() * 360);
+        var alpha = Math.floor(Math.random() * 360);
+        var beta = Math.floor(Math.random() * 360);
+        var gamma = Math.floor(Math.random() * 360);
 
         $('[name="alpha"]').val(alpha);
         $('[name="beta"]').val(beta);
