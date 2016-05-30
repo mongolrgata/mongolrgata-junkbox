@@ -22,7 +22,7 @@
         .settings {
             margin: 8px;
         }
-        
+
         [type="range"] {
             width: 300px;
         }
@@ -32,28 +32,31 @@
 <div style="position: absolute; top: 0; right: 16px;">
     <div class="settings">
         <label>
-            <span style="color: red">α = </span><input type="number" name="alpha" min="-359" max="359" value="0" onchange="onChangeAngle()">
+            <span style="color: red">α = </span><input type="number" name="alpha" min="-359" max="359" value="40"
+                                                       onchange="onChangeAngle()">
         </label>
         <label>
-            <span style="color: green">β = </span><input type="number" name="beta" min="-359" max="359" value="0" onchange="onChangeAngle()">
+            <span style="color: green">β = </span><input type="number" name="beta" min="-359" max="359" value="310"
+                                                         onchange="onChangeAngle()">
         </label>
         <label>
-            <span style="color: blue">γ = </span><input type="number" name="gamma" min="-359" max="359" value="0" onchange="onChangeAngle()">
-        </label>
-    </div>
-    <div class="settings">
-        <label>
-            <input type="range" name="alphaR" min="-359" max="359" value="0" onchange="onChangeRange()">
+            <span style="color: blue">γ = </span><input type="number" name="gamma" min="-359" max="359" value="50"
+                                                        onchange="onChangeAngle()">
         </label>
     </div>
     <div class="settings">
         <label>
-            <input type="range" name="betaR" min="-359" max="359" value="0" onchange="onChangeRange()">
+            <input type="range" name="alphaR" min="-359" max="359" value="0" oninput="onChangeRange()">
         </label>
     </div>
     <div class="settings">
         <label>
-            <input type="range" name="gammaR" min="-359" max="359" value="0" onchange="onChangeRange()">
+            <input type="range" name="betaR" min="-359" max="359" value="0" oninput="onChangeRange()">
+        </label>
+    </div>
+    <div class="settings">
+        <label>
+            <input type="range" name="gammaR" min="-359" max="359" value="0" oninput="onChangeRange()">
         </label>
     </div>
     <div class="settings">
@@ -64,7 +67,7 @@
             Y = <input type="number" name="Y" min="-10000" max="10000" value="0" onchange="onChangeAngle()">
         </label>
         <label>
-            Z = <input type="number" name="Z" min="-10000" max="10000" value="200" onchange="onChangeAngle()">
+            Z = <input type="number" name="Z" min="-10000" max="0" value="-311" onchange="onChangeAngle()">
         </label>
     </div>
     <div class="settings">
@@ -72,12 +75,15 @@
             width = <input type="number" name="width" min="0" max="10000" value="100" onchange="onChangeAngle()">
         </label>
         <label>
-            height = <input type="number" name="height" min="0" max="10000" value="100" onchange="onChangeAngle()">
+            height = <input type="number" name="height" min="0" max="10000" value="200" onchange="onChangeAngle()">
         </label>
     </div>
     <div class="settings">
         <button id="start">Start</button>
         <button id="random">Random</button>
+    </div>
+    <div id="coordinates-list" class="settings">
+
     </div>
 </div>
 <canvas>

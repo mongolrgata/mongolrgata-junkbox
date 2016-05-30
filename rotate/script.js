@@ -16,11 +16,13 @@ Point.prototype.getY = function () {
     return this._y;
 };
 
+//noinspection JSNonASCIINames
 Point.prototype.move = function (Δx, Δy, Δz) {
     var oldX = this.getX();
     var oldY = this.getY();
     var oldZ = this.getZ();
 
+    //noinspection JSNonASCIINames
     return new Point(oldX + Δx, oldY + Δy, oldZ + (Δz || 0))
 };
 
@@ -40,12 +42,13 @@ Point.prototype.calcScreen = function (xh, yh, zh) {
     var y0 = this.getY();
     var z0 = this.getZ();
 
-    if (z0 > zh) {
+    if (z0 < zh) {
         return new Point(xh, yh, zh);
     }
 
     // var k = zh / (zh - z0);
-    var k = -z0 / zh + 1;
+    // var k = -z0 / zh + 1;
+    var k = zh / (zh - z0);
 
     var xs = k * (x0 - xh) + xh;
     var ys = k * (y0 - yh) + yh;
@@ -54,6 +57,7 @@ Point.prototype.calcScreen = function (xh, yh, zh) {
     return new Point(xs, ys, zs);
 };
 
+//noinspection JSUnusedGlobalSymbols
 Point.prototype.isEqual = function (p) {
     var ε = 0.001;
 
@@ -70,6 +74,7 @@ var Line = function (p1, p2) {
     this._y2 = p2.getY();
 };
 
+//noinspection JSUnusedGlobalSymbols
 Line.prototype.hasPoint = function (p) {
     var ε = 0.001;
 
@@ -166,14 +171,31 @@ $(document).ready(function () {
 
 var notDraw = false;
 var noLines = false;
+var drawMiddle = false;
+var needPrint = false;
+
+function printPint(point) {
+    var x = point.getX();
+    var y = point.getY();
+
+    $('#coordinates-list').append($('<p/>').text('x = ' + Math.round(x) + '; y = ' + Math.round(y)));
+}
 
 function drawRect(α, β, γ, xh, yh, zh, width, height) {
     var canvas = $('canvas')[0];
     var context = canvas.getContext('2d');
     context.clearRect(0, 0, canvas.width, canvas.height);
 
+    var count = 0;
+
     function calcPoint(point) {
-        return point.calcScreen(xh, yh, zh).move(200, 200);
+        var tempPoint = point.calcScreen(xh, yh, zh).move(200, 200);
+
+        if ((++count % 2) && needPrint) {
+            printPint(tempPoint);
+        }
+
+        return tempPoint;
     }
 
     function drawLine(p1, p2) {
@@ -202,17 +224,20 @@ function drawRect(α, β, γ, xh, yh, zh, width, height) {
     var Mx = generateRotationMatrix(α, 'x');
     var My = generateRotationMatrix(β, 'y');
     var Mz = generateRotationMatrix(γ, 'z');
-    var M = mul(mul(Mx, My), Mz);
+    var M = mul(mul(Mz, Mx), My);
 
     var p0 = new Point(0, 0);
-    var p1 = new Point(0, height);
+    var p1 = new Point(width, 0);
     var p2 = new Point(width, height);
-    var p3 = new Point(width, 0);
+    var p3 = new Point(0, height);
 
     var $p0 = p0.rotate(M);
     var $p1 = p1.rotate(M);
     var $p2 = p2.rotate(M);
     var $p3 = p3.rotate(M);
+
+    $('#coordinates-list').empty();
+    needPrint = true;
 
     context.beginPath();
     context.strokeStyle = 'black';
@@ -220,6 +245,27 @@ function drawRect(α, β, γ, xh, yh, zh, width, height) {
     drawLine($p1, $p2);
     drawLine($p2, $p3);
     drawLine($p3, $p0);
+
+    needPrint = false;
+
+    if (drawMiddle) {
+        var p0m = new Point(0, 0);
+        var p1m = new Point(0, height);
+        var p2m = new Point(width / 2, height);
+        var p3m = new Point(width / 2, 0);
+
+        var $p0m = p0m.rotate(M);
+        var $p1m = p1m.rotate(M);
+        var $p2m = p2m.rotate(M);
+        var $p3m = p3m.rotate(M);
+
+        context.beginPath();
+        context.strokeStyle = 'red';
+        drawLine($p0m, $p1m);
+        drawLine($p1m, $p2m);
+        drawLine($p2m, $p3m);
+        drawLine($p3m, $p0m);
+    }
 
     if (!noLines) {
         context.beginPath();
