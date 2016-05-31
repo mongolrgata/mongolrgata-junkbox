@@ -27,10 +27,13 @@ Point.prototype.move = function (Δx, Δy, Δz) {
 };
 
 Point.prototype.rotate = function (M) {
-    var vector = [[this.getX(), this.getY(), this.getZ() || 0]];
+    var cX = centerPoint.getX();
+    var cY = centerPoint.getY();
+    
+    var vector = [[this.getX() - cX, this.getY() - cY, this.getZ() || 0]];
     var sub = mul(vector, M);
 
-    return new Point(sub[0][0], sub[0][1], sub[0][2]);
+    return (new Point(sub[0][0] + cX, sub[0][1] + cY, sub[0][2]));
 };
 
 Point.prototype.getZ = function () {
@@ -176,6 +179,8 @@ function printPoint(point) {
     $('#coordinates-list').append($('<p/>').text('x = ' + Math.round(x) + '; y = ' + Math.round(y)));
 }
 
+var centerPoint = new Point(0, 0);
+
 function drawRect(α, β, γ, xh, yh, zh, width, height) {
     var canvas = $('canvas')[0];
     var context = canvas.getContext('2d');
@@ -274,9 +279,9 @@ function drawRect(α, β, γ, xh, yh, zh, width, height) {
         drawLine(_O.move(0, 0, -20).rotate(M), _O.move(0, 0, 20).rotate(M));
         context.lineWidth = 1;
 
-        var _H = new Point(xh, yh, zh);
+        // var _H = new Point(xh, yh, zh);
         context.strokeStyle = 'black';
-        drawCircle(_H, 2);
+        drawCircle(centerPoint, 2);
     }
 
     console.error('DONE');
@@ -291,10 +296,17 @@ var onChangeAngle = function () {
     var ZH = +$('[name="Z"]').val();
     var width = +$('[name="width"]').val();
     var height = +$('[name="height"]').val();
+    
+    centerPoint = new Point(
+        +$('[name="cX"]').val(),
+        +$('[name="cY"]').val()
+    );
 
     $('[name="alphaR"]').val(alpha);
     $('[name="betaR"]').val(beta);
     $('[name="gammaR"]').val(gamma);
+    $('[name="widthR"]').val(width);
+    $('[name="heightR"]').val(height);
 
     drawRect(alpha, beta, gamma, XH, YH, ZH, width, height);
     drawUserPolygon();
@@ -304,10 +316,14 @@ var onChangeRange = function () {
     var alpha = +$('[name="alphaR"]').val();
     var beta = +$('[name="betaR"]').val();
     var gamma = +$('[name="gammaR"]').val();
+    var width = +$('[name="widthR"]').val();
+    var height = +$('[name="heightR"]').val();
 
     $('[name="alpha"]').val(alpha);
     $('[name="beta"]').val(beta);
     $('[name="gamma"]').val(gamma);
+    $('[name="width"]').val(width);
+    $('[name="height"]').val(height);
 
     onChangeAngle();
 };
