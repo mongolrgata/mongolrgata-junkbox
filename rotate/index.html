@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <!--suppress JSUnresolvedLibraryURL -->
     <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
     <script src="script.js"></script>
     <style>
@@ -80,13 +81,14 @@
     </div>
     <div class="settings">
         <button id="start">Start</button>
+        <button id="stop">Stop</button>
         <button id="random">Random</button>
+        <button id="reset">Reset</button>
+        <button id="solve">Solve</button>
     </div>
-    <div id="coordinates-list" class="settings">
-
-    </div>
+    <div id="coordinates-list" class="settings"></div>
 </div>
-<canvas>
+<canvas onclick="setPoint.apply(this, arguments)">
 </canvas>
 </body>
 </html>

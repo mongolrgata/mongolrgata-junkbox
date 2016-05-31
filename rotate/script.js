@@ -42,12 +42,10 @@ Point.prototype.calcScreen = function (xh, yh, zh) {
     var y0 = this.getY();
     var z0 = this.getZ();
 
-    if (z0 < zh) {
+    if (z0 <= zh) {
         return new Point(xh, yh, zh);
     }
 
-    // var k = zh / (zh - z0);
-    // var k = -z0 / zh + 1;
     var k = zh / (zh - z0);
 
     var xs = k * (x0 - xh) + xh;
@@ -57,14 +55,12 @@ Point.prototype.calcScreen = function (xh, yh, zh) {
     return new Point(xs, ys, zs);
 };
 
-//noinspection JSUnusedGlobalSymbols
-Point.prototype.isEqual = function (p) {
-    var ε = 0.001;
+Point.prototype.distance = function (p) {
+    var vX = Math.abs(this.getX() - p.getX());
+    var vY = Math.abs(this.getY() - p.getY());
+    var vZ = Math.abs(this.getZ() - p.getZ());
 
-    return (
-        Math.abs(this.getX() - p.getX()) < ε &&
-        Math.abs(this.getY() - p.getY()) < ε
-    );
+    return Math.sqrt(vX * vX + vY * vY + vZ * vZ);
 };
 
 var Line = function (p1, p2) {
@@ -72,23 +68,22 @@ var Line = function (p1, p2) {
     this._y1 = p1.getY();
     this._x2 = p2.getX();
     this._y2 = p2.getY();
+
+    this._xV = this._x2 - this._x1;
+    this._yV = this._y2 - this._y1;
+    this._lenV = Math.sqrt(this._xV * this._xV + this._yV * this._yV);
 };
 
-//noinspection JSUnusedGlobalSymbols
-Line.prototype.hasPoint = function (p) {
-    var ε = 0.001;
+Line.prototype.angle = function (line) {
+    var result = this._xV * line._xV + this._yV * line._yV;
+    result /= (this._lenV * line._lenV);
+    
+    result = Math.acos(result) / 0.0174533;
+    
+    if (result > 90)
+        result = 180 - result;
 
-    var x1 = this._x1;
-    var y1 = this._y1;
-    var x2 = this._x2;
-    var y2 = this._y2;
-
-    var x = p.getX();
-    var y = p.getY();
-
-    return Math.abs(
-            (x - x1) * (y2 - y1) - (y - y1) * (x2 - x1)
-        ) < ε;
+    return result;
 };
 
 function generateRotationMatrix(ω, type) {
@@ -174,7 +169,7 @@ var noLines = false;
 var drawMiddle = false;
 var needPrint = false;
 
-function printPint(point) {
+function printPoint(point) {
     var x = point.getX();
     var y = point.getY();
 
@@ -192,7 +187,7 @@ function drawRect(α, β, γ, xh, yh, zh, width, height) {
         var tempPoint = point.calcScreen(xh, yh, zh).move(200, 200);
 
         if ((++count % 2) && needPrint) {
-            printPint(tempPoint);
+            printPoint(tempPoint);
         }
 
         return tempPoint;
@@ -217,6 +212,7 @@ function drawRect(α, β, γ, xh, yh, zh, width, height) {
 
         pC = calcPoint(pC);
 
+        context.beginPath();
         context.arc(pC.getX(), pC.getY(), r, 0, 2 * Math.PI, false);
         context.stroke();
     }
@@ -268,7 +264,6 @@ function drawRect(α, β, γ, xh, yh, zh, width, height) {
     }
 
     if (!noLines) {
-        context.beginPath();
         var _O = new Point(0, 0, 0);
         context.lineWidth = 3;
         context.strokeStyle = 'red';
@@ -279,7 +274,6 @@ function drawRect(α, β, γ, xh, yh, zh, width, height) {
         drawLine(_O.move(0, 0, -20).rotate(M), _O.move(0, 0, 20).rotate(M));
         context.lineWidth = 1;
 
-        context.beginPath();
         var _H = new Point(xh, yh, zh);
         context.strokeStyle = 'black';
         drawCircle(_H, 2);
@@ -303,6 +297,7 @@ var onChangeAngle = function () {
     $('[name="gammaR"]').val(gamma);
 
     drawRect(alpha, beta, gamma, XH, YH, ZH, width, height);
+    drawUserPolygon();
 };
 
 var onChangeRange = function () {
@@ -317,21 +312,30 @@ var onChangeRange = function () {
     onChangeAngle();
 };
 
+function compareCoordinates(list1, list2) {
+    var result = 0;
+
+    for (var i = 0; i < list1.length; ++i) {
+        result += list1[i].distance(list2[i]);
+    }
+
+    return result;
+}
+
 $(document).ready(function () {
     $('#start').click(function () {
-        var alpha = 0;
-        var beta = 0;
-        var gamma = 0;
+        var alpha = +$('[name="alpha"]').val();
+        var beta = +$('[name="beta"]').val();
+        var gamma = +$('[name="gamma"]').val();
 
         var id = setInterval(function () {
-            if ((gamma += 10) === 360) {
+            if ((gamma += 10) > 360) {
                 gamma = 0;
-                if ((beta += 10) === 360) {
+                if ((beta += 10) > 360) {
                     beta = 0;
-                    if ((alpha += 10) === 360) {
+                    if ((alpha += 10) > 360) {
                         alpha = 0;
                         clearInterval(id);
-                        console.info('SPIN');
                         return;
                     }
                 }
@@ -343,6 +347,10 @@ $(document).ready(function () {
 
             onChangeAngle();
         }, 10);
+
+        $('#stop').click(function () {
+            clearInterval(id);
+        });
     });
 
     $('#random').click(function () {
@@ -354,8 +362,105 @@ $(document).ready(function () {
         $('[name="beta"]').val(beta);
         $('[name="gamma"]').val(gamma);
 
+        //noinspection JSUnusedAssignment
         noLines = true;
         onChangeAngle();
         noLines = false;
     });
+
+    $('#reset').click(function () {
+        $('[name="alpha"]').val(0);
+        $('[name="beta"]').val(0);
+        $('[name="gamma"]').val(0);
+
+        onChangeAngle();
+    });
+
+    $('#solve').click(function () {
+        var alpha, beta, gamma;
+        var height, width;
+        var xH, yH;
+
+        var angleStep = 1;
+
+        for (gamma = 0; gamma < 360; gamma += angleStep) {
+            var Mz = generateRotationMatrix(gamma, 'z');
+            for (alpha = 0; alpha < 360; alpha += angleStep) {
+                var Mx = generateRotationMatrix(alpha, 'x');
+                var M = mul(Mz, Mx);
+                for (beta = 0; beta < 360; beta += angleStep) {
+                    var My = generateRotationMatrix(beta, 'y');
+                    M = mul(M, My);
+
+                    // TODO
+                }
+            }
+        }
+    });
 });
+
+var userCoordinates = [];
+
+function drawUserPolygon() {
+    if (!userCoordinates.length) {
+        return;
+    }
+
+    if (userCoordinates.length === 4) {
+        var dX = -userCoordinates[0].getX();
+        var dY = -userCoordinates[0].getY();
+
+        userCoordinates = userCoordinates.map(function (point) {
+            return point.move(dX, dY, 0);
+        });
+    }
+
+    var canvas = $('canvas')[0];
+    var context = canvas.getContext('2d');
+    var p1, p2;
+
+    context.strokeStyle = 'red';
+
+    p1 = userCoordinates[0];
+    context.beginPath();
+    context.arc(p1.getX() + 200, p1.getY() + 200, 2, 0, 2 * Math.PI, false);
+    context.stroke();
+
+    for (var i = 1; i < userCoordinates.length; ++i) {
+        p1 = userCoordinates[i - 1];
+        p2 = userCoordinates[i];
+
+        context.beginPath();
+        context.moveTo(p1.getX() + 200, p1.getY() + 200);
+        context.lineTo(p2.getX() + 200, p2.getY() + 200);
+        context.stroke();
+
+        context.beginPath();
+        context.arc(p2.getX() + 200, p2.getY() + 200, 2, 0, 2 * Math.PI, false);
+        context.stroke();
+    }
+
+    if (userCoordinates.length === 4) {
+        p1 = userCoordinates[userCoordinates.length - 1];
+        p2 = userCoordinates[0];
+
+        context.beginPath();
+        context.moveTo(p1.getX() + 200, p1.getY() + 200);
+        context.lineTo(p2.getX() + 200, p2.getY() + 200);
+        context.stroke();
+    }
+}
+
+setPoint = function (mouseEvent) {
+    var x = mouseEvent.offsetX - 200;
+    var y = mouseEvent.offsetY - 200;
+
+    var point = new Point(x, y);
+
+    if (userCoordinates.length === 4) {
+        userCoordinates = [];
+    }
+
+    userCoordinates.push(point);
+    onChangeAngle();
+};
