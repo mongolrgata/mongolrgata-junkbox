@@ -307,6 +307,8 @@ var onChangeAngle = function () {
     $('[name="gammaR"]').val(gamma);
     $('[name="widthR"]').val(width);
     $('[name="heightR"]').val(height);
+    $('[name="xR"]').val(XH);
+    $('[name="yR"]').val(YH);
 
     drawRect(alpha, beta, gamma, XH, YH, ZH, width, height);
     drawUserPolygon();
@@ -318,12 +320,16 @@ var onChangeRange = function () {
     var gamma = +$('[name="gammaR"]').val();
     var width = +$('[name="widthR"]').val();
     var height = +$('[name="heightR"]').val();
+    var x = +$('[name="xR"]').val();
+    var y = +$('[name="yR"]').val();
 
     $('[name="alpha"]').val(alpha);
     $('[name="beta"]').val(beta);
     $('[name="gamma"]').val(gamma);
     $('[name="width"]').val(width);
     $('[name="height"]').val(height);
+    $('[name="X"]').val(x);
+    $('[name="Y"]').val(y);
 
     onChangeAngle();
 };
