@@ -54,7 +54,7 @@ Line.prototype.getAngle = function () {
  */
 Line.prototype.getLength = function () {
     if (this._length === null) {
-        // TODO
+        this._length = Math.sqrt((this._vx * this._vx) + (this._vy * this._vy));
     }
 
     return this._length;
@@ -64,7 +64,7 @@ var angleTest = function () {
     var i, x, y, line;
 
     for (i = 100; i >= -100; --i) {
-        x = i/100;
+        x = i / 100;
         y = Math.sqrt(1 - (x * x));
 
         line = new Line(
@@ -76,7 +76,7 @@ var angleTest = function () {
     }
 
     for (i = -100; i <= 100; ++i) {
-        x = i/100;
+        x = i / 100;
         y = -Math.sqrt(1 - (x * x));
 
         line = new Line(

@@ -73,43 +73,46 @@ $(document).ready(function () {
         var angleStep = 10;
         var hStep = 20;
 
-        var diff = 10;
+        var diff = Infinity;
 
         var defaultPoint0 = new Point(0, 0);
         var defaultPoint1 = new Point(100, 0);
         var defaultPoint2 = new Point(100, 100);
         var defaultPoint3 = new Point(0, 100);
 
-        var firstStep = true;
-        lol:for (gamma = 0; gamma < 360; gamma += angleStep) {
+        for (gamma = 0; gamma < 360; gamma += angleStep) {
             var Mz = generateRotationMatrix(gamma, Matrix.Oz);
             for (alpha = 0; alpha < 360; alpha += angleStep) {
                 var Mx = generateRotationMatrix(alpha, Matrix.Ox);
-                var M = mul(Mz, Mx);
+                var M_ = mul(Mz, Mx);
                 for (beta = 0; beta < 360; beta += angleStep) {
                     var My = generateRotationMatrix(beta, Matrix.Oy);
-                    M = mul(M, My);
+                    var M = mul(M_, My);
+
+                    var p0 = defaultPoint0.rotate(M, centerPoint);
+                    var p1 = defaultPoint1.rotate(M, centerPoint);
+                    var p3 = defaultPoint3.rotate(M, centerPoint);
 
                     for (xH = -200; xH <= 200; xH += hStep) {
                         for (yH = -200; yH <= 200; yH += hStep) {
-                            if (firstStep) {
-                                alpha = +$('[name="alpha"]').val();
-                                beta = +$('[name="beta"]').val();
-                                gamma = +$('[name="gamma"]').val();
-                                xH = +$('[name="X"]').val();
-                                yH = +$('[name="Y"]').val();
+                            var hPnt = new Point(
+                                xH,
+                                yH,
+                                zH
+                            );
 
-                                firstStep = false;
-                            }
+                            var $p0 = p0.calcScreen(hPnt);
+                            var $p1 = p1.calcScreen(hPnt);
+                            var $p3 = p3.calcScreen(hPnt);
 
-                            var p0 = defaultPoint0.rotate(M, centerPoint).calcScreen(horizonPoint);
-                            var p1 = defaultPoint1.rotate(M, centerPoint).calcScreen(horizonPoint);
-                            var p3 = defaultPoint3.rotate(M, centerPoint).calcScreen(horizonPoint);
+                            var line01_ = new Line($p0, $p1);
+                            var line03_ = new Line($p0, $p3);
 
-                            var line01_ = new Line(p0, p1);
-                            var line03_ = new Line(p0, p3);
-
-                            var diff_ = Math.abs(line01_._k - line01._k) + Math.abs(line03_._k - line03._k);
+                            var diff_ =
+                                Math.abs(line01_.getAngle() - line01.getAngle()) +
+                                Math.abs(line03_.getAngle() - line03.getAngle()) +
+                                Math.abs(line01_.getLength() - line01.getLength()) +
+                                Math.abs(line03_.getLength() - line03.getLength());
 
                             if (diff > diff_) {
                                 diff = diff_;
@@ -118,15 +121,14 @@ $(document).ready(function () {
                                 $('[name="gamma"]').val(gamma);
                                 $('[name="X"]').val(xH);
                                 $('[name="Y"]').val(yH);
-
-                                onChangeAngle();
-                                break lol;
                             }
                         }
                     }
                 }
             }
         }
+
+        onChangeAngle();
     });
 });
 
@@ -265,7 +267,13 @@ function drawRect(α, β, γ, width, height) {
     drawCircle(centerPoint, 2);
 }
 
-var userCoordinates = [];
+var userCoordinates = [
+    new Point(0, 0),
+    new Point(88, 56),
+    new Point(59, 203),
+    new Point(-67, 114)
+];
+var line01, line03;
 
 function drawUserPolygon() {
     if (!userCoordinates.length) {
