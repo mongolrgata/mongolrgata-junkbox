@@ -73,12 +73,15 @@ $(document).ready(function () {
         var angleStep = 10;
         var hStep = 20;
 
-        var diff = Infinity;
+        const MAX_DIFF = 1;
+        const MAX_TRY = 20;
 
         var defaultPoint0 = new Point(0, 0);
         var defaultPoint1 = new Point(100, 0);
         var defaultPoint2 = new Point(100, 100);
         var defaultPoint3 = new Point(0, 100);
+
+        var best = Infinity;
 
         for (gamma = 0; gamma < 360; gamma += angleStep) {
             var Mz = generateRotationMatrix(gamma, Matrix.Oz);
@@ -108,19 +111,176 @@ $(document).ready(function () {
                             var line01_ = new Line($p0, $p1);
                             var line03_ = new Line($p0, $p3);
 
-                            var diff_ =
+                            var diff =
                                 Math.abs(line01_.getAngle() - line01.getAngle()) +
-                                Math.abs(line03_.getAngle() - line03.getAngle()) +
-                                Math.abs(line01_.getLength() - line01.getLength()) +
-                                Math.abs(line03_.getLength() - line03.getLength());
+                                Math.abs(line03_.getAngle() - line03.getAngle())/* +
+                             Math.abs(line01_.getLength() - line01.getLength()) +
+                             Math.abs(line03_.getLength() - line03.getLength())*/;
 
-                            if (diff > diff_) {
-                                diff = diff_;
-                                $('[name="alpha"]').val(alpha);
-                                $('[name="beta"]').val(beta);
-                                $('[name="gamma"]').val(gamma);
-                                $('[name="X"]').val(xH);
-                                $('[name="Y"]').val(yH);
+                            if (diff < MAX_DIFF) {
+                                // if (
+                                //     alpha === 120 &&
+                                //     beta === 240 &&
+                                //     gamma === 110 &&
+                                //     xH === 80 &&
+                                //     yH === -200
+                                // ) {
+                                //     debugger;
+                                // }
+
+                                var originWidth = 100;
+                                var originHeight = 100;
+
+                                for (var i = 0; i < MAX_TRY; ++i) {
+                                    // var dW = line01_.getLength() / line01.getLength();
+                                    // var dH = line03_.getLength() / line03.getLength();
+                                    var step = 100*(MAX_TRY/(i+1));
+
+                                    if (line01_.getLength() < line01.getLength()) {
+                                        originWidth += step;
+                                    } else {
+                                        originWidth -= step;
+                                    }
+
+                                    if (line03_.getLength() < line03.getLength()) {
+                                        originHeight += step;
+                                    } else {
+                                        originHeight -= step;
+                                    }
+
+                                    var dP0 = new Point(0, 0).rotate(M, centerPoint).calcScreen(hPnt);
+                                    var dP1 = new Point(originWidth, 0).rotate(M, centerPoint).calcScreen(hPnt);
+                                    // var dP2 = new Point(width_, height_).rotate(M, centerPoint).calcScreen(hPnt);
+                                    var dP3 = new Point(0, originHeight).rotate(M, centerPoint).calcScreen(hPnt);
+
+                                    line01_ = new Line(dP0, dP1);
+                                    line03_ = new Line(dP0, dP3);
+                                }
+
+                                var dP2 = new Point(originWidth, originHeight).rotate(M, centerPoint).calcScreen(hPnt);
+                                var $p2 = userCoordinates[2];
+                                var dist = dP2.distance($p2);
+
+                                if (best > dist) {
+                                    best = dist;
+
+                                    $('[name="alpha"]').val(alpha);
+                                    $('[name="beta"]').val(beta);
+                                    $('[name="gamma"]').val(gamma);
+                                    $('[name="X"]').val(xH);
+                                    $('[name="Y"]').val(yH);
+                                    $('[name="width"]').val(originWidth);
+                                    $('[name="height"]').val(originHeight);
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        onChangeAngle();
+    });
+
+    $('#resolve').click(function () {
+        var alpha, beta, gamma;
+        var height, width;
+        var xH, yH, zH = +$('[name="Z"]').val();
+
+        var alpha0 = +$('[name="alpha"]').val();
+        var beta0 = +$('[name="beta"]').val();
+        var gamma0 = +$('[name="gamma"]').val();
+        var xh0 = +$('[name="X"]').val();
+        var yh0 = +$('[name="Y"]').val();
+        var width0 = +$('[name="width"]').val();
+        var height0 = +$('[name="height"]').val();
+
+        var angleStep = 1;
+        var hStep = 2;
+
+        const MAX_DIFF = 1;
+        const MAX_TRY = 100;
+
+        var defaultPoint0 = new Point(0, 0);
+        var defaultPoint1 = new Point(width0, 0);
+        var defaultPoint3 = new Point(0, height0);
+
+        var best = Infinity;
+
+        for (gamma = gamma0 - 10; gamma <= gamma0 + 10; gamma += angleStep) {
+            console.log(gamma);
+            var Mz = generateRotationMatrix(gamma, Matrix.Oz);
+            for (alpha = alpha0 - 10; alpha <= alpha0 + 10; alpha += angleStep) {
+                var Mx = generateRotationMatrix(alpha, Matrix.Ox);
+                var M_ = mul(Mz, Mx);
+                for (beta = beta0 - 10; beta <= beta0 + 10; beta += angleStep) {
+                    var My = generateRotationMatrix(beta, Matrix.Oy);
+                    var M = mul(M_, My);
+
+                    var p0 = defaultPoint0.rotate(M, centerPoint);
+                    var p1 = defaultPoint1.rotate(M, centerPoint);
+                    var p3 = defaultPoint3.rotate(M, centerPoint);
+
+                    for (xH = xh0 - 20; xH <= xh0 + 20; xH += hStep) {
+                        for (yH = yh0 - 20; yH <= yh0 + 20; yH += hStep) {
+                            var hPnt = new Point(
+                                xH,
+                                yH,
+                                zH
+                            );
+
+                            var $p0 = p0.calcScreen(hPnt);
+                            var $p1 = p1.calcScreen(hPnt);
+                            var $p3 = p3.calcScreen(hPnt);
+
+                            var line01_ = new Line($p0, $p1);
+                            var line03_ = new Line($p0, $p3);
+
+                            var diff =
+                                Math.abs(line01_.getAngle() - line01.getAngle()) +
+                                Math.abs(line03_.getAngle() - line03.getAngle());
+
+                            if (diff < MAX_DIFF) {
+                                var originWidth = width0;
+                                var originHeight = height0;
+
+                                for (var i = 0; i < MAX_TRY; ++i) {
+                                    if (line01_.getLength() < line01.getLength()) {
+                                        originWidth += 1;
+                                    } else {
+                                        originWidth -= 1;
+                                    }
+
+                                    if (line03_.getLength() < line03.getLength()) {
+                                        originHeight += 1;
+                                    } else {
+                                        originHeight -= 1;
+                                    }
+
+                                    var dP0 = new Point(0, 0).rotate(M, centerPoint).calcScreen(hPnt);
+                                    var dP1 = new Point(originWidth, 0).rotate(M, centerPoint).calcScreen(hPnt);
+                                    var dP3 = new Point(0, originHeight).rotate(M, centerPoint).calcScreen(hPnt);
+
+                                    line01_ = new Line(dP0, dP1);
+                                    line03_ = new Line(dP0, dP3);
+                                }
+
+                                var dP2 = new Point(originWidth, originHeight).rotate(M, centerPoint).calcScreen(hPnt);
+                                var $p2 = userCoordinates[2];
+                                var dist = dP2.distance($p2);
+
+                                if (best > dist) {
+                                    best = dist;
+
+                                    $('[name="alpha"]').val(alpha);
+                                    $('[name="beta"]').val(beta);
+                                    $('[name="gamma"]').val(gamma);
+                                    $('[name="X"]').val(xH);
+                                    $('[name="Y"]').val(yH);
+                                    $('[name="width"]').val(originWidth);
+                                    $('[name="height"]').val(originHeight);
+                                }
                             }
                         }
                     }
