@@ -118,34 +118,29 @@ $(document).ready(function () {
                              Math.abs(line03_.getLength() - line03.getLength())*/;
 
                             if (diff < MAX_DIFF) {
-                                // if (
-                                //     alpha === 120 &&
-                                //     beta === 240 &&
-                                //     gamma === 110 &&
-                                //     xH === 80 &&
-                                //     yH === -200
-                                // ) {
-                                //     debugger;
-                                // }
-
                                 var originWidth = 100;
                                 var originHeight = 100;
 
                                 for (var i = 0; i < MAX_TRY; ++i) {
-                                    // var dW = line01_.getLength() / line01.getLength();
-                                    // var dH = line03_.getLength() / line03.getLength();
-                                    var step = 100*(MAX_TRY/(i+1));
+                                    var dW = line01_.getLength() / line01.getLength();
+                                    var dH = line03_.getLength() / line03.getLength();
+                                    
+                                    // var step = 100*(MAX_TRY/(i+1));
 
                                     if (line01_.getLength() < line01.getLength()) {
-                                        originWidth += step;
+                                        // originWidth += step;
+                                        originWidth /= dW;
                                     } else {
-                                        originWidth -= step;
+                                        // originWidth -= step;
+                                        originWidth /= dW;
                                     }
 
                                     if (line03_.getLength() < line03.getLength()) {
-                                        originHeight += step;
+                                        // originHeight += step;
+                                        originHeight /= dH;
                                     } else {
-                                        originHeight -= step;
+                                        // originHeight -= step;
+                                        originHeight /= dH;
                                     }
 
                                     var dP0 = new Point(0, 0).rotate(M, centerPoint).calcScreen(hPnt);
@@ -156,6 +151,9 @@ $(document).ready(function () {
                                     line01_ = new Line(dP0, dP1);
                                     line03_ = new Line(dP0, dP3);
                                 }
+
+                                originWidth = Math.round(originWidth);
+                                originHeight = Math.round(originHeight);
 
                                 var dP2 = new Point(originWidth, originHeight).rotate(M, centerPoint).calcScreen(hPnt);
                                 var $p2 = userCoordinates[2];
