@@ -427,8 +427,8 @@ function drawRect(α, β, γ, width, height) {
     var alpha = α;
     var beta = β;
     var gamma = γ;
-    var hX = 200 + horizonPoint.getX();
-    var hY = 200 + horizonPoint.getY();
+    var hX = 200 + horizonPoint.getX() + dx;
+    var hY = 200 + horizonPoint.getY() + dy;
     //noinspection JSAnnotator
     var line = `{\\p1\\pos(${posX},${posY})\\frx${alpha}\\fry${beta}\\frz${gamma}\\org(${hX},${hY})}m 0 0 l 0 ${height} ${width} ${height} ${width} 0{\\p0}`;
 
