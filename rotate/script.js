@@ -78,7 +78,7 @@ $(document).ready(function () {
 
         var defaultPoint0 = new Point(0, 0);
         var defaultPoint1 = new Point(100, 0);
-        var defaultPoint2 = new Point(100, 100);
+        // var defaultPoint2 = new Point(100, 100);
         var defaultPoint3 = new Point(0, 100);
 
         var best = Infinity;
@@ -124,7 +124,7 @@ $(document).ready(function () {
                                 for (var i = 0; i < MAX_TRY; ++i) {
                                     var dW = line01_.getLength() / line01.getLength();
                                     var dH = line03_.getLength() / line03.getLength();
-                                    
+
                                     // var step = 100*(MAX_TRY/(i+1));
 
                                     if (line01_.getLength() < line01.getLength()) {
