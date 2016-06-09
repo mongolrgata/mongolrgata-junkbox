@@ -31,6 +31,12 @@
         [type="range"] {
             width: 300px;
         }
+        
+        .result-line {
+            width: 316px;
+            font-family: monospace;
+            word-break: break-all;
+        }
     </style>
 </head>
 <body>
@@ -91,10 +97,10 @@
     <!-- точка вращения -->
     <div class="settings">
         <label>
-            Xc = <input type="number" name="cX" min="-10000" max="10000" value="0" onchange="onChangeAngle()">
+            Xc = <input type="number" name="cX" min="-10000" max="10000" value="0" disabled>
         </label>
         <label>
-            Yc = <input type="number" name="cY" min="-10000" max="10000" value="0" onchange="onChangeAngle()">
+            Yc = <input type="number" name="cY" min="-10000" max="10000" value="0" disabled>
         </label>
         <label>
             Zc = <input type="number" name="cZ" min="0" max="0" value="0" disabled>

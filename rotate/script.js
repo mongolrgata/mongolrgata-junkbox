@@ -299,15 +299,19 @@ var onChangeAngle = function () {
     var gamma = +$('[name="gamma"]').val();
     var width = +$('[name="width"]').val();
     var height = +$('[name="height"]').val();
+    var hX = +$('[name="X"]').val();
+    var hY = +$('[name="Y"]').val();
 
+    $('[name="cX"]').val(hX);
+    $('[name="cY"]').val(hY);
     centerPoint = new Point(
-        +$('[name="cX"]').val(),
-        +$('[name="cY"]').val()
+        hX,
+        hY
     );
 
     horizonPoint = new Point(
-        +$('[name="X"]').val(),
-        +$('[name="Y"]').val(),
+        hX,
+        hY,
         +$('[name="Z"]').val()
     );
 
@@ -316,8 +320,8 @@ var onChangeAngle = function () {
     $('[name="gammaR"]').val(gamma);
     $('[name="widthR"]').val(width);
     $('[name="heightR"]').val(height);
-    $('[name="xR"]').val(horizonPoint.getX());
-    $('[name="yR"]').val(horizonPoint.getY());
+    $('[name="xR"]').val(hX);
+    $('[name="yR"]').val(hY);
 
     drawRect(alpha, beta, gamma, width, height);
     drawUserPolygon();
@@ -423,6 +427,18 @@ function drawRect(α, β, γ, width, height) {
 
     context.strokeStyle = 'black';
     drawCircle(centerPoint, 2);
+
+    var posX = 200;
+    var posY = 200;
+    var alpha = α;
+    var beta = β;
+    var gamma = γ;
+    var hX = 200 + horizonPoint.getX();
+    var hY = 200 + horizonPoint.getY();
+    //noinspection JSAnnotator
+    var line = `{\\p1\\pos(${posX},${posY})\\frx${alpha}\\fry${beta}\\frz${gamma}\\org(${hX},${hY})}m 0 0 l 0 ${height} ${width} ${height} ${width} 0{\\p0}`;
+    
+    $('#coordinates-list').append($('<p class="result-line"/>').text(line));
 }
 
 var userCoordinates = [
