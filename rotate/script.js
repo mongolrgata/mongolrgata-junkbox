@@ -2,6 +2,39 @@
  * Created by aa.shirkin on 25.05.2016.
  */
 
+DataTransferItemList.prototype[Symbol.iterator] = Array.prototype[Symbol.iterator];
+
+var solveOffsetX = 10;
+var solveOffsetY = 100;
+var gImage = null;
+
+document.onpaste = function (event) {
+    for (var item of event.clipboardData.items) {
+        if (item.kind === 'file' && item.type.startsWith('image/')) {
+            var blob = item.getAsFile();
+
+            var reader = new FileReader();
+            reader.onload = function (event) {
+                // var canvas = document.getElementsByTagName('canvas')[0];
+                // var context = canvas.getContext('2d');
+
+                var image = new Image();
+                image.onload = function () {
+                    // canvas.width = image.width;
+                    // canvas.height = image.height;
+                    // context.drawImage(image, 0, 0);
+                    gImage = image;
+                    onChangeAngle();
+                };
+                image.src = event.target.result;
+
+                // document.getElementsByTagName('body')[0].appendChild(canvas);
+            };
+            reader.readAsDataURL(blob);
+        }
+    }
+};
+
 $(document).ready(function () {
     var canvas = $('canvas')[0];
     canvas.width = 512;
@@ -323,6 +356,20 @@ var onChangeAngle = function () {
     $('[name="xR"]').val(hX);
     $('[name="yR"]').val(hY);
 
+    var canvas = $('canvas')[0];
+    var context = canvas.getContext('2d');
+    context.clearRect(0, 0, canvas.width, canvas.height);
+
+    if (gImage) {
+        canvas.width = gImage.width;
+        canvas.height = gImage.height;
+        $(canvas).css({
+            width: gImage.width,
+            height: gImage.height
+        });
+        context.drawImage(gImage, 0, 0);
+    }
+
     drawRect(alpha, beta, gamma, width, height);
     drawUserPolygon();
 };
@@ -350,7 +397,6 @@ var onChangeRange = function () {
 function drawRect(α, β, γ, width, height) {
     var canvas = $('canvas')[0];
     var context = canvas.getContext('2d');
-    context.clearRect(0, 0, canvas.width, canvas.height);
 
     var needPrint;
     var count = 0;
@@ -363,7 +409,7 @@ function drawRect(α, β, γ, width, height) {
             $('#coordinates-list').append($('<p/>').text('x = ' + Math.round(x) + '; y = ' + Math.round(y)));
         }
 
-        var tempPoint = point.calcScreen(horizonPoint).move(200, 200).move(dx, dy);
+        var tempPoint = point.calcScreen(horizonPoint).move(solveOffsetX, solveOffsetY).move(dx, dy);
 
         if ((++count % 2) && needPrint) {
             printPoint(tempPoint);
@@ -432,13 +478,13 @@ function drawRect(α, β, γ, width, height) {
     context.strokeStyle = 'black';
     drawCircle(centerPoint, 2);
 
-    var posX = 200 + dx;
-    var posY = 200 + dy;
+    var posX = solveOffsetX + dx;
+    var posY = solveOffsetY + dy;
     var alpha = α;
     var beta = β;
     var gamma = γ;
-    var hX = 200 + horizonPoint.getX() + dx;
-    var hY = 200 + horizonPoint.getY() + dy;
+    var hX = solveOffsetX + horizonPoint.getX() + dx;
+    var hY = solveOffsetY + horizonPoint.getY() + dy;
     //noinspection JSAnnotator
     var line = `{\\p1\\pos(${posX},${posY})\\frx${alpha}\\fry${beta}\\frz${gamma}\\org(${hX},${hY})}m 0 0 l 0 ${height} ${width} ${height} ${width} 0{\\p0}`;
 
@@ -478,7 +524,7 @@ function drawUserPolygon() {
 
     p1 = userCoordinates[0];
     context.beginPath();
-    context.arc(p1.getX() + 200, p1.getY() + 200, 2, 0, 2 * Math.PI, false);
+    context.arc(p1.getX() + solveOffsetX, p1.getY() + solveOffsetY, 2, 0, 2 * Math.PI, false);
     context.stroke();
 
     for (var i = 1; i < userCoordinates.length; ++i) {
@@ -486,12 +532,12 @@ function drawUserPolygon() {
         p2 = userCoordinates[i];
 
         context.beginPath();
-        context.moveTo(p1.getX() + 200, p1.getY() + 200);
-        context.lineTo(p2.getX() + 200, p2.getY() + 200);
+        context.moveTo(p1.getX() + solveOffsetX, p1.getY() + solveOffsetY);
+        context.lineTo(p2.getX() + solveOffsetX, p2.getY() + solveOffsetY);
         context.stroke();
 
         context.beginPath();
-        context.arc(p2.getX() + 200, p2.getY() + 200, 2, 0, 2 * Math.PI, false);
+        context.arc(p2.getX() + solveOffsetX, p2.getY() + solveOffsetY, 2, 0, 2 * Math.PI, false);
         context.stroke();
     }
 
@@ -500,21 +546,24 @@ function drawUserPolygon() {
         p2 = userCoordinates[0];
 
         context.beginPath();
-        context.moveTo(p1.getX() + 200, p1.getY() + 200);
-        context.lineTo(p2.getX() + 200, p2.getY() + 200);
+        context.moveTo(p1.getX() + solveOffsetX, p1.getY() + solveOffsetY);
+        context.lineTo(p2.getX() + solveOffsetX, p2.getY() + solveOffsetY);
         context.stroke();
     }
 }
 
 setPoint = function (mouseEvent) {
-    var x = mouseEvent.offsetX - 200;
-    var y = mouseEvent.offsetY - 200;
-
-    var point = new Point(x, y);
-
     if (userCoordinates.length === 4) {
         userCoordinates = [];
+
+        solveOffsetX = mouseEvent.offsetX;
+        solveOffsetY = mouseEvent.offsetY;
     }
+
+    var x = mouseEvent.offsetX - solveOffsetX;
+    var y = mouseEvent.offsetY - solveOffsetY;
+
+    var point = new Point(x, y);
 
     userCoordinates.push(point);
     onChangeAngle();
