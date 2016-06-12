@@ -15,14 +15,9 @@ document.onpaste = function (event) {
 
             var reader = new FileReader();
             reader.onload = function (event) {
-                // var canvas = document.getElementsByTagName('canvas')[0];
-                // var context = canvas.getContext('2d');
 
                 var image = new Image();
                 image.onload = function () {
-                    // canvas.width = image.width;
-                    // canvas.height = image.height;
-                    // context.drawImage(image, 0, 0);
                     gImage = image;
                     onChangeAngle();
                 };
@@ -368,6 +363,14 @@ var onChangeAngle = function () {
             height: gImage.height
         });
         context.drawImage(gImage, 0, 0);
+
+        var imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+        for (var i = 0; i < imageData.data.length; ++i) {
+            if ((i + 1) % 4) {
+                imageData.data[i] += (255 - imageData.data[i]) / 2;
+            }
+        }
+        context.putImageData(imageData, 0, 0);
     }
 
     drawRect(alpha, beta, gamma, width, height);
@@ -568,3 +571,30 @@ setPoint = function (mouseEvent) {
     userCoordinates.push(point);
     onChangeAngle();
 };
+
+// tryGrabPoint = function(mouseEvent) {
+//     var x = mouseEvent.offsetX - solveOffsetX;
+//     var y = mouseEvent.offsetY - solveOffsetY;
+//
+//     var point = new Point(x, y);
+//
+//     for (var i = 0; i < userCoordinates.length; ++i) {
+//         var dist = point.distance(userCoordinates[i]);
+//
+//         if (dist < 5) {
+//             console.error('grabbed');
+//         }
+//     }
+// };
+//
+// testMouseUp = function() {
+//     console.error('mouseup');
+// };
+//
+// testMouseClick = function() {
+//     console.error('mouseclick');
+// };
+//
+//     testMouseMove = function() {
+//     console.error('mousemove');
+// };
