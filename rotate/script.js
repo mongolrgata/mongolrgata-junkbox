@@ -318,13 +318,18 @@ $(document).ready(function () {
     });
 
     $('#rotate').click(function () {
+        var width = +$('[name="width"]').val();
+        var height = +$('[name="height"]').val();
+
+        var widthWithScale = width * scaleX;
+        var heightWithScale = height * scaleY;
+
         var canvas = document.getElementsByTagName('canvas')[0];
         var canvasContext = canvas.getContext('2d');
         var canvasImageData = canvasContext.getImageData(0, 0, canvas.width, canvas.height);
-        ;
         var image = document.createElement('canvas');
-        image.width = +$('[name="width"]').val();
-        image.height = +$('[name="height"]').val();
+        image.width = widthWithScale;
+        image.height = heightWithScale;
         var imageContext = image.getContext('2d');
         imageContext.fillStyle = 'black';
         imageContext.fillRect(0, 0, image.width, image.height);
@@ -359,14 +364,14 @@ $(document).ready(function () {
 
         for (var i = 0; i < image.height; ++i) {
             for (var j = 0; j < image.width; ++j) {
-                var x = j;
-                var y = i;
+                var x = j/scaleX;
+                var y = i/scaleY;
                 var point = new Point(x, y);
                 var $p = point.rotate(M, centerPoint).calcScreen(horizonPoint).move(solveOffsetX, solveOffsetY).move(dx, dy);
                 var _x = Math.round($p.getX());
                 var _y = Math.round($p.getY());
 
-                changePointColor(imageData, x, y, getPointColor(canvasImageData, _x, _y));
+                changePointColor(imageData, j, i, getPointColor(canvasImageData, _x, _y));
                 canvasContext.fillStyle = 'yellow';
                 canvasContext.fillRect($p.getX(), $p.getY(), 1, 1);
             }
@@ -432,7 +437,7 @@ var onChangeAngle = function () {
     }
 
     drawRect(alpha, beta, gamma, width, height);
-    drawUserPolygon();
+    // drawUserPolygon();
 };
 
 var onChangeRange = function () {
@@ -453,6 +458,16 @@ var onChangeRange = function () {
     $('[name="Y"]').val(y);
 
     onChangeAngle();
+};
+
+var scaleX = 1;
+var scaleY = 1;
+var onChangeRangeScale = function () {
+    scaleX = (+$('[name="scaleX"]').val()) / 1000;
+    scaleY = (+$('[name="scaleY"]').val()) / 1000;
+
+    onChangeAngle();
+    $('#rotate').click();
 };
 
 function drawRect(α, β, γ, width, height) {
