@@ -68,15 +68,15 @@
                 <!-- углы поворота (числовые значения) -->
                 <div class="settings">
                     <label>
-                        <span style="color: red">α = </span><input type="number" name="alpha" min="0" max="360" value="0"
+                        <span style="color: red">α = </span><input type="number" name="alpha" min="0" max="360" value="185"
                                                                    onchange="onChangeAngle()">
                     </label>
                     <label>
-                        <span style="color: green">β = </span><input type="number" name="beta" min="0" max="360" value="0"
+                        <span style="color: green">β = </span><input type="number" name="beta" min="0" max="360" value="129"
                                                                      onchange="onChangeAngle()">
                     </label>
                     <label>
-                        <span style="color: blue">γ = </span><input type="number" name="gamma" min="0" max="360" value="0"
+                        <span style="color: blue">γ = </span><input type="number" name="gamma" min="0" max="360" value="175"
                                                                     onchange="onChangeAngle()">
                     </label>
                 </div>
@@ -99,10 +99,10 @@
                 <!-- точка проекции -->
                 <div class="settings">
                     <label>
-                        X = <input type="number" name="X" min="-300" max="300" value="0" onchange="onChangeAngle()">
+                        X = <input type="number" name="X" min="-300" max="300" value="-16" onchange="onChangeAngle()">
                     </label>
                     <label>
-                        Y = <input type="number" name="Y" min="-300" max="300" value="0" onchange="onChangeAngle()">
+                        Y = <input type="number" name="Y" min="-300" max="300" value="-132" onchange="onChangeAngle()">
                     </label>
                     <label>
                         Z = <input type="number" name="Z" min="-500" max="0" value="-311" disabled>
@@ -121,10 +121,10 @@
                 <!-- точка вращения -->
                 <div class="settings">
                     <label>
-                        Xc = <input type="number" name="cX" min="-10000" max="10000" value="0" disabled>
+                        Xc = <input type="number" name="cX" min="-10000" max="10000" value="-16" disabled>
                     </label>
                     <label>
-                        Yc = <input type="number" name="cY" min="-10000" max="10000" value="0" disabled>
+                        Yc = <input type="number" name="cY" min="-10000" max="10000" value="-132" disabled>
                     </label>
                     <label>
                         Zc = <input type="number" name="cZ" min="0" max="0" value="0" disabled>
@@ -133,10 +133,10 @@
                 <!-- размеры -->
                 <div class="settings">
                     <label>
-                        width = <input type="number" name="width" min="0" max="10000" value="100" onchange="onChangeAngle()">
+                        width = <input type="number" name="width" min="0" max="10000" value="163" onchange="onChangeAngle()">
                     </label>
                     <label>
-                        height = <input type="number" name="height" min="0" max="10000" value="100" onchange="onChangeAngle()">
+                        height = <input type="number" name="height" min="0" max="10000" value="225" onchange="onChangeAngle()">
                     </label>
                 </div>
                 <div class="settings">
@@ -157,6 +157,7 @@
                     <button id="reset">Reset</button>
                     <button id="solve">Solve</button>
                     <button id="resolve">Re;Solve</button>
+                    <button id="rotate">Rotate</button>
                 </div>
                 <div id="coordinates-list" class="settings"></div>
             </div>

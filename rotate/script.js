@@ -4,8 +4,8 @@
 
 DataTransferItemList.prototype[Symbol.iterator] = Array.prototype[Symbol.iterator];
 
-var solveOffsetX = 10;
-var solveOffsetY = 100;
+var solveOffsetX = 396;
+var solveOffsetY = 69;
 var gImage = null;
 
 document.onpaste = function (event) {
@@ -316,6 +316,64 @@ $(document).ready(function () {
 
         onChangeAngle();
     });
+
+    $('#rotate').click(function () {
+        var canvas = document.getElementsByTagName('canvas')[0];
+        var canvasContext = canvas.getContext('2d');
+        var canvasImageData = canvasContext.getImageData(0, 0, canvas.width, canvas.height);
+        ;
+        var image = document.createElement('canvas');
+        image.width = +$('[name="width"]').val();
+        image.height = +$('[name="height"]').val();
+        var imageContext = image.getContext('2d');
+        imageContext.fillStyle = 'black';
+        imageContext.fillRect(0, 0, image.width, image.height);
+        var imageData = imageContext.getImageData(0, 0, image.width, image.height);
+
+        var changePointColor = function (imageData, x, y, color) {
+            var p = (x + y * imageData.width) * 4;
+            for (var i = 0; i < 4; ++i) {
+                imageData.data[p + i] = color[i];
+            }
+        };
+
+        var getPointColor = function (imageData, x, y) {
+            var p = (x + y * imageData.width) * 4;
+            var result = imageData.data.slice(p, p + 4);
+            for (var i = 0; i < 3; ++i) {
+                result[i] = 2 * result[i] - 255;
+            }
+            return result;
+        };
+
+        var Mx = generateRotationMatrix(+$('[name="alpha"]').val(), Matrix.Ox);
+        var My = generateRotationMatrix(+$('[name="beta"]').val(), Matrix.Oy);
+        var Mz = generateRotationMatrix(+$('[name="gamma"]').val(), Matrix.Oz);
+        var M = mul(mul(Mz, Mx), My);
+
+        var pointZero = new Point(0, 0);
+        pointZero = pointZero.rotate(M, centerPoint).calcScreen(horizonPoint);
+
+        var dx = -pointZero.getX();
+        var dy = -pointZero.getY();
+
+        for (var i = 0; i < image.height; ++i) {
+            for (var j = 0; j < image.width; ++j) {
+                var x = j;
+                var y = i;
+                var point = new Point(x, y);
+                var $p = point.rotate(M, centerPoint).calcScreen(horizonPoint).move(solveOffsetX, solveOffsetY).move(dx, dy);
+                var _x = Math.round($p.getX());
+                var _y = Math.round($p.getY());
+
+                changePointColor(imageData, x, y, getPointColor(canvasImageData, _x, _y));
+                canvasContext.fillStyle = 'yellow';
+                canvasContext.fillRect($p.getX(), $p.getY(), 1, 1);
+            }
+        }
+
+        canvasContext.putImageData(imageData, 0, 0);
+    });
 });
 
 var centerPoint = new Point(0, 0);
@@ -571,30 +629,3 @@ setPoint = function (mouseEvent) {
     userCoordinates.push(point);
     onChangeAngle();
 };
-
-// tryGrabPoint = function(mouseEvent) {
-//     var x = mouseEvent.offsetX - solveOffsetX;
-//     var y = mouseEvent.offsetY - solveOffsetY;
-//
-//     var point = new Point(x, y);
-//
-//     for (var i = 0; i < userCoordinates.length; ++i) {
-//         var dist = point.distance(userCoordinates[i]);
-//
-//         if (dist < 5) {
-//             console.error('grabbed');
-//         }
-//     }
-// };
-//
-// testMouseUp = function() {
-//     console.error('mouseup');
-// };
-//
-// testMouseClick = function() {
-//     console.error('mouseclick');
-// };
-//
-//     testMouseMove = function() {
-//     console.error('mousemove');
-// };
