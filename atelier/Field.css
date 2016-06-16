@@ -1,0 +1,12 @@
+.field-row {
+    
+}
+
+.field-square {
+    border-width: 2px;
+    border-style: solid;
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    margin-left: 4px;
+}

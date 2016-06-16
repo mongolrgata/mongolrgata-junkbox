@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atelier</title>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+        
+        table {
+            table-layout: fixed;
+            width: 100%;
+        }
+
+        [type="range"] {
+            width: 256px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="Square.js"></script>
+    <script src="Field.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="Field.css">
+</head>
+<body>
+<table>
+    <colgroup>
+        <col>
+        <col width="400px">
+    </colgroup>
+    <tr>
+        <td>
+            <div class="field">
+
+            </div>
+        </td>
+        <td style="vertical-align: top;">
+            <table style="width: auto;">
+                <tr>
+                    <td style="text-align: right; white-space: nowrap;">W =</td>
+                    <td><input type="number" name="width" min="1" max="10" value="4" onchange="onChangeSettings()"></td>
+                    <td><input type="range" name="width-range" min="1" max="10" oninput="onChangeSettingsRange()"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; white-space: nowrap;">H =</td>
+                    <td><input type="number" name="height" min="1" max="10" value="4" onchange="onChangeSettings()"></td>
+                    <td><input type="range" name="height-range" min="1" max="10" oninput="onChangeSettingsRange()"></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <textarea name="figures"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
