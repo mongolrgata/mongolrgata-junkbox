@@ -11,10 +11,10 @@ var Field = function (cfg) {
     this._height = cfg.height;
     this._field = [];
 
-    for (var i = 0, gCount = 0; i < this._height; ++i) {
+    for (var i = 0, gCount = 0; i < cfg.realHeight; ++i) {
         this._field[i] = [];
-        for (var j = 0; j < this._width; ++j) {
-            var squareCfg = cfg.squares[++gCount];
+        for (var j = 0; j < cfg.realWidth; ++j) {
+            var squareCfg = cfg.squares[gCount++];
 
             if (squareCfg) {
                 this._field[i][j] = new Square(squareCfg);
@@ -41,8 +41,8 @@ Field.prototype.setWidth = function (value) {
 };
 
 Field.prototype.setHeight = function (value) {
-    var realHeight = this._field.length;
-    var realWidth = this._field[0].length;
+    var realHeight = this._getRealHeight();
+    var realWidth = this._getRealWidth();
 
     if (value > realHeight) {
         for (var i = realHeight; i < value; ++i) {
@@ -56,16 +56,25 @@ Field.prototype.setHeight = function (value) {
     this._height = value;
 };
 
+Field.prototype._getRealWidth = function() {
+    return this._field[0].length;
+};
+
+Field.prototype._getRealHeight = function() {
+    return this._field.length;
+};
 
 Field.prototype.toString = function () {
     var obj = {
         width: this._width,
         height: this._height,
+        realWidth: this._getRealWidth(),
+        realHeight: this._getRealHeight(),
         squares: []
     };
 
-    for (var i = 0; i < this._height; ++i) {
-        for (var j = 0; j < this._width; ++j) {
+    for (var i = 0; i < this._getRealHeight(); ++i) {
+        for (var j = 0; j < this._getRealWidth(); ++j) {
             obj.squares.push('' + this.getSquare(j, i));
         }
     }
@@ -77,6 +86,8 @@ Field.prototype.defaultField = function () {
     var cfg = {
         width: 4,
         height: 4,
+        realWidth: 4,
+        realHeight: 4,
         squares: []
     };
 
@@ -113,11 +124,3 @@ Field.prototype.visualize = function ($container) {
         $container.append($row);
     }
 };
-
-// Field.prototype.getWidth = function () {
-//     return this._width;
-// };
-
-// Field.prototype.getHeight = function () {
-//     return this._height;
-// };
