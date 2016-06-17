@@ -30,14 +30,21 @@ Field.prototype.setWidth = function (value) {
     var realWidth = this._field[0].length;
 
     if (value > realWidth) {
+        this._flipHorizontal();
         for (var i = 0; i < realHeight; ++i) {
             for (var j = realWidth; j < value; ++j) {
                 this._field[i][j] = Square.prototype.defaultSquare();
             }
         }
+        this._width = value;
+        this._flipHorizontal();
+    } else {
+        this._flipHorizontal();
+        this._flipVertical();
+        this._width = value;
+        this._flipHorizontal();
+        this._flipVertical();
     }
-
-    this._width = value;
 };
 
 Field.prototype.setHeight = function (value) {
@@ -45,23 +52,48 @@ Field.prototype.setHeight = function (value) {
     var realWidth = this._getRealWidth();
 
     if (value > realHeight) {
+        this._flipVertical();
         for (var i = realHeight; i < value; ++i) {
             this._field[i] = [];
             for (var j = 0; j < realWidth; ++j) {
                 this._field[i][j] = Square.prototype.defaultSquare();
             }
         }
+        this._height = value;
+        this._flipVertical();
+    } else {
+        this._flipHorizontal();
+        this._flipVertical();
+        this._height = value;
+        this._flipHorizontal();
+        this._flipVertical();
     }
-
-    this._height = value;
 };
 
-Field.prototype._getRealWidth = function() {
+Field.prototype._getRealWidth = function () {
     return this._field[0].length;
 };
 
-Field.prototype._getRealHeight = function() {
+Field.prototype._getRealHeight = function () {
     return this._field.length;
+};
+
+Field.prototype._flipHorizontal = function () {
+    for (var i = 0; i < this._height; ++i) {
+        for (var l = 0, r = this._width - 1; l < this._width / 2; ++l, --r) {
+            var tmp = this._field[i][l];
+            this._field[i][l] = this._field[i][r];
+            this._field[i][r] = tmp;
+        }
+    }
+};
+
+Field.prototype._flipVertical = function () {
+    for (var t = 0, b = this._height - 1; t < this._height / 2; ++t, --b) {
+        var tmp = this._field[t];
+        this._field[t] = this._field[b];
+        this._field[b] = tmp;
+    }
 };
 
 Field.prototype.toString = function () {
@@ -114,7 +146,7 @@ Field.prototype.visualize = function ($container) {
                 'border-color': square.getColorCSS()
             }).data('square', square).click(function () {
                 var square = $(this).data('square');
-                
+
                 square.setNextColor();
                 self.visualize($container);
             });
