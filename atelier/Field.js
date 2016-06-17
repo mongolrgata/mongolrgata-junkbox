@@ -23,6 +23,8 @@ var Field = function (cfg) {
             }
         }
     }
+
+    this._$container = null;
 };
 
 Field.prototype.setWidth = function (value) {
@@ -130,7 +132,46 @@ Field.prototype.getSquare = function (x, y) {
     return this._field[y][x];
 };
 
+Field.prototype._revisualize = function () {
+    if (this._$container === null) {
+        return;
+    }
+    
+    this.visualize(this._$container);
+};
+
+/**
+ * @param {Square} square
+ * @returns {jQuery}
+ * @private
+ */
+Field.prototype._visualizeSquare = function (square) {
+    var self = this;
+    var $result = $('<div class="field-square"/>').css({
+        'border-color': square.getColorCSS()
+    }).append(
+        $('<div class="square-point"/>').css({
+            'background-color': square.getColorCSS(),
+            'width': square.getSizeCSS(),
+            'height': square.getSizeCSS()
+        })
+    );
+    
+    $result.click(function (event) {
+        if (event.button === 0) {
+            square.setNextColor();
+            self._revisualize();
+        } else if (event.button === 1) {
+            square.setNextSize();
+            self._revisualize();
+        }
+    });
+    
+    return $result;
+};
+
 Field.prototype.visualize = function ($container) {
+    this._$container = $container;
     $container.empty();
 
     var self = this;
@@ -142,14 +183,7 @@ Field.prototype.visualize = function ($container) {
 
         for (var j = 0; j < width; ++j) {
             var square = this.getSquare(j, i);
-            var $square = $('<div class="field-square"/>').css({
-                'border-color': square.getColorCSS()
-            }).data('square', square).click(function () {
-                var square = $(this).data('square');
-
-                square.setNextColor();
-                self.visualize($container);
-            });
+            var $square = self._visualizeSquare(square);
 
             $row.append($square);
         }

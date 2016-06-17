@@ -9,4 +9,15 @@
     height: 64px;
     display: inline-block;
     margin-left: 4px;
+    position: relative;
+}
+
+.square-point {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
 }
