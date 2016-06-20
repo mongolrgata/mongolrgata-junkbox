@@ -574,6 +574,8 @@ var userCoordinates = [
     new Point(-67, 114)
 ];
 var line01, line03;
+line01 = new Line(userCoordinates[0], userCoordinates[1]);
+line03 = new Line(userCoordinates[0], userCoordinates[3]);
 
 function drawUserPolygon() {
     if (!userCoordinates.length) {
