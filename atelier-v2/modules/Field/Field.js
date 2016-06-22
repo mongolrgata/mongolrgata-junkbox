@@ -60,10 +60,10 @@ class Field extends GameObject {
             var $clear = $('<div class="clear"/>');
 
             for (var j = 0; j < this._currentWidth; ++j) {
-                var $square = $('<div class="square"/>');
+                var $div = $('<div/>');
 
-                this._getSquare(i, j).visualize($square);
-                $row.append($square);
+                this._getSquare(i, j).visualize($div);
+                $row.append($div);
             }
 
             $row.append($clear);

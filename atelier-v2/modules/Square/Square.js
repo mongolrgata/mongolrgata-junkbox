@@ -33,20 +33,20 @@ class Square extends GameObject {
 
         var colorCSS = this._color.toCSS();
         var sizeCSS = (this._value * 25) + '%';
+        
+        var $template = this._ctl.applyCfg({});
 
-        $element.css({
+        $template.find('.square').css({
             borderColor: colorCSS
         });
-        
-        var $point = $('<div class="point"/>');
 
-        $point.css({
+        $template.find('.point').css({
             width: sizeCSS,
             height: sizeCSS,
             backgroundColor: colorCSS
         });
 
-        $element.append($point);
+        $element.append($template);
     }
 }
 
@@ -57,4 +57,5 @@ class Square extends GameObject {
     };
 
     Square.prototype._defaultJSON = JSON.stringify(defaultCfg);
+    Square.prototype._ctl = new CTL('modules/Square/Square.ctl');
 })();
