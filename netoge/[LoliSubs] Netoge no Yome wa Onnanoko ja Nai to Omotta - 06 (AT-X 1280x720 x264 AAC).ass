@@ -117,7 +117,7 @@ Dialogue: 0,0:04:39.06,0:04:40.36,Default,,0,0,0,,
 Dialogue: 0,0:04:40.37,0:04:43.40,Default,,0,0,0,,{\an5}A-All right. I'll hear all about it later.
 Dialogue: 0,0:04:40.37,0:04:43.40,Default,,0,0,0,,
 Dialogue: 0,0:04:43.44,0:04:46.40,Def_Top,,0,0,0,,{\an5}"Modern Communications\NElectronic Game Club"
-Dialogue: 0,0:04:43.44,0:04:46.40,Def_Top,,0,0,0,,
+Dialogue: 0,0:04:43.44,0:04:46.40,Def_Top,,0,0,0,,[Осторожно, модерн!]
 Dialogue: 0,0:04:44.78,0:04:46.40,Default,,0,0,0,,{\an5}Look at this!
 Dialogue: 0,0:04:44.78,0:04:46.40,Default,,0,0,0,,
 Dialogue: 0,0:04:46.45,0:04:49.03,Default,,0,0,0,,{\an5}It's like a whirlwind of smug faces, all saying,
@@ -411,7 +411,7 @@ Dialogue: 0,0:12:32.25,0:12:36.29,Default,,0,0,0,,
 Dialogue: 0,0:12:38.42,0:12:39.75,Default,,0,0,0,,{\an5}Huh?
 Dialogue: 0,0:12:38.42,0:12:39.75,Default,,0,0,0,,
 Dialogue: 0,0:12:40.26,0:12:43.26,Default,,0,0,0,,{\an5}R-Rusian!
-Dialogue: 0,0:12:40.26,0:12:43.26,Default,,0,0,0,,
+Dialogue: 0,0:12:40.26,0:12:43.26,Default,,0,0,0,,Р-Русиян!
 Dialogue: 0,0:12:47.01,0:12:49.47,Default,,0,0,0,,{\an5}Okay, next. What is the name of the law
 Dialogue: 0,0:12:47.01,0:12:49.47,Default,,0,0,0,,
 Dialogue: 0,0:12:49.47,0:12:52.64,Default,,0,0,0,,{\an5}where the government allotted\Nfarmland and levied taxes on it?
@@ -611,7 +611,7 @@ Dialogue: 0,0:18:05.87,0:18:08.00,Default,,0,0,0,,
 Dialogue: 0,0:18:08.00,0:18:10.17,Default,,0,0,0,,{\an5}Huh? For real?
 Dialogue: 0,0:18:08.00,0:18:10.17,Default,,0,0,0,,
 Dialogue: 0,0:18:10.17,0:18:12.17,Default,,0,0,0,,{\an5}Rusian!
-Dialogue: 0,0:18:10.17,0:18:12.17,Default,,0,0,0,,
+Dialogue: 0,0:18:10.17,0:18:12.17,Default,,0,0,0,,Русиян!
 Dialogue: 0,0:18:12.17,0:18:14.21,Default,,0,0,0,,{\an5}Let's go to our last club meeting!
 Dialogue: 0,0:18:12.17,0:18:14.21,Default,,0,0,0,,
 Dialogue: 0,0:18:14.21,0:18:15.26,Default,,0,0,0,,{\an5}Y-Yeah.
@@ -623,7 +623,7 @@ Dialogue: 0,0:18:16.72,0:18:21.26,Default,,0,0,0,,
 Dialogue: 0,0:18:21.76,0:18:23.26,Default,,0,0,0,,{\an5}Who are you?
 Dialogue: 0,0:18:21.76,0:18:23.26,Default,,0,0,0,,
 Dialogue: 0,0:18:23.76,0:18:25.35,Default,,0,0,0,,{\an5}Takasaki!
-Dialogue: 0,0:18:23.76,0:18:25.35,Default,,0,0,0,,
+Dialogue: 0,0:18:23.76,0:18:25.35,Default,,0,0,0,,Такасаки!
 Dialogue: 0,0:18:26.35,0:18:27.73,Default,,0,0,0,,{\an5}He went too far.
 Dialogue: 0,0:18:26.35,0:18:27.73,Default,,0,0,0,,
 Dialogue: 0,0:18:27.73,0:18:30.85,Default,,0,0,0,,{\an5}All right, let's begin the last\Nclub meeting of the first term.
@@ -697,7 +697,7 @@ Dialogue: 0,0:19:58.19,0:20:02.70,Default,,0,0,0,,
 Dialogue: 0,0:20:02.70,0:20:04.28,Default,,0,0,0,,{\an5}Sure, okay...
 Dialogue: 0,0:20:02.70,0:20:04.28,Default,,0,0,0,,
 Dialogue: 0,0:20:13.50,0:20:15.00,Default,,0,0,0,,{\an5}Rusian?
-Dialogue: 0,0:20:13.50,0:20:15.00,Default,,0,0,0,,
+Dialogue: 0,0:20:13.50,0:20:15.00,Default,,0,0,0,,Русиян?
 Dialogue: 0,0:20:18.46,0:20:20.21,Def_Top,,0,0,0,,{\an5}"Apricot's strategy:\NGo for broke."
 Dialogue: 0,0:20:18.46,0:20:20.21,Def_Top,,0,0,0,,
 Dialogue: 0,0:20:18.96,0:20:20.59,Default,,0,0,0,,{\an5}"Go for broke."
