@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <title>Atelier</title>
     <style>
+        html, body {
+            height: 100%;
+        }
+
         body {
+            margin: 0;
             background-color: lightgray;
         }
-        
+
         .square {
             position: absolute;
             left: 0;
@@ -38,9 +43,24 @@
         .clear {
             clear: both;
         }
-        
+
         .cauldron {
+            table-layout: fixed;
             width: 100%;
+            height: 100%;
+        }
+
+        .cauldron-field-box {
+            display: inline-block;
+        }
+
+        .cauldron-box {
+            height: 100%;
+        }
+
+        .menu {
+            margin: 8px;
+            position: absolute;
         }
     </style>
     <script src="https://code.jquery.com/jquery-2.2.4.js"></script>

@@ -9,7 +9,7 @@ class Cauldron extends GameObject {
     constructor(json) {
         super(json);
 
-        this._field = this._cfg.f;
+        this._field = new Field(this._cfg.f);
     }
 
     /**
@@ -29,7 +29,11 @@ class Cauldron extends GameObject {
     visualize($element) {
         super.visualize($element);
 
-        // TODO
+        var $template = this._ctl.applyCfg({});
+
+        this._field.visualize($template.find('.cauldron-field-box'));
+
+        $element.append($template);
     }
 }
 
@@ -39,4 +43,5 @@ class Cauldron extends GameObject {
     };
 
     Cauldron.prototype._defaultJSON = JSON.stringify(defaultCfg);
+    Cauldron.prototype._ctl = new CTL('modules/Cauldron/Cauldron.ctl');
 })();

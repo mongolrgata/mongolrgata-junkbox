@@ -116,12 +116,12 @@ class Field extends GameObject {
 
     _addColumn() {
         var height = this._realHeight;
-        
+
         for (var i = 0; i < height; ++i) {
             this._squares[i].push(new Square(null));
         }
     }
-    
+
     _addRow() {
         var width = this._realWidth;
         var row = [];
@@ -129,7 +129,7 @@ class Field extends GameObject {
         for (var i = 0; i < width; ++i) {
             row.push(new Square(null));
         }
-        
+
         this._squares.push(row);
     }
 
@@ -138,12 +138,12 @@ class Field extends GameObject {
      */
     setWidth(width) {
         this._rotate180();
-        
+
         for (var i = this._realWidth; i < width; ++i) {
             this._addColumn();
         }
         this._currentWidth = width;
-        
+
         this._rotate180();
     }
 

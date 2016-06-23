@@ -46,7 +46,7 @@ class Square extends GameObject {
                     } else {
                         self._setNextValue();
                     }
-                    
+
                     self.revisualize();
                 }
             },
