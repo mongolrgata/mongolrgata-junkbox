@@ -31,22 +31,44 @@ class Square extends GameObject {
     visualize($element) {
         super.visualize($element);
 
+        var self = this;
         var colorCSS = this._color.toCSS();
         var sizeCSS = (this._value * 25) + '%';
 
-        $element.css({
-            borderColor: colorCSS
+        var $template = this._ctl.applyCfg({
+            square: {
+                css: {
+                    borderColor: colorCSS
+                },
+                click: function (event) {
+                    if (!event.ctrlKey) {
+                        self._setNextColor();
+                    } else {
+                        self._setNextValue();
+                    }
+                    
+                    self.revisualize();
+                }
+            },
+            point: {
+                css: {
+                    width: sizeCSS,
+                    height: sizeCSS,
+                    backgroundColor: colorCSS
+                }
+            }
         });
-        
-        var $point = $('<div class="point"/>');
 
-        $point.css({
-            width: sizeCSS,
-            height: sizeCSS,
-            backgroundColor: colorCSS
-        });
+        $element.append($template);
+    }
 
-        $element.append($point);
+    _setNextColor() {
+        this._color.setNextColor();
+    }
+
+    _setNextValue() {
+        ++this._value;
+        this._value %= 4;
     }
 }
 
@@ -57,4 +79,5 @@ class Square extends GameObject {
     };
 
     Square.prototype._defaultJSON = JSON.stringify(defaultCfg);
+    Square.prototype._ctl = new CTL('modules/Square/Square.ctl');
 })();
