@@ -10,6 +10,16 @@ PlayResX: 1280
 PlayResY: 720
 PlayDepth: 16
 
+[Aegisub Project Garbage]
+Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 06 (AT-X 1280x720 x264 AAC).mkv
+Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 06 (AT-X 1280x720 x264 AAC).mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.500000
+Scroll Position: 94
+Active Line: 101
+Video Position: 6929
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,2,0,0,32,0
@@ -19,107 +29,106 @@ Style: Def_I-T,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,10
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 0,0:00:00.63,0:00:04.96,Default,,0,0,0,,{\an5}It happened right after my proposal\Nto Nekohime-{\i1}san{\i0} was turned down.
-Dialogue: 0,0:00:00.63,0:00:04.96,Default,,0,0,0,,
+Dialogue: 0,0:00:00.63,0:00:04.96,Default,,0,0,0,,А вот что случилось аккурат после того как Некохиме-сан отвергла меня.
 Dialogue: 0,0:00:04.96,0:00:06.72,Default,,0,0,0,,{\an5}My friend, Yuyun, said to me...
-Dialogue: 0,0:00:04.96,0:00:06.72,Default,,0,0,0,,
+Dialogue: 0,0:00:04.96,0:00:06.72,Default,,0,0,0,,Мой друг Йуюн изливал мне душу…
 Dialogue: 0,0:00:07.22,0:00:09.18,Default,,0,0,0,,{\an5}My wife, Sara-Sara,
-Dialogue: 0,0:00:07.22,0:00:09.18,Default,,0,0,0,,
+Dialogue: 0,0:00:07.22,0:00:09.18,Default,,0,0,0,,Моя вайфу Сара-Сара
 Dialogue: 0,0:00:09.18,0:00:12.43,Default,,0,0,0,,{\an5}is married to another man\Nusing her other character...
-Dialogue: 0,0:00:09.18,0:00:12.43,Default,,0,0,0,,
+Dialogue: 0,0:00:09.18,0:00:12.43,Default,,0,0,0,,вышла замуж за другого мужика своим альтом.
 Dialogue: 0,0:00:12.43,0:00:14.39,Default,,0,0,0,,{\an5}It's a different character. That's okay, isn't it?
-Dialogue: 0,0:00:12.43,0:00:14.39,Default,,0,0,0,,
+Dialogue: 0,0:00:12.43,0:00:14.39,Default,,0,0,0,,Раз чар другой, то и переживать не о чем.
 Dialogue: 0,0:00:14.39,0:00:17.27,Default,,0,0,0,,{\an5}No, it's not! It's cheating! Cheating!
-Dialogue: 0,0:00:14.39,0:00:17.27,Default,,0,0,0,,
+Dialogue: 0,0:00:14.39,0:00:17.27,Default,,0,0,0,,А вот и нет! Это измена! Измена!
 Dialogue: 0,0:00:17.27,0:00:21.19,Default,,0,0,0,,{\an5}Different people take different\Nstances on in-game marriages.
-Dialogue: 0,0:00:17.27,0:00:21.19,Default,,0,0,0,,
+Dialogue: 0,0:00:17.27,0:00:21.19,Default,,0,0,0,,Люди женятся в игре по разным причинам.
 Dialogue: 0,0:00:21.19,0:00:24.40,Default,,0,0,0,,{\an5}Sara-Sara-{\i1}chan{\i0} probably just\Nwanted to get the marriage bonus.
-Dialogue: 0,0:00:21.19,0:00:24.40,Default,,0,0,0,,
+Dialogue: 0,0:00:21.19,0:00:24.40,Default,,0,0,0,,Сара-сару-тян скорее всего интересовал материнский капитал.
 Dialogue: 0,0:00:24.40,0:00:27.57,Default,,0,0,0,,{\an5}Even so! I was truly in love with her!
-Dialogue: 0,0:00:24.40,0:00:27.57,Default,,0,0,0,,
+Dialogue: 0,0:00:24.40,0:00:27.57,Default,,0,0,0,,Пусть так! Но я взаправду любил её!
 Dialogue: 0,0:00:29.99,0:00:32.33,Default,,0,0,0,,{\an5}I am through with Sara-Sara.
-Dialogue: 0,0:00:29.99,0:00:32.33,Default,,0,0,0,,
+Dialogue: 0,0:00:29.99,0:00:32.33,Default,,0,0,0,,Сара-сара больше не нужна.{I am through with you = I've had enough of you}
 Dialogue: 0,0:00:32.33,0:00:34.24,Default,,0,0,0,,{\an5}O-Oh...
-Dialogue: 0,0:00:32.33,0:00:34.24,Default,,0,0,0,,
+Dialogue: 0,0:00:32.33,0:00:34.24,Default,,0,0,0,,Нуок…
 Dialogue: 0,0:00:35.41,0:00:37.04,Default,,0,0,0,,{\an5}It's not fair.
-Dialogue: 0,0:00:35.41,0:00:37.04,Default,,0,0,0,,
+Dialogue: 0,0:00:35.41,0:00:37.04,Default,,0,0,0,,Несправедливо…
 Dialogue: 0,0:00:37.04,0:00:38.21,Default,,0,0,0,,{\an5}Huh?
-Dialogue: 0,0:00:37.04,0:00:38.21,Default,,0,0,0,,
+Dialogue: 0,0:00:37.04,0:00:38.21,Default,,0,0,0,,Э?
 Dialogue: 0,0:00:38.21,0:00:41.04,Default,,0,0,0,,{\an5}I won't accept that I'm the\Nonly one who has to suffer.
-Dialogue: 0,0:00:38.21,0:00:41.04,Default,,0,0,0,,
+Dialogue: 0,0:00:38.21,0:00:41.04,Default,,0,0,0,,Не собираюсь страдать в одно жало.
 Dialogue: 0,0:00:41.04,0:00:43.54,Default,,0,0,0,,{\an5}So I asked Nekohime-{\i1}san{\i0} to give me the reason
-Dialogue: 0,0:00:41.04,0:00:43.54,Default,,0,0,0,,
+Dialogue: 0,0:00:41.04,0:00:43.54,Default,,0,0,0,,Я тут поспрашивал у твоей Некохиме-сан,
 Dialogue: 0,0:00:43.55,0:00:45.17,Default,,0,0,0,,{\an5}why she rejected your proposal!
-Dialogue: 0,0:00:43.55,0:00:45.17,Default,,0,0,0,,
+Dialogue: 0,0:00:43.55,0:00:45.17,Default,,0,0,0,,почему она послала тебя лесом!
 Dialogue: 0,0:00:45.17,0:00:47.34,Default,,0,0,0,,{\an5}Whoa! You did {\i1}what{\i0}?!
-Dialogue: 0,0:00:45.17,0:00:47.34,Default,,0,0,0,,
+Dialogue: 0,0:00:45.17,0:00:47.34,Default,,0,0,0,,Вуш! Ты сделал {\i1}что{\i0}?
 Dialogue: 0,0:00:47.34,0:00:51.34,Default,,0,0,0,,{\an5}"1: I'm not interested in\Ngetting {\i1}meow{\i0}-rried in the game."
-Dialogue: 0,0:00:47.34,0:00:51.34,Default,,0,0,0,,
+Dialogue: 0,0:00:47.34,0:00:51.34,Default,,0,0,0,,«Во-первых, мяуня не интересуют внутриигровые шуры-мяуры».
 Dialogue: 0,0:00:52.60,0:00:57.14,Default,,0,0,0,,{\an5}"2: It's not as though Rusian is\Nthe only one I'm on good terms with."
-Dialogue: 0,0:00:52.60,0:00:57.14,Default,,0,0,0,,
+Dialogue: 0,0:00:52.60,0:00:57.14,Default,,0,0,0,,«Во-вторых, Русиян далеко не единственный с кем я мяуловалась».{It's not as though he is stupid. He's not stupid.\NIt's as though he is stupid. It seems like he is stupid.\Non good terms (with someone) = friendly with someone; able to interact well and be friends with someone}
 Dialogue: 0,0:00:58.39,0:01:03.11,Default,,0,0,0,,{\an5}"3: It's not possible for a man\Nand a man to get {\i1}meow{\i0}-rried."
-Dialogue: 0,0:00:58.39,0:01:03.11,Default,,0,0,0,,
+Dialogue: 0,0:00:58.39,0:01:03.11,Default,,0,0,0,,«И в-последних, негоже двум мяужикам жениться друг на друге».
 Dialogue: 0,0:01:05.53,0:01:08.36,Default,,0,0,0,,{\an5}Why did I ever want to\Nget married in the game?
-Dialogue: 0,0:01:05.53,0:01:08.36,Default,,0,0,0,,
+Dialogue: 0,0:01:05.53,0:01:08.36,Default,,0,0,0,,Какого лешего я вообще вздумал в брак вступать?
 Dialogue: 0,0:01:08.36,0:01:13.03,Default,,0,0,0,,{\an5}Yeah! Marriage can just suck it!\NI'm never getting married again!
-Dialogue: 0,0:01:08.36,0:01:13.03,Default,,0,0,0,,
+Dialogue: 0,0:01:08.36,0:01:13.03,Default,,0,0,0,,Сода! Хорошее дело браком не назовут!\NБольше никогда и ни за что не женюсь!
 Dialogue: 0,0:01:13.03,0:01:15.20,Default,,0,0,0,,{\an5}Yeah! Me, neither!
-Dialogue: 0,0:01:13.03,0:01:15.20,Default,,0,0,0,,
+Dialogue: 0,0:01:13.03,0:01:15.20,Default,,0,0,0,,Сода! Я тоже зарекаюсь!
 Dialogue: 0,0:01:15.20,0:01:18.16,Default,,0,0,0,,{\an5}We're never getting married!
-Dialogue: 0,0:01:15.20,0:01:18.16,Default,,0,0,0,,
+Dialogue: 0,0:01:15.20,0:01:18.16,Default,,0,0,0,,Поматросить и бросить!
 Dialogue: 0,0:01:21.29,0:01:26.59,Default,,0,0,0,,{\an5}Following that, Yuyun divorced\Ntwo other cross-playing characters...
-Dialogue: 0,0:01:21.29,0:01:26.59,Default,,0,0,0,,
+Dialogue: 0,0:01:21.29,0:01:26.59,Default,,0,0,0,,С тех пор Йуюн успел дважды развестись, а давеча…
 Dialogue: 0,0:01:27.84,0:01:30.05,Default,,0,0,0,,{\an5}...and has now married a third time.
-Dialogue: 0,0:01:27.84,0:01:30.05,Default,,0,0,0,,
+Dialogue: 0,0:01:27.84,0:01:30.05,Default,,0,0,0,,…женился в трейтий раз.
 Dialogue: 0,0:01:34.72,0:01:36.06,Default,,0,0,0,,{\an5}So that's what happened.
-Dialogue: 0,0:01:34.72,0:01:36.06,Default,,0,0,0,,
+Dialogue: 0,0:01:34.72,0:01:36.06,Default,,0,0,0,,Вот и вся романтика.
 Dialogue: 0,0:01:36.06,0:01:37.39,Default,,0,0,0,,{\an5}I'm not divorcing you.
-Dialogue: 0,0:01:36.06,0:01:37.39,Default,,0,0,0,,
+Dialogue: 0,0:01:36.06,0:01:37.39,Default,,0,0,0,,От меня развода не жди.
 Dialogue: 0,0:01:37.39,0:01:39.81,Default,,0,0,0,,{\an5}Hmm, that was a quick response.
-Dialogue: 0,0:01:37.39,0:01:39.81,Default,,0,0,0,,
-Dialogue: 0,0:01:39.81,0:01:43.02,Default,,0,0,0,,{\an5}What I was getting at was\Npeople's stances on marriage.
-Dialogue: 0,0:01:39.81,0:01:43.02,Default,,0,0,0,,
+Dialogue: 0,0:01:37.39,0:01:39.81,Default,,0,0,0,,Хм, уверенности тебе не занимать.
+Dialogue: 0,0:01:39.81,0:01:43.02,Default,,0,0,0,,{\an5}What I was getting at was\Npeople's stances on marriage.{a mental or emotional position adopted with respect to something}
+Dialogue: 0,0:01:39.81,0:01:43.02,Default,,0,0,0,,Разговор о том, почему люди вступают в брак.
 Dialogue: 0,0:01:43.02,0:01:46.02,Default,,0,0,0,,{\an5}I love you, Rusian.
-Dialogue: 0,0:01:43.02,0:01:46.02,Default,,0,0,0,,
+Dialogue: 0,0:01:43.02,0:01:46.02,Default,,0,0,0,,Я потому, что полюбила тебя, Русиян.
 Dialogue: 0,0:01:46.02,0:01:50.32,Default,,0,0,0,,{\an5}W-Well, that goes for me, too...
-Dialogue: 0,0:01:46.02,0:01:50.32,Default,,0,0,0,,
+Dialogue: 0,0:01:46.02,0:01:50.32,Default,,0,0,0,,Н-ну, я так-то тоже…
 Dialogue: 0,0:01:50.32,0:01:53.70,Default,,0,0,0,,{\an5}So, what I mean is, not just in the game, but...
-Dialogue: 0,0:01:50.32,0:01:53.70,Default,,0,0,0,,
+Dialogue: 0,0:01:50.32,0:01:53.70,Default,,0,0,0,,Но я сейчас не только про игрушки говорю…
 Dialogue: 0,0:01:55.37,0:01:56.91,Default,,0,0,0,,{\an5}Rusian?
-Dialogue: 0,0:01:55.37,0:01:56.91,Default,,0,0,0,,
+Dialogue: 0,0:01:55.37,0:01:56.91,Default,,0,0,0,,Русиян?
 Dialogue: 0,0:01:58.91,0:02:02.25,Default,,0,0,0,,{\an5}Ah! I'm heading off to bed! Night!
-Dialogue: 0,0:01:58.91,0:02:02.25,Default,,0,0,0,,
+Dialogue: 0,0:01:58.91,0:02:02.25,Default,,0,0,0,,Ааа-ха-ха! Я направляюсь в постель! Снов!
 Dialogue: 0,0:02:02.25,0:02:05.13,Default,,0,0,0,,{\an5}O-Okay. Good night.
-Dialogue: 0,0:02:02.25,0:02:05.13,Default,,0,0,0,,
+Dialogue: 0,0:02:02.25,0:02:05.13,Default,,0,0,0,,Х-хорошо. Спокойной ночи.
 Dialogue: 0,0:03:52.81,0:03:57.19,Def_Top,,0,0,0,,{\an5}"LV. 06: I thought if I declared my love,\NI was sure to succeed"
-Dialogue: 0,0:03:52.81,0:03:57.19,Def_Top,,0,0,0,,
-Dialogue: 0,0:03:54.39,0:03:59.94,Default,,0,0,0,,{\an5}"...The man gave a great sneeze\Nand dragged himself to his feet."
-Dialogue: 0,0:03:54.39,0:03:59.94,Default,,0,0,0,,
+Dialogue: 0,0:03:52.81,0:03:57.19,Def_Top,,0,0,0,,[ЛВЛ. 06: Думал, если совершишь\Nакт признания, то тебя ждёт успех?]
+Dialogue: 0,0:03:54.39,0:03:59.94,Default,,0,0,0,,{\an5}"...The man gave a great sneeze\Nand dragged himself to his feet."{to act with reluctance; delay}
+Dialogue: 0,0:03:54.39,0:03:59.94,Default,,0,0,0,,«…мужчина от души чихнул и нехотя подобрал сопли».
 Dialogue: 0,0:03:58.11,0:04:01.11,Def_Top,,0,0,0,,{\an5}"Rashomon"
-Dialogue: 0,0:03:58.11,0:04:01.11,Def_Top,,0,0,0,,
+Dialogue: 0,0:03:58.11,0:04:01.11,Def_Top,,0,0,0,,[Расёмон]
 Dialogue: 0,0:03:59.94,0:04:03.19,Default,,0,0,0,,{\an5}Okay then, next, Rusian, you read.
-Dialogue: 0,0:03:59.94,0:04:03.19,Default,,0,0,0,,
+Dialogue: 0,0:03:59.94,0:04:03.19,Default,,0,0,0,,Хорошо, Русиян, читай дальше.
 Dialogue: 0,0:04:04.78,0:04:07.70,Default,,0,0,0,,{\an5}I mean...! N-Nishimura-{\i1}kun{\i0}.
-Dialogue: 0,0:04:04.78,0:04:07.70,Default,,0,0,0,,
+Dialogue: 0,0:04:04.78,0:04:07.70,Default,,0,0,0,,Точнее… Н-нисимура-кун.
 Dialogue: 0,0:04:17.54,0:04:20.88,Default,,0,0,0,,{\an5}Tamaki-{\i1}san{\i0}, this one looks good.
-Dialogue: 0,0:04:17.54,0:04:20.88,Default,,0,0,0,,
+Dialogue: 0,0:04:17.54,0:04:20.88,Default,,0,0,0,,Тамаки-сан, цени тряпки.
 Dialogue: 0,0:04:20.88,0:04:22.96,Default,,0,0,0,,{\an5}Tamaki-{\i1}san{\i0}, isn't this one better?
-Dialogue: 0,0:04:20.88,0:04:22.96,Default,,0,0,0,,
+Dialogue: 0,0:04:20.88,0:04:22.96,Default,,0,0,0,,Тамаки-сан, эти лучше будут.
 Dialogue: 0,0:04:26.13,0:04:28.80,Default,,0,0,0,,{\an5}I think they're both pretty nice.
-Dialogue: 0,0:04:26.13,0:04:28.80,Default,,0,0,0,,
+Dialogue: 0,0:04:26.13,0:04:28.80,Default,,0,0,0,,По мне так одинаково паршивые.
 Dialogue: 0,0:04:32.60,0:04:34.10,Default,,0,0,0,,{\an5}Rusian!
-Dialogue: 0,0:04:32.60,0:04:34.10,Default,,0,0,0,,
+Dialogue: 0,0:04:32.60,0:04:34.10,Default,,0,0,0,,Русиян!
 Dialogue: 0,0:04:36.06,0:04:39.06,Default,,0,0,0,,{\an5}Listen to this, Rusian! It's awful!
-Dialogue: 0,0:04:36.06,0:04:39.06,Default,,0,0,0,,
+Dialogue: 0,0:04:36.06,0:04:39.06,Default,,0,0,0,,Тут такое творится, Русиян! Насилуют!
 Dialogue: 0,0:04:39.06,0:04:40.36,Default,,0,0,0,,{\an5}It's awful!
-Dialogue: 0,0:04:39.06,0:04:40.36,Default,,0,0,0,,
+Dialogue: 0,0:04:39.06,0:04:40.36,Default,,0,0,0,,Меня насилуют!
 Dialogue: 0,0:04:40.37,0:04:43.40,Default,,0,0,0,,{\an5}A-All right. I'll hear all about it later.
-Dialogue: 0,0:04:40.37,0:04:43.40,Default,,0,0,0,,
+Dialogue: 0,0:04:40.37,0:04:43.40,Default,,0,0,0,,Ну хорошо. Потом покажешь, где они тебя трогали.
 Dialogue: 0,0:04:43.44,0:04:46.40,Def_Top,,0,0,0,,{\an5}"Modern Communications\NElectronic Game Club"
 Dialogue: 0,0:04:43.44,0:04:46.40,Def_Top,,0,0,0,,[Осторожно, модерн!]
 Dialogue: 0,0:04:44.78,0:04:46.40,Default,,0,0,0,,{\an5}Look at this!
-Dialogue: 0,0:04:44.78,0:04:46.40,Default,,0,0,0,,
+Dialogue: 0,0:04:44.78,0:04:46.40,Default,,0,0,0,,Вы только поглядите!
 Dialogue: 0,0:04:46.45,0:04:49.03,Default,,0,0,0,,{\an5}It's like a whirlwind of smug faces, all saying,
 Dialogue: 0,0:04:46.45,0:04:49.03,Default,,0,0,0,,
 Dialogue: 0,0:04:49.03,0:04:52.20,Default,,0,0,0,,{\an5}"I am the model that reigns supreme\Nat the top of the school caste!
