@@ -194,19 +194,19 @@ Dialogue: 0,0:06:13.83,0:06:15.66,Default,,0,0,0,,Вы тут упоролись
 Dialogue: 0,0:06:15.66,0:06:17.20,Default,,0,0,0,,{\an5}Not really.
 Dialogue: 0,0:06:15.66,0:06:17.20,Default,,0,0,0,,Чуть-чуть.
 Dialogue: 0,0:06:20.00,0:06:23.38,Default,,0,0,0,,{\an5}I get it, Ako. I understand just how you feel.
-Dialogue: 0,0:06:20.00,0:06:23.38,Default,,0,0,0,,
+Dialogue: 0,0:06:20.00,0:06:23.38,Default,,0,0,0,,О да, Ако. Я тебя так понимаю.
 Dialogue: 0,0:06:23.38,0:06:24.71,Default,,0,0,0,,{\an5}You, too, Master?
-Dialogue: 0,0:06:23.38,0:06:24.71,Default,,0,0,0,,
+Dialogue: 0,0:06:23.38,0:06:24.71,Default,,0,0,0,,Тебе это знакомо, Лидер?
 Dialogue: 0,0:06:24.71,0:06:28.05,Default,,0,0,0,,{\an5}I'll talk to Nanako, and ask her\Nto be a little more considerate.
-Dialogue: 0,0:06:24.71,0:06:28.05,Default,,0,0,0,,
+Dialogue: 0,0:06:24.71,0:06:28.05,Default,,0,0,0,,Я потолкую с Нанако и попрошу её быть потактичнее.
 Dialogue: 0,0:06:30.18,0:06:32.51,Default,,0,0,0,,{\an5}Anyhow, what are we doing today?
-Dialogue: 0,0:06:30.18,0:06:32.51,Default,,0,0,0,,
+Dialogue: 0,0:06:30.18,0:06:32.51,Default,,0,0,0,,Собсна, чем мы займёмся сегодня?
 Dialogue: 0,0:06:32.51,0:06:35.76,Default,,0,0,0,,{\an5}Oh, since we were just talking about her,
-Dialogue: 0,0:06:32.51,0:06:35.76,Default,,0,0,0,,
+Dialogue: 0,0:06:32.51,0:06:35.76,Default,,0,0,0,,О! Кстати о птичках, раз тут такое дело,
 Dialogue: 0,0:06:35.76,0:06:39.02,Default,,0,0,0,,{\an5}let's join up with Sette-{\i1}san{\i0}\Nand do that one quest with her.
-Dialogue: 0,0:06:35.76,0:06:39.02,Default,,0,0,0,,
+Dialogue: 0,0:06:35.76,0:06:39.02,Default,,0,0,0,,давайте возьмём в пати Сетте-сан и пройдём {\i1}тот самый{\i0} квест.
 Dialogue: 0,0:06:39.02,0:06:40.48,Default,,0,0,0,,{\an5}Ah, {\i1}that{\i0} one?
-Dialogue: 0,0:06:39.02,0:06:40.48,Default,,0,0,0,,
+Dialogue: 0,0:06:39.02,0:06:40.48,Default,,0,0,0,,Ах, {\i1}тот самый{\i0}?
 Dialogue: 0,0:06:40.48,0:06:46.15,Default,,0,0,0,,{\an5}Aw... Do I have to be with her in the game, too?
 Dialogue: 0,0:06:40.48,0:06:46.15,Default,,0,0,0,,
 Dialogue: 0,0:06:46.15,0:06:51.36,Default,,0,0,0,,{\an5}Relax, Ako. In {\i1}LA{\i0}, your level\Nis higher than hers.
@@ -216,7 +216,7 @@ Dialogue: 0,0:06:51.36,0:06:53.61,Default,,0,0,0,,
 Dialogue: 0,0:06:58.16,0:07:00.41,Default,,0,0,0,,{\an5}Ah-woo!
 Dialogue: 0,0:06:58.16,0:07:00.41,Default,,0,0,0,,
 Dialogue: 0,0:07:10.47,0:07:11.88,Default,,0,0,0,,{\an5}Piece of cake.
-Dialogue: 0,0:07:10.47,0:07:11.88,Default,,0,0,0,,
+Dialogue: 0,0:07:10.47,0:07:11.88,Default,,0,0,0,,Пирога кусок.
 Dialogue: 0,0:07:11.88,0:07:14.59,Default,,0,0,0,,{\an5}It is just a beginner's quest\Nfor job advancement.
 Dialogue: 0,0:07:11.88,0:07:14.59,Default,,0,0,0,,
 Dialogue: 0,0:07:14.59,0:07:16.68,Default,,0,0,0,,{\an5}It's a walk in the park for us.
@@ -234,7 +234,7 @@ Dialogue: 0,0:07:25.06,0:07:27.82,Default,,0,0,0,,
 Dialogue: 0,0:07:47.92,0:07:49.30,Default,,0,0,0,,{\an5}Congrats on making summoner.
 Dialogue: 0,0:07:47.92,0:07:49.30,Default,,0,0,0,,
 Dialogue: 0,0:07:49.30,0:07:50.46,Default,,0,0,0,,{\an5}Congrats.
-Dialogue: 0,0:07:49.30,0:07:50.46,Default,,0,0,0,,
+Dialogue: 0,0:07:49.30,0:07:50.46,Default,,0,0,0,,Грац.
 Dialogue: 0,0:07:50.46,0:07:52.21,Default,,0,0,0,,{\an5}Can I conjure up a pet now?
 Dialogue: 0,0:07:50.46,0:07:52.21,Default,,0,0,0,,
 Dialogue: 0,0:07:52.22,0:07:55.55,Default,,0,0,0,,{\an5}I think you should have "Summoning"\Nadded to your skill table now,
