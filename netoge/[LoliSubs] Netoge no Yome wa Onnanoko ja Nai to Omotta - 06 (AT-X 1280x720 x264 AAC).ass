@@ -460,7 +460,7 @@ Dialogue: 0,0:13:39.90,0:13:43.44,Default,,0,0,0,,После экзаменов 
 Dialogue: 0,0:13:43.94,0:13:47.57,Default,,0,0,0,,{\an5}They don't have time to be giving\Nmake-up classes to first-years.
 Dialogue: 0,0:13:43.94,0:13:47.57,Default,,0,0,0,,Так что некому будет проводить занятия с отстающими.
 Dialogue: 0,0:13:47.57,0:13:49.70,Default,,0,0,0,,{\an5}If you don't like math, work on Japanese!
-Dialogue: 0,0:13:47.57,0:13:49.70,Default,,0,0,0,,Не любишь математику, учи русский!
+Dialogue: 0,0:13:47.57,0:13:49.70,Default,,0,0,0,,Не нравится математика, учи русский!
 Dialogue: 0,0:13:49.70,0:13:52.53,Default,,0,0,0,,{\an5}Just a minute, please!\NSensei, if you're teaching me like this,
 Dialogue: 0,0:13:49.70,0:13:52.53,Default,,0,0,0,,Стоп машина! Сенсей, вы уже меня тут типа учите,
 Dialogue: 0,0:13:52.53,0:13:54.37,Default,,0,0,0,,{\an5}it already {\i1}is{\i0} a make-up class, right?
@@ -661,15 +661,15 @@ Dialogue: 0,0:18:52.08,0:18:53.46,Default,,0,0,0,,Жду не дождусь!
 Dialogue: 0,0:18:53.46,0:18:56.30,Default,,0,0,0,,{\an5}Net Game Club Camp?
 Dialogue: 0,0:18:53.46,0:18:56.30,Default,,0,0,0,,Сборы сетевого клуба?
 Dialogue: 0,0:18:56.80,0:18:59.72,Default,,0,0,0,,{\an5}Net games require one thing. That would be--
-Dialogue: 0,0:18:56.80,0:18:59.72,Default,,0,0,0,,
+Dialogue: 0,0:18:56.80,0:18:59.72,Default,,0,0,0,,Чтобы преуспевать в сетевых играх, нам нужны лишь
 Dialogue: 0,0:18:59.72,0:19:01.68,Default,,0,0,0,,{\an5}well, funds for premium items, to be sure--
-Dialogue: 0,0:18:59.72,0:19:01.68,Default,,0,0,0,,
+Dialogue: 0,0:18:59.72,0:19:01.68,Default,,0,0,0,,беспроцентные кредиты на покупку премиума,
 Dialogue: 0,0:19:01.68,0:19:04.18,Default,,0,0,0,,{\an5}but more importantly,\Nthe players' physical fitness!
-Dialogue: 0,0:19:01.68,0:19:04.18,Default,,0,0,0,,
+Dialogue: 0,0:19:01.68,0:19:04.18,Default,,0,0,0,,но не стоит забывать и о физическом состоянии игроков!
 Dialogue: 0,0:19:04.18,0:19:08.22,Default,,0,0,0,,{\an5}As such, this camp will be primarily outdoors!
-Dialogue: 0,0:19:04.18,0:19:08.22,Default,,0,0,0,,
+Dialogue: 0,0:19:04.18,0:19:08.22,Default,,0,0,0,,Так что лагерь будет на открытом воздухе!
 Dialogue: 0,0:19:08.23,0:19:09.77,Default,,0,0,0,,{\an5}Brace yourselves for this!
-Dialogue: 0,0:19:08.23,0:19:09.77,Default,,0,0,0,,Сожмите сфинктеры покрепче!
+Dialogue: 0,0:19:08.23,0:19:09.77,Default,,0,0,0,,Готовьте ваши сфинктеры!
 Dialogue: 0,0:19:09.77,0:19:13.06,Default,,0,0,0,,{\an5}Mm-hmm, that's just what young people need!
 Dialogue: 0,0:19:09.77,0:19:13.06,Default,,0,0,0,,Ум-ум, то что нужно растущему организму!
 Dialogue: 0,0:19:13.06,0:19:15.36,Default,,0,0,0,,{\an5}Naturally, I will be accompanying you.
@@ -697,7 +697,7 @@ Dialogue: 0,0:19:43.59,0:19:46.22,Default,,0,0,0,,как любой парень
 Dialogue: 0,0:19:46.22,0:19:48.47,Default,,0,0,0,,{\an5}That's an awfully prejudiced idea.
 Dialogue: 0,0:19:46.22,0:19:48.47,Default,,0,0,0,,Как-то у тебя всё слишком просто.
 Dialogue: 0,0:19:48.47,0:19:51.64,Default,,0,0,0,,{\an5}So school swimsuits have\Nno effect on you, then?
-Dialogue: 0,0:19:48.47,0:19:51.64,Default,,0,0,0,,Значит, на школьные купальники\Nу тебя шишка не встаёт.
+Dialogue: 0,0:19:48.47,0:19:51.64,Default,,0,0,0,,Значит, на школьные купальники шишка не встаёт.
 Dialogue: 0,0:19:51.64,0:19:55.15,Default,,0,0,0,,{\an5}I think, you know, the regular kind is fine.
 Dialogue: 0,0:19:51.64,0:19:55.15,Default,,0,0,0,,Можно и что-нибудь без изысков.
 Dialogue: 0,0:19:55.15,0:19:57.11,Default,,0,0,0,,{\an5}Hmm...
@@ -727,9 +727,9 @@ Dialogue: 0,0:20:38.44,0:20:41.23,Default,,0,0,0,,Укрыть тебя плед
 Dialogue: 0,0:20:41.24,0:20:43.07,Default,,0,0,0,,{\an5}--Huh?\N--Oh, nothing.
 Dialogue: 0,0:20:41.24,0:20:43.07,Default,,0,0,0,,— Чиво?\N— Да так…
 Dialogue: 0,0:20:43.07,0:20:47.12,Default,,0,0,0,,{\an5}Rusian, you and I always have\Na nice mood going, don't we?
-Dialogue: 0,0:20:43.07,0:20:47.12,Default,,0,0,0,,Русиян, тебе не нужен плед, чтобы разжечь во мне огонь.
+Dialogue: 0,0:20:43.07,0:20:47.12,Default,,0,0,0,,Русиян, тебе не нужен плед, чтобы разжечь во мне пламя страсти.
 Dialogue: 0,0:20:47.12,0:20:49.41,Default,,0,0,0,,{\an5}I mean, we are a couple, after all.
-Dialogue: 0,0:20:47.12,0:20:49.41,Default,,0,0,0,,Мы всё-таки супруги с тобой.
+Dialogue: 0,0:20:47.12,0:20:49.41,Default,,0,0,0,,Мы всё-таки с тобой супруги.
 Dialogue: 0,0:20:54.67,0:20:55.75,Default,,0,0,0,,{\an5}Ako...
 Dialogue: 0,0:20:54.67,0:20:55.75,Default,,0,0,0,,Ако…
 Dialogue: 0,0:20:55.75,0:20:56.96,Default,,0,0,0,,{\an5}Hmm?
@@ -745,13 +745,13 @@ Dialogue: 0,0:21:20.02,0:21:21.52,Default,,0,0,0,,Ни за что.
 Dialogue: 0,0:21:26.49,0:21:27.99,Default,,0,0,0,,{\an5}Why...?
 Dialogue: 0,0:21:26.49,0:21:27.99,Default,,0,0,0,,DAFUQ?
 Dialogue: 0,0:23:01.46,0:23:03.88,Default,,0,0,0,,{\an5}Goodness gracious, however did this happen?
-Dialogue: 0,0:23:01.46,0:23:03.88,Default,,0,0,0,,
+Dialogue: 0,0:23:01.46,0:23:03.88,Default,,0,0,0,,Гозбаде Иизузе! Затралили лалку. Азаза.
 Dialogue: 0,0:23:03.88,0:23:07.51,Default,,0,0,0,,{\an5}However did this happen?\NHowever did this happen?
-Dialogue: 0,0:23:03.88,0:23:07.51,Default,,0,0,0,,
+Dialogue: 0,0:23:03.88,0:23:07.51,Default,,0,0,0,,Азаза. Азаза. Азаза. Азаза.
 Dialogue: 0,0:23:07.51,0:23:10.39,Default,,0,0,0,,{\an5}This is way too much for me.\NI'm through with Ako.
-Dialogue: 0,0:23:07.51,0:23:10.39,Default,,0,0,0,,
+Dialogue: 0,0:23:07.51,0:23:10.39,Default,,0,0,0,,Моё сердце не выдержит. Ако больше не нужна.
 Dialogue: 0,0:23:10.39,0:23:12.72,Default,,0,0,0,,{\an5}And I loved her like crazy, too.
-Dialogue: 0,0:23:10.39,0:23:12.72,Default,,0,0,0,,
+Dialogue: 0,0:23:10.39,0:23:12.72,Default,,0,0,0,,Она была мне как брат, я любил её!
 Dialogue: 0,0:23:12.72,0:23:15.72,Default,,0,0,0,,{\an5}Hmm, despite not taking the\Neasy potshot we offered him...
 Dialogue: 0,0:23:12.72,0:23:15.72,Default,,0,0,0,,
 Dialogue: 0,0:23:15.72,0:23:18.02,Default,,0,0,0,,{\an5}...he's in surprisingly good shape, huh?
@@ -759,9 +759,9 @@ Dialogue: 0,0:23:15.72,0:23:18.02,Default,,0,0,0,,
 Dialogue: 0,0:23:18.02,0:23:20.77,Default,,0,0,0,,{\an5}No I'm not. Ah, I want to die.
 Dialogue: 0,0:23:18.02,0:23:20.77,Default,,0,0,0,,
 Dialogue: 0,0:23:20.77,0:23:24.23,Default,,0,0,0,,{\an5}Now's my chance. Off to the afterlife.
-Dialogue: 0,0:23:20.77,0:23:24.23,Default,,0,0,0,,
+Dialogue: 0,0:23:20.77,0:23:24.23,Default,,0,0,0,, 
 Dialogue: 0,0:23:24.23,0:23:26.32,Default,,0,0,0,,{\an5}Hello? Ako?
-Dialogue: 0,0:23:24.23,0:23:26.32,Default,,0,0,0,,
+Dialogue: 0,0:23:24.23,0:23:26.32,Default,,0,0,0,,Алло? Ако?
 Dialogue: 0,0:23:26.32,0:23:28.65,Default,,0,0,0,,{\an5}Nishimura said something to you, right?
 Dialogue: 0,0:23:26.32,0:23:28.65,Default,,0,0,0,,
 Dialogue: 0,0:23:28.65,0:23:32.95,Default,,0,0,0,,{\an5}Hey, you! What do you think you're doing?!\NCorpse-kicking? Overkilling?
@@ -773,28 +773,28 @@ Dialogue: 0,0:23:34.29,0:23:36.70,Default,,0,0,0,,
 Dialogue: 0,0:23:36.70,0:23:41.50,Default,,0,0,0,,{\an5}Well, um, he said he wanted\Nme to be his girlfriend.
 Dialogue: 0,0:23:36.70,0:23:41.50,Default,,0,0,0,,
 Dialogue: 0,0:23:41.50,0:23:43.88,Default,,0,0,0,,{\an5}And what did you say to him?
-Dialogue: 0,0:23:41.50,0:23:43.88,Default,,0,0,0,,
+Dialogue: 0,0:23:41.50,0:23:43.88,Default,,0,0,0,,И что ты ему ответила?
 Dialogue: 0,0:23:43.88,0:23:47.30,Default,,0,0,0,,{\an5}I said I didn't want that, of course.
-Dialogue: 0,0:23:43.88,0:23:47.30,Default,,0,0,0,,
+Dialogue: 0,0:23:43.88,0:23:47.30,Default,,0,0,0,,Сказала, что ни за что не подпишусь на такое.
 Dialogue: 0,0:23:48.80,0:23:52.59,Default,,0,0,0,,{\an5}I mean, isn't going from wife\Nto girlfriend a demotion?
-Dialogue: 0,0:23:48.80,0:23:52.59,Default,,0,0,0,,
+Dialogue: 0,0:23:48.80,0:23:52.59,Default,,0,0,0,,По мне, так это понижение в ранге с вайфу до просто «девушки».
 Dialogue: 0,0:23:52.18,0:23:54.85,Def_Top,,0,0,0,,{\an5}"Ako Tamaki"
-Dialogue: 0,0:23:52.18,0:23:54.85,Def_Top,,0,0,0,,
+Dialogue: 0,0:23:52.18,0:23:54.85,Def_Top,,0,0,0,,[Ако Тамаки]
 Dialogue: 0,0:23:52.60,0:23:55.22,Default,,0,0,0,,{\an5}Either that or it means we're\Ngetting divorced, doesn't it?
-Dialogue: 0,0:23:52.60,0:23:55.22,Default,,0,0,0,,
+Dialogue: 0,0:23:52.60,0:23:55.22,Default,,0,0,0,,А ещё это значит, что нам пришлось бы развестись.
 Dialogue: 0,0:23:55.22,0:23:57.10,Default,,0,0,0,,{\an5}There's no way I want that.
-Dialogue: 0,0:23:55.22,0:23:57.10,Default,,0,0,0,,
+Dialogue: 0,0:23:55.22,0:23:57.10,Default,,0,0,0,,Мне этого не хотелось бы.
 Dialogue: 0,0:23:59.48,0:24:00.98,Default,,0,0,0,,{\an5}There you have it.
-Dialogue: 0,0:23:59.48,0:24:00.98,Default,,0,0,0,,
+Dialogue: 0,0:23:59.48,0:24:00.98,Default,,0,0,0,,Такие дела.
 Dialogue: 0,0:24:00.98,0:24:04.56,Default,,0,0,0,,{\an5}In other words, your declaration\Nfell through, didn't it?
-Dialogue: 0,0:24:00.98,0:24:04.56,Default,,0,0,0,,
+Dialogue: 0,0:24:00.98,0:24:04.56,Default,,0,0,0,,В конечном счёте, в твоём признании изначально не было смысла.
 Dialogue: 0,0:24:10.07,0:24:20.04,Def_Top,,0,0,0,,{\an5}"I thought if I stayed over,\NI would become a normie?"
-Dialogue: 0,0:24:10.07,0:24:20.04,Def_Top,,0,0,0,,
+Dialogue: 0,0:24:10.07,0:24:20.04,Def_Top,,0,0,0,,[Думал, станешь нормалфагом за пару ночей?]{to spend one or more nights in a place away from home}
 Dialogue: 0,0:24:11.24,0:24:15.12,Default,,0,0,0,,{\an5}Hold on a second. When it comes\Nto advice on relationships,
-Dialogue: 0,0:24:11.24,0:24:15.12,Default,,0,0,0,,
+Dialogue: 0,0:24:11.24,0:24:15.12,Default,,0,0,0,,Я чего-то не поняла. Если вопрос касается романтических отношений,
 Dialogue: 0,0:24:15.12,0:24:17.37,Default,,0,0,0,,{\an5}I'm the best one to consult, aren't I?\NWhy didn't you ask me?
-Dialogue: 0,0:24:15.12,0:24:17.37,Default,,0,0,0,,
+Dialogue: 0,0:24:15.12,0:24:17.37,Default,,0,0,0,,то я бы могла тебе что-нибудь посоветовать. Почему ты не обратился ко мне?
 Dialogue: 0,0:24:17.37,0:24:18.75,Default,,0,0,0,,{\an5}Nah, Akiyama-{\i1}san{\i0}, I couldn't.
-Dialogue: 0,0:24:17.37,0:24:18.75,Default,,0,0,0,,
+Dialogue: 0,0:24:17.37,0:24:18.75,Default,,0,0,0,,Ну нет, Акияма-сан, я б не стал.
 Dialogue: 0,0:24:18.75,0:24:20.04,Default,,0,0,0,,{\an5}Why not?!
-Dialogue: 0,0:24:18.75,0:24:20.04,Default,,0,0,0,,
+Dialogue: 0,0:24:18.75,0:24:20.04,Default,,0,0,0,,Чеита?!
