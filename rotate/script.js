@@ -437,7 +437,7 @@ var onChangeAngle = function () {
     }
 
     drawRect(alpha, beta, gamma, width, height);
-    // drawUserPolygon();
+    drawUserPolygon();
 };
 
 var onChangeRange = function () {
