@@ -24,7 +24,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:06.55,0:00:08.59,Default,,0,0,0,,You look like you didn't get enough sleep.
 Dialogue: 0,0:00:06.55,0:00:08.59,Default,,0,0,0,,Выглядишь так, будто всю ночь вагоны разгружал.
 Dialogue: 0,0:00:08.59,0:00:11.64,Default,,0,0,0,,I'll bet you were up late gaming, weren't you?
-Dialogue: 0,0:00:08.59,0:00:11.64,Default,,0,0,0,,Ставлю что угодно, играл до поздей ночи.
+Dialogue: 0,0:00:08.59,0:00:11.64,Default,,0,0,0,,Клянусь своей пилоткой, играл до поздей ночи.
 Dialogue: 0,0:00:12.14,0:00:15.18,Default,,0,0,0,,Yeah, well...
 Dialogue: 0,0:00:12.14,0:00:15.18,Default,,0,0,0,,Ну да…
 Dialogue: 0,0:00:15.18,0:00:17.23,Default,,0,0,0,,It's not even 6:00 yet,
@@ -32,9 +32,9 @@ Dialogue: 0,0:00:15.18,0:00:17.23,Default,,0,0,0,,Ещё даже шести н�
 Dialogue: 0,0:00:17.23,0:00:19.69,Default,,0,0,0,,but Sensei, you're wide awake, aren't you?
 Dialogue: 0,0:00:17.23,0:00:19.69,Default,,0,0,0,,А вы, сенсей, бодрячком.
 Dialogue: 0,0:00:19.69,0:00:21.73,Default,,0,0,0,,Back in college, on the wrestling team,
-Dialogue: 0,0:00:19.69,0:00:21.73,Default,,0,0,0,,Когда занималась рестлингом в ВУЗе,
+Dialogue: 0,0:00:19.69,0:00:21.73,Default,,0,0,0,,Пока занималась рестлингом в ВУЗе,
 Dialogue: 0,0:00:21.73,0:00:24.03,Default,,0,0,0,,we had morning practice every day.
-Dialogue: 0,0:00:21.73,0:00:24.03,Default,,0,0,0,,привыкла вставать рано на тренировки.
+Dialogue: 0,0:00:21.73,0:00:24.03,Default,,0,0,0,,привыкла вставать на тренировку с первыми петухами.
 Dialogue: 0,0:00:24.03,0:00:26.07,Default,,0,0,0,,Oh, looks like they're here.
 Dialogue: 0,0:00:24.03,0:00:26.07,Default,,0,0,0,,О, а вот и они пожаловали.
 Dialogue: 0,0:00:34.50,0:00:35.79,Default,,0,0,0,,Morning.
@@ -58,7 +58,7 @@ Dialogue: 0,0:01:01.86,0:01:03.94,Default,,0,0,0,,летние сборы клу
 Dialogue: 0,0:01:03.94,0:01:06.03,Default,,0,0,0,,summer camp is underway.
 Dialogue: 0,0:01:03.94,0:01:06.03,Default,,0,0,0,,прошу считать открытыми.
 Dialogue: 0,0:01:06.53,0:01:11.41,Default,,0,0,0,,The goal of this camp is to build up our\Nstrength for the purposes of net game play.
-Dialogue: 0,0:01:06.53,0:01:11.41,Default,,0,0,0,,Цель поездки — прокачаться  
+Dialogue: 0,0:01:06.53,0:01:11.41,Default,,0,0,0,,Цель поездки: прокачать тело и дух, чтобы задница не уставала в рейдах.
 Dialogue: 0,0:01:13.45,0:01:15.33,Default,,0,0,0,,As such, for the duration of the camp,
 Dialogue: 0,0:01:13.45,0:01:15.33,Default,,0,0,0,,А ещё, на время сборов,
 Dialogue: 0,0:01:15.33,0:01:17.66,Default,,0,0,0,,connecting to the net is prohibited.
@@ -72,19 +72,19 @@ Dialogue: 0,0:01:21.71,0:01:25.21,Default,,0,0,0,,«Суточный Едины�
 Dialogue: 0,0:03:15.06,0:03:19.23,Def_Top,,0,0,0,,"LV. 07: I thought if I went to the beach,\NI would become a normie?"
 Dialogue: 0,0:03:15.06,0:03:19.23,Def_Top,,0,0,0,,[ЛВЛ. 07: Думал, отдых у моря сделает из тебя нормалфага?]
 Dialogue: 0,0:03:32.00,0:03:35.00,Default,,0,0,0,,The net is off-limits during the camp?
-Dialogue: 0,0:03:32.00,0:03:35.00,Default,,0,0,0,,Запретить выходить в сеть во время поездки?
+Dialogue: 0,0:03:32.00,0:03:35.00,Default,,0,0,0,,Запретить пользоваться интернетом во время поездки?
 Dialogue: 0,0:03:35.00,0:03:35.92,Default,,0,0,0,,Mm-hmm.
 Dialogue: 0,0:03:35.00,0:03:35.92,Default,,0,0,0,,У-му.
 Dialogue: 0,0:03:35.92,0:03:38.88,Default,,0,0,0,,Is this to disconnect her from\Nthe net and make her realize
-Dialogue: 0,0:03:35.92,0:03:38.88,Default,,0,0,0,,Хочешь отрезать её от интернета, чтобы она поняла,
+Dialogue: 0,0:03:35.92,0:03:38.88,Default,,0,0,0,,Хочешь отрезать её от сети, чтобы она осознала,
 Dialogue: 0,0:03:38.88,0:03:42.21,Default,,0,0,0,,that her marriage in the game\Nis different from real life?
-Dialogue: 0,0:03:38.88,0:03:42.21,Default,,0,0,0,,что их брак никак не связан с реальностью?
+Dialogue: 0,0:03:38.88,0:03:42.21,Default,,0,0,0,,что их брак не существует в реальности?
 Dialogue: 0,0:03:42.21,0:03:44.47,Default,,0,0,0,,No, it's not that.
 Dialogue: 0,0:03:42.21,0:03:44.47,Default,,0,0,0,,Не совсем так.
 Dialogue: 0,0:03:44.47,0:03:46.63,Default,,0,0,0,,The reason Ako is so absorbed in net games
 Dialogue: 0,0:03:44.47,0:03:46.63,Default,,0,0,0,,
 Dialogue: 0,0:03:46.64,0:03:50.14,Default,,0,0,0,,is because she's tired of a reality\Nthat isn't going her way.
-Dialogue: 0,0:03:46.64,0:03:50.14,Default,,0,0,0,,
+Dialogue: 0,0:03:46.64,0:03:50.14,Default,,0,0,0,, 
 Dialogue: 0,0:03:50.14,0:03:52.64,Default,,0,0,0,,Isn't that right, Rusian?
 Dialogue: 0,0:03:50.14,0:03:52.64,Default,,0,0,0,,Согласен со мной, Русиян?
 Dialogue: 0,0:03:52.64,0:03:54.23,Default,,0,0,0,,Y-Yeah.
