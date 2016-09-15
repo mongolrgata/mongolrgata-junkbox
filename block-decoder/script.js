@@ -221,26 +221,68 @@ function toggleAllRules() {
     setRules(rules);
 }
 
+function isCapital(char) {
+    return char === char.toUpperCase();
+}
+
 /**
  * DONE
  */
 function decodeText() {
     var
         encodedText = getEncodedText(),
-        decodedText = encodedText,
-        rules       = getRules();
+        decodedText = '',
+        rules = getRules();
+    
+    var cnt = {};
 
-    for (var i = 0, n = rules.length; i < n; ++i) {
-        var
-            rule         = rules[i],
-            re           = new RegExp(rule['searchValue'], 'g'),
-            replaceValue = rule['replaceValue'];
+    for (var i = 0; i < encodedText.length; ++i) {
+        var encodedChar = encodedText[i];
 
-        if (!rule['active'])
-            continue;
+        decodedText += encodedChar;
+        cnt[encodedChar.toUpperCase()] = (cnt[encodedChar.toUpperCase()] || 0) + 1;
 
-        decodedText = decodedText.replace(re, '<span style="color: black;">' + replaceValue + '</span>');
+        for (var j = 0; j < rules.length; ++j) {
+            var rule = rules[j];
+
+            if (!rule['active'])
+                continue;
+            
+            var searchCharO = rule['searchValue'];
+            var replaceCharO = rule['replaceValue'];
+
+            var searchChar = searchCharO.toUpperCase();
+            var replaceChar = isCapital(encodedChar) ? replaceCharO.toUpperCase() : replaceCharO.toLowerCase();
+
+            if (encodedChar.toUpperCase() === searchChar) {
+                decodedText = decodedText.slice(0, -1) + '<span style="color: black;">' + replaceChar + '</span>';
+                cnt[encodedChar.toUpperCase()] -= 1;
+                break;
+            }
+        }
     }
+    
+    var arr = [];
+    for (var key in cnt) {
+        arr[cnt[key]] = key + ' - ' + cnt[key];
+    }
+    arr = arr.filter(function (value) {
+        return value
+    }).reverse();
+    
+    console.log(arr);
+
+    // for (var i = 0, n = rules.length; i < n; ++i) {
+    //     var
+    //         rule         = rules[i],
+    //         re           = new RegExp(rule['searchValue'], 'g'),
+    //         replaceValue = rule['replaceValue'];
+    //
+    //     if (!rule['active'])
+    //         continue;
+    //
+    //     decodedText = decodedText.replace(re, '<span style="color: black;">' + replaceValue + '</span>');
+    // }
 
     $('#decoded-text').html(decodedText);
 }
