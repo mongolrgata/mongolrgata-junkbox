@@ -36,51 +36,51 @@ Dialogue: 0,0:00:22.31,0:00:23.94,Default,,0,0,0,,
 Dialogue: 0,0:00:25.19,0:00:26.69,Default,,0,0,0,,{\an5}Towel, towel...
 Dialogue: 0,0:00:25.19,0:00:26.69,Default,,0,0,0,,
 Dialogue: 0,0:00:35.41,0:00:36.78,Def_Top,,0,0,0,,{\an5}"Wrong password"
-Dialogue: 0,0:00:35.41,0:00:36.78,Def_Top,,0,0,0,,
+Dialogue: 0,0:00:35.41,0:00:36.78,Def_Top,,0,0,0,,[Неверный пароль]
 Dialogue: 0,0:00:36.91,0:00:39.50,Default,,0,0,0,,{\an5}Hmm? Did I mistype it?
 Dialogue: 0,0:00:36.91,0:00:39.50,Default,,0,0,0,,
 Dialogue: 0,0:00:41.79,0:00:43.17,Def_Top,,0,0,0,,{\an5}"Wrong password"
-Dialogue: 0,0:00:41.79,0:00:43.17,Def_Top,,0,0,0,,
+Dialogue: 0,0:00:41.79,0:00:43.17,Def_Top,,0,0,0,,[Неверный пароль]
 Dialogue: 0,0:00:47.67,0:00:49.05,Def_Top,,0,0,0,,{\an5}"Wrong password"
-Dialogue: 0,0:00:47.67,0:00:49.05,Def_Top,,0,0,0,,
+Dialogue: 0,0:00:47.67,0:00:49.05,Def_Top,,0,0,0,,[Неверный пароль]
 Dialogue: 0,0:00:51.09,0:00:56.18,Default,,0,0,0,,{\an5}Lately, some net games, including {\i1}LA{\i0},\Nhave been rife with account hacking.
-Dialogue: 0,0:00:51.09,0:00:56.18,Default,,0,0,0,,
+Dialogue: 0,0:00:51.09,0:00:56.18,Default,,0,0,0,,Последнее время в дрочильнях, в том числе LA, участились случаи угона аккаунтов.
 Dialogue: 0,0:00:56.18,0:00:58.51,Default,,0,0,0,,{\an5}Everyone take appropriate measures.
-Dialogue: 0,0:00:56.18,0:00:58.51,Default,,0,0,0,,
+Dialogue: 0,0:00:56.18,0:00:58.51,Default,,0,0,0,,Юзайте двухэтапную авторизацию.
 Dialogue: 0,0:01:00.02,0:01:02.56,Default,,0,0,0,,{\an5}Don't tell me... I've been had!
-Dialogue: 0,0:01:00.02,0:01:02.56,Default,,0,0,0,,
+Dialogue: 0,0:01:00.02,0:01:02.56,Default,,0,0,0,,Только не говорите мне, что… мой акк взломали!
 Dialogue: 0,0:01:05.61,0:01:07.11,Def_Top,,0,0,0,,{\an5}"Wrong password"
-Dialogue: 0,0:01:05.61,0:01:07.11,Def_Top,,0,0,0,,
+Dialogue: 0,0:01:05.61,0:01:07.11,Def_Top,,0,0,0,,[Неверный пароль]
 Dialogue: 0,0:01:07.48,0:01:11.28,Default,,0,0,0,,{\an5}So right now, someone other than me...
 Dialogue: 0,0:01:07.48,0:01:11.28,Default,,0,0,0,,
 Dialogue: 0,0:01:11.78,0:01:13.57,Default,,0,0,0,,{\an5}...is on as Rusian!
 Dialogue: 0,0:01:11.78,0:01:13.57,Default,,0,0,0,,
 Dialogue: 0,0:03:00.38,0:03:04.88,Def_Top,,0,0,0,,{\an5}"LV. 08: I thought I was giving up\Nbeing a net game husband?"
-Dialogue: 0,0:03:00.38,0:03:04.88,Def_Top,,0,0,0,,
+Dialogue: 0,0:03:00.38,0:03:04.88,Def_Top,,0,0,0,,[ЛВЛ. 08: ]
 Dialogue: 0,0:03:01.89,0:03:05.51,Default,,0,0,0,,{\an5}Ako! That isn't me! It's an impostor!
-Dialogue: 0,0:03:01.89,0:03:05.51,Default,,0,0,0,,
+Dialogue: 0,0:03:01.89,0:03:05.51,Default,,0,0,0,,Ако! Не ведись! Это лжерусиян!
 Dialogue: 0,0:03:06.59,0:03:08.09,Default,,0,0,0,,{\an5}Ako!
-Dialogue: 0,0:03:06.59,0:03:08.09,Default,,0,0,0,,
+Dialogue: 0,0:03:06.59,0:03:08.09,Default,,0,0,0,,Ако!
 Dialogue: 0,0:03:15.35,0:03:16.98,Default,,0,0,0,,{\an5}Rusian...
-Dialogue: 0,0:03:15.35,0:03:16.98,Default,,0,0,0,,
+Dialogue: 0,0:03:15.35,0:03:16.98,Default,,0,0,0,,Русиян…
 Dialogue: 0,0:03:18.19,0:03:20.06,Default,,0,0,0,,{\an5}Rusian!
-Dialogue: 0,0:03:18.19,0:03:20.06,Default,,0,0,0,,
+Dialogue: 0,0:03:18.19,0:03:20.06,Default,,0,0,0,,Русиян!
 Dialogue: 0,0:03:20.06,0:03:24.53,Default,,0,0,0,,{\an5}I'm sorry. That must have been\Na shock, huh? It's okay now.
-Dialogue: 0,0:03:20.06,0:03:24.53,Default,,0,0,0,,
+Dialogue: 0,0:03:20.06,0:03:24.53,Default,,0,0,0,,Прости, ты наверное 
 Dialogue: 0,0:03:30.53,0:03:32.95,Default,,0,0,0,,{\an5}I'm going to have a look at your chat log, okay?
-Dialogue: 0,0:03:30.53,0:03:32.95,Default,,0,0,0,,
+Dialogue: 0,0:03:30.53,0:03:32.95,Default,,0,0,0,,Я хотел бы взглянуть на логи, ты не против?
 Dialogue: 0,0:03:32.95,0:03:33.95,Default,,0,0,0,,{\an5}Mm-hmm.
-Dialogue: 0,0:03:32.95,0:03:33.95,Default,,0,0,0,,
+Dialogue: 0,0:03:32.95,0:03:33.95,Default,,0,0,0,,Н-нет.
 Dialogue: 0,0:03:49.30,0:03:50.80,Default,,0,0,0,,{\an5}Rusian...?
-Dialogue: 0,0:03:49.30,0:03:50.80,Default,,0,0,0,,
+Dialogue: 0,0:03:49.30,0:03:50.80,Default,,0,0,0,,Русиян?
 Dialogue: 0,0:03:52.10,0:03:55.60,Default,,0,0,0,,{\an5}Um... What, now?
-Dialogue: 0,0:03:52.10,0:03:55.60,Default,,0,0,0,,
+Dialogue: 0,0:03:52.10,0:03:55.60,Default,,0,0,0,,Эм… Что происходит?
 Dialogue: 0,0:03:55.60,0:03:59.56,Default,,0,0,0,,{\an5}The two of us are now all alone, aren't we?
-Dialogue: 0,0:03:55.60,0:03:59.56,Default,,0,0,0,,
+Dialogue: 0,0:03:55.60,0:03:59.56,Default,,0,0,0,,Сейчас тут только ты и я.
 Dialogue: 0,0:03:59.56,0:04:03.23,Default,,0,0,0,,{\an5}So now, I want to exchange some couple's chat.
-Dialogue: 0,0:03:59.56,0:04:03.23,Default,,0,0,0,,
+Dialogue: 0,0:03:59.56,0:04:03.23,Default,,0,0,0,,Почему бы нам не начать с прелюдии?
 Dialogue: 0,0:04:03.23,0:04:06.65,Default,,0,0,0,,{\an5}Hmm... Couple's, eh?
-Dialogue: 0,0:04:03.23,0:04:06.65,Default,,0,0,0,,
+Dialogue: 0,0:04:03.23,0:04:06.65,Default,,0,0,0,,Хмм… Прелюдии, говоришь?
 Dialogue: 0,0:04:06.65,0:04:10.36,Default,,0,0,0,,{\an5}Right, so we're married.
 Dialogue: 0,0:04:06.65,0:04:10.36,Default,,0,0,0,,
 Dialogue: 0,0:04:10.36,0:04:13.95,Default,,0,0,0,,{\an5}Come on, after all this time,\Nwhat are you talking about?
@@ -132,9 +132,9 @@ Dialogue: 0,0:05:27.82,0:05:30.40,Default,,0,0,0,,
 Dialogue: 0,0:05:31.40,0:05:33.40,Def_Top,,0,0,0,,{\an5}{\an7\pos(300,60)}"Ako: Please stop! Don't say\Nthings like that using Rusian's face!\NRusian: "Face" nothing... I {\i1}am{\i0} Rusian.\NAko: My beloved Rusian wouldn't...\NAko: Rusian wouldn't say those things!"
 Dialogue: 0,0:05:31.40,0:05:33.40,Def_Top,,0,0,0,,
 Dialogue: 0,0:05:35.37,0:05:37.57,Default,,0,0,0,,{\an5}I'm sorry.
-Dialogue: 0,0:05:35.37,0:05:37.57,Default,,0,0,0,,
+Dialogue: 0,0:05:35.37,0:05:37.57,Default,,0,0,0,,Прости меня.
 Dialogue: 0,0:05:40.12,0:05:42.04,Default,,0,0,0,,{\an5}What are you apologizing for?
-Dialogue: 0,0:05:40.12,0:05:42.04,Default,,0,0,0,,
+Dialogue: 0,0:05:40.12,0:05:42.04,Default,,0,0,0,,Почему ты извиняешься?
 Dialogue: 0,0:05:42.04,0:05:45.08,Default,,0,0,0,,{\an5}Ako, you haven't done a single\Nthing you need to apologize for.
 Dialogue: 0,0:05:42.04,0:05:45.08,Default,,0,0,0,,
 Dialogue: 0,0:05:45.08,0:05:47.42,Default,,0,0,0,,{\an5}This is something that\Nisn't supposed to happen,
