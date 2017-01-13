@@ -180,7 +180,7 @@ Dialogue: 0,0:06:28.29,0:06:31.71,Default,,0,0,0,,Нам стоило быть �
 Dialogue: 0,0:06:31.71,0:06:35.05,Default,,0,0,0,,{\an5}we should have been more\Nthan sufficiently cautious.
 Dialogue: 0,0:06:31.71,0:06:35.05,Default,,0,0,0,,когда логинились с публичного терминала.
 Dialogue: 0,0:06:35.05,0:06:38.26,Default,,0,0,0,,{\an5}I'm sorry. This is my fault, since I set this up.
-Dialogue: 0,0:06:35.05,0:06:38.26,Default,,0,0,0,,
+Dialogue: 0,0:06:35.05,0:06:38.26,Default,,0,0,0,,Можете во всём винить меня, я форсила этот эвент.
 Dialogue: 0,0:06:38.26,0:06:41.60,Default,,0,0,0,,{\an5}What are you talking about?\NMaster, you're not to blame.
 Dialogue: 0,0:06:38.26,0:06:41.60,Default,,0,0,0,,Не говори глупости. Никто тебя не винит.
 Dialogue: 0,0:06:41.60,0:06:45.18,Default,,0,0,0,,{\an5}First thing to do is contact the hotel\Nand tell them what happened.
@@ -336,19 +336,19 @@ Dialogue: 0,0:10:15.85,0:10:17.11,Default,,0,0,0,,Вот как.
 Dialogue: 0,0:10:17.61,0:10:20.36,Default,,0,0,0,,{\an5}This seller's name is... Rontan.
 Dialogue: 0,0:10:17.61,0:10:20.36,Default,,0,0,0,,Торговца зовут… Ронтан.
 Dialogue: 0,0:10:20.36,0:10:22.40,Default,,0,0,0,,{\an5}Then, this is the one that hacked my account?
-Dialogue: 0,0:10:20.36,0:10:22.40,Default,,0,0,0,,Может это он и взломал мой аккаунт?
+Dialogue: 0,0:10:20.36,0:10:22.40,Default,,0,0,0,,Возможно он и взломал мой аккаунт.
 Dialogue: 0,0:10:22.40,0:10:24.20,Default,,0,0,0,,{\an5}It's a good possibility.
-Dialogue: 0,0:10:22.40,0:10:24.20,Default,,0,0,0,,
+Dialogue: 0,0:10:22.40,0:10:24.20,Default,,0,0,0,,Ну, попытка не пытка.
 Dialogue: 0,0:10:24.20,0:10:27.53,Default,,0,0,0,,{\an5}I'll submit a screengrab of this\Nto admins, as evidence.
-Dialogue: 0,0:10:24.20,0:10:27.53,Default,,0,0,0,,
+Dialogue: 0,0:10:24.20,0:10:27.53,Default,,0,0,0,,Пошлю нотариально заверенный скриншот админам в качестве пруфа.
 Dialogue: 0,0:10:27.53,0:10:31.41,Default,,0,0,0,,{\an5}I've already taken one. But he's\Ncharging a pretty penny for these.
-Dialogue: 0,0:10:27.53,0:10:31.41,Default,,0,0,0,,
+Dialogue: 0,0:10:27.53,0:10:31.41,Default,,0,0,0,,Что-то удалось вернуть, но он заломил такую цену.
 Dialogue: 0,0:10:31.41,0:10:34.21,Default,,0,0,0,,{\an5}Don't worry about that.\NI'll buy them back for you.
-Dialogue: 0,0:10:31.41,0:10:34.21,Default,,0,0,0,,
+Dialogue: 0,0:10:31.41,0:10:34.21,Default,,0,0,0,,Не переживай, я выкуплю весь твой шмот.
 Dialogue: 0,0:10:34.21,0:10:36.79,Default,,0,0,0,,{\an5}Huh? No, you don't have to go that far.
-Dialogue: 0,0:10:34.21,0:10:36.79,Default,,0,0,0,,
+Dialogue: 0,0:10:34.21,0:10:36.79,Default,,0,0,0,,А? Это немного чересчур.
 Dialogue: 0,0:10:36.79,0:10:41.46,Default,,0,0,0,,{\an5}Let me do this. It will help\Nalleviate some of the guilt I feel.
-Dialogue: 0,0:10:36.79,0:10:41.46,Default,,0,0,0,,
+Dialogue: 0,0:10:36.79,0:10:41.46,Default,,0,0,0,,Отказ не принимается. Позволь мне загладить вину.
 Dialogue: 0,0:10:43.30,0:10:44.63,Default,,0,0,0,,{\an5}Master...
 Dialogue: 0,0:10:43.30,0:10:44.63,Default,,0,0,0,,Лидер…
 Dialogue: 0,0:10:45.63,0:10:47.93,Default,,0,0,0,,{\an5}Ah, you have mail.
@@ -370,7 +370,7 @@ Dialogue: 0,0:11:01.86,0:11:03.57,Default,,0,0,0,,а потом этот моб 
 Dialogue: 0,0:11:03.57,0:11:06.24,Default,,0,0,0,,{\an5}Thrown away? How mean!
 Dialogue: 0,0:11:03.57,0:11:06.24,Default,,0,0,0,,Просто выбросили? Как так можно?
 Dialogue: 0,0:11:06.24,0:11:07.99,Default,,0,0,0,,{\an5}It's mean, all right.
-Dialogue: 0,0:11:06.24,0:11:07.99,Default,,0,0,0,,
+Dialogue: 0,0:11:06.24,0:11:07.99,Default,,0,0,0,,Сволочь.
 Dialogue: 0,0:11:07.99,0:11:13.37,Default,,0,0,0,,{\an5}But as a result, it came back to us.\NThis is a minor miracle.
 Dialogue: 0,0:11:07.99,0:11:13.37,Default,,0,0,0,,Но в конце-концов колечко вернулось к хозяину. Чудо-чудное.
 Dialogue: 0,0:11:14.54,0:11:18.87,Default,,0,0,0,,{\an5}Yes, it is! This is the power of our love at work!
@@ -562,11 +562,11 @@ Dialogue: 0,0:16:33.94,0:16:35.28,Default,,0,0,0,,
 Dialogue: 0,0:16:35.28,0:16:40.99,Default,,0,0,0,,{\an5}I mean, the moment Rusian vanished,\Nour marriage was annulled.
 Dialogue: 0,0:16:35.28,0:16:40.99,Default,,0,0,0,,
 Dialogue: 0,0:16:40.99,0:16:42.83,Default,,0,0,0,,{\an5}We're divorced?!
-Dialogue: 0,0:16:40.99,0:16:42.83,Default,,0,0,0,,
+Dialogue: 0,0:16:40.99,0:16:42.83,Default,,0,0,0,,Мы в разводе?
 Dialogue: 0,0:16:42.83,0:16:45.41,Default,,0,0,0,,{\an5}You didn't realize that?
-Dialogue: 0,0:16:42.83,0:16:45.41,Default,,0,0,0,,
+Dialogue: 0,0:16:42.83,0:16:45.41,Default,,0,0,0,,Ты только сейчас это поняла?
 Dialogue: 0,0:16:45.41,0:16:47.75,Default,,0,0,0,,{\an5}Rusian disappearing was such a shock to me.
-Dialogue: 0,0:16:45.41,0:16:47.75,Default,,0,0,0,,
+Dialogue: 0,0:16:45.41,0:16:47.75,Default,,0,0,0,,Исчезновение Русияна 
 Dialogue: 0,0:16:47.75,0:16:49.96,Default,,0,0,0,,{\an5}I can't believe we're not married now.
 Dialogue: 0,0:16:47.75,0:16:49.96,Default,,0,0,0,,
 Dialogue: 0,0:16:49.96,0:16:53.42,Default,,0,0,0,,{\an5}H-How could that phony Rusian\Ndo something like this to me?!
