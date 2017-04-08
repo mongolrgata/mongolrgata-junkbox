@@ -17,9 +17,9 @@ Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 1.000000
-Scroll Position: 751
-Active Line: 759
-Video Position: 35025
+Scroll Position: 381
+Active Line: 381
+Video Position: 34976
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -31,767 +31,385 @@ Style: Default_AN1,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:03.00,0:00:07.01,Default,,0,0,0,,{\an5}Sheesh, she calls {\i1}this{\i0} all alone in a hotel room?
 Dialogue: 0,0:00:03.00,0:00:07.01,Default,,0,0,0,,Вот же ж, и это называется «наедине» в её комнате?
-Dialogue: 0,0:00:10.93,0:00:15.01,Default,,0,0,0,,{\an5}Hmm? I got dropped? How come?
 Dialogue: 0,0:00:10.93,0:00:15.01,Default,,0,0,0,,М? Дисконнект? С чего бы вдруг?
-Dialogue: 0,0:00:15.01,0:00:17.60,Default,,0,0,0,,{\an5}I guess these things happen once in a while.
 Dialogue: 0,0:00:15.01,0:00:17.60,Default,,0,0,0,,Эх, на самом интересном месте.
-Dialogue: 0,0:00:17.60,0:00:20.19,Default,,0,0,0,,{\an5}Well, as long as I wasn't\Nout grinding, that's okay.
 Dialogue: 0,0:00:17.60,0:00:20.19,Default,,0,0,0,,Ну, хорошо хоть, не во время гринда на хаях.
-Dialogue: 0,0:00:21.19,0:00:22.31,Default,,0,0,0,,{\an5}Whoops!
 Dialogue: 0,0:00:21.19,0:00:22.31,Default,,0,0,0,,Упси!
-Dialogue: 0,0:00:22.31,0:00:23.94,Default,,0,0,0,,{\an5}Oh, no!
 Dialogue: 0,0:00:22.31,0:00:23.94,Default,,0,0,0,,Чёрт побери!
-Dialogue: 0,0:00:25.19,0:00:26.69,Default,,0,0,0,,{\an5}Towel, towel...
 Dialogue: 0,0:00:25.19,0:00:26.69,Default,,0,0,0,,Салфетку бы…
-Dialogue: 0,0:00:35.41,0:00:36.78,Def_Top,,0,0,0,,{\an5}"Wrong password"
 Dialogue: 0,0:00:35.41,0:00:36.78,Def_Top,,0,0,0,,[Неверный пароль]
-Dialogue: 0,0:00:36.91,0:00:39.50,Default,,0,0,0,,{\an5}Hmm? Did I mistype it?
 Dialogue: 0,0:00:36.91,0:00:39.50,Default,,0,0,0,,М? Вроде верно написал.
-Dialogue: 0,0:00:41.79,0:00:43.17,Def_Top,,0,0,0,,{\an5}"Wrong password"
 Dialogue: 0,0:00:41.79,0:00:43.17,Def_Top,,0,0,0,,[Неверный пароль]
-Dialogue: 0,0:00:47.67,0:00:49.05,Def_Top,,0,0,0,,{\an5}"Wrong password"
 Dialogue: 0,0:00:47.67,0:00:49.05,Def_Top,,0,0,0,,[Неверный пароль]
-Dialogue: 0,0:00:51.09,0:00:56.18,Default,,0,0,0,,{\an5}Lately, some net games, including {\i1}LA{\i0},\Nhave been rife with account hacking.
 Dialogue: 0,0:00:51.09,0:00:56.18,Default,,0,0,0,,Последнее время в дрочильнях, в том числе LA, участились случаи угона аккаунтов.
-Dialogue: 0,0:00:56.18,0:00:58.51,Default,,0,0,0,,{\an5}Everyone take appropriate measures.
 Dialogue: 0,0:00:56.18,0:00:58.51,Default,,0,0,0,,Юзайте двухэтапную авторизацию.
-Dialogue: 0,0:01:00.02,0:01:02.56,Default,,0,0,0,,{\an5}Don't tell me... I've been had!
 Dialogue: 0,0:01:00.02,0:01:02.56,Default,,0,0,0,,Неужели… акк взломали!
-Dialogue: 0,0:01:05.61,0:01:07.11,Def_Top,,0,0,0,,{\an5}"Wrong password"
 Dialogue: 0,0:01:05.61,0:01:07.11,Def_Top,,0,0,0,,[Неверный пароль бл*ать]
-Dialogue: 0,0:01:07.48,0:01:11.28,Default,,0,0,0,,{\an5}So right now, someone other than me...
 Dialogue: 0,0:01:07.48,0:01:11.28,Default,,0,0,0,,Походу сейчас кто-то другой…
-Dialogue: 0,0:01:11.78,0:01:13.57,Default,,0,0,0,,{\an5}...is on as Rusian!
 Dialogue: 0,0:01:11.78,0:01:13.57,Default,,0,0,0,,…сидит под моим акком!
-Dialogue: 0,0:03:00.38,0:03:04.88,Def_Top,,0,0,0,,{\an5}"LV. 08: I thought I was giving up\Nbeing a net game husband?"
 Dialogue: 0,0:03:00.38,0:03:04.88,Def_Top,,0,0,0,,[ЛВЛ. 08: Думал, уже не хочешь быть хазбандо?]
-Dialogue: 0,0:03:01.89,0:03:05.51,Default,,0,0,0,,{\an5}Ako! That isn't me! It's an impostor!
 Dialogue: 0,0:03:01.89,0:03:05.51,Default_AN1,,0,0,0,,Ако! Не ведись! Это Лжерусиян!
-Dialogue: 0,0:03:06.59,0:03:08.09,Default,,0,0,0,,{\an5}Ako!
 Dialogue: 0,0:03:06.59,0:03:08.09,Default,,0,0,0,,Ако!
-Dialogue: 0,0:03:15.35,0:03:16.98,Default,,0,0,0,,{\an5}Rusian...
 Dialogue: 0,0:03:15.35,0:03:16.98,Default,,0,0,0,,{\pos(640,620)}Русиян…
-Dialogue: 0,0:03:18.19,0:03:20.06,Default,,0,0,0,,{\an5}Rusian!
 Dialogue: 0,0:03:18.19,0:03:20.06,Default,,0,0,0,,{\pos(640,620)}Русиян!
-Dialogue: 0,0:03:20.06,0:03:24.53,Default,,0,0,0,,{\an5}I'm sorry. That must have been\Na shock, huh? It's okay now.
 Dialogue: 0,0:03:20.06,0:03:24.53,Default,,0,0,0,,{\pos(640,620)}Прости. Трусит тебя, да? Всё позади.
-Dialogue: 0,0:03:30.53,0:03:32.95,Default,,0,0,0,,{\an5}I'm going to have a look at your chat log, okay?
 Dialogue: 0,0:03:30.53,0:03:32.95,Default,,0,0,0,,Взгляну на логи, можно?
-Dialogue: 0,0:03:32.95,0:03:33.95,Default,,0,0,0,,{\an5}Mm-hmm.
 Dialogue: 0,0:03:32.95,0:03:33.95,Default,,0,0,0,,Дозо.
-Dialogue: 0,0:03:49.30,0:03:50.80,Default,,0,0,0,,{\an5}Rusian...?
 Dialogue: 0,0:03:49.30,0:03:50.80,Default,,0,0,0,,Русиян?
-Dialogue: 0,0:03:52.10,0:03:55.60,Default,,0,0,0,,{\an5}Um... What, now?
 Dialogue: 0,0:03:52.10,0:03:55.60,Default,,0,0,0,,Эм… Что происходит?
-Dialogue: 0,0:03:55.60,0:03:59.56,Default,,0,0,0,,{\an5}The two of us are now all alone, aren't we?
 Dialogue: 0,0:03:55.60,0:03:59.56,Default,,0,0,0,,Сейчас тут только ты и я.
-Dialogue: 0,0:03:59.56,0:04:03.23,Default,,0,0,0,,{\an5}So now, I want to exchange some couple's chat.
 Dialogue: 0,0:03:59.56,0:04:03.23,Default,,0,0,0,,Почему бы нам не начать с прелюдии?
-Dialogue: 0,0:04:03.23,0:04:06.65,Default,,0,0,0,,{\an5}Hmm... Couple's, eh?
 Dialogue: 0,0:04:03.23,0:04:06.65,Default,,0,0,0,,Хмм… Прелюдии, говоришь?
-Dialogue: 0,0:04:06.65,0:04:10.36,Default,,0,0,0,,{\an5}Right, so we're married.
 Dialogue: 0,0:04:06.65,0:04:10.36,Default,,0,0,0,,И правда, мы ведь женаты.
-Dialogue: 0,0:04:10.36,0:04:13.95,Default,,0,0,0,,{\an5}Come on, after all this time,\Nwhat are you talking about?
 Dialogue: 0,0:04:10.36,0:04:13.95,Default,,0,0,0,,Да ну тебя, столько воды утекло, а ты всё не можешь привыкнуть?
-Dialogue: 0,0:04:13.95,0:04:20.62,Default,,0,0,0,,{\an5}You remember the day when we had\Nour wedding in the church, right?
 Dialogue: 0,0:04:13.95,0:04:20.62,Default,,0,0,0,,Помнишь тот день, когда мы с тобой венчались в церкви?
-Dialogue: 0,0:04:22.04,0:04:27.38,Default,,0,0,0,,{\an5}When I think of that day,\Neven now, I feel enraptured!
 Dialogue: 0,0:04:22.04,0:04:27.38,Default,,0,0,0,,Стоит вспомнить об этом, как ноги сами идут в пляс!
-Dialogue: 0,0:04:27.38,0:04:30.22,Default,,0,0,0,,{\an5}Hey, you're already good to go, aren't you?
 Dialogue: 0,0:04:27.38,0:04:30.22,Default,,0,0,0,,Не думаешь, что нам пора\Nперейти к основному блюду?
-Dialogue: 0,0:04:30.22,0:04:31.63,Default,,0,0,0,,{\an5}Huh?
 Dialogue: 0,0:04:30.22,0:04:31.63,Default,,0,0,0,,Чагось?
-Dialogue: 0,0:04:31.64,0:04:33.80,Default,,0,0,0,,{\an5}Well, let's get this started, then.
 Dialogue: 0,0:04:31.64,0:04:33.80,Default,,0,0,0,,Ну что, может уже приступим?
-Dialogue: 0,0:04:33.80,0:04:35.56,Default,,0,0,0,,{\an5}Um, what?
 Dialogue: 0,0:04:33.80,0:04:35.56,Default,,0,0,0,,Эм… К чему?
-Dialogue: 0,0:04:35.56,0:04:38.68,Default,,0,0,0,,{\an5}That "couple's chat"\Nyou were just talking about.
 Dialogue: 0,0:04:35.56,0:04:38.68,Default,,0,0,0,,К тому чем обычно занимаются\Nвлюблённые в интернетах.
-Dialogue: 0,0:04:38.68,0:04:43.10,Default,,0,0,0,,{\an5}Y-Yeah... Y-You're being\Nunusually assertive, aren't you?
 Dialogue: 0,0:04:38.68,0:04:43.10,Default,,0,0,0,,А-ага… А т-ты сегодня решил взять быка за рога.
-Dialogue: 0,0:04:43.11,0:04:46.65,Default,,0,0,0,,{\an5}Don't you like that? Don't you like {\i1}me{\i0}?
 Dialogue: 0,0:04:43.11,0:04:46.65,Default,,0,0,0,,А ты против? Я тебе противен?
-Dialogue: 0,0:04:47.15,0:04:49.32,Default,,0,0,0,,{\an5}W-Well, I...
 Dialogue: 0,0:04:47.15,0:04:49.32,Default,,0,0,0,,Н-ну какбэ…
-Dialogue: 0,0:04:54.24,0:04:56.28,Default,,0,0,0,,{\an5}Are you... Rusian?
 Dialogue: 0,0:04:54.24,0:04:56.28,Default,,0,0,0,,Что ты такое?
-Dialogue: 0,0:04:56.29,0:04:58.79,Default,,0,0,0,,{\an5}Of course I am. Do I look any different?
 Dialogue: 0,0:04:56.29,0:04:58.79,Default,,0,0,0,,Русиян. Кто же ещё? Ты меня не узнаёшь?
-Dialogue: 0,0:04:58.79,0:05:00.91,Default,,0,0,0,,{\an5}But... But...
 Dialogue: 0,0:04:58.79,0:05:00.91,Default,,0,0,0,,Но… Но…
-Dialogue: 0,0:05:00.91,0:05:03.33,Default,,0,0,0,,{\an5}Come on, what's the big deal?
 Dialogue: 0,0:05:00.91,0:05:03.33,Default,,0,0,0,,Да ладно тебе, хорош ломаться.
-Dialogue: 0,0:05:03.33,0:05:06.54,Default,,0,0,0,,{\an5}Hey, I know! Before we start,\Nsend me a pic of yourself.
 Dialogue: 0,0:05:03.33,0:05:06.54,Default,,0,0,0,,Точно! Перво-наперво линкани-ка мне свою фоточку.
-Dialogue: 0,0:05:06.55,0:05:10.01,Default,,0,0,0,,{\an5}Something a little sexy\Nthat I can use on my end.
 Dialogue: 0,0:05:06.55,0:05:10.01,Default,,0,0,0,,С сигной на интимном месте, чисто для фапа.
-Dialogue: 0,0:05:10.01,0:05:13.22,Default,,0,0,0,,{\an5}Ah, I'm not too concerned\Nabout your looks, so don't worry.
 Dialogue: 0,0:05:10.01,0:05:13.22,Default,,0,0,0,,И да, я не брезгую жирухами, так что не стесняйся.
-Dialogue: 0,0:05:13.22,0:05:17.68,Default,,0,0,0,,{\an5}Chicks that play net games\Nare all dowdy, nerdy losers.
 Dialogue: 0,0:05:13.22,0:05:17.68,Default,,0,0,0,,И так понятно, что в MMO играют только прыщавые камвхоры.
-Dialogue: 0,0:05:17.68,0:05:21.31,Default,,0,0,0,,{\an5}Please stop! Don't say things\Nlike that using Rusian's face!
 Dialogue: 0,0:05:17.68,0:05:21.31,Default,,0,0,0,,Замолчите! Не смейте говорит такое, скрываясь под личиной Русияна!
-Dialogue: 0,0:05:21.31,0:05:25.31,Default,,0,0,0,,{\an5}"Face" nothing... I {\i1}am{\i0} Rusian.
 Dialogue: 0,0:05:21.31,0:05:25.31,Default,,0,0,0,,«Личиной»? Не веришь, что я Русиян?
-Dialogue: 0,0:05:25.31,0:05:27.82,Default,,0,0,0,,{\an5}My beloved Rusian wouldn't...
 Dialogue: 0,0:05:25.31,0:05:27.82,Default,,0,0,0,,Мой милый Русиян…
-Dialogue: 0,0:05:27.82,0:05:30.40,Default,,0,0,0,,{\an5}Rusian wouldn't say those things!
 Dialogue: 0,0:05:27.82,0:05:30.40,Default,,0,0,0,,Русиян никогда бы такого не сказал!
-Dialogue: 0,0:05:31.40,0:05:33.40,Def_Top,,0,0,0,,{\an5}"Ako: Please stop! Don't say\Nthings like that using Rusian's face!\NRusian: "Face" nothing... I {\i1}am{\i0} Rusian.\NAko: My beloved Rusian wouldn't...\NAko: Rusian wouldn't say those things!"
 Dialogue: 0,0:05:31.40,0:05:33.40,Def_Top,,0,0,0,,{\an7}[Ако: Замолчите! Не смейте говорит такое, скрываясь под личиной Русияна!]\N[Русиян: «Личиной»? Не веришь, что я Русиян?]\N[Ако: Мой милый Русиян…]\N[Ако: Русиян никогда бы такого не сказал!]
-Dialogue: 0,0:05:35.37,0:05:37.57,Default,,0,0,0,,{\an5}I'm sorry.
 Dialogue: 0,0:05:35.37,0:05:37.57,Default,,0,0,0,,Прости меня.
-Dialogue: 0,0:05:40.12,0:05:42.04,Default,,0,0,0,,{\an5}What are you apologizing for?
 Dialogue: 0,0:05:40.12,0:05:42.04,Default,,0,0,0,,Почему ты извиняешься?
-Dialogue: 0,0:05:42.04,0:05:45.08,Default,,0,0,0,,{\an5}Ako, you haven't done a single\Nthing you need to apologize for.
 Dialogue: 0,0:05:42.04,0:05:45.08,Default,,0,0,0,,Ако, ты не сделала ничего такого.
-Dialogue: 0,0:05:45.08,0:05:47.42,Default,,0,0,0,,{\an5}This is something that\Nisn't supposed to happen,
 Dialogue: 0,0:05:45.08,0:05:47.42,Default,,0,0,0,,Обычно чего-то подобного не ждёшь,
-Dialogue: 0,0:05:47.42,0:05:49.88,Default,,0,0,0,,{\an5}but in net games, it sometimes does.
 Dialogue: 0,0:05:47.42,0:05:49.88,Default,,0,0,0,,но в сетевых играх такое порой случается.
-Dialogue: 0,0:05:49.88,0:05:51.09,Default,,0,0,0,,{\an5}Ako, you're the victim here,
 Dialogue: 0,0:05:49.88,0:05:51.09,Default,,0,0,0,,{NOPE}
-Dialogue: 0,0:05:51.09,0:05:54.47,Default,,0,0,0,,{\an5}being pressured by the nasty chat\Nof some troll looking to hook up,
 Dialogue: 0,0:05:49.87,0:05:54.47,Default,,0,0,0,,Какой-то редиска воспользовался ситуацией, чтобы потешаться над тобой.
-Dialogue: 0,0:05:54.47,0:05:56.72,Default,,0,0,0,,{\an5}so you did nothing wrong.
 Dialogue: 0,0:05:54.47,0:05:56.72,Default,,0,0,0,,Ты ни в чём не виновата.
-Dialogue: 0,0:05:56.72,0:05:57.93,Default,,0,0,0,,{\an5}In fact, if anyone is to blame,
 Dialogue: 0,0:05:56.72,0:05:57.93,Default,,0,0,0,,Если уж кого и винить,
-Dialogue: 0,0:05:57.93,0:06:01.14,Default,,0,0,0,,{\an5}it's me for being so careless\Nand letting it happen to you.
 Dialogue: 0,0:05:57.93,0:06:01.14,Default,,0,0,0,,так меня за то, что был неосмотрителен.
-Dialogue: 0,0:06:01.14,0:06:03.14,Default,,0,0,0,,{\an5}I'm... sorry.
 Dialogue: 0,0:06:01.14,0:06:03.14,Default,,0,0,0,,Прости… меня.
-Dialogue: 0,0:06:03.23,0:06:05.73,Default,,0,0,0,,{\an5}Like I said, there's nothing to apologize for.
 Dialogue: 0,0:06:03.23,0:06:05.73,Default,,0,0,0,,Говорю же, в этом нет твоей вины.
-Dialogue: 0,0:06:05.73,0:06:11.23,Default,,0,0,0,,{\an5}But I called someone who wasn't you "Rusian,"
 Dialogue: 0,0:06:05.73,0:06:11.23,Default,,0,0,0,,Но я назвала «Русияном» кого-то другого.
-Dialogue: 0,0:06:11.24,0:06:15.53,Default,,0,0,0,,{\an5}and just for a short while, I thought it was you.
 Dialogue: 0,0:06:11.24,0:06:15.53,Default,,0,0,0,,Пусть и не долго, но я думала, что это был ты.
-Dialogue: 0,0:06:20.54,0:06:22.50,Default,,0,0,0,,{\an5}I tried to be careful,
 Dialogue: 0,0:06:20.54,0:06:22.50,Default,,0,0,0,,Я в удивлении,
-Dialogue: 0,0:06:22.50,0:06:24.91,Default,,0,0,0,,{\an5}but who would have thought we'd\Nactually have an account hacked?
 Dialogue: 0,0:06:22.50,0:06:24.91,Default,,0,0,0,,поверить не могу, что кого-то из нас хакнули.
-Dialogue: 0,0:06:24.91,0:06:28.29,Default,,0,0,0,,{\an5}You can't laugh it off when it\Nhappens to someone close to you.
 Dialogue: 0,0:06:24.91,0:06:28.29,Default,,0,0,0,,И не поугораешь, покуда Русиян тут рядом стоит.
-Dialogue: 0,0:06:28.29,0:06:31.71,Default,,0,0,0,,{\an5}When connecting from a PC\Nthat anyone could use,
 Dialogue: 0,0:06:28.29,0:06:31.71,Default,,0,0,0,,Нам стоило быть немного более бдительными,
-Dialogue: 0,0:06:31.71,0:06:35.05,Default,,0,0,0,,{\an5}we should have been more\Nthan sufficiently cautious.
 Dialogue: 0,0:06:31.71,0:06:35.05,Default,,0,0,0,,когда логинились с публичного терминала.
-Dialogue: 0,0:06:35.05,0:06:38.26,Default,,0,0,0,,{\an5}I'm sorry. This is my fault, since I set this up.
 Dialogue: 0,0:06:35.05,0:06:38.26,Default,,0,0,0,,Можете во всём винить меня, я форсила этот эвент.
-Dialogue: 0,0:06:38.26,0:06:41.60,Default,,0,0,0,,{\an5}What are you talking about?\NMaster, you're not to blame.
 Dialogue: 0,0:06:38.26,0:06:41.60,Default,,0,0,0,,Не говори глупости. Никто тебя не винит.
-Dialogue: 0,0:06:41.60,0:06:45.18,Default,,0,0,0,,{\an5}First thing to do is contact the hotel\Nand tell them what happened.
 Dialogue: 0,0:06:41.60,0:06:45.18,Default,,0,0,0,,Первым делом нам стоит оповестить администрацию отеля.
-Dialogue: 0,0:06:45.19,0:06:46.77,Default,,0,0,0,,{\an5}Yeah, please do.
 Dialogue: 0,0:06:45.19,0:06:46.77,Default,,0,0,0,,Флаг в руки.
-Dialogue: 0,0:06:46.77,0:06:49.23,Default,,0,0,0,,{\an5}So what's going on now?
 Dialogue: 0,0:06:46.77,0:06:49.23,Default,,0,0,0,,Ты смог восстановить доступ?
-Dialogue: 0,0:06:49.23,0:06:52.73,Default,,0,0,0,,{\an5}I arranged to have my password reset,\Nand got my account back.
 Dialogue: 0,0:06:49.23,0:06:52.73,Default,,0,0,0,,Я сбросил пароль и вошел в аккаунт под новым.
-Dialogue: 0,0:06:52.73,0:06:55.49,Default,,0,0,0,,{\an5}Do you know where it was that\Nyou had your password stolen?
 Dialogue: 0,0:06:52.73,0:06:55.49,Default,,0,0,0,,Догадываешься, где ты спалил старый пароль?
-Dialogue: 0,0:06:55.49,0:06:57.41,Default,,0,0,0,,{\an5}Probably the PC in the lobby.
 Dialogue: 0,0:06:55.49,0:06:57.41,Default,,0,0,0,,Очевидно, на терминале в фойе.
-Dialogue: 0,0:06:57.41,0:07:00.53,Default,,0,0,0,,{\an5}Okay, then the first time\Nit didn't take your password,
 Dialogue: 0,0:06:57.41,0:07:00.53,Default,,0,0,0,,Как пить дать. И в первый раз пароль не сработал
-Dialogue: 0,0:07:00.53,0:07:02.41,Default,,0,0,0,,{\an5}it wasn't because you mistyped it.
 Dialogue: 0,0:07:00.53,0:07:02.41,Default,,0,0,0,,не потому, что ты опечатался.
-Dialogue: 0,0:07:02.41,0:07:03.54,Default,,0,0,0,,{\an5}Yeah.
 Dialogue: 0,0:07:02.41,0:07:03.54,Default,,0,0,0,,Агась.
-Dialogue: 0,0:07:03.54,0:07:05.58,Default,,0,0,0,,{\an5}Huh? What do you mean?
 Dialogue: 0,0:07:03.54,0:07:05.58,Default,,0,0,0,,Э? Я потеряла поезд.
-Dialogue: 0,0:07:05.58,0:07:08.12,Default,,0,0,0,,{\an5}The page that was open on the lobby PC
 Dialogue: 0,0:07:05.58,0:07:08.12,Default,,0,0,0,,Страница, которая была открыта на терминале,
-Dialogue: 0,0:07:08.13,0:07:11.46,Default,,0,0,0,,{\an5}was a fake login page that\Nlooked just like the official one.
 Dialogue: 0,0:07:08.13,0:07:11.46,Default,,0,0,0,,использовалась для фишинга и лишь выглядела как настоящая.
-Dialogue: 0,0:07:11.46,0:07:15.30,Default,,0,0,0,,{\an5}When I logged in with it,\Nit stole the ID and password I entered,
 Dialogue: 0,0:07:11.46,0:07:15.30,Default,,0,0,0,,Стоило мне ввести свои логин и пароль, как они были переданы хакеру,
-Dialogue: 0,0:07:15.30,0:07:18.30,Default,,0,0,0,,{\an5}then forwarded me to\Nthe legitimate, official page.
 Dialogue: 0,0:07:15.30,0:07:18.30,Default,,0,0,0,,а поддельная страница сменилась оригинальной.
-Dialogue: 0,0:07:18.30,0:07:20.51,Default,,0,0,0,,{\an5}A classic phishing scam.
 Dialogue: 0,0:07:18.30,0:07:20.51,Default,,0,0,0,,Развели как котят.
-Dialogue: 0,0:07:20.51,0:07:22.76,Default,,0,0,0,,{\an5}So, how bad is the damage?
 Dialogue: 0,0:07:20.51,0:07:22.76,Default,,0,0,0,,И? Что он успел натворить?
-Dialogue: 0,0:07:31.44,0:07:37.15,Def_Top,,0,0,0,,{\an5}"Character not yet created\NCreate a new character"
 Dialogue: 0,0:07:31.44,0:07:37.15,Def_Top,,0,0,0,,[Свободный слот]\N[Создать нового персонажа]
-Dialogue: 0,0:07:35.44,0:07:37.49,Default,,0,0,0,,{\an5}You can see for yourself.
 Dialogue: 0,0:07:35.44,0:07:37.49,Default,,0,0,0,,Всё очень плохо.
-Dialogue: 0,0:07:37.49,0:07:39.99,Default,,0,0,0,,{\an5}Rusian has been erased, huh?
 Dialogue: 0,0:07:37.49,0:07:39.99,Default,,0,0,0,,Выпилили твоего Русияна.
-Dialogue: 0,0:07:39.99,0:07:41.53,Default,,0,0,0,,{\an5}Rusian...
 Dialogue: 0,0:07:39.99,0:07:41.53,Default,,0,0,0,,Русиян…
-Dialogue: 0,0:07:44.04,0:07:46.79,Default,,0,0,0,,{\an5}Take it easy, take it easy.
 Dialogue: 0,0:07:44.04,0:07:46.79,Default,,0,0,0,,Ну ты чо? Не реви.
-Dialogue: 0,0:07:46.79,0:07:49.00,Default,,0,0,0,,{\an5}It's not like I disappeared, you know.
 Dialogue: 0,0:07:46.79,0:07:49.00,Default,,0,0,0,,Я же никуда не делся.
-Dialogue: 0,0:07:49.00,0:07:52.59,Default,,0,0,0,,{\an5}But my Rusian is...\NMy Rusian is no longer there.
 Dialogue: 0,0:07:49.00,0:07:52.59,Default,,0,0,0,,Но ведь Русиян… Русияна больше нет с нами.
-Dialogue: 0,0:07:52.59,0:07:56.01,Default,,0,0,0,,{\an5}Hey, he's {\i1}mine{\i0}. He's {\i1}my{\i0} Rusian.
 Dialogue: 0,0:07:52.59,0:07:56.01,Default,,0,0,0,,Алё, он это я. Я и есть Русиян.
-Dialogue: 0,0:07:57.01,0:07:58.84,Default,,0,0,0,,{\an5}There's nothing we can do\Nabout him being erased,
 Dialogue: 0,0:07:57.01,0:07:58.84,Default,,0,0,0,,Тут уже ничего не попишешь,
-Dialogue: 0,0:07:58.84,0:08:00.80,Default,,0,0,0,,{\an5}but I can make a new character.
 Dialogue: 0,0:07:58.84,0:08:00.80,Default,,0,0,0,,придется создавать нового перса.
-Dialogue: 0,0:08:00.80,0:08:01.68,Default,,0,0,0,,{\an5}But more importantly,
 Dialogue: 0,0:08:00.80,0:08:01.68,Default,,0,0,0,,Сразу после
-Dialogue: 0,0:08:01.68,0:08:04.18,Default,,0,0,0,,{\an5}I have to start looking for the things\Nthat I {\i1}can't{\i0} ever get back.
 Dialogue: 0,0:08:01.68,0:08:04.18,Default,,0,0,0,,нужно вернуть то, что не получится выбить с мобов.
-Dialogue: 0,0:08:04.18,0:08:06.47,Default,,0,0,0,,{\an5}The items that Rusian was carrying, right?
 Dialogue: 0,0:08:04.18,0:08:06.47,Default,,0,0,0,,Шмот принадлежавший Русияну?
-Dialogue: 0,0:08:06.48,0:08:08.02,Default,,0,0,0,,{\an5}He apparently realized what I was doing,
 Dialogue: 0,0:08:06.48,0:08:08.02,Default,,0,0,0,,Похоже, он изначально планировал
-Dialogue: 0,0:08:08.02,0:08:10.60,Default,,0,0,0,,{\an5}and when I went to recover\Nmy items right away,
 Dialogue: 0,0:08:08.02,0:08:10.60,Default,,0,0,0,,распродать вещи из моего инвентаря.
-Dialogue: 0,0:08:10.60,0:08:12.10,Default,,0,0,0,,{\an5}a number of them were already gone.
 Dialogue: 0,0:08:10.60,0:08:12.10,Default,,0,0,0,,У меня почти ничего не осталось.
-Dialogue: 0,0:08:12.11,0:08:13.94,Default,,0,0,0,,{\an5}This guy works fast.
 Dialogue: 0,0:08:12.11,0:08:13.94,Default,,0,0,0,,Оперативно работает.
-Dialogue: 0,0:08:13.94,0:08:16.98,Default,,0,0,0,,{\an5}Which means that it's a\Ncontest of speed for me, too.
 Dialogue: 0,0:08:13.94,0:08:16.98,Default,,0,0,0,,Тогда постараюсь не отставать от него.
-Dialogue: 0,0:08:16.99,0:08:21.24,Default,,0,0,0,,{\an5}He's probably sold off my items,\Nso I'll buy back as much as I can.
 Dialogue: 0,0:08:16.99,0:08:21.24,Default,,0,0,0,,Скорее всего он выставил всё ценное на аукцион,\Nи мне нужно выкупить это раньше других.
-Dialogue: 0,0:08:21.24,0:08:23.74,Default,,0,0,0,,{\an5}You're going to give money to a hacker?!
 Dialogue: 0,0:08:21.24,0:08:23.74,Default,,0,0,0,,Собираешься озолотить подонка?
-Dialogue: 0,0:08:23.74,0:08:25.95,Default,,0,0,0,,{\an5}It's galling to me,
 Dialogue: 0,0:08:23.74,0:08:25.95,Default,,0,0,0,,Неприятно, конечно,
-Dialogue: 0,0:08:25.95,0:08:29.79,Default,,0,0,0,,{\an5}but I do want to at least\Nget back my keepsake items.
 Dialogue: 0,0:08:25.95,0:08:29.79,Default,,0,0,0,,но это самый верный способ вернуть утраченное.
-Dialogue: 0,0:08:30.29,0:08:33.92,Default,,0,0,0,,{\an5}All right. I'll go check out\Nthe shops and markets.
 Dialogue: 0,0:08:30.29,0:08:33.92,Default,,0,0,0,,Хорошо. Раз так, поищу у барыг и на ауках.
-Dialogue: 0,0:08:33.92,0:08:36.96,Default,,0,0,0,,{\an5}What else can we do? I'll drum up some help.
 Dialogue: 0,0:08:33.92,0:08:36.96,Default,,0,0,0,,Час от часу не легче. Я тоже помогу.
-Dialogue: 0,0:08:36.96,0:08:39.17,Default,,0,0,0,,{\an5}Let me reach out to some people I know.
 Dialogue: 0,0:08:36.96,0:08:39.17,Default,,0,0,0,,Только привлеку к поискам своих знакомых.
-Dialogue: 0,0:08:39.17,0:08:41.97,Default,,0,0,0,,{\an5}All right, everyone go back\Nto the PCs in their rooms
 Dialogue: 0,0:08:39.17,0:08:41.97,Default,,0,0,0,,Тогда возвращаемся в свои комнаты и по машинам.
-Dialogue: 0,0:08:41.97,0:08:43.89,Default,,0,0,0,,{\an5}and hunt for the stolen items.
 Dialogue: 0,0:08:41.97,0:08:43.89,Default,,0,0,0,,Все на поиски украденного.
-Dialogue: 0,0:08:47.02,0:08:49.68,Default,,0,0,0,,{\an5}Rusian, what are you going to do?
 Dialogue: 0,0:08:47.02,0:08:49.68,Default,,0,0,0,,Русиян, что ты будешь делать?
-Dialogue: 0,0:08:49.69,0:08:54.06,Default,,0,0,0,,{\an5}Go consult with a friend of mine\Nwho knows the most people around.
 Dialogue: 0,0:08:49.69,0:08:54.06,Default,,0,0,0,,Свяжусь с одним своим другом, который шарит что/где/почём.
-Dialogue: 0,0:08:54.56,0:08:56.23,Default,,0,0,0,,{\an5}An account hack, huh?
 Dialogue: 0,0:08:54.56,0:08:56.23,Default,,0,0,0,,Взломали говоришь?
-Dialogue: 0,0:08:56.23,0:08:58.98,Default,,0,0,0,,{\an5}Having your gear taken away\Nand your character erased
 Dialogue: 0,0:08:56.23,0:08:58.98,Default,,0,0,0,,Стащили шмот, а потом ещё и перса удалили…
-Dialogue: 0,0:08:58.99,0:09:00.57,Default,,0,0,0,,{\an5}is a dreadful thing to happen.
 Dialogue: 0,0:08:58.99,0:09:00.57,Default,,0,0,0,,Хуже не придумаешь.
-Dialogue: 0,0:09:00.57,0:09:01.74,Default,,0,0,0,,{\an5}For the moment,
 Dialogue: 0,0:09:00.57,0:09:01.74,Default,,0,0,0,,От себя добавлю,
-Dialogue: 0,0:09:01.74,0:09:05.37,Default,,0,0,0,,{\an5}I'm logging in using a sub-character\Nthat I created a long time ago.
 Dialogue: 0,0:09:01.74,0:09:05.37,Default,,0,0,0,,что на данный момент я залогинен под своим мультом.
-Dialogue: 0,0:09:05.37,0:09:07.74,Default,,0,0,0,,{\an5}Oh, and my name is Piroshiki-{\i1}kun{\i0} now,
 Dialogue: 0,0:09:05.37,0:09:07.74,Default,,0,0,0,,И да, хоть мой ник сейчас «Пирожок-кун»,
-Dialogue: 0,0:09:07.74,0:09:11.33,Default,,0,0,0,,{\an5}but please call me Rusian.\NI'm more accustomed to that.
 Dialogue: 0,0:09:07.74,0:09:11.33,Default,,0,0,0,,прошу обращайтесь ко мне как к Русияну. Так будет проще.
-Dialogue: 0,0:09:11.33,0:09:14.13,Default,,0,0,0,,{\an5}I have to say, you were careless.
 Dialogue: 0,0:09:11.33,0:09:14.13,Default,,0,0,0,,Лоханулся ты знатно, конечно.
-Dialogue: 0,0:09:14.13,0:09:16.50,Default,,0,0,0,,{\an5}One must protect oneself.
 Dialogue: 0,0:09:14.13,0:09:16.50,Default,,0,0,0,,И в этом только твоя вина.
-Dialogue: 0,0:09:16.50,0:09:19.26,Default,,0,0,0,,{\an5}I believe self-defense is basic to net gaming.
 Dialogue: 0,0:09:16.50,0:09:19.26,Default,,0,0,0,,Так слить аккаунт мог только ньюфаг какой-нибудь.
-Dialogue: 0,0:09:19.26,0:09:24.59,Default,,0,0,0,,{\an5}I understand that quite well.\NSo, while this might sound brazen,
 Dialogue: 0,0:09:19.26,0:09:24.59,Default,,0,0,0,,Это и ежу понятно. Но, не сочтите за наглось,
-Dialogue: 0,0:09:24.59,0:09:26.76,Default,,0,0,0,,{\an5}I was wondering if you'd\Nhelp find my stolen items--
 Dialogue: 0,0:09:24.59,0:09:26.76,Default,,0,0,0,,не могли бы вы помочь мне найти украденный…
-Dialogue: 0,0:09:26.76,0:09:27.93,Default,,0,0,0,,{\an5}Okay, you got it.
 Dialogue: 0,0:09:26.76,0:09:27.93,Default,,0,0,0,,Ок, без базара.
-Dialogue: 0,0:09:27.93,0:09:30.68,Default,,0,0,0,,{\an5}No, of course not. I didn't think--
 Dialogue: 0,0:09:27.93,0:09:30.68,Default,,0,0,0,,Да, я всё понимаю. Просто…
-Dialogue: 0,0:09:30.68,0:09:33.27,Default,,0,0,0,,{\an5}Huh? You mean you'll help me?
 Dialogue: 0,0:09:30.68,0:09:33.27,Default,,0,0,0,,Вут? Вы таки согласны помочь?
-Dialogue: 0,0:09:33.27,0:09:38.77,Default,,0,0,0,,{\an5}Didn't I tell you before?\NWe're all fellow game players here.
 Dialogue: 0,0:09:33.27,0:09:38.77,Default,,0,0,0,,Поищи в логах, если забыл. Все мы тут задроты до мозга костей.
-Dialogue: 0,0:09:38.78,0:09:41.32,Default,,0,0,0,,{\an5}When a fellow player is\Nin trouble, we help them.
 Dialogue: 0,0:09:38.78,0:09:41.32,Default,,0,0,0,,И если брат-задрот в затруднительной ситуации, мы подставим плечо.
-Dialogue: 0,0:09:41.32,0:09:43.82,Default,,0,0,0,,{\an5}That's what it means to be a net gamer.
 Dialogue: 0,0:09:41.32,0:09:43.82,Default,,0,0,0,,Вот так и живём.
-Dialogue: 0,0:09:45.66,0:09:47.91,Default,,0,0,0,,{\an5}As you wish, Nekohime-{\i1}sama{\i0}.
 Dialogue: 0,0:09:45.66,0:09:47.91,Default,,0,0,0,,Как пожелаете, Некохиме-сама.
-Dialogue: 0,0:09:48.99,0:09:51.37,Default,,0,0,0,,{\an5}Hey, guys, you heard her, right?!
 Dialogue: 0,0:09:48.99,0:09:51.37,Default,,0,0,0,,Эй, котаны, все всё слышали?
-Dialogue: 0,0:09:51.37,0:09:55.54,Default,,0,0,0,,{\an5}In the name of Nekohime's Elite Guard,\Nwe will find the stolen items!
 Dialogue: 0,0:09:51.37,0:09:55.54,Default,,0,0,0,,Отыщем же украденное во славу элитной гвардии Некохиме-самы!
-Dialogue: 0,0:09:55.54,0:09:56.92,Default,,0,0,0,,{\an5}Yeah!!
 Dialogue: 0,0:09:55.54,0:09:56.92,Default,,0,0,0,,О да!!
-Dialogue: 0,0:09:56.92,0:09:58.42,Default,,0,0,0,,{\an5}Sieg Nekohime!
 Dialogue: 0,0:09:56.92,0:09:58.42,Default,,0,0,0,,Хайль Некохиме!
-Dialogue: 0,0:09:58.42,0:09:59.92,Default,,0,0,0,,{\an5}Sieg Nekohime!!
 Dialogue: 0,0:09:58.42,0:09:59.92,Default,,0,0,0,,Хайль Некохиме!!
-Dialogue: 0,0:09:59.92,0:10:03.47,Default,,0,0,0,,{\an5}Uh, I-I'm happy that you will help {\i1}meow{\i0},
 Dialogue: 0,0:09:59.92,0:10:03.47,Default,,0,0,0,,Спасибо, конечно, что согласились помяугать,
-Dialogue: 0,0:10:03.47,0:10:06.64,Default,,0,0,0,,{\an5}but you don't have to rile\Nyourselves up like that.
 Dialogue: 0,0:10:03.47,0:10:06.64,Default,,0,0,0,,но можно мяунее пафосно выносить шторы?
-Dialogue: 0,0:10:07.64,0:10:10.68,Default,,0,0,0,,{\an5}Well? Does anything look familiar?
 Dialogue: 0,0:10:07.64,0:10:10.68,Default,,0,0,0,,Ну? Есть что-то похожее?
-Dialogue: 0,0:10:10.68,0:10:12.60,Default,,0,0,0,,{\an5}I think that this assortment of items
 Dialogue: 0,0:10:10.68,0:10:12.60,Default,,0,0,0,,Чую, что часть вещей выставленных тут на продажу
-Dialogue: 0,0:10:12.60,0:10:15.85,Default,,0,0,0,,{\an5}were part of what was in my inventory.
 Dialogue: 0,0:10:12.60,0:10:15.85,Default,,0,0,0,,когда-то принадлежала мне.
-Dialogue: 0,0:10:15.85,0:10:17.11,Default,,0,0,0,,{\an5}I see.
 Dialogue: 0,0:10:15.85,0:10:17.11,Default,,0,0,0,,Вот как.
-Dialogue: 0,0:10:17.61,0:10:20.36,Default,,0,0,0,,{\an5}This seller's name is... Rontan.
 Dialogue: 0,0:10:17.61,0:10:20.36,Default,,0,0,0,,Торговца зовут… Ронтан.
-Dialogue: 0,0:10:20.36,0:10:22.40,Default,,0,0,0,,{\an5}Then, this is the one that hacked my account?
 Dialogue: 0,0:10:20.36,0:10:22.40,Default,,0,0,0,,Возможно он и взломал мой аккаунт.
-Dialogue: 0,0:10:22.40,0:10:24.20,Default,,0,0,0,,{\an5}It's a good possibility.
 Dialogue: 0,0:10:22.40,0:10:24.20,Default,,0,0,0,,Ну, попытка не пытка.
-Dialogue: 0,0:10:24.20,0:10:27.53,Default,,0,0,0,,{\an5}I'll submit a screengrab of this\Nto admins, as evidence.
 Dialogue: 0,0:10:24.20,0:10:27.53,Default,,0,0,0,,Пошлю нотариально заверенный скриншот админам в качестве пруфа.
-Dialogue: 0,0:10:27.53,0:10:31.41,Default,,0,0,0,,{\an5}I've already taken one. But he's\Ncharging a pretty penny for these.
 Dialogue: 0,0:10:27.53,0:10:31.41,Default,,0,0,0,,Что-то удалось вернуть, но он заломил такую цену.
-Dialogue: 0,0:10:31.41,0:10:34.21,Default,,0,0,0,,{\an5}Don't worry about that.\NI'll buy them back for you.
 Dialogue: 0,0:10:31.41,0:10:34.21,Default,,0,0,0,,Не переживай, я выкуплю весь твой шмот.
-Dialogue: 0,0:10:34.21,0:10:36.79,Default,,0,0,0,,{\an5}Huh? No, you don't have to go that far.
 Dialogue: 0,0:10:34.21,0:10:36.79,Default,,0,0,0,,А? Это немного чересчур.
-Dialogue: 0,0:10:36.79,0:10:41.46,Default,,0,0,0,,{\an5}Let me do this. It will help\Nalleviate some of the guilt I feel.
 Dialogue: 0,0:10:36.79,0:10:41.46,Default,,0,0,0,,Отказ не принимается. Позволь мне загладить вину.
-Dialogue: 0,0:10:43.30,0:10:44.63,Default,,0,0,0,,{\an5}Master...
 Dialogue: 0,0:10:43.30,0:10:44.63,Default,,0,0,0,,Лидер…
-Dialogue: 0,0:10:45.63,0:10:47.93,Default,,0,0,0,,{\an5}Ah, you have mail.
 Dialogue: 0,0:10:45.63,0:10:47.93,Default,,0,0,0,,Тебе кто-то пишет.
-Dialogue: 0,0:10:49.72,0:10:52.60,Default,,0,0,0,,{\an5}It's from Cloud, of Nekohime's Elite Guard.
 Dialogue: 0,0:10:49.72,0:10:52.60,Default,,0,0,0,,Это Клауд из элитной гвардии Некохиме-самы.
-Dialogue: 0,0:10:52.60,0:10:53.97,Default,,0,0,0,,{\an5}That's...
 Dialogue: 0,0:10:52.60,0:10:53.97,Default,,0,0,0,,Это…
-Dialogue: 0,0:10:53.98,0:10:56.27,Def_Top,,0,0,0,,{\an5}"Attached item\NPair ring"
 Dialogue: 0,0:10:53.98,0:10:56.27,Def_Top,,0,0,0,,[Прикреплённый предмет: Обручальное кольцо]
-Dialogue: 0,0:10:53.98,0:10:56.69,Default,,0,0,0,,{\an5}...the ring I gave you, Rusian!
 Dialogue: 0,0:10:53.98,0:10:56.69,Default,,0,0,0,,…кольцо, которое я подарила тебе, Русиян!
-Dialogue: 0,0:10:56.69,0:10:59.44,Default,,0,0,0,,{\an5}Apparently, he got it after slaying a monster.
 Dialogue: 0,0:10:56.69,0:10:59.44,Default,,0,0,0,,Скорее всего это был дроп с моба.{DAFUQ}
-Dialogue: 0,0:10:59.44,0:11:01.86,Default,,0,0,0,,{\an5}It must have been thrown away,\Nsince it couldn't be sold,
 Dialogue: 0,0:10:59.44,0:11:01.86,Default,,0,0,0,,Похоже его просто выбросили,\Nтак как именные вещи нельзя продать,
-Dialogue: 0,0:11:01.86,0:11:03.57,Default,,0,0,0,,{\an5}and that monster picked it up.
 Dialogue: 0,0:11:01.86,0:11:03.57,Default,,0,0,0,,а потом этот моб подобрал его.
-Dialogue: 0,0:11:03.57,0:11:06.24,Default,,0,0,0,,{\an5}Thrown away? How mean!
 Dialogue: 0,0:11:03.57,0:11:06.24,Default,,0,0,0,,Просто выбросили? Как так можно?
-Dialogue: 0,0:11:06.24,0:11:07.99,Default,,0,0,0,,{\an5}It's mean, all right.
 Dialogue: 0,0:11:06.24,0:11:07.99,Default,,0,0,0,,Можно.
-Dialogue: 0,0:11:07.99,0:11:13.37,Default,,0,0,0,,{\an5}But as a result, it came back to us.\NThis is a minor miracle.
 Dialogue: 0,0:11:07.99,0:11:13.37,Default,,0,0,0,,Но в конце-концов колечко вернулось к хозяину. Чудо-чудное.
-Dialogue: 0,0:11:14.54,0:11:18.87,Default,,0,0,0,,{\an5}Yes, it is! This is the power of our love at work!
 Dialogue: 0,0:11:14.54,0:11:18.87,Default,,0,0,0,,И не говори! Сила нашей любви способна горы свернуть!
-Dialogue: 0,0:11:18.88,0:11:20.50,Default,,0,0,0,,{\an5}What are you talking--
 Dialogue: 0,0:11:18.88,0:11:20.50,Default,,0,0,0,,Скажешь тоже…
-Dialogue: 0,0:11:26.76,0:11:28.26,Default,,0,0,0,,{\an5}That it is.
 Dialogue: 0,0:11:26.76,0:11:28.26,Default,,0,0,0,,Именно так.
-Dialogue: 0,0:11:32.10,0:11:33.60,Def_Top,,0,0,0,,{\an5}"Staff Room"
 Dialogue: 0,0:11:32.10,0:11:33.60,Def_Top,,0,0,0,,[Курилка]
-Dialogue: 0,0:11:32.89,0:11:35.52,Default,,0,0,0,,{\an5}Okay then, please excuse us.
 Dialogue: 0,0:11:32.89,0:11:35.52,Default,,0,0,0,,Простите за беспокойство.
-Dialogue: 0,0:11:40.94,0:11:42.82,Default,,0,0,0,,{\an5}Nishimura-{\i1}kun{\i0}...
 Dialogue: 0,0:11:40.94,0:11:42.82,Default,,0,0,0,,Нисимура-кун…
-Dialogue: 0,0:11:42.82,0:11:45.82,Default,,0,0,0,,{\an5}I know that what happened may be a shock,
 Dialogue: 0,0:11:42.82,0:11:45.82,Default,,0,0,0,,Понимаю, что происходящее давит на психику,
-Dialogue: 0,0:11:45.82,0:11:48.24,Default,,0,0,0,,{\an5}but don't let it get you down too much, okay?
 Dialogue: 0,0:11:45.82,0:11:48.24,Default,,0,0,0,,но ты только с крыши не прыгай, ладно?
-Dialogue: 0,0:11:50.12,0:11:54.20,Default,,0,0,0,,{\an5}The school during summer vacation\Nsure is a quiet place, huh?
 Dialogue: 0,0:11:50.12,0:11:54.20,Default,,0,0,0,,Летним вечером в школе так же тихо как утром.
-Dialogue: 0,0:11:54.71,0:11:59.17,Default,,0,0,0,,{\an5}Thanks for coming with me to explain\Nwhat happened to the school.
 Dialogue: 0,0:11:54.71,0:11:59.17,Default,,0,0,0,,Извини, что пришлось помогать объяснять обстоятельства происшествия.
-Dialogue: 0,0:11:59.17,0:12:02.96,Default,,0,0,0,,{\an5}Don't worry about it.\NIt happened during a club camp.
 Dialogue: 0,0:11:59.17,0:12:02.96,Default,,0,0,0,,Не бери в голову. Всё случилось во время летнего лагеря.
-Dialogue: 0,0:12:02.96,0:12:05.97,Default,,0,0,0,,{\an5}As club president, it's only\Nright that I accompany you.
 Dialogue: 0,0:12:02.96,0:12:05.97,Default,,0,0,0,,Я должна была присутствовать как глава клуба.
-Dialogue: 0,0:12:08.18,0:12:13.01,Default,,0,0,0,,{\an5}Master, I am so upset by this,\Nit surprises even me.
 Dialogue: 0,0:12:08.18,0:12:13.01,Default,,0,0,0,,Мастер, вся эта ситуация... давно у меня так не подгорало.
-Dialogue: 0,0:12:13.02,0:12:16.14,Default,,0,0,0,,{\an5}As you should be. You had your items stolen
 Dialogue: 0,0:12:13.02,0:12:16.14,Default,,0,0,0,,Ещё бы, свиснули шмот,
-Dialogue: 0,0:12:16.14,0:12:18.77,Default,,0,0,0,,{\an5}and the character you\Nwere so attached to erased.
 Dialogue: 0,0:12:16.14,0:12:18.77,Default,,0,0,0,,а потом и чара отформатировали.
-Dialogue: 0,0:12:18.77,0:12:22.32,Default,,0,0,0,,{\an5}There's that, too, but even worse than that,
 Dialogue: 0,0:12:18.77,0:12:22.32,Default,,0,0,0,,Это да, но есть кое-что похуже.
-Dialogue: 0,0:12:22.32,0:12:26.57,Default,,0,0,0,,{\an5}I can't stand that he posed as Rusian\Nand talked to Ako like he did!
 Dialogue: 0,0:12:22.32,0:12:26.57,Default,,0,0,0,,Меня калит то, как он разговаривал с Ако притворяясь мной!
-Dialogue: 0,0:12:26.57,0:12:33.24,Default,,0,0,0,,{\an5}He stole Rusian. And for a short while,\Nhe stole my Ako, too!
 Dialogue: 0,0:12:26.57,0:12:33.24,Default,,0,0,0,,Украл мою внешность, чтобы потом украсть у меня Ако!
-Dialogue: 0,0:12:33.24,0:12:35.16,Default,,0,0,0,,{\an5}One of the drawbacks of net relations
 Dialogue: 0,0:12:33.24,0:12:35.16,Default,,0,0,0,,Общаяясь с кем-то по сети,
-Dialogue: 0,0:12:35.16,0:12:37.62,Default,,0,0,0,,{\an5}is not always being able\Nto confirm who someone is.
 Dialogue: 0,0:12:35.16,0:12:37.62,Default,,0,0,0,,нельзя полагаться на его профиль.
-Dialogue: 0,0:12:37.62,0:12:39.50,Default,,0,0,0,,{\an5}If you can take someone's account from them,
 Dialogue: 0,0:12:37.62,0:12:39.50,Default,,0,0,0,,Если получить доступ к чужому аккаунту,
-Dialogue: 0,0:12:39.50,0:12:42.46,Default,,0,0,0,,{\an5}it's easy to become someone else.
 Dialogue: 0,0:12:39.50,0:12:42.46,Default,,0,0,0,,то легко притвориться кем-то другим.
-Dialogue: 0,0:12:42.96,0:12:45.25,Default,,0,0,0,,{\an5}All the more so in net games.
 Dialogue: 0,0:12:42.96,0:12:45.25,Default,,0,0,0,,В сетевых играх точно так же.
-Dialogue: 0,0:12:46.26,0:12:51.80,Default,,0,0,0,,{\an5}Who knew the ties we had to each\Nother were so fragile and insecure?
 Dialogue: 0,0:12:46.26,0:12:51.80,Default,,0,0,0,,Раз так, то кто угодно может заменить меня в любой момент.
-Dialogue: 0,0:12:51.80,0:12:52.93,Default,,0,0,0,,{\an5}Is that what you think?
 Dialogue: 0,0:12:51.80,0:12:52.93,Default,,0,0,0,,Ты так считаешь?
-Dialogue: 0,0:12:52.93,0:12:53.93,Default,,0,0,0,,{\an5}Huh?
 Dialogue: 0,0:12:52.93,0:12:53.93,Default,,0,0,0,,Э?
-Dialogue: 0,0:12:53.93,0:12:58.56,Default,,0,0,0,,{\an5}Ako knew that Rusian was someone else\Nfrom only a conversation in print.
 Dialogue: 0,0:12:53.93,0:12:58.56,Default,,0,0,0,,Ако поняла, что это не её Русиян из пары строчек логов диалога.
-Dialogue: 0,0:12:58.56,0:13:01.52,Default,,0,0,0,,{\an5}How deep a relationship do you have\Nwhere someone else's identity
 Dialogue: 0,0:12:58.56,0:13:01.52,Default,,0,0,0,,Насколько хорошо люди должны знать друг друга,
-Dialogue: 0,0:13:01.52,0:13:04.40,Default,,0,0,0,,{\an5}can be determined from that\Ntiny bit of communication?
 Dialogue: 0,0:13:01.52,0:13:04.40,Default,,0,0,0,,чтобы определить подмену обменявшись двумя-трёмя фразами?
-Dialogue: 0,0:13:06.90,0:13:10.66,Default,,0,0,0,,{\an5}I think it's safe to say that\Nproves how solid your ties are.
 Dialogue: 0,0:13:06.90,0:13:10.66,Default,,0,0,0,,Это ли не показатель того, как крепки ваши узы?
-Dialogue: 0,0:13:15.45,0:13:17.79,Default,,0,0,0,,{\an5}It looks like you're starting to cheer up a little.
 Dialogue: 0,0:13:15.45,0:13:17.79,Default,,0,0,0,,Похоже ты передумал вскрывать вены.
-Dialogue: 0,0:13:17.79,0:13:24.00,Default,,0,0,0,,{\an5}Yeah, but as a result, I want to\Nget this bastard that much more.
 Dialogue: 0,0:13:17.79,0:13:24.00,Default,,0,0,0,,О да, вместо этого мне хочется пустить кровь доморощенному кулхацкеру.
-Dialogue: 0,0:13:24.00,0:13:25.50,Default,,0,0,0,,{\an5}You do?
 Dialogue: 0,0:13:24.00,0:13:25.50,Default,,0,0,0,,Вот как?
-Dialogue: 0,0:13:27.42,0:13:30.26,Default,,0,0,0,,{\an5}I was out for blood right from the start, myself.
 Dialogue: 0,0:13:27.42,0:13:30.26,Default,,0,0,0,,Я-то жажду крови с самого начала эпизода.
-Dialogue: 0,0:13:32.55,0:13:36.68,Default,,0,0,0,,{\an5}Huh?! What do you mean,\Nthe admins aren't budging?!
 Dialogue: 0,0:13:32.55,0:13:36.68,Default,,0,0,0,,Вут? Чому одмины до сих пор не выписали ему банхаммер?!
-Dialogue: 0,0:13:36.68,0:13:39.85,Default,,0,0,0,,{\an5}We've got someone selling\Nthe stolen items as a set!
 Dialogue: 0,0:13:36.68,0:13:39.85,Default,,0,0,0,,Мы нашли того, кто распродавал твой шмот!
-Dialogue: 0,0:13:39.85,0:13:42.77,Default,,0,0,0,,{\an5}I don't care how you cut it,\Nthat guy's the culprit!
 Dialogue: 0,0:13:39.85,0:13:42.77,Default,,0,0,0,,Как ни крути этот барыга точно в доле!
-Dialogue: 0,0:13:42.77,0:13:44.90,Default,,0,0,0,,{\an5}The guy who did the hacking had an IP
 Dialogue: 0,0:13:42.77,0:13:44.90,Default,,0,0,0,,Проблема в том, что айпишники хацкера
-Dialogue: 0,0:13:44.90,0:13:47.40,Default,,0,0,0,,{\an5}that doesn't match Rontan,\Nthe one selling the items.
 Dialogue: 0,0:13:44.90,0:13:47.40,Default,,0,0,0,,и торговца Ронтана не совпадают.
-Dialogue: 0,0:13:47.40,0:13:48.78,Default,,0,0,0,,{\an5}IP?
 Dialogue: 0,0:13:47.40,0:13:48.78,Default,,0,0,0,,Айпишники?
-Dialogue: 0,0:13:48.78,0:13:50.61,Default,,0,0,0,,{\an5}An IP...
 Dialogue: 0,0:13:48.78,0:13:50.61,Default,,0,0,0,,IP…
-Dialogue: 0,0:13:50.61,0:13:53.11,Default,,0,0,0,,{\an5}...is a little like a personal\Nnumber that everyone
 Dialogue: 0,0:13:50.61,0:13:53.11,Default,,0,0,0,,…это своего рода метка, которой клеймят
-Dialogue: 0,0:13:51.78,0:13:54.78,Def_Top,,0,0,0,,{\an5}"Net"
 Dialogue: 0,0:13:51.78,0:13:54.78,Def_Top,,0,0,0,,[Интернеты]
-Dialogue: 0,0:13:53.12,0:13:55.49,Default,,0,0,0,,{\an5}who connects to the net has set for them,
 Dialogue: 0,0:13:53.12,0:13:55.49,Default,,0,0,0,,каждого, кто выходит в сеть.
-Dialogue: 0,0:13:55.49,0:14:00.29,Default,,0,0,0,,{\an5}and if you do something bad, it can\Nbe used to identify you, and catch you.
 Dialogue: 0,0:13:55.49,0:14:00.29,Default,,0,0,0,,Если тобой заинтересуется роскомнадзор, то тебя закроют на 8 лет зная айпишник.
-Dialogue: 0,0:14:02.08,0:14:04.83,Default,,0,0,0,,{\an5}Until we can identify them\Nas being the same person,
 Dialogue: 0,0:14:02.08,0:14:04.83,Default,,0,0,0,,Пока нам не удастся доказать, что это один и тот же человек,
-Dialogue: 0,0:14:04.84,0:14:07.38,Default,,0,0,0,,{\an5}we can't accuse them of any crime.
 Dialogue: 0,0:14:04.84,0:14:07.38,Default,,0,0,0,,мы не можем ему ничего предъявить.
-Dialogue: 0,0:14:07.38,0:14:10.84,Default,,0,0,0,,{\an5}He probably normally\Nplays the game from home,
 Dialogue: 0,0:14:07.38,0:14:10.84,Default,,0,0,0,,Скорее всего он обычно играет из дома,
-Dialogue: 0,0:14:10.84,0:14:13.84,Default,,0,0,0,,{\an5}but when he does account\Nhacking or other dicey stuff,
 Dialogue: 0,0:14:10.84,0:14:13.84,Default,,0,0,0,,но во время взлома аккаунтов или скачивания порно,
-Dialogue: 0,0:14:13.84,0:14:15.76,Default,,0,0,0,,{\an5}I'll bet he uses some other IP.
 Dialogue: 0,0:14:13.84,0:14:15.76,Default,,0,0,0,,он использует другой IP, зуб даю.
-Dialogue: 0,0:14:15.76,0:14:17.76,Default,,0,0,0,,{\an5}So what do we do, grin and bear it?
 Dialogue: 0,0:14:15.76,0:14:17.76,Default,,0,0,0,,И теперь ему всё сойдёт с рук?
-Dialogue: 0,0:14:17.76,0:14:19.77,Default,,0,0,0,,{\an5}Please excuse me for interrupting you
 Dialogue: 0,0:14:17.76,0:14:19.77,Default,,0,0,0,,Вы меня конечно извините,
-Dialogue: 0,0:14:19.77,0:14:21.10,Default,,0,0,0,,{\an5}while you are talking.
 Dialogue: 0,0:14:19.77,0:14:21.10,Default,,0,0,0,,но я просто мимо крокодил.
-Dialogue: 0,0:14:21.10,0:14:22.64,Default,,0,0,0,,{\an5}The Black Magician!
 Dialogue: 0,0:14:21.10,0:14:22.64,Default,,0,0,0,,Чёрный Властелин-сан!
-Dialogue: 0,0:14:22.64,0:14:25.73,Default,,0,0,0,,{\an5}I've discovered some somewhat bad news.
 Dialogue: 0,0:14:22.64,0:14:25.73,Default,,0,0,0,,У меня для вас нейтральные сведения с негативным оттенком.
-Dialogue: 0,0:14:25.73,0:14:27.94,Default,,0,0,0,,{\an5}Would you take a look at this URL?
 Dialogue: 0,0:14:25.73,0:14:27.94,Default,,0,0,0,,Гляньте ссылку в личке.
-Dialogue: 0,0:14:34.32,0:14:36.82,Default,,0,0,0,,{\an5}"LON's Scam Blog"?
 Dialogue: 0,0:14:34.32,0:14:36.82,Default,,0,0,0,,Жежешечка кидалы Лона?
-Dialogue: 0,0:14:36.28,0:14:39.24,Def_Top,,0,0,0,,{\an5}"LON's Scam Blog"
 Dialogue: 0,0:14:36.28,0:14:39.24,Def_Top,,0,0,0,,
-Dialogue: 0,0:14:36.83,0:14:38.20,Default,,0,0,0,,{\an5}What is this?!
 Dialogue: 0,0:14:36.83,0:14:38.20,Default,,0,0,0,,Я на такое не пописывался!
-Dialogue: 0,0:14:38.20,0:14:42.66,Default,,0,0,0,,{\an5}The blog of a famous swindler\Nwho runs scams on all sorts of games.
 Dialogue: 0,0:14:38.20,0:14:42.66,Default,,0,0,0,,Блог довольно известного мошенника специализирующегося на разного рода играх.
-Dialogue: 0,0:14:42.66,0:14:46.08,Default,,0,0,0,,{\an5}He jokes about when he hacked\Nyour account on there, as well.
 Dialogue: 0,0:14:42.66,0:14:46.08,Default,,0,0,0,,Он уже оставил запись о том, как обвёл тебя вокруг пальца.
-Dialogue: 0,0:14:46.08,0:14:49.34,Default,,0,0,0,,{\an5}Damn it! Screw that [oink] bastard!
 Dialogue: 0,0:14:46.08,0:14:49.34,Default,,0,0,0,,Вот гад! На [хрю] вертела этого подонка!
-Dialogue: 0,0:14:49.34,0:14:52.26,Default,,0,0,0,,{\an5}I'd like to mash the [oink] out of that guy!
 Dialogue: 0,0:14:49.34,0:14:52.26,Default,,0,0,0,,Да я его вместе с [хрю] съем!
-Dialogue: 0,0:14:52.26,0:14:54.97,Default,,0,0,0,,{\an5}Hey, it's not printing those\Nwords in the chat window.
 Dialogue: 0,0:14:52.26,0:14:54.97,Default,,0,0,0,,Смотри, чтобы молчанку не выписали.
-Dialogue: 0,0:14:54.97,0:14:59.01,Default,,0,0,0,,{\an5}This guy really is a nauseating piece of [oink].
 Dialogue: 0,0:14:54.97,0:14:59.01,Default,,0,0,0,,Он и правда ссаного [хрю] кусок.
-Dialogue: 0,0:15:00.72,0:15:05.77,Default,,0,0,0,,{\an5}He's a show-off miscreant who can't\Nhelp but announce his misdeeds.
 Dialogue: 0,0:15:00.72,0:15:05.77,Default,,0,0,0,,Таких позеров как он хлебом не корми, только дай собрать лайков на чужих фейлах.
-Dialogue: 0,0:15:05.77,0:15:07.56,Default,,0,0,0,,{\an5}There are lots of these types on the net.
 Dialogue: 0,0:15:05.77,0:15:07.56,Default,,0,0,0,,В сети полно подобных поциентов.
-Dialogue: 0,0:15:07.56,0:15:11.40,Default,,0,0,0,,{\an5}On top of which, he also\Napparently dabbles in RMT.
 Dialogue: 0,0:15:07.56,0:15:11.40,Default,,0,0,0,,Есть подозрение, что в нашем случае не обошлось без БЗР.
-Dialogue: 0,0:15:11.40,0:15:15.07,Default,,0,0,0,,{\an5}Though he seems to be careful\Nenough not to get caught.
 Dialogue: 0,0:15:11.40,0:15:15.07,Default,,0,0,0,,Но он весьма осторожен, чтобы можно было это заявлять 100%.
-Dialogue: 0,0:15:15.07,0:15:16.99,Default,,0,0,0,,{\an5}RMT?
 Dialogue: 0,0:15:15.07,0:15:16.99,Default,,0,0,0,,БЗР?
-Dialogue: 0,0:15:16.99,0:15:19.49,Default,,0,0,0,,{\an5}You don't know what that is, either?
 Dialogue: 0,0:15:16.99,0:15:19.49,Default,,0,0,0,,Ты и этого не знаешь?
-Dialogue: 0,0:15:19.49,0:15:21.74,Default,,0,0,0,,{\an5}Real money trades--
 Dialogue: 0,0:15:19.49,0:15:21.74,Default,,0,0,0,,Байты за реал —
-Dialogue: 0,0:15:21.75,0:15:27.08,Default,,0,0,0,,{\an5}the act of exchanging in-game money\Nor items for real-life cash.
 Dialogue: 0,0:15:21.75,0:15:27.08,Default,,0,0,0,,это когда происходит обмен виртуальных ништяков за живые деньги.
-Dialogue: 0,0:15:27.08,0:15:29.13,Default,,0,0,0,,{\an5}In {\i1}LA{\i0}, it's against the terms of service.
 Dialogue: 0,0:15:27.08,0:15:29.13,Default,,0,0,0,,Хотя в LA это запрещено.
-Dialogue: 0,0:15:29.21,0:15:30.29,Default,,0,0,0,,{\an5}That's it!
 Dialogue: 0,0:15:29.21,0:15:30.29,Default,,0,0,0,,Эврика!
-Dialogue: 0,0:15:30.30,0:15:32.84,Default,,0,0,0,,{\an5}It sounds as though you had an idea.
 Dialogue: 0,0:15:30.30,0:15:32.84,Default,,0,0,0,,Неужели родил второй закон термодинамики?
-Dialogue: 0,0:15:32.84,0:15:35.01,Default,,0,0,0,,{\an5}I'm not sure whether it will work or not,
 Dialogue: 0,0:15:32.84,0:15:35.01,Default,,0,0,0,,Не знаю сработает это или нет,
-Dialogue: 0,0:15:35.01,0:15:38.39,Default,,0,0,0,,{\an5}but we might be able to at least\Ncatch that swindling bastard.
 Dialogue: 0,0:15:35.01,0:15:38.39,Default,,0,0,0,,но кажется, я знаю способ вывести кидалу на чистую воду.
-Dialogue: 0,0:15:48.27,0:15:51.44,Default,,0,0,0,,{\an5}Nishimura is making us\Ncook something like this up?
 Dialogue: 0,0:15:48.27,0:15:51.44,Default,,0,0,0,,Нисимура такую-то дичь выдумал, просто 10 из 10.
-Dialogue: 0,0:15:51.44,0:15:54.65,Default,,0,0,0,,{\an5}If this doesn't work,\Nhe'd better say his prayers.
 Dialogue: 0,0:15:51.44,0:15:54.65,Default,,0,0,0,,Если это не прокатит, я его и из реала удалю.
-Dialogue: 0,0:15:55.65,0:15:57.28,Default,,0,0,0,,{\an5}I sure am sleepy.
 Dialogue: 0,0:15:55.65,0:15:57.28,Default,,0,0,0,,Щас бы яблочко куснуть.
-Dialogue: 0,0:15:57.28,0:15:59.49,Default,,0,0,0,,{\an5}I've been up overnight\Nthree days straight, after all.
 Dialogue: 0,0:15:57.28,0:15:59.49,Default,,0,0,0,,За три дня спал часов 6 от силы.
-Dialogue: 0,0:15:59.49,0:16:01.87,Default,,0,0,0,,{\an5}Not to mention I'm getting hungry.
 Dialogue: 0,0:15:59.49,0:16:01.87,Default,,0,0,0,,А теперь ещё и голод душит.
-Dialogue: 0,0:16:03.33,0:16:05.66,Default,,0,0,0,,{\an5}Huh? Sounds like someone's here.
 Dialogue: 0,0:16:03.33,0:16:05.66,Default,,0,0,0,,А? Кого там принесло?
-Dialogue: 0,0:16:08.17,0:16:10.71,Default,,0,0,0,,{\an5}Yes, yes, I'm coming!
 Dialogue: 0,0:16:08.17,0:16:10.71,Default,,0,0,0,,Иду-иду, не трезвонь.
-Dialogue: 0,0:16:15.76,0:16:17.63,Default,,0,0,0,,{\an5}I just dropped by--
 Dialogue: 0,0:16:15.76,0:16:17.63,Default,,0,0,0,,А вот и я…
-Dialogue: 0,0:16:17.63,0:16:20.85,Default,,0,0,0,,{\an5}Why did you close the door?!
 Dialogue: 0,0:16:17.63,0:16:20.85,Default,,0,0,0,,Ты там совсем берега попутал?
-Dialogue: 0,0:16:20.85,0:16:23.18,Default,,0,0,0,,{\an5}Geez, what kind of treatment was that?
 Dialogue: 0,0:16:20.85,0:16:23.18,Default,,0,0,0,,Слышь, это что такое было?
-Dialogue: 0,0:16:23.18,0:16:25.35,Default,,0,0,0,,{\an5}Sorry, it was just reflex.
 Dialogue: 0,0:16:23.18,0:16:25.35,Default,,0,0,0,,Прости, рука сама дрогнула.
-Dialogue: 0,0:16:25.35,0:16:28.10,Default,,0,0,0,,{\an5}Your wife has come to the family home,
 Dialogue: 0,0:16:25.35,0:16:28.10,Default,,0,0,0,,Твоя жена пришла к тебе домой,
-Dialogue: 0,0:16:28.10,0:16:31.31,Default,,0,0,0,,{\an5}so you might offer her a\Nwarm welcome, you know.
 Dialogue: 0,0:16:28.10,0:16:31.31,Default,,0,0,0,,и не может рассчитывать на радушный приём?
-Dialogue: 0,0:16:31.32,0:16:33.94,Default,,0,0,0,,{\an5}Wait, you're not my wife anymore, right?
 Dialogue: 0,0:16:31.32,0:16:33.94,Default,,0,0,0,,Стоп, де-юре ты больше не моя жена.
-Dialogue: 0,0:16:33.94,0:16:35.28,Default,,0,0,0,,{\an5}Huh?
 Dialogue: 0,0:16:33.94,0:16:35.28,Default,,0,0,0,,Э?
-Dialogue: 0,0:16:35.28,0:16:40.99,Default,,0,0,0,,{\an5}I mean, the moment Rusian vanished,\Nour marriage was annulled.
 Dialogue: 0,0:16:35.28,0:16:40.99,Default,,0,0,0,,Дык сразу после удаления Русияна брак был расторгнут.
-Dialogue: 0,0:16:40.99,0:16:42.83,Default,,0,0,0,,{\an5}We're divorced?!
 Dialogue: 0,0:16:40.99,0:16:42.83,Default,,0,0,0,,Мы в разводе?
-Dialogue: 0,0:16:42.83,0:16:45.41,Default,,0,0,0,,{\an5}You didn't realize that?
 Dialogue: 0,0:16:42.83,0:16:45.41,Default,,0,0,0,,Ты только сейчас это поняла?
-Dialogue: 0,0:16:45.41,0:16:47.75,Default,,0,0,0,,{\an5}Rusian disappearing was such a shock to me.
 Dialogue: 0,0:16:45.41,0:16:47.75,Default,,0,0,0,,Исчезновение Русияна выбило меня из колеи.
-Dialogue: 0,0:16:47.75,0:16:49.96,Default,,0,0,0,,{\an5}I can't believe we're not married now.
 Dialogue: 0,0:16:47.75,0:16:49.96,Default,,0,0,0,,Неужели мы больше не женаты.
-Dialogue: 0,0:16:49.96,0:16:53.42,Default,,0,0,0,,{\an5}H-How could that phony Rusian\Ndo something like this to me?!
 Dialogue: 0,0:16:49.96,0:16:53.42,Default,,0,0,0,,Да как этот Лжерусиян мог так со мной поступить?!
-Dialogue: 0,0:16:53.42,0:16:56.13,Default,,0,0,0,,{\an5}Who knew he was such a villain?!
 Dialogue: 0,0:16:53.42,0:16:56.13,Default,,0,0,0,,Нельзя же быть настолько подлым!
-Dialogue: 0,0:16:56.13,0:16:57.84,Default,,0,0,0,,{\an5}It took you long enough to get angry!
 Dialogue: 0,0:16:56.13,0:16:57.84,Default,,0,0,0,,Как-то ты запоздала с проклятиями!
-Dialogue: 0,0:16:57.84,0:17:02.30,Default,,0,0,0,,{\an5}Which means that right now...\NWhat {\i1}is{\i0} our relationship, Rusian?
 Dialogue: 0,0:16:57.84,0:17:02.30,Default,,0,0,0,,Но раз так… Каким словом описать наши отношения?
-Dialogue: 0,0:17:02.30,0:17:04.60,Default,,0,0,0,,{\an5}Uh... friends?
 Dialogue: 0,0:17:02.30,0:17:04.60,Default,,0,0,0,,Эм… «френдзона»?
-Dialogue: 0,0:17:07.98,0:17:09.48,Default,,0,0,0,,{\an5}Oh, no...
 Dialogue: 0,0:17:07.98,0:17:09.48,Default,,0,0,0,,Писец…
-Dialogue: 0,0:17:11.52,0:17:15.69,Default,,0,0,0,,{\an5}Um, if we're no longer a married couple,
 Dialogue: 0,0:17:11.52,0:17:15.69,Default,,0,0,0,,Это… Хоть мы больше и не супруги,
-Dialogue: 0,0:17:15.69,0:17:19.28,Default,,0,0,0,,{\an5}then is this no longer welcome?
 Dialogue: 0,0:17:15.69,0:17:19.28,Default,,0,0,0,,но не отведаешь явств домашнего приготовления?
-Dialogue: 0,0:17:19.28,0:17:20.28,Default,,0,0,0,,{\an5}Whoa!
 Dialogue: 0,0:17:19.28,0:17:20.28,Default,,0,0,0,,Ооо!
-Dialogue: 0,0:17:20.28,0:17:23.45,Default,,0,0,0,,{\an5}I don't know exactly what it is you're up to,
 Dialogue: 0,0:17:20.28,0:17:23.45,Default,,0,0,0,,Я не до конца въезжаю, чем вы сейчас занимаетесь,
-Dialogue: 0,0:17:23.45,0:17:27.87,Default,,0,0,0,,{\an5}but you are working so hard,\NI thought I would make you something.
 Dialogue: 0,0:17:23.45,0:17:27.87,Default,,0,0,0,,но дело явно непростое, и я хотела бы как-то помочь.
-Dialogue: 0,0:17:27.87,0:17:31.83,Default,,0,0,0,,{\an5}I was wondering what I\Nwould do about lunch! Thanks!
 Dialogue: 0,0:17:27.87,0:17:31.83,Default,,0,0,0,,Очень вовремя! У меня только-только аппетит разыгрался!
-Dialogue: 0,0:17:31.83,0:17:35.25,Default,,0,0,0,,{\an5}All right, after I eat this,\NI'm ready for the final stretch!
 Dialogue: 0,0:17:31.83,0:17:35.25,Default,,0,0,0,,Ладно, ща похаваю, чтобы хватило сил на последний рывок!
-Dialogue: 0,0:17:35.25,0:17:36.92,Default,,0,0,0,,{\an5}--Um...\N--Hmm?
 Dialogue: 0,0:17:35.25,0:17:36.92,Default,,0,0,0,,— Это…\N— М?
-Dialogue: 0,0:17:36.92,0:17:41.34,Default,,0,0,0,,{\an5}I know that you're working hard,\Nbut please don't overdo it, okay?
 Dialogue: 0,0:17:36.92,0:17:41.34,Default,,0,0,0,,Ты усердствуешь не покладая рук, но, пожалуйста, не загоняй себя в гроб.
-Dialogue: 0,0:17:41.34,0:17:45.64,Default,,0,0,0,,{\an5}Rusian, having you stay well is\Nthe most important thing, after all.
 Dialogue: 0,0:17:41.34,0:17:45.64,Default,,0,0,0,,Для меня твоё благополучие важнее всего на свете.
-Dialogue: 0,0:17:48.02,0:17:53.35,Default,,0,0,0,,{\an5}Ako, of all the things you've ever said,\Nthat was the most wife-like.
 Dialogue: 0,0:17:48.02,0:17:53.35,Default,,0,0,0,,Ако, сейчас тебе удалось сказать именно то, что я хотел бы услышать от своей жены.
-Dialogue: 0,0:18:02.99,0:18:06.62,Default,,0,0,0,,{\an5}"The Wanna-be-Famous Swindler's Blog."
 Dialogue: 0,0:18:02.99,0:18:06.62,Default,,0,0,0,,«Кидалоблог (воннаби)»
-Dialogue: 0,0:18:06.62,0:18:10.08,Default,,0,0,0,,{\an5}I get an email from someone saying\Nthey found a blog better than mine,
 Dialogue: 0,0:18:06.62,0:18:10.08,Default,,0,0,0,,Значит какой-то нонейм пишет, что нашёл ресурс получше моего.
-Dialogue: 0,0:18:10.08,0:18:12.87,Default,,0,0,0,,{\an5}and when I take a peek\Nto see what it's all about,
 Dialogue: 0,0:18:10.08,0:18:12.87,Default,,0,0,0,,Смотрю и не вижу ничего такого —
-Dialogue: 0,0:18:12.87,0:18:14.96,Default,,0,0,0,,{\an5}what kind of cheap knockoff do I find?
 Dialogue: 0,0:18:12.87,0:18:14.96,Default,,0,0,0,,выглядит как дешёвая подделка.
-Dialogue: 0,0:18:16.46,0:18:20.17,Default,,0,0,0,,{\an5}From the Nekohime's Elite Guard\Nmembership fee collection scam
 Dialogue: 0,0:18:16.46,0:18:20.17,Default,,0,0,0,,Пишет как развёл на голду элитную гвардию Некохиме,
-Dialogue: 0,0:18:20.17,0:18:24.30,Default,,0,0,0,,{\an5}to swindling the Black Magician\Nout of rare items...
 Dialogue: 0,0:18:20.17,0:18:24.30,Default,,0,0,0,,а потом Чёрного Властелина на рарный дроп…
-Dialogue: 0,0:18:24.30,0:18:26.60,Default,,0,0,0,,{\an5}This guy's not too shabby.
 Dialogue: 0,0:18:24.30,0:18:26.60,Default,,0,0,0,,Не такое уж и дно.
-Dialogue: 0,0:18:27.60,0:18:29.56,Default,,0,0,0,,{\an5}There's even a trading board here.
 Dialogue: 0,0:18:27.60,0:18:29.56,Default,,0,0,0,,Тут и торговая площадка есть.
-Dialogue: 0,0:18:30.56,0:18:33.81,Default,,0,0,0,,{\an5}"Seeking RMTs in {\i1}LA{\i0}," huh?
 Dialogue: 0,0:18:30.56,0:18:33.81,Default,,0,0,0,,«Покупаю БЗР в LA»?
-Dialogue: 0,0:18:40.74,0:18:42.70,Default,,0,0,0,,{\an5}These rates aren't half bad.
 Dialogue: 0,0:18:40.74,0:18:42.70,Default,,0,0,0,,Стоит сделать контрольную закупку.
-Dialogue: 0,0:18:48.58,0:18:52.12,Default,,0,0,0,,{\an5}It's just about time. Is everything ready?
 Dialogue: 0,0:18:48.58,0:18:52.12,Default,,0,0,0,,Время на подходе. У нас всё готово?
-Dialogue: 0,0:18:52.12,0:18:53.12,Default,,0,0,0,,{\an5}No problem.
 Dialogue: 0,0:18:52.12,0:18:53.12,Default,,0,0,0,,Всё пучком.
-Dialogue: 0,0:18:53.12,0:18:54.12,Default,,0,0,0,,{\an5}All right.
 Dialogue: 0,0:18:53.12,0:18:54.12,Default,,0,0,0,,Збс.
-Dialogue: 0,0:18:54.12,0:18:55.37,Default,,0,0,0,,{\an5}Let's get started!
 Dialogue: 0,0:18:54.12,0:18:55.37,Default,,0,0,0,,Поехали!
-Dialogue: 0,0:18:55.38,0:18:56.38,Default,,0,0,0,,{\an5}Roger!
 Dialogue: 0,0:18:55.38,0:18:56.38,Default,,0,0,0,,Есть!
-Dialogue: 0,0:19:04.63,0:19:06.30,Default,,0,0,0,,{\an5}Target confirmed!
 Dialogue: 0,0:19:04.63,0:19:06.30,Default,,0,0,0,,Цель обнаружена!
-Dialogue: 0,0:19:08.26,0:19:09.76,Default,,0,0,0,,{\an5}The character's name is Shoko.
 Dialogue: 0,0:19:08.26,0:19:09.76,Default,,0,0,0,,Никнейм «Шоко».
-Dialogue: 0,0:19:09.77,0:19:12.35,Default,,0,0,0,,{\an5}Shoko is even more ridiculous than LON.
 Dialogue: 0,0:19:09.77,0:19:12.35,Default,,0,0,0,,Не мне об этом говорить, но звучит нелепо.
-Dialogue: 0,0:19:12.85,0:19:14.39,Def_Top,,0,0,0,,{\an5}"Trade Request"\N"Decline" "Accept"
 Dialogue: 0,0:19:12.85,0:19:14.39,Def_Top,,0,0,0,,[Торговать?]\N[Нет]   [Да]
-Dialogue: 0,0:19:14.60,0:19:18.52,Default,,0,0,0,,{\an5}The mission is proceeding\Nto Phase 2. Plan N, start!
 Dialogue: 0,0:19:14.60,0:19:18.52,Default,,0,0,0,,Переходим ко второй фазе. Следовать плану N!
-Dialogue: 0,0:19:18.52,0:19:19.52,Default,,0,0,0,,{\an5}Roger!
 Dialogue: 0,0:19:18.52,0:19:19.52,Default,,0,0,0,,Есть!
-Dialogue: 0,0:19:25.49,0:19:27.45,Default,,0,0,0,,{\an5}What's happening with Plan N?
 Dialogue: 0,0:19:25.49,0:19:27.45,Default,,0,0,0,,С нашей стороны пули ушли.
-Dialogue: 0,0:19:27.45,0:19:29.12,Default,,0,0,0,,{\an5}Waiting for the admins to respond.
 Dialogue: 0,0:19:27.45,0:19:29.12,Default,,0,0,0,,Ждём ответа от админов.
-Dialogue: 0,0:19:29.12,0:19:30.66,Default,,0,0,0,,{\an5}Another 30 seconds.
 Dialogue: 0,0:19:29.12,0:19:30.66,Default,,0,0,0,,Ещё 30 секунд.
-Dialogue: 0,0:19:31.87,0:19:33.50,Default,,0,0,0,,{\an5}Master, how long?
 Dialogue: 0,0:19:31.87,0:19:33.50,Default,,0,0,0,,Лидер, сколько ещё?
-Dialogue: 0,0:19:33.50,0:19:34.91,Default,,0,0,0,,{\an5}Another 15 seconds.
 Dialogue: 0,0:19:33.50,0:19:34.91,Default,,0,0,0,,15 секунд.
-Dialogue: 0,0:19:34.92,0:19:36.87,Default,,0,0,0,,{\an5}He's not going to wait much longer!
 Dialogue: 0,0:19:34.92,0:19:36.87,Default,,0,0,0,,Сейчас сорвётся с крючка!
-Dialogue: 0,0:19:36.88,0:19:39.08,Default,,0,0,0,,{\an5}Hold on. A little longer...
 Dialogue: 0,0:19:36.88,0:19:39.08,Default,,0,0,0,,Ждём. Ещё чуть-чуть…
-Dialogue: 0,0:19:39.09,0:19:40.17,Default,,0,0,0,,{\an5}A little longer...
 Dialogue: 0,0:19:39.09,0:19:40.17,Default,,0,0,0,,2 на ниточке…
-Dialogue: 0,0:19:41.17,0:19:42.84,Default,,0,0,0,,{\an5}Okay, there they are!
 Dialogue: 0,0:19:41.17,0:19:42.84,Default,,0,0,0,,Ок, началось!
-Dialogue: 0,0:19:48.68,0:19:51.72,Default,,0,0,0,,{\an5}I am the Gamemaster Nyack.
 Dialogue: 0,0:19:48.68,0:19:51.72,Default,,0,0,0,,Я гейммастер Няк.
-Dialogue: 0,0:19:51.72,0:19:56.52,Default,,0,0,0,,{\an5}Do you know why the two of you\Nwere transferred here?
 Dialogue: 0,0:19:51.72,0:19:56.52,Default,,0,0,0,,Надеюсь, вы понимаете почему были перенесены в эту область.
-Dialogue: 0,0:19:57.52,0:19:59.69,Default,,0,0,0,,{\an5}The administrators have received word
 Dialogue: 0,0:19:57.52,0:19:59.69,Default,,0,0,0,,Сорока на хвосте принесла,
-Dialogue: 0,0:19:59.69,0:20:04.61,Default,,0,0,0,,{\an5}that the two of you are\Nengaging in RMT activities.
 Dialogue: 0,0:19:59.69,0:20:04.61,Default,,0,0,0,,что вы двое занимаестесь БЗР-торговлей.
-Dialogue: 0,0:20:04.61,0:20:07.28,Default,,0,0,0,,{\an5}--What do you mean--\N--Yes, we are.
 Dialogue: 0,0:20:04.61,0:20:07.28,Default,,0,0,0,,— Что за х…\N— Да! Именно так.
-Dialogue: 0,0:20:07.28,0:20:08.49,Default,,0,0,0,,{\an5}Huh?!
 Dialogue: 0,0:20:07.28,0:20:08.49,Default,,0,0,0,,Что?
-Dialogue: 0,0:20:08.49,0:20:11.03,Default,,0,0,0,,{\an5}This person contacted me on a trading board,
 Dialogue: 0,0:20:08.49,0:20:11.03,Default,,0,0,0,,Вот этот вот связался со мной на торговой площадке
-Dialogue: 0,0:20:11.03,0:20:14.37,Default,,0,0,0,,{\an5}and was indeed about to\Nengage in RMT with me.
 Dialogue: 0,0:20:11.03,0:20:14.37,Default,,0,0,0,,и всерьёз намеревался произвести БЗР-транзакцию.
-Dialogue: 0,0:20:14.87,0:20:17.75,Default,,0,0,0,,{\an5}You set me up?
 Dialogue: 0,0:20:14.87,0:20:17.75,Default,,0,0,0,,Это подстава?
-Dialogue: 0,0:20:17.75,0:20:20.38,Default,,0,0,0,,{\an5}You're the one who set me up first.
 Dialogue: 0,0:20:17.75,0:20:20.38,Default,,0,0,0,,Ты первый начал.
-Dialogue: 0,0:20:21.96,0:20:25.09,Default,,0,0,0,,{\an5}You're not that guy from\Nthe other day, are you?
 Dialogue: 0,0:20:21.96,0:20:25.09,Default,,0,0,0,,Только не говори мне, что ты тот самый простофиля{лох}.
-Dialogue: 0,0:20:29.72,0:20:35.02,Default,,0,0,0,,{\an5}Still, what does an attempted RMT\Nwhere no money changed hands prove?
 Dialogue: 0,0:20:29.72,0:20:35.02,Default,,0,0,0,,И что теперь? Никакого обмена денег не было, вам нечего мне предъявить.
-Dialogue: 0,0:20:35.02,0:20:38.39,Default,,0,0,0,,{\an5}At most, it warrants a\None-week account lockout, right?
 Dialogue: 0,0:20:35.02,0:20:38.39,Default,,0,0,0,,В худшем случае вы можете залочить мой аккаунт на неделю.
-Dialogue: 0,0:20:38.40,0:20:44.44,Default,,0,0,0,,{\an5}No, you have also been accused of\Naccount hacking via the character "Rontan."
 Dialogue: 0,0:20:38.40,0:20:44.44,Default,,0,0,0,,Это не всё. Тебе также вменяется мультоводство под другим аккаунтом с чаром «Ронтан».
-Dialogue: 0,0:20:44.44,0:20:47.44,Default,,0,0,0,,{\an5}Rontan? Who cares about that guy?
 Dialogue: 0,0:20:44.44,0:20:47.44,Default,,0,0,0,,Ронтан? Впервые слышу.
-Dialogue: 0,0:20:47.45,0:20:50.95,Default,,0,0,0,,{\an5}Based on the IP submitted\Nfrom the trading board,
 Dialogue: 0,0:20:47.45,0:20:50.95,Default,,0,0,0,,Получив IP-адрес, под которым ты заходил на торговую площадку,
-Dialogue: 0,0:20:50.95,0:20:55.95,Default,,0,0,0,,{\an5}we have determined that you have\Ncommitted illegal access violations
 Dialogue: 0,0:20:50.95,0:20:55.95,Default,,0,0,0,,нам стало известно всё о твоих злодеяниях.
-Dialogue: 0,0:20:55.95,0:20:58.46,Default,,0,0,0,,{\an5}and are considering filing charges.
 Dialogue: 0,0:20:55.95,0:20:58.46,Default,,0,0,0,,Твоя вина полностью доказана.
-Dialogue: 0,0:20:58.46,0:21:02.00,Default,,0,0,0,,{\an5}You can't buffalo me!\NThere's no way a site that dirty
 Dialogue: 0,0:20:58.46,0:21:00.11,Default,,0,0,0,,Дичь мне не втирайте!
-Dialogue: 0,0:21:02.00,0:21:04.34,Default,,0,0,0,,{\an5}is going to turn IPs over to any administrator!
 Dialogue: 0,0:21:00.11,0:21:04.34,Default,,0,0,0,,Подобный сайт никогда не выдаст\Nперсональные данные кому бы то ни было.
-Dialogue: 0,0:21:04.34,0:21:06.38,Default,,0,0,0,,{\an5}Or so you thought,\Nand that's when you got sloppy.
 Dialogue: 0,0:21:04.34,0:21:06.38,Default,,0,0,0,,Хорошо, что удалось тебя в этом убедить.
-Dialogue: 0,0:21:06.38,0:21:07.42,Default,,0,0,0,,{\an5}Huh?
 Dialogue: 0,0:21:06.38,0:21:07.42,Default,,0,0,0,,А?
-Dialogue: 0,0:21:07.42,0:21:10.72,Default,,0,0,0,,{\an5}That's {\i1}my{\i0} site--one that\NI put up three days ago.
 Dialogue: 0,0:21:07.42,0:21:10.72,Default,,0,0,0,,{\i1}Мой{\i0} сайт заработал три дня назад.
-Dialogue: 0,0:21:10.72,0:21:14.51,Default,,0,0,0,,{\an5}What are you talking about?\NThat site has posts going back for years.
 Dialogue: 0,0:21:10.72,0:21:14.51,Default,,0,0,0,,Булщит! Там куча постов, которым по несколько лет.
-Dialogue: 0,0:21:14.51,0:21:16.60,Default,,0,0,0,,{\an5}Man, was it ever a lot of work,
 Dialogue: 0,0:21:14.51,0:21:16.60,Default,,0,0,0,,Да уж, а ведь было не так просто
-Dialogue: 0,0:21:16.60,0:21:19.85,Default,,0,0,0,,{\an5}fabricating several years' worth\Nof authentic-sounding posts!
 Dialogue: 0,0:21:16.60,0:21:19.85,Default,,0,0,0,,сочинить столько убедительных постов на пару лет назад.
-Dialogue: 0,0:21:19.85,0:21:23.15,Default,,0,0,0,,{\an5}You don't mean...
 Dialogue: 0,0:21:19.85,0:21:23.15,Default,,0,0,0,,То есть ты…
-Dialogue: 0,0:21:23.15,0:21:27.69,Default,,0,0,0,,{\an5}...you faked an entire {\i1}site{\i0} just to set me up?!
 Dialogue: 0,0:21:23.15,0:21:27.69,Default,,0,0,0,,…создал этот сайт, чтобы выйти на мой след?!
-Dialogue: 0,0:21:29.65,0:21:31.36,Default,,0,0,0,,{\an5}What are you, an idiot?!
 Dialogue: 0,0:21:29.65,0:21:31.36,Default,,0,0,0,,Совсем поехал што ле?
-Dialogue: 0,0:21:31.36,0:21:34.12,Default,,0,0,0,,{\an5}You wasted that much time\Njust to trick one person?!
 Dialogue: 0,0:21:31.36,0:21:34.12,Default,,0,0,0,,Никто в здравом уме будет так надрываться!
-Dialogue: 0,0:21:34.12,0:21:36.87,Default,,0,0,0,,{\an5}Maybe I am. Still...
 Dialogue: 0,0:21:34.12,0:21:36.87,Default,,0,0,0,,Может быть. Но…
-Dialogue: 0,0:21:36.87,0:21:42.04,Default,,0,0,0,,{\an5}Don't think that after you made my\Nwife cry, you weren't going to pay!
 Dialogue: 0,0:21:36.87,0:21:42.04,Default,,0,0,0,,…ты довёл мою жену до слёз\Nи думал выйти сухим из воды?
-Dialogue: 0,0:21:43.63,0:21:48.46,Default,,0,0,0,,{\an5}So the reason you all stayed up nights\Nwas to make that fake site?
 Dialogue: 0,0:21:43.63,0:21:48.46,Default,,0,0,0,,И вы не спали ночами, чтобы сваять свой сайт с блекджеком и шлюпками?
-Dialogue: 0,0:21:48.46,0:21:51.01,Default,,0,0,0,,{\an5}Yeah. We have him logged
 Dialogue: 0,0:21:48.46,0:21:51.01,Default,,0,0,0,,Да. Затем ждали, когда он объявится
-Dialogue: 0,0:21:50.55,0:21:55.43,Def_Top,,0,0,0,,{\an5}"Rontan" "Write Logs" "Illegal Access"
 Dialogue: 0,0:21:50.55,0:21:55.43,Def_Top,,0,0,0,,[Ронтан]   [Логи]   [Злоумышленник]
-Dialogue: 0,0:21:51.01,0:21:54.80,Default,,0,0,0,,{\an5}responding to that trade request\Nfrom home, not knowing it was a trap.
 Dialogue: 0,0:21:51.01,0:21:54.80,Default,,0,0,0,,клюнув на предложение о торговле, не подозревая о ловушке.
-Dialogue: 0,0:21:54.80,0:21:58.06,Default,,0,0,0,,{\an5}Then, he showed up as the\Ncharacter Shoko for the deal.
 Dialogue: 0,0:21:54.80,0:21:58.06,Default,,0,0,0,,Потом он пришёл заключать сделку под личиной Шоко.
-Dialogue: 0,0:21:55.43,0:22:05.44,Def_Top,,0,0,0,,{\an5}"Rontan" "Write Logs" "Illegal Access"\N"Shoko"
 Dialogue: 0,0:21:55.43,0:22:05.44,Def_Top,,0,0,0,,[Ронтан]   [Логи]   [Шоко]   [Злоумышленник]
-Dialogue: 0,0:21:58.06,0:22:03.15,Default,,0,0,0,,{\an5}Whenever he did anything dodgy,\Nhe was careful to use a separate IP.
 Dialogue: 0,0:21:58.06,0:22:03.15,Default,,0,0,0,,Совершая противоправные действия он предусмотрительно скрывался под другим IP.
-Dialogue: 0,0:22:03.15,0:22:05.44,Default,,0,0,0,,{\an5}Including, of course,\Nwhen he hacked my account.
 Dialogue: 0,0:22:03.15,0:22:05.44,Default,,0,0,0,,Разумеется и при взломе аккаунтов.
-Dialogue: 0,0:22:05.65,0:22:08.36,Default,,0,0,0,,{\an5}The admins took the gracious\Nstep of locking Rusian's--
 Dialogue: 0,0:22:05.65,0:22:08.36,Default,,0,0,0,,Приятно, что админы смилостивились над Русияном
-Dialogue: 0,0:22:08.36,0:22:13.74,Default,,0,0,0,,{\an5}I mean, Piroshiki-{\i1}kun{\i0}'s account for\Nthree days for an attempted RMT.
 Dialogue: 0,0:22:08.36,0:22:13.74,Default,,0,0,0,,(точнее Пирожки-куном) и заблокировали аккаунт лишь на три дня за попытку БЗР.
-Dialogue: 0,0:22:13.74,0:22:17.20,Default,,0,0,0,,{\an5}I was ready for a much\Nstricter punishment, though.
 Dialogue: 0,0:22:13.74,0:22:17.20,Default,,0,0,0,,Вообще я был готов к более суровому наказанию.
-Dialogue: 0,0:22:17.20,0:22:21.71,Default,,0,0,0,,{\an5}Not to mention that they also\Nrestored Rusian's character.
 Dialogue: 0,0:22:17.20,0:22:21.71,Default,,0,0,0,,Не говоря уже о том, что они восстановили данные прежнего Русияна.
-Dialogue: 0,0:22:21.71,0:22:24.08,Default,,0,0,0,,{\an5}Yay! Yay! Yay!
 Dialogue: 0,0:22:21.71,0:22:24.08,Default,,0,0,0,,Ура! Ура! Ура!
-Dialogue: 0,0:22:24.08,0:22:26.88,Default,,0,0,0,,{\an5}Ah, that Nyack guy is seriously dreamy.
 Dialogue: 0,0:22:24.08,0:22:26.88,Default,,0,0,0,,Ах, вот Няк настоящий мужик.
-Dialogue: 0,0:22:26.88,0:22:30.67,Default,,0,0,0,,{\an5}That means that my Rusian\Nis coming back, right?
 Dialogue: 0,0:22:26.88,0:22:30.67,Default,,0,0,0,,Значит, мой Русиян вернулся ко мне.
-Dialogue: 0,0:22:30.67,0:22:33.30,Default,,0,0,0,,{\an5}All's well that ends well.
 Dialogue: 0,0:22:30.67,0:22:33.30,Default,,0,0,0,,И жили они долго и счастливо.
-Dialogue: 0,0:22:33.30,0:22:37.10,Default,,0,0,0,,{\an5}No, there's still one last matter remaining.
 Dialogue: 0,0:22:33.30,0:22:37.10,Default,,0,0,0,,Не совсем, остались ещё кое-какие формальности.
-Dialogue: 0,0:23:14.88,0:23:17.93,Default,,0,0,0,,{\an5}Ako, I know it's late to bring this up now,
 Dialogue: 0,0:23:14.88,0:23:17.93,Default,,0,0,0,,Ако, наверное поздно это говорить,
-Dialogue: 0,0:23:17.93,0:23:21.02,Default,,0,0,0,,{\an5}but when my account was hacked,\NI was honestly shocked.
 Dialogue: 0,0:23:17.93,0:23:21.02,Default,,0,0,0,,но в тот момент, когда мой аккаунт был взломан, я испугался.
-Dialogue: 0,0:23:22.02,0:23:24.39,Default,,0,0,0,,{\an5}It seemed like just by having\Nsomeone else get on as Rusian,
 Dialogue: 0,0:23:22.02,0:23:24.39,Default,,0,0,0,,Было ощущение будто вместе с Русияном
-Dialogue: 0,0:23:24.39,0:23:28.02,Default,,0,0,0,,{\an5}the relationship that you and I\Nhave was also being taken away.
 Dialogue: 0,0:23:24.39,0:23:28.02,Default,,0,0,0,,я навсегда потерял, то что связывало нас с тобой.
-Dialogue: 0,0:23:29.82,0:23:32.40,Default,,0,0,0,,{\an5}I don't ever want to go through that again.
 Dialogue: 0,0:23:29.82,0:23:32.40,Default,,0,0,0,,Не хочу чтобы это ещё раз повторилось.
-Dialogue: 0,0:23:32.40,0:23:37.24,Default,,0,0,0,,{\an5}I want to be closer,\N{\i1}closer{\i0} to you than before. So...
 Dialogue: 0,0:23:32.40,0:23:37.24,Default,,0,0,0,,Хочу стать… стать ещё ближе к тебе. Поэтому…
-Dialogue: 0,0:23:38.07,0:23:40.20,Default,,0,0,0,,{\an5}...would you like not {\i1}Rusian{\i0}, in the game,
 Dialogue: 0,0:23:38.07,0:23:40.20,Default,,0,0,0,,…сможешь ли ты полюбить не виртуального Русияна,
-Dialogue: 0,0:23:40.20,0:23:43.33,Default,,0,0,0,,{\an5}but {\i1}me{\i0}, in real life, just a little bit more?
 Dialogue: 0,0:23:40.20,0:23:43.33,Default,,0,0,0,,а реального {\i1}меня{\i0}, хотя бы чуть-чуть?
-Dialogue: 0,0:23:49.42,0:23:51.50,Default,,0,0,0,,{\an5}No, I can't.
 Dialogue: 0,0:23:49.42,0:23:51.50,Default,,0,0,0,,Не смогу.
-Dialogue: 0,0:23:51.50,0:23:54.76,Default,,0,0,0,,{\an5}After all, I can't like you a little bit more,
 Dialogue: 0,0:23:51.50,0:23:54.76,Default,,0,0,0,,Ведь не могу я чуть-чуть полюбить тебя тогда,
-Dialogue: 0,0:23:54.76,0:23:57.72,Default,,0,0,0,,{\an5}because I already love you so much now!
 Dialogue: 0,0:23:54.76,0:23:57.72,Default,,0,0,0,,когда я так сильно тебя люблю!
-Dialogue: 0,0:24:10.07,0:24:20.08,Def_Top,,0,0,0,,{\an5}"I thought if we stayed over,\Nwe would get along better?"
 Dialogue: 0,0:24:10.07,0:24:20.08,Def_Top,,0,0,0,,[Думал, если останетесь наедине, то всё пойдёт как по маслу?]
-Dialogue: 0,0:24:10.86,0:24:13.66,Default,,0,0,0,,{\an5}After what happened, I came up\Nwith a foolproof anti-hacking measure.
 Dialogue: 0,0:24:10.86,0:24:13.66,Default,,0,0,0,,В свете последних событий, я придумала абсолютный способ избежать взломов.
-Dialogue: 0,0:24:13.66,0:24:15.37,Default,,0,0,0,,{\an5}--What is it?\N--We just have to buy out the whole hotel!
 Dialogue: 0,0:24:13.66,0:24:15.37,Default,,0,0,0,,— И как же?\N— Нужно просто выкупить отель целиком!
-Dialogue: 0,0:24:15.37,0:24:17.12,Default,,0,0,0,,{\an5}--You can't do that.\N--Then we'll buy up the net circuits!
 Dialogue: 0,0:24:15.37,0:24:17.12,Default,,0,0,0,,— Это невозможно.\N— Затем мы выкупим все маршрутизаторы!
-Dialogue: 0,0:24:17.12,0:24:18.75,Default,,0,0,0,,{\an5}--You can't!\N--Even better, the admin team!
 Dialogue: 0,0:24:17.12,0:24:18.75,Default,,0,0,0,,— Не смей!— Или админов игры!
-Dialogue: 0,0:24:18.75,0:24:20.08,Default,,0,0,0,,{\an5}Stop it!
 Dialogue: 0,0:24:18.75,0:24:20.08,Default,,0,0,0,,Кончай!
