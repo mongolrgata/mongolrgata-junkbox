@@ -10,6 +10,16 @@ PlayResX: 1280
 PlayResY: 720
 PlayDepth: 16
 
+[Aegisub Project Garbage]
+Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 09 (AT-X 1280x720 x264 AAC).mkv
+Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 09 (AT-X 1280x720 x264 AAC).mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.500000
+Scroll Position: 18
+Active Line: 27
+Video Position: 1107
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,2,96,96,48,1
@@ -19,15 +29,14 @@ Style: Def_I-T,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,10
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
 Dialogue: 0,0:00:04.80,0:00:06.59,Default,,0,0,0,,{\an5}It's so big!
-Dialogue: 0,0:00:04.80,0:00:06.59,Default,,0,0,0,,
+Dialogue: 0,0:00:04.80,0:00:06.59,Default,,0,0,0,,Такой большой!
 Dialogue: 0,0:00:06.59,0:00:10.14,Default,,0,0,0,,{\an5}So people who live in houses\Nlike these {\i1}do{\i0} exist in real life.
 Dialogue: 0,0:00:06.59,0:00:10.14,Default,,0,0,0,,
 Dialogue: 0,0:00:10.14,0:00:12.43,Default,,0,0,0,,{\an5}I definitely feel out of place here.
-Dialogue: 0,0:00:10.14,0:00:12.43,Default,,0,0,0,,
+Dialogue: 0,0:00:10.14,0:00:12.43,Default,,0,0,0,,Чувствую себя не в своей тарелке.
 Dialogue: 0,0:00:12.43,0:00:15.35,Default,,0,0,0,,{\an5}Why did we have to come someplace like this?
-Dialogue: 0,0:00:12.43,0:00:15.35,Default,,0,0,0,,
+Dialogue: 0,0:00:12.43,0:00:15.35,Default,,0,0,0,,Почему я вдруг оказалась так далеко от дома?
 Dialogue: 0,0:00:15.35,0:00:19.98,Default,,0,0,0,,{\an5}Because you haven't done one bit\Nof your summer vacation homework.
 Dialogue: 0,0:00:15.35,0:00:19.98,Default,,0,0,0,,
 Dialogue: 0,0:00:19.98,0:00:22.48,Default,,0,0,0,,{\an5}In that case, let's call Rusian over, too.
@@ -51,15 +60,15 @@ Dialogue: 0,0:00:46.17,0:00:49.51,Default,,0,0,0,,
 Dialogue: 0,0:00:49.51,0:00:52.01,Default,,0,0,0,,{\an5}You know, I can hear everything you're saying.
 Dialogue: 0,0:00:49.51,0:00:52.01,Default,,0,0,0,,
 Dialogue: 0,0:00:54.39,0:00:56.81,Default,,0,0,0,,{\an5}Let's be friends, Ako-{\i1}chan{\i0}.
-Dialogue: 0,0:00:54.39,0:00:56.81,Default,,0,0,0,,
+Dialogue: 0,0:00:54.39,0:00:56.81,Default,,0,0,0,,Давай жить дружно, Ако-тян.
 Dialogue: 0,0:00:59.65,0:01:03.73,Default,,0,0,0,,{\an5}Rusian! Please save me!
-Dialogue: 0,0:00:59.65,0:01:03.73,Default,,0,0,0,,
+Dialogue: 0,0:00:59.65,0:01:03.73,Default,,0,0,0,,Русиян! Мне хана!
 Dialogue: 0,0:02:44.40,0:02:47.78,Def_Top,,0,0,0,,{\an5}"LV. 09: I thought if we stayed over,\Nwe would get along better?"
-Dialogue: 0,0:02:44.40,0:02:47.78,Def_Top,,0,0,0,,
+Dialogue: 0,0:02:44.40,0:02:47.78,Def_Top,,0,0,0,,[ЛВЛ. 09: Думаешь, если останетесь наедине, то всё пойдёт как по маслу?]
 Dialogue: 0,0:02:46.15,0:02:48.86,Default,,0,0,0,,{\an5}Welcome home, mistress.
 Dialogue: 0,0:02:46.15,0:02:48.86,Default,,0,0,0,,
 Dialogue: 0,0:02:48.87,0:02:49.87,Default,,0,0,0,,{\an5}Mm-hmm.
-Dialogue: 0,0:02:48.87,0:02:49.87,Default,,0,0,0,,
+Dialogue: 0,0:02:48.87,0:02:49.87,Default,,0,0,0,,У-му.
 Dialogue: 0,0:02:51.37,0:02:55.41,Default,,0,0,0,,{\an5}These are my {\i1}friends{\i0}!\NPlease take good care of them.
 Dialogue: 0,0:02:51.37,0:02:55.41,Default,,0,0,0,,
 Dialogue: 0,0:02:55.41,0:02:59.92,Default,,0,0,0,,{\an5}Actual friends? The mistress\Nhas finally made friends?
