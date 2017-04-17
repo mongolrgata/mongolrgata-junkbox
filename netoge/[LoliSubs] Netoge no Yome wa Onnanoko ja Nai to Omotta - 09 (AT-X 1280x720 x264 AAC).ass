@@ -36,7 +36,7 @@ Dialogue: 0,0:00:06.59,0:00:10.14,Default,,0,0,0,,
 Dialogue: 0,0:00:10.14,0:00:12.43,Default,,0,0,0,,{\an5}I definitely feel out of place here.
 Dialogue: 0,0:00:10.14,0:00:12.43,Default,,0,0,0,,Чувствую себя не в своей тарелке.
 Dialogue: 0,0:00:12.43,0:00:15.35,Default,,0,0,0,,{\an5}Why did we have to come someplace like this?
-Dialogue: 0,0:00:12.43,0:00:15.35,Default,,0,0,0,,Почему я вдруг оказалась так далеко от дома?
+Dialogue: 0,0:00:12.43,0:00:15.35,Default,,0,0,0,,Чому я вдруг оказалась так далеко от дома?
 Dialogue: 0,0:00:15.35,0:00:19.98,Default,,0,0,0,,{\an5}Because you haven't done one bit\Nof your summer vacation homework.
 Dialogue: 0,0:00:15.35,0:00:19.98,Default,,0,0,0,,
 Dialogue: 0,0:00:19.98,0:00:22.48,Default,,0,0,0,,{\an5}In that case, let's call Rusian over, too.
@@ -140,23 +140,23 @@ Dialogue: 0,0:05:11.47,0:05:17.18,Default,,0,0,0,,
 Dialogue: 0,0:05:17.18,0:05:18.68,Default,,0,0,0,,{\an5}Withered...?
 Dialogue: 0,0:05:17.18,0:05:18.68,Default,,0,0,0,,
 Dialogue: 0,0:05:19.81,0:05:23.77,Default,,0,0,0,,{\an5}Master, where is the bathroom?
-Dialogue: 0,0:05:19.81,0:05:23.77,Default,,0,0,0,,
+Dialogue: 0,0:05:19.81,0:05:23.77,Default,,0,0,0,,Лидер, где тут отхожее место?
 Dialogue: 0,0:05:23.77,0:05:25.94,Default,,0,0,0,,{\an5}Go out that door, and it will be the fifth room.
 Dialogue: 0,0:05:23.77,0:05:25.94,Default,,0,0,0,,
 Dialogue: 0,0:05:26.94,0:05:29.23,Default,,0,0,0,,{\an5}I need to use it.
-Dialogue: 0,0:05:26.94,0:05:29.23,Default,,0,0,0,,
+Dialogue: 0,0:05:26.94,0:05:29.23,Default,,0,0,0,,Я выйду ненадолго.
 Dialogue: 0,0:05:29.23,0:05:31.19,Default,,0,0,0,,{\an5}Ah, I'm coming, too.
-Dialogue: 0,0:05:29.23,0:05:31.19,Default,,0,0,0,,
+Dialogue: 0,0:05:29.23,0:05:31.19,Default,,0,0,0,,О, я с тобой.
 Dialogue: 0,0:05:32.19,0:05:34.36,Default,,0,0,0,,{\an5}No, that won't be necessary.
 Dialogue: 0,0:05:32.19,0:05:34.36,Default,,0,0,0,,
 Dialogue: 0,0:05:34.36,0:05:38.66,Default,,0,0,0,,{\an5}{\i1}What{\i0} won't be necessary?\NI just need to go, too.
 Dialogue: 0,0:05:34.36,0:05:38.66,Default,,0,0,0,,
 Dialogue: 0,0:05:38.66,0:05:41.41,Default,,0,0,0,,{\an5}Yeah, Nanako, go with her.
-Dialogue: 0,0:05:38.66,0:05:41.41,Default,,0,0,0,,
+Dialogue: 0,0:05:38.66,0:05:41.41,Default,,0,0,0,,Да, Нанако, иди с ней.
 Dialogue: 0,0:05:41.41,0:05:43.71,Default,,0,0,0,,{\an5}If we leave her alone,\Nshe might make a run for home.
-Dialogue: 0,0:05:41.41,0:05:43.71,Default,,0,0,0,,
+Dialogue: 0,0:05:41.41,0:05:43.71,Default,,0,0,0,,Если оставить её без присмотра, она убежит домой.
 Dialogue: 0,0:05:43.71,0:05:46.88,Default,,0,0,0,,{\an5}I-I wouldn't run away!
-Dialogue: 0,0:05:43.71,0:05:46.88,Default,,0,0,0,,
+Dialogue: 0,0:05:43.71,0:05:46.88,Default,,0,0,0,,С-свободу попугаям!
 Dialogue: 0,0:05:46.88,0:05:48.79,Default,,0,0,0,,{\an5}There's no way we can trust you.
 Dialogue: 0,0:05:46.88,0:05:48.79,Default,,0,0,0,,
 Dialogue: 0,0:05:48.79,0:05:50.30,Default,,0,0,0,,{\an5}Mm-hmm.
@@ -514,7 +514,7 @@ Dialogue: 0,0:17:31.62,0:17:35.12,Default,,0,0,0,,
 Dialogue: 0,0:17:35.12,0:17:37.71,Default,,0,0,0,,{\an5}N-No, he couldn't be!
 Dialogue: 0,0:17:35.12,0:17:37.71,Default,,0,0,0,,
 Dialogue: 0,0:17:37.34,0:17:38.08,Def_Top,,0,0,0,,{\an5}"Husband"
-Dialogue: 0,0:17:37.34,0:17:38.08,Def_Top,,0,0,0,,
+Dialogue: 0,0:17:37.34,0:17:38.08,Def_Top,,0,0,0,,[Хазбандо]
 Dialogue: 0,0:17:39.13,0:17:40.71,Default,,0,0,0,,{\an5}I-I'll ask him!
 Dialogue: 0,0:17:39.13,0:17:40.71,Default,,0,0,0,,
 Dialogue: 0,0:17:40.71,0:17:42.96,Default,,0,0,0,,{\an5}Why are you carrying\Nyour cell phone with you?!
@@ -526,7 +526,7 @@ Dialogue: 0,0:17:46.80,0:17:49.43,Default,,0,0,0,,
 Dialogue: 0,0:17:49.43,0:17:50.81,Default,,0,0,0,,{\an5}Sure, sure.
 Dialogue: 0,0:17:49.43,0:17:50.81,Default,,0,0,0,,
 Dialogue: 0,0:17:50.81,0:17:53.85,Default,,0,0,0,,{\an5}Huh?! You're going to send video from here?!
-Dialogue: 0,0:17:50.81,0:17:53.85,Default,,0,0,0,,
+Dialogue: 0,0:17:50.81,0:17:53.85,Default,,0,0,0,,Шта? Собираешься стримить 
 Dialogue: 0,0:17:54.94,0:17:59.48,Default,,0,0,0,,{\an5}I have to let him see, so he can\Nverify which body type he prefers!
 Dialogue: 0,0:17:54.94,0:17:59.48,Default,,0,0,0,,
 Dialogue: 0,0:17:59.48,0:18:01.78,Default,,0,0,0,,{\an5}You're not seriously going to\Nbroadcast live from our bath!
@@ -628,11 +628,11 @@ Dialogue: 0,0:20:36.93,0:20:40.02,Default,,0,0,0,,
 Dialogue: 0,0:20:40.02,0:20:41.39,Default,,0,0,0,,{\an5}Remember,
 Dialogue: 0,0:20:40.02,0:20:41.39,Default,,0,0,0,,
 Dialogue: 0,0:20:41.39,0:20:43.98,Default,,0,0,0,,{\an5}if you gaze into the abyss,
-Dialogue: 0,0:20:41.39,0:20:43.98,Default,,0,0,0,,
+Dialogue: 0,0:20:41.39,0:20:43.98,Default,,0,0,0,,Если долго всматриваться в бездну,
 Dialogue: 0,0:20:43.98,0:20:47.27,Default,,0,0,0,,{\an5}the abyss also gazes back into you.
-Dialogue: 0,0:20:43.98,0:20:47.27,Default,,0,0,0,,
+Dialogue: 0,0:20:43.98,0:20:47.27,Default,,0,0,0,,то бездна начинает всматриваться в тебя.
 Dialogue: 0,0:20:50.57,0:20:52.24,Default,,0,0,0,,{\an5}What abyss?
-Dialogue: 0,0:20:50.57,0:20:52.24,Default,,0,0,0,,
+Dialogue: 0,0:20:50.57,0:20:52.24,Default,,0,0,0,,Без дна?
 Dialogue: 0,0:20:53.36,0:20:56.74,Default,,0,0,0,,{\an5}Okay, please picture this--
 Dialogue: 0,0:20:53.36,0:20:56.74,Default,,0,0,0,,
 Dialogue: 0,0:20:57.24,0:21:01.04,Default,,0,0,0,,{\an5}Let's say that you, Sette-{\i1}san{\i0} and\NSchew-{\i1}chan{\i0}, were to get married.
