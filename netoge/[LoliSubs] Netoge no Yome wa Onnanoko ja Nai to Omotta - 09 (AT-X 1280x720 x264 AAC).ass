@@ -15,10 +15,10 @@ Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 09 (AT-X 1280x720 x264 AAC).mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.500000
-Scroll Position: 18
-Active Line: 27
-Video Position: 1107
+Video Zoom Percent: 0.875000
+Scroll Position: 10
+Active Line: 19
+Video Position: 866
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -30,25 +30,25 @@ Style: Def_I-T,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,10
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:04.80,0:00:06.59,Default,,0,0,0,,{\an5}It's so big!
-Dialogue: 0,0:00:04.80,0:00:06.59,Default,,0,0,0,,Такой большой!
+Dialogue: 0,0:00:04.80,0:00:06.59,Default,,0,0,0,,Какой большой!
 Dialogue: 0,0:00:06.59,0:00:10.14,Default,,0,0,0,,{\an5}So people who live in houses\Nlike these {\i1}do{\i0} exist in real life.
-Dialogue: 0,0:00:06.59,0:00:10.14,Default,,0,0,0,,
+Dialogue: 0,0:00:06.59,0:00:10.14,Default,,0,0,0,,Сейчас бы в таком домище жить одному человеку.
 Dialogue: 0,0:00:10.14,0:00:12.43,Default,,0,0,0,,{\an5}I definitely feel out of place here.
 Dialogue: 0,0:00:10.14,0:00:12.43,Default,,0,0,0,,Чувствую себя не в своей тарелке.
 Dialogue: 0,0:00:12.43,0:00:15.35,Default,,0,0,0,,{\an5}Why did we have to come someplace like this?
-Dialogue: 0,0:00:12.43,0:00:15.35,Default,,0,0,0,,Чому я вдруг оказалась так далеко от дома?
+Dialogue: 0,0:00:12.43,0:00:15.35,Default,,0,0,0,,Чому я вдруг вообще вышла из своей комнаты?
 Dialogue: 0,0:00:15.35,0:00:19.98,Default,,0,0,0,,{\an5}Because you haven't done one bit\Nof your summer vacation homework.
-Dialogue: 0,0:00:15.35,0:00:19.98,Default,,0,0,0,,
+Dialogue: 0,0:00:15.35,0:00:19.98,Default,,0,0,0,,Ты здесь потому, что забила на выполнение летнего домашнего задания.
 Dialogue: 0,0:00:19.98,0:00:22.48,Default,,0,0,0,,{\an5}In that case, let's call Rusian over, too.
-Dialogue: 0,0:00:19.98,0:00:22.48,Default,,0,0,0,,
+Dialogue: 0,0:00:19.98,0:00:22.48,Default,,0,0,0,,А давайте возьмём Русияна в пати,
 Dialogue: 0,0:00:22.48,0:00:24.15,Default,,0,0,0,,{\an5}It's better if we have\Neveryone do this together.
-Dialogue: 0,0:00:22.48,0:00:24.15,Default,,0,0,0,,
+Dialogue: 0,0:00:22.48,0:00:24.15,Default,,0,0,0,,чтобы не подумали, что мы лесби.
 Dialogue: 0,0:00:24.15,0:00:27.70,Default,,0,0,0,,{\an5}We can't have a boy here\Nif we're having a sleepover.
-Dialogue: 0,0:00:24.15,0:00:27.70,Default,,0,0,0,,
+Dialogue: 0,0:00:24.15,0:00:27.70,Default,,0,0,0,,А давайте без давайте; вдруг нам раздеваться придётся?
 Dialogue: 0,0:00:29.24,0:00:32.66,Default,,0,0,0,,{\an5}If Rusian can't be here, why does {\i1}she{\i0} get to?
-Dialogue: 0,0:00:29.24,0:00:32.66,Default,,0,0,0,,
+Dialogue: 0,0:00:29.24,0:00:32.66,Default,,0,0,0,,Русияна продинамили, а эту с собой притащили.
 Dialogue: 0,0:00:32.66,0:00:36.12,Default,,0,0,0,,{\an5}--Because you called?\N--No I didn't! No I didn't!
-Dialogue: 0,0:00:32.66,0:00:36.12,Default,,0,0,0,,
+Dialogue: 0,0:00:32.66,0:00:36.12,Default,,0,0,0,,— Го дота?\N— Чур меня! Чур меня!
 Dialogue: 0,0:00:36.12,0:00:40.21,Default,,0,0,0,,{\an5}This is a chance for you to get to\Ntalk to people without Nishimura.
 Dialogue: 0,0:00:36.12,0:00:40.21,Default,,0,0,0,,
 Dialogue: 0,0:00:40.21,0:00:42.71,Default,,0,0,0,,{\an5}Nanako would be a perfect\Npractice partner, right?
@@ -526,7 +526,7 @@ Dialogue: 0,0:17:46.80,0:17:49.43,Default,,0,0,0,,
 Dialogue: 0,0:17:49.43,0:17:50.81,Default,,0,0,0,,{\an5}Sure, sure.
 Dialogue: 0,0:17:49.43,0:17:50.81,Default,,0,0,0,,
 Dialogue: 0,0:17:50.81,0:17:53.85,Default,,0,0,0,,{\an5}Huh?! You're going to send video from here?!
-Dialogue: 0,0:17:50.81,0:17:53.85,Default,,0,0,0,,Шта? Собираешься стримить 
+Dialogue: 0,0:17:50.81,0:17:53.85,Default,,0,0,0,,Шта? Собираешься стримить
 Dialogue: 0,0:17:54.94,0:17:59.48,Default,,0,0,0,,{\an5}I have to let him see, so he can\Nverify which body type he prefers!
 Dialogue: 0,0:17:54.94,0:17:59.48,Default,,0,0,0,,
 Dialogue: 0,0:17:59.48,0:18:01.78,Default,,0,0,0,,{\an5}You're not seriously going to\Nbroadcast live from our bath!
