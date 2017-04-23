@@ -16,9 +16,9 @@ Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 1.000000
-Scroll Position: 6
-Active Line: 15
-Video Position: 1550
+Scroll Position: 595
+Active Line: 612
+Video Position: 32660
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -26,6 +26,7 @@ Style: Default,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100
 Style: Def_Top,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,8,96,96,48,1
 Style: Def_Ita,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.2,0,2,96,96,48,1
 Style: Def_I-T,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.2,0,8,96,96,48,1
+Style: Default_AN1,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,1,96,96,48,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -66,7 +67,7 @@ Dialogue: 0,0:00:59.65,0:01:03.73,Default,,0,0,0,,Русиян! Мне хана!
 Dialogue: 0,0:02:44.40,0:02:47.78,Def_Top,,0,0,0,,{\an5}"LV. 09: I thought if we stayed over,\Nwe would get along better?"
 Dialogue: 0,0:02:44.40,0:02:47.78,Def_Top,,0,0,0,,[ЛВЛ. 09: Думаешь, если останетесь наедине, то всё пойдёт как по маслу?]
 Dialogue: 0,0:02:46.15,0:02:48.86,Default,,0,0,0,,{\an5}Welcome home, mistress.
-Dialogue: 0,0:02:46.15,0:02:48.86,Default,,0,0,0,,Дратути)0) госпожа.
+Dialogue: 0,0:02:46.15,0:02:48.86,Default_AN1,,0,0,0,,Дратути)0) госпожа.
 Dialogue: 0,0:02:48.87,0:02:49.87,Default,,0,0,0,,{\an5}Mm-hmm.
 Dialogue: 0,0:02:48.87,0:02:49.87,Default,,0,0,0,,У-му.
 Dialogue: 0,0:02:51.37,0:02:55.41,Default,,0,0,0,,{\an5}These are my {\i1}friends{\i0}!\NPlease take good care of them.
@@ -86,7 +87,7 @@ Dialogue: 0,0:03:08.68,0:03:12.39,Default,,0,0,0,,Всё верно, Лидер.
 Dialogue: 0,0:03:12.39,0:03:16.31,Default,,0,0,0,,{\an5}I don't need your support pity!\NCome, let's be off.
 Dialogue: 0,0:03:12.39,0:03:16.31,Default,,0,0,0,,Мне не нужна жалкая поддержка!\NИдём отключим их.
 Dialogue: 0,0:03:29.45,0:03:34.03,Default,,0,0,0,,{\an5}I've never seen a real maid before.\NThey actually exist, huh?
-Dialogue: 0,0:03:29.45,0:03:34.03,Default,,0,0,0,,Никогда раньше не видела мейдочку вживую.\NОни ещё существуют ИРЛ?
+Dialogue: 0,0:03:29.45,0:03:34.03,Default,,0,0,0,,Никогда раньше не видела мейдочку вживую.\NОни существуют ИРЛ?
 Dialogue: 0,0:03:34.04,0:03:35.70,Default,,0,0,0,,{\an5}She's not a real maid.
 Dialogue: 0,0:03:34.04,0:03:35.70,Default,,0,0,0,,Она не всамделишная.
 Dialogue: 0,0:03:35.70,0:03:36.62,Default,,0,0,0,,{\an5}Huh?
@@ -154,11 +155,11 @@ Dialogue: 0,0:05:29.23,0:05:31.19,Default,,0,0,0,,О, я с тобой.
 Dialogue: 0,0:05:32.19,0:05:34.36,Default,,0,0,0,,{\an5}No, that won't be necessary.
 Dialogue: 0,0:05:32.19,0:05:34.36,Default,,0,0,0,,Мне не нужно сопровождение.
 Dialogue: 0,0:05:34.36,0:05:38.66,Default,,0,0,0,,{\an5}{\i1}What{\i0} won't be necessary?\NI just need to go, too.
-Dialogue: 0,0:05:34.36,0:05:38.66,Default,,0,0,0,,Сопровождение? Но мне тоже надо припудриться.
+Dialogue: 0,0:05:34.36,0:05:38.66,Default,,0,0,0,,Сопровождение? Мне тоже надо припудриться.
 Dialogue: 0,0:05:38.66,0:05:41.41,Default,,0,0,0,,{\an5}Yeah, Nanako, go with her.
 Dialogue: 0,0:05:38.66,0:05:41.41,Default,,0,0,0,,Да, Нанако, иди с ней.
 Dialogue: 0,0:05:41.41,0:05:43.71,Default,,0,0,0,,{\an5}If we leave her alone,\Nshe might make a run for home.
-Dialogue: 0,0:05:41.41,0:05:43.71,Default,,0,0,0,,Если оставить её без присмотра, она убежит домой.
+Dialogue: 0,0:05:41.41,0:05:43.71,Default,,0,0,0,,Если оставить её без присмотра,\Nона убежит домой.
 Dialogue: 0,0:05:43.71,0:05:46.88,Default,,0,0,0,,{\an5}I-I wouldn't run away!
 Dialogue: 0,0:05:43.71,0:05:46.88,Default,,0,0,0,,С-свободу попугаям!
 Dialogue: 0,0:05:46.88,0:05:48.79,Default,,0,0,0,,{\an5}There's no way we can trust you.
@@ -184,13 +185,13 @@ Dialogue: 0,0:06:23.20,0:06:25.75,Default,,0,0,0,,Н-ничего подобно
 Dialogue: 0,0:06:26.25,0:06:27.87,Default,,0,0,0,,{\an5}W-What's that?
 Dialogue: 0,0:06:26.25,0:06:27.87,Default,,0,0,0,,О! Смотри-ка…
 Dialogue: 0,0:06:31.71,0:06:34.38,Default,,0,0,0,,{\an5}I wonder if I should have\Nlet the two of them go.
-Dialogue: 0,0:06:31.71,0:06:34.38,Default,,0,0,0,,Надеюсь они там другу другу глаза не повыцарапали.
+Dialogue: 0,0:06:31.71,0:06:34.38,Default,,0,0,0,,Надеюсь они там другу другу\Nглаза не повыцарапают.
 Dialogue: 0,0:06:34.01,0:06:38.51,Def_Top,,0,0,0,,{\an5}"I Want to Read Burontisms Out Loud"
 Dialogue: 0,0:06:34.01,0:06:38.51,Def_Top,,0,0,0,,[Кащенизм для чайников]
 Dialogue: 0,0:06:34.38,0:06:38.93,Default,,0,0,0,,{\an5}Schew-{\i1}chan{\i0} is just a pig,\Nso she doesn't get hard stuff.
 Dialogue: 0,0:06:34.38,0:06:38.93,Default,,0,0,0,,Шу-тян просто хрюшка, она не понимает сложных материй.
 Dialogue: 0,0:06:38.93,0:06:43.31,Default,,0,0,0,,{\an5}Don't be so immature.\NThose two are such polar opposites.
-Dialogue: 0,0:06:38.93,0:06:43.31,Default,,0,0,0,,Шлангом прикидываешься?\NОни ведь словно кошка с собакой.
+Dialogue: 0,0:06:38.93,0:06:43.31,Default,,0,0,0,,Шлангом прикидываешься?\NОни словно две стороны одной медали.
 Dialogue: 0,0:06:43.31,0:06:47.73,Default,,0,0,0,,{\an5}Hmm, you might be surprised\Nhow well that helps them get along.
 Dialogue: 0,0:06:43.31,0:06:47.73,Default,,0,0,0,,Хмм, сдаётся мне, что это только поможет им сдружиться.
 Dialogue: 0,0:06:47.73,0:06:49.73,Default,,0,0,0,,{\an5}You think that's how it is?
@@ -206,7 +207,7 @@ Dialogue: 0,0:07:17.09,0:07:20.39,Default,,0,0,0,,Это ад перфекцио
 Dialogue: 0,0:07:32.31,0:07:34.19,Default,,0,0,0,,{\an5}There's something here, all right!
 Dialogue: 0,0:07:32.31,0:07:34.19,Default,,0,0,0,,А вот и скрытый лут!
 Dialogue: 0,0:07:34.19,0:07:36.15,Default,,0,0,0,,{\an5}Huh?!
-Dialogue: 0,0:07:34.19,0:07:36.15,Default,,0,0,0,,Эээ?
+Dialogue: 0,0:07:34.19,0:07:36.15,Default,,0,0,0,,Ээээээээээ?
 Dialogue: 0,0:07:39.16,0:07:41.28,Default,,0,0,0,,{\an5}Let's inspect the treasure!
 Dialogue: 0,0:07:39.16,0:07:41.28,Default,,0,0,0,,Попробуем-ка открыть!
 Dialogue: 0,0:07:46.16,0:07:47.16,Default,,0,0,0,,{\an5}An album?
@@ -284,7 +285,7 @@ Dialogue: 0,0:10:13.14,0:10:14.85,Default,,0,0,0,,так что для меня 
 Dialogue: 0,0:10:14.85,0:10:16.44,Default,,0,0,0,,{\an5}It happens to you a lot, huh?
 Dialogue: 0,0:10:14.85,0:10:16.44,Default,,0,0,0,,Я бы уже повесилась.
 Dialogue: 0,0:10:20.40,0:10:26.15,Default,,0,0,0,,{\an5}Still, when I say I want to be\Nfriends with you, it's the truth.
-Dialogue: 0,0:10:20.40,0:10:26.15,Default,,0,0,0,,Но знай, что я не шутила, когда предлагала жить дружно.
+Dialogue: 0,0:10:20.40,0:10:26.15,Default,,0,0,0,,Но знай, что я не шутила,\Nкогда предлагала жить дружно.
 Dialogue: 0,0:10:26.16,0:10:28.03,Default,,0,0,0,,{\an5}O-Okay...
 Dialogue: 0,0:10:26.16,0:10:28.03,Default,,0,0,0,,Х-хорошо…
 Dialogue: 0,0:10:28.03,0:10:30.83,Default,,0,0,0,,{\an5}So then, where do you suppose we are?
@@ -335,7 +336,7 @@ Dialogue: 0,0:11:42.52,0:11:44.98,Default,,0,0,0,,Давайте сменим т
 Dialogue: 0,0:11:44.98,0:11:48.24,Default,,0,0,0,,{\an5}Yeah. It's summer vacation, after all.
 Dialogue: 0,0:11:44.98,0:11:48.24,Default,,0,0,0,,Вот-вот. Летние каникулы всё таки,
 Dialogue: 0,0:11:48.24,0:11:50.95,Default,,0,0,0,,{\an5}Let's create a memory or two...
-Dialogue: 0,0:11:48.24,0:11:50.95,Default,,0,0,0,,а мы тут о малолетних преступниках…
+Dialogue: 0,0:11:48.24,0:11:50.95,Default,,0,0,0,,а мы о малолетних преступниках толкуем…
 Dialogue: 0,0:11:56.50,0:11:59.62,Default,,0,0,0,,{\an5}Come to think of it, what about\Nher summer vacation homework?
 Dialogue: 0,0:11:56.50,0:11:59.62,Default,,0,0,0,,Кстати, как там твоё летнее д/з поживает?
 Dialogue: 0,0:12:00.62,0:12:02.50,Default,,0,0,0,,{\an5}Made any progress?
@@ -345,7 +346,7 @@ Dialogue: 0,0:12:02.50,0:12:04.17,Default,,0,0,0,,Манга.
 Dialogue: 0,0:12:04.17,0:12:06.05,Default,,0,0,0,,{\an5}Don't "tee-hee" us!
 Dialogue: 0,0:12:04.17,0:12:06.05,Default,,0,0,0,,Такого не задавали!
 Dialogue: 0,0:12:06.05,0:12:08.51,Default,,0,0,0,,{\an5}Starting now, all of us will\Nwatch you do your homework!
-Dialogue: 0,0:12:06.05,0:12:08.51,Default,,0,0,0,,Будет стоять над душой, пока ты не закончишь!
+Dialogue: 0,0:12:06.05,0:12:08.51,Default,,0,0,0,,Буду стоять над душой, пока ты не закончишь!
 Dialogue: 0,0:12:08.51,0:12:11.93,Default,,0,0,0,,{\an5}Let's not. "Time is already timeout."
 Dialogue: 0,0:12:08.51,0:12:11.93,Default,,0,0,0,,Может забьём? Поезд всё равно ушёл.
 Dialogue: 0,0:12:11.93,0:12:13.76,Default,,0,0,0,,{\an5}No, you're going to do it!
@@ -429,7 +430,7 @@ Dialogue: 0,0:14:38.66,0:14:41.20,Default,,0,0,0,,Сердечко так и т�
 Dialogue: 0,0:14:41.20,0:14:44.12,Default,,0,0,0,,{\an5}In that case, would you mind\Nbeing a little less assertive?
 Dialogue: 0,0:14:41.20,0:14:44.12,Default,,0,0,0,,Это больше похоже на возбуждение.
 Dialogue: 0,0:14:45.66,0:14:48.08,Default,,0,0,0,,{\an5}Come on, let's go, already!
-Dialogue: 0,0:14:45.66,0:14:48.08,Default,,0,0,0,,Давай же, только тебя ждём!
+Dialogue: 0,0:14:45.66,0:14:48.08,Default,,0,0,0,,Давай, только тебя и ждём!
 Dialogue: 0,0:14:50.54,0:14:53.17,Default,,0,0,0,,{\an5}I don't want to!
 Dialogue: 0,0:14:50.54,0:14:53.17,Default,,0,0,0,,Ни за что!
 Dialogue: 0,0:14:53.17,0:14:58.93,Default,,0,0,0,,{\an5}Please stop! I made a promise to Rusian\Nthat he would get to be my first!
@@ -441,7 +442,7 @@ Dialogue: 0,0:15:00.89,0:15:04.64,Default,,0,0,0,,Первым, кто разд�
 Dialogue: 0,0:15:05.14,0:15:10.02,Default,,0,0,0,,{\an5}In that case, I already claimed\Nyour first time during our camp.
 Dialogue: 0,0:15:05.14,0:15:10.02,Default,,0,0,0,,Забыла? Твой первый раз был со мной во время летнего лагеря.
 Dialogue: 0,0:15:10.02,0:15:14.61,Default,,0,0,0,,{\an5}Th-That's right. My first time...
-Dialogue: 0,0:15:10.02,0:15:14.61,Default,,0,0,0,,Т-точно же. Мой первый раз…
+Dialogue: 0,0:15:10.02,0:15:14.61,Default,,0,0,0,,Т-точно. Мой первый раз…
 Dialogue: 0,0:15:14.61,0:15:17.07,Default,,0,0,0,,{\an5}You can make Rusian answer for that.
 Dialogue: 0,0:15:14.61,0:15:17.07,Default,,0,0,0,,Пусть Русиян возьмёт ответственность на себя.
 Dialogue: 0,0:15:17.07,0:15:19.28,Default,,0,0,0,,{\an5}What an awful way to bring him into this.
@@ -473,7 +474,7 @@ Dialogue: 0,0:16:04.20,0:16:06.12,Default,,0,0,0,,Вот! Вот!
 Dialogue: 0,0:16:06.12,0:16:07.83,Default,,0,0,0,,{\an5}Look!
 Dialogue: 0,0:16:06.12,0:16:07.83,Default,,0,0,0,,И вот!
 Dialogue: 0,0:16:07.83,0:16:09.62,Default,,0,0,0,,{\an5}I don't know what we're looking at.
-Dialogue: 0,0:16:07.83,0:16:09.62,Default,,0,0,0,,О каком «вот» идёт речь?
+Dialogue: 0,0:16:07.83,0:16:09.62,Default,,0,0,0,,О каком «вот» речь?
 Dialogue: 0,0:16:09.62,0:16:12.79,Default,,0,0,0,,{\an5}We're all people here, so why is there\Nso much difference between us?
 Dialogue: 0,0:16:09.62,0:16:12.79,Default,,0,0,0,,Мы одного биологического вида, так откуда такие различия?
 Dialogue: 0,0:16:12.79,0:16:16.09,Default,,0,0,0,,{\an5}It's messed up! This isn't\Nsomething that should happen!
@@ -499,13 +500,13 @@ Dialogue: 0,0:16:41.65,0:16:44.99,Default,,0,0,0,,Кому-то недостат
 Dialogue: 0,0:17:01.22,0:17:02.97,Default,,0,0,0,,{\an5}There, all done.
 Dialogue: 0,0:17:01.22,0:17:02.97,Default,,0,0,0,,Готово.
 Dialogue: 0,0:17:06.05,0:17:10.85,Default,,0,0,0,,{\an5}How does a girl who takes such\Nlittle care of herself grow up so big?
-Dialogue: 0,0:17:06.05,0:17:10.85,Default,,0,0,0,,
+Dialogue: 0,0:17:06.05,0:17:10.85,Default,,0,0,0,,Ты из своей комнаты выходишь по праздникам, и умудрилась отрастить такие формы.
 Dialogue: 0,0:17:10.85,0:17:14.31,Default,,0,0,0,,{\an5}I do lead an undeniably squishy lifestyle,
 Dialogue: 0,0:17:10.85,0:17:14.31,Default,,0,0,0,,Когда ведёшь вялый образ жизни,
 Dialogue: 0,0:17:14.31,0:17:16.35,Default,,0,0,0,,{\an5}so my body is squishy, too.
 Dialogue: 0,0:17:14.31,0:17:16.35,Default,,0,0,0,,сама становишься мягкотелой.
 Dialogue: 0,0:17:18.44,0:17:22.86,Default,,0,0,0,,{\an5}You are indeed a bit squishy here.\NDo you diet, or anything?
-Dialogue: 0,0:17:18.44,0:17:22.86,Default,,0,0,0,,У тебя и правда есть за что подержаться.\NМожет поститься начать?
+Dialogue: 0,0:17:18.44,0:17:22.86,Default,,0,0,0,,У тебя и правда есть за что подержаться.\NМожет начать поститься?
 Dialogue: 0,0:17:22.86,0:17:27.53,Default,,0,0,0,,{\an5}I'm fine as long as Rusian isn't\Nturned off by me, so not really.
 Dialogue: 0,0:17:22.86,0:17:27.53,Default,,0,0,0,,Если Русияна всё устраивает, то и я заморачиваться не стану.
 Dialogue: 0,0:17:27.53,0:17:29.91,Default,,0,0,0,,{\an5}What does Nishimura-{\i1}kun{\i0} prefer?
@@ -561,7 +562,7 @@ Dialogue: 0,0:18:46.49,0:18:49.78,Default,,0,0,0,,Прости, но я ни с�
 Dialogue: 0,0:18:49.78,0:18:52.24,Default,,0,0,0,,{\an5}Nishimura-{\i1}kun{\i0} didn't answer.
 Dialogue: 0,0:18:49.78,0:18:52.24,Default,,0,0,0,,Нисимура-кун не брал трубку.
 Dialogue: 0,0:18:52.24,0:18:54.66,Default,,0,0,0,,{\an5}If he had, it would have been a huge disaster.
-Dialogue: 0,0:18:52.24,0:18:54.66,Default,,0,0,0,,И слава Богу, что не взял.
+Dialogue: 0,0:18:52.24,0:18:54.66,Default,,0,0,0,,И слава Богу, что не брал.
 Dialogue: 0,0:18:54.66,0:18:57.29,Default,,0,0,0,,{\an5}Nice of him to read the situation.
 Dialogue: 0,0:18:54.66,0:18:57.29,Default,,0,0,0,,Почуял, что дело пахнет керосином.
 Dialogue: 0,0:18:57.29,0:19:00.17,Default,,0,0,0,,{\an5}It's easy to see how thoughtful Rusian is.
@@ -595,7 +596,7 @@ Dialogue: 0,0:19:40.08,0:19:43.00,Default,,0,0,0,,Правда? Дашь про�
 Dialogue: 0,0:19:43.00,0:19:46.17,Default,,0,0,0,,{\an5}Ah! Sette-{\i1}san{\i0}, please stop that!
 Dialogue: 0,0:19:43.00,0:19:46.17,Default,,0,0,0,,Ахаха! Сетте-сан, пощади!
 Dialogue: 0,0:19:46.17,0:19:49.63,Default,,0,0,0,,{\an5}You all keep calling me\Nby my name in the game.
-Dialogue: 0,0:19:46.17,0:19:49.63,Default,,0,0,0,,Почему все обращаются ко мне по никнейму?
+Dialogue: 0,0:19:46.17,0:19:49.63,Default,,0,0,0,,Почему вы обращаетесь ко мне по никнейму?
 Dialogue: 0,0:19:49.63,0:19:53.14,Default,,0,0,0,,{\an5}Give it up. In this club, that's what we do.
 Dialogue: 0,0:19:49.63,0:19:53.14,Default,,0,0,0,,Не обращай внимания. У нас в клубе так принято.
 Dialogue: 0,0:19:55.18,0:19:58.77,Default,,0,0,0,,{\an5}Sometimes, doing stuff like this\Nwithout Nishimura can be nice.
@@ -627,7 +628,7 @@ Dialogue: 0,0:20:31.47,0:20:33.76,Default,,0,0,0,,Ты ступаешь по т�
 Dialogue: 0,0:20:33.76,0:20:36.93,Default,,0,0,0,,{\an5}Is it? Haven't any of you ever asked her?
 Dialogue: 0,0:20:33.76,0:20:36.93,Default,,0,0,0,,Разве? Вы никогда не интересовались?
 Dialogue: 0,0:20:36.93,0:20:40.02,Default,,0,0,0,,{\an5}We were too afraid to ask.
-Dialogue: 0,0:20:36.93,0:20:40.02,Default,,0,0,0,,Слишком опасно об этом говорить.
+Dialogue: 0,0:20:36.93,0:20:40.02,Default,,0,0,0,,Слишком опасно об этом спрашивать.
 Dialogue: 0,0:20:40.02,0:20:41.39,Default,,0,0,0,,{\an5}Remember,
 Dialogue: 0,0:20:40.02,0:20:41.39,Default,,0,0,0,,Знай:
 Dialogue: 0,0:20:41.39,0:20:43.98,Default,,0,0,0,,{\an5}if you gaze into the abyss,
@@ -641,7 +642,7 @@ Dialogue: 0,0:20:53.36,0:20:56.74,Default,,0,0,0,,Пойдём простым л
 Dialogue: 0,0:20:57.24,0:21:01.04,Default,,0,0,0,,{\an5}Let's say that you, Sette-{\i1}san{\i0} and\NSchew-{\i1}chan{\i0}, were to get married.
 Dialogue: 0,0:20:57.24,0:21:01.04,Default,,0,0,0,,Допустим ты, Сетте-сан, и Шу-тян поженились.
 Dialogue: 0,0:21:01.04,0:21:02.91,Default,,0,0,0,,{\an5}--Mm-hmm.\N--Why us?!
-Dialogue: 0,0:21:01.04,0:21:02.91,Default,,0,0,0,,— Так.\N— С чего вдруг?
+Dialogue: 0,0:21:01.04,0:21:02.91,Default,,0,0,0,,— Ок.\N— С чего вдруг?
 Dialogue: 0,0:21:02.92,0:21:05.04,Default,,0,0,0,,{\an5}Just supposing, just supposing!
 Dialogue: 0,0:21:02.92,0:21:05.04,Default,,0,0,0,,Просто допустим!
 Dialogue: 0,0:21:05.04,0:21:09.34,Default,,0,0,0,,{\an5}Then, as a couple, you were to\Nstart playing {\i1}Legendary Age{\i0}.
