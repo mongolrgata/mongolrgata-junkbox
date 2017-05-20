@@ -1,5 +1,9 @@
 define([], function () {
     class LinearSystem {
+        constructor() {
+            throw Error();
+        }
+
         static solve(tridiagonalMatrix, terms) {
             let A = tridiagonalMatrix.under;
             let B = tridiagonalMatrix.major;
