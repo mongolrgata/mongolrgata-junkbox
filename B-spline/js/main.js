@@ -20,7 +20,7 @@ require(['Point', 'BicubicSpline', 'Canvas'], function (Point, BicubicSpline, Ca
 
     let points = [];
     for (let x = 0; x <= 255; ++x) {
-        points.push(new Point(x, spline.getY(x)));
+        points.push(new Point(x, Math.max(0, Math.min(spline.getY(x), 255))));
     }
 
     new Canvas(document.getElementById('curve')).drawCurve(points);
