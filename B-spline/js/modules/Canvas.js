@@ -6,11 +6,13 @@ define([], function () {
 
         /**
          * @param {Point[]} points
+         * @param {string} [color]
          */
-        drawCurve(points) {
+        drawCurve(points, color) {
             let context = this._canvas.getContext('2d');
 
             context.beginPath();
+            context.strokeStyle = color || '#000';
 
             for (let i = 0; i < points.length; ++i) {
                 let point = points[i];

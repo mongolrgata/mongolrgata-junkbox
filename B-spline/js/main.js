@@ -4,24 +4,31 @@ require.config({
         TridiagonalMatrix: 'modules/TridiagonalMatrix',
         LinearSystem: 'modules/LinearSystem',
         BicubicSpline: 'modules/BicubicSpline',
+        Pixel: 'modules/Pixel',
+        Filter: 'modules/Filter',
         Canvas: 'modules/Canvas'
     }
 });
 
-require(['Point', 'BicubicSpline', 'Canvas'], function (Point, BicubicSpline, Canvas) {
-    let spline = new BicubicSpline([
-        new Point(0, 0),
-        new Point(10, 100),
-        new Point(128, 190),
-        new Point(134, 226),
-        new Point(176, 26),
-        new Point(255, 255)
-    ]);
+require(['Pixel', 'Filter', 'Point', 'Canvas'], function (Pixel, Filter, Point, Canvas) {
+    let pixel1 = new Pixel(Pixel.HEXtoRGBA('8a294f'));
+    let pixel2 = new Pixel(Pixel.HEXtoRGBA('34911a'));
+    let filter = new Filter(pixel1, pixel2);
+    let canvas = new Canvas(document.getElementById('curve'));
 
     let points = [];
     for (let x = 0; x <= 255; ++x) {
-        points.push(new Point(x, Math.max(0, Math.min(spline.getY(x), 255))));
+        points.push(new Point(x, filter._splineR.getY(x)));
     }
-
-    new Canvas(document.getElementById('curve')).drawCurve(points);
+    canvas.drawCurve(points, '#F00');
+    points = [];
+    for (let x = 0; x <= 255; ++x) {
+        points.push(new Point(x, filter._splineG.getY(x)));
+    }
+    canvas.drawCurve(points, '#0F0');
+    points = [];
+    for (let x = 0; x <= 255; ++x) {
+        points.push(new Point(x, filter._splineB.getY(x)));
+    }
+    canvas.drawCurve(points, '#00F');
 });
