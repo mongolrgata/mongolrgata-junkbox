@@ -23,7 +23,7 @@ define(['Point', 'BicubicSpline', 'Pixel'], function (Point, BicubicSpline, Pixe
                 this._splineG.getY(pixel.g),
                 this._splineB.getY(pixel.b)
             ].map(
-                value => Math.max(0, Math.min(value, 255))
+                value => Math.round(Math.max(0, Math.min(value, 255)))
             );
 
             return new Pixel([...rgb, pixel.a]);
