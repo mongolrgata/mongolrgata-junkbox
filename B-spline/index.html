@@ -3,9 +3,81 @@
 <head lang="ru">
     <meta charset="UTF-8">
     <title>B-spline</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        html, body, .flex-container {
+            height: 100%;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+        }
+
+        .column:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+        .file-select, button {
+            margin: 8px;
+        }
+
+        .canvas-container {
+            text-align: center;
+            overflow: auto;
+        }
+
+        canvas {
+            border: 1px solid black;
+            background: linear-gradient(135deg, lightgray 25%, transparent 25%) 0 0,
+            linear-gradient(-45deg, lightgray 25%, transparent 25%) 8px 8px,
+            linear-gradient(135deg, lightgray 25%, transparent 25%) 8px 8px,
+            linear-gradient(-45deg, lightgray 25%, transparent 25%) 0 0,
+            white;
+            background-size: 16px 16px;
+        }
+    </style>
     <script data-main="js/main.js" src="js/lib/require.js"></script>
 </head>
 <body>
-<canvas id="curve" width="255" height="255" style="border: 1px solid black; transform: scaleY(-1);"></canvas>
+<!--<canvas id="curve" width="255" height="255" style="border: 1px solid black; transform: scaleY(-1);"></canvas>-->
+<div class="flex-container">
+    <div class="column">
+        <input id="origin-file" type="file" class="file-select">
+        <div class="canvas-container">
+            <canvas id="origin-canvas"></canvas>
+            <br>
+            <button id="save-origin">Save</button>
+        </div>
+    </div>
+    <div class="column">
+        <div style="text-align: center;">
+            <input type="text">
+            <button>doMagic()</button>
+            <input type="text">
+        </div>
+        <div class="canvas-container">
+            <canvas id="preview-canvas"></canvas>
+        </div>
+    </div>
+    <div class="column">
+        <input id="mask-file" type="file" class="file-select">
+        <div class="canvas-container">
+            <canvas id="mask-canvas"></canvas>
+            <br>
+            <button id="save-mask">Save</button>
+        </div>
+    </div>
+</div>
 </body>
 </html>

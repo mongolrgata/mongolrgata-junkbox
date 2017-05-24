@@ -10,25 +10,26 @@ require.config({
     }
 });
 
-require(['Pixel', 'Filter', 'Point', 'Canvas'], function (Pixel, Filter, Point, Canvas) {
-    let pixel1 = new Pixel(Pixel.HEXtoRGBA('8a294f'));
-    let pixel2 = new Pixel(Pixel.HEXtoRGBA('34911a'));
-    let filter = new Filter(pixel1, pixel2);
-    let canvas = new Canvas(document.getElementById('curve'));
+require(['Canvas'], function (Canvas) {
+    const ORIGIN_IMAGE_KEY = '103ad3a5-6171-4c4c-8be4-11b3a8defce6';
+    const MASK_IMAGE_KEY = 'c84e397f-458c-40f0-9cf4-2334bb79b713';
 
-    let points = [];
-    for (let x = 0; x <= 255; ++x) {
-        points.push(new Point(x, filter._splineR.getY(x)));
-    }
-    canvas.drawCurve(points, '#F00');
-    points = [];
-    for (let x = 0; x <= 255; ++x) {
-        points.push(new Point(x, filter._splineG.getY(x)));
-    }
-    canvas.drawCurve(points, '#0F0');
-    points = [];
-    for (let x = 0; x <= 255; ++x) {
-        points.push(new Point(x, filter._splineB.getY(x)));
-    }
-    canvas.drawCurve(points, '#00F');
+    let originCanvas = new Canvas(document.getElementById('origin-canvas'), ORIGIN_IMAGE_KEY);
+    let maskCanvas = new Canvas(document.getElementById('mask-canvas'), MASK_IMAGE_KEY);
+
+    document.getElementById('origin-file').onchange = function () {
+        originCanvas.loadFile(this.files[0]);
+    };
+
+    document.getElementById('mask-file').onchange = function () {
+        maskCanvas.loadFile(this.files[0]);
+    };
+
+    document.getElementById('save-origin').onclick = function () {
+        originCanvas.saveLocalStorage(ORIGIN_IMAGE_KEY);
+    };
+
+    document.getElementById('save-mask').onclick = function () {
+        maskCanvas.saveLocalStorage(MASK_IMAGE_KEY);
+    };
 });
