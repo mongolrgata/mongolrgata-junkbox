@@ -1,15 +1,23 @@
 define([], function () {
+    const DATABASE_NAME = 'ImageStorage';
+
+    let request = window.indexedDB.open(DATABASE_NAME, 1);
+    request.onupgradeneeded = function (event) {
+        let db = event.target.result;
+        db.createObjectStore('images', {keyPath: 'key'});
+    };
+
     class Canvas {
         /**
-         * @param canvas
-         * @param {string} [key]
+         * @param {HTMLCanvasElement} canvas
+         * @param {string} [uuid]
          */
-        constructor(canvas, key) {
+        constructor(canvas, uuid) {
             this._canvas = canvas;
             this._context = canvas.getContext('2d');
 
-            if (key) {
-                this.loadLocalStorage(key);
+            if (uuid) {
+                this.loadImageData(uuid);
             }
         }
 
@@ -31,34 +39,34 @@ define([], function () {
             fileReader.readAsDataURL(file);
         }
 
-        loadLocalStorage(key) {
-            try {
-                let canvas = this._canvas;
-                let context = this._context;
-                let options = JSON.parse(localStorage.getItem(key));
-                let imageData = new ImageData(options.width, options.height);
+        loadImageData(uuid) {
+            let canvas = this._canvas;
+            let context = this._context;
 
-                options.data.forEach((value, index) => imageData.data[index] = value);
+            window.indexedDB.open(DATABASE_NAME, 1).onsuccess = function (event) {
+                event.target.result.transaction(['images'], 'readonly').objectStore("images").get(uuid).onsuccess = function (event) {
+                    if (event.target.result) {
+                        let /** @type {ImageData} */ imageData = event.target.result.imageData;
 
-                canvas.width = options.width;
-                canvas.height = options.height;
-                context.putImageData(imageData, 0, 0);
-            } catch (e) {
-                console.error(e);
-            }
+                        canvas.width = imageData.width;
+                        canvas.height = imageData.height;
+                        context.putImageData(imageData, 0, 0);
+                    }
+                };
+            };
         }
 
-        saveLocalStorage(key) {
+        saveImageData(uuid) {
             let canvas = this._canvas;
             let context = this._context;
             let imageData = context.getImageData(0, 0, canvas.width, canvas.height);
-            let options = {
-                width: canvas.width,
-                height: canvas.height,
-                data: Array.prototype.map.call(imageData.data, value => value)
-            };
 
-            localStorage.setItem(key, JSON.stringify(options));
+            window.indexedDB.open(DATABASE_NAME, 1).onsuccess = function (event) {
+                event.target.result.transaction(['images'], 'readwrite').objectStore("images").put({
+                    key: uuid,
+                    imageData: imageData
+                });
+            };
         }
 
         /**
