@@ -14,19 +14,27 @@ define(['Point', 'BicubicSpline', 'Pixel'], function (Point, BicubicSpline, Pixe
         }
 
         /**
-         * @param {Pixel} pixel
-         * @returns {Pixel}
+         * @param {ImageData} imageData
+         * @returns {ImageData}
          */
-        apply(pixel) {
-            let rgb = [
-                this._splineR.getY(pixel.r),
-                this._splineG.getY(pixel.g),
-                this._splineB.getY(pixel.b)
-            ].map(
-                value => Math.round(Math.max(0, Math.min(value, 255)))
-            );
+        apply(imageData) {
+            let result = new ImageData(imageData.width, imageData.height);
+            for (let i = 0; i < imageData.data.length; i += 4) {
+                let rgb = [
+                    this._splineR.getY(imageData.data[i]),
+                    this._splineG.getY(imageData.data[i + 1]),
+                    this._splineB.getY(imageData.data[i + 2])
+                ].map(
+                    value => Math.round(Math.max(0, Math.min(value, 255)))
+                );
 
-            return new Pixel([...rgb, pixel.a]);
+                result.data[i] = rgb[0];
+                result.data[i + 1] = rgb[1];
+                result.data[i + 2] = rgb[2];
+                result.data[i + 3] = imageData.data[i + 3];
+            }
+
+            return result;
         }
     }
 
