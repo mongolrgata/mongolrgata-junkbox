@@ -12,13 +12,48 @@ define([], function () {
          * @param {HTMLCanvasElement} canvas
          * @param {string} [uuid]
          */
-        constructor(canvas, uuid) {
+        constructor(canvas, input, uuid) {
+            let self = this;
             this._canvas = canvas;
             this._context = canvas.getContext('2d');
 
             if (uuid) {
                 this.loadImageData(uuid);
             }
+
+            this._canvas.onclick = function (mouseEvent) {
+                let x = mouseEvent.offsetX;
+                let y = mouseEvent.offsetY;
+
+                input.value = self.getHEX(x, y);
+            };
+        }
+
+        getHEX(x, y) {
+            let context = this._context;
+            let data = context.getImageData(x - 3, y - 3, 7, 7).data;
+            let rgb = [0, 0, 0];
+
+            for (let i = 0; i < data.length; i += 4) {
+                rgb[0] += data[i];
+                rgb[1] += data[i + 1];
+                rgb[2] += data[i + 2];
+            }
+
+            return rgb.map(value => ('00' + (Math.round(value / 49)).toString(16)).slice(-2)).join('');
+        }
+
+        get imageData() {
+            return this._context.getImageData(0, 0, this._canvas.width, this._canvas.height);
+        }
+
+        set imageData(imageData) {
+            let canvas = this._canvas;
+            let context = this._context;
+
+            canvas.width = imageData.width;
+            canvas.height = imageData.height;
+            context.putImageData(imageData, 0, 0);
         }
 
         loadFile(file) {
