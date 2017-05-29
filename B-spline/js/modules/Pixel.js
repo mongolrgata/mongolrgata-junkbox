@@ -19,6 +19,15 @@ define([], function () {
         get a() {
             return this._a;
         }
+        
+        mul(c) {
+            return new Pixel([
+                this._r * c,
+                this._g * c,
+                this._b * c,
+                this._a
+            ]);
+        }
 
         static HEXtoRGBA(hex) {
             return [...hex.match(/.{2}/g).map(x => parseInt(x, 16)), 255];

@@ -46,6 +46,10 @@
             white;
             background-size: 16px 16px;
         }
+       
+       #coefficient-before, #coefficient-after {
+          width: 100%;
+       }
     </style>
     <script data-main="js/main.js" src="js/lib/require.js"></script>
 </head>
@@ -65,6 +69,10 @@
             <input id="before-hex" type="text">
             <button id="do-magic">doMagic</button>
             <input id="after-hex" type="text">
+        </div>
+        <div>
+            <input id="coefficient-before" type="range" min="0" max="100" step="1" value="100">
+            <input id="coefficient-after" type="range" min="0" max="100" step="1" value="100">
         </div>
         <div class="canvas-container">
             <canvas id="preview-canvas"></canvas>

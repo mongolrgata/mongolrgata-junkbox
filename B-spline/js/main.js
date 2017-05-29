@@ -38,7 +38,7 @@ require(['Canvas', 'Pixel', 'Filter'],
         };
 
         let filterWorker;
-        document.getElementById('do-magic').onclick = function () {
+        let applyFilter = function () {
             if (filterWorker) {
                 filterWorker.terminate();
             }
@@ -51,6 +51,8 @@ require(['Canvas', 'Pixel', 'Filter'],
 
             filterWorker = new Worker(`js/workers/filter.js`);
             filterWorker.postMessage({
+                coefficientBefore: document.getElementById('coefficient-before').value / 100,
+                coefficientAfter: document.getElementById('coefficient-after').value / 100,
                 before: beforeRGBA,
                 after: afterRGBA,
                 imageData: originCanvas.imageData
@@ -60,5 +62,9 @@ require(['Canvas', 'Pixel', 'Filter'],
                 previewCanvas.imageData = messageEvent.data;
             }
         };
+        
+        document.getElementById('coefficient-before').onchange = applyFilter;
+        document.getElementById('coefficient-after').onchange = applyFilter;
+        document.getElementById('do-magic').onclick = applyFilter;
     }
 );
