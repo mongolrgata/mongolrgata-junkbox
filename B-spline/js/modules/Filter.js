@@ -1,10 +1,11 @@
-define(['Point', 'BicubicSpline', 'Pixel'], function (Point, BicubicSpline, Pixel) {
+define(['Point', 'BicubicSpline'], function (Point, BicubicSpline) {
     class Filter {
         /**
          * @param {Pixel} before
          * @param {Pixel} after
          */
         constructor(before, after) {
+            console.log(before, after);
             let startPoint = new Point(0, 0);
             let endPoint = new Point(255, 255);
 

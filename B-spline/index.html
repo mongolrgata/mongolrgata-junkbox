@@ -46,15 +46,18 @@
             white;
             background-size: 16px 16px;
         }
-       
-       #coefficient-before, #coefficient-after {
-          width: 100%;
-       }
+
+        table, #coefficient-before, #coefficient-after {
+            width: 100%;
+        }
+
+        td {
+            white-space: nowrap;
+        }
     </style>
     <script data-main="js/main.js" src="js/lib/require.js"></script>
 </head>
 <body>
-<!--<canvas id="curve" width="255" height="255" style="border: 1px solid black; transform: scaleY(-1);"></canvas>-->
 <div class="flex-container">
     <div class="column">
         <input id="origin-file" type="file" class="file-select">
@@ -66,16 +69,47 @@
     </div>
     <div class="column">
         <div style="text-align: center;">
-            <input id="before-hex" type="text">
+            <input id="before-hex" type="text" title="before">
             <button id="do-magic">doMagic</button>
-            <input id="after-hex" type="text">
-        </div>
-        <div>
-            <input id="coefficient-before" type="range" min="0" max="100" step="1" value="100">
-            <input id="coefficient-after" type="range" min="0" max="100" step="1" value="100">
+            <input id="after-hex" type="text" title="after">
         </div>
         <div class="canvas-container">
             <canvas id="preview-canvas"></canvas>
+        </div>
+        <div>
+            <table>
+                <colgroup>
+                    <col width="46px">
+                    <col>
+                    <col width="36px">
+                    <col width="64px">
+                </colgroup>
+                <tr>
+                    <td>
+                        <label for="coefficient-before">Before</label>
+                    </td>
+                    <td>
+                        <input id="coefficient-before" type="range" min="0" max="250" step="1" value="100">
+                    </td>
+                    <td>
+                        <span id="before-number">100</span>
+                    </td>
+                    <td rowspan="2">
+                        <label><input id="sync" type="checkbox" checked>Both</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="coefficient-after">After</label>
+                    </td>
+                    <td>
+                        <input id="coefficient-after" type="range" min="0" max="250" step="1" value="100">
+                    </td>
+                    <td>
+                        <span id="after-number">100</span>
+                    </td>
+                </tr>
+            </table>
         </div>
     </div>
     <div class="column">

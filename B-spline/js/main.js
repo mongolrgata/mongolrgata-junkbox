@@ -37,6 +37,16 @@ require(['Canvas', 'Pixel', 'Filter'],
             maskCanvas.saveImageData(MASK_IMAGE_UUID);
         };
 
+        let syncCoefficients = function () {
+            if (document.getElementById('sync').checked) {
+                document.getElementById('coefficient-before').value = this.value;
+                document.getElementById('coefficient-after').value = this.value;
+            }
+
+            document.getElementById('before-number').textContent = this.value;
+            document.getElementById('after-number').textContent = this.value;
+        };
+
         let filterWorker;
         let applyFilter = function () {
             if (filterWorker) {
@@ -58,13 +68,17 @@ require(['Canvas', 'Pixel', 'Filter'],
                 imageData: originCanvas.imageData
             });
 
-            filterWorker.onmessage = function(messageEvent) {
+            filterWorker.onmessage = function (messageEvent) {
                 previewCanvas.imageData = messageEvent.data;
             }
         };
-        
+
+        document.getElementById('coefficient-before').oninput = syncCoefficients;
+        document.getElementById('coefficient-after').oninput = syncCoefficients;
+
         document.getElementById('coefficient-before').onchange = applyFilter;
         document.getElementById('coefficient-after').onchange = applyFilter;
+
         document.getElementById('do-magic').onclick = applyFilter;
     }
 );
