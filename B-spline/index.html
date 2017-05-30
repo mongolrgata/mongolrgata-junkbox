@@ -21,7 +21,7 @@
         .column {
             display: flex;
             flex-direction: column;
-            width: 30%;
+            width: 25%;
         }
 
         .column:nth-child(odd) {
@@ -46,6 +46,11 @@
             white;
             background-size: 16px 16px;
         }
+        
+        .spline-canvas {
+            transform: scaleY(-1);
+            background: white;
+        }
 
         table, #coefficient-before, #coefficient-after {
             width: 100%;
@@ -67,7 +72,7 @@
             <button id="save-origin">Save</button>
         </div>
     </div>
-    <div class="column">
+    <div>
         <div style="text-align: center;">
             <input id="before-hex" type="text" title="before">
             <button id="do-magic">doMagic</button>
@@ -110,6 +115,11 @@
                     </td>
                 </tr>
             </table>
+        </div>
+        <div>
+            <canvas id="canvas-spline-r" class="spline-canvas" width="255" height="255"></canvas>
+            <canvas id="canvas-spline-g" class="spline-canvas" width="255" height="255"></canvas>
+            <canvas id="canvas-spline-b" class="spline-canvas" width="255" height="255"></canvas>
         </div>
     </div>
     <div class="column">

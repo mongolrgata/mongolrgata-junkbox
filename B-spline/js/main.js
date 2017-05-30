@@ -10,14 +10,21 @@ require.config({
     }
 });
 
-require(['Canvas', 'Pixel', 'Filter'],
-    function (Canvas, Pixel) {
+require(['Canvas', 'Pixel', 'Point', 'Filter'],
+    function (Canvas, Pixel, Point) {
         const ORIGIN_IMAGE_UUID = '103ad3a5-6171-4c4c-8be4-11b3a8defce6';
         const MASK_IMAGE_UUID = 'c84e397f-458c-40f0-9cf4-2334bb79b713';
 
         let originCanvas = new Canvas(document.getElementById('origin-canvas'), document.getElementById('before-hex'), ORIGIN_IMAGE_UUID);
         let maskCanvas = new Canvas(document.getElementById('mask-canvas'), document.getElementById('after-hex'), MASK_IMAGE_UUID);
         let previewCanvas = new Canvas(document.getElementById('preview-canvas'));
+
+        document.getElementById('before-hex').value = localStorage.getItem('before-hex');
+        document.getElementById('after-hex').value = localStorage.getItem('after-hex');
+        
+        let splineR = new Canvas(document.getElementById('canvas-spline-r'));
+        let splineG = new Canvas(document.getElementById('canvas-spline-g'));
+        let splineB = new Canvas(document.getElementById('canvas-spline-b'));
 
         window.lol = originCanvas;
 
@@ -69,7 +76,13 @@ require(['Canvas', 'Pixel', 'Filter'],
             });
 
             filterWorker.onmessage = function (messageEvent) {
-                previewCanvas.imageData = messageEvent.data;
+                if (messageEvent.data.hasOwnProperty('imageData')) {
+                    previewCanvas.imageData = messageEvent.data.imageData;
+                } else {
+                    splineR.drawCurve(messageEvent.data.splineR.map((value, index) => new Point(index, value)), '#F00');
+                    splineG.drawCurve(messageEvent.data.splineG.map((value, index) => new Point(index, value)), '#0F0');
+                    splineB.drawCurve(messageEvent.data.splineB.map((value, index) => new Point(index, value)), '#00F');
+                }
             }
         };
 

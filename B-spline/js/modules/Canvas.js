@@ -21,12 +21,15 @@ define([], function () {
                 this.loadImageData(uuid);
             }
 
-            this._canvas.onclick = function (mouseEvent) {
-                let x = mouseEvent.offsetX;
-                let y = mouseEvent.offsetY;
+            if (input) {
+                this._canvas.onclick = function (mouseEvent) {
+                    let x = mouseEvent.offsetX;
+                    let y = mouseEvent.offsetY;
 
-                input.value = self.getHEX(x, y);
-            };
+                    input.value = self.getHEX(x, y);
+                    localStorage.setItem(input.id, input.value);
+                };
+            }
         }
 
         getHEX(x, y) {
@@ -109,8 +112,10 @@ define([], function () {
          * @param {string} [color]
          */
         drawCurve(points, color) {
+            let canvas = this._canvas;
             let context = this._canvas.getContext('2d');
 
+            context.clearRect(0, 0, canvas.width, canvas.height);
             context.beginPath();
             context.strokeStyle = color || '#000';
 

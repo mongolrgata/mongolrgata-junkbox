@@ -39,6 +39,22 @@ define(['Point', 'BicubicSpline'], function (Point, BicubicSpline) {
                 }
             }
         }
+        
+        getYs(first, last) {
+            let result = {
+                splineR: [],
+                splineG: [],
+                splineB: []
+            };
+            
+            for (let i = first; i <= last; ++i) {
+                result.splineR.push(this._splineR.getY(i));
+                result.splineG.push(this._splineG.getY(i));
+                result.splineB.push(this._splineB.getY(i));
+            }
+            
+            return result;
+        }
 
         /**
          * @param {ImageData} imageData
