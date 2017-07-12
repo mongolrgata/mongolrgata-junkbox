@@ -101,3 +101,10 @@ document.addEventListener('DOMContentLoaded', function () {
         generateNewHira(ctx);
     };
 });
+
+// var op = {};
+// for (var i = 0; i < 1000000; ++i) {
+//     generateNewHira($0.getContext('2d'));
+//     var text = currentHira.text;
+//     op[text] = (op[text] || 0) + 1;
+// }
