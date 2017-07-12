@@ -59,6 +59,7 @@ var generateNewHira = function (ctx) {
     ctx.fillText(currentHira.text, 128, 128);
 
     document.getElementById('answer').value = '';
+    document.getElementById('answer').focus();
 };
 
 var prepend = function (container, content) {
@@ -95,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var checkButton = document.getElementById('check');
     var answerInput = document.getElementById('answer');
     checkButton.onclick = function () {
-        var answer = answerInput.value.trim();
+        var answer = (answerInput.value || '').trim().toLowerCase();
         createResultInfoBox(answer === currentHira.romaji, answer);
         generateNewHira(ctx);
     };
