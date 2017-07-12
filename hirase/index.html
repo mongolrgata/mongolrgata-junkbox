@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hirase</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: lightgray;
+        }
+
+        #head {
+            height: 272px;
+        }
+
+        #hira {
+            position: absolute;
+            top: 8px;
+            right: 0;
+            left: 0;
+            margin: auto;
+            width: 256px;
+            height: 256px;
+            background-color: white;
+        }
+
+        #main {
+            text-align: center;
+        }
+
+        #results {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .result-box {
+            margin-top: 8px;
+            width: 64px;
+            height: 64px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 32px;
+        }
+
+        .desc {
+            font-size: 10px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            max-width: 100%;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+<div id="head">
+    <canvas id="hira"></canvas>
+</div>
+<div id="main">
+    <input id="answer" type="text">
+    <button id="check">check</button>
+</div>
+<div id="results"></div>
+</body>
+</html>
