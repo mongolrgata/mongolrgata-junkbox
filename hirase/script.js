@@ -21,7 +21,14 @@ var ROMAJI = [
 
 var FONTS = [
     '128px sans-serif',
-    '128px MS Gothic'
+    '128px "MS Gothic"',
+    '128px "Hosohuwafont"',
+    '128px "JK Gothic M"',
+    '128px "KaoriGel"',
+    '128px "Mamelon"',
+    '128px "Mikiyu Font NEW-PENJI"',
+    '128px "SanaFon"',
+    '128px "SanafonYu"'
 ];
 
 var randomFont = function () {
