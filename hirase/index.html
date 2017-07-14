@@ -8,26 +8,32 @@
             font-family: 'Hosohuwafont';
             src: url('fonts/Hosohuwafont.ttf');
         }
+
         @font-face {
             font-family: 'JK Gothic M';
             src: url('fonts/JK Gothic M.ttf');
         }
+
         @font-face {
             font-family: 'KaoriGel';
             src: url('fonts/KaoriGel.ttf');
         }
+
         @font-face {
             font-family: 'Mamelon';
             src: url('fonts/Mamelon.otf');
         }
+
         @font-face {
             font-family: 'Mikiyu Font NEW-PENJI';
             src: url('fonts/Mikiyu Font NEW-PENJI.ttf');
         }
+
         @font-face {
             font-family: 'SanaFon';
             src: url('fonts/SanaFon.ttf');
         }
+
         @font-face {
             font-family: 'SanafonYu';
             src: url('fonts/SanafonYu.ttf');
@@ -44,6 +50,7 @@
         }
 
         #head {
+            position: relative;
             height: 272px;
         }
 
@@ -56,6 +63,21 @@
             width: 256px;
             height: 256px;
             background-color: white;
+        }
+
+        #default-font {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            border-radius: 50%;
+            width: 15%;
+            background-color: gray;
+        }
+
+        #default-font:before {
+            content: "";
+            display: block;
+            padding-top: 100%;
         }
 
         #main {
@@ -72,16 +94,21 @@
             margin-top: 8px;
             width: 64px;
             height: 64px;
-            font-size: 32px;
+            font-size: 32px !important;
 
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
         }
+        
+        .default-font {
+            font-family: sans-serif !important;
+        }
 
         .desc {
             font-size: 10px;
+            font-family: sans-serif !important;
             white-space: nowrap;
             text-overflow: ellipsis;
             overflow: hidden;
@@ -99,7 +126,7 @@
                 width: 80vw;
                 height: 80vw;
             }
-            
+
             #main {
                 position: fixed;
                 bottom: 0;
@@ -130,18 +157,26 @@
             .result-box {
                 width: 128px;
                 height: 128px;
-                font-size: 64px;
+                font-size: 64px !important;
             }
 
             .desc {
                 font-size: 20px;
             }
         }
+
+        #preload-fonts {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            overflow: hidden;
+            visibility: hidden;
+        }
     </style>
     <script src="script.js"></script>
 </head>
 <body>
-<div style="visibility: hidden; position: absolute">
+<div id="preload-fonts">
     <span style="font: 128px sans-serif">こあり</span><br>
     <span style="font: 128px 'MS Gothic'">こあり</span><br>
     <span style="font: 128px 'Hosohuwafont'">こあり</span><br>
@@ -154,6 +189,7 @@
 </div>
 <div id="head">
     <canvas id="hira"></canvas>
+    <div id="default-font"></div>
 </div>
 <div id="main">
     <input id="answer" type="text" autocorrect="off" autocapitalize="none">
