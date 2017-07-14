@@ -95,6 +95,7 @@ var prepend = function (container, content) {
         } else {
             resultBox.className = 'result-box';
         }
+        document.getElementById('answer').focus();
     };
 
     el.insertBefore(elChild, el.firstChild);
