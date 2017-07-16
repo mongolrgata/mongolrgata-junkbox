@@ -101,7 +101,7 @@
             justify-content: center;
             flex-direction: column;
         }
-        
+
         .default-font {
             font-family: sans-serif !important;
         }
@@ -163,6 +163,16 @@
             .desc {
                 font-size: 20px;
             }
+
+            #local-storage {
+                font-size: 32px;
+            }
+
+            #additional {
+                width: 32px;
+                height: 32px;
+                vertical-align: middle;
+            }
         }
 
         #preload-fonts {
@@ -192,6 +202,9 @@
     <div id="default-font"></div>
 </div>
 <div id="main">
+    <div id="local-storage">
+        <input type="checkbox" id="additional"> with additional
+    </div>
     <input id="answer" type="text" autocorrect="off" autocapitalize="none">
     <button id="check">check</button>
 </div>

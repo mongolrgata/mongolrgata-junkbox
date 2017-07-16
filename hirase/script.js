@@ -7,8 +7,15 @@ var HIRA = [
     ['ｅ', '　', 'ゑ', 'れ', '　', 'め', 'へ', 'ね', 'て', 'せ', 'け', 'え'],
     ['ｏ', '　', 'を', 'ろ', 'よ', 'も', 'ほ', 'の', 'と', 'そ', 'こ', 'お']
 ];
-var HIRA_I = HIRA.length - 1;
-var HIRA_J = HIRA[0].length - 1;
+
+var ADDITIONAL_HIRA = [
+    ['ｇ', 'ｚ', 'ｄ', 'ｂ', 'ｐ'],
+    ['が', 'ざ', 'だ', 'ば', 'ぱ'],
+    ['ぎ', 'じ', 'ぢ', 'び', 'ぴ'],
+    ['ぐ', 'ず', 'づ', 'ぶ', 'ぷ'],
+    ['げ', 'ぜ', 'で', 'べ', 'ぺ'],
+    ['ぎ', 'ぞ', 'ど', 'ぼ', 'ぽ']
+];
 
 var ROMAJI = [
     ['　', 'ｎ', 'ｗ', 'ｒ', 'ｙ', 'ｍ', 'ｈ', 'ｎ', 'ｔ', 'ｓ', 'ｋ', '　'],
@@ -18,6 +25,27 @@ var ROMAJI = [
     ['ｅ', '　', 'we', 're', '　', 'me', 'he', 'ne', 'te', 'se', 'ke', 'e'],
     ['ｏ', '　', 'wo', 'ro', 'yo', 'mo', 'ho', 'no', 'to', 'so', 'ko', 'o']
 ];
+
+var ADDITIONAL_ROMAJI = [
+    ['ｇ', 'ｚ', 'ｄ', 'ｂ', 'ｐ'],
+    ['ga', 'za', 'da', 'ba', 'pa'],
+    ['gi', 'ji', 'ji', 'bi', 'pi'],
+    ['gu', 'zu', 'zu', 'bu', 'pu'],
+    ['ge', 'ze', 'de', 'be', 'pe'],
+    ['go', 'zo', 'do', 'bo', 'po']
+];
+
+if (+localStorage.getItem('withAdditional')) {
+    HIRA = HIRA.map(function (value, index) {
+        return value.concat(ADDITIONAL_HIRA[index]);
+    });
+    ROMAJI = ROMAJI.map(function (value, index) {
+        return value.concat(ADDITIONAL_ROMAJI[index]);
+    });
+}
+
+var HIRA_I = HIRA.length - 1;
+var HIRA_J = HIRA[0].length - 1;
 
 var FONTS = [
     '128px sans-serif',
@@ -120,6 +148,12 @@ var createResultInfoBox = function (result, answer, ctx) {
 };
 
 document.addEventListener('DOMContentLoaded', function () {
+    var additionalCheckbox = document.getElementById('additional');
+    additionalCheckbox.checked = +localStorage.getItem('withAdditional');
+    additionalCheckbox.onchange = function () {
+        localStorage.setItem('withAdditional', +additionalCheckbox.checked);
+    };
+
     var canvas = document.getElementById('hira');
     canvas.width = 256;
     canvas.height = 256;
