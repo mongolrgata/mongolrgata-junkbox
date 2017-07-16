@@ -69,24 +69,53 @@ var generateNewHira = function (ctx) {
     document.getElementById('answer').focus();
 };
 
+var redrawDefault = function (ctx) {
+    ctx.fillStyle = 'white';
+    ctx.fillRect(0, 0, 256, 256);
+    ctx.font = FONTS[0];
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillStyle = 'black';
+    ctx.fillText(currentHira.text, 128, 128);
+
+    document.getElementById('answer').value = '';
+    document.getElementById('answer').focus();
+};
+
 var prepend = function (container, content) {
     var el = container;
     var elChild = document.createElement('div');
     elChild.innerHTML = content;
 
+    elChild.onclick = function () {
+        var resultBox = this.getElementsByClassName('result-box')[0];
+        var className = resultBox.className;
+        if (className === 'result-box') {
+            resultBox.className = 'result-box default-font';
+        } else {
+            resultBox.className = 'result-box';
+        }
+        document.getElementById('answer').focus();
+    };
+
     el.insertBefore(elChild, el.firstChild);
 };
 
-var createResultInfoBox = function (result, answer) {
+var createResultInfoBox = function (result, answer, ctx) {
     var resultsContainer = document.getElementById('results');
     var color = result ? 'lightgreen' : 'orangered';
     var hira = currentHira.text;
+    var font = ctx.font;
     var roma = '"' + currentHira.romaji + '"';
     var desc = result || !answer ? roma : roma + ' (not "' + answer + '")';
 
+    //noinspection JSAnnotator
     prepend(
         resultsContainer,
-        `<div class="result-box" style="background-color: ${color}">${hira}<div class="desc">${desc}</div></div>`
+        `<div class="result-box" style="background-color: ${color}; font: ${font}">
+            ${hira}
+            <div class="desc">${desc}</div>
+        </div>`
     );
 };
 
@@ -104,8 +133,20 @@ document.addEventListener('DOMContentLoaded', function () {
     var answerInput = document.getElementById('answer');
     checkButton.onclick = function () {
         var answer = (answerInput.value || '').trim().toLowerCase();
-        createResultInfoBox(answer === currentHira.romaji, answer);
+        createResultInfoBox(answer === currentHira.romaji, answer, ctx);
         generateNewHira(ctx);
+    };
+    answerInput.onkeypress = function (keyboardEvent) {
+        switch (keyboardEvent.code) {
+            case 'Enter':
+                checkButton.click();
+                break;
+        }
+    };
+
+    var defaultFontButton = document.getElementById('default-font');
+    defaultFontButton.onclick = function () {
+        redrawDefault(ctx);
     };
 });
 
