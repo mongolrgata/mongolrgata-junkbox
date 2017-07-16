@@ -15,7 +15,10 @@ Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 10 (AT-X 1280x720 x264 AAC).mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.500000
+Video Zoom Percent: 0.625000
+Scroll Position: 204
+Active Line: 223
+Video Position: 10289
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -27,227 +30,227 @@ Style: Def_I-T,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,10
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:02.96,0:00:06.38,Default,,0,0,0,,{\an5}Long ago, when I was\Ntaking part in a pickup party...
-Dialogue: 0,0:00:02.96,0:00:06.38,Default,,0,0,0,,
+Dialogue: 0,0:00:02.96,0:00:06.38,Default,,0,0,0,,Во времена моего нубства, я играл с рандомами…
 Dialogue: 0,0:00:06.38,0:00:08.76,Default,,0,0,0,,{\an5}Is one healer going to be enough?
-Dialogue: 0,0:00:06.38,0:00:08.76,Default,,0,0,0,,
+Dialogue: 0,0:00:06.38,0:00:08.76,Default,,0,0,0,,Хил, засуппортишь в одно рыло?
 Dialogue: 0,0:00:08.76,0:00:10.26,Default,,0,0,0,,{\an5}We'll be fine.
-Dialogue: 0,0:00:08.76,0:00:10.26,Default,,0,0,0,,
+Dialogue: 0,0:00:08.76,0:00:10.26,Default,,0,0,0,,Всё пучком.
 Dialogue: 0,0:00:10.26,0:00:13.01,Default,,0,0,0,,{\an5}In fact, I didn't think we'd be fine.
-Dialogue: 0,0:00:10.26,0:00:13.01,Default,,0,0,0,,
+Dialogue: 0,0:00:10.26,0:00:13.01,Default,,0,0,0,,Не нагнули бы нас рачком…
 Dialogue: 0,0:00:19.86,0:00:21.98,Default,,0,0,0,,{\an5}And sure enough,\Nher heal rate couldn't keep up,
-Dialogue: 0,0:00:19.86,0:00:21.98,Default,,0,0,0,,
+Dialogue: 0,0:00:19.86,0:00:21.98,Default,,0,0,0,,ИЧСХ, одного хиллера нам не хватило.
 Dialogue: 0,0:00:21.98,0:00:24.28,Default,,0,0,0,,{\an5}and we suffered a party wipe.
-Dialogue: 0,0:00:21.98,0:00:24.28,Default,,0,0,0,,
+Dialogue: 0,0:00:21.98,0:00:24.28,Default,,0,0,0,,Нагнули всех без исключения.
 Dialogue: 0,0:00:24.28,0:00:28.61,Default,,0,0,0,,{\an5}Isana-{\i1}san{\i0} kept apologizing,\Nbut she really wasn't the one to blame.
-Dialogue: 0,0:00:24.28,0:00:28.61,Default,,0,0,0,,
+Dialogue: 0,0:00:24.28,0:00:28.61,Default,,0,0,0,,Конечно все стали гнать на суппорта, но Исана-сан старалась как могла.
 Dialogue: 0,0:00:28.61,0:00:32.53,Default,,0,0,0,,{\an5}I should have spoken up that it\Nwas going to be hard at the outset.
-Dialogue: 0,0:00:28.61,0:00:32.53,Default,,0,0,0,,
+Dialogue: 0,0:00:28.61,0:00:32.53,Default,,0,0,0,,Было очевидно, что нас ожидает фейл, но понадеялись на авось.
 Dialogue: 0,0:00:33.54,0:00:38.00,Default,,0,0,0,,{\an5}I inwardly prayed that she wouldn't\Nget fed up with the game and quit.
-Dialogue: 0,0:00:33.54,0:00:38.00,Default,,0,0,0,,
+Dialogue: 0,0:00:33.54,0:00:38.00,Default,,0,0,0,,Тогда я про себя пожелал, что она после этого не рейджквитнент из игры.
 Dialogue: 0,0:00:39.25,0:00:43.59,Default,,0,0,0,,{\an5}So then, a few months later,\Nshe was there in another pickup party.
-Dialogue: 0,0:00:39.25,0:00:43.59,Default,,0,0,0,,
+Dialogue: 0,0:00:39.25,0:00:43.59,Default,,0,0,0,,И вот, пару месяцев спустя, мы оказались вместе в другой пати из рандомов.
 Dialogue: 0,0:00:43.59,0:00:45.21,Default,,0,0,0,,{\an5}Isana-{\i1}san{\i0} was like...
-Dialogue: 0,0:00:43.59,0:00:45.21,Default,,0,0,0,,
+Dialogue: 0,0:00:43.59,0:00:45.21,Default,,0,0,0,,Исану-сан спросили:
 Dialogue: 0,0:00:45.21,0:00:47.80,Default,,0,0,0,,{\an5}Is one healer going to be enough?
-Dialogue: 0,0:00:45.21,0:00:47.80,Default,,0,0,0,,
+Dialogue: 0,0:00:45.21,0:00:47.80,Default,,0,0,0,,Хил, засуппортишь в одно рыло?
 Dialogue: 0,0:00:47.80,0:00:49.59,Default,,0,0,0,,{\an5}I'll be fine.
-Dialogue: 0,0:00:47.80,0:00:49.59,Default,,0,0,0,,
+Dialogue: 0,0:00:47.80,0:00:49.59,Default,,0,0,0,,Всё пучком.
 Dialogue: 0,0:00:49.59,0:00:53.55,Default,,0,0,0,,{\an5}But with what happened before,\Nthis time, I made sure to say something.
-Dialogue: 0,0:00:49.59,0:00:53.55,Default,,0,0,0,,
+Dialogue: 0,0:00:49.59,0:00:53.55,Default,,0,0,0,,Но, памятуя о прошлом, в этот раз я решил вмешаться.
 Dialogue: 0,0:00:53.56,0:00:55.01,Default,,0,0,0,,{\an5}This will be hard with just one healer,
-Dialogue: 0,0:00:53.56,0:00:55.01,Default,,0,0,0,,
+Dialogue: 0,0:00:53.56,0:00:55.01,Default,,0,0,0,,Раз у нас всего один хиллер,
 Dialogue: 0,0:00:55.01,0:00:57.43,Default,,0,0,0,,{\an5}so let's be careful not to\Nbe too big a burden on her.
-Dialogue: 0,0:00:55.01,0:00:57.43,Default,,0,0,0,,
+Dialogue: 0,0:00:55.01,0:00:57.43,Default,,0,0,0,,давайте не будем отвлекаться на курочку.
 Dialogue: 0,0:00:57.43,0:01:02.11,Default,,0,0,0,,{\an5}And then, Isana-{\i1}san{\i0} said one\Nword to me in private chat...
-Dialogue: 0,0:00:57.43,0:01:02.11,Default,,0,0,0,,
+Dialogue: 0,0:00:57.43,0:01:02.11,Default,,0,0,0,,После чего Исана скромно кинула мне в личку такие слова…
 Dialogue: 0,0:01:02.11,0:01:03.61,Default,,0,0,0,,{\an5}Thanks.
-Dialogue: 0,0:01:02.11,0:01:03.61,Default,,0,0,0,,
+Dialogue: 0,0:01:02.11,0:01:03.61,Default,,0,0,0,,Спс.
 Dialogue: 0,0:01:05.23,0:01:07.32,Default,,0,0,0,,{\an5}So what you're saying is,\Nyou're bragging on your old girlfriend.
-Dialogue: 0,0:01:05.23,0:01:07.32,Default,,0,0,0,,
+Dialogue: 0,0:01:05.23,0:01:07.32,Default,,0,0,0,,Бахвалишься, что чатился с какой-то тянкой?
 Dialogue: 0,0:01:07.32,0:01:09.53,Default,,0,0,0,,{\an5}How do you get {\i1}that{\i0} out of it?!
-Dialogue: 0,0:01:07.32,0:01:09.53,Default,,0,0,0,,
+Dialogue: 0,0:01:07.32,0:01:09.53,Default,,0,0,0,,Разве в этом суть истории?
 Dialogue: 0,0:01:09.53,0:01:10.95,Default,,0,0,0,,{\an5}Am I wrong?
-Dialogue: 0,0:01:09.53,0:01:10.95,Default,,0,0,0,,
+Dialogue: 0,0:01:09.53,0:01:10.95,Default,,0,0,0,,Разве нет?
 Dialogue: 0,0:01:10.95,0:01:12.49,Default,,0,0,0,,{\an5}What I'm trying to say
-Dialogue: 0,0:01:10.95,0:01:12.49,Default,,0,0,0,,
+Dialogue: 0,0:01:10.95,0:01:12.49,Default,,0,0,0,,Суть в том, что
 Dialogue: 0,0:01:12.49,0:01:16.16,Default,,0,0,0,,{\an5}is that some people have trouble\Nasking for help when they need it.
-Dialogue: 0,0:01:12.49,0:01:16.16,Default,,0,0,0,,
+Dialogue: 0,0:01:12.49,0:01:16.16,Default,,0,0,0,,есть люди, которые не просят о помощи, даже когда нуждаются в ней.
 Dialogue: 0,0:01:16.16,0:01:17.58,Default,,0,0,0,,{\an5}Ako, you understand that, right?
-Dialogue: 0,0:01:16.16,0:01:17.58,Default,,0,0,0,,
+Dialogue: 0,0:01:16.16,0:01:17.58,Default,,0,0,0,,Ако, рубишь фишку?
 Dialogue: 0,0:01:17.58,0:01:20.25,Default,,0,0,0,,{\an5}Yes, I do.
-Dialogue: 0,0:01:17.58,0:01:20.25,Default,,0,0,0,,
+Dialogue: 0,0:01:17.58,0:01:20.25,Default,,0,0,0,,Да, рублю.
 Dialogue: 0,0:01:20.25,0:01:23.00,Default,,0,0,0,,{\an5}I think that when someone is\Nfeeling like they're overburdened,
-Dialogue: 0,0:01:20.25,0:01:23.00,Default,,0,0,0,,
+Dialogue: 0,0:01:20.25,0:01:23.00,Default,,0,0,0,,И если кто-то оказался в неудобной ситуации,
 Dialogue: 0,0:01:23.00,0:01:26.84,Default,,0,0,0,,{\an5}it takes some compassion to\Nrealize that and help them out.
-Dialogue: 0,0:01:23.00,0:01:26.84,Default,,0,0,0,,
+Dialogue: 0,0:01:23.00,0:01:26.84,Default,,0,0,0,,то правильным будет по возможности помочь этому человеку.
 Dialogue: 0,0:01:26.84,0:01:28.42,Default,,0,0,0,,{\an5}Yes, you're right.
-Dialogue: 0,0:01:26.84,0:01:28.42,Default,,0,0,0,,
+Dialogue: 0,0:01:26.84,0:01:28.42,Default,,0,0,0,,Ну допустим.
 Dialogue: 0,0:01:28.42,0:01:31.97,Default,,0,0,0,,{\an5}Very good. Now, you\Nunderstand how I feel, right?
-Dialogue: 0,0:01:28.42,0:01:31.97,Default,,0,0,0,,
+Dialogue: 0,0:01:28.42,0:01:31.97,Default,,0,0,0,,Умница. Значит, ты готова\Nвойти в моё положение?
 Dialogue: 0,0:01:31.97,0:01:33.01,Default,,0,0,0,,{\an5}Huh?
-Dialogue: 0,0:01:31.97,0:01:33.01,Default,,0,0,0,,
+Dialogue: 0,0:01:31.97,0:01:33.01,Default,,0,0,0,,Вут?
 Dialogue: 0,0:01:33.51,0:01:38.27,Default,,0,0,0,,{\an5}Summer vacation will be over soon,\Nand school will be starting again.
-Dialogue: 0,0:01:33.51,0:01:38.27,Default,,0,0,0,,
+Dialogue: 0,0:01:33.51,0:01:38.27,Default,,0,0,0,,Летние каникулы на исходе, и скоро начнуться школьные будни.
 Dialogue: 0,0:01:38.27,0:01:42.19,Default,,0,0,0,,{\an5}Can I get you to tell everyone\Naround us that we're not married,
-Dialogue: 0,0:01:38.27,0:01:42.19,Default,,0,0,0,,
+Dialogue: 0,0:01:38.27,0:01:42.20,Default,,0,0,0,,Что если ты перестанешь втирать окрущающим, будто мы супруги,
 Dialogue: 0,0:01:42.19,0:01:43.90,Default,,0,0,0,,{\an5}but just in a regular relationship, please?
-Dialogue: 0,0:01:42.19,0:01:43.90,Default,,0,0,0,,
+Dialogue: 0,0:01:42.19,0:01:43.90,Default,,0,0,0,,а не просто пара влюблённых?
 Dialogue: 0,0:01:45.48,0:01:50.45,Default,,0,0,0,,{\an5}There you go again, Rusian!\NWhat a silly thing to say!
-Dialogue: 0,0:01:45.48,0:01:50.45,Default,,0,0,0,,
+Dialogue: 0,0:01:45.48,0:01:50.45,Default,,0,0,0,,Опять двадцать пять, Русиян!\NНе п&3#и глупости!
 Dialogue: 0,0:01:50.45,0:01:53.99,Default,,0,0,0,,{\an5}--Such a jokester! Oh, Rusian...\N--It's actually a pretty earnest request.
-Dialogue: 0,0:01:50.45,0:01:53.99,Default,,0,0,0,,
+Dialogue: 0,0:01:50.45,0:01:53.99,Default,,0,0,0,,— Ты такой смищной! Петрусиян…\N— Мои намерения чисты.
 Dialogue: 0,0:03:34.84,0:03:38.76,Def_Top,,0,0,0,,{\an5}"LV. 10: I thought we would do\Nour best at the culture festival?"
-Dialogue: 0,0:03:34.84,0:03:38.76,Def_Top,,0,0,0,,
+Dialogue: 0,0:03:34.84,0:03:38.76,Def_Top,,0,0,0,,[Думал, сделаешь всё возможное на культурном фестивале?]
 Dialogue: 0,0:03:36.67,0:03:39.42,Default,,0,0,0,,{\an5}Somebody, sell me a heat resistance potion.
-Dialogue: 0,0:03:36.67,0:03:39.42,Default,,0,0,0,,
+Dialogue: 0,0:03:36.67,0:03:39.42,Default,,0,0,0,,Кто-нибудь, бафните фаер резист.
 Dialogue: 0,0:03:39.42,0:03:41.59,Default,,0,0,0,,{\an5}It really is hot, huh?
-Dialogue: 0,0:03:39.42,0:03:41.59,Default,,0,0,0,,
+Dialogue: 0,0:03:39.42,0:03:41.59,Default,,0,0,0,,Пичот как в подмышке дьявола.
 Dialogue: 0,0:03:41.59,0:03:44.93,Default,,0,0,0,,{\an5}Yeah, it is. Hey, Takasaki, you got tan.
-Dialogue: 0,0:03:41.59,0:03:44.93,Default,,0,0,0,,
+Dialogue: 0,0:03:41.59,0:03:44.93,Default,,0,0,0,,{\pos(640,620)}Вот-вот. Такасаки, ты теперь мулат.
 Dialogue: 0,0:03:44.93,0:03:48.31,Default,,0,0,0,,{\an5}Yeah, and Nishimura,\Nyou're as pasty white as ever.
-Dialogue: 0,0:03:44.93,0:03:48.31,Default,,0,0,0,,
+Dialogue: 0,0:03:44.93,0:03:48.31,Default,,0,0,0,,{\pos(640,620)}Ога, а ты всё такой же бледный, как приведение.
 Dialogue: 0,0:03:48.31,0:03:49.56,Default,,0,0,0,,{\an5}Yeah, well...
-Dialogue: 0,0:03:48.31,0:03:49.56,Default,,0,0,0,,
+Dialogue: 0,0:03:48.31,0:03:49.56,Default,,0,0,0,,{\pos(640,620)}Ну а хули?..
 Dialogue: 0,0:03:49.56,0:03:51.06,Default,,0,0,0,,{\an5}Nishimura...
-Dialogue: 0,0:03:49.56,0:03:51.06,Default,,0,0,0,,
+Dialogue: 0,0:03:49.56,0:03:51.06,Default,,0,0,0,,{\pos(640,620)}Нисимура…
 Dialogue: 0,0:03:52.27,0:03:53.81,Default,,0,0,0,,{\an5}Come with me for a minute.
-Dialogue: 0,0:03:52.27,0:03:53.81,Default,,0,0,0,,
+Dialogue: 0,0:03:52.27,0:03:53.81,Default,,0,0,0,,{\pos(640,620)}Подь сюды за ударом.
 Dialogue: 0,0:03:53.81,0:03:56.44,Default,,0,0,0,,{\an5}Um... Segawa-{\i1}san{\i0}...?
-Dialogue: 0,0:03:53.81,0:03:56.44,Default,,0,0,0,,
+Dialogue: 0,0:03:53.81,0:03:56.44,Default,,0,0,0,,{\pos(640,620)}Эм… Сегава-сан…?
 Dialogue: 0,0:03:56.44,0:03:58.23,Default,,0,0,0,,{\an5}Just come on, already!
-Dialogue: 0,0:03:56.44,0:03:58.23,Default,,0,0,0,,
+Dialogue: 0,0:03:56.44,0:03:58.23,Default,,0,0,0,,{\pos(640,620)}Встань и иди!
 Dialogue: 0,0:03:58.24,0:04:00.36,Default,,0,0,0,,{\an5}Hey! My neck...!
-Dialogue: 0,0:03:58.24,0:04:00.36,Default,,0,0,0,,
+Dialogue: 0,0:03:58.24,0:04:00.36,Default,,0,0,0,,Ай! Насилуют!
 Dialogue: 0,0:04:00.36,0:04:03.36,Default,,0,0,0,,{\an5}--My neck...! My neck...!\N--Seeing Nishimura get strangled by Segawa,
-Dialogue: 0,0:04:00.36,0:04:03.36,Default,,0,0,0,,
+Dialogue: 0,0:04:00.36,0:04:03.36,Default,,0,0,0,,— Насилуют!.. Насилуют!..\N— То чувство, когда Сегава омочикаерит Нисимуру.
 Dialogue: 0,0:04:03.37,0:04:06.03,Default,,0,0,0,,{\an5}it sure does feel like school\Nhas started up again, huh?
-Dialogue: 0,0:04:03.37,0:04:06.03,Default,,0,0,0,,
+Dialogue: 0,0:04:03.37,0:04:06.03,Default,,0,0,0,,Как будто и не бывало летних каникул.
 Dialogue: 0,0:04:06.03,0:04:07.04,Default,,0,0,0,,{\an5}Yep.
-Dialogue: 0,0:04:06.03,0:04:07.04,Default,,0,0,0,,
+Dialogue: 0,0:04:06.03,0:04:07.04,Default,,0,0,0,,Угумс.
 Dialogue: 0,0:04:09.04,0:04:11.79,Default,,0,0,0,,{\an5}Hey, you! Just because we\Nhaven't seen each other in a while...
-Dialogue: 0,0:04:09.04,0:04:11.79,Default,,0,0,0,,
+Dialogue: 0,0:04:09.04,0:04:11.79,Default,,0,0,0,,Твинтейланутая! Неужели ты так по мне соскучилась?..
 Dialogue: 0,0:04:11.79,0:04:14.58,Default,,0,0,0,,{\an5}We just saw each other yesterday, in the game.
-Dialogue: 0,0:04:11.79,0:04:14.58,Default,,0,0,0,,
+Dialogue: 0,0:04:11.79,0:04:14.58,Default,,0,0,0,,Нонсенс! Вчера же виделись, в игре.
 Dialogue: 0,0:04:14.58,0:04:18.71,Default,,0,0,0,,{\an5}Yeah, but still... Is something bothering you?
-Dialogue: 0,0:04:14.58,0:04:18.71,Default,,0,0,0,,
+Dialogue: 0,0:04:14.58,0:04:18.71,Default,,0,0,0,,Какбэ да, но… Тебя что-то беспокоит?
 Dialogue: 0,0:04:18.71,0:04:23.09,Default,,0,0,0,,{\an5}Ugh, why can't we just skip over the whole\N"forced conversations with classmates" event
-Dialogue: 0,0:04:18.71,0:04:23.09,Default,,0,0,0,,
+Dialogue: 0,0:04:18.71,0:04:23.09,Default,,0,0,0,,Эх, снова начался душный эвент\N«встреча однокашников после летних каникул».
 Dialogue: 0,0:04:23.09,0:04:25.30,Default,,0,0,0,,{\an5}that comes at the end of summer vacation?
-Dialogue: 0,0:04:23.09,0:04:25.30,Default,,0,0,0,,
+Dialogue: 0,0:04:23.09,0:04:25.30,Default,,0,0,0,,Чому нельзя просто скипнуть эту дрочь?
 Dialogue: 0,0:04:25.30,0:04:28.22,Default,,0,0,0,,{\an5}It's usually only suckware games\Nthat have unskippable events, right?
-Dialogue: 0,0:04:25.30,0:04:28.22,Default,,0,0,0,,
+Dialogue: 0,0:04:25.30,0:04:28.22,Default,,0,0,0,,Сейчас бы не давать проматывать ролики… в 2016.
 Dialogue: 0,0:04:28.22,0:04:30.31,Default,,0,0,0,,{\an5}Is that what you were thinking?
-Dialogue: 0,0:04:28.22,0:04:30.31,Default,,0,0,0,,
+Dialogue: 0,0:04:28.22,0:04:30.31,Default,,0,0,0,,Mod will fix it.
 Dialogue: 0,0:04:30.31,0:04:31.85,Default,,0,0,0,,{\an5}For that matter,
-Dialogue: 0,0:04:30.31,0:04:31.85,Default,,0,0,0,,
+Dialogue: 0,0:04:30.31,0:04:31.85,Default,,0,0,0,,И вообще,
 Dialogue: 0,0:04:31.85,0:04:35.27,Default,,0,0,0,,{\an5}how did I pull off being a regular\Nhigh school girl for all of 1st term?
-Dialogue: 0,0:04:31.85,0:04:35.27,Default,,0,0,0,,
+Dialogue: 0,0:04:31.85,0:04:35.27,Default,,0,0,0,,как я умудрялась терпеть это весь первый триместр?
 Dialogue: 0,0:04:35.27,0:04:38.44,Default,,0,0,0,,{\an5}To be honest, I don't really remember much.
-Dialogue: 0,0:04:35.27,0:04:38.44,Default,,0,0,0,,
+Dialogue: 0,0:04:35.27,0:04:38.44,Default,,0,0,0,,Честно говоря, всё как в тумане.
 Dialogue: 0,0:04:38.44,0:04:40.57,Default,,0,0,0,,{\an5}It's your character class, right?
-Dialogue: 0,0:04:38.44,0:04:40.57,Default,,0,0,0,,
+Dialogue: 0,0:04:38.44,0:04:40.57,Default,,0,0,0,,У тебя биполярочка.
 Dialogue: 0,0:04:40.57,0:04:42.57,Default,,0,0,0,,{\an5}Ah, Akane, good morning!
-Dialogue: 0,0:04:40.57,0:04:42.57,Default,,0,0,0,,
+Dialogue: 0,0:04:40.57,0:04:42.57,Default,,0,0,0,,О, Акане, приветики!
 Dialogue: 0,0:04:43.57,0:04:46.87,Default,,0,0,0,,{\an5}What are you two up to out here? An affair?
-Dialogue: 0,0:04:43.57,0:04:46.87,Default,,0,0,0,,
+Dialogue: 0,0:04:43.57,0:04:46.87,Default,,0,0,0,,Чего это вы тут делаете? Флиртуете?
 Dialogue: 0,0:04:46.87,0:04:49.62,Default,,0,0,0,,{\an5}If Ako heard that, she'd withdraw again,\Nso please don't say that.
-Dialogue: 0,0:04:46.87,0:04:49.62,Default,,0,0,0,,
+Dialogue: 0,0:04:46.87,0:04:49.62,Default,,0,0,0,,Ако может услышать, так что оставь свои предположения, пожалуйста.
 Dialogue: 0,0:04:49.62,0:04:51.62,Default,,0,0,0,,{\an5}We were just chatting, that's all.
-Dialogue: 0,0:04:49.62,0:04:51.62,Default,,0,0,0,,
+Dialogue: 0,0:04:49.62,0:04:51.62,Default,,0,0,0,,Мы просто вышли поговорить.
 Dialogue: 0,0:04:51.62,0:04:53.62,Default,,0,0,0,,{\an5}You could just get along\Nregularly in the classroom,
-Dialogue: 0,0:04:51.62,0:04:53.62,Default,,0,0,0,,
+Dialogue: 0,0:04:51.62,0:04:53.62,Default,,0,0,0,,Вместо того чтобы тащиться сюда,
 Dialogue: 0,0:04:53.62,0:04:56.17,Default,,0,0,0,,{\an5}without having to come all the way out here.
-Dialogue: 0,0:04:53.62,0:04:56.17,Default,,0,0,0,,
+Dialogue: 0,0:04:53.62,0:04:56.17,Default,,0,0,0,,могли бы нормально и в классе поговорить.
 Dialogue: 0,0:04:56.17,0:04:57.42,Default,,0,0,0,,{\an5}Butt out, will you?
-Dialogue: 0,0:04:56.17,0:04:57.42,Default,,0,0,0,,
+Dialogue: 0,0:04:56.17,0:04:57.42,Default,,0,0,0,,Завали хлебало.
 Dialogue: 0,0:04:57.42,0:05:00.09,Default,,0,0,0,,{\an5}It's none of your business,\Nyou teamkilling summoner!
-Dialogue: 0,0:04:57.42,0:05:00.09,Default,,0,0,0,,
+Dialogue: 0,0:04:57.42,0:05:00.09,Default,,0,0,0,,Тебе вообще какое дело, горе-суммонер?
 Dialogue: 0,0:05:00.09,0:05:03.13,Default,,0,0,0,,{\an5}You can say so after you've abandoned\Nyour pet Mu-tan out in the mountains.
-Dialogue: 0,0:05:00.09,0:05:03.13,Default,,0,0,0,,
+Dialogue: 0,0:05:00.09,0:05:03.13,Default,,0,0,0,,Когда ты уже наконец отнесешь\NМу-тана в горы и там оставишь?
 Dialogue: 0,0:05:03.13,0:05:07.68,Default,,0,0,0,,{\an5}You mean in the game?!\NThat's mean! Mu-tan is such a good boy!
-Dialogue: 0,0:05:03.13,0:05:07.68,Default,,0,0,0,,
+Dialogue: 0,0:05:03.13,0:05:07.68,Default,,0,0,0,,В ЛегЭйдж?\NЗа что? Му-тан хорошо себя ведёт!
 Dialogue: 0,0:05:07.68,0:05:09.18,Default,,0,0,0,,{\an5}What did he ever do wrong?
-Dialogue: 0,0:05:07.68,0:05:09.18,Default,,0,0,0,,
+Dialogue: 0,0:05:07.68,0:05:09.18,Default,,0,0,0,,Чем он тебе не угодил?
 Dialogue: 0,0:05:10.18,0:05:11.93,Default,,0,0,0,,{\an5}--He runs around out of control...\N--Wait up!
-Dialogue: 0,0:05:10.18,0:05:11.93,Default,,0,0,0,,
+Dialogue: 0,0:05:10.18,0:05:11.93,Default,,0,0,0,,— Без контроля он теряется в данже…\N— К ноге!
 Dialogue: 0,0:05:11.93,0:05:15.19,Default,,0,0,0,,{\an5}--Mm-hmm.\N--Mu-tan, bad!
-Dialogue: 0,0:05:11.93,0:05:15.19,Default,,0,0,0,,
+Dialogue: 0,0:05:11.93,0:05:15.19,Default,,0,0,0,,— О да.\N— Му-тан, нельзя!
 Dialogue: 0,0:05:15.19,0:05:17.19,Default,,0,0,0,,{\an5}And goes around pulling enemies.
-Dialogue: 0,0:05:15.19,0:05:17.19,Default,,0,0,0,,
+Dialogue: 0,0:05:15.19,0:05:17.19,Default,,0,0,0,,А потом паровозит толпу мобов.
 Dialogue: 0,0:05:17.19,0:05:18.23,Default,,0,0,0,,{\an5}Yeah, yeah.
-Dialogue: 0,0:05:17.19,0:05:18.23,Default,,0,0,0,,
+Dialogue: 0,0:05:17.19,0:05:18.23,Default,,0,0,0,,Вот-вот.
 Dialogue: 0,0:05:18.23,0:05:21.07,Default,,0,0,0,,{\an5}"Mu-tan, bad!" doesn't cut it!
-Dialogue: 0,0:05:18.23,0:05:21.07,Default,,0,0,0,,
+Dialogue: 0,0:05:18.23,0:05:21.07,Default,,0,0,0,,«Му-тан, нельзя!» мой зад!
 Dialogue: 0,0:05:21.07,0:05:23.78,Default,,0,0,0,,{\an5}You two are both mean!
-Dialogue: 0,0:05:21.07,0:05:23.78,Default,,0,0,0,,
+Dialogue: 0,0:05:21.07,0:05:23.78,Default,,0,0,0,,Да ну вас в озеро!
 Dialogue: 0,0:05:24.95,0:05:27.28,Default,,0,0,0,,{\an5}Come to think of it, Ako isn't here, huh?
-Dialogue: 0,0:05:24.95,0:05:27.28,Default,,0,0,0,,
+Dialogue: 0,0:05:24.95,0:05:27.28,Default,,0,0,0,,Кстати, ты Ако сегодня ещё не встречал?
 Dialogue: 0,0:05:27.28,0:05:28.41,Default,,0,0,0,,{\an5}Yeah, you're right.
-Dialogue: 0,0:05:27.28,0:05:28.41,Default,,0,0,0,,
+Dialogue: 0,0:05:27.28,0:05:28.41,Default,,0,0,0,,Никак нет.
 Dialogue: 0,0:05:28.41,0:05:32.24,Default,,0,0,0,,{\an5}I'd like to at least mess with her,\Nto make me feel better.
-Dialogue: 0,0:05:28.41,0:05:32.24,Default,,0,0,0,,
+Dialogue: 0,0:05:28.41,0:05:32.24,Default,,0,0,0,,А ведь так хотелось её потраллить с утра пораньше.
 Dialogue: 0,0:05:31.45,0:05:34.41,Def_Top,,0,0,0,,{\an5}"Tamaki Ako"
-Dialogue: 0,0:05:31.45,0:05:34.41,Def_Top,,0,0,0,,
+Dialogue: 0,0:05:31.45,0:05:34.41,Def_Top,,0,0,0,,[Тамако Ако]
 Dialogue: 0,0:05:32.25,0:05:34.75,Default,,0,0,0,,{\an5}Ah, speak of the devil. It's Ako.
-Dialogue: 0,0:05:32.25,0:05:34.75,Default,,0,0,0,,
+Dialogue: 0,0:05:32.25,0:05:34.75,Default,,0,0,0,,О, легка на помине. Ако на свзяи.
 Dialogue: 0,0:05:34.75,0:05:36.71,Default,,0,0,0,,{\an5}Hello? Rusian?
-Dialogue: 0,0:05:34.75,0:05:36.71,Default,,0,0,0,,
+Dialogue: 0,0:05:34.75,0:05:36.71,Default,,0,0,0,,Алло? Русиян?
 Dialogue: 0,0:05:36.71,0:05:41.50,Default,,0,0,0,,{\an5}Good morning. Why isn't\Neveryone logged in today?
-Dialogue: 0,0:05:36.71,0:05:41.50,Default,,0,0,0,,
+Dialogue: 0,0:05:36.71,0:05:41.50,Default,,0,0,0,,Доброе утро. Ты не знаешь, почему сегодня никого нет в сети?
 Dialogue: 0,0:05:42.84,0:05:45.59,Default,,0,0,0,,{\an5}Are you serious?
-Dialogue: 0,0:05:42.84,0:05:45.59,Default,,0,0,0,,
+Dialogue: 0,0:05:42.84,0:05:45.59,Default,,0,0,0,,Ты сурьёзно?
 Dialogue: 0,0:05:45.59,0:05:47.09,Default,,0,0,0,,{\an5}Huh?
-Dialogue: 0,0:05:45.59,0:05:47.09,Default,,0,0,0,,
+Dialogue: 0,0:05:45.59,0:05:47.09,Default,,0,0,0,,В смысле?
 Dialogue: 0,0:05:48.35,0:05:50.64,Default,,0,0,0,,{\an5}Good morning, everyone.
-Dialogue: 0,0:05:48.35,0:05:50.64,Default,,0,0,0,,
+Dialogue: 0,0:05:48.35,0:05:50.64,Default,,0,0,0,,Приветствую, школота.
 Dialogue: 0,0:05:50.64,0:05:52.60,Default,,0,0,0,,{\an5}I am Student Council President Goshoin.
-Dialogue: 0,0:05:50.64,0:05:52.60,Default,,0,0,0,,
+Dialogue: 0,0:05:50.64,0:05:52.60,Default,,0,0,0,,Президент студсовета — Госёин.
 Dialogue: 0,0:05:52.60,0:05:56.27,Default,,0,0,0,,{\an5}I know that over this long summer vacation,
-Dialogue: 0,0:05:52.60,0:05:56.27,Default,,0,0,0,,
+Dialogue: 0,0:05:52.60,0:05:56.27,Default,,0,0,0,,Полагаю за время летних каникул, каждый из вас
 Dialogue: 0,0:05:56.27,0:06:00.11,Default,,0,0,0,,{\an5}everyone probably had a\Nproductive and memorable time.
-Dialogue: 0,0:05:56.27,0:06:00.11,Default,,0,0,0,,
+Dialogue: 0,0:05:56.27,0:06:00.11,Default,,0,0,0,,провёл время с пользой и получил массу впечатлений.
 Dialogue: 0,0:06:00.61,0:06:01.82,Default,,0,0,0,,{\an5}I hope that during this new school term,
-Dialogue: 0,0:06:00.61,0:06:01.82,Default,,0,0,0,,
+Dialogue: 0,0:06:00.61,0:06:01.82,Default,,0,0,0,,Надеюсь, что в новом триместре…
 Dialogue: 0,0:06:01.82,0:06:05.49,Default,,0,0,0,,{\an5}--I-I'm late.\N--you will continue to spend\Nyour time productively.
-Dialogue: 0,0:06:01.82,0:06:05.49,Default,,0,0,0,,
+Dialogue: 0,0:06:01.82,0:06:05.49,Default,,0,0,0,,— Опоздала…\N— …вы с новыми силами возьметесь за учёбу.
 Dialogue: 0,0:06:07.46,0:06:09.57,Default,,0,0,0,,{\an5}Aww... Rusian...
-Dialogue: 0,0:06:07.46,0:06:09.57,Default,,0,0,0,,
+Dialogue: 0,0:06:07.46,0:06:09.57,Default,,0,0,0,,Хнык… Русиян…
 Dialogue: 0,0:06:09.57,0:06:13.74,Default,,0,0,0,,{\an5}Nice going. Way to overcome\Nthe desire to stay home and skip.
-Dialogue: 0,0:06:09.57,0:06:13.74,Default,,0,0,0,,
+Dialogue: 0,0:06:09.57,0:06:13.74,Default,,0,0,0,,Молодцом. Не пошла на поводу у желания остаться дома и загнуть школу.
 Dialogue: 0,0:06:13.75,0:06:17.79,Default,,0,0,0,,{\an5}Well, Rusian, you said you\Nwanted to see my face, after all.
-Dialogue: 0,0:06:13.75,0:06:17.79,Default,,0,0,0,,
+Dialogue: 0,0:06:13.75,0:06:17.79,Default,,0,0,0,,Дак ведь, Русиян, ты сказал очень хочешь увидеть меня во плоти.
 Dialogue: 0,0:06:17.79,0:06:20.38,Default,,0,0,0,,{\an5}Maybe {\i1}I'll{\i0} go home, instead.
-Dialogue: 0,0:06:17.79,0:06:20.38,Default,,0,0,0,,
+Dialogue: 0,0:06:17.79,0:06:20.38,Default,,0,0,0,,А вот мне вдруг домой захотелось.
 Dialogue: 0,0:06:20.38,0:06:21.96,Default,,0,0,0,,{\an5}Okay, everyone,
-Dialogue: 0,0:06:20.38,0:06:21.96,Default,,0,0,0,,
+Dialogue: 0,0:06:20.38,0:06:21.96,Default,,0,0,0,,Так, ребятки,
 Dialogue: 0,0:06:21.96,0:06:26.01,Default,,0,0,0,,{\an5}it's the start of the longest term of the year!
-Dialogue: 0,0:06:21.96,0:06:26.01,Default,,0,0,0,,
+Dialogue: 0,0:06:21.96,0:06:26.01,Default,,0,0,0,,начался самый длинный триместр в году!
 Dialogue: 0,0:06:26.01,0:06:27.51,Default,,0,0,0,,{\an5}Let's get ourselves fired up!
-Dialogue: 0,0:06:26.01,0:06:27.51,Default,,0,0,0,,
+Dialogue: 0,0:06:26.01,0:06:27.51,Default,,0,0,0,,Зададим-ка жару!
 Dialogue: 0,0:06:29.05,0:06:31.93,Default,,0,0,0,,{\an5}Ah... It's so cool...
-Dialogue: 0,0:06:29.05,0:06:31.93,Default,,0,0,0,,
+Dialogue: 0,0:06:29.05,0:06:31.93,Default,,0,0,0,,Ах… Прохладненько…
 Dialogue: 0,0:06:31.93,0:06:33.10,Default,,0,0,0,,{\an5}Oh, yeah...
-Dialogue: 0,0:06:31.93,0:06:33.10,Default,,0,0,0,,
+Dialogue: 0,0:06:31.93,0:06:33.10,Default,,0,0,0,,Охеренно…
 Dialogue: 0,0:06:33.10,0:06:36.60,Default,,0,0,0,,{\an5}Ah, I missed you, my little War Machine.
-Dialogue: 0,0:06:33.10,0:06:36.60,Default,,0,0,0,,
+Dialogue: 0,0:06:33.10,0:06:36.60,Default,,0,0,0,,Ах, как же я скучала, моя адская машина.
 Dialogue: 0,0:06:41.27,0:06:45.65,Default,,0,0,0,,{\an5}Say, how much of your lost gear\Ndid you manage to get back?
-Dialogue: 0,0:06:41.27,0:06:45.65,Default,,0,0,0,,
+Dialogue: 0,0:06:41.27,0:06:45.65,Default,,0,0,0,,Слышь, какую часть эквипа ты уже успел восстановить?
 Dialogue: 0,0:06:45.65,0:06:48.74,Default,,0,0,0,,{\an5}Hmm, let's see, 20 percent, maybe?
-Dialogue: 0,0:06:45.65,0:06:48.74,Default,,0,0,0,,
+Dialogue: 0,0:06:45.65,0:06:48.74,Default,,0,0,0,,Хмм, процентов двадцать, наверное…
 Dialogue: 0,0:06:48.74,0:06:50.57,Default,,0,0,0,,{\an5}You've still got a long way to go.
-Dialogue: 0,0:06:48.74,0:06:50.57,Default,,0,0,0,,
+Dialogue: 0,0:06:48.74,0:06:50.57,Default,,0,0,0,,Надо бы как-то ускориться.
 Dialogue: 0,0:06:50.57,0:06:55.41,Default,,0,0,0,,{\an5}Um, Rusian, since you're\Nreassembling your gear anyway,
-Dialogue: 0,0:06:50.57,0:06:55.41,Default,,0,0,0,,
+Dialogue: 0,0:06:50.57,0:06:55.41,Default,,0,0,0,,Эм, Русиян, сдаётся мне, что в этот раз, пока ты гриндишь шмот заново,
 Dialogue: 0,0:06:55.41,0:06:58.58,Default,,0,0,0,,{\an5}you're trying to get something\Na little better than before, aren't you?
-Dialogue: 0,0:06:55.41,0:06:58.58,Default,,0,0,0,,
+Dialogue: 0,0:06:55.41,0:06:58.58,Default,,0,0,0,,ты пробуешь подобрать что-то с лучшими статами.
 Dialogue: 0,0:06:58.58,0:07:00.83,Default,,0,0,0,,{\an5}Huh? Is that what you're doing?!
-Dialogue: 0,0:06:58.58,0:07:00.83,Default,,0,0,0,,
+Dialogue: 0,0:06:58.58,0:07:00.83,Default,,0,0,0,,Что? Так вот чем ты занимаешься?
 Dialogue: 0,0:07:00.83,0:07:03.92,Default,,0,0,0,,{\an5}I hate it when girls are as intuitive as you.
-Dialogue: 0,0:07:00.83,0:07:03.92,Default,,0,0,0,,
+Dialogue: 0,0:07:00.83,0:07:03.92,Default,,0,0,0,,За это я и не люблю проницательных девушек.
 Dialogue: 0,0:07:04.42,0:07:06.26,Default,,0,0,0,,{\an5}Hey, Nishimura!
-Dialogue: 0,0:07:04.42,0:07:06.26,Default,,0,0,0,,
+Dialogue: 0,0:07:04.42,0:07:06.26,Default,,0,0,0,,Нисимура, ты офонарел?
 Dialogue: 0,0:07:06.26,0:07:07.76,Default,,0,0,0,,{\an5}Hold on, hold on, hear me out!
-Dialogue: 0,0:07:06.26,0:07:07.76,Default,,0,0,0,,
+Dialogue: 0,0:07:06.26,0:07:07.76,Default,,0,0,0,,Погодь-погодь, ты послушай!
 Dialogue: 0,0:07:07.76,0:07:10.80,Default,,0,0,0,,{\an5}You know how after you make your gear,\Nyou sometimes get buyer's remorse?
 Dialogue: 0,0:07:07.76,0:07:10.80,Default,,0,0,0,,
 Dialogue: 0,0:07:10.80,0:07:12.85,Default,,0,0,0,,{\an5}You wish your enchants\Nhad gone a different way,
@@ -261,11 +264,11 @@ Dialogue: 0,0:07:17.64,0:07:21.15,Default,,0,0,0,,
 Dialogue: 0,0:07:21.15,0:07:22.65,Default,,0,0,0,,{\an5}R-Right!
 Dialogue: 0,0:07:21.15,0:07:22.65,Default,,0,0,0,,
 Dialogue: 0,0:07:26.23,0:07:27.57,Default,,0,0,0,,{\an5}Okay...
-Dialogue: 0,0:07:26.23,0:07:27.57,Default,,0,0,0,,
+Dialogue: 0,0:07:26.23,0:07:27.57,Default,,0,0,0,,Дык вот…
 Dialogue: 0,0:07:27.57,0:07:30.40,Default,,0,0,0,,{\an5}Everyone, when you hear\N"2nd term," what do you think?
-Dialogue: 0,0:07:27.57,0:07:30.40,Default,,0,0,0,,
+Dialogue: 0,0:07:27.57,0:07:30.40,Default,,0,0,0,,Котаны, с чем у вас ассоциируется «второй триместр»?
 Dialogue: 0,0:07:30.41,0:07:33.78,Default,,0,0,0,,{\an5}Huh? Distributing the rewards\Nfrom the summer events.
-Dialogue: 0,0:07:30.41,0:07:33.78,Default,,0,0,0,,
+Dialogue: 0,0:07:30.41,0:07:33.78,Default,,0,0,0,,Э?
 Dialogue: 0,0:07:33.78,0:07:36.66,Default,,0,0,0,,{\an5}Pumpkin collecting during the Halloween event.
 Dialogue: 0,0:07:33.78,0:07:36.66,Default,,0,0,0,,
 Dialogue: 0,0:07:36.66,0:07:40.21,Default,,0,0,0,,{\an5}Surveying the marketplace to prepare\Nfor the large-scale fall update.
