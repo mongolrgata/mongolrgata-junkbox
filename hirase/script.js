@@ -17,6 +17,12 @@ var ADDITIONAL_HIRA = [
     ['ご', 'ぞ', 'ど', 'ぼ', 'ぽ']
 ];
 
+var YOON_HIRA = [
+    ['　', '　', '　', 'りゃ', '　', 'みゃ', 'ひゃ', 'にゃ', 'ちゃ', 'しゃ', 'きゃ', '　', 'ぎゃ', 'じゃ', '　', 'びゃ', 'ぴゃ'],
+    ['　', '　', '　', 'りゅ', '　', 'みゅ', 'ひゅ', 'にょ', 'ちゅ', 'しゅ', 'きゅ', '　', 'ぎゅ', 'じゅ', '　', 'びゅ', 'ぴゅ'],
+    ['　', '　', '　', 'りょ', '　', 'みょ', 'ひょ', 'にょ', 'ちょ', 'しょ', 'きょ', '　', 'ぎょ', 'じょ', '　', 'びょ', 'ぴょ']
+];
+
 var ROMAJI = [
     ['　', 'ｎ', 'ｗ', 'ｒ', 'ｙ', 'ｍ', 'ｈ', 'ｎ', 'ｔ', 'ｓ', 'ｋ', '　'],
     ['ａ', 'nn', 'wa', 'ra', 'ya', 'ma', 'ha', 'na', 'ta', 'sa', 'ka', 'a'],
@@ -35,6 +41,12 @@ var ADDITIONAL_ROMAJI = [
     ['go', 'zo', 'do', 'bo', 'po']
 ];
 
+var YOON_ROMAJI = [
+    ['　', '　', '　', 'rya', '　', 'mya', 'hya', 'nya', 'cha', 'sha', 'kya', '　', 'gya', 'ja', '　', 'bya', 'pya'],
+    ['　', '　', '　', 'ryu', '　', 'myu', 'hyu', 'nyu', 'chu', 'shu', 'kyu', '　', 'gyu', 'ju', '　', 'byu', 'pyu'],
+    ['　', '　', '　', 'ryo', '　', 'myo', 'hyo', 'nyo', 'cho', 'sho', 'kyo', '　', 'gyo', 'jo', '　', 'byo', 'pyo']
+];
+
 if (+localStorage.getItem('withAdditional')) {
     HIRA = HIRA.map(function (value, index) {
         return value.concat(ADDITIONAL_HIRA[index]);
@@ -42,6 +54,11 @@ if (+localStorage.getItem('withAdditional')) {
     ROMAJI = ROMAJI.map(function (value, index) {
         return value.concat(ADDITIONAL_ROMAJI[index]);
     });
+
+    if (+localStorage.getItem('withandyoon')) {
+        HIRA = HIRA.concat(YOON_HIRA);
+        ROMAJI = ROMAJI.concat(YOON_ROMAJI);
+    }
 }
 
 var HIRA_I = HIRA.length - 1;
@@ -152,6 +169,12 @@ document.addEventListener('DOMContentLoaded', function () {
     additionalCheckbox.checked = +localStorage.getItem('withAdditional');
     additionalCheckbox.onchange = function () {
         localStorage.setItem('withAdditional', +additionalCheckbox.checked);
+    };
+
+    var andyoonCheckbox = document.getElementById('andyoon');
+    andyoonCheckbox.checked = +localStorage.getItem('withandyoon');
+    andyoonCheckbox.onchange = function () {
+        localStorage.setItem('withandyoon', +andyoonCheckbox.checked);
     };
 
     var canvas = document.getElementById('hira');
