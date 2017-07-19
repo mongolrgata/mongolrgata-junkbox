@@ -164,7 +164,7 @@
                 font-size: 20px;
             }
 
-            #local-storage {
+            #local-storage, #kana-set-select {
                 font-size: 32px;
             }
 
@@ -182,7 +182,7 @@
             overflow: hidden;
             visibility: hidden;
         }
-        
+
         #kana-set-select {
             text-align: center;
             position: relative;
@@ -207,9 +207,12 @@
     <canvas id="hira"></canvas>
     <div id="default-font"></div>
     <div id="kana-set-select">
-        <input name="kana" type="radio" value="hira" id="hira-set" onchange="setKanaSet.call(this)">ひらがな
-        <input name="kana" type="radio" value="kata" id="kata-set" onchange="setKanaSet.call(this)">カタカナ
-        <input name="kana" type="radio" value="both" id="both-set" onchange="setKanaSet.call(this)">both
+        <input name="kana" type="radio" value="hira" id="hira-set" onchange="setKanaSet.call(this)"><label
+            for="hira-set">ひらがな</label>
+        <input name="kana" type="radio" value="kata" id="kata-set" onchange="setKanaSet.call(this)"><label
+            for="kata-set">カタカナ</label>
+        <input name="kana" type="radio" value="both" id="both-set" onchange="setKanaSet.call(this)"><label
+            for="both-set">both</label>
         <script>
             var kanaset = localStorage.getItem('kanaset') || 'hira';
             var radioButton = document.getElementById(kanaset + '-set');
@@ -219,10 +222,10 @@
 </div>
 <div id="main">
     <div id="local-storage">
-        <input type="checkbox" id="additional"> with additional
-        <input type="checkbox" id="andyoon"> with yoon
+        <input type="checkbox" id="additional"><label for="additional"> with additional</label>
+        <input type="checkbox" id="andyoon"><label for="andyoon"> with yoon</label>
     </div>
-    <input id="answer" type="text" autocorrect="off" autocapitalize="none">
+    <input id="answer" type="text" autocorrect="off" autocapitalize="none" title="kana name">
     <button id="check">check</button>
 </div>
 <div id="results"></div>
