@@ -16,9 +16,9 @@ Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.625000
-Scroll Position: 204
-Active Line: 223
-Video Position: 10289
+Scroll Position: 237
+Active Line: 250
+Video Position: 11289
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -252,33 +252,33 @@ Dialogue: 0,0:07:04.42,0:07:06.26,Default,,0,0,0,,Нисимура, ты офо�
 Dialogue: 0,0:07:06.26,0:07:07.76,Default,,0,0,0,,{\an5}Hold on, hold on, hear me out!
 Dialogue: 0,0:07:06.26,0:07:07.76,Default,,0,0,0,,Погодь-погодь, ты послушай!
 Dialogue: 0,0:07:07.76,0:07:10.80,Default,,0,0,0,,{\an5}You know how after you make your gear,\Nyou sometimes get buyer's remorse?
-Dialogue: 0,0:07:07.76,0:07:10.80,Default,,0,0,0,,
+Dialogue: 0,0:07:07.76,0:07:10.80,Default,,0,0,0,,Бывает же, что собёрешь сет, а потом сожалеешь о созданном билде.
 Dialogue: 0,0:07:10.80,0:07:12.85,Default,,0,0,0,,{\an5}You wish your enchants\Nhad gone a different way,
-Dialogue: 0,0:07:10.80,0:07:12.85,Default,,0,0,0,,
+Dialogue: 0,0:07:10.80,0:07:12.85,Default,,0,0,0,,Можно наложить другие энчанты на эквип,
 Dialogue: 0,0:07:12.85,0:07:15.26,Default,,0,0,0,,{\an5}or that for the same price, you'd have\Nbought the other one, instead?
-Dialogue: 0,0:07:12.85,0:07:15.26,Default,,0,0,0,,
+Dialogue: 0,0:07:12.85,0:07:15.26,Default,,0,0,0,,или купить другую пуху по той же цене.
 Dialogue: 0,0:07:15.27,0:07:17.64,Default,,0,0,0,,{\an5}I'm talking minor-change-level stuff...
-Dialogue: 0,0:07:15.27,0:07:17.64,Default,,0,0,0,,
+Dialogue: 0,0:07:15.27,0:07:17.64,Default,,0,0,0,,А ещё можно вложиться в другие статы…
 Dialogue: 0,0:07:17.64,0:07:21.15,Default,,0,0,0,,{\an5}What you had before was fine,\Nso buy it again, and be of some use!
-Dialogue: 0,0:07:17.64,0:07:21.15,Default,,0,0,0,,
+Dialogue: 0,0:07:17.64,0:07:21.15,Default,,0,0,0,,Прошлый билд был норм. Хорош раковать, собирай старый шмот!
 Dialogue: 0,0:07:21.15,0:07:22.65,Default,,0,0,0,,{\an5}R-Right!
-Dialogue: 0,0:07:21.15,0:07:22.65,Default,,0,0,0,,
+Dialogue: 0,0:07:21.15,0:07:22.65,Default,,0,0,0,,Будет сделано!
 Dialogue: 0,0:07:26.23,0:07:27.57,Default,,0,0,0,,{\an5}Okay...
 Dialogue: 0,0:07:26.23,0:07:27.57,Default,,0,0,0,,Дык вот…
 Dialogue: 0,0:07:27.57,0:07:30.40,Default,,0,0,0,,{\an5}Everyone, when you hear\N"2nd term," what do you think?
 Dialogue: 0,0:07:27.57,0:07:30.40,Default,,0,0,0,,Котаны, с чем у вас ассоциируется «второй триместр»?
 Dialogue: 0,0:07:30.41,0:07:33.78,Default,,0,0,0,,{\an5}Huh? Distributing the rewards\Nfrom the summer events.
-Dialogue: 0,0:07:30.41,0:07:33.78,Default,,0,0,0,,Э?
+Dialogue: 0,0:07:30.41,0:07:33.78,Default,,0,0,0,,Э? Сортировка плюшек за летние эвенты?
 Dialogue: 0,0:07:33.78,0:07:36.66,Default,,0,0,0,,{\an5}Pumpkin collecting during the Halloween event.
-Dialogue: 0,0:07:33.78,0:07:36.66,Default,,0,0,0,,
+Dialogue: 0,0:07:33.78,0:07:36.66,Default,,0,0,0,,Фарминг тыквенных голов во время Хэллоуина?
 Dialogue: 0,0:07:36.66,0:07:40.21,Default,,0,0,0,,{\an5}Surveying the marketplace to prepare\Nfor the large-scale fall update.
-Dialogue: 0,0:07:36.66,0:07:40.21,Default,,0,0,0,,
+Dialogue: 0,0:07:36.66,0:07:40.21,Default,,0,0,0,,Исследование рынка в предверии мажорного осеннего обновления.
 Dialogue: 0,0:07:40.21,0:07:42.33,Default,,0,0,0,,{\an5}The Christmas event with Rusian!
-Dialogue: 0,0:07:40.21,0:07:42.33,Default,,0,0,0,,
+Dialogue: 0,0:07:40.21,0:07:42.33,Default,,0,0,0,,Рождество наедине с Русияном!
 Dialogue: 0,0:07:42.33,0:07:46.96,Default,,0,0,0,,{\an5}That's not what I {\i1}me-own{\i0}!\NI'm talking about school, not the game!
 Dialogue: 0,0:07:42.33,0:07:46.96,Default,,0,0,0,,
 Dialogue: 0,0:07:48.30,0:07:50.17,Default,,0,0,0,,{\an5}Is there something going on?
-Dialogue: 0,0:07:48.30,0:07:50.17,Default,,0,0,0,,
+Dialogue: 0,0:07:48.30,0:07:50.17,Default,,0,0,0,,Тут вообще 
 Dialogue: 0,0:07:50.84,0:07:51.84,Def_Top,,0,0,0,,{\an5}"Saki"
 Dialogue: 0,0:07:50.84,0:07:51.84,Def_Top,,0,0,0,,
 Dialogue: 0,0:07:52.84,0:07:53.84,Def_Top,,0,0,0,,{\an5}"ko"
@@ -292,7 +292,7 @@ Dialogue: 0,0:07:56.85,0:07:58.27,Default,,0,0,0,,
 Dialogue: 0,0:07:58.27,0:08:01.56,Default,,0,0,0,,{\an5}you think of Maegasaki High's\Nculture festival, Sakikosai, right?
 Dialogue: 0,0:07:58.27,0:08:01.56,Default,,0,0,0,,
 Dialogue: 0,0:08:01.56,0:08:03.31,Default,,0,0,0,,{\an5}Oh...
-Dialogue: 0,0:08:01.56,0:08:03.31,Default,,0,0,0,,
+Dialogue: 0,0:08:01.56,0:08:03.31,Default,,0,0,0,,Вон оно чё…
 Dialogue: 0,0:08:03.31,0:08:06.07,Default,,0,0,0,,{\an5}Hey, guys, this is the culture festival.
 Dialogue: 0,0:08:03.31,0:08:06.07,Default,,0,0,0,,
 Dialogue: 0,0:08:06.07,0:08:08.94,Default,,0,0,0,,{\an5}Shouldn't you typically be\Ngetting more worked up?
@@ -314,7 +314,7 @@ Dialogue: 0,0:08:28.00,0:08:31.38,Default,,0,0,0,,
 Dialogue: 0,0:08:31.38,0:08:33.55,Default,,0,0,0,,{\an5}Ako came to school.
 Dialogue: 0,0:08:31.38,0:08:33.55,Default,,0,0,0,,
 Dialogue: 0,0:08:33.55,0:08:35.93,Default,,0,0,0,,{\an5}--Ta-da!\N--That's it.
-Dialogue: 0,0:08:33.55,0:08:35.93,Default,,0,0,0,,
+Dialogue: 0,0:08:33.55,0:08:35.93,Default,,0,0,0,,— \N— 
 Dialogue: 0,0:08:35.93,0:08:37.51,Default,,0,0,0,,{\an5}Okay, we'll put Ako on display.
 Dialogue: 0,0:08:35.93,0:08:37.51,Default,,0,0,0,,
 Dialogue: 0,0:08:37.22,0:08:46.02,Def_Top,,0,0,0,,{\an5}"Celebrating School Attendance"
