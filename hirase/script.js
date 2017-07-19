@@ -47,6 +47,23 @@ var YOON_ROMAJI = [
     ['　', '　', '　', 'ryo', '　', 'myo', 'hyo', 'nyo', 'cho', 'sho', 'kyo', '　', 'gyo', 'jo', '　', 'byo', 'pyo']
 ];
 
+//----------------------------------------------------------------------------------------------------------------------
+var KATA = [
+    ['　', 'ｎ', 'ｗ', 'ｒ', 'ｙ', 'ｍ', 'ｈ', 'ｎ', 'ｔ', 'ｓ', 'ｋ', '　'],
+    ['ａ', 'ン', 'ワ', 'ラ', 'ヤ', 'マ', 'ハ', 'ナ', 'タ', 'サ', 'カ', 'ア'],
+    ['ｉ', '　', 'ヰ', 'リ', '　', 'ミ', 'ヒ', 'ニ', 'チ', 'シ', 'キ', 'イ'],
+    ['ｕ', '　', '　', 'ル', 'ユ', 'ム', 'フ', 'ヌ', 'ツ', 'ス', 'ク', 'ウ'],
+    ['ｅ', '　', 'ヱ', 'レ', '　', 'メ', 'ヘ', 'ネ', 'テ', 'セ', 'ケ', 'エ'],
+    ['ｏ', '　', 'ヲ', 'ロ', 'ヨ', 'モ', 'ホ', 'ノ', 'ト', 'ソ', 'コ', 'オ']
+];
+//----------------------------------------------------------------------------------------------------------------------
+
+var setKanaSet = function () {
+    if (this.checked) {
+        localStorage.setItem('kanaset', this.value);
+    }
+};
+
 if (+localStorage.getItem('withAdditional')) {
     HIRA = HIRA.map(function (value, index) {
         return value.concat(ADDITIONAL_HIRA[index]);
@@ -86,6 +103,11 @@ var Hira = function (consonant, vowel) {
     this.romaji = ROMAJI[vowel][consonant];
 };
 
+var Kata = function (consonant, vowel) {
+    this.text = KATA[vowel][consonant];
+    this.romaji = ROMAJI[vowel][consonant];
+};
+
 var randomHira = function () {
     var result;
 
@@ -93,7 +115,17 @@ var randomHira = function () {
         var i = Math.floor(Math.random() * HIRA_I) + 1;
         var j = Math.floor(Math.random() * HIRA_J) + 1;
 
-        result = new Hira(j, i);
+        switch (localStorage.getItem('kanaset') || 'hira') {
+            case 'hira':
+                result = new Hira(j, i);
+                break;
+            case 'kata':
+                result = new Kata(j, i);
+                break;
+            case 'both':
+                result = Math.random() < 0.5 ? new Hira(j, i) : new Kata(j, i);
+                break;
+        }
     } while (result.text === BLANK);
 
     return result;

@@ -182,6 +182,12 @@
             overflow: hidden;
             visibility: hidden;
         }
+        
+        #kana-set-select {
+            text-align: center;
+            position: relative;
+            top: 8px;
+        }
     </style>
     <script src="script.js"></script>
 </head>
@@ -200,6 +206,16 @@
 <div id="head">
     <canvas id="hira"></canvas>
     <div id="default-font"></div>
+    <div id="kana-set-select">
+        <input name="kana" type="radio" value="hira" id="hira-set" onchange="setKanaSet.call(this)">ひらがな
+        <input name="kana" type="radio" value="kata" id="kata-set" onchange="setKanaSet.call(this)">カタカナ
+        <input name="kana" type="radio" value="both" id="both-set" onchange="setKanaSet.call(this)">both
+        <script>
+            var kanaset = localStorage.getItem('kanaset') || 'hira';
+            var radioButton = document.getElementById(kanaset + '-set');
+            radioButton.checked = true;
+        </script>
+    </div>
 </div>
 <div id="main">
     <div id="local-storage">
