@@ -11,14 +11,15 @@ PlayResY: 720
 PlayDepth: 16
 
 [Aegisub Project Garbage]
+Last Style Storage: Default
 Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 10 (AT-X 1280x720 x264 AAC).mkv
 Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 10 (AT-X 1280x720 x264 AAC).mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.625000
-Scroll Position: 237
-Active Line: 250
-Video Position: 11289
+Video Zoom Percent: 0.750000
+Scroll Position: 255
+Active Line: 267
+Video Position: 14355
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -26,6 +27,10 @@ Style: Default,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100
 Style: Def_Top,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,8,96,96,48,1
 Style: Def_Ita,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.2,0,2,96,96,48,1
 Style: Def_I-T,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.2,0,8,96,96,48,1
+Style: Popup,Arial,0,&H002B2B2B,&H00FFFFFF,&H006C5136,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0,4,4,1
+Style: PopupText,Arial,18,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,96,96,48,1
+Style: PopupImage,Arial,0,&H004EBE5B,&H00FFFFFF,&H006C5136,&H00000000,0,0,0,0,100,100,0,0,1,0,0,3,0,0,0,1
+Style: PopupImageText,Arial,52,&H00000000,&H00FFFFFF,&H006C5136,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -102,7 +107,7 @@ Dialogue: 0,0:01:50.45,0:01:53.99,Default,,0,0,0,,— Ты такой смищн
 Dialogue: 0,0:03:34.84,0:03:38.76,Def_Top,,0,0,0,,{\an5}"LV. 10: I thought we would do\Nour best at the culture festival?"
 Dialogue: 0,0:03:34.84,0:03:38.76,Def_Top,,0,0,0,,[Думал, сделаешь всё возможное на культурном фестивале?]
 Dialogue: 0,0:03:36.67,0:03:39.42,Default,,0,0,0,,{\an5}Somebody, sell me a heat resistance potion.
-Dialogue: 0,0:03:36.67,0:03:39.42,Default,,0,0,0,,Кто-нибудь, бафните фаер резист.
+Dialogue: 0,0:03:36.67,0:03:39.42,Default,,0,0,0,,{\an1}Кто-нибудь, бафните фаер резист.
 Dialogue: 0,0:03:39.42,0:03:41.59,Default,,0,0,0,,{\an5}It really is hot, huh?
 Dialogue: 0,0:03:39.42,0:03:41.59,Default,,0,0,0,,Пичот как в подмышке дьявола.
 Dialogue: 0,0:03:41.59,0:03:44.93,Default,,0,0,0,,{\an5}Yeah, it is. Hey, Takasaki, you got tan.
@@ -192,7 +197,7 @@ Dialogue: 0,0:05:28.41,0:05:32.24,Default,,0,0,0,,А ведь так хотел�
 Dialogue: 0,0:05:31.45,0:05:34.41,Def_Top,,0,0,0,,{\an5}"Tamaki Ako"
 Dialogue: 0,0:05:31.45,0:05:34.41,Def_Top,,0,0,0,,[Тамако Ако]
 Dialogue: 0,0:05:32.25,0:05:34.75,Default,,0,0,0,,{\an5}Ah, speak of the devil. It's Ako.
-Dialogue: 0,0:05:32.25,0:05:34.75,Default,,0,0,0,,О, легка на помине. Ако на свзяи.
+Dialogue: 0,0:05:32.25,0:05:34.75,Default,,0,0,0,,О, легка на помине. Ако на связи.
 Dialogue: 0,0:05:34.75,0:05:36.71,Default,,0,0,0,,{\an5}Hello? Rusian?
 Dialogue: 0,0:05:34.75,0:05:36.71,Default,,0,0,0,,Алло? Русиян?
 Dialogue: 0,0:05:36.71,0:05:41.50,Default,,0,0,0,,{\an5}Good morning. Why isn't\Neveryone logged in today?
@@ -218,7 +223,7 @@ Dialogue: 0,0:06:07.46,0:06:09.57,Default,,0,0,0,,Хнык… Русиян…
 Dialogue: 0,0:06:09.57,0:06:13.74,Default,,0,0,0,,{\an5}Nice going. Way to overcome\Nthe desire to stay home and skip.
 Dialogue: 0,0:06:09.57,0:06:13.74,Default,,0,0,0,,Молодцом. Не пошла на поводу у желания остаться дома и загнуть школу.
 Dialogue: 0,0:06:13.75,0:06:17.79,Default,,0,0,0,,{\an5}Well, Rusian, you said you\Nwanted to see my face, after all.
-Dialogue: 0,0:06:13.75,0:06:17.79,Default,,0,0,0,,Дак ведь, Русиян, ты сказал очень хочешь увидеть меня во плоти.
+Dialogue: 0,0:06:13.75,0:06:17.79,Default,,0,0,0,,Дак ведь, Русиян, ты сказал, что хочешь увидеть меня во плоти.
 Dialogue: 0,0:06:17.79,0:06:20.38,Default,,0,0,0,,{\an5}Maybe {\i1}I'll{\i0} go home, instead.
 Dialogue: 0,0:06:17.79,0:06:20.38,Default,,0,0,0,,А вот мне вдруг домой захотелось.
 Dialogue: 0,0:06:20.38,0:06:21.96,Default,,0,0,0,,{\an5}Okay, everyone,
@@ -276,107 +281,113 @@ Dialogue: 0,0:07:36.66,0:07:40.21,Default,,0,0,0,,Исследование ры�
 Dialogue: 0,0:07:40.21,0:07:42.33,Default,,0,0,0,,{\an5}The Christmas event with Rusian!
 Dialogue: 0,0:07:40.21,0:07:42.33,Default,,0,0,0,,Рождество наедине с Русияном!
 Dialogue: 0,0:07:42.33,0:07:46.96,Default,,0,0,0,,{\an5}That's not what I {\i1}me-own{\i0}!\NI'm talking about school, not the game!
-Dialogue: 0,0:07:42.33,0:07:46.96,Default,,0,0,0,,
+Dialogue: 0,0:07:42.33,0:07:46.96,Default,,0,0,0,,Нихреня! Я не про игры спрашиваю, а про школу!
 Dialogue: 0,0:07:48.30,0:07:50.17,Default,,0,0,0,,{\an5}Is there something going on?
-Dialogue: 0,0:07:48.30,0:07:50.17,Default,,0,0,0,,Тут вообще 
+Dialogue: 0,0:07:48.30,0:07:50.17,Default,,0,0,0,,Скорее бы домой свалить.
 Dialogue: 0,0:07:50.84,0:07:51.84,Def_Top,,0,0,0,,{\an5}"Saki"
-Dialogue: 0,0:07:50.84,0:07:51.84,Def_Top,,0,0,0,,
+Dialogue: 0,0:07:50.84,0:07:51.84,Def_Top,,0,0,0,,[Са]
 Dialogue: 0,0:07:52.84,0:07:53.84,Def_Top,,0,0,0,,{\an5}"ko"
-Dialogue: 0,0:07:52.84,0:07:53.84,Def_Top,,0,0,0,,
+Dialogue: 0,0:07:52.84,0:07:53.84,Def_Top,,0,0,0,,[ки]
 Dialogue: 0,0:07:55.01,0:07:55.97,Def_Top,,0,0,0,,{\an5}"sai"
-Dialogue: 0,0:07:55.01,0:07:55.97,Def_Top,,0,0,0,,
+Dialogue: 0,0:07:55.01,0:07:55.97,Def_Top,,0,0,0,,[фест]
 Dialogue: 0,0:07:56.47,0:08:01.23,Def_Top,,0,0,0,,{\an5}"Sakikosai"
-Dialogue: 0,0:07:56.47,0:08:01.23,Def_Top,,0,0,0,,
+Dialogue: 0,0:07:56.47,0:08:01.23,Def_Top,,0,0,0,,[Сакифест]
 Dialogue: 0,0:07:56.85,0:07:58.27,Default,,0,0,0,,{\an5}When you think of September,
-Dialogue: 0,0:07:56.85,0:07:58.27,Default,,0,0,0,,
+Dialogue: 0,0:07:56.85,0:07:58.27,Default,,0,0,0,,Сентябрь жи, а значит
 Dialogue: 0,0:07:58.27,0:08:01.56,Default,,0,0,0,,{\an5}you think of Maegasaki High's\Nculture festival, Sakikosai, right?
-Dialogue: 0,0:07:58.27,0:08:01.56,Default,,0,0,0,,
+Dialogue: 0,0:07:58.27,0:08:01.56,Default,,0,0,0,,в Маегасаки будет проводится народная ярмарка — Сакифест.
 Dialogue: 0,0:08:01.56,0:08:03.31,Default,,0,0,0,,{\an5}Oh...
 Dialogue: 0,0:08:01.56,0:08:03.31,Default,,0,0,0,,Вон оно чё…
 Dialogue: 0,0:08:03.31,0:08:06.07,Default,,0,0,0,,{\an5}Hey, guys, this is the culture festival.
-Dialogue: 0,0:08:03.31,0:08:06.07,Default,,0,0,0,,
+Dialogue: 0,0:08:03.31,0:08:06.07,Default,,0,0,0,,Э, слышь: «Народная ярмарка блджад».
 Dialogue: 0,0:08:06.07,0:08:08.94,Default,,0,0,0,,{\an5}Shouldn't you typically be\Ngetting more worked up?
-Dialogue: 0,0:08:06.07,0:08:08.94,Default,,0,0,0,,
+Dialogue: 0,0:08:06.07,0:08:08.94,Default,,0,0,0,,Не пора ли подорвать задницы со стулов?
 Dialogue: 0,0:08:08.94,0:08:11.40,Default,,0,0,0,,{\an5}Are you sure you're all high school students?
-Dialogue: 0,0:08:08.94,0:08:11.40,Default,,0,0,0,,
+Dialogue: 0,0:08:08.94,0:08:11.40,Default,,0,0,0,,Тоже мне, школьники, называются.
 Dialogue: 0,0:08:11.40,0:08:16.87,Default,,0,0,0,,{\an5}Well, while it may be a nuisance,\Nwe can't very well ignore it, either.
-Dialogue: 0,0:08:11.40,0:08:16.87,Default,,0,0,0,,
+Dialogue: 0,0:08:11.40,0:08:16.87,Default,,0,0,0,,Это, конечно, всё прискорбно, но мы не можем просто забить на этот эвент.
 Dialogue: 0,0:08:16.87,0:08:18.62,Default,,0,0,0,,{\an5}Nuisance...?
-Dialogue: 0,0:08:16.87,0:08:18.62,Default,,0,0,0,,
+Dialogue: 0,0:08:16.87,0:08:18.62,Default,,0,0,0,,Просто забить…
 Dialogue: 0,0:08:18.62,0:08:22.71,Default,,0,0,0,,{\an5}Since our club does have activities,\Nwe have to participate.
-Dialogue: 0,0:08:18.62,0:08:22.71,Default,,0,0,0,,
+Dialogue: 0,0:08:18.62,0:08:22.71,Default,,0,0,0,,Раз уж мы тут изображаем клубную деятельность, нам придётся участвовать.
 Dialogue: 0,0:08:22.71,0:08:25.04,Default,,0,0,0,,{\an5}Yeah, but still, what are we supposed to do?
-Dialogue: 0,0:08:22.71,0:08:25.04,Default,,0,0,0,,
+Dialogue: 0,0:08:22.71,0:08:25.04,Default,,0,0,0,,Так-то оно так, и чего замутим?
 Dialogue: 0,0:08:25.04,0:08:28.00,Default,,0,0,0,,{\an5}"Show off the results of\Nour club" is the go-to answer.
-Dialogue: 0,0:08:25.04,0:08:28.00,Default,,0,0,0,,
+Dialogue: 0,0:08:25.04,0:08:28.00,Default,,0,0,0,,Думаю, можно организовать выставку достижений нашего клуба.
 Dialogue: 0,0:08:28.00,0:08:31.38,Default,,0,0,0,,{\an5}Results? Do we have any?
-Dialogue: 0,0:08:28.00,0:08:31.38,Default,,0,0,0,,
+Dialogue: 0,0:08:28.00,0:08:31.38,Default,,0,0,0,,Достижений? Типа ачивок в стиме?
 Dialogue: 0,0:08:31.38,0:08:33.55,Default,,0,0,0,,{\an5}Ako came to school.
-Dialogue: 0,0:08:31.38,0:08:33.55,Default,,0,0,0,,
+Dialogue: 0,0:08:31.38,0:08:33.55,Default,,0,0,0,,Ако начала ходить в школу.
+Dialogue: 1,0:08:33.36,0:08:35.45,Popup,,0,0,0,,{\p1\move(1276,916,1276,716,0,300)}m 0 0 l 384 0 l 384 96 l 0 96{\p0}
+Dialogue: 2,0:08:33.36,0:08:35.45,PopupImage,,0,0,0,,{\p1\move(976,904,976,704,0,300)}m 0 0 l 72 0 l 72 72 l 0 72{\p0}
+Dialogue: 3,0:08:33.36,0:08:35.45,PopupText,,0,0,0,,{\move(990,848,990,648,0,300)}{\b1}Достижение разблокированно{\b0}
+Dialogue: 3,0:08:33.36,0:08:35.45,PopupText,,0,0,0,,{\move(990,874,990,674,0,300)}Ако начала ходить в школу
+Dialogue: 3,0:08:33.36,0:08:35.45,PopupImageText,,0,0,0,,{\frz270\move(964,836,964,636,0,300)}:3c
 Dialogue: 0,0:08:33.55,0:08:35.93,Default,,0,0,0,,{\an5}--Ta-da!\N--That's it.
-Dialogue: 0,0:08:33.55,0:08:35.93,Default,,0,0,0,,— \N— 
+Dialogue: 0,0:08:33.55,0:08:35.93,Default,,0,0,0,,— Ать-оп!\N— Кстати, да.
 Dialogue: 0,0:08:35.93,0:08:37.51,Default,,0,0,0,,{\an5}Okay, we'll put Ako on display.
-Dialogue: 0,0:08:35.93,0:08:37.51,Default,,0,0,0,,
+Dialogue: 0,0:08:35.93,0:08:37.51,Default,,0,0,0,,Ако будет нашим трофеем.
 Dialogue: 0,0:08:37.22,0:08:46.02,Def_Top,,0,0,0,,{\an5}"Celebrating School Attendance"
-Dialogue: 0,0:08:37.22,0:08:46.02,Def_Top,,0,0,0,,
+Dialogue: 0,0:08:37.22,0:08:46.02,Def_Top,,0,0,0,,[Каминг-аут по-хиккански]
 Dialogue: 0,0:08:37.51,0:08:40.60,Default,,0,0,0,,{\an5}You don't mean as an exhibit! No way!
-Dialogue: 0,0:08:37.51,0:08:40.60,Default,,0,0,0,,
+Dialogue: 0,0:08:37.51,0:08:40.60,Default,,0,0,0,,Вы меня на обзор выставите?
 Dialogue: 0,0:08:40.60,0:08:42.52,Default,,0,0,0,,{\an5}I couldn't stand exposure so unorthodox!
-Dialogue: 0,0:08:40.60,0:08:42.52,Default,,0,0,0,,
+Dialogue: 0,0:08:40.60,0:08:42.52,Default,,0,0,0,,Не хочу быть экспонатом!
 Dialogue: 0,0:08:42.52,0:08:46.02,Default,,0,0,0,,{\an5}--Please don't look at me!\N--Net game players fear the word "dox."
-Dialogue: 0,0:08:42.52,0:08:46.02,Default,,0,0,0,,
+Dialogue: 0,0:08:42.52,0:08:46.02,Default,,0,0,0,,— Я не атеншнвхора!\N— Есть ли жизнь после деанона?
 Dialogue: 0,0:08:46.19,0:08:48.69,Default,,0,0,0,,{\an5}Well, kidding aside,
-Dialogue: 0,0:08:46.19,0:08:48.69,Default,,0,0,0,,
+Dialogue: 0,0:08:46.19,0:08:48.69,Default,,0,0,0,,Харе стебаться,
 Dialogue: 0,0:08:48.69,0:08:51.65,Default,,0,0,0,,{\an5}we just need to come up with\Nsome result and present it, don't we?
-Dialogue: 0,0:08:48.69,0:08:51.65,Default,,0,0,0,,
+Dialogue: 0,0:08:48.69,0:08:51.65,Default,,0,0,0,,нам ведь нужно показать, что мы тут не просто в игрушки играем?
 Dialogue: 0,0:08:51.65,0:08:52.99,Default,,0,0,0,,{\an5}Some result?
-Dialogue: 0,0:08:51.65,0:08:52.99,Default,,0,0,0,,
+Dialogue: 0,0:08:51.65,0:08:52.99,Default,,0,0,0,,А что ещё?
 Dialogue: 0,0:08:52.99,0:08:54.49,Default,,0,0,0,,{\an5}If you have no ideas...
-Dialogue: 0,0:08:52.99,0:08:54.49,Default,,0,0,0,,
+Dialogue: 0,0:08:52.99,0:08:54.49,Default,,0,0,0,,Короче, Склифосовский…
+Dialogue: 0,0:08:54.18,0:08:54.59,Default,,0,0,0,,{\fad(0,400)\frz314\move(1028,168,1180,16)}ШЛЁП
 Dialogue: 0,0:08:54.74,0:08:57.07,Def_Top,,0,0,0,,{\an5}"Siege warfare"
-Dialogue: 0,0:08:54.74,0:08:57.07,Def_Top,,0,0,0,,
+Dialogue: 0,0:08:54.74,0:08:57.07,Def_Top,,0,0,0,,[Осада крепости]
 Dialogue: 0,0:08:55.49,0:08:57.45,Default,,0,0,0,,{\an5}...then I have a proposal!
-Dialogue: 0,0:08:55.49,0:08:57.45,Default,,0,0,0,,
+Dialogue: 0,0:08:55.49,0:08:57.45,Default,,0,0,0,,…тут такая тема нарисовалась!
 Dialogue: 0,0:08:57.45,0:08:58.99,Default,,0,0,0,,{\an5}Siege warfare?
-Dialogue: 0,0:08:57.45,0:08:58.99,Default,,0,0,0,,
+Dialogue: 0,0:08:57.45,0:08:58.99,Default,,0,0,0,,Осада крепости?
 Dialogue: 0,0:08:58.99,0:09:01.95,Default,,0,0,0,,{\an5}You mean, the recent PvP update?
-Dialogue: 0,0:08:58.99,0:09:01.95,Default,,0,0,0,,
+Dialogue: 0,0:08:58.99,0:09:01.95,Default,,0,0,0,,В смысле новый ПвП-режим?
 Dialogue: 0,0:09:01.96,0:09:06.25,Default,,0,0,0,,{\an5}Mm-hmm! The long-awaited new\Ncontent released in {\i1}LA{\i0} the other day,
-Dialogue: 0,0:09:01.96,0:09:06.25,Default,,0,0,0,,
+Dialogue: 0,0:09:01.96,0:09:06.25,Default,,0,0,0,,У-му! С последним апдейтом в LA наконец-то добавили годноты.
 Dialogue: 0,0:09:06.25,0:09:09.92,Default,,0,0,0,,{\an5}siege warfare! What if we make\Nthe victor of that our result?
-Dialogue: 0,0:09:06.25,0:09:09.92,Default,,0,0,0,,
+Dialogue: 0,0:09:06.25,0:09:09.92,Default,,0,0,0,,«Осада крепости». Затащим режим, тогда будет чем похвастаться.
 Dialogue: 0,0:09:09.92,0:09:13.46,Default,,0,0,0,,{\an5}Yeah, but Master, siege warfare, is, you know...
-Dialogue: 0,0:09:09.92,0:09:13.46,Default,,0,0,0,,
+Dialogue: 0,0:09:09.92,0:09:13.46,Default,,0,0,0,,Погодь, Лидер. «Осада крепости» — это же…
 Dialogue: 0,0:09:13.47,0:09:15.84,Default,,0,0,0,,{\an5}...the large-scale guild-on-guild,
 Dialogue: 0,0:09:13.47,0:09:15.84,Default,,0,0,0,,
 Dialogue: 0,0:09:15.84,0:09:18.43,Default,,0,0,0,,{\an5}player-vs-player battle held once per week.
-Dialogue: 0,0:09:15.84,0:09:18.43,Default,,0,0,0,,
+Dialogue: 0,0:09:13.44,0:09:18.43,Default,,0,0,0,,…глобальное ПвП-сражение на уровне гильдий, проходящее раз в неделю.
 Dialogue: 0,0:09:18.43,0:09:20.14,Default,,0,0,0,,{\an5}That's what we're going to do?
-Dialogue: 0,0:09:18.43,0:09:20.14,Default,,0,0,0,,
+Dialogue: 0,0:09:18.43,0:09:20.14,Default,,0,0,0,,И мы будем в нём участвовать?
 Dialogue: 0,0:09:20.14,0:09:24.10,Default,,0,0,0,,{\an5}Mm-hmm. All of us club members\Nwill compete as one.
-Dialogue: 0,0:09:20.14,0:09:24.10,Default,,0,0,0,,
+Dialogue: 0,0:09:20.14,0:09:24.10,Default,,0,0,0,,У-му. Тогда каждый внесёт свою лепту в дело победы.
 Dialogue: 0,0:09:24.10,0:09:25.44,Default,,0,0,0,,{\an5}It's perfect, isn't it?
-Dialogue: 0,0:09:24.10,0:09:25.44,Default,,0,0,0,,
+Dialogue: 0,0:09:24.10,0:09:25.44,Default,,0,0,0,,То, что доктор прописал.
 Dialogue: 0,0:09:25.44,0:09:27.02,Default,,0,0,0,,{\an5}Well, yeah, I guess.
-Dialogue: 0,0:09:25.44,0:09:27.02,Default,,0,0,0,,
+Dialogue: 0,0:09:25.44,0:09:27.02,Default,,0,0,0,,Красиво стелишь.
 Dialogue: 0,0:09:27.02,0:09:31.57,Default,,0,0,0,,{\an5}And if we win at this, how do we\Npresent it for the culture festival?
-Dialogue: 0,0:09:27.02,0:09:31.57,Default,,0,0,0,,
+Dialogue: 0,0:09:27.02,0:09:31.57,Default,,0,0,0,,Но даже если мы преуспеем,\Nкак об этом рассказать на фестивале?
 Dialogue: 0,0:09:31.57,0:09:35.99,Default,,0,0,0,,{\an5}The victors of siege warfare\Nbecome the castle lords for the week.
-Dialogue: 0,0:09:31.57,0:09:35.99,Default,,0,0,0,,
+Dialogue: 0,0:09:31.57,0:09:35.99,Default,,0,0,0,,Осаждённая крепость на неделю становится собственностью победителя.
 Dialogue: 0,0:09:35.99,0:09:39.45,Default,,0,0,0,,{\an5}The guild's emblem is hoisted\Nboldly over the castle.
-Dialogue: 0,0:09:35.99,0:09:39.45,Default,,0,0,0,,
+Dialogue: 0,0:09:35.99,0:09:39.45,Default,,0,0,0,,А флаг с эмблемой гильдии гордо реет над ней.
 Dialogue: 0,0:09:39.45,0:09:41.91,Default,,0,0,0,,{\an5}Do we even have an emblem?
-Dialogue: 0,0:09:39.45,0:09:41.91,Default,,0,0,0,,
+Dialogue: 0,0:09:39.45,0:09:41.91,Default,,0,0,0,,Разве у нас есть эмблема?
 Dialogue: 0,0:09:41.91,0:09:44.37,Def_Top,,0,0,0,,{\an5}"Student Handbook\NMaegasaki High School"
-Dialogue: 0,0:09:41.91,0:09:44.37,Def_Top,,0,0,0,,
+Dialogue: 0,0:09:41.91,0:09:44.37,Def_Top,,0,0,0,,[Военный билет]\N[Старшая школа Маегасаки]
 Dialogue: 0,0:09:44.37,0:09:48.92,Default,,0,0,0,,{\an5}Um, are you saying we make\Nour school crest our emblem
-Dialogue: 0,0:09:44.37,0:09:48.92,Default,,0,0,0,,
+Dialogue: 0,0:09:44.37,0:09:48.92,Default,,0,0,0,,Эм, предлагаешь, сделать герб школы нашей эмблемой
 Dialogue: 0,0:09:48.92,0:09:50.42,Default,,0,0,0,,{\an5}and raise that?
-Dialogue: 0,0:09:48.92,0:09:50.42,Default,,0,0,0,,
+Dialogue: 0,0:09:48.92,0:09:50.42,Default,,0,0,0,,и водрузить его?
 Dialogue: 0,0:09:50.42,0:09:54.38,Default,,0,0,0,,{\an5}That's right! And we all take a\Ncommemorative photo in front of it!
-Dialogue: 0,0:09:50.42,0:09:54.38,Default,,0,0,0,,
+Dialogue: 0,0:09:50.42,0:09:54.38,Default,,0,0,0,,В точку! А потом наделаем нотариально заверенных скриншотов
 Dialogue: 0,0:09:54.38,0:09:56.97,Default,,0,0,0,,{\an5}Then we use that picture as our display panel!
-Dialogue: 0,0:09:54.38,0:09:56.97,Default,,0,0,0,,
+Dialogue: 0,0:09:54.38,0:09:56.97,Default,,0,0,0,,и сфотошопим коллажик для экспозиции!
 Dialogue: 0,0:09:59.97,0:10:02.06,Default,,0,0,0,,{\an5}Siege warfare, huh?
 Dialogue: 0,0:09:59.97,0:10:02.06,Default,,0,0,0,,
 Dialogue: 0,0:10:02.06,0:10:05.39,Default,,0,0,0,,{\an5}Hmm... I'm not too wild about this.
