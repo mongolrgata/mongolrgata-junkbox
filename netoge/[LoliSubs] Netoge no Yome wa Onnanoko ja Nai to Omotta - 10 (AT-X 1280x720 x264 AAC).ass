@@ -17,9 +17,9 @@ Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.625000
-Scroll Position: 831
-Active Line: 853
-Video Position: 35028
+Scroll Position: 510
+Active Line: 523
+Video Position: 22194
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -529,7 +529,7 @@ Dialogue: 0,0:14:27.86,0:14:32.40,Default,,0,0,0,,Ну, Шу — милишни�
 Dialogue: 0,0:14:32.40,0:14:34.94,Default,,0,0,0,,{\an5}If a magic user goes one-on-one\Nagainst her, they'll usually lose.
 Dialogue: 0,0:14:32.40,0:14:34.94,Default,,0,0,0,,При схватке с магом один на один, победа будет за ней.
 Dialogue: 0,0:14:36.57,0:14:39.95,Default,,0,0,0,,{\an5}As the tank, I have\Nspecialized stun lock attacks.
-Dialogue: 0,0:14:36.57,0:14:39.95,Default,,0,0,0,,Танк навроде меня сделает ставку на стан противника.
+Dialogue: 0,0:14:36.57,0:14:39.95,Default,,0,0,0,,Будучи танком, я делаю ставку на стан противника.
 Dialogue: 0,0:14:39.95,0:14:41.66,Default,,0,0,0,,{\an5}And Ako...
 Dialogue: 0,0:14:39.95,0:14:41.66,Default,,0,0,0,,Ако же…
 Dialogue: 0,0:14:41.66,0:14:44.08,Default,,0,0,0,,{\an5}Her stats are pretty evenly distributed,
@@ -539,23 +539,23 @@ Dialogue: 0,0:14:44.08,0:14:46.08,Default,,0,0,0,,так что её билд б
 Dialogue: 0,0:14:46.08,0:14:48.12,Default,,0,0,0,,{\an5}That's not what my intention was.
 Dialogue: 0,0:14:46.08,0:14:48.12,Default,,0,0,0,,Хотя у меня и в мыслях не было.
 Dialogue: 0,0:14:48.13,0:14:52.63,Default,,0,0,0,,{\an5}Master, a magic user like yourself\Nshouldn't be dueling to begin with.
-Dialogue: 0,0:14:48.13,0:14:52.63,Default,,0,0,0,,
+Dialogue: 0,0:14:48.13,0:14:52.63,Default,,0,0,0,,Честно говоря, Лидер, магам навроде тебя вообще не стоит ввязываться в дуэли.
 Dialogue: 0,0:14:52.63,0:14:55.67,Default,,0,0,0,,{\an5}But I've watched a few videos\Nwhere magic users like me
-Dialogue: 0,0:14:52.63,0:14:55.67,Default,,0,0,0,,
+Dialogue: 0,0:14:52.63,0:14:55.67,Default,,0,0,0,,Но я сама видела, как маги навроде меня
 Dialogue: 0,0:14:55.67,0:14:58.51,Default,,0,0,0,,{\an5}wiped the floor with their\Nopponents singlehandedly!
-Dialogue: 0,0:14:55.67,0:14:58.51,Default,,0,0,0,,
+Dialogue: 0,0:14:55.67,0:14:58.51,Default,,0,0,0,,выносят противников одной левой!
 Dialogue: 0,0:14:58.51,0:15:02.56,Default,,0,0,0,,{\an5}PvP play takes its own kind\Nof equipment and fighting style.
-Dialogue: 0,0:14:58.51,0:15:02.56,Default,,0,0,0,,
+Dialogue: 0,0:14:58.51,0:15:02.56,Default,,0,0,0,,ПвП предполагает тщательный выбор снаряжения и тактики ведения боя.
 Dialogue: 0,0:15:02.56,0:15:06.52,Default,,0,0,0,,{\an5}So then what, Rusian? Are you\Nsaying that we're just a collection
-Dialogue: 0,0:15:02.56,0:15:06.52,Default,,0,0,0,,
+Dialogue: 0,0:15:02.56,0:15:06.52,Default,,0,0,0,,К чему ты клонишь, Русиян? Хочешь сказать, что мы сброд раков,
 Dialogue: 0,0:15:06.52,0:15:11.02,Default,,0,0,0,,{\an5}of broken-down characters,\Npoorly suited for taking on others, is that it?
-Dialogue: 0,0:15:06.52,0:15:11.02,Default,,0,0,0,,
+Dialogue: 0,0:15:06.52,0:15:11.02,Default,,0,0,0,,которые даже не в состоянии показать другим где раки зимуют?
 Dialogue: 0,0:15:11.02,0:15:12.02,Default,,0,0,0,,{\an5}Mm-hmm.
-Dialogue: 0,0:15:11.02,0:15:12.02,Default,,0,0,0,,
+Dialogue: 0,0:15:11.02,0:15:12.02,Default,,0,0,0,,Угу.
 Dialogue: 0,0:15:15.49,0:15:17.11,Default,,0,0,0,,{\an5}I wasn't expecting this.
-Dialogue: 0,0:15:15.49,0:15:17.11,Default,,0,0,0,,
+Dialogue: 0,0:15:15.49,0:15:17.11,Default,,0,0,0,,Дело дрянь.
 Dialogue: 0,0:15:17.11,0:15:22.53,Default,,0,0,0,,{\an5}I've checked into it, and my\NApricot is not suited to PvP.
-Dialogue: 0,0:15:17.11,0:15:22.53,Default,,0,0,0,,
+Dialogue: 0,0:15:17.11,0:15:22.53,Default,,0,0,0,,Судя по всему, с моим Априкотом в ПвП надеятся не на что.
 Dialogue: 0,0:15:22.54,0:15:25.70,Default,,0,0,0,,{\an5}It would be quicker to start\Na new character from scratch.
 Dialogue: 0,0:15:22.54,0:15:25.70,Default,,0,0,0,,
 Dialogue: 0,0:15:25.70,0:15:29.21,Default,,0,0,0,,{\an5}I tried sparring against some friends\Nwho have done some PvP'ing,
