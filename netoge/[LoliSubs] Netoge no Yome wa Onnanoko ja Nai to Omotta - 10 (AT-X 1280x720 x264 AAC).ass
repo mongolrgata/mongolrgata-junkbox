@@ -16,10 +16,10 @@ Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 10 (AT-X 1280x720 x264 AAC).mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.625000
-Scroll Position: 690
-Active Line: 705
-Video Position: 29747
+Video Zoom Percent: 0.750000
+Scroll Position: 710
+Active Line: 715
+Video Position: 30050
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -669,7 +669,7 @@ Dialogue: 0,0:18:31.31,0:18:32.27,Default,,0,0,0,,Не пойдёт.
 Dialogue: 0,0:18:32.27,0:18:34.85,Default,,0,0,0,,{\an5}Wait, don't give up just yet.
 Dialogue: 0,0:18:32.27,0:18:34.85,Default,,0,0,0,,Обожди, хочу опробовать кое-какую страту.
 Dialogue: 0,0:18:34.85,0:18:37.27,Default,,0,0,0,,{\an5}Oh, what, you know the victory conditions?
-Dialogue: 0,0:18:34.85,0:18:37.27,Default,,0,0,0,,М? Припасла какой-то туз в рукаве?
+Dialogue: 0,0:18:34.85,0:18:37.27,Default,,0,0,0,,М? Ещё один суицидальный план?
 Dialogue: 0,0:18:39.94,0:18:41.61,Default,,0,0,0,,{\an5}Master...
 Dialogue: 0,0:18:39.94,0:18:41.61,Default,,0,0,0,,Лидер…
 Dialogue: 0,0:18:41.61,0:18:45.07,Default,,0,0,0,,{\an5}I'm going to use the premium items\Nthat you have forbidden me from using!
@@ -739,15 +739,15 @@ Dialogue: 0,0:20:31.34,0:20:34.01,Default,,0,0,0,,Стоило мне замяу
 Dialogue: 0,0:20:34.01,0:20:37.27,Default,,0,0,0,,{\an5}and before I {\i1}mew{\i0} it, it was happening!
 Dialogue: 0,0:20:34.01,0:20:37.27,Default,,0,0,0,,как чат тут же родил план осады.
 Dialogue: 0,0:20:38.77,0:20:40.73,Def_Top,,0,0,0,,{\an5}"History of Maegasaki High School"
-Dialogue: 0,0:20:38.77,0:20:40.73,Def_Top,,0,0,0,,
+Dialogue: 0,0:20:38.77,0:20:40.73,Def_Top,,0,0,0,,[Ретроспектива старшей школы Маегасаки]
 Dialogue: 0,0:20:39.64,0:20:41.31,Default,,0,0,0,,{\an5}Listen up, everyone.
-Dialogue: 0,0:20:39.64,0:20:41.31,Default,,0,0,0,,
+Dialogue: 0,0:20:39.64,0:20:41.31,Default,,0,0,0,,Так блэт, работяги.
 Dialogue: 0,0:20:41.31,0:20:46.02,Default,,0,0,0,,{\an5}No wholesale copying the sources.\NRearrange the sentences a little.
-Dialogue: 0,0:20:41.31,0:20:46.02,Default,,0,0,0,,
+Dialogue: 0,0:20:41.31,0:20:46.02,Default,,0,0,0,,Давайте без наглого плагиата. Вставляйте отсебятину в предложения.
 Dialogue: 0,0:20:46.02,0:20:47.36,Default,,0,0,0,,{\an5}Roger that!
-Dialogue: 0,0:20:46.02,0:20:47.36,Default,,0,0,0,,
+Dialogue: 0,0:20:46.02,0:20:47.36,Default,,0,0,0,,Без проблем!
 Dialogue: 0,0:20:47.36,0:20:49.82,Default,,0,0,0,,{\an5}It's okay to trace the map\Nof the school, though.
-Dialogue: 0,0:20:47.36,0:20:49.82,Default,,0,0,0,,
+Dialogue: 0,0:20:47.36,0:20:49.82,Default,,0,0,0,,Только на карте лишнего не подрисовывайте.
 Dialogue: 0,0:20:49.82,0:20:53.36,Default,,0,0,0,,{\an5}The sources come from books\Nin the library and web articles.
 Dialogue: 0,0:20:49.82,0:20:53.36,Default,,0,0,0,,
 Dialogue: 0,0:20:53.37,0:20:55.20,Default,,0,0,0,,{\an5}Isn't that a bit too skimpy?
@@ -757,13 +757,13 @@ Dialogue: 0,0:20:55.20,0:20:58.95,Default,,0,0,0,,
 Dialogue: 0,0:20:58.95,0:21:02.25,Default,,0,0,0,,{\an5}Right, which is why it's\Nso hard to get too angry.
 Dialogue: 0,0:20:58.95,0:21:02.25,Default,,0,0,0,,
 Dialogue: 0,0:21:02.25,0:21:05.08,Default,,0,0,0,,{\an5}Rusian, it's hard being the teacher {\i1}meow{\i0}.
-Dialogue: 0,0:21:02.25,0:21:05.08,Default,,0,0,0,,
+Dialogue: 0,0:21:02.25,0:21:05.08,Default,,0,0,0,,Русиян, жду не дождусь нятницы.
 Dialogue: 0,0:21:05.09,0:21:07.59,Default,,0,0,0,,{\an5}Enough to turn you into\NNekohime in the classroom?
-Dialogue: 0,0:21:05.09,0:21:07.59,Default,,0,0,0,,
+Dialogue: 0,0:21:05.09,0:21:07.59,Default,,0,0,0,,Настолько, что уже включили Некохиме-режим?
 Dialogue: 0,0:21:07.59,0:21:10.63,Default,,0,0,0,,{\an5}No way on earth!
-Dialogue: 0,0:21:07.59,0:21:10.63,Default,,0,0,0,,
+Dialogue: 0,0:21:07.59,0:21:10.63,Default,,0,0,0,,Ни за какие коврижки!
 Dialogue: 0,0:21:10.63,0:21:12.13,Default,,0,0,0,,{\an5}Ako?
-Dialogue: 0,0:21:10.63,0:21:12.13,Default,,0,0,0,,
+Dialogue: 0,0:21:10.63,0:21:12.13,Default,,0,0,0,,Ако?
 Dialogue: 0,0:21:14.51,0:21:17.18,Default,,0,0,0,,{\an5}It's our class presentation.
 Dialogue: 0,0:21:14.51,0:21:17.18,Default,,0,0,0,,
 Dialogue: 0,0:21:17.18,0:21:20.14,Default,,0,0,0,,{\an5}An exhibit of Maegasaki's tasty foods, right?
