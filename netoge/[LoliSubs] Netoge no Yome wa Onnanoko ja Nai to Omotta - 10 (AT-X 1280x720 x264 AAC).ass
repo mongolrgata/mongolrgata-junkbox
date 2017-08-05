@@ -17,9 +17,9 @@ Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
-Scroll Position: 710
-Active Line: 715
-Video Position: 30050
+Scroll Position: 672
+Active Line: 687
+Video Position: 29277
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -113,7 +113,7 @@ Dialogue: 0,0:03:39.42,0:03:41.59,Default,,0,0,0,,Пичот как в подм�
 Dialogue: 0,0:03:41.59,0:03:44.93,Default,,0,0,0,,{\an5}Yeah, it is. Hey, Takasaki, you got tan.
 Dialogue: 0,0:03:41.59,0:03:44.93,Default,,0,0,0,,{\pos(640,620)}Вот-вот. Такасаки, ты теперь мулат?
 Dialogue: 0,0:03:44.93,0:03:48.31,Default,,0,0,0,,{\an5}Yeah, and Nishimura,\Nyou're as pasty white as ever.
-Dialogue: 0,0:03:44.93,0:03:48.31,Default,,0,0,0,,{\pos(640,620)}Ога, а ты всё такой же бледный, как приведение.
+Dialogue: 0,0:03:44.93,0:03:48.31,Default,,0,0,0,,{\pos(640,620)}Ога, а ты такой же бледный, как приведение.
 Dialogue: 0,0:03:48.31,0:03:49.56,Default,,0,0,0,,{\an5}Yeah, well...
 Dialogue: 0,0:03:48.31,0:03:49.56,Default,,0,0,0,,{\pos(640,620)}Ну а хули?..
 Dialogue: 0,0:03:49.56,0:03:51.06,Default,,0,0,0,,{\an5}Nishimura...
@@ -449,7 +449,7 @@ Dialogue: 0,0:11:41.15,0:11:43.61,Default,,0,0,0,,Ако…
 Dialogue: 0,0:11:43.61,0:11:46.36,Default,,0,0,0,,{\an5}That's enough! You're facing my bad self!
 Dialogue: 0,0:11:43.61,0:11:46.36,Default,,0,0,0,,Ну всё! Ща батя вам покажет!
 Dialogue: 0,0:11:51.37,0:11:53.28,Default,,0,0,0,,{\an5}Extra Damage!
-Dialogue: 0,0:11:51.37,0:11:53.28,Default,,0,0,0,,Over9000!
+Dialogue: 0,0:11:51.37,0:11:53.28,Default,,0,0,0,,Овер9000!
 Dialogue: 0,0:12:02.21,0:12:06.55,Default,,0,0,0,,{\an5}Ho, not bad, you two. With one combo,\Nshe's already red-gauging.
 Dialogue: 0,0:12:02.21,0:12:06.55,Default,,0,0,0,,Охщи, неплохо сыграно. Ещё бы чуть-чуть и ей хана.
 Dialogue: 0,0:12:06.55,0:12:09.09,Default,,0,0,0,,{\an5}What was that? Kind of strong, wasn't it?
@@ -557,7 +557,7 @@ Dialogue: 0,0:15:15.49,0:15:17.11,Default,,0,0,0,,Дело дрянь.
 Dialogue: 0,0:15:17.11,0:15:22.53,Default,,0,0,0,,{\an5}I've checked into it, and my\NApricot is not suited to PvP.
 Dialogue: 0,0:15:17.11,0:15:22.53,Default,,0,0,0,,Судя по всему, с моим Априкотом в ПвП надеятся не на что.
 Dialogue: 0,0:15:22.54,0:15:25.70,Default,,0,0,0,,{\an5}It would be quicker to start\Na new character from scratch.
-Dialogue: 0,0:15:22.54,0:15:25.70,Default,,0,0,0,,Теперь проще будет раскачать нового персонажа с нуля.
+Dialogue: 0,0:15:22.54,0:15:25.70,Default,,0,0,0,,Проще будет раскачать нового персонажа с нуля.
 Dialogue: 0,0:15:25.70,0:15:29.21,Default,,0,0,0,,{\an5}I tried sparring against some friends\Nwho have done some PvP'ing,
 Dialogue: 0,0:15:25.70,0:15:29.21,Default,,0,0,0,,Я пробовала сражаться со своими знакомыми ПвПшниками,
 Dialogue: 0,0:15:29.21,0:15:30.92,Default,,0,0,0,,{\an5}and got my clock cleaned.
@@ -583,7 +583,7 @@ Dialogue: 0,0:15:54.32,0:15:58.07,Default,,0,0,0,,Я бы тоже воздер�
 Dialogue: 0,0:15:58.07,0:16:02.82,Default,,0,0,0,,{\an5}I'm fine with just staying here\Nand gaming with Rusian.
 Dialogue: 0,0:15:58.07,0:16:02.82,Default,,0,0,0,,А я не прочь поиграться тут с Русияном на ярмарке.
 Dialogue: 0,0:16:02.83,0:16:05.33,Default,,0,0,0,,{\an5}No, we should get out and look around.
-Dialogue: 0,0:16:02.83,0:16:05.33,Default,,0,0,0,,Нет, это всё-таки плохая идея.
+Dialogue: 0,0:16:02.83,0:16:05.33,Default,,0,0,0,,Нет, всё-таки это плохая идея.
 Dialogue: 0,0:16:06.58,0:16:09.62,Default,,0,0,0,,{\an5}Well, let's do as much as we can, anyway.
 Dialogue: 0,0:16:06.58,0:16:09.62,Default,,0,0,0,,Ладно, попытка — не пытка.
 Dialogue: 0,0:16:09.62,0:16:11.88,Default,,0,0,0,,{\an5}Everyone get your gear in shape,
@@ -619,7 +619,7 @@ Dialogue: 0,0:16:50.58,0:16:52.54,Default,,0,0,0,,— GL\N— HF
 Dialogue: 0,0:16:57.71,0:16:59.80,Default,,0,0,0,,{\an5}It looks like another guild is going first.
 Dialogue: 0,0:16:57.71,0:16:59.80,Default,,0,0,0,,Другая гильдия нас опередила.
 Dialogue: 0,0:16:59.80,0:17:03.43,Default,,0,0,0,,{\an5}All right, let's watch them,\Nand study how they fight.
-Dialogue: 0,0:16:59.80,0:17:03.43,Default,,0,0,0,,Ок, останемся тут и понаблюдаем за сражением.
+Dialogue: 0,0:16:59.80,0:17:03.43,Default,,0,0,0,,Ок, останемся тут и понаблюдаем за ходом боя.
 Dialogue: 0,0:17:22.36,0:17:25.74,Default,,0,0,0,,{\an5}That many of them, wiped out\Nin less than ten seconds?
 Dialogue: 0,0:17:22.36,0:17:25.74,Default,,0,0,0,,Я чаю не успела налить, а уже всю пачку порешали?
 Dialogue: 0,0:17:25.74,0:17:27.03,Default,,0,0,0,,{\an5}What do we do?
@@ -663,7 +663,7 @@ Dialogue: 0,0:18:18.71,0:18:22.26,Default,,0,0,0,,О? Так мы сможем �
 Dialogue: 0,0:18:22.26,0:18:26.18,Default,,0,0,0,,{\an5}Mm-hmm. For example,\Na giant catapult, or "gi" for short,
 Dialogue: 0,0:18:22.26,0:18:26.18,Default,,0,0,0,,У-му. Например, гандам-катапульта aka G
 Dialogue: 0,0:18:26.18,0:18:28.09,Default,,0,0,0,,{\an5}can be controlled by five players.
-Dialogue: 0,0:18:26.18,0:18:28.09,Default,,0,0,0,,управляемый пятью игроками.
+Dialogue: 0,0:18:26.18,0:18:28.09,Default,,0,0,0,,управляемая пятью игроками.
 Dialogue: 0,0:18:31.31,0:18:32.27,Default,,0,0,0,,{\an5}That's no good.
 Dialogue: 0,0:18:31.31,0:18:32.27,Default,,0,0,0,,Не пойдёт.
 Dialogue: 0,0:18:32.27,0:18:34.85,Default,,0,0,0,,{\an5}Wait, don't give up just yet.
@@ -721,9 +721,9 @@ Dialogue: 0,0:20:06.36,0:20:07.61,Default,,0,0,0,,У-му.
 Dialogue: 0,0:20:08.61,0:20:10.91,Default,,0,0,0,,{\an5}Why don't we go now?
 Dialogue: 0,0:20:08.61,0:20:10.91,Default,,0,0,0,,Теперь-то по домам?
 Dialogue: 0,0:20:10.91,0:20:14.16,Default,,0,0,0,,{\an5}Afterward, though Nekohime's\NElite Guard put up a good fight,
-Dialogue: 0,0:20:10.91,0:20:14.16,Default,,0,0,0,,
+Dialogue: 0,0:20:10.91,0:20:15.61,Default,,0,0,0,,Но чуть позже Элитная Гвардия Некохимы под атаками более сильной гильдии
 Dialogue: 0,0:20:14.16,0:20:18.20,Default,,0,0,0,,{\an5}they were beaten by a larger guild,\Nand chased off the lord's throne.
-Dialogue: 0,0:20:14.16,0:20:18.20,Default,,0,0,0,,
+Dialogue: 0,0:20:15.61,0:20:18.20,Default,,0,0,0,,была вынуждена сдать крепость.
 Dialogue: 0,0:20:21.83,0:20:23.88,Default,,0,0,0,,{\an5}Our all for Nekohime-{\i1}sama{\i0}.
 Dialogue: 0,0:20:21.83,0:20:23.88,Default,,0,0,0,,Всё во имя Некохиме-самы.
 Dialogue: 0,0:20:23.88,0:20:25.34,Default,,0,0,0,,{\an5}Our goddess.
@@ -745,43 +745,43 @@ Dialogue: 0,0:20:39.64,0:20:41.31,Default,,0,0,0,,Так блэт, работя�
 Dialogue: 0,0:20:41.31,0:20:46.02,Default,,0,0,0,,{\an5}No wholesale copying the sources.\NRearrange the sentences a little.
 Dialogue: 0,0:20:41.31,0:20:46.02,Default,,0,0,0,,Давайте без наглого плагиата. Вставляйте отсебятину в предложения.
 Dialogue: 0,0:20:46.02,0:20:47.36,Default,,0,0,0,,{\an5}Roger that!
-Dialogue: 0,0:20:46.02,0:20:47.36,Default,,0,0,0,,Без проблем!
+Dialogue: 0,0:20:46.02,0:20:47.36,Default,,0,0,0,,Запросто!
 Dialogue: 0,0:20:47.36,0:20:49.82,Default,,0,0,0,,{\an5}It's okay to trace the map\Nof the school, though.
 Dialogue: 0,0:20:47.36,0:20:49.82,Default,,0,0,0,,Только на карте лишнего не подрисовывайте.
 Dialogue: 0,0:20:49.82,0:20:53.36,Default,,0,0,0,,{\an5}The sources come from books\Nin the library and web articles.
-Dialogue: 0,0:20:49.82,0:20:53.36,Default,,0,0,0,,
+Dialogue: 0,0:20:49.82,0:20:53.36,Default,,0,0,0,,Т.е. вы понатырили абзацев из библиотечных книг и педивикий.
 Dialogue: 0,0:20:53.37,0:20:55.20,Default,,0,0,0,,{\an5}Isn't that a bit too skimpy?
-Dialogue: 0,0:20:53.37,0:20:55.20,Default,,0,0,0,,
+Dialogue: 0,0:20:53.37,0:20:55.20,Default,,0,0,0,,Это дно, не думаешь?
 Dialogue: 0,0:20:55.20,0:20:58.95,Default,,0,0,0,,{\an5}Then again, the finished materials\Nshould end up at a pretty high level.
-Dialogue: 0,0:20:55.20,0:20:58.95,Default,,0,0,0,,
+Dialogue: 0,0:20:55.20,0:20:58.95,Default,,0,0,0,,Думаю. Но в итоге у нас будет\Nчто-то сносное для ярмарки.
 Dialogue: 0,0:20:58.95,0:21:02.25,Default,,0,0,0,,{\an5}Right, which is why it's\Nso hard to get too angry.
-Dialogue: 0,0:20:58.95,0:21:02.25,Default,,0,0,0,,
+Dialogue: 0,0:20:58.95,0:21:02.25,Default,,0,0,0,,Да, поэтому мне и предъявить вам нечего.
 Dialogue: 0,0:21:02.25,0:21:05.08,Default,,0,0,0,,{\an5}Rusian, it's hard being the teacher {\i1}meow{\i0}.
 Dialogue: 0,0:21:02.25,0:21:05.08,Default,,0,0,0,,Русиян, жду не дождусь нятницы.
 Dialogue: 0,0:21:05.09,0:21:07.59,Default,,0,0,0,,{\an5}Enough to turn you into\NNekohime in the classroom?
-Dialogue: 0,0:21:05.09,0:21:07.59,Default,,0,0,0,,Настолько, что уже включили Некохиме-режим?
+Dialogue: 0,0:21:05.09,0:21:07.59,Default,,0,0,0,,Настолько, что уже включился Некохиме-режим?
 Dialogue: 0,0:21:07.59,0:21:10.63,Default,,0,0,0,,{\an5}No way on earth!
 Dialogue: 0,0:21:07.59,0:21:10.63,Default,,0,0,0,,Ни за какие коврижки!
 Dialogue: 0,0:21:10.63,0:21:12.13,Default,,0,0,0,,{\an5}Ako?
 Dialogue: 0,0:21:10.63,0:21:12.13,Default,,0,0,0,,Ако?
 Dialogue: 0,0:21:14.51,0:21:17.18,Default,,0,0,0,,{\an5}It's our class presentation.
-Dialogue: 0,0:21:14.51,0:21:17.18,Default,,0,0,0,,
+Dialogue: 0,0:21:14.51,0:21:17.18,Default,,0,0,0,,Наша презентация…
 Dialogue: 0,0:21:17.18,0:21:20.14,Default,,0,0,0,,{\an5}An exhibit of Maegasaki's tasty foods, right?
-Dialogue: 0,0:21:17.18,0:21:20.14,Default,,0,0,0,,
+Dialogue: 0,0:21:17.18,0:21:20.14,Default,,0,0,0,,С обзором годных рыгаловок в Маегасаки?
 Dialogue: 0,0:21:20.14,0:21:22.73,Default,,0,0,0,,{\an5}That has been changed.
-Dialogue: 0,0:21:20.14,0:21:22.73,Default,,0,0,0,,
+Dialogue: 0,0:21:20.14,0:21:22.73,Default,,0,0,0,,Планы слегка изменились.
 Dialogue: 0,0:21:22.73,0:21:25.77,Default,,0,0,0,,{\an5}It was suggested that as long\Nas we were presenting food,
-Dialogue: 0,0:21:22.73,0:21:25.77,Default,,0,0,0,,
+Dialogue: 0,0:21:22.73,0:21:25.77,Default,,0,0,0,,Они предложили не просто рассказывать о еде,
 Dialogue: 0,0:21:25.77,0:21:28.48,Default,,0,0,0,,{\an5}why not make it something\Nthat could actually be eaten?
-Dialogue: 0,0:21:25.77,0:21:28.48,Default,,0,0,0,,
+Dialogue: 0,0:21:25.77,0:21:28.48,Default,,0,0,0,,но и самим приготовить что-нибудь для угощения.
 Dialogue: 0,0:21:28.48,0:21:30.15,Default,,0,0,0,,{\an5}Sounds like an improvement.
-Dialogue: 0,0:21:28.48,0:21:30.15,Default,,0,0,0,,
+Dialogue: 0,0:21:28.48,0:21:30.15,Default,,0,0,0,,Здравая мысль.
 Dialogue: 0,0:21:30.15,0:21:33.65,Default,,0,0,0,,{\an5}Then they started suggesting\Ntaking in money, making a profit,
-Dialogue: 0,0:21:30.15,0:21:33.65,Default,,0,0,0,,
+Dialogue: 0,0:21:30.15,0:21:33.65,Default,,0,0,0,,А потом кто-то предложил зарабатывать на этом 
 Dialogue: 0,0:21:33.66,0:21:37.95,Default,,0,0,0,,{\an5}and while they were at it,\Nto have the girls serve the guests.
 Dialogue: 0,0:21:33.66,0:21:37.95,Default,,0,0,0,,
 Dialogue: 0,0:21:37.95,0:21:39.24,Default,,0,0,0,,{\an5}Now it's starting to stray.
-Dialogue: 0,0:21:37.95,0:21:39.24,Default,,0,0,0,,
+Dialogue: 0,0:21:37.95,0:21:39.24,Default,,0,0,0,,Чот вас понесло.
 Dialogue: 0,0:21:39.24,0:21:43.50,Default,,0,0,0,,{\an5}Right. Then they said if they did a café,\Nit could be a maid café.
 Dialogue: 0,0:21:39.24,0:21:43.50,Default,,0,0,0,,
 Dialogue: 0,0:21:43.50,0:21:45.00,Default,,0,0,0,,{\an5}That's way off course!
