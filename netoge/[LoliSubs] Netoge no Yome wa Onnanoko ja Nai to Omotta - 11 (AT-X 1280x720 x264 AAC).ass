@@ -39,7 +39,7 @@ Dialogue: 0,0:00:35.37,0:00:39.25,Default,,0,0,0,,
 Dialogue: 0,0:00:39.25,0:00:43.92,Default,,0,0,0,,{\an5}Hmm, it didn't take long for the\Nhands-off approach to rear its head.
 Dialogue: 0,0:00:39.25,0:00:43.92,Default,,0,0,0,,
 Dialogue: 0,0:00:46.47,0:00:48.22,Default,,0,0,0,,{\an5}'Sup?
-Dialogue: 0,0:00:46.47,0:00:48.22,Default,,0,0,0,,
+Dialogue: 0,0:00:46.47,0:00:48.22,Default,,0,0,0,,Сяп.
 Dialogue: 0,0:00:48.72,0:00:49.76,Default,,0,0,0,,{\an5}Hi there.
 Dialogue: 0,0:00:48.72,0:00:49.76,Default,,0,0,0,,
 Dialogue: 0,0:00:49.76,0:00:51.09,Default,,0,0,0,,{\an5}Hello.
@@ -65,7 +65,7 @@ Dialogue: 0,0:01:09.74,0:01:11.32,Default,,0,0,0,,
 Dialogue: 0,0:01:25.05,0:01:30.05,Default,,0,0,0,,{\an5}Guild Alley Cats and Wallenstein\Nhave formed an alliance.
 Dialogue: 0,0:01:25.05,0:01:30.05,Default,,0,0,0,,
 Dialogue: 0,0:03:12.44,0:03:16.36,Def_Top,,0,0,0,,{\an5}"LV. 11: I thought we could win\Nby delegating to others?"
-Dialogue: 0,0:03:12.44,0:03:16.36,Def_Top,,0,0,0,,
+Dialogue: 0,0:03:12.44,0:03:16.36,Def_Top,,0,0,0,,[ЛВЛ. 11: Думал, победишь, загребая жар чужими руками?]
 Dialogue: 0,0:03:12.86,0:03:15.32,Default,,0,0,0,,{\an5}All right, should we\Ncoordinate what we're doing?
 Dialogue: 0,0:03:12.86,0:03:15.32,Default,,0,0,0,,
 Dialogue: 0,0:03:15.32,0:03:17.07,Default,,0,0,0,,{\an5}Yeah, okay.
