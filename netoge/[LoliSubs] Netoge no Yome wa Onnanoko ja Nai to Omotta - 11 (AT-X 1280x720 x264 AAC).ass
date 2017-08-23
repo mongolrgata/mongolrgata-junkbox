@@ -27,7 +27,7 @@ Style: Def_I-T,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,10
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:24.11,0:00:25.82,Default,,0,0,0,,{\an5}They're here.
-Dialogue: 0,0:00:24.11,0:00:25.82,Default,,0,0,0,,
+Dialogue: 0,0:00:24.11,0:00:25.82,Default,,0,0,0,,Вон прутся.
 Dialogue: 0,0:00:25.82,0:00:30.53,Default,,0,0,0,,{\an5}This is the server's top-class\Nmercenary guild, Wallenstein?
 Dialogue: 0,0:00:25.82,0:00:30.53,Default,,0,0,0,,
 Dialogue: 0,0:00:30.53,0:00:33.79,Default,,0,0,0,,{\an5}They have all of their PvP equips maxed out.
@@ -71,9 +71,9 @@ Dialogue: 0,0:03:12.86,0:03:15.32,Default,,0,0,0,,
 Dialogue: 0,0:03:15.32,0:03:17.07,Default,,0,0,0,,{\an5}Yeah, okay.
 Dialogue: 0,0:03:15.32,0:03:17.07,Default,,0,0,0,,
 Dialogue: 0,0:03:17.07,0:03:19.11,Default,,0,0,0,,{\an5}Ako-{\i1}san{\i0}, you're the healer, right?
-Dialogue: 0,0:03:17.07,0:03:19.11,Default,,0,0,0,,
+Dialogue: 0,0:03:17.07,0:03:19.11,Default,,0,0,0,,Ако-сан, ты ведь хиллер?
 Dialogue: 0,0:03:19.12,0:03:20.95,Default,,0,0,0,,{\an5}Y-Yes...
-Dialogue: 0,0:03:19.12,0:03:20.95,Default,,0,0,0,,
+Dialogue: 0,0:03:19.12,0:03:20.95,Default,,0,0,0,,Немношк…
 Dialogue: 0,0:03:20.95,0:03:24.16,Default,,0,0,0,,{\an5}Is it okay if we split the buffs\Nso that I handle Concentration?
 Dialogue: 0,0:03:20.95,0:03:24.16,Default,,0,0,0,,
 Dialogue: 0,0:03:24.16,0:03:26.87,Default,,0,0,0,,{\an5}Can I ask you to handle Sacrament?

@@ -56,6 +56,15 @@ var KATA = [
     ['ｅ', '　', 'ヱ', 'レ', '　', 'メ', 'ヘ', 'ネ', 'テ', 'セ', 'ケ', 'エ'],
     ['ｏ', '　', 'ヲ', 'ロ', 'ヨ', 'モ', 'ホ', 'ノ', 'ト', 'ソ', 'コ', 'オ']
 ];
+
+var ADDITIONAL_KATA = [
+    ['ｇ', 'ｚ', 'ｄ', 'ｂ', 'ｐ'],
+    ['ガ', 'ザ', 'ダ', 'バ', 'パ'],
+    ['ギ', 'ジ', 'ヂ', 'ビ', 'ピ'],
+    ['グ', 'ズ', 'ヅ', 'ブ', 'プ'],
+    ['ゲ', 'ゼ', 'デ', 'ベ', 'ペ'],
+    ['ゴ', 'ゾ', 'ド', 'ボ', 'ポ']
+];
 //----------------------------------------------------------------------------------------------------------------------
 
 var setKanaSet = function () {
@@ -67,6 +76,9 @@ var setKanaSet = function () {
 if (+localStorage.getItem('withAdditional')) {
     HIRA = HIRA.map(function (value, index) {
         return value.concat(ADDITIONAL_HIRA[index]);
+    });
+    KATA = KATA.map(function (value, index) {
+        return value.concat(ADDITIONAL_KATA[index]);
     });
     ROMAJI = ROMAJI.map(function (value, index) {
         return value.concat(ADDITIONAL_ROMAJI[index]);
