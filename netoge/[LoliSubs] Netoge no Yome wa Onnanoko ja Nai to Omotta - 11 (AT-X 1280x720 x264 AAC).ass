@@ -11,14 +11,15 @@ PlayResY: 720
 PlayDepth: 16
 
 [Aegisub Project Garbage]
+Last Style Storage: Default
 Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 11 (AT-X 1280x720 x264 AAC).mkv
 Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 11 (AT-X 1280x720 x264 AAC).mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.750000
-Scroll Position: 350
-Active Line: 360
-Video Position: 20770
+Video Zoom Percent: 0.625000
+Scroll Position: 512
+Active Line: 534
+Video Position: 27440
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -26,6 +27,7 @@ Style: Default,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100
 Style: Def_Top,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,8,96,96,48,1
 Style: Def_Ita,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.2,0,2,96,96,48,1
 Style: Def_I-T,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.2,0,8,96,96,48,1
+Style: Cross,Arial,40,&H500000FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,400,100,0,0,1,0,0,2,96,96,48,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -165,7 +167,7 @@ Dialogue: 0,0:05:42.59,0:05:44.09,Default,,0,0,0,,Вижу двоих!
 Dialogue: 0,0:05:54.77,0:05:56.98,Default,,0,0,0,,{\an5}Ah! I don't like this!
 Dialogue: 0,0:05:54.77,0:05:56.98,Default,,0,0,0,,Ай! Хватит!
 Dialogue: 0,0:06:01.32,0:06:04.36,Default,,0,0,0,,{\an5}All right, that thins the ranks\Non their front line.
-Dialogue: 0,0:06:01.32,0:06:04.36,Default,,0,0,0,,ЗБС, это ослабит их передовые линии.
+Dialogue: 0,0:06:01.32,0:06:04.36,Default,,0,0,0,,Збс, это ослабит их передовые линии.
 Dialogue: 0,0:06:05.86,0:06:07.86,Default,,0,0,0,,{\an5}We're being decoys?!
 Dialogue: 0,0:06:05.86,0:06:07.86,Default,,0,0,0,,Мы вместо живца што ле?
 Dialogue: 0,0:06:07.86,0:06:09.87,Default,,0,0,0,,{\an5}Huh? Isn't that mean?
@@ -385,93 +387,95 @@ Dialogue: 0,0:14:17.77,0:14:20.48,Default,,0,0,0,,Какой удачный по
 Dialogue: 0,0:14:20.49,0:14:21.94,Default,,0,0,0,,{\an5}H-Huh?
 Dialogue: 0,0:14:20.49,0:14:21.94,Default,,0,0,0,,Ч-чиво?
 Dialogue: 0,0:14:22.07,0:14:24.40,Default,,0,0,0,,{\an5}It's like you've leveled up.
-Dialogue: 0,0:14:22.07,0:14:24.40,Default,,0,0,0,,У тебя {\s1}рак{\s0} левал-ап.
+Dialogue: 0,0:14:22.07,0:14:24.40,Default,,0,0,0,,У вас рак левал-ап.
+Dialogue: 0,0:14:22.07,0:14:24.40,Cross,,0,0,0,,{\pos(600.444,672.89)}✗
+Dialogue: 0,0:14:23.80,0:14:24.34,Default,,0,0,0,,{\fad(0,522)\move(830,270,830,150,0,522)}▲LEVEL UP▲
 Dialogue: 0,0:14:24.40,0:14:26.28,Default,,0,0,0,,{\an5}Eh? I have?
 Dialogue: 0,0:14:24.40,0:14:26.28,Default,,0,0,0,,Э? Разве?
 Dialogue: 0,0:14:26.28,0:14:29.82,Default,,0,0,0,,{\an5}{\i1}Yes{\i0}, you have! Ako, up to now, as a rule,
-Dialogue: 0,0:14:26.28,0:14:29.82,Default,,0,0,0,,Точно говорю! До сих пор ты
+Dialogue: 0,0:14:26.28,0:14:31.85,Default,,0,0,0,,Точно говорю! До сих пор\Nдля тебя было в порядке вещей
 Dialogue: 0,0:14:29.82,0:14:31.83,Default,,0,0,0,,{\an5}whenever something was unpleasant or messy
-Dialogue: 0,0:14:29.82,0:14:31.83,Default,,0,0,0,,
+Dialogue: 0,0:14:29.82,0:14:31.83,Default,,0,0,0,,{}
 Dialogue: 0,0:14:31.83,0:14:35.54,Default,,0,0,0,,{\an5}or called for accountability on\Nyour part, you ran the other way.
-Dialogue: 0,0:14:31.83,0:14:35.54,Default,,0,0,0,,
+Dialogue: 0,0:14:31.83,0:14:35.54,Default,,0,0,0,,бежать прочь от возникающих\Nвокруг тебя проблем.
 Dialogue: 0,0:14:35.54,0:14:36.96,Default,,0,0,0,,{\an5}Mm-hmm.
-Dialogue: 0,0:14:35.54,0:14:36.96,Default,,0,0,0,,
+Dialogue: 0,0:14:35.54,0:14:36.96,Default,,0,0,0,,Угу.
 Dialogue: 0,0:14:36.96,0:14:40.92,Default,,0,0,0,,{\an5}Now you've gotten so that you\Nregret having run away from it.
-Dialogue: 0,0:14:36.96,0:14:40.92,Default,,0,0,0,,
+Dialogue: 0,0:14:36.96,0:14:40.92,Default,,0,0,0,,А в этот раз тебе хотелось остаться и что-то сделать для других.
 Dialogue: 0,0:14:40.92,0:14:42.59,Default,,0,0,0,,{\an5}That's major progress, you know.
-Dialogue: 0,0:14:40.92,0:14:42.59,Default,,0,0,0,,
+Dialogue: 0,0:14:40.92,0:14:42.59,Default,,0,0,0,,Прогресс налицо.
 Dialogue: 0,0:14:47.80,0:14:51.09,Default,,0,0,0,,{\an5}There's another round of\Nsiege fighting next week.
-Dialogue: 0,0:14:47.80,0:14:51.09,Default,,0,0,0,,
+Dialogue: 0,0:14:47.80,0:14:51.09,Default,,0,0,0,,Через неделю будет ещё одна осада крепости.
 Dialogue: 0,0:14:51.10,0:14:53.31,Default,,0,0,0,,{\an5}That's our last chance.
-Dialogue: 0,0:14:51.10,0:14:53.31,Default,,0,0,0,,
+Dialogue: 0,0:14:51.10,0:14:53.31,Default,,0,0,0,,Крайняя попытка.
 Dialogue: 0,0:14:53.31,0:14:57.98,Default,,0,0,0,,{\an5}Next time... Next time for sure,\NI want to try harder!
-Dialogue: 0,0:14:53.31,0:14:57.98,Default,,0,0,0,,
+Dialogue: 0,0:14:53.31,0:14:57.98,Default,,0,0,0,,В этот раз… Уж в этот-то раз я не заракую!
 Dialogue: 0,0:14:57.98,0:15:03.15,Default,,0,0,0,,{\an5}I may end up regretting it,\Nbut I'm going to try to regret it!
-Dialogue: 0,0:14:57.98,0:15:03.15,Default,,0,0,0,,
+Dialogue: 0,0:14:57.98,0:15:03.15,Default,,0,0,0,,Всё может обернуться ещё одним разочарованием, но я выложусь на полную.
 Dialogue: 0,0:15:03.15,0:15:06.11,Default,,0,0,0,,{\an5}Yeah! But as long as\Nwe're at it, let's try to {\i1}win{\i0}.
-Dialogue: 0,0:15:03.15,0:15:06.11,Default,,0,0,0,,
+Dialogue: 0,0:15:03.15,0:15:06.11,Default,,0,0,0,,О да! Приложим все усилия, чтобы победить.
 Dialogue: 0,0:15:06.11,0:15:07.78,Default,,0,0,0,,{\an5}You don't {\i1}want{\i0} to have regrets, after all.
-Dialogue: 0,0:15:06.11,0:15:07.78,Default,,0,0,0,,
+Dialogue: 0,0:15:06.11,0:15:07.78,Default,,0,0,0,,Чтобы тебе не пришлось сожалеть.
 Dialogue: 0,0:15:07.78,0:15:09.28,Default,,0,0,0,,{\an5}Right!
-Dialogue: 0,0:15:07.78,0:15:09.28,Default,,0,0,0,,
+Dialogue: 0,0:15:07.78,0:15:09.28,Default,,0,0,0,,Верно!
 Dialogue: 0,0:15:14.58,0:15:15.58,Def_Top,,0,0,0,,{\an5}"Student Council Room"
-Dialogue: 0,0:15:14.58,0:15:15.58,Def_Top,,0,0,0,,
+Dialogue: 0,0:15:14.58,0:15:15.58,Def_Top,,0,0,0,,[Студсовет]
 Dialogue: 0,0:15:15.92,0:15:17.79,Default,,0,0,0,,{\an5}Hard at work, Madam President?
-Dialogue: 0,0:15:15.92,0:15:17.79,Default,,0,0,0,,
+Dialogue: 0,0:15:15.92,0:15:17.79,Default,,0,0,0,,Трудимся в поте лица, президент?
 Dialogue: 0,0:15:17.79,0:15:19.84,Default,,0,0,0,,{\an5}Cut that out. It's creepy.
-Dialogue: 0,0:15:17.79,0:15:19.84,Default,,0,0,0,,
+Dialogue: 0,0:15:17.79,0:15:19.84,Default,,0,0,0,,Отстань, противный.
 Dialogue: 0,0:15:19.84,0:15:22.96,Default,,0,0,0,,{\an5}Creepy? You're doing\Nstudent council president stuff,
-Dialogue: 0,0:15:19.84,0:15:22.96,Default,,0,0,0,,
+Dialogue: 0,0:15:19.84,0:15:22.96,Default,,0,0,0,,Противный? Ты тут бумажки перекладываешь,
 Dialogue: 0,0:15:22.96,0:15:25.09,Default,,0,0,0,,{\an5}so that's why I called you "President."
-Dialogue: 0,0:15:22.96,0:15:25.09,Default,,0,0,0,,
+Dialogue: 0,0:15:22.96,0:15:25.09,Default,,0,0,0,,вот и обратился к тебе по должности.
 Dialogue: 0,0:15:25.09,0:15:27.72,Default,,0,0,0,,{\an5}Don't talk to me like we're strangers.
-Dialogue: 0,0:15:25.09,0:15:27.72,Default,,0,0,0,,
+Dialogue: 0,0:15:25.09,0:15:27.72,Default,,0,0,0,,Как будто мы с тобой первый день знакомы.
 Dialogue: 0,0:15:27.72,0:15:30.43,Default,,0,0,0,,{\an5}As a sign of trust and respect,
-Dialogue: 0,0:15:27.72,0:15:30.43,Default,,0,0,0,,
+Dialogue: 0,0:15:27.72,0:15:30.43,Default,,0,0,0,,Чтобы выразить {\i1}моё увожение{\i0},
 Dialogue: 0,0:15:30.43,0:15:33.39,Default,,0,0,0,,{\an5}feel free to address me as "Kyoh,"\Nplain and simple.
-Dialogue: 0,0:15:30.43,0:15:33.39,Default,,0,0,0,,
+Dialogue: 0,0:15:30.43,0:15:33.39,Default,,0,0,0,,дозволяю тебе называть меня по имени.
 Dialogue: 0,0:15:34.81,0:15:36.73,Default,,0,0,0,,{\an5}Okay, fine, "Kyoh."
-Dialogue: 0,0:15:34.81,0:15:36.73,Default,,0,0,0,,
+Dialogue: 0,0:15:34.81,0:15:36.73,Default,,0,0,0,,Договорились, Кё.
 Dialogue: 0,0:15:46.82,0:15:49.91,Default,,0,0,0,,{\an5}W-Would you mind not sitting\Nthere in silence, blushing?!
-Dialogue: 0,0:15:46.82,0:15:49.91,Default,,0,0,0,,
+Dialogue: 0,0:15:46.82,0:15:49.91,Default,,0,0,0,,М-может хватит спонсировать глобальное потепление?
 Dialogue: 0,0:15:49.91,0:15:52.58,Default,,0,0,0,,{\an5}Sorry. That's the first time\Nany male outside my family
-Dialogue: 0,0:15:49.91,0:15:52.58,Default,,0,0,0,,
+Dialogue: 0,0:15:49.91,0:15:52.58,Default,,0,0,0,,Прошу прощения.\NВпервые кто-то не из моей семьи
 Dialogue: 0,0:15:52.58,0:15:56.79,Default,,0,0,0,,{\an5}has called me by my first name.\NMy heart just skipped a beat, that's all.
-Dialogue: 0,0:15:52.58,0:15:56.79,Default,,0,0,0,,
+Dialogue: 0,0:15:52.58,0:15:56.79,Default,,0,0,0,,обратился ко мне по имени.\NНа мгновение я забыла как дышать.
 Dialogue: 0,0:15:56.79,0:15:58.62,Default,,0,0,0,,{\an5}Well, it doesn't have to.
-Dialogue: 0,0:15:56.79,0:15:58.62,Default,,0,0,0,,
+Dialogue: 0,0:15:56.79,0:15:58.62,Default,,0,0,0,,Больше так не делай.
 Dialogue: 0,0:15:58.62,0:16:00.79,Default,,0,0,0,,{\an5}So, what did you need?
-Dialogue: 0,0:15:58.62,0:16:00.79,Default,,0,0,0,,
+Dialogue: 0,0:15:58.62,0:16:00.79,Default,,0,0,0,,Собсна, зачем пожаловал?
 Dialogue: 0,0:16:00.79,0:16:04.30,Default,,0,0,0,,{\an5}Oh, it's about the upcoming siege battle.
-Dialogue: 0,0:16:00.79,0:16:04.30,Default,,0,0,0,,
+Dialogue: 0,0:16:00.79,0:16:04.30,Default,,0,0,0,,Хотел обсудить предстоящую осаду.
 Dialogue: 0,0:16:04.30,0:16:07.42,Default,,0,0,0,,{\an5}Not to worry. I already have some new gear
-Dialogue: 0,0:16:04.30,0:16:07.42,Default,,0,0,0,,
+Dialogue: 0,0:16:04.30,0:16:07.42,Default,,0,0,0,,Всё схвачено. Я тут затарилась кое-чем,
 Dialogue: 0,0:16:07.43,0:16:10.01,Default,,0,0,0,,{\an5}that will allow me to keep casting,\Neven while under attack.
-Dialogue: 0,0:16:07.43,0:16:10.01,Default,,0,0,0,,
+Dialogue: 0,0:16:07.43,0:16:10.01,Default,,0,0,0,,что позволит кастовать спеллы\Nдаже находясь под атакой.
 Dialogue: 0,0:16:10.01,0:16:13.97,Default,,0,0,0,,{\an5}Wait, the price for that stuff skyrocketed\Nafter the siege warfare started, didn't it?!
-Dialogue: 0,0:16:10.01,0:16:13.97,Default,,0,0,0,,
+Dialogue: 0,0:16:10.01,0:16:13.97,Default,,0,0,0,,Разве цена на подобные итемы не взлетела до небес с началом осадного режима?
 Dialogue: 0,0:16:13.97,0:16:17.06,Default,,0,0,0,,{\an5}Also, I stocked up on reflect potions\Nthat take the damage you sustain
-Dialogue: 0,0:16:13.97,0:16:17.06,Default,,0,0,0,,
+Dialogue: 0,0:16:13.97,0:16:17.06,Default,,0,0,0,,А ещё у меня целый вагон зелий отражения, которые
 Dialogue: 0,0:16:17.06,0:16:19.19,Default,,0,0,0,,{\an5}and bounces it back to your opponent.
-Dialogue: 0,0:16:17.06,0:16:19.19,Default,,0,0,0,,
+Dialogue: 0,0:16:17.06,0:16:19.19,Default,,0,0,0,,возращают полученный урон противнику.
 Dialogue: 0,0:16:19.19,0:16:22.90,Default,,0,0,0,,{\an5}Those are pretty pricy, too.\NWhen you say "stocked up"...
-Dialogue: 0,0:16:19.19,0:16:22.90,Default,,0,0,0,,
+Dialogue: 0,0:16:19.19,0:16:22.90,Default,,0,0,0,,Эти тоже не из дешёвых.\NВо сколько обошёлся твой вагон…
 Dialogue: 0,0:16:22.90,0:16:25.78,Default,,0,0,0,,{\an5}In any event, preparations are moving forward.
-Dialogue: 0,0:16:22.90,0:16:25.78,Default,,0,0,0,,
+Dialogue: 0,0:16:22.90,0:16:25.78,Default,,0,0,0,,Ниважна, главное быть готовым ко всему.
 Dialogue: 0,0:16:25.78,0:16:29.70,Default,,0,0,0,,{\an5}I'm the one who came up with\Nthis idea in the first place.
-Dialogue: 0,0:16:25.78,0:16:29.70,Default,,0,0,0,,
+Dialogue: 0,0:16:25.78,0:16:29.70,Default,,0,0,0,,Всё-таки это я всем убедила участвовать в осаде.
 Dialogue: 0,0:16:29.70,0:16:31.45,Default,,0,0,0,,{\an5}Let me take care of it.
-Dialogue: 0,0:16:29.70,0:16:31.45,Default,,0,0,0,,
+Dialogue: 0,0:16:29.70,0:16:31.45,Default,,0,0,0,,Так что я всё устрою.
 Dialogue: 0,0:16:34.74,0:16:37.95,Default,,0,0,0,,{\an5}"Let me take care of it," huh?
-Dialogue: 0,0:16:34.74,0:16:37.95,Default,,0,0,0,,
+Dialogue: 0,0:16:34.74,0:16:37.95,Default,,0,0,0,,«Я всё устрою» говоришь?
 Dialogue: 0,0:16:38.33,0:16:39.83,Def_Top,,0,0,0,,{\an5}"Modern Communication\NElectronic Game Club"
-Dialogue: 0,0:16:38.33,0:16:39.83,Def_Top,,0,0,0,,
+Dialogue: 0,0:16:38.33,0:16:39.83,Def_Top,,0,0,0,,[FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF]
 Dialogue: 0,0:16:41.04,0:16:43.17,Default,,0,0,0,,{\an5}'Sup, everyone? Huh?
-Dialogue: 0,0:16:41.04,0:16:43.17,Default,,0,0,0,,
+Dialogue: 0,0:16:41.04,0:16:43.17,Default,,0,0,0,,Мейду бы…
 Dialogue: 0,0:16:53.72,0:16:56.56,Default,,0,0,0,,{\an5}Welcome home, master!
-Dialogue: 0,0:16:53.72,0:16:56.56,Default,,0,0,0,,
+Dialogue: 0,0:16:53.72,0:16:56.56,Default,,0,0,0,,С возвращением, властелин!
 Dialogue: 0,0:16:59.06,0:17:00.39,Default,,0,0,0,,{\an5}What's up with these?
-Dialogue: 0,0:16:59.06,0:17:00.39,Default,,0,0,0,,
+Dialogue: 0,0:16:59.06,0:17:00.39,Default,,0,0,0,,Меня определили в рай?
 Dialogue: 0,0:17:00.40,0:17:03.19,Default,,0,0,0,,{\an5}Remember, we mentioned it before, didn't we?
 Dialogue: 0,0:17:00.40,0:17:03.19,Default,,0,0,0,,
 Dialogue: 0,0:17:03.19,0:17:06.57,Default,,0,0,0,,{\an5}About the time we went over\Nto the president's house?
@@ -481,113 +485,113 @@ Dialogue: 0,0:17:06.57,0:17:09.49,Default,,0,0,0,,
 Dialogue: 0,0:17:09.49,0:17:11.49,Default,,0,0,0,,{\an5}and brought them in for us.
 Dialogue: 0,0:17:09.49,0:17:11.49,Default,,0,0,0,,
 Dialogue: 0,0:17:11.49,0:17:13.24,Default,,0,0,0,,{\an5}Hey, that's terrific.
-Dialogue: 0,0:17:11.49,0:17:13.24,Default,,0,0,0,,
+Dialogue: 0,0:17:11.49,0:17:13.24,Default,,0,0,0,,Охеренно.
 Dialogue: 0,0:17:13.24,0:17:16.41,Default,,0,0,0,,{\an5}With the maid uniforms, which were\Nthe biggest issue, out of the way,
-Dialogue: 0,0:17:13.24,0:17:16.41,Default,,0,0,0,,
+Dialogue: 0,0:17:13.24,0:17:16.41,Default,,0,0,0,,Значит, самый сложный квест —\Nкрафт костюмов — завершён,
 Dialogue: 0,0:17:16.41,0:17:18.45,Default,,0,0,0,,{\an5}Ako, your work is just about done, right?
-Dialogue: 0,0:17:16.41,0:17:18.45,Default,,0,0,0,,
+Dialogue: 0,0:17:16.41,0:17:18.45,Default,,0,0,0,,а вместе с ним и твоя подготовка к ярмарке.
 Dialogue: 0,0:17:18.45,0:17:20.54,Default,,0,0,0,,{\an5}Y-Yes, it is...
-Dialogue: 0,0:17:18.45,0:17:20.54,Default,,0,0,0,,
+Dialogue: 0,0:17:18.45,0:17:20.54,Default,,0,0,0,,А, ну да…
 Dialogue: 0,0:17:21.71,0:17:23.46,Default,,0,0,0,,{\an5}Tell me, Ako-{\i1}san{\i0}...
-Dialogue: 0,0:17:21.71,0:17:23.46,Default,,0,0,0,,
+Dialogue: 0,0:17:21.71,0:17:23.46,Default,,0,0,0,,Скажите, Ако-сан…
 Dialogue: 0,0:17:23.46,0:17:25.50,Default,,0,0,0,,{\an5}W-What is it, Rusian?
-Dialogue: 0,0:17:23.46,0:17:25.50,Default,,0,0,0,,
+Dialogue: 0,0:17:23.46,0:17:25.50,Default,,0,0,0,,Ч-то вам угодно, Русиян?
 Dialogue: 0,0:17:25.50,0:17:28.96,Default,,0,0,0,,{\an5}You have everything else for\Nyour maid café ready, right?
-Dialogue: 0,0:17:25.50,0:17:28.96,Default,,0,0,0,,
+Dialogue: 0,0:17:25.50,0:17:28.96,Default,,0,0,0,,У тебя ведь всё готово для вашего мейд-кафе?
 Dialogue: 0,0:17:28.96,0:17:30.38,Default,,0,0,0,,{\an5}You {\i1}are{\i0} the head maid, right?
-Dialogue: 0,0:17:28.96,0:17:30.38,Default,,0,0,0,,
+Dialogue: 0,0:17:28.96,0:17:30.38,Default,,0,0,0,,Ты же вроде как «за главную»?
 Dialogue: 0,0:17:30.38,0:17:33.39,Default,,0,0,0,,{\an5}The thing is, you see, um...
-Dialogue: 0,0:17:30.38,0:17:33.39,Default,,0,0,0,,
+Dialogue: 0,0:17:30.38,0:17:33.39,Default,,0,0,0,,Ну это… какбэ… в общем…
 Dialogue: 0,0:17:33.39,0:17:35.10,Default,,0,0,0,,{\an5}How is it coming along?
-Dialogue: 0,0:17:33.39,0:17:35.10,Default,,0,0,0,,
+Dialogue: 0,0:17:33.39,0:17:35.10,Default,,0,0,0,,Как твои дела?
 Dialogue: 0,0:17:37.97,0:17:42.06,Default,,0,0,0,,{\an5}I-It isn't coming along!
-Dialogue: 0,0:17:37.97,0:17:42.06,Default,,0,0,0,,
+Dialogue: 0,0:17:37.97,0:17:42.06,Default,,0,0,0,,Пока не родила!
 Dialogue: 0,0:17:42.06,0:17:44.23,Default,,0,0,0,,{\an5}Wow! How cute!
-Dialogue: 0,0:17:42.06,0:17:44.23,Default,,0,0,0,,
+Dialogue: 0,0:17:42.06,0:17:44.23,Default,,0,0,0,,Вущ! Милота!
 Dialogue: 0,0:17:44.23,0:17:46.02,Default,,0,0,0,,{\an5}You have the maid uniforms ready!
-Dialogue: 0,0:17:44.23,0:17:46.02,Default,,0,0,0,,
+Dialogue: 0,0:17:44.23,0:17:46.02,Default,,0,0,0,,Выходит, что костюмы готовы!
 Dialogue: 0,0:17:46.02,0:17:47.94,Default,,0,0,0,,{\an5}Nice going, Tamaki-{\i1}san{\i0}!
-Dialogue: 0,0:17:46.02,0:17:47.94,Default,,0,0,0,,
+Dialogue: 0,0:17:46.02,0:17:47.94,Default,,0,0,0,,Отлично сработано, Тамаки-сан!
 Dialogue: 0,0:17:47.94,0:17:51.82,Default,,0,0,0,,{\an5}But we're sorry! Other than these,\NAko hasn't done a thing
-Dialogue: 0,0:17:47.94,0:17:51.82,Default,,0,0,0,,
+Dialogue: 0,0:17:47.94,0:17:51.82,Default,,0,0,0,,Но только вот, что касается планирование смен
 Dialogue: 0,0:17:51.82,0:17:54.45,Default,,0,0,0,,{\an5}about assigning shifts or\Nwriting serving manuals!
-Dialogue: 0,0:17:51.82,0:17:54.45,Default,,0,0,0,,
+Dialogue: 0,0:17:51.82,0:17:54.45,Default,,0,0,0,,и составление руководства, то тут полный швах!
 Dialogue: 0,0:17:56.99,0:17:58.95,Default,,0,0,0,,{\an5}We're sorry! Please help us!
-Dialogue: 0,0:17:56.99,0:17:58.95,Default,,0,0,0,,
+Dialogue: 0,0:17:56.99,0:17:58.95,Default,,0,0,0,,Пощадите! Не бейте по лицу!
 Dialogue: 0,0:17:58.95,0:18:01.71,Default,,0,0,0,,{\an5}Huh? Wait, there's only a week left!
-Dialogue: 0,0:17:58.95,0:18:01.71,Default,,0,0,0,,
+Dialogue: 0,0:17:58.95,0:18:01.71,Default,,0,0,0,,Что? Но осталась всего неделя!
 Dialogue: 0,0:18:01.71,0:18:04.04,Default,,0,0,0,,{\an5}It's a little late to be telling us.
-Dialogue: 0,0:18:01.71,0:18:04.04,Default,,0,0,0,,
+Dialogue: 0,0:18:01.71,0:18:04.04,Default,,0,0,0,,Вы немного запоздали с откровениями.
 Dialogue: 0,0:18:04.04,0:18:06.84,Default,,0,0,0,,{\an5}Oh, Matsui-{\i1}san{\i0}, you work, don't you?
-Dialogue: 0,0:18:04.04,0:18:06.84,Default,,0,0,0,,
+Dialogue: 0,0:18:04.04,0:18:06.84,Default,,0,0,0,,О, Мацуи-сан, ты вроде подрабатываешь?
 Dialogue: 0,0:18:06.84,0:18:09.05,Default,,0,0,0,,{\an5}Can you bring us serving manuals?
-Dialogue: 0,0:18:06.84,0:18:09.05,Default,,0,0,0,,
+Dialogue: 0,0:18:06.84,0:18:09.05,Default,,0,0,0,,Не принесешь нам их руководства?
 Dialogue: 0,0:18:09.05,0:18:11.51,Default,,0,0,0,,{\an5}They'll get mad at me if I do.
-Dialogue: 0,0:18:09.05,0:18:11.51,Default,,0,0,0,,
+Dialogue: 0,0:18:09.05,0:18:11.51,Default,,0,0,0,,Их нельзя забирать с собой.
 Dialogue: 0,0:18:11.51,0:18:14.93,Default,,0,0,0,,{\an5}Oh, but if it's just for school, maybe I can.
-Dialogue: 0,0:18:11.51,0:18:14.93,Default,,0,0,0,,
+Dialogue: 0,0:18:11.51,0:18:14.93,Default,,0,0,0,,Хотя, может мне разрешат их одолжить.
 Dialogue: 0,0:18:14.93,0:18:16.26,Default,,0,0,0,,{\an5}Guys!
-Dialogue: 0,0:18:14.93,0:18:16.26,Default,,0,0,0,,
+Dialogue: 0,0:18:14.93,0:18:16.26,Default,,0,0,0,,Слушай сюда!
 Dialogue: 0,0:18:16.26,0:18:20.72,Default,,0,0,0,,{\an5}Come tell us when you can't\Ntake a shift. Everyone--boys, too!
-Dialogue: 0,0:18:16.26,0:18:20.72,Default,,0,0,0,,
+Dialogue: 0,0:18:16.26,0:18:20.72,Default,,0,0,0,,Всем определиться с подходящими для вас сменами, парням тоже!
 Dialogue: 0,0:18:20.72,0:18:23.77,Default,,0,0,0,,{\an5}Well, yeah, we have to work\Naround everyone's schedules.
-Dialogue: 0,0:18:20.72,0:18:23.77,Default,,0,0,0,,
+Dialogue: 0,0:18:20.72,0:18:23.77,Default,,0,0,0,,Нужно согласовать свое расписание с остальными.
 Dialogue: 0,0:18:23.77,0:18:26.02,Default,,0,0,0,,{\an5}H-Huh?
-Dialogue: 0,0:18:23.77,0:18:26.02,Default,,0,0,0,,
+Dialogue: 0,0:18:23.77,0:18:26.02,Default,,0,0,0,,Что-что?
 Dialogue: 0,0:18:26.02,0:18:29.36,Default,,0,0,0,,{\an5}You see that? That's the desperate\N"Sorry, This Is Too Much,
-Dialogue: 0,0:18:26.02,0:18:29.36,Default,,0,0,0,,
+Dialogue: 0,0:18:26.02,0:18:31.17,Default,,0,0,0,,Как тебе? Так выглядит тактика\N«Пощадите! Не бейте по лицу!» в действии.
 Dialogue: 0,0:18:29.36,0:18:31.19,Default,,0,0,0,,{\an5}Somebody Help Me" strategy.
-Dialogue: 0,0:18:29.36,0:18:31.19,Default,,0,0,0,,
+Dialogue: 0,0:18:29.36,0:18:31.19,Default,,0,0,0,,{}
 Dialogue: 0,0:18:31.19,0:18:32.19,Default,,0,0,0,,{\an5}Huh?
-Dialogue: 0,0:18:31.19,0:18:32.19,Default,,0,0,0,,
+Dialogue: 0,0:18:31.19,0:18:32.19,Default,,0,0,0,,Э?
 Dialogue: 0,0:18:32.20,0:18:34.24,Default,,0,0,0,,{\an5}If there's something you can't do,\Nand you don't speak up,
-Dialogue: 0,0:18:32.20,0:18:34.24,Default,,0,0,0,,
+Dialogue: 0,0:18:32.20,0:18:34.24,Default,,0,0,0,,Если ты не справляешься и молчишь,
 Dialogue: 0,0:18:34.24,0:18:36.28,Default,,0,0,0,,{\an5}that's when people get mad at you.
-Dialogue: 0,0:18:34.24,0:18:36.28,Default,,0,0,0,,
+Dialogue: 0,0:18:34.24,0:18:36.28,Default,,0,0,0,,то потом тебя на кол посадят.
 Dialogue: 0,0:18:36.28,0:18:39.58,Default,,0,0,0,,{\an5}If you can't do something,\Njust say you can't do it at the outset.
-Dialogue: 0,0:18:36.28,0:18:39.58,Default,,0,0,0,,
+Dialogue: 0,0:18:36.28,0:18:39.58,Default,,0,0,0,,Когда у тебя возникают проблемы, лучше сразу об этом сказать.
 Dialogue: 0,0:18:39.58,0:18:40.99,Default,,0,0,0,,{\an5}B-But...
-Dialogue: 0,0:18:39.58,0:18:40.99,Default,,0,0,0,,
+Dialogue: 0,0:18:39.58,0:18:40.99,Default,,0,0,0,,Н-но ведь…
 Dialogue: 0,0:18:41.00,0:18:44.75,Default,,0,0,0,,{\an5}There are times when it's\Nnecessary to rely on others.
-Dialogue: 0,0:18:41.00,0:18:44.75,Default,,0,0,0,,
+Dialogue: 0,0:18:41.00,0:18:44.75,Default,,0,0,0,,Порой следует попросить помощи у других.
 Dialogue: 0,0:18:44.75,0:18:47.33,Default,,0,0,0,,{\an5}Ako, you do it all the time in the game, right?
-Dialogue: 0,0:18:44.75,0:18:47.33,Default,,0,0,0,,
+Dialogue: 0,0:18:44.75,0:18:47.33,Default,,0,0,0,,Ако, в играх ты только так и делаешь.
 Dialogue: 0,0:18:47.34,0:18:48.34,Default,,0,0,0,,{\an5}Huh?
-Dialogue: 0,0:18:47.34,0:18:48.34,Default,,0,0,0,,
+Dialogue: 0,0:18:47.34,0:18:48.34,Default,,0,0,0,,А?
 Dialogue: 0,0:18:48.34,0:18:52.80,Default,,0,0,0,,{\an5}"I can't do that." "I can't do this."\N"Rusian, please help!"
-Dialogue: 0,0:18:48.34,0:18:52.80,Default,,0,0,0,,
+Dialogue: 0,0:18:48.34,0:18:52.80,Default,,0,0,0,,«Ничего не выйдет». «Ничего не войдёт».\N«Русиян, помоги мне!»
 Dialogue: 0,0:18:52.80,0:18:56.38,Default,,0,0,0,,{\an5}Once you can openly ask for help\Nfrom those around you,
-Dialogue: 0,0:18:52.80,0:18:56.38,Default,,0,0,0,,
+Dialogue: 0,0:18:52.80,0:18:56.38,Default,,0,0,0,,Тебе стоит лишь позвать на помощь окружающих,
 Dialogue: 0,0:18:56.39,0:18:59.10,Default,,0,0,0,,{\an5}you can solve just about any problem.
-Dialogue: 0,0:18:56.39,0:18:59.10,Default,,0,0,0,,
+Dialogue: 0,0:18:56.39,0:18:59.10,Default,,0,0,0,,чтобы найти решение любой проблемы.
 Dialogue: 0,0:18:59.10,0:19:01.93,Default,,0,0,0,,{\an5}That's something I learned from net games.
-Dialogue: 0,0:18:59.10,0:19:01.93,Default,,0,0,0,,
+Dialogue: 0,0:18:59.10,0:19:01.93,Default,,0,0,0,,Этому я научился играя в сетевые игры.
 Dialogue: 0,0:19:04.23,0:19:05.73,Default,,0,0,0,,{\an5}Rusian?
-Dialogue: 0,0:19:04.23,0:19:05.73,Default,,0,0,0,,
+Dialogue: 0,0:19:04.23,0:19:05.73,Default,,0,0,0,,Русиян?
 Dialogue: 0,0:19:10.02,0:19:12.82,Default,,0,0,0,,{\an5}Team with the Alley Cats\Nduring siege warfare, huh?
-Dialogue: 0,0:19:10.02,0:19:12.82,Default,,0,0,0,,
+Dialogue: 0,0:19:10.02,0:19:12.82,Default,,0,0,0,,Объединиться с «Бродячими котами» во время оасды?
 Dialogue: 0,0:19:14.20,0:19:15.78,Default,,0,0,0,,{\an5}I'm begging you!
-Dialogue: 0,0:19:14.20,0:19:15.78,Default,,0,0,0,,
+Dialogue: 0,0:19:14.20,0:19:15.78,Default,,0,0,0,,Прошу вас!
 Dialogue: 0,0:19:16.78,0:19:18.95,Default,,0,0,0,,{\an5}All right, you've got it.
-Dialogue: 0,0:19:16.78,0:19:18.95,Default,,0,0,0,,
+Dialogue: 0,0:19:16.78,0:19:18.95,Default,,0,0,0,,Ок, по рукам.
 Dialogue: 0,0:19:18.95,0:19:20.03,Default,,0,0,0,,{\an5}For real?
-Dialogue: 0,0:19:18.95,0:19:20.03,Default,,0,0,0,,
+Dialogue: 0,0:19:18.95,0:19:20.03,Default,,0,0,0,,RLY?
 Dialogue: 0,0:19:20.03,0:19:24.50,Default,,0,0,0,,{\an5}Yeah. It's not as though\Nyou're complete strangers to us.
-Dialogue: 0,0:19:20.03,0:19:24.50,Default,,0,0,0,,
+Dialogue: 0,0:19:20.03,0:19:24.50,Default,,0,0,0,,Да. 
 Dialogue: 0,0:19:24.50,0:19:25.66,Default,,0,0,0,,{\an5}Besides...
-Dialogue: 0,0:19:24.50,0:19:25.66,Default,,0,0,0,,
+Dialogue: 0,0:19:24.50,0:19:25.66,Default,,0,0,0,,К тому же…
 Dialogue: 0,0:19:25.67,0:19:28.58,Default,,0,0,0,,{\an5}--...after they slew our Nekohime-{\i1}sama{\i0}...\N--Help {\i1}me-ow{\i0}!
-Dialogue: 0,0:19:25.67,0:19:28.58,Default,,0,0,0,,
+Dialogue: 0,0:19:25.67,0:19:28.58,Default,,0,0,0,,— …после того, что они сотворили с Некохиме-самой…\N— Помяугите!
 Dialogue: 0,0:19:28.58,0:19:30.71,Default,,0,0,0,,{\an5}...we cannot allow things to stand!
-Dialogue: 0,0:19:28.58,0:19:30.71,Default,,0,0,0,,
+Dialogue: 0,0:19:28.58,0:19:30.71,Default,,0,0,0,,…мы не можем оставаться в стороне!
 Dialogue: 0,0:19:30.71,0:19:32.34,Default,,0,0,0,,{\an5}Guilty!
-Dialogue: 0,0:19:30.71,0:19:32.34,Default,,0,0,0,,
+Dialogue: 0,0:19:30.71,0:19:32.34,Default,,0,0,0,,Kiss!
 Dialogue: 0,0:19:34.84,0:19:35.97,Default,,0,0,0,,{\an5}Now then,
-Dialogue: 0,0:19:34.84,0:19:35.97,Default,,0,0,0,,
+Dialogue: 0,0:19:34.84,0:19:35.97,Default,,0,0,0,,Так-так,
 Dialogue: 0,0:19:35.97,0:19:37.55,Default,,0,0,0,,{\an5}our next stop is here.
-Dialogue: 0,0:19:35.97,0:19:37.55,Default,,0,0,0,,
+Dialogue: 0,0:19:35.97,0:19:37.55,Default,,0,0,0,,теперь идём сюда.
 Dialogue: 0,0:19:41.56,0:19:43.18,Default,,0,0,0,,{\an5}An alliance?
-Dialogue: 0,0:19:41.56,0:19:43.18,Default,,0,0,0,,
+Dialogue: 0,0:19:41.56,0:19:43.18,Default,,0,0,0,,Альянс?
 Dialogue: 0,0:19:44.85,0:19:49.19,Default,,0,0,0,,{\an5}TMW is having a hard enough time\Nholding off Guild Aristocrats
 Dialogue: 0,0:19:44.85,0:19:49.19,Default,,0,0,0,,
 Dialogue: 0,0:19:49.19,0:19:52.27,Default,,0,0,0,,{\an5}from the great citadel of Gramberg.
