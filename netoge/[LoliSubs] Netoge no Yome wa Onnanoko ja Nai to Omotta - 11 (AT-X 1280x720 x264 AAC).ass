@@ -16,10 +16,10 @@ Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 11 (AT-X 1280x720 x264 AAC).mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.625000
-Scroll Position: 512
-Active Line: 534
-Video Position: 27440
+Video Zoom Percent: 0.750000
+Scroll Position: 643
+Active Line: 660
+Video Position: 34971
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -477,13 +477,13 @@ Dialogue: 0,0:16:53.72,0:16:56.56,Default,,0,0,0,,С возвращением, �
 Dialogue: 0,0:16:59.06,0:17:00.39,Default,,0,0,0,,{\an5}What's up with these?
 Dialogue: 0,0:16:59.06,0:17:00.39,Default,,0,0,0,,Меня определили в рай?
 Dialogue: 0,0:17:00.40,0:17:03.19,Default,,0,0,0,,{\an5}Remember, we mentioned it before, didn't we?
-Dialogue: 0,0:17:00.40,0:17:03.19,Default,,0,0,0,,
+Dialogue: 0,0:17:00.40,0:17:03.19,Default,,0,0,0,,Обсуждали же уже, забыл?
 Dialogue: 0,0:17:03.19,0:17:06.57,Default,,0,0,0,,{\an5}About the time we went over\Nto the president's house?
-Dialogue: 0,0:17:03.19,0:17:06.57,Default,,0,0,0,,
+Dialogue: 0,0:17:03.19,0:17:06.57,Default,,0,0,0,,Помнишь, мы зависали в президентском доме?
 Dialogue: 0,0:17:06.57,0:17:09.49,Default,,0,0,0,,{\an5}Master had the uniforms they\Ncame up with for that altered,
-Dialogue: 0,0:17:06.57,0:17:09.49,Default,,0,0,0,,
+Dialogue: 0,0:17:06.57,0:17:09.49,Default,,0,0,0,,Там была полная прихожая горничных-косплееров,
 Dialogue: 0,0:17:09.49,0:17:11.49,Default,,0,0,0,,{\an5}and brought them in for us.
-Dialogue: 0,0:17:09.49,0:17:11.49,Default,,0,0,0,,
+Dialogue: 0,0:17:09.49,0:17:11.49,Default,,0,0,0,,а Лидер притаранила сюда их костюмы.
 Dialogue: 0,0:17:11.49,0:17:13.24,Default,,0,0,0,,{\an5}Hey, that's terrific.
 Dialogue: 0,0:17:11.49,0:17:13.24,Default,,0,0,0,,Охеренно.
 Dialogue: 0,0:17:13.24,0:17:16.41,Default,,0,0,0,,{\an5}With the maid uniforms, which were\Nthe biggest issue, out of the way,
@@ -593,104 +593,104 @@ Dialogue: 0,0:19:35.97,0:19:37.55,Default,,0,0,0,,теперь идём сюда
 Dialogue: 0,0:19:41.56,0:19:43.18,Default,,0,0,0,,{\an5}An alliance?
 Dialogue: 0,0:19:41.56,0:19:43.18,Default,,0,0,0,,Альянс?
 Dialogue: 0,0:19:44.85,0:19:49.19,Default,,0,0,0,,{\an5}TMW is having a hard enough time\Nholding off Guild Aristocrats
-Dialogue: 0,0:19:44.85,0:19:49.19,Default,,0,0,0,,
+Dialogue: 0,0:19:44.85,0:19:49.19,Default,,0,0,0,,У нас у самих забот полон рот, пока мы удерживаем цитадель Грамберга
 Dialogue: 0,0:19:49.19,0:19:52.27,Default,,0,0,0,,{\an5}from the great citadel of Gramberg.
-Dialogue: 0,0:19:49.19,0:19:52.27,Default,,0,0,0,,
+Dialogue: 0,0:19:49.19,0:19:52.27,Default,,0,0,0,,под натиском гильдии «Аристократов».
 Dialogue: 0,0:19:52.28,0:19:55.99,Default,,0,0,0,,{\an5}I'm sorry, but we do not have\Nanyone we can spare to help you.
-Dialogue: 0,0:19:52.28,0:19:55.99,Default,,0,0,0,,
+Dialogue: 0,0:19:52.28,0:19:55.99,Default,,0,0,0,,Не обессудьте, но людей я вам дать не могу.
 Dialogue: 0,0:19:55.99,0:19:58.36,Default,,0,0,0,,{\an5}That's not what we're asking for.
-Dialogue: 0,0:19:55.99,0:19:58.36,Default,,0,0,0,,
+Dialogue: 0,0:19:55.99,0:19:58.36,Default,,0,0,0,,Мы не об этом хотели попросить.
 Dialogue: 0,0:19:58.36,0:20:01.24,Default,,0,0,0,,{\an5}We just need the fact\Nthat you are allied with us.
-Dialogue: 0,0:19:58.36,0:20:01.24,Default,,0,0,0,,
+Dialogue: 0,0:19:58.36,0:20:01.24,Default,,0,0,0,,Нам достаточно, чтобы вы\Nпросто заключили с нами союз.
 Dialogue: 0,0:20:01.24,0:20:02.37,Default,,0,0,0,,{\an5}Hmm?
-Dialogue: 0,0:20:01.24,0:20:02.37,Default,,0,0,0,,
+Dialogue: 0,0:20:01.24,0:20:02.37,Default,,0,0,0,,М?
 Dialogue: 0,0:20:02.95,0:20:06.20,Default,,0,0,0,,{\an5}It's not unusual for someone\Nto struggle to take a fort,
-Dialogue: 0,0:20:02.95,0:20:06.20,Default,,0,0,0,,
+Dialogue: 0,0:20:02.95,0:20:06.20,Default,,0,0,0,,Часто бывает, что после захвата крепости одной гильдией,
 Dialogue: 0,0:20:06.21,0:20:09.92,Default,,0,0,0,,{\an5}just to have a larger guild\Ncome and attack, just to kill time.
-Dialogue: 0,0:20:06.21,0:20:09.92,Default,,0,0,0,,
+Dialogue: 0,0:20:06.21,0:20:09.92,Default,,0,0,0,,её попытается отбить другая более многочисленная.
 Dialogue: 0,0:20:09.92,0:20:12.50,Default,,0,0,0,,{\an5}We want you to be a deterrent against that.
-Dialogue: 0,0:20:09.92,0:20:12.50,Default,,0,0,0,,
+Dialogue: 0,0:20:09.92,0:20:12.50,Default,,0,0,0,,Хотелось бы этого избежать.
 Dialogue: 0,0:20:12.50,0:20:17.17,Default,,0,0,0,,{\an5}I see. No one is dumb enough to\Npick a fight with us, just to kill time.
-Dialogue: 0,0:20:12.50,0:20:17.17,Default,,0,0,0,,
+Dialogue: 0,0:20:12.50,0:20:17.17,Default,,0,0,0,,Понятненько. Другие дважды подумают, прежде чем идти против нас.
 Dialogue: 0,0:20:17.17,0:20:18.30,Default,,0,0,0,,{\an5}That's what I am saying.
-Dialogue: 0,0:20:17.17,0:20:18.30,Default,,0,0,0,,
+Dialogue: 0,0:20:17.17,0:20:18.30,Default,,0,0,0,,Именно так.
 Dialogue: 0,0:20:18.30,0:20:21.26,Default,,0,0,0,,{\an5}But right now, Fort Cantor\Nis being held by Wallenstein,
-Dialogue: 0,0:20:18.30,0:20:21.26,Default,,0,0,0,,
+Dialogue: 0,0:20:18.30,0:20:23.64,Default,,0,0,0,,Только сейчас форт Кантор под контролем\Nлучших ПвПшников — Валленштейн.
 Dialogue: 0,0:20:21.26,0:20:23.64,Default,,0,0,0,,{\an5}the best of the PvP players.
-Dialogue: 0,0:20:21.26,0:20:23.64,Default,,0,0,0,,
+Dialogue: 0,0:20:21.26,0:20:23.64,Default,,0,0,0,,{}
 Dialogue: 0,0:20:23.64,0:20:27.02,Default,,0,0,0,,{\an5}Even working with the veterans\Nof Nekohime's Elite Guard,
-Dialogue: 0,0:20:23.64,0:20:27.02,Default,,0,0,0,,
+Dialogue: 0,0:20:23.64,0:20:27.02,Default,,0,0,0,,Даже при участии ветеранов\Nиз элитной гвардии Некохиме,
 Dialogue: 0,0:20:27.02,0:20:29.94,Default,,0,0,0,,{\an5}I think that laying siege itself\Nis going to be difficult.
-Dialogue: 0,0:20:27.02,0:20:29.94,Default,,0,0,0,,
+Dialogue: 0,0:20:27.02,0:20:29.94,Default,,0,0,0,,выбить их оттуда будет непростой задачей.
 Dialogue: 0,0:20:29.94,0:20:33.40,Default,,0,0,0,,{\an5}It's true that right now,\Nour chances of winning may be slim.
-Dialogue: 0,0:20:29.94,0:20:33.40,Default,,0,0,0,,
+Dialogue: 0,0:20:29.94,0:20:33.40,Default,,0,0,0,,Действительно, сейчас наши\Nшансы на победу невелики.
 Dialogue: 0,0:20:33.40,0:20:37.03,Default,,0,0,0,,{\an5}But we want to throw everything\Nwe can muster against them now!
-Dialogue: 0,0:20:33.40,0:20:37.03,Default,,0,0,0,,
+Dialogue: 0,0:20:33.40,0:20:37.03,Default,,0,0,0,,Но мы намерены ударить по ним из всех орудий!
 Dialogue: 0,0:20:38.03,0:20:39.03,Default,,0,0,0,,{\an5}Hmm...
-Dialogue: 0,0:20:38.03,0:20:39.03,Default,,0,0,0,,
+Dialogue: 0,0:20:38.03,0:20:39.03,Default,,0,0,0,,Хм…
 Dialogue: 0,0:20:43.99,0:20:45.33,Default,,0,0,0,,{\an5}All right.
-Dialogue: 0,0:20:43.99,0:20:45.33,Default,,0,0,0,,
+Dialogue: 0,0:20:43.99,0:20:45.33,Default,,0,0,0,,Хорошо.
 Dialogue: 0,0:20:47.29,0:20:50.87,Default,,0,0,0,,{\an5}We will enter an alliance with Alley Cats.
-Dialogue: 0,0:20:47.29,0:20:50.87,Default,,0,0,0,,
+Dialogue: 0,0:20:47.29,0:20:50.87,Default,,0,0,0,,Мы готовы объединиться с «Бродячими котами».
 Dialogue: 0,0:20:50.88,0:20:52.00,Default,,0,0,0,,{\an5}You're sure?
-Dialogue: 0,0:20:50.88,0:20:52.00,Default,,0,0,0,,
+Dialogue: 0,0:20:50.88,0:20:52.00,Default,,0,0,0,,Правда что ль?
 Dialogue: 0,0:20:52.00,0:20:56.05,Default,,0,0,0,,{\an5}Yeah. This alliance holds no demerit for us.
-Dialogue: 0,0:20:52.00,0:20:56.05,Default,,0,0,0,,
+Dialogue: 0,0:20:52.00,0:20:56.05,Default,,0,0,0,,Да. Заключим альянс, от нас не убудет.
 Dialogue: 0,0:20:56.05,0:20:58.34,Default,,0,0,0,,{\an5}Yes, well, there is no merit for you, either.
-Dialogue: 0,0:20:56.05,0:20:58.34,Default,,0,0,0,,
+Dialogue: 0,0:20:56.05,0:20:58.34,Default,,0,0,0,,Ну, так-то и не прибудет.
 Dialogue: 0,0:20:58.34,0:20:59.59,Default,,0,0,0,,{\an5}Sure there is.
-Dialogue: 0,0:20:58.34,0:20:59.59,Default,,0,0,0,,
+Dialogue: 0,0:20:58.34,0:20:59.59,Default,,0,0,0,,Как знать.
 Dialogue: 0,0:21:00.09,0:21:02.22,Default,,0,0,0,,{\an5}It sounds like it could be kind of fun.
-Dialogue: 0,0:21:00.09,0:21:02.22,Default,,0,0,0,,
+Dialogue: 0,0:21:00.09,0:21:02.22,Default,,0,0,0,,Я в предвкушении.
 Dialogue: 0,0:21:21.24,0:21:23.57,Default,,0,0,0,,{\an5}Defend Nekohime-{\i1}sama{\i0}!
-Dialogue: 0,0:21:21.24,0:21:23.57,Default,,0,0,0,,
+Dialogue: 0,0:21:21.24,0:21:23.57,Default,,0,0,0,,Ты не пройдёшь!
 Dialogue: 0,0:21:23.57,0:21:25.74,Default,,0,0,0,,{\an5}Extra Damage!
-Dialogue: 0,0:21:23.57,0:21:25.74,Default,,0,0,0,,
+Dialogue: 0,0:21:23.57,0:21:25.74,Default,,0,0,0,,Овер9000!
 Dialogue: 0,0:21:26.24,0:21:28.54,Default,,0,0,0,,{\an5}Now I have twice the impact!
-Dialogue: 0,0:21:26.24,0:21:28.54,Default,,0,0,0,,
+Dialogue: 0,0:21:26.24,0:21:28.54,Default,,0,0,0,,Держите меня семеро!
 Dialogue: 0,0:21:29.54,0:21:31.54,Default,,0,0,0,,{\an5}Nekohime-{\i1}sama{\i0}!
-Dialogue: 0,0:21:29.54,0:21:31.54,Default,,0,0,0,,
+Dialogue: 0,0:21:29.54,0:21:31.54,Default,,0,0,0,,Некохиме-сама!
 Dialogue: 0,0:21:31.54,0:21:32.79,Default,,0,0,0,,{\an5}Both of you!
-Dialogue: 0,0:21:31.54,0:21:32.79,Default,,0,0,0,,
+Dialogue: 0,0:21:31.54,0:21:32.79,Default,,0,0,0,,Омагад!
 Dialogue: 0,0:21:32.79,0:21:34.29,Default,,0,0,0,,{\an5}You're mine!
-Dialogue: 0,0:21:32.79,0:21:34.29,Default,,0,0,0,,
+Dialogue: 0,0:21:32.79,0:21:34.29,Default,,0,0,0,,Ща получишь!
 Dialogue: 0,0:21:43.09,0:21:47.31,Default,,0,0,0,,{\an5}Feast your eyes on the even\Ngreater attack power of my staff!
-Dialogue: 0,0:21:43.09,0:21:47.31,Default,,0,0,0,,
+Dialogue: 0,0:21:43.09,0:21:47.31,Default,,0,0,0,,Узрите же… величайший экстерминатус из поддерживаемых движком!
 Dialogue: 0,0:21:59.90,0:22:03.28,Default,,0,0,0,,{\an5}This is just practice, so hold\Nback a little, would you?
-Dialogue: 0,0:21:59.90,0:22:03.28,Default,,0,0,0,,
+Dialogue: 0,0:21:59.90,0:22:03.28,Default,,0,0,0,,Кто в здравом уме вызывает\Nэкстерминатус на тренировке?
 Dialogue: 0,0:22:03.28,0:22:05.99,Default,,0,0,0,,{\an5}You are coming along quite well, aren't you?
-Dialogue: 0,0:22:03.28,0:22:05.99,Default,,0,0,0,,
+Dialogue: 0,0:22:03.28,0:22:05.99,Default,,0,0,0,,Не так плохо как можно было ожидать.
 Dialogue: 0,0:22:05.99,0:22:08.45,Default,,0,0,0,,{\an5}I'd even like to recruit some of you.
-Dialogue: 0,0:22:05.99,0:22:08.45,Default,,0,0,0,,
+Dialogue: 0,0:22:05.99,0:22:08.45,Default,,0,0,0,,Даже по меркам продвинутых игроков.
 Dialogue: 0,0:22:08.45,0:22:12.04,Default,,0,0,0,,{\an5}Thanks for coming and joining\Nour siege warfare practice.
-Dialogue: 0,0:22:08.45,0:22:12.04,Default,,0,0,0,,
+Dialogue: 0,0:22:08.45,0:22:12.04,Default,,0,0,0,,Спасибо, что пришли посмотреть на нашу подготовку к осаде.
 Dialogue: 0,0:22:12.04,0:22:16.54,Default,,0,0,0,,{\an5}Right now, we are allied.\NYou don't need to be so reserved.
-Dialogue: 0,0:22:12.04,0:22:16.54,Default,,0,0,0,,
+Dialogue: 0,0:22:12.04,0:22:16.54,Default,,0,0,0,,Мы в статусе союзников,\Nнезачем так любезничать.
 Dialogue: 0,0:22:16.54,0:22:17.71,Default,,0,0,0,,{\an5}I must admit, though,
-Dialogue: 0,0:22:16.54,0:22:17.71,Default,,0,0,0,,
+Dialogue: 0,0:22:16.54,0:22:17.71,Default,,0,0,0,,Вообще
 Dialogue: 0,0:22:17.71,0:22:20.76,Default,,0,0,0,,{\an5}that is some amazing equipment.\NIt must have cost a fortune.
-Dialogue: 0,0:22:17.71,0:22:20.76,Default,,0,0,0,,
+Dialogue: 0,0:22:17.71,0:22:20.76,Default,,0,0,0,,неслабый у вас эквип. Во сколько обошлось?
 Dialogue: 0,0:22:20.77,0:22:21.92,Default,,0,0,0,,{\an5}No cost.
-Dialogue: 0,0:22:20.77,0:22:21.92,Default,,0,0,0,,
+Dialogue: 0,0:22:20.77,0:22:21.92,Default,,0,0,0,,Бесплатно.
 Dialogue: 0,0:22:21.92,0:22:23.72,Default,,0,0,0,,{\an5}Huh? Ridiculous.
-Dialogue: 0,0:22:21.92,0:22:23.72,Default,,0,0,0,,
+Dialogue: 0,0:22:21.92,0:22:23.72,Default,,0,0,0,,А? Быть не может.
 Dialogue: 0,0:22:23.72,0:22:27.01,Default,,0,0,0,,{\an5}An amount uncostly to my lifestyle--
-Dialogue: 0,0:22:23.72,0:22:27.01,Default,,0,0,0,,
+Dialogue: 0,0:22:23.72,0:22:27.01,Default,,0,0,0,,Всех денег не потратишь…
 Dialogue: 0,0:22:26.26,0:22:29.14,Def_Top,,0,0,0,,{\an5}"An amount uncostly to my lifestyle"
-Dialogue: 0,0:22:26.26,0:22:29.14,Def_Top,,0,0,0,,
+Dialogue: 0,0:22:26.26,0:22:29.14,Def_Top,,0,0,0,,[Всех денег не потратишь]
 Dialogue: 0,0:22:27.01,0:22:29.60,Default,,0,0,0,,{\an5}so in effect, it's like there's "no cost," right?
-Dialogue: 0,0:22:27.01,0:22:29.60,Default,,0,0,0,,
+Dialogue: 0,0:22:27.01,0:22:29.60,Default,,0,0,0,,…а значит расходы стремятся к нулю.
 Dialogue: 0,0:22:29.60,0:22:31.10,Default,,0,0,0,,{\an5}Huh?
-Dialogue: 0,0:22:29.60,0:22:31.10,Default,,0,0,0,,
+Dialogue: 0,0:22:29.60,0:22:31.10,Default,,0,0,0,,Э?
 Dialogue: 0,0:24:10.11,0:24:20.07,Def_Top,,0,0,0,,{\an5}"My net game wife {\i1}is{\i0} a girl online!"
-Dialogue: 0,0:24:10.11,0:24:20.07,Def_Top,,0,0,0,,
+Dialogue: 0,0:24:10.11,0:24:20.07,Def_Top,,0,0,0,,[Моя вайфу на самом деле девушка!]
 Dialogue: 0,0:24:10.78,0:24:12.40,Default,,0,0,0,,{\an5}--It's {\i1}Netoge{\i0}'s final episode!\N--So soon?!
-Dialogue: 0,0:24:10.78,0:24:12.40,Default,,0,0,0,,
+Dialogue: 0,0:24:10.78,0:24:12.40,Default,,0,0,0,,— Последний эпизод Нетоге!\N— Не прошло и года!
 Dialogue: 0,0:24:12.40,0:24:14.61,Default,,0,0,0,,{\an5}You know, I get hit just one time, and I die!
-Dialogue: 0,0:24:12.40,0:24:14.61,Default,,0,0,0,,
+Dialogue: 0,0:24:12.40,0:24:14.61,Default,,0,0,0,,Однажды мне попала стрела в колено!
 Dialogue: 0,0:24:14.61,0:24:15.61,Default,,0,0,0,,{\an5}I know! I know!
-Dialogue: 0,0:24:14.61,0:24:15.61,Default,,0,0,0,,
+Dialogue: 0,0:24:14.61,0:24:15.61,Default,,0,0,0,,Так-так!
 Dialogue: 0,0:24:15.61,0:24:18.62,Default,,0,0,0,,{\an5}Believe that my love can save the world!\NThanks for watching, everyone!
-Dialogue: 0,0:24:15.61,0:24:18.62,Default,,0,0,0,,
+Dialogue: 0,0:24:15.61,0:24:18.62,Default,,0,0,0,,С тех пор меня не ведёт дорога приключений! Спасибо за просморы!
 Dialogue: 0,0:24:18.62,0:24:20.07,Default,,0,0,0,,{\an5}Is this the end?!
-Dialogue: 0,0:24:18.62,0:24:20.07,Default,,0,0,0,,
+Dialogue: 0,0:24:18.62,0:24:20.07,Default,,0,0,0,,Что ты несёшь?
