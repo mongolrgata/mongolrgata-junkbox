@@ -15,10 +15,10 @@ Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 12 END (AT-X 1280x720 x264 AAC).mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.875000
-Scroll Position: 98
-Active Line: 105
-Video Position: 6785
+Video Zoom Percent: 0.750000
+Scroll Position: 205
+Active Line: 219
+Video Position: 11074
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -118,7 +118,7 @@ Dialogue: 0,0:03:57.65,0:03:58.40,Default,,0,0,0,,Ща!
 Dialogue: 0,0:03:58.40,0:04:00.23,Default,,0,0,0,,{\an5}Let's do our best, Mu-tan!
 Dialogue: 0,0:03:58.40,0:04:00.23,Default,,0,0,0,,Не подведи, Му-тан!
 Dialogue: 0,0:04:01.90,0:04:05.07,Default,,0,0,0,,{\an5}Let us carve our victory on the dawn's horizon!
-Dialogue: 0,0:04:01.90,0:04:05.07,Default,,0,0,0,,
+Dialogue: 0,0:04:01.90,0:04:05.07,Default,,0,0,0,,Впишем же наши имена капсом в анналы логов!
 Dialogue: 0,0:04:05.07,0:04:08.20,Default,,0,0,0,,{\an5}Stray Cat-Princess Elite Guard, move out!
 Dialogue: 0,0:04:05.07,0:04:08.20,Default,,0,0,0,,Элитная гвардия драной Неки, выдвигаемся!
 Dialogue: 0,0:04:21.84,0:04:24.88,Default,,0,0,0,,{\an5}The enemy got there first!\NThere are over thirty of them!
@@ -134,115 +134,115 @@ Dialogue: 0,0:04:29.93,0:04:31.43,Default,,0,0,0,,Представь себе!
 Dialogue: 0,0:04:37.02,0:04:39.44,Default,,0,0,0,,{\an5}They got in before us.
 Dialogue: 0,0:04:37.02,0:04:39.44,Default,,0,0,0,,Just as planned.
 Dialogue: 0,0:04:39.44,0:04:43.02,Default,,0,0,0,,{\an5}Switch from defensive posture\Nto attack! Bring down the fort!
-Dialogue: 0,0:04:39.44,0:04:43.02,Default,,0,0,0,,
+Dialogue: 0,0:04:39.44,0:04:43.02,Default,,0,0,0,,Всем переключиться на атакующий режим! Форт будет наш!
 Dialogue: 0,0:04:43.03,0:04:45.19,Default,,0,0,0,,{\an5}We'll get the siege weapon ready, okay?
-Dialogue: 0,0:04:43.03,0:04:45.19,Default,,0,0,0,,
+Dialogue: 0,0:04:43.03,0:04:45.19,Default,,0,0,0,,Осадные орудия к бою?
 Dialogue: 0,0:04:45.19,0:04:46.19,Default,,0,0,0,,{\an5}Do it.
-Dialogue: 0,0:04:45.19,0:04:46.19,Default,,0,0,0,,
+Dialogue: 0,0:04:45.19,0:04:46.19,Default,,0,0,0,,Офк.
 Dialogue: 0,0:04:51.28,0:04:52.78,Default,,0,0,0,,{\an5}Fire!
-Dialogue: 0,0:04:51.28,0:04:52.78,Default,,0,0,0,,
+Dialogue: 0,0:04:51.28,0:04:52.78,Default,,0,0,0,,Пли!
 Dialogue: 0,0:05:04.34,0:05:05.34,Default,,0,0,0,,{\an5}Charge!
-Dialogue: 0,0:05:04.34,0:05:05.34,Default,,0,0,0,,
+Dialogue: 0,0:05:04.34,0:05:05.34,Default,,0,0,0,,В атаку!
 Dialogue: 0,0:05:11.26,0:05:13.35,Default,,0,0,0,,{\an5}For our Nekohime-{\i1}sama{\i0}!
-Dialogue: 0,0:05:11.26,0:05:13.35,Default,,0,0,0,,
+Dialogue: 0,0:05:11.26,0:05:13.35,Default,,0,0,0,,Во имя Некохиме-самы!
 Dialogue: 0,0:05:13.35,0:05:14.97,Default,,0,0,0,,{\an5}Drive the enemy out!
-Dialogue: 0,0:05:13.35,0:05:14.97,Default,,0,0,0,,
+Dialogue: 0,0:05:13.35,0:05:14.97,Default,,0,0,0,,Ляжем здесь костьми!
 Dialogue: 0,0:05:14.97,0:05:19.73,Default,,0,0,0,,{\an5}Get them, get them! Grant me victory!
-Dialogue: 0,0:05:14.97,0:05:19.73,Default,,0,0,0,,
+Dialogue: 0,0:05:14.97,0:05:19.73,Default,,0,0,0,,О да, о да! Всё ради победы!
 Dialogue: 0,0:05:19.73,0:05:23.02,Default,,0,0,0,,{\an5}Damn... we can't seem to break through.
-Dialogue: 0,0:05:19.73,0:05:23.02,Default,,0,0,0,,
+Dialogue: 0,0:05:19.73,0:05:23.02,Default,,0,0,0,,Ёпт… Похоже, мы тут увязли.
 Dialogue: 0,0:05:24.52,0:05:26.82,Default,,0,0,0,,{\an5}Aren't we a little short on teammates?
-Dialogue: 0,0:05:24.52,0:05:26.82,Default,,0,0,0,,
+Dialogue: 0,0:05:24.52,0:05:26.82,Default,,0,0,0,,Хули нас так мало?
 Dialogue: 0,0:05:26.82,0:05:28.61,Default,,0,0,0,,{\an5}Gi moving out!
-Dialogue: 0,0:05:26.82,0:05:28.61,Default,,0,0,0,,
+Dialogue: 0,0:05:26.82,0:05:28.61,Default,,0,0,0,,G готов!
 Dialogue: 0,0:05:28.61,0:05:30.57,Default,,0,0,0,,{\an5}Infantry gi moving out!
-Dialogue: 0,0:05:28.61,0:05:30.57,Default,,0,0,0,,
+Dialogue: 0,0:05:28.61,0:05:30.57,Default,,0,0,0,,Керри-G готов!
 Dialogue: 0,0:05:30.57,0:05:32.66,Default,,0,0,0,,{\an5}Decoy gi moving out!
-Dialogue: 0,0:05:30.57,0:05:32.66,Default,,0,0,0,,
+Dialogue: 0,0:05:30.57,0:05:32.66,Default,,0,0,0,,Суппорт-G готов!
 Dialogue: 0,0:05:32.66,0:05:34.83,Default,,0,0,0,,{\an5}Transport gi moving out!
-Dialogue: 0,0:05:32.66,0:05:34.83,Default,,0,0,0,,
+Dialogue: 0,0:05:32.66,0:05:34.83,Default,,0,0,0,,Транспорт-G готов!
 Dialogue: 0,0:05:34.83,0:05:36.54,Default,,0,0,0,,{\an5}That's a lot of gies.
-Dialogue: 0,0:05:34.83,0:05:36.54,Default,,0,0,0,,
+Dialogue: 0,0:05:34.83,0:05:36.54,Default,,0,0,0,,Фулл-хаус-G!
 Dialogue: 0,0:05:36.54,0:05:38.29,Default,,0,0,0,,{\an5}We don't need gies at the moment!
-Dialogue: 0,0:05:36.54,0:05:38.29,Default,,0,0,0,,
+Dialogue: 0,0:05:36.54,0:05:38.29,Default,,0,0,0,,И на кой ляд они нам сдались?
 Dialogue: 0,0:05:38.29,0:05:40.00,Default,,0,0,0,,{\an5}We don't have enough material!
-Dialogue: 0,0:05:38.29,0:05:40.00,Default,,0,0,0,,
+Dialogue: 0,0:05:38.29,0:05:40.00,Default,,0,0,0,,Нужно больше золота!
 Dialogue: 0,0:05:40.00,0:05:42.75,Default,,0,0,0,,{\an5}We need to have more people\Non the material-gathering team!
-Dialogue: 0,0:05:40.00,0:05:42.75,Default,,0,0,0,,
+Dialogue: 0,0:05:40.00,0:05:42.75,Default,,0,0,0,,Реквестирую ещё людей на сбор ресурсов!
 Dialogue: 0,0:05:42.75,0:05:44.71,Default,,0,0,0,,{\an5}There are too many gies\Nand not enough teammates!
-Dialogue: 0,0:05:42.75,0:05:44.71,Default,,0,0,0,,
+Dialogue: 0,0:05:42.75,0:05:44.71,Default,,0,0,0,,Да вы там угораете што ле?
 Dialogue: 0,0:05:44.71,0:05:47.63,Default,,0,0,0,,{\an5}Sette-{\i1}san{\i0} overdoing things\Nis working against us!
-Dialogue: 0,0:05:44.71,0:05:47.63,Default,,0,0,0,,
+Dialogue: 0,0:05:44.71,0:05:47.63,Default,,0,0,0,,Сетте-сан, это уже Эребор!
 Dialogue: 0,0:05:47.63,0:05:50.05,Default,,0,0,0,,{\an5}Damn! We don't have enough tanks!
-Dialogue: 0,0:05:47.63,0:05:50.05,Default,,0,0,0,,
+Dialogue: 0,0:05:47.63,0:05:50.05,Default,,0,0,0,,Ёпт! Один танк в пати не воин!
 Dialogue: 0,0:05:50.05,0:05:51.38,Default,,0,0,0,,{\an5}We can't get through!
-Dialogue: 0,0:05:50.05,0:05:51.38,Default,,0,0,0,,
+Dialogue: 0,0:05:50.05,0:05:51.38,Default,,0,0,0,,Не прорваться!
 Dialogue: 0,0:05:51.39,0:05:53.55,Default,,0,0,0,,{\an5}If we could just get an opening for a second...
 Dialogue: 0,0:05:51.39,0:05:53.55,Default,,0,0,0,,
 Dialogue: 0,0:05:53.55,0:05:55.26,Default,,0,0,0,,{\an5}You want to make an opening?
 Dialogue: 0,0:05:53.55,0:05:55.26,Default,,0,0,0,,
 Dialogue: 0,0:05:55.26,0:05:57.18,Default,,0,0,0,,{\an5}Okay then...
-Dialogue: 0,0:05:55.26,0:05:57.18,Default,,0,0,0,,
+Dialogue: 0,0:05:55.26,0:05:57.18,Default,,0,0,0,,Тогда…
 Dialogue: 0,0:05:59.40,0:06:02.60,Default,,0,0,0,,{\an5}Everyone, hold on just a little bit longer!
-Dialogue: 0,0:05:59.40,0:06:02.60,Default,,0,0,0,,
+Dialogue: 0,0:05:59.40,0:06:02.60,Default,,0,0,0,,Котаны, продержитесь ещё чутка!
 Dialogue: 0,0:06:02.60,0:06:06.19,Default,,0,0,0,,{\an5}The Black Magician is on his way now!
-Dialogue: 0,0:06:02.60,0:06:06.19,Default,,0,0,0,,
+Dialogue: 0,0:06:02.60,0:06:06.19,Default,,0,0,0,,Чёрный Властелин спешит на помощь!
 Dialogue: 0,0:06:09.15,0:06:11.40,Default,,0,0,0,,{\an5}Oops, wrong crowd.
-Dialogue: 0,0:06:09.15,0:06:11.40,Default,,0,0,0,,
+Dialogue: 0,0:06:09.15,0:06:11.40,Default,,0,0,0,,Ой, мисчат.
 Dialogue: 0,0:06:11.41,0:06:13.11,Default,,0,0,0,,{\an5}What was that open chat for?
-Dialogue: 0,0:06:11.41,0:06:13.11,Default,,0,0,0,,
+Dialogue: 0,0:06:11.41,0:06:13.11,Default,,0,0,0,,Ты чего в паблик орёшь?
 Dialogue: 0,0:06:13.12,0:06:15.62,Default,,0,0,0,,{\an5}Nishimura-{\i1}kun{\i0}, you guys say something, too.
-Dialogue: 0,0:06:13.12,0:06:15.62,Default,,0,0,0,,
+Dialogue: 0,0:06:13.12,0:06:15.62,Default,,0,0,0,,Нисимура-кун напиши тоже что-нибудь.
 Dialogue: 0,0:06:15.62,0:06:17.62,Default,,0,0,0,,{\an5}Not true! They aren't coming!
-Dialogue: 0,0:06:15.62,0:06:17.62,Default,,0,0,0,,
+Dialogue: 0,0:06:15.62,0:06:17.62,Default,,0,0,0,,Фейк! Он не придёт!
 Dialogue: 0,0:06:17.62,0:06:19.33,Default,,0,0,0,,{\an5}TMW isn't coming.
-Dialogue: 0,0:06:17.62,0:06:19.33,Default,,0,0,0,,
+Dialogue: 0,0:06:17.62,0:06:19.33,Default,,0,0,0,,Покрепления не будет!
 Dialogue: 0,0:06:19.33,0:06:21.25,Default,,0,0,0,,{\an5}No problem!
-Dialogue: 0,0:06:19.33,0:06:21.25,Default,,0,0,0,,
+Dialogue: 0,0:06:19.33,0:06:21.25,Default,,0,0,0,,Ложная тревога!
 Dialogue: 0,0:06:21.25,0:06:24.17,Default,,0,0,0,,{\an5}Hmm... Okay, Akane! Now! Go on!
-Dialogue: 0,0:06:21.25,0:06:24.17,Default,,0,0,0,,
+Dialogue: 0,0:06:21.25,0:06:24.17,Default,,0,0,0,,Хмм… Так, Акане, дело за тобой!
 Dialogue: 0,0:06:24.17,0:06:25.21,Default,,0,0,0,,{\an5}Huh? Now?
-Dialogue: 0,0:06:24.17,0:06:25.21,Default,,0,0,0,,
+Dialogue: 0,0:06:24.17,0:06:25.21,Default,,0,0,0,,Э? Прям щас?
 Dialogue: 0,0:06:25.21,0:06:26.21,Default,,0,0,0,,{\an5}Hurry!
-Dialogue: 0,0:06:25.21,0:06:26.21,Default,,0,0,0,,
+Dialogue: 0,0:06:25.21,0:06:26.21,Default,,0,0,0,,Живее!
 Dialogue: 0,0:06:27.80,0:06:29.63,Default,,0,0,0,,{\an5}--There's no way they're coming!\N--Way too implausible!
-Dialogue: 0,0:06:27.80,0:06:29.63,Default,,0,0,0,,
+Dialogue: 0,0:06:27.80,0:06:29.63,Default,,0,0,0,,— Какой Чёрный Властелин?\N— Хорош втирать.
 Dialogue: 0,0:06:29.63,0:06:31.47,Default,,0,0,0,,{\an5}Doesn't even rise to the level of a bluff!
-Dialogue: 0,0:06:29.63,0:06:31.47,Default,,0,0,0,,
+Dialogue: 0,0:06:29.63,0:06:31.47,Default,,0,0,0,,За кого вы нас держите?
 Dialogue: 0,0:06:33.76,0:06:37.10,Default,,0,0,0,,{\an5}You're mine! Take this! Finishing move!
-Dialogue: 0,0:06:33.76,0:06:37.10,Default,,0,0,0,,
+Dialogue: 0,0:06:33.76,0:06:37.10,Default,,0,0,0,,Ну всё!  Вы огребаете!
 Dialogue: 0,0:06:37.10,0:06:39.10,Default,,0,0,0,,{\an5}{\i1}Ran{\i0}! {\i1}Ran{\i0}!
-Dialogue: 0,0:06:37.10,0:06:39.10,Default,,0,0,0,,
+Dialogue: 0,0:06:37.10,0:06:39.10,Default,,0,0,0,,Вжух! Вжух!
 Dialogue: 0,0:06:39.10,0:06:41.43,Default,,0,0,0,,{\an5}{\i1}Ran-ran{\i0}! {\i1}Ran{\i0}!
-Dialogue: 0,0:06:39.10,0:06:41.43,Default,,0,0,0,,
+Dialogue: 0,0:06:39.10,0:06:41.43,Default,,0,0,0,,Вжух-Вжух! Вжууух!
 Dialogue: 0,0:06:42.60,0:06:45.23,Default,,0,0,0,,{\an5}As long as I can {\i1}ran-ran{\i0}, I don't care if I die.
-Dialogue: 0,0:06:42.60,0:06:45.23,Default,,0,0,0,,
+Dialogue: 0,0:06:42.60,0:06:45.23,Default,,0,0,0,,Вжух-вжух и gg wp.
 Dialogue: 0,0:06:45.23,0:06:47.11,Default,,0,0,0,,{\an5}As long as I hit twice, I'm ahead!
-Dialogue: 0,0:06:45.23,0:06:47.11,Default,,0,0,0,,
+Dialogue: 0,0:06:45.23,0:06:47.11,Default,,0,0,0,,Один удар — один фраг!
 Dialogue: 0,0:06:47.11,0:06:49.11,Default,,0,0,0,,{\an5}Such is my Akane style!
-Dialogue: 0,0:06:47.11,0:06:49.11,Default,,0,0,0,,
+Dialogue: 0,0:06:47.11,0:06:49.11,Default,,0,0,0,,Таков стиль моей игры!
 Dialogue: 0,0:06:49.11,0:06:50.74,Default,,0,0,0,,{\an5}See? You got through, right?
-Dialogue: 0,0:06:49.11,0:06:50.74,Default,,0,0,0,,
+Dialogue: 0,0:06:49.11,0:06:50.74,Default,,0,0,0,,Здорово мы их?
 Dialogue: 0,0:06:50.74,0:06:53.57,Default,,0,0,0,,{\an5}How did you know the timing of their replies?
-Dialogue: 0,0:06:50.74,0:06:53.57,Default,,0,0,0,,
+Dialogue: 0,0:06:50.74,0:06:53.57,Default,,0,0,0,,Откуда ты знала, как отреагирует противник?
 Dialogue: 0,0:06:53.57,0:06:56.62,Default,,0,0,0,,{\an5}Rusian, I'm scared of her.
-Dialogue: 0,0:06:53.57,0:06:56.62,Default,,0,0,0,,
+Dialogue: 0,0:06:53.57,0:06:56.62,Default,,0,0,0,,Русиян, бежим отсюда.
 Dialogue: 0,0:06:56.62,0:06:59.41,Default,,0,0,0,,{\an5}Rush the front line! Push through!
-Dialogue: 0,0:06:56.62,0:06:59.41,Default,,0,0,0,,
+Dialogue: 0,0:06:56.62,0:06:59.41,Default,,0,0,0,,Оборона прорвана! Рашим!
 Dialogue: 0,0:07:02.91,0:07:04.83,Default,,0,0,0,,{\an5}Come back for the stronger opponents later!
-Dialogue: 0,0:07:02.91,0:07:04.83,Default,,0,0,0,,
+Dialogue: 0,0:07:02.91,0:07:04.83,Default,,0,0,0,,Сильных оставьте на потом!
 Dialogue: 0,0:07:04.83,0:07:07.25,Default,,0,0,0,,{\an5}Make sure to pick off the weaker ones first!
-Dialogue: 0,0:07:04.83,0:07:07.25,Default,,0,0,0,,
+Dialogue: 0,0:07:04.83,0:07:07.25,Default,,0,0,0,,Выносите мелочь в первую очередь!
 Dialogue: 0,0:07:12.38,0:07:13.88,Default,,0,0,0,,{\an5}That's brutal.
-Dialogue: 0,0:07:12.38,0:07:13.88,Default,,0,0,0,,
+Dialogue: 0,0:07:12.38,0:07:13.88,Default,,0,0,0,,Жывотные!
 Dialogue: 0,0:07:25.02,0:07:26.52,Default,,0,0,0,,{\an5}Take that!
-Dialogue: 0,0:07:25.02,0:07:26.52,Default,,0,0,0,,
+Dialogue: 0,0:07:25.02,0:07:26.52,Default,,0,0,0,,Пиздых!
 Dialogue: 0,0:07:28.77,0:07:30.27,Default,,0,0,0,,{\an5}I'm putting it in.
-Dialogue: 0,0:07:28.77,0:07:30.27,Default,,0,0,0,,
+Dialogue: 0,0:07:28.77,0:07:30.27,Default,,0,0,0,,Вставляю.
 Dialogue: 0,0:07:31.99,0:07:35.40,Default,,0,0,0,,{\an5}Fort Cantor has been captured by Alley Cats.
-Dialogue: 0,0:07:31.99,0:07:35.40,Default,,0,0,0,,
+Dialogue: 0,0:07:31.99,0:07:35.40,Default,,0,0,0,,Форт Кантор захвачен гильдией «Бродячие Коты».
 Dialogue: 0,0:07:35.41,0:07:36.99,Default,,0,0,0,,{\an5}--All right!\N--We did it!
-Dialogue: 0,0:07:35.41,0:07:36.99,Default,,0,0,0,,
+Dialogue: 0,0:07:35.41,0:07:36.99,Default,,0,0,0,,— Отлично!\N— Збс!
 Dialogue: 0,0:07:36.99,0:07:39.45,Default,,0,0,0,,{\an5}I'm a hundred times happier than last week!
 Dialogue: 0,0:07:36.99,0:07:39.45,Default,,0,0,0,,
 Dialogue: 0,0:07:39.45,0:07:40.74,Default,,0,0,0,,{\an5}I know!
