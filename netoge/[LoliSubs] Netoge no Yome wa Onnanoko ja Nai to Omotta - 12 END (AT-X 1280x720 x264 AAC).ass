@@ -11,14 +11,15 @@ PlayResY: 720
 PlayDepth: 16
 
 [Aegisub Project Garbage]
+Last Style Storage: Default
 Audio File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 12 END (AT-X 1280x720 x264 AAC).mkv
 Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[LoliSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta - 12 END (AT-X 1280x720 x264 AAC).mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.750000
-Scroll Position: 81
-Active Line: 89
-Video Position: 5800
+Video Zoom Percent: 0.625000
+Scroll Position: 312
+Active Line: 325
+Video Position: 17463
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -178,9 +179,9 @@ Dialogue: 0,0:05:47.63,0:05:50.05,Default,,0,0,0,,Ёпт! Один танк в �
 Dialogue: 0,0:05:50.05,0:05:51.38,Default,,0,0,0,,{\an5}We can't get through!
 Dialogue: 0,0:05:50.05,0:05:51.38,Default,,0,0,0,,Не прорваться!
 Dialogue: 0,0:05:51.39,0:05:53.55,Default,,0,0,0,,{\an5}If we could just get an opening for a second...
-Dialogue: 0,0:05:51.39,0:05:53.55,Default,,0,0,0,,
+Dialogue: 0,0:05:51.39,0:05:53.55,Default,,0,0,0,,Никак не могу уйти из-под атаки…
 Dialogue: 0,0:05:53.55,0:05:55.26,Default,,0,0,0,,{\an5}You want to make an opening?
-Dialogue: 0,0:05:53.55,0:05:55.26,Default,,0,0,0,,
+Dialogue: 0,0:05:53.55,0:05:55.26,Default,,0,0,0,,Тебе нужно их отвлечь?
 Dialogue: 0,0:05:55.26,0:05:57.18,Default,,0,0,0,,{\an5}Okay then...
 Dialogue: 0,0:05:55.26,0:05:57.18,Default,,0,0,0,,Тогда…
 Dialogue: 0,0:05:59.40,0:06:02.60,Default,,0,0,0,,{\an5}Everyone, hold on just a little bit longer!
@@ -244,113 +245,113 @@ Dialogue: 0,0:07:31.99,0:07:35.40,Default,,0,0,0,,Форт Кантор захв
 Dialogue: 0,0:07:35.41,0:07:36.99,Default,,0,0,0,,{\an5}--All right!\N--We did it!
 Dialogue: 0,0:07:35.41,0:07:36.99,Default,,0,0,0,,— Отлично!\N— Збс!
 Dialogue: 0,0:07:36.99,0:07:39.45,Default,,0,0,0,,{\an5}I'm a hundred times happier than last week!
-Dialogue: 0,0:07:36.99,0:07:39.45,Default,,0,0,0,,
+Dialogue: 0,0:07:36.99,0:07:39.45,Default,,0,0,0,,В этот раз у меня даже попа улыбается!
 Dialogue: 0,0:07:39.45,0:07:40.74,Default,,0,0,0,,{\an5}I know!
-Dialogue: 0,0:07:39.45,0:07:40.74,Default,,0,0,0,,
+Dialogue: 0,0:07:39.45,0:07:40.74,Default,,0,0,0,,Так-то!
 Dialogue: 0,0:07:40.74,0:07:43.91,Default,,0,0,0,,{\an5}Keep on your toes.\NWe'll be defending right away.
-Dialogue: 0,0:07:40.74,0:07:43.91,Default,,0,0,0,,
+Dialogue: 0,0:07:40.74,0:07:43.91,Default,,0,0,0,,Рано радоваться. Солнце ещё высоко.
 Dialogue: 0,0:07:46.21,0:07:47.83,Default,,0,0,0,,{\an5}Twenty minutes left.
-Dialogue: 0,0:07:46.21,0:07:47.83,Default,,0,0,0,,
+Dialogue: 0,0:07:46.21,0:07:47.83,Default,,0,0,0,,Осталось 20 минут.
 Dialogue: 0,0:07:51.84,0:07:53.55,Default,,0,0,0,,{\an5}If we can defend this...
-Dialogue: 0,0:07:51.84,0:07:53.55,Default,,0,0,0,,
+Dialogue: 0,0:07:51.84,0:07:53.55,Default,,0,0,0,,Теперь наш черёд…
 Dialogue: 0,0:07:55.01,0:07:56.80,Default,,0,0,0,,{\an5}All forces, charge!
-Dialogue: 0,0:07:55.01,0:07:56.80,Default,,0,0,0,,
+Dialogue: 0,0:07:55.01,0:07:56.80,Default,,0,0,0,,Всем в атаку!
 Dialogue: 0,0:07:58.64,0:08:00.39,Default,,0,0,0,,{\an5}--Huh?\N--Charge?
-Dialogue: 0,0:07:58.64,0:08:00.39,Default,,0,0,0,,
+Dialogue: 0,0:07:58.64,0:08:00.39,Default,,0,0,0,,— Чё?\N— В атаку?
 Dialogue: 0,0:08:13.03,0:08:14.32,Default,,0,0,0,,{\an5}Ako!
 Dialogue: 0,0:08:13.03,0:08:14.32,Default,,0,0,0,,Ако!
 Dialogue: 0,0:08:14.32,0:08:15.95,Default,,0,0,0,,{\an5}Eyes on me!
-Dialogue: 0,0:08:14.32,0:08:15.95,Default,,0,0,0,,
+Dialogue: 0,0:08:14.32,0:08:15.95,Default,,0,0,0,,Фокус на меня!
 Dialogue: 0,0:08:18.03,0:08:20.74,Default,,0,0,0,,{\an5}Why is our mage out front?
-Dialogue: 0,0:08:18.03,0:08:20.74,Default,,0,0,0,,
+Dialogue: 0,0:08:18.03,0:08:20.74,Default,,0,0,0,,Чего маг забыл в авангарде?
 Dialogue: 0,0:08:20.74,0:08:21.87,Default,,0,0,0,,{\an5}Remember, Ako!
-Dialogue: 0,0:08:20.74,0:08:21.87,Default,,0,0,0,,
+Dialogue: 0,0:08:20.74,0:08:21.87,Default,,0,0,0,,Дык вот, Ако!
 Dialogue: 0,0:08:21.87,0:08:23.24,Default,,0,0,0,,{\an5}Watch only me!
-Dialogue: 0,0:08:21.87,0:08:23.24,Default,,0,0,0,,
+Dialogue: 0,0:08:21.87,0:08:23.24,Default,,0,0,0,,Не проморгай момент!
 Dialogue: 0,0:08:23.25,0:08:25.41,Default,,0,0,0,,{\an5}W-What do you mean by that?
-Dialogue: 0,0:08:23.25,0:08:25.41,Default,,0,0,0,,
+Dialogue: 0,0:08:23.25,0:08:25.41,Default,,0,0,0,,Как это понимать?
 Dialogue: 0,0:08:25.41,0:08:27.16,Default,,0,0,0,,{\an5}I mean {\i1}this{\i0}!
-Dialogue: 0,0:08:25.41,0:08:27.16,Default,,0,0,0,,
+Dialogue: 0,0:08:25.41,0:08:27.16,Default,,0,0,0,,Просто смотри!
 Dialogue: 0,0:08:28.83,0:08:30.67,Default,,0,0,0,,{\an5}Stop them!
-Dialogue: 0,0:08:28.83,0:08:30.67,Default,,0,0,0,,
+Dialogue: 0,0:08:28.83,0:08:30.67,Default,,0,0,0,,Сорвите каст!
 Dialogue: 0,0:08:36.76,0:08:40.39,Default,,0,0,0,,{\an5}That much stamina...? W-What's going on?
-Dialogue: 0,0:08:36.76,0:08:40.39,Default,,0,0,0,,
+Dialogue: 0,0:08:36.76,0:08:40.39,Default,,0,0,0,,Что за магия вне Хогвартса?
 Dialogue: 0,0:08:44.85,0:08:45.93,Default,,0,0,0,,{\an5}Ako!
-Dialogue: 0,0:08:44.85,0:08:45.93,Default,,0,0,0,,
+Dialogue: 0,0:08:44.85,0:08:45.93,Default,,0,0,0,,Ако!
 Dialogue: 0,0:08:45.93,0:08:47.43,Default,,0,0,0,,{\an5}Right!
-Dialogue: 0,0:08:45.93,0:08:47.43,Default,,0,0,0,,
+Dialogue: 0,0:08:45.93,0:08:47.43,Default,,0,0,0,,Щас!
 Dialogue: 0,0:08:49.69,0:08:52.11,Default,,0,0,0,,{\an5}Extra Damage!
-Dialogue: 0,0:08:49.69,0:08:52.11,Default,,0,0,0,,Овер9000
+Dialogue: 0,0:08:49.69,0:08:52.11,Default,,0,0,0,,Овер9000!
 Dialogue: 0,0:09:01.70,0:09:02.83,Default,,0,0,0,,{\an5}This...
-Dialogue: 0,0:09:01.70,0:09:02.83,Default,,0,0,0,,
+Dialogue: 0,0:09:01.70,0:09:02.83,Default,,0,0,0,,Да я…
 Dialogue: 0,0:09:02.83,0:09:05.83,Default,,0,0,0,,{\an5}This... is my attack power!
-Dialogue: 0,0:09:02.83,0:09:05.83,Default,,0,0,0,,
+Dialogue: 0,0:09:02.83,0:09:05.83,Default,,0,0,0,,Да я… твою мамку ипал!
 Dialogue: 0,0:09:08.33,0:09:10.04,Default,,0,0,0,,{\an5}What can I say?
-Dialogue: 0,0:09:08.33,0:09:10.04,Default,,0,0,0,,
+Dialogue: 0,0:09:08.33,0:09:10.04,Default,,0,0,0,,Да уж.
 Dialogue: 0,0:09:10.04,0:09:11.63,Default,,0,0,0,,{\an5}Ako, good job.
-Dialogue: 0,0:09:10.04,0:09:11.63,Default,,0,0,0,,
+Dialogue: 0,0:09:10.04,0:09:11.63,Default,,0,0,0,,Ако, gj.
 Dialogue: 0,0:09:11.63,0:09:13.75,Default,,0,0,0,,{\an5}Huh? Right!
-Dialogue: 0,0:09:11.63,0:09:13.75,Default,,0,0,0,,
+Dialogue: 0,0:09:11.63,0:09:13.75,Default,,0,0,0,,М? Спасибо!
 Dialogue: 0,0:09:13.75,0:09:17.34,Default,,0,0,0,,{\an5}Timing-wise, I think my\NExtra Damage got in, too.
-Dialogue: 0,0:09:13.75,0:09:17.34,Default,,0,0,0,,
+Dialogue: 0,0:09:13.75,0:09:17.34,Default,,0,0,0,,А про мои овер9000 копеек вы не забыли?
 Dialogue: 0,0:09:18.34,0:09:20.93,Default,,0,0,0,,{\an5}Sensei, take a hint.
-Dialogue: 0,0:09:18.34,0:09:20.93,Default,,0,0,0,,
+Dialogue: 0,0:09:18.34,0:09:20.93,Default,,0,0,0,,Да пусть милуются.
 Dialogue: 0,0:09:20.93,0:09:23.05,Default,,0,0,0,,{\an5}Ten minutes left.
-Dialogue: 0,0:09:20.93,0:09:23.05,Default,,0,0,0,,
+Dialogue: 0,0:09:20.93,0:09:23.05,Default,,0,0,0,,Осталось 10 минут.
 Dialogue: 0,0:09:23.05,0:09:24.26,Default,,0,0,0,,{\an5}Just about time.
-Dialogue: 0,0:09:23.05,0:09:24.26,Default,,0,0,0,,
+Dialogue: 0,0:09:23.05,0:09:24.26,Default,,0,0,0,,Ща буит мясо.
 Dialogue: 0,0:09:24.26,0:09:25.97,Default,,0,0,0,,{\an5}Here comes the {\i1}real{\i0} fight.
-Dialogue: 0,0:09:24.26,0:09:25.97,Default,,0,0,0,,
+Dialogue: 0,0:09:24.26,0:09:25.97,Default,,0,0,0,,До этого были лишь цветочки.
 Dialogue: 0,0:09:32.27,0:09:33.15,Default,,0,0,0,,{\an5}Enemy attack!
-Dialogue: 0,0:09:32.27,0:09:33.15,Default,,0,0,0,,
+Dialogue: 0,0:09:32.27,0:09:33.15,Default,,0,0,0,,Враги!
 Dialogue: 0,0:09:33.15,0:09:34.82,Default,,0,0,0,,{\an5}What's the enemy breakdown?
-Dialogue: 0,0:09:33.15,0:09:34.82,Default,,0,0,0,,
+Dialogue: 0,0:09:33.15,0:09:34.82,Default,,0,0,0,,Сколько?
 Dialogue: 0,0:09:34.82,0:09:36.19,Default,,0,0,0,,{\an5}There are five of them!
-Dialogue: 0,0:09:34.82,0:09:36.19,Default,,0,0,0,,
+Dialogue: 0,0:09:34.82,0:09:36.19,Default,,0,0,0,,Вижу пятерых!
 Dialogue: 0,0:09:37.19,0:09:38.82,Default,,0,0,0,,{\an5}It's Wallenstein!
 Dialogue: 0,0:09:37.19,0:09:38.82,Default,,0,0,0,,Валленштейн!
 Dialogue: 0,0:09:41.61,0:09:43.12,Default,,0,0,0,,{\an5}They're here.
-Dialogue: 0,0:09:41.61,0:09:43.12,Default,,0,0,0,,
+Dialogue: 0,0:09:41.61,0:09:43.12,Default,,0,0,0,,Припёрлись.
 Dialogue: 0,0:10:03.10,0:10:06.36,Default,,0,0,0,,{\an5}I knew you would be coming, Bats.
-Dialogue: 0,0:10:03.10,0:10:06.36,Default,,0,0,0,,
+Dialogue: 0,0:10:03.10,0:10:06.36,Default,,0,0,0,,Мы ждали вашего визита, Батцу.
 Dialogue: 0,0:10:06.36,0:10:08.40,Default,,0,0,0,,{\an5}However, we're not giving this up.
-Dialogue: 0,0:10:06.36,0:10:08.40,Default,,0,0,0,,
+Dialogue: 0,0:10:06.36,0:10:08.40,Default,,0,0,0,,Так что не сдадимся без боя.
 Dialogue: 0,0:10:09.48,0:10:13.82,Default,,0,0,0,,{\an5}Repel them! Show them what we're made of!
-Dialogue: 0,0:10:09.48,0:10:13.82,Default,,0,0,0,,
+Dialogue: 0,0:10:09.48,0:10:13.82,Default,,0,0,0,,Враг у ворот! Покажите им, что мы способны!
 Dialogue: 0,0:10:13.82,0:10:15.86,Default,,0,0,0,,{\an5}Oh, yeah!
-Dialogue: 0,0:10:13.82,0:10:15.86,Default,,0,0,0,,
+Dialogue: 0,0:10:13.82,0:10:15.86,Default,,0,0,0,,Ни шагу назад!
 Dialogue: 0,0:10:15.87,0:10:19.04,Default,,0,0,0,,{\an5}Rusian's squad, maintain the\N2nd defensive line with your lives!
-Dialogue: 0,0:10:15.87,0:10:19.04,Default,,0,0,0,,
+Dialogue: 0,0:10:15.87,0:10:19.04,Default,,0,0,0,,Отряд Русияна, удерживайте вторую линию обороны!
 Dialogue: 0,0:10:19.54,0:10:20.62,Default,,0,0,0,,{\an5}Roger!
-Dialogue: 0,0:10:19.54,0:10:20.62,Default,,0,0,0,,Есть!
+Dialogue: 0,0:10:19.54,0:10:20.62,Default,,0,0,0,,Окай!
 Dialogue: 0,0:10:21.12,0:10:23.83,Default,,0,0,0,,{\an5}Schwein's squad, stand by\Nin the inner courtyard!
-Dialogue: 0,0:10:21.12,0:10:23.83,Default,,0,0,0,,
+Dialogue: 0,0:10:21.12,0:10:23.83,Default,,0,0,0,,Отряд Швайна, охраняйте вход в башню!
 Dialogue: 0,0:10:23.83,0:10:26.25,Default,,0,0,0,,{\an5}If they get inside, launch a surprise attack!
-Dialogue: 0,0:10:23.83,0:10:26.25,Default,,0,0,0,,
+Dialogue: 0,0:10:23.83,0:10:26.25,Default,,0,0,0,,Если они прорвутся, нападайте из засады!
 Dialogue: 0,0:10:26.25,0:10:27.75,Default,,0,0,0,,{\an5}Yeah!
-Dialogue: 0,0:10:26.25,0:10:27.75,Default,,0,0,0,,
+Dialogue: 0,0:10:26.25,0:10:27.75,Default,,0,0,0,,Есть!
 Dialogue: 0,0:10:31.88,0:10:33.67,Default,,0,0,0,,{\an5}Here they come. Fire!
-Dialogue: 0,0:10:31.88,0:10:33.67,Default,,0,0,0,,
+Dialogue: 0,0:10:31.88,0:10:33.67,Default,,0,0,0,,Вот они! Огонь!
 Dialogue: 0,0:11:01.12,0:11:02.62,Default,,0,0,0,,{\an5}Schwein!
 Dialogue: 0,0:11:01.12,0:11:02.62,Default,,0,0,0,,Швайн!
 Dialogue: 0,0:11:05.29,0:11:07.17,Default,,0,0,0,,{\an5}Let's go, you guys!
-Dialogue: 0,0:11:05.29,0:11:07.17,Default,,0,0,0,,
+Dialogue: 0,0:11:05.29,0:11:07.17,Default,,0,0,0,,Вперёд, котаны!
 Dialogue: 0,0:11:12.80,0:11:14.22,Default,,0,0,0,,{\an5}Hmm...?
-Dialogue: 0,0:11:12.80,0:11:14.22,Default,,0,0,0,,
+Dialogue: 0,0:11:12.80,0:11:14.22,Default,,0,0,0,,М?
 Dialogue: 0,0:11:15.22,0:11:16.68,Default,,0,0,0,,{\an5}They know what you're up to!
-Dialogue: 0,0:11:15.22,0:11:16.68,Default,,0,0,0,,
+Dialogue: 0,0:11:15.22,0:11:16.68,Default,,0,0,0,,Вас засекли!
 Dialogue: 0,0:11:17.18,0:11:19.18,Default,,0,0,0,,{\an5}No news to me!
-Dialogue: 0,0:11:17.18,0:11:19.18,Default,,0,0,0,,
+Dialogue: 0,0:11:17.18,0:11:19.18,Default,,0,0,0,,ДАЛАДНА?
 Dialogue: 0,0:11:29.73,0:11:32.40,Default,,0,0,0,,{\an5}Damn! This is hopeless after all.
-Dialogue: 0,0:11:29.73,0:11:32.40,Default,,0,0,0,,
+Dialogue: 0,0:11:29.73,0:11:32.40,Default,,0,0,0,,Ёпт! Всё бесполезно!
 Dialogue: 0,0:11:33.82,0:11:36.32,Default,,0,0,0,,{\an5}It's not... hopeless!
-Dialogue: 0,0:11:33.82,0:11:36.32,Default,,0,0,0,,
+Dialogue: 0,0:11:33.82,0:11:36.32,Default,,0,0,0,,Анус твой… бесполезный!
 Dialogue: 0,0:11:36.32,0:11:39.82,Default,,0,0,0,,{\an5}Hey, those White Elixirs go for 500K each!
-Dialogue: 0,0:11:36.32,0:11:39.82,Default,,0,0,0,,
+Dialogue: 0,0:11:36.32,0:11:39.82,Default,,0,0,0,,Эй, это же бычье молоко по 500к за штуку!
 Dialogue: 0,0:11:39.82,0:11:41.33,Default,,0,0,0,,{\an5}How many did you just drink?
-Dialogue: 0,0:11:39.82,0:11:41.33,Default,,0,0,0,,
+Dialogue: 0,0:11:39.82,0:11:41.33,Default,,0,0,0,,Сколько ты выпила?
 Dialogue: 0,0:11:41.33,0:11:45.20,Default,,0,0,0,,{\an5}I'm not fooling around here, either!
-Dialogue: 0,0:11:41.33,0:11:45.20,Default,,0,0,0,,
+Dialogue: 0,0:11:41.33,0:11:45.20,Default,,0,0,0,,А вы думали, я тут с вами в игрушки играю?
 Dialogue: 0,0:11:49.83,0:11:52.00,Default,,0,0,0,,{\an5}{\i1}Ran-ran{\i0}!
 Dialogue: 0,0:11:49.83,0:11:52.00,Default,,0,0,0,,Вжух-вжух!
 Dialogue: 0,0:12:06.27,0:12:10.27,Default,,0,0,0,,{\an5}That's all I've got, huh? I'm not much use, am I?
@@ -358,7 +359,7 @@ Dialogue: 0,0:12:06.27,0:12:10.27,Default,,0,0,0,,
 Dialogue: 0,0:12:10.27,0:12:12.98,Default,,0,0,0,,{\an5}Don't be absurd. You're our MVP.
 Dialogue: 0,0:12:10.27,0:12:12.98,Default,,0,0,0,,
 Dialogue: 0,0:12:18.61,0:12:20.61,Default,,0,0,0,,{\an5}Two more minutes?
-Dialogue: 0,0:12:18.61,0:12:20.61,Default,,0,0,0,,
+Dialogue: 0,0:12:18.61,0:12:20.61,Default,,0,0,0,,Ещё две минуты?
 Dialogue: 0,0:12:20.62,0:12:22.70,Default,,0,0,0,,{\an5}Time and enough to spare.
 Dialogue: 0,0:12:20.62,0:12:22.70,Default,,0,0,0,,
 Dialogue: 0,0:12:22.70,0:12:24.33,Default,,0,0,0,,{\an5}You bastard...
@@ -366,7 +367,7 @@ Dialogue: 0,0:12:22.70,0:12:24.33,Default,,0,0,0,,
 Dialogue: 0,0:12:24.33,0:12:25.70,Default,,0,0,0,,{\an5}Well, do your worst--
 Dialogue: 0,0:12:24.33,0:12:25.70,Default,,0,0,0,,
 Dialogue: 0,0:12:25.70,0:12:27.62,Default,,0,0,0,,{\an5}Yoo-hoo, Bats!
-Dialogue: 0,0:12:25.70,0:12:27.62,Default,,0,0,0,,
+Dialogue: 0,0:12:25.70,0:12:27.62,Default,,0,0,0,,Есть чо, Батцу?
 Dialogue: 0,0:12:33.00,0:12:34.88,Default,,0,0,0,,{\an5}Yikes, we used our skills!
 Dialogue: 0,0:12:33.00,0:12:34.88,Default,,0,0,0,,
 Dialogue: 0,0:12:34.88,0:12:37.42,Default,,0,0,0,,{\an5}{\i1}Niaow{\i0}! Charge!
@@ -376,17 +377,17 @@ Dialogue: 0,0:12:40.39,0:12:44.43,Default,,0,0,0,,
 Dialogue: 0,0:12:44.43,0:12:46.26,Default,,0,0,0,,{\an5}Shut up, you scrub!
 Dialogue: 0,0:12:44.43,0:12:46.26,Default,,0,0,0,,
 Dialogue: 0,0:12:53.11,0:12:54.61,Default,,0,0,0,,{\an5}He's stunned!
-Dialogue: 0,0:12:53.11,0:12:54.61,Default,,0,0,0,,
+Dialogue: 0,0:12:53.11,0:12:54.61,Default,,0,0,0,,Стан!
 Dialogue: 0,0:12:57.11,0:13:00.36,Default,,0,0,0,,{\an5}Two men down! Three to go!
-Dialogue: 0,0:12:57.11,0:13:00.36,Default,,0,0,0,,
+Dialogue: 0,0:12:57.11,0:13:00.36,Default,,0,0,0,,Минус два! Осталось трое!
 Dialogue: 0,0:13:08.54,0:13:10.46,Default,,0,0,0,,{\an5}Two to go!
-Dialogue: 0,0:13:08.54,0:13:10.46,Default,,0,0,0,,
+Dialogue: 0,0:13:08.54,0:13:10.46,Default,,0,0,0,,Ещё двое!
 Dialogue: 0,0:13:14.63,0:13:17.17,Default,,0,0,0,,{\an5}I'm done for!
-Dialogue: 0,0:13:14.63,0:13:17.17,Default,,0,0,0,,
+Dialogue: 0,0:13:14.63,0:13:17.17,Default,,0,0,0,,Минус я!
 Dialogue: 0,0:13:19.05,0:13:22.18,Default,,0,0,0,,{\an5}--Why, you...!\N--You'll pay for that!
-Dialogue: 0,0:13:19.05,0:13:22.18,Default,,0,0,0,,
+Dialogue: 0,0:13:19.05,0:13:22.18,Default,,0,0,0,,— Ах ты…\N— Тебе конец!
 Dialogue: 0,0:13:30.94,0:13:32.35,Default,,0,0,0,,{\an5}Hi there.
-Dialogue: 0,0:13:30.94,0:13:32.35,Default,,0,0,0,,
+Dialogue: 0,0:13:30.94,0:13:32.35,Default,,0,0,0,,Здоров.
 Dialogue: 0,0:13:34.77,0:13:37.86,Default,,0,0,0,,{\an5}Tank-on-tank, this is going\Nto be a wet noodle fight.
 Dialogue: 0,0:13:34.77,0:13:37.86,Default,,0,0,0,,
 Dialogue: 0,0:13:39.94,0:13:41.32,Default,,0,0,0,,{\an5}Oh, that's right!
@@ -710,8 +711,8 @@ Dialogue: 0,0:24:00.94,0:24:02.11,Default,,0,0,0,,
 Dialogue: 0,0:24:02.11,0:24:04.69,Default,,0,0,0,,{\an5}I told you, the reward has to be from the game!
 Dialogue: 0,0:24:02.11,0:24:04.69,Default,,0,0,0,,
 Dialogue: 0,0:24:04.69,0:24:06.86,Default,,0,0,0,,{\an5}It's the same either way, isn't it?!
-Dialogue: 0,0:24:04.69,0:24:06.86,Default,,0,0,0,,
+Dialogue: 0,0:24:04.69,0:24:06.86,Default,,0,0,0,,Да какая вообще разница?
 Dialogue: 0,0:24:06.86,0:24:11.66,Default,,0,0,0,,{\an5}It's not the same!\NThe game and reality are separate!
-Dialogue: 0,0:24:06.86,0:24:11.66,Default,,0,0,0,,{Игры и реальность не имеют ничего общего!}
+Dialogue: 0,0:24:06.86,0:24:11.66,Default,,0,0,0,,Очень большая! Игры и реальность не имеют ничего общего!
 Dialogue: 0,0:24:11.66,0:24:15.45,Default,,0,0,0,,{\an5}But why?!
-Dialogue: 0,0:24:11.66,0:24:15.45,Default,,0,0,0,,
+Dialogue: 0,0:24:11.66,0:24:15.45,Default,,0,0,0,,Опять за своё?
