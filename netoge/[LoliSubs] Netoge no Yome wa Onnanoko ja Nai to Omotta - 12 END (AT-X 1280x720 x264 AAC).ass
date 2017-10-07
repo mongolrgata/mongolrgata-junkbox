@@ -17,9 +17,9 @@ Video File: E:/A/[HorribleSubs] Netoge no Yome wa Onnanoko ja Nai to Omotta/[Lol
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.625000
-Scroll Position: 312
-Active Line: 325
-Video Position: 17463
+Scroll Position: 451
+Active Line: 459
+Video Position: 24043
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -355,27 +355,27 @@ Dialogue: 0,0:11:41.33,0:11:45.20,Default,,0,0,0,,А вы думали, я ту�
 Dialogue: 0,0:11:49.83,0:11:52.00,Default,,0,0,0,,{\an5}{\i1}Ran-ran{\i0}!
 Dialogue: 0,0:11:49.83,0:11:52.00,Default,,0,0,0,,Вжух-вжух!
 Dialogue: 0,0:12:06.27,0:12:10.27,Default,,0,0,0,,{\an5}That's all I've got, huh? I'm not much use, am I?
-Dialogue: 0,0:12:06.27,0:12:10.27,Default,,0,0,0,,
+Dialogue: 0,0:12:06.27,0:12:10.27,Default,,0,0,0,,Ну вот и всё. И правда от меня мало толку.
 Dialogue: 0,0:12:10.27,0:12:12.98,Default,,0,0,0,,{\an5}Don't be absurd. You're our MVP.
-Dialogue: 0,0:12:10.27,0:12:12.98,Default,,0,0,0,,
+Dialogue: 0,0:12:10.27,0:12:12.98,Default,,0,0,0,,Нонсенс. Ты наш MVP.
 Dialogue: 0,0:12:18.61,0:12:20.61,Default,,0,0,0,,{\an5}Two more minutes?
 Dialogue: 0,0:12:18.61,0:12:20.61,Default,,0,0,0,,Ещё две минуты?
 Dialogue: 0,0:12:20.62,0:12:22.70,Default,,0,0,0,,{\an5}Time and enough to spare.
-Dialogue: 0,0:12:20.62,0:12:22.70,Default,,0,0,0,,
+Dialogue: 0,0:12:20.62,0:12:22.70,Default,,0,0,0,,Более чем достаточно.
 Dialogue: 0,0:12:22.70,0:12:24.33,Default,,0,0,0,,{\an5}You bastard...
-Dialogue: 0,0:12:22.70,0:12:24.33,Default,,0,0,0,,
+Dialogue: 0,0:12:22.70,0:12:24.33,Default,,0,0,0,,Вот петух…
 Dialogue: 0,0:12:24.33,0:12:25.70,Default,,0,0,0,,{\an5}Well, do your worst--
-Dialogue: 0,0:12:24.33,0:12:25.70,Default,,0,0,0,,
+Dialogue: 0,0:12:24.33,0:12:25.70,Default,,0,0,0,,А, вот и ты…
 Dialogue: 0,0:12:25.70,0:12:27.62,Default,,0,0,0,,{\an5}Yoo-hoo, Bats!
-Dialogue: 0,0:12:25.70,0:12:27.62,Default,,0,0,0,,Есть чо, Батцу?
+Dialogue: 0,0:12:25.70,0:12:27.62,Default,,0,0,0,,Чо-как, Батцу?
 Dialogue: 0,0:12:33.00,0:12:34.88,Default,,0,0,0,,{\an5}Yikes, we used our skills!
-Dialogue: 0,0:12:33.00,0:12:34.88,Default,,0,0,0,,
+Dialogue: 0,0:12:33.00,0:12:34.88,Default,,0,0,0,,Чёрт, автопрокаст сработал!
 Dialogue: 0,0:12:34.88,0:12:37.42,Default,,0,0,0,,{\an5}{\i1}Niaow{\i0}! Charge!
-Dialogue: 0,0:12:34.88,0:12:37.42,Default,,0,0,0,,
+Dialogue: 0,0:12:34.88,0:12:37.42,Default,,0,0,0,,Готово! Атакуем!
 Dialogue: 0,0:12:40.39,0:12:44.43,Default,,0,0,0,,{\an5}Bats, when people sacrifice themselves,\Nthis is how they do it.
-Dialogue: 0,0:12:40.39,0:12:44.43,Default,,0,0,0,,
+Dialogue: 0,0:12:40.39,0:12:44.43,Default,,0,0,0,,Батцу, когда сторона жертвует слабой фигурой, это называется гамбит.
 Dialogue: 0,0:12:44.43,0:12:46.26,Default,,0,0,0,,{\an5}Shut up, you scrub!
-Dialogue: 0,0:12:44.43,0:12:46.26,Default,,0,0,0,,
+Dialogue: 0,0:12:44.43,0:12:46.26,Default,,0,0,0,,Молчи в тряпочку!
 Dialogue: 0,0:12:53.11,0:12:54.61,Default,,0,0,0,,{\an5}He's stunned!
 Dialogue: 0,0:12:53.11,0:12:54.61,Default,,0,0,0,,Стан!
 Dialogue: 0,0:12:57.11,0:13:00.36,Default,,0,0,0,,{\an5}Two men down! Three to go!
@@ -389,71 +389,71 @@ Dialogue: 0,0:13:19.05,0:13:22.18,Default,,0,0,0,,— Ах ты…\N— Тебе
 Dialogue: 0,0:13:30.94,0:13:32.35,Default,,0,0,0,,{\an5}Hi there.
 Dialogue: 0,0:13:30.94,0:13:32.35,Default,,0,0,0,,Здоров.
 Dialogue: 0,0:13:34.77,0:13:37.86,Default,,0,0,0,,{\an5}Tank-on-tank, this is going\Nto be a wet noodle fight.
-Dialogue: 0,0:13:34.77,0:13:37.86,Default,,0,0,0,,
+Dialogue: 0,0:13:34.77,0:13:37.86,Default,,0,0,0,,Снова потная катка в WoT…
 Dialogue: 0,0:13:39.94,0:13:41.32,Default,,0,0,0,,{\an5}Oh, that's right!
-Dialogue: 0,0:13:39.94,0:13:41.32,Default,,0,0,0,,
+Dialogue: 0,0:13:39.94,0:13:41.32,Default,,0,0,0,,Секундочку!
 Dialogue: 0,0:13:41.32,0:13:44.16,Default,,0,0,0,,{\an5}My stun is about the only\Nthing that can stop Bats!
-Dialogue: 0,0:13:41.32,0:13:44.16,Default,,0,0,0,,
+Dialogue: 0,0:13:41.32,0:13:44.16,Default,,0,0,0,,Без моего стана Батцу ничто не остановит!
 Dialogue: 0,0:13:45.99,0:13:47.37,Default,,0,0,0,,{\an5}Damn it!
-Dialogue: 0,0:13:45.99,0:13:47.37,Default,,0,0,0,,
+Dialogue: 0,0:13:45.99,0:13:47.37,Default,,0,0,0,,Ёпт!
 Dialogue: 0,0:13:47.37,0:13:48.91,Default,,0,0,0,,{\an5}Nishimura, hurry!
-Dialogue: 0,0:13:47.37,0:13:48.91,Default,,0,0,0,,
+Dialogue: 0,0:13:47.37,0:13:48.91,Default,,0,0,0,,Нисимура, быстрее!
 Dialogue: 0,0:13:48.91,0:13:50.66,Default,,0,0,0,,{\an5}You're the only one who\Ncan protect the crystal!
-Dialogue: 0,0:13:48.91,0:13:50.66,Default,,0,0,0,,
+Dialogue: 0,0:13:48.91,0:13:50.66,Default,,0,0,0,,Наш кристалл остался без защиты!
 Dialogue: 0,0:13:50.66,0:13:52.66,Default,,0,0,0,,{\an5}I know, but this guy is...
-Dialogue: 0,0:13:50.66,0:13:52.66,Default,,0,0,0,,
+Dialogue: 0,0:13:50.66,0:13:52.66,Default,,0,0,0,,Сам знаю, но есть нюанс…
 Dialogue: 0,0:13:52.66,0:13:55.96,Default,,0,0,0,,{\an5}Don't worry. I'm still here.
-Dialogue: 0,0:13:52.66,0:13:55.96,Default,,0,0,0,,
+Dialogue: 0,0:13:52.66,0:13:55.96,Default,,0,0,0,,Без паники. Я его встречу.
 Dialogue: 0,0:14:05.76,0:14:08.68,Default,,0,0,0,,{\an5}One more minute, and one more person.
-Dialogue: 0,0:14:05.76,0:14:08.68,Default,,0,0,0,,
+Dialogue: 0,0:14:05.76,0:14:08.68,Default,,0,0,0,,Осталась минута и последний противник.
 Dialogue: 0,0:14:08.68,0:14:10.68,Default,,0,0,0,,{\an5}Ha-ha, this is too easy!
-Dialogue: 0,0:14:08.68,0:14:10.68,Default,,0,0,0,,
+Dialogue: 0,0:14:08.68,0:14:10.68,Default,,0,0,0,,Ха-ха, слишком просто!
 Dialogue: 0,0:14:10.68,0:14:15.52,Default,,0,0,0,,{\an5}That chat now leaves you 55 seconds.\NYour typing speed isn't that great.
-Dialogue: 0,0:14:10.68,0:14:15.52,Default,,0,0,0,,
+Dialogue: 0,0:14:10.68,0:14:15.52,Default,,0,0,0,,Чтобы это написать, ты потратил 5 секунд. Скорость печати стоит подкачать.
 Dialogue: 0,0:14:21.15,0:14:22.15,Default,,0,0,0,,{\an5}Master!
 Dialogue: 0,0:14:21.15,0:14:22.15,Default,,0,0,0,,Лидер!
 Dialogue: 0,0:14:26.49,0:14:27.99,Default,,0,0,0,,{\an5}Huh?
-Dialogue: 0,0:14:26.49,0:14:27.99,Default,,0,0,0,,
+Dialogue: 0,0:14:26.49,0:14:27.99,Default,,0,0,0,,А?
 Dialogue: 0,0:14:32.16,0:14:34.92,Default,,0,0,0,,{\an5}Huh? Master, you're alive?
-Dialogue: 0,0:14:32.16,0:14:34.92,Default,,0,0,0,,
+Dialogue: 0,0:14:32.16,0:14:34.92,Default,,0,0,0,,А? Лидер не умерла?
 Dialogue: 0,0:14:37.50,0:14:41.26,Default,,0,0,0,,{\an5}No way, hold on! You can't\Npossibly be doing that!
-Dialogue: 0,0:14:37.50,0:14:41.26,Default,,0,0,0,,
+Dialogue: 0,0:14:37.50,0:14:41.26,Default,,0,0,0,,Глазам не верю! Этого не может быть!
 Dialogue: 0,0:14:48.64,0:14:50.60,Default,,0,0,0,,{\an5}Come here a second, Koro!
-Dialogue: 0,0:14:48.64,0:14:50.60,Default,,0,0,0,,
+Dialogue: 0,0:14:48.64,0:14:50.60,Default,,0,0,0,,Сюда иди, Коро!
 Dialogue: 0,0:14:50.60,0:14:53.60,Default,,0,0,0,,{\an5}This one's trouble. Throw a stun, quick!
-Dialogue: 0,0:14:50.60,0:14:53.60,Default,,0,0,0,,
+Dialogue: 0,0:14:50.60,0:14:53.60,Default,,0,0,0,,Нужна помощь. Кидай стан, щас же!
 Dialogue: 0,0:14:54.10,0:14:55.73,Default,,0,0,0,,{\an5}I won't let you!
-Dialogue: 0,0:14:54.10,0:14:55.73,Default,,0,0,0,,
+Dialogue: 0,0:14:54.10,0:14:55.73,Default,,0,0,0,,Разбежался!
 Dialogue: 0,0:14:59.23,0:15:00.65,Default,,0,0,0,,{\an5}Damn!
-Dialogue: 0,0:14:59.23,0:15:00.65,Default,,0,0,0,,
+Dialogue: 0,0:14:59.23,0:15:00.65,Default,,0,0,0,,Ёпт!
 Dialogue: 0,0:15:00.65,0:15:01.86,Default,,0,0,0,,{\an5}Watch out, Master!
-Dialogue: 0,0:15:00.65,0:15:01.86,Default,,0,0,0,,
+Dialogue: 0,0:15:00.65,0:15:01.86,Default,,0,0,0,,Ахтунг, Лидер!
 Dialogue: 0,0:15:01.86,0:15:04.36,Default,,0,0,0,,{\an5}A stun is coming! Get out of there!
-Dialogue: 0,0:15:01.86,0:15:04.36,Default,,0,0,0,,
+Dialogue: 0,0:15:01.86,0:15:04.36,Default,,0,0,0,,Сейчас застанит! Уходи!
 Dialogue: 0,0:15:04.36,0:15:07.78,Default,,0,0,0,,{\an5}I can't run away! If they get\Nthrough here, it's all over!
-Dialogue: 0,0:15:04.36,0:15:07.78,Default,,0,0,0,,
+Dialogue: 0,0:15:04.36,0:15:07.78,Default,,0,0,0,,Ни за что! Сделаю это и всё пропало!
 Dialogue: 0,0:15:07.78,0:15:09.37,Default,,0,0,0,,{\an5}You'll die!
-Dialogue: 0,0:15:07.78,0:15:09.37,Default,,0,0,0,,
+Dialogue: 0,0:15:07.78,0:15:09.37,Default,,0,0,0,,Тебя убьют!
 Dialogue: 0,0:15:11.16,0:15:13.50,Default,,0,0,0,,{\an5}No, you don't!
-Dialogue: 0,0:15:11.16,0:15:13.50,Default,,0,0,0,,
+Dialogue: 0,0:15:11.16,0:15:13.50,Default,,0,0,0,,Не позволю!
 Dialogue: 0,0:15:15.42,0:15:17.04,Default,,0,0,0,,{\an5}Cheep-cheep...
 Dialogue: 0,0:15:15.42,0:15:17.04,Default,,0,0,0,,Чик-чирик…
 Dialogue: 0,0:15:17.04,0:15:18.88,Default,,0,0,0,,{\an5}Out of the way!
-Dialogue: 0,0:15:17.04,0:15:18.88,Default,,0,0,0,,
+Dialogue: 0,0:15:17.04,0:15:18.88,Default,,0,0,0,,С дороги!
 Dialogue: 0,0:15:23.05,0:15:24.59,Default,,0,0,0,,{\an5}Well done, Ako!
-Dialogue: 0,0:15:23.05,0:15:24.59,Default,,0,0,0,,
+Dialogue: 0,0:15:23.05,0:15:24.59,Default,,0,0,0,,Отлично сыграно, Ако.
 Dialogue: 0,0:15:24.59,0:15:26.68,Default,,0,0,0,,{\an5}Nice! Ako, you're tops!
-Dialogue: 0,0:15:24.59,0:15:26.68,Default,,0,0,0,,
+Dialogue: 0,0:15:24.59,0:15:26.68,Default,,0,0,0,,Блеск! Ако, умница!
 Dialogue: 0,0:15:26.68,0:15:30.10,Default,,0,0,0,,{\an5}Huh? You're complimenting me,\Neven though I died?
-Dialogue: 0,0:15:26.68,0:15:30.10,Default,,0,0,0,,
+Dialogue: 0,0:15:26.68,0:15:30.10,Default,,0,0,0,,Э? Меня вайпнули, но я всё равно молодец?
 Dialogue: 0,0:15:30.10,0:15:32.10,Default,,0,0,0,,{\an5}All right!
-Dialogue: 0,0:15:30.10,0:15:32.10,Default,,0,0,0,,
+Dialogue: 0,0:15:30.10,0:15:32.10,Default,,0,0,0,,На таран!
 Dialogue: 0,0:15:34.23,0:15:37.19,Default,,0,0,0,,{\an5}Master, come on! You have to win!
-Dialogue: 0,0:15:34.23,0:15:37.19,Default,,0,0,0,,
+Dialogue: 0,0:15:34.23,0:15:37.19,Default,,0,0,0,,Лидер, прошу! Не вздумай проиграть!
 Dialogue: 0,0:15:41.40,0:15:44.44,Default,,0,0,0,,{\an5}Is that all the power you've got, Bats?!
-Dialogue: 0,0:15:41.40,0:15:44.44,Default,,0,0,0,,
+Dialogue: 0,0:15:41.40,0:15:44.44,Default,,0,0,0,,Это всё на что ты способен, Батцу?
 Dialogue: 0,0:15:44.44,0:15:47.20,Default,,0,0,0,,{\an5}Damn it, die, already! I mean it!
-Dialogue: 0,0:15:44.44,0:15:47.20,Default,,0,0,0,,
+Dialogue: 0,0:15:44.44,0:15:47.20,Default,,0,0,0,,Сколько можно? Умри наконец!
 Dialogue: 0,0:15:49.24,0:15:50.41,Default,,0,0,0,,{\an5}Three...!
 Dialogue: 0,0:15:49.24,0:15:50.41,Default,,0,0,0,,Три!
 Dialogue: 0,0:15:50.41,0:15:52.03,Default,,0,0,0,,{\an5}Two...!
@@ -465,29 +465,29 @@ Dialogue: 0,0:15:56.50,0:15:57.87,Default,,0,0,0,,Нуль!
 Dialogue: 0,0:15:58.37,0:16:02.34,Default,,0,0,0,,{\an5}Siege warfare is now at an end.
 Dialogue: 0,0:15:58.37,0:16:02.34,Default,,0,0,0,,«Осада крепости» закончилась.
 Dialogue: 0,0:16:02.34,0:16:04.09,Default,,0,0,0,,{\an5}You're kidding, right?
-Dialogue: 0,0:16:02.34,0:16:04.09,Default,,0,0,0,,
+Dialogue: 0,0:16:02.34,0:16:04.09,Default,,0,0,0,,А ю факинг киддинг ми?
 Dialogue: 0,0:16:06.13,0:16:11.05,Default,,0,0,0,,{\an5}TMW has been instated as the lords\Nof the imperial palace Lodestone.
-Dialogue: 0,0:16:06.13,0:16:11.05,Default,,0,0,0,,
+Dialogue: 0,0:16:06.13,0:16:11.05,Default,,0,0,0,,Имепраторский дворец Лоудстоуна закреплён за гильдией «TMW».
 Dialogue: 0,0:16:12.72,0:16:15.22,Default,,0,0,0,,{\an5}The Aristocrats have been instated
-Dialogue: 0,0:16:12.72,0:16:15.22,Default,,0,0,0,,
+Dialogue: 0,0:16:12.72,0:16:17.68,Default,,0,0,0,,Цитадель Грамберга закреплена за гильдией «Аристократы».
 Dialogue: 0,0:16:15.22,0:16:17.68,Default,,0,0,0,,{\an5}as the lords of the great citadel Gramberg.
-Dialogue: 0,0:16:15.22,0:16:17.68,Default,,0,0,0,,
+Dialogue: 0,0:16:15.22,0:16:17.68,Default,,0,0,0,,{}
 Dialogue: 0,0:16:19.90,0:16:22.56,Default,,0,0,0,,{\an5}The Cleaning Crew has\Nbeen instated as the lords
-Dialogue: 0,0:16:19.90,0:16:22.56,Default,,0,0,0,,
+Dialogue: 0,0:16:19.90,0:16:25.15,Default,,0,0,0,,Крепость тамплиеров Меча Света закреплена за гильдией «Отряд зачистки».
 Dialogue: 0,0:16:22.57,0:16:25.15,Default,,0,0,0,,{\an5}of the Templar Fortress of Ray Sword.
-Dialogue: 0,0:16:22.57,0:16:25.15,Default,,0,0,0,,
+Dialogue: 0,0:16:22.57,0:16:25.15,Default,,0,0,0,,{}
 Dialogue: 0,0:16:26.69,0:16:31.28,Default,,0,0,0,,{\an5}The Alley Cats have been instated\Nas the lords of Fort Cantor.
-Dialogue: 0,0:16:26.69,0:16:31.28,Default,,0,0,0,,
+Dialogue: 0,0:16:26.69,0:16:31.28,Default,,0,0,0,,Форт Кантор закреплен за гильдией «Бродячие коты».
 Dialogue: 0,0:16:32.45,0:16:34.24,Default,,0,0,0,,{\an5}Hooray!
-Dialogue: 0,0:16:32.45,0:16:34.24,Default,,0,0,0,,
+Dialogue: 0,0:16:32.45,0:16:34.24,Default,,0,0,0,,Уряааа!
 Dialogue: 0,0:16:34.24,0:16:35.45,Default,,0,0,0,,{\an5}We won!
-Dialogue: 0,0:16:34.24,0:16:35.45,Default,,0,0,0,,
+Dialogue: 0,0:16:34.24,0:16:35.45,Default,,0,0,0,,Победа!
 Dialogue: 0,0:16:35.45,0:16:36.75,Default,,0,0,0,,{\an5}We did it!
-Dialogue: 0,0:16:35.45,0:16:36.75,Default,,0,0,0,,
+Dialogue: 0,0:16:35.45,0:16:36.75,Default,,0,0,0,,Наша взяла!
 Dialogue: 0,0:16:36.75,0:16:39.16,Default,,0,0,0,,{\an5}--You see that?\N--In your face, Wallenstein!
-Dialogue: 0,0:16:36.75,0:16:39.16,Default,,0,0,0,,
+Dialogue: 0,0:16:36.75,0:16:39.16,Default,,0,0,0,,— Видали?\N— Валленштайн, накуси-…
 Dialogue: 0,0:16:39.17,0:16:40.96,Default,,0,0,0,,{\an5}Right in your face!
-Dialogue: 0,0:16:39.17,0:16:40.96,Default,,0,0,0,,
+Dialogue: 0,0:16:39.17,0:16:40.96,Default,,0,0,0,,…-выкуси!
 Dialogue: 0,0:16:40.96,0:16:42.83,Default,,0,0,0,,{\an5}Nekohime-{\i1}sama{\i0} is victorious!
 Dialogue: 0,0:16:40.96,0:16:42.83,Default,,0,0,0,,
 Dialogue: 0,0:16:42.84,0:16:45.05,Default,,0,0,0,,{\an5}All glory to our goddess!
