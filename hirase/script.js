@@ -154,7 +154,7 @@ var generateNewHira = function (ctx) {
     currentHira = randomHira();
     ctx.fillText(currentHira.text, 128, 128);
 
-    document.getElementById('answer').value = '';
+    // document.getElementById('answer').value = '';
     document.getElementById('answer').focus();
 };
 
