@@ -92,7 +92,7 @@ if (+localStorage.getItem('withAdditional')) {
 
     if (+localStorage.getItem('withandyoon')) {
         HIRA = HIRA.concat(YOON_HIRA);
-        KATA = HIRA.concat(YOON_KATA);
+        KATA = KATA.concat(YOON_KATA);
         ROMAJI = ROMAJI.concat(YOON_ROMAJI);
     }
 }
