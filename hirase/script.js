@@ -99,14 +99,17 @@ var FONTS = [
     '128px "Hosohuwafont"',
     '128px "JK Gothic M"',
     '128px "KaoriGel"',
-    '128px "Mamelon"',
     '128px "Mikiyu Font NEW-PENJI"',
     '128px "SanaFon"',
     '128px "SanafonYu"'
 ];
 
 var randomFont = function () {
-    var index = Math.floor(Math.random() * FONTS.length);
+    index = 0;
+    if (+localStorage.getItem('shitfontson')) {
+        index = Math.floor(Math.random() * (FONTS.length - 1)) + 1;
+    }
+
     return FONTS[index];
 };
 
@@ -219,6 +222,12 @@ document.addEventListener('DOMContentLoaded', function () {
     andyoonCheckbox.checked = +localStorage.getItem('withandyoon');
     andyoonCheckbox.onchange = function () {
         localStorage.setItem('withandyoon', +andyoonCheckbox.checked);
+    };
+
+    var shitfontsonCheckbox = document.getElementById('shitfontson');
+    shitfontsonCheckbox.checked = +localStorage.getItem('shitfontson');
+    shitfontsonCheckbox.onchange = function () {
+        localStorage.setItem('shitfontson', +shitfontsonCheckbox.checked);
     };
 
     var canvas = document.getElementById('hira');
