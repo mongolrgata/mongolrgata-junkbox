@@ -42,9 +42,9 @@ var ADDITIONAL_ROMAJI = [
 ];
 
 var YOON_ROMAJI = [
-    ['　', '　', '　', 'rya', '　', 'mya', 'hya', 'nya', 'cha', 'sha', 'kya', '　', 'gya', 'ja', 'dya', 'bya', 'pya'],
-    ['　', '　', '　', 'ryu', '　', 'myu', 'hyu', 'nyu', 'chu', 'shu', 'kyu', '　', 'gyu', 'ju', 'dyu', 'byu', 'pyu'],
-    ['　', '　', '　', 'ryo', '　', 'myo', 'hyo', 'nyo', 'cho', 'sho', 'kyo', '　', 'gyo', 'jo', 'dyo', 'byo', 'pyo']
+    ['　', '　', '　', 'rya', '　', 'mya', 'hya', 'nya', ['cha', 'chya'], ['sha', 'shya'], 'kya', '　', 'gya', ['ja', 'jya'], 'dya', 'bya', 'pya'],
+    ['　', '　', '　', 'ryu', '　', 'myu', 'hyu', 'nyu', ['chu', 'chyu'], ['shu', 'shyu'], 'kyu', '　', 'gyu', ['ju', 'jyu'], 'dyu', 'byu', 'pyu'],
+    ['　', '　', '　', 'ryo', '　', 'myo', 'hyo', 'nyo', ['cho', 'chyo'], ['sho', 'shyo'], 'kyo', '　', 'gyo', ['jo', 'jyo'], 'dyo', 'byo', 'pyo']
 ];
 
 //----------------------------------------------------------------------------------------------------------------------
@@ -120,14 +120,47 @@ var randomFont = function () {
     return FONTS[index];
 };
 
-var Hira = function (consonant, vowel) {
-    this.text = HIRA[vowel][consonant];
-    this.romaji = ROMAJI[vowel][consonant];
-};
+class Kana {
+    constructor (consonant, vowel) {
+        var romaji = ROMAJI[vowel][consonant];
 
-var Kata = function (consonant, vowel) {
-    this.text = KATA[vowel][consonant];
-    this.romaji = ROMAJI[vowel][consonant];
+        if (!Array.isArray(romaji)) {
+            romaji = [romaji]
+        }
+
+        this.romaji = romaji;
+    }
+
+    checkRomaji(answer) {
+        if (answer === this.romaji[0]) {
+            return true;
+        }
+        for (var i = 1; i < this.romaji.length; ++i) {
+            if (answer === this.romaji[i]) {
+                return null;
+            }
+        }
+        return false;
+    }
+
+    getDefaultRomaji() {
+        return this.romaji[0];
+    }
+}
+
+class Hira extends Kana {
+    constructor (consonant, vowel) {
+        super(consonant, vowel);
+        this.text = HIRA[vowel][consonant];
+        
+    }
+}
+
+class Kata extends Kana {
+    constructor (consonant, vowel) {
+        super(consonant, vowel);
+        this.text = KATA[vowel][consonant];
+    }
 };
 
 var randomHira = function () {
@@ -202,10 +235,10 @@ var prepend = function (container, content) {
 
 var createResultInfoBox = function (result, answer, ctx) {
     var resultsContainer = document.getElementById('results');
-    var color = result ? 'lightgreen' : 'orangered';
+    var color = result ? 'lightgreen' : (result === null? 'greenyellow' : 'orangered');
     var hira = currentHira.text;
     var font = ctx.font;
-    var roma = '"' + currentHira.romaji + '"';
+    var roma = '"' + currentHira.getDefaultRomaji() + '"';
     var desc = result || !answer ? roma : roma + ' (not "' + answer + '")';
 
     //noinspection JSAnnotator
@@ -250,7 +283,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var answerInput = document.getElementById('answer');
     checkButton.onclick = function () {
         var answer = (answerInput.value || '').trim().toLowerCase();
-        createResultInfoBox(answer === currentHira.romaji, answer, ctx);
+        createResultInfoBox(currentHira.checkRomaji(answer) , answer, ctx);
         generateNewHira(ctx);
     };
     answerInput.onkeypress = function (keyboardEvent) {
@@ -266,10 +299,3 @@ document.addEventListener('DOMContentLoaded', function () {
         redrawDefault(ctx);
     };
 });
-
-// var op = {};
-// for (var i = 0; i < 1000000; ++i) {
-//     generateNewHira($0.getContext('2d'));
-//     var text = currentHira.text;
-//     op[text] = (op[text] || 0) + 1;
-// }
