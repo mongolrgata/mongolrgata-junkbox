@@ -25,7 +25,7 @@ var YOON_HIRA = [
 
 var ROMAJI = [
     ['　', 'ｎ', 'ｗ', 'ｒ', 'ｙ', 'ｍ', 'ｈ', 'ｎ', 'ｔ', 'ｓ', 'ｋ', '　'],
-    ['ａ', 'nn', 'wa', 'ra', 'ya', 'ma', 'ha', 'na', 'ta', 'sa', 'ka', 'a'],
+    ['ａ', ['nn', 'n'], 'wa', 'ra', 'ya', 'ma', 'ha', 'na', 'ta', 'sa', 'ka', 'a'],
     ['ｉ', '　', 'wi', 'ri', '　', 'mi', 'hi', 'ni', 'chi', 'shi', 'ki', 'i'],
     ['ｕ', '　', '　', 'ru', 'yu', 'mu', 'fu', 'nu', 'tsu', 'su', 'ku', 'u'],
     ['ｅ', '　', 'we', 're', '　', 'me', 'he', 'ne', 'te', 'se', 'ke', 'e'],
@@ -35,8 +35,8 @@ var ROMAJI = [
 var ADDITIONAL_ROMAJI = [
     ['ｇ', 'ｚ', 'ｄ', 'ｂ', 'ｐ'],
     ['ga', 'za', 'da', 'ba', 'pa'],
-    ['gi', 'ji', 'di', 'bi', 'pi'],
-    ['gu', 'zu', 'du', 'bu', 'pu'],
+    ['gi', 'ji', ['di', 'dji'], 'bi', 'pi'],
+    ['gu', 'zu', ['du', 'dzu'], 'bu', 'pu'],
     ['ge', 'ze', 'de', 'be', 'pe'],
     ['go', 'zo', 'do', 'bo', 'po']
 ];
@@ -146,6 +146,10 @@ class Kana {
     getDefaultRomaji() {
         return this.romaji[0];
     }
+    
+    equal(kana) {
+        return this.getDefaultRomaji() === kana.getDefaultRomaji();
+    }
 }
 
 class Hira extends Kana {
@@ -161,6 +165,16 @@ class Kata extends Kana {
         super(consonant, vowel);
         this.text = KATA[vowel][consonant];
     }
+};
+
+var prevKanas = [];
+var inPrevKanas = function(kana) {
+    for (var i = 0; i < prevKanas.length; ++i) {
+        if (kana.equal(prevKanas[i])) {
+            return true;
+        }
+    }
+    return false;
 };
 
 var randomHira = function () {
@@ -181,8 +195,12 @@ var randomHira = function () {
                 result = Math.random() < 0.5 ? new Hira(j, i) : new Kata(j, i);
                 break;
         }
-    } while (result.text === BLANK);
+    } while (result.text === BLANK || inPrevKanas(result));
 
+    prevKanas.push(result);
+    if (prevKanas.length > 10) {
+        prevKanas = prevKanas.splice(1, 10);
+    }
     return result;
 };
 
