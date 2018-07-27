@@ -305,7 +305,7 @@ document.addEventListener('DOMContentLoaded', function () {
         generateNewHira(ctx);
     };
     answerInput.onkeypress = function (keyboardEvent) {
-        switch (keyboardEvent.code) {
+        switch (keyboardEvent.key) {
             case 'Enter':
                 checkButton.click();
                 break;
