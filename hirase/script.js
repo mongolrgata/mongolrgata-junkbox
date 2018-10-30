@@ -99,7 +99,7 @@ if (+localStorage.getItem('withAdditional')) {
 
 var getAllHira = function() {
     var HIRA_LIST = [];
-    for (var i = 1; i < 2; ++i) {
+    for (var i = 1; i < HIRA.length; ++i) {
         for (var j = 1; j < HIRA[0].length; ++j) {
             if (HIRA[i][j] !== BLANK) {
                HIRA_LIST.push(new Hira(j, i));
