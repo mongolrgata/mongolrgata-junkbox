@@ -97,6 +97,29 @@ if (+localStorage.getItem('withAdditional')) {
     }
 }
 
+var getAllHira = function() {
+    var HIRA_LIST = [];
+    for (var i = 1; i < 2; ++i) {
+        for (var j = 1; j < HIRA[0].length; ++j) {
+            if (HIRA[i][j] !== BLANK) {
+               HIRA_LIST.push(new Hira(j, i));
+            }
+        }
+    }
+    return HIRA_LIST;
+};
+var getAllKata = function() {
+    var KATA_LIST = [];
+    for (var i = 1; i < KATA.length; ++i) {
+        for (var j = 1; j < KATA[0].length; ++j) {
+            if (KATA[i][j] !== BLANK) {
+                KATA_LIST.push(new Kata(j, i));
+            }
+        }
+    }
+    return KATA_LIST;
+};
+
 var HIRA_I = HIRA.length - 1;
 var HIRA_J = HIRA[0].length - 1;
 
@@ -105,20 +128,22 @@ var FONTS = [
     '128px "MS Gothic"',
     '128px "Hosohuwafont"',
     '128px "JK Gothic M"',
-    '128px "KaoriGel"',
+    // '128px "KaoriGel"', bug ダ (da)
     '128px "Mikiyu Font NEW-PENJI"',
     '128px "SanaFon"',
     '128px "SanafonYu"'
 ];
 
 var randomFont = function () {
-    index = 0;
-    if (+localStorage.getItem('shitfontson')) {
+    var index = 0;
+    if (+localStorage.getItem('shitfonts')) {
         index = Math.floor(Math.random() * (FONTS.length - 1)) + 1;
     }
 
     return FONTS[index];
 };
+
+var START_DATETIME = new Date();
 
 class Kana {
     constructor (consonant, vowel) {
@@ -165,7 +190,24 @@ class Kata extends Kana {
         super(consonant, vowel);
         this.text = KATA[vowel][consonant];
     }
-};
+}
+
+var KANA_LIST = null;
+if (+localStorage.getItem('speedrun')) {
+   KANA_LIST = [];
+   switch (localStorage.getItem('kanaset') || 'hira') {
+      case 'hira':
+         KANA_LIST = getAllHira();
+         break;
+      case 'kata':
+         KANA_LIST = getAllKata();
+         break;
+      case 'both':
+         KANA_LIST = getAllHira().concat(getAllKata());
+         break;
+   }
+   KANA_LIST = (arr => arr.sort(() => Math.random() - 0.5))(KANA_LIST)
+}
 
 var prevKanas = [];
 var inPrevKanas = function(kana) {
@@ -178,6 +220,10 @@ var inPrevKanas = function(kana) {
 };
 
 var randomHira = function () {
+    if (KANA_LIST) {
+       return KANA_LIST.pop();
+    }
+   
     var result;
 
     do {
@@ -267,6 +313,8 @@ var createResultInfoBox = function (result, answer, ctx) {
             <div class="desc">${desc}</div>
         </div>`
     );
+    
+    return currentHira.getDefaultRomaji();
 };
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -282,10 +330,16 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('withandyoon', +andyoonCheckbox.checked);
     };
 
-    var shitfontsonCheckbox = document.getElementById('shitfontson');
-    shitfontsonCheckbox.checked = +localStorage.getItem('shitfontson');
-    shitfontsonCheckbox.onchange = function () {
-        localStorage.setItem('shitfontson', +shitfontsonCheckbox.checked);
+    var shitfontsCheckbox = document.getElementById('shitfonts');
+    shitfontsCheckbox.checked = +localStorage.getItem('shitfonts');
+    shitfontsCheckbox.onchange = function () {
+        localStorage.setItem('shitfonts', +shitfontsCheckbox.checked);
+    };
+
+    var speedrunCheckbox = document.getElementById('speedrun');
+    speedrunCheckbox.checked = +localStorage.getItem('speedrun');
+    speedrunCheckbox.onchange = function () {
+        localStorage.setItem('speedrun', +speedrunCheckbox.checked);
     };
 
     var canvas = document.getElementById('hira');
@@ -294,14 +348,31 @@ document.addEventListener('DOMContentLoaded', function () {
     var ctx = canvas.getContext('2d');
     generateNewHira(ctx);
     canvas.onclick = function () {
-        generateNewHira(ctx);
+        if (!+localStorage.getItem('speedrun')) {
+           generateNewHira(ctx);
+        }
     };
 
     var checkButton = document.getElementById('check');
     var answerInput = document.getElementById('answer');
     checkButton.onclick = function () {
         var answer = (answerInput.value || '').trim().toLowerCase();
-        createResultInfoBox(currentHira.checkRomaji(answer) , answer, ctx);
+        var result = currentHira.checkRomaji(answer);
+        var correctRoma = createResultInfoBox(result, answer, ctx);
+        
+        if (+localStorage.getItem('speedrun') && result === false) {
+           alert('SPEEDRUN FAILED (' + correctRoma + ')');
+           location.reload();
+        }
+
+        if (+localStorage.getItem('speedrun') && !KANA_LIST.length) {
+           var END_DATETIME = new Date();
+           var diff = +END_DATETIME - +START_DATETIME;
+           var sec = diff/1000;
+           alert('SPEEDRUN COMPLETED (' + sec + ' sec)');
+           location.reload();
+        }
+
         generateNewHira(ctx);
     };
     answerInput.onkeypress = function (keyboardEvent) {
