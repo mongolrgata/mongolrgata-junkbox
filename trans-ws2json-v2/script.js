@@ -486,7 +486,7 @@ $(document).ready(function () {
 
         var text = getSelectionText();
         var coor = getSelectionCoords();
-        var bScroll = $($('body')[0]).scrollTop();
+        var bScroll = $($('html')[0]).scrollTop();
         var x = coor.x;
         var y = coor.y + bScroll - 22;
 
