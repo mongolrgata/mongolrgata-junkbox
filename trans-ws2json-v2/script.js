@@ -347,7 +347,7 @@ $(document).ready(function () {
     loadByUrl = function loadByUrl(filename, moreFunction) {
         $('.repo-list').hide();
 
-        moreFunction = moreFunction || dummyFoo();
+        moreFunction = moreFunction || dummyFoo;
 
         $.get(
             filename,
