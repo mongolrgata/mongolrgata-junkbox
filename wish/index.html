@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./const.js"></script>
+    <script src="./state.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div id="layout">
+      <div>
+        <img id="wish-background" src="./wish-background.png" draggable="false">
+        <input id="promogems-count" type="number" value="0" min="0">
+        <div id="exchange-starglitter" onclick="exchangeStarglitter()"></div>
+        <input id="starglitter-count" type="number" value="0" min="0">
+        <span id="stardust-count">0</span>
+        <div id="save" onclick="save()">Save</div>
+        <div id="reset" onclick="reset()">Reset</div>
+        <img id="wish-x1" src="./wish-x1.png" draggable="false" onclick="wish(1)">
+        <img id="wish-x10" src="./wish-x10.png" draggable="false" onclick="wish(10)">
+      </div>
+      <div id="settings">
+        <label id="legendary-pity-label" for="legendary-pity-value">Current 5* Pity</label>
+        <input id="legendary-pity-value" type="number" value="0" min="0" max="89">
+        <label id="legendary-guaranted-label" for="legendary-guaranted-value">Guaranted 5*?</label>
+        <input id="legendary-guaranted-value" type="checkbox" value="legendary-guaranted">
+        <label id="rare-pity-label" for="legendary-pity-value">Current 4* Pity</label>
+        <input id="rare-pity-value" type="number" value="0" min="0" max="10">
+        <label id="rare-guaranted-label" for="rare-guaranted-value">Guaranted 4*?</label>
+        <input id="rare-guaranted-value" type="checkbox" value="rare-guaranted">
+        <!-- stats -->
+        <label id="pull-count-label" for="pull-count-value">Pull Count</label>
+        <input id="pull-count-value" type="number" value="0" min="0">
+        <label id="banner-legendary-label" for="banner-legendary-value">Banner 5*</label>
+        <input id="banner-legendary-value" type="number" value="0" min="0">
+        <label id="standard-legendary-label" for="standard-legendary-value">Standard 5*</label>
+        <input id="standard-legendary-value" type="number" value="0" min="0">
+        <label id="banner-rare1-label" for="banner-rare1-value">Banner 4* #1</label>
+        <input id="banner-rare1-value" type="number" value="0" min="0">
+        <label id="banner-rare2-label" for="banner-rare2-value">Banner 4* #2</label>
+        <input id="banner-rare2-value" type="number" value="0" min="0">
+        <label id="banner-rare3-label" for="banner-rare3-value">Banner 4* #3</label>
+        <input id="banner-rare3-value" type="number" value="0" min="0">
+        <label id="standard-rare-label" for="standard-rare-value">Standard 4*</label>
+        <input id="standard-rare-value" type="number" value="0" min="0">
+        <label id="weapon-rare-label" for="weapon-rare-value">Weapon 4*</label>
+        <input id="weapon-rare-value" type="number" value="0" min="0">
+        <label id="weapon-common-label" for="weapon-common-value">Weapon 3*</label>
+        <input id="weapon-common-value" type="number" value="0" min="0">
+      </div>
+    </div>
+  </body>
+</html>
