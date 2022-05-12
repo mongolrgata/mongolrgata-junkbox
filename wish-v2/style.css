@@ -1,0 +1,202 @@
+@font-face {
+    font-family: GenshinFont;
+    src: url(resources/ja-jp.ttf);
+}
+
+* {
+    user-select: none;
+}
+
+input[type="number"] {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 24px;
+    font-family: GenshinFont;
+    background-color: transparent;
+}
+
+input[type="checkbox"] {
+    height: 22px;
+    width: 22px;
+}
+
+body {
+    margin: 0;
+}
+
+#layout {
+    display: flex;
+}
+
+#select-event-banner {
+    position: absolute;
+    top: 34px;
+    left: 784px;
+    height: 59px;
+    width: 158px;
+    cursor: pointer;
+}
+
+#select-weapon-banner {
+    position: absolute;
+    top: 34px;
+    left: 978px;
+    height: 59px;
+    width: 158px;
+    cursor: pointer;
+}
+
+#primogems-count {
+    position: absolute;
+    top: 34px;
+    left: 1546px;
+    font-size: 24px;
+    font-family: GenshinFont;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #404040;
+}
+
+#exchange-starglitter {
+    position: absolute;
+    top: 955px;
+    left: 66px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+#starglitter-count {
+    position: absolute;
+    top: 955px;
+    left: 109px;
+    font-size: 24px;
+    font-family: GenshinFont;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #404040;
+}
+
+#stardust-count {
+    position: absolute;
+    top: 955px;
+    left: 211px;
+    font-size: 24px;
+    font-family: GenshinFont;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #404040;
+}
+
+#save {
+    position: absolute;
+    top: 1000px;
+    left: 642px;
+    padding: 8px 44px;
+    font-size: 24px;
+    font-family: GenshinFont;
+    border-radius: 28px;
+    background-color: #e4e0d5;
+    color: #3b4255;
+    text-shadow: 0px 0px 6px #bbbbbb;
+    cursor: pointer;
+}
+
+#reset {
+    position: absolute;
+    top: 1000px;
+    left: 804px;
+    padding: 8px 44px;
+    font-size: 24px;
+    font-family: GenshinFont;
+    border-radius: 28px;
+    background-color: #e4e0d5;
+    color: #3b4255;
+    text-shadow: 0px 0px 6px #bbbbbb;
+    cursor: pointer;
+}
+
+#wish-x1 {
+    position: absolute;
+    top: 979px;
+    left: 1178px;
+    cursor: pointer;
+}
+
+#wish-x10 {
+    position: absolute;
+    top: 979px;
+    left: 1552px;
+    cursor: pointer;
+}
+
+#event-banner-stats,
+#weapon-banner-stats {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-auto-rows: max-content;
+    gap: 16px;
+    width: 100%;
+    padding-top: 35px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.event-banner-stats {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 24px;
+    font-family: GenshinFont;
+    color: #35aacc;
+}
+
+#legendary-pity-label,
+#legendary-pity-value,
+#legendary-guaranteed-label,
+#rare-pity-label,
+#rare-pity-value,
+#rare-guaranteed-label,
+#weapon-legendary-pity-label,
+#weapon-legendary-pity-value,
+#weapon-legendary-guaranteed-label,
+#epitomized-path-label,
+#epitomized-path-value,
+#weapon-rare-pity-label,
+#weapon-rare-pity-value,
+#weapon-rare-guaranteed-label {
+    font-size: 24px;
+    font-family: GenshinFont;
+    color: #808080;
+}
+
+#pull-count-label,
+#banner-legendary-label,
+#standard-legendary-label,
+#banner-rare1-label,
+#banner-rare2-label,
+#banner-rare3-label,
+#standard-rare-label,
+#weapon-rare-label,
+#weapon-common-label,
+#weapon-pull-count-label,
+#weapon-banner-legendary1-label,
+#weapon-banner-legendary2-label,
+#weapon-standard-legendary-label,
+#weapon-banner-rare1-label,
+#weapon-banner-rare2-label,
+#weapon-banner-rare3-label,
+#weapon-banner-rare4-label,
+#weapon-banner-rare5-label,
+#weapon-standard-rare-label,
+#character-rare-label,
+#weapon-common2-label {
+    font-size: 24px;
+    font-family: GenshinFont;
+    color: #000000;
+}
+
+.weapon-banner-stats {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 24px;
+    font-family: GenshinFont;
+    color: #ef7c1c;
+}
