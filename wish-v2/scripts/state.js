@@ -3,7 +3,10 @@ let STATE = {};
 Object.defineProperty(STATE, 'selectedBanner', {
     enumerable: true,
     set(value) {
-        document.getElementById('selected-banner').setAttribute('src', 'resources/' + value + '.png');
+        if (value === 'reset') {
+            value = 'event-banner';
+        }
+        document.getElementById('selected-banner').setAttribute('src', 'resources/' + value + '.webp');
         this._selectedBanner = value;
     },
     get() {
@@ -41,11 +44,21 @@ Object.defineProperty(STATE, 'selectedBanner', {
     ['weaponBannerRare5', 'weapon-banner-rare5-value'],
     ['weaponStandardRare', 'weapon-standard-rare-value'],
     ['characterRare', 'character-rare-value'],
-    ['weaponCommon2', 'weapon-common2-value']
-].map(([propertyName, id]) => {
+
+    ['wishUntilC', 'wish-until-c-value', null],
+    ['wishUntilR', 'wish-until-r-value', null],
+    ['wishUntilSamples', 'wish-until-samples-value', null]
+].map(([propertyName, id, resetValue]) => {
     Object.defineProperty(STATE, propertyName, {
         enumerable: true,
         set(value) {
+            if (value === 'reset') {
+                if (resetValue === null) {
+                    return;
+                }
+
+                value = 0;
+            }
             document.getElementById(id).value = value;
         },
         get() {
@@ -63,6 +76,9 @@ Object.defineProperty(STATE, 'selectedBanner', {
     Object.defineProperty(STATE, propertyName, {
         enumerable: true,
         set(value) {
+            if (value === 'reset') {
+                value = false;
+            }
             document.getElementById(id).checked = value;
         },
         get() {

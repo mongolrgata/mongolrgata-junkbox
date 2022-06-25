@@ -1,6 +1,6 @@
 @font-face {
     font-family: GenshinFont;
-    src: url(resources/ja-jp.ttf);
+    src: url(resources/genshin.ttf);
 }
 
 * {
@@ -26,7 +26,9 @@ body {
 }
 
 #layout {
-    display: flex;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-auto-rows: max-content;
 }
 
 #select-event-banner {
@@ -128,8 +130,17 @@ body {
     cursor: pointer;
 }
 
+#stats-data-layout {
+    display: grid;
+    grid-area: 1 / 2 / 3 / 3;
+    grid-template-columns: max-content max-content;
+    grid-auto-rows: max-content;
+    gap: 16px;
+}
+
 #event-banner-stats,
-#weapon-banner-stats {
+#weapon-banner-stats,
+#wish-until-settings {
     display: grid;
     grid-template-columns: max-content 1fr;
     grid-auto-rows: max-content;
@@ -140,12 +151,27 @@ body {
     padding-right: 16px;
 }
 
-.event-banner-stats {
+.event-banner-stats-header {
     grid-column: span 2;
     text-align: center;
     font-size: 24px;
     font-family: GenshinFont;
     color: #35aacc;
+}
+
+.weapon-banner-stats-header {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 24px;
+    font-family: GenshinFont;
+    color: #ef7c1c;
+}
+
+.wish-until-header {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 24px;
+    font-family: GenshinFont;
 }
 
 #legendary-pity-label,
@@ -187,16 +213,17 @@ body {
 #weapon-banner-rare5-label,
 #weapon-standard-rare-label,
 #character-rare-label,
-#weapon-common2-label {
+#weapon-common2-label,
+#wish-until-c-label,
+#wish-until-r-label,
+#wish-until-samples-label {
     font-size: 24px;
     font-family: GenshinFont;
     color: #000000;
 }
 
-.weapon-banner-stats {
-    grid-column: span 2;
-    text-align: center;
+#wish-button {
+    height: 58px;
     font-size: 24px;
     font-family: GenshinFont;
-    color: #ef7c1c;
 }

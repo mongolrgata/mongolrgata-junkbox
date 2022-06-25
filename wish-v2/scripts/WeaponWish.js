@@ -7,21 +7,16 @@ class WeaponWish {
         return STATE.weaponLegendaryGuaranteed || Math.random() < 0.75;
     }
 
-    static isEpitomized() {
-        return STATE.weaponEpitomizedPath === 2 || Math.random() < 0.5;
-    }
-
     static isRare() {
         return Math.random() < WEAPON_RARE_CHANCE[Math.min(STATE.weaponRarePity, 9)];
     }
 
     static giveItem(type, index) {
-        console.log(type);
-
         switch (type) {
             case 'banner legendary':
                 ++STATE['weaponBannerLegendary' + index];
                 STATE.starglitterCount += 10;
+                break;
                 break;
             case 'standard legendary':
                 ++STATE.weaponStandardLegendary;
@@ -41,7 +36,6 @@ class WeaponWish {
                 break;
             case 'common':
                 ++STATE.weaponCommon2;
-                break;
         }
     }
 
@@ -51,17 +45,23 @@ class WeaponWish {
         ++STATE.weaponRarePity;
 
         if (WeaponWish.isLegendary()) {
-            if (WeaponWish.isLegendaryBanner()) {
-                if (WeaponWish.isEpitomized()) {
+            if (STATE.weaponEpitomizedPath === 2) {
+                WeaponWish.giveItem('banner legendary', 1);
+                STATE.weaponEpitomizedPath = 0;
+                STATE.weaponLegendaryGuaranteed = false;
+            } else if (WeaponWish.isLegendaryBanner()) {
+                if (Math.random() < 0.5) {
                     WeaponWish.giveItem('banner legendary', 1);
                     STATE.weaponEpitomizedPath = 0;
+                    STATE.weaponLegendaryGuaranteed = false;
                 } else {
                     WeaponWish.giveItem('banner legendary', 2);
                     ++STATE.weaponEpitomizedPath;
+                    STATE.weaponLegendaryGuaranteed = false;
                 }
-                STATE.weaponLegendaryGuaranteed = false;
             } else {
                 WeaponWish.giveItem('standard legendary');
+                ++STATE.weaponEpitomizedPath;
                 STATE.weaponLegendaryGuaranteed = true;
             }
             STATE.weaponLegendaryPity = 0;
