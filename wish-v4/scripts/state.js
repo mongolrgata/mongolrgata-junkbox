@@ -44,6 +44,7 @@ Object.defineProperty(STATE, 'selectedBanner', {
     ['weaponBannerRare5', 'weapon-banner-rare5-value'],
     ['weaponStandardRare', 'weapon-standard-rare-value'],
     ['characterRare', 'character-rare-value'],
+    ['weaponCommon2', 'weapon-common2-value'],
 
     ['wishUntilC', 'wish-until-c-value', null],
     ['wishUntilR', 'wish-until-r-value', null],
