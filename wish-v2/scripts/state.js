@@ -7,10 +7,10 @@ Object.defineProperty(STATE, 'selectedBanner', {
             value = 'event-banner';
         }
         document.getElementById('selected-banner').setAttribute('src', 'resources/' + value + '.webp');
-        this._selectedBanner = value;
+        window._selectedBanner = value;
     },
     get() {
-        return this._selectedBanner || 'event-banner';
+        return window._selectedBanner || 'event-banner';
     }
 });
 

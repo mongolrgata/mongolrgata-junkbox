@@ -187,10 +187,15 @@ body {
 #epitomized-path-value,
 #weapon-rare-pity-label,
 #weapon-rare-pity-value,
-#weapon-rare-guaranteed-label {
+#weapon-rare-guaranteed-label,
+.invisible {
     font-size: 24px;
     font-family: GenshinFont;
     color: #808080;
+}
+
+.invisible {
+    visibility: hidden;
 }
 
 #pull-count-label,
@@ -226,4 +231,24 @@ body {
     height: 58px;
     font-size: 24px;
     font-family: GenshinFont;
+}
+
+#screen {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.66);
+}
+
+#progress {
+    padding: 24px;
+    background-color: #ffffff;
+    font-size: 24px;
+    font-family: GenshinFont;
+    color: #000000;
 }

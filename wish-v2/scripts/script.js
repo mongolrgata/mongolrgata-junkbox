@@ -54,26 +54,18 @@ function wishUntilCR(C, R) {
     return Math.ceil(-STATE.primogemsCount / 160);
 }
 
-let chart;
-function drawStats(clusters) {
+function drawStats(chart, ctx, clusters, labels) {
     if (chart) {
         chart.destroy();
     }
 
-    const ctx = document.getElementById('canvas').getContext('2d');
-    chart = new Chart(ctx, {
+    return new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: (function () {
-                const result = new Array(clusters.length);
-                for (let i = 0; i < result.length; ++i) {
-                    result[i] = `${i*10}-${i*10 + 9}`;
-                }
-                return result;
-            })(),
+            labels: labels,
             datasets: [{
-                label: '',
-                data: clusters
+                backgroundColor: '#ef7c1c',
+                data: [...clusters]
             }]
         },
         options: {
@@ -94,8 +86,28 @@ function wishUntil() {
     );
 }
 
+function toggleScreen(value) {
+    const screen = document.getElementById('screen');
+
+    if (value) {
+        screen.classList.remove('invisible');
+    } else {
+        screen.classList.add('invisible');
+    }
+
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve();
+        }, 0);
+    });
+}
+
 let clusters;
-function wishUntilStats(C, R, N) {
+let mainChart;
+let additionalChart;
+async function wishUntilStats(C, R, N) {
+    await toggleScreen(true);
+
     clusters = new Array(((C + 1)*90*2 + R*80*3) / 10 + 1).fill(0);
     for (let i = 0; i < N; ++i) {
         ++clusters[Math.ceil(wishUntilCR(C, R) / 10)];
@@ -103,5 +115,33 @@ function wishUntilStats(C, R, N) {
             console.log(new Date().toLocaleTimeString(), i);
         }
     }
-    drawStats(clusters);
+    mainChart = drawStats(mainChart, document.getElementById('mainChart').getContext('2d'), clusters,
+        (function () {
+            const result = new Array(clusters.length);
+            for (let i = 0; i < result.length; ++i) {
+                result[i] = `${i*10}-${i*10 + 9}`;
+            }
+            return result;
+        })()
+    );
+
+    let s = 0;
+    for (let i = 0; i < clusters.length; ++i) {
+        s += clusters[i];
+        clusters[i] = s;
+    }
+    for (let i = 0; i < clusters.length; ++i) {
+        clusters[i] = clusters[i] * 100 / s;
+    }
+    additionalChart = drawStats(additionalChart, document.getElementById('additionalChart').getContext('2d'), clusters,
+        (function () {
+            const result = new Array(clusters.length);
+            for (let i = 0; i < result.length; ++i) {
+                result[i] = `${i*10}-${i*10 + 9}`;
+            }
+            return result;
+        })()
+    );
+
+    toggleScreen(false);
 }
