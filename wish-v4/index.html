@@ -1,0 +1,118 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/character-data.js"></script>
+    <script src="scripts/weapon-data.js"></script>
+    <script src="scripts/state.js"></script>
+    <script src="scripts/EventWish.js"></script>
+    <script src="scripts/WeaponWish.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/chart.min.js"></script>
+</head>
+<body>
+<div id="layout">
+    <div>
+        <img id="selected-banner" src="resources/event-banner.webp" draggable="false">
+        <div id="select-event-banner" onclick="selectBanner('event-banner')"></div>
+        <div id="select-weapon-banner" onclick="selectBanner('weapon-banner')"></div>
+        <input id="primogems-count" type="number" value="0" min="0">
+        <div id="exchange-starglitter" onclick="exchangeStarglitter()"></div>
+        <input id="starglitter-count" type="number" value="0" min="0">
+        <span id="stardust-count">0</span>
+        <div id="save" onclick="save()">Save</div>
+        <div id="reset" onclick="reset()">Reset</div>
+        <img id="wish-x1" src="resources/wish-x1.webp" draggable="false" onclick="wish(1)">
+        <img id="wish-x10" src="resources/wish-x10.webp" draggable="false" onclick="wish(10)">
+    </div>
+    <div id="canvas-container">
+        <canvas id="mainChart" height="256" width="1920"></canvas><br>
+        <canvas id="additionalChart" height="256" width="1920"></canvas>
+    </div>
+    <div id="stats-data-layout">
+        <div id="event-banner-stats">
+            <span class="event-banner-stats-header">EVENT WISH STATS</span>
+            <label id="pull-count-label" for="pull-count-value">Pull Count</label>
+            <input id="pull-count-value" type="number" value="0" min="0">
+            <label id="legendary-pity-label" for="legendary-pity-value">Current 5* Pity</label>
+            <input id="legendary-pity-value" type="number" value="0" min="0" max="89">
+            <label id="legendary-guaranteed-label" for="legendary-guaranteed-value">Guaranteed 5*?</label>
+            <input id="legendary-guaranteed-value" type="checkbox" value="legendary-guaranteed">
+            <label id="rare-pity-label" for="rare-pity-value">Current 4* Pity</label>
+            <input id="rare-pity-value" type="number" value="0" min="0" max="10">
+            <label id="rare-guaranteed-label" for="rare-guaranteed-value">Guaranteed 4*?</label>
+            <input id="rare-guaranteed-value" type="checkbox" value="rare-guaranteed">
+            <label class="invisible">PH</label><label class="invisible">PH</label>
+            <label id="banner-legendary-label" for="banner-legendary-value">5* Character Event</label>
+            <input id="banner-legendary-value" type="number" value="0" min="0">
+            <label class="invisible">PH</label><label class="invisible">PH</label>
+            <label id="standard-legendary-label" for="standard-legendary-value">5* Character Standard</label>
+            <input id="standard-legendary-value" type="number" value="0" min="0">
+            <label id="banner-rare1-label" for="banner-rare1-value">4* Character Event #1</label>
+            <input id="banner-rare1-value" type="number" value="0" min="0">
+            <label id="banner-rare2-label" for="banner-rare2-value">4* Character Event #2</label>
+            <input id="banner-rare2-value" type="number" value="0" min="0">
+            <label id="banner-rare3-label" for="banner-rare3-value">4* Character Event #3</label>
+            <input id="banner-rare3-value" type="number" value="0" min="0">
+            <label class="invisible">PH</label><label class="invisible">PH</label>
+            <label class="invisible">PH</label><label class="invisible">PH</label>
+            <label id="standard-rare-label" for="standard-rare-value">4* Character Standard</label>
+            <input id="standard-rare-value" type="number" value="0" min="0">
+            <label id="weapon-rare-label" for="weapon-rare-value">4* Weapon Standard</label>
+            <input id="weapon-rare-value" type="number" value="0" min="0">
+            <label id="weapon-common-label" for="weapon-common-value">3* Weapon</label>
+            <input id="weapon-common-value" type="number" value="0" min="0">
+        </div>
+        <div id="weapon-banner-stats">
+            <span class="weapon-banner-stats-header">WEAPON WISH STATS</span>
+            <label id="weapon-pull-count-label" for="weapon-pull-count-value">Pull Count</label>
+            <input id="weapon-pull-count-value" type="number" value="0" min="0">
+            <label id="weapon-legendary-pity-label" for="weapon-legendary-pity-value">Current 5* Pity</label>
+            <input id="weapon-legendary-pity-value" type="number" value="0" min="0" max="79">
+            <label id="weapon-legendary-guaranteed-label" for="weapon-legendary-guaranteed-value">Guaranteed 5*?</label>
+            <input id="weapon-legendary-guaranteed-value" type="checkbox" value="weapon-legendary-guaranteed">
+            <label id="weapon-rare-pity-label" for="weapon-rare-pity-value">Current 4* Pity</label>
+            <input id="weapon-rare-pity-value" type="number" value="0" min="0" max="10">
+            <label id="weapon-rare-guaranteed-label" for="weapon-rare-guaranteed-value">Guaranteed 4*?</label>
+            <input id="weapon-rare-guaranteed-value" type="checkbox" value="rare-guaranteed">
+            <label id="epitomized-path-label" for="epitomized-path-value">Epitomized Path</label>
+            <input id="epitomized-path-value" type="number" value="0" min="0" max="2">
+            <label id="weapon-banner-legendary1-label" for="weapon-banner-legendary1-value">5* Weapon Event #1</label>
+            <input id="weapon-banner-legendary1-value" type="number" value="0" min="0">
+            <label id="weapon-banner-legendary2-label" for="weapon-banner-legendary2-value">5* Weapon Event #2</label>
+            <input id="weapon-banner-legendary2-value" type="number" value="0" min="0">
+            <label id="weapon-standard-legendary-label" for="weapon-standard-legendary-value">5* Weapon Standard</label>
+            <input id="weapon-standard-legendary-value" type="number" value="0" min="0">
+            <label id="weapon-banner-rare1-label" for="weapon-banner-rare1-value">4* Weapon Event #1</label>
+            <input id="weapon-banner-rare1-value" type="number" value="0" min="0">
+            <label id="weapon-banner-rare2-label" for="weapon-banner-rare2-value">4* Weapon Event #2</label>
+            <input id="weapon-banner-rare2-value" type="number" value="0" min="0">
+            <label id="weapon-banner-rare3-label" for="weapon-banner-rare3-value">4* Weapon Event #3</label>
+            <input id="weapon-banner-rare3-value" type="number" value="0" min="0">
+            <label id="weapon-banner-rare4-label" for="weapon-banner-rare4-value">4* Weapon Event #4</label>
+            <input id="weapon-banner-rare4-value" type="number" value="0" min="0">
+            <label id="weapon-banner-rare5-label" for="weapon-banner-rare5-value">4* Weapon Event #5</label>
+            <input id="weapon-banner-rare5-value" type="number" value="0" min="0">
+            <label id="character-rare-label" for="character-rare-value">4* Character Standard</label>
+            <input id="character-rare-value" type="number" value="0" min="0">
+            <label id="weapon-standard-rare-label" for="weapon-standard-rare-value">4* Weapon Standard</label>
+            <input id="weapon-standard-rare-value" type="number" value="0" min="0">
+            <label id="weapon-common2-label" for="weapon-common2-value">3* Weapon</label>
+            <input id="weapon-common2-value" type="number" value="0" min="0">
+        </div>
+        <div id="wish-until-settings">
+            <span class="wish-until-header">WISH UNTIL</span>
+            <label id="wish-until-c-label" for="wish-until-c-value">Constellation</label>
+            <input id="wish-until-c-value" type="number" value="-1" min="-1">
+            <label id="wish-until-r-label" for="wish-until-r-value">Refinement</label>
+            <input id="wish-until-r-value" type="number" value="0" min="0">
+            <label id="wish-until-samples-label" for="wish-until-samples-value">Samples</label>
+            <input id="wish-until-samples-value" type="number" value="10" min="1">
+            <button id="wish-button" onclick="wishUntil()">Wish &#x2A2F;X</button>
+        </div>
+    </div>
+</div>
+<div id="screen" class="invisible">
+    <div id="progress">IN PROGRESS<div>
+</div>
+</body>
+</html>
