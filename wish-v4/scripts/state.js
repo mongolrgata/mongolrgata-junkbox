@@ -48,7 +48,12 @@ Object.defineProperty(STATE, 'selectedBanner', {
 
     ['wishUntilC', 'wish-until-c-value', null],
     ['wishUntilR', 'wish-until-r-value', null],
-    ['wishUntilSamples', 'wish-until-samples-value', null]
+    ['wishUntilSamples', 'wish-until-samples-value', null],
+    ['wishUntilCharacterLegendaryPity', 'wish-until-character-legendary-pity-value', null],
+    ['wishUntilWeaponLegendaryPity', 'wish-until-weapon-legendary-pity-value', null],
+    ['constellationRare1', 'constellation-rare1-value', null],
+    ['constellationRare2', 'constellation-rare2-value', null],
+    ['constellationRare3', 'constellation-rare3-value', null]
 ].map(([propertyName, id, resetValue]) => {
     Object.defineProperty(STATE, propertyName, {
         enumerable: true,
@@ -57,7 +62,6 @@ Object.defineProperty(STATE, 'selectedBanner', {
                 if (resetValue === null) {
                     return;
                 }
-
                 value = 0;
             }
             document.getElementById(id).value = value;
@@ -72,12 +76,18 @@ Object.defineProperty(STATE, 'selectedBanner', {
     ['legendaryGuaranteed', 'legendary-guaranteed-value'],
     ['rareGuaranteed', 'rare-guaranteed-value'],
     ['weaponLegendaryGuaranteed', 'weapon-legendary-guaranteed-value'],
-    ['weaponRareGuaranteed', 'weapon-rare-guaranteed-value']
-].map(([propertyName, id]) => {
+    ['weaponRareGuaranteed', 'weapon-rare-guaranteed-value'],
+    ['wishUntilCharacterLegendaryGuaranteed', 'wish-until-character-legendary-guaranteed-value', null],
+    ['wishUntilWeaponLegendaryGuaranteed', 'wish-until-weapon-legendary-guaranteed-value', null],
+    ['useStarglitter', 'use-starglitter-value', null]
+].map(([propertyName, id, resetValue]) => {
     Object.defineProperty(STATE, propertyName, {
         enumerable: true,
         set(value) {
             if (value === 'reset') {
+                if (resetValue === null) {
+                    return;
+                }
                 value = false;
             }
             document.getElementById(id).checked = value;

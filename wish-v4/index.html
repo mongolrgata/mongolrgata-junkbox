@@ -36,11 +36,11 @@
             <label id="legendary-pity-label" for="legendary-pity-value">Current 5* Pity</label>
             <input id="legendary-pity-value" type="number" value="0" min="0" max="89">
             <label id="legendary-guaranteed-label" for="legendary-guaranteed-value">Guaranteed 5*?</label>
-            <input id="legendary-guaranteed-value" type="checkbox" value="legendary-guaranteed">
+            <input id="legendary-guaranteed-value" type="checkbox">
             <label id="rare-pity-label" for="rare-pity-value">Current 4* Pity</label>
             <input id="rare-pity-value" type="number" value="0" min="0" max="10">
             <label id="rare-guaranteed-label" for="rare-guaranteed-value">Guaranteed 4*?</label>
-            <input id="rare-guaranteed-value" type="checkbox" value="rare-guaranteed">
+            <input id="rare-guaranteed-value" type="checkbox">
             <label class="invisible">PH</label><label class="invisible">PH</label>
             <label id="banner-legendary-label" for="banner-legendary-value">5* Character Event</label>
             <input id="banner-legendary-value" type="number" value="0" min="0">
@@ -69,11 +69,11 @@
             <label id="weapon-legendary-pity-label" for="weapon-legendary-pity-value">Current 5* Pity</label>
             <input id="weapon-legendary-pity-value" type="number" value="0" min="0" max="79">
             <label id="weapon-legendary-guaranteed-label" for="weapon-legendary-guaranteed-value">Guaranteed 5*?</label>
-            <input id="weapon-legendary-guaranteed-value" type="checkbox" value="weapon-legendary-guaranteed">
+            <input id="weapon-legendary-guaranteed-value" type="checkbox">
             <label id="weapon-rare-pity-label" for="weapon-rare-pity-value">Current 4* Pity</label>
             <input id="weapon-rare-pity-value" type="number" value="0" min="0" max="10">
             <label id="weapon-rare-guaranteed-label" for="weapon-rare-guaranteed-value">Guaranteed 4*?</label>
-            <input id="weapon-rare-guaranteed-value" type="checkbox" value="rare-guaranteed">
+            <input id="weapon-rare-guaranteed-value" type="checkbox">
             <label id="epitomized-path-label" for="epitomized-path-value">Epitomized Path</label>
             <input id="epitomized-path-value" type="number" value="0" min="0" max="2">
             <label id="weapon-banner-legendary1-label" for="weapon-banner-legendary1-value">5* Weapon Event #1</label>
@@ -107,7 +107,38 @@
             <input id="wish-until-r-value" type="number" value="0" min="0">
             <label id="wish-until-samples-label" for="wish-until-samples-value">Samples</label>
             <input id="wish-until-samples-value" type="number" value="10" min="1">
+            <label id="wish-until-character-legendary-pity-label" for="wish-until-character-legendary-pity-value">5* Character Pity</label>
+            <input id="wish-until-character-legendary-pity-value" type="number" value="0" min="0" max="89">
+            <label id="wish-until-character-legendary-guaranteed-label" for="wish-until-character-legendary-guaranteed-value">Guaranteed 5* Character?</label>
+            <input id="wish-until-character-legendary-guaranteed-value" type="checkbox">
+            <label id="wish-until-weapon-legendary-pity-label" for="wish-until-weapon-legendary-pity-value">5* Weapon Pity</label>
+            <input id="wish-until-weapon-legendary-pity-value" type="number" value="0" min="0" max="79">
+            <label id="wish-until-weapon-legendary-guaranteed-label" for="wish-until-weapon-legendary-guaranteed-value">Guaranteed 5* Weapon?</label>
+            <input id="wish-until-weapon-legendary-guaranteed-value" type="checkbox">
+            <label id="use-starglitter-label" for="use-starglitter-value">Use Starglitter</label>
+            <input id="use-starglitter-value" type="checkbox">
+            <label id="constellation-rare1-label" for="constellation-rare1-value">4* Constellation #1</label>
+            <input id="constellation-rare1-value" type="number" value="-1" min="-1">
+            <label id="constellation-rare2-label" for="constellation-rare2-value">4* Constellation #2</label>
+            <input id="constellation-rare2-value" type="number" value="-1" min="-1">
+            <label id="constellation-rare3-label" for="constellation-rare3-value">4* Constellation #3</label>
+            <input id="constellation-rare3-value" type="number" value="-1" min="-1">
             <button id="wish-button" onclick="wishUntil()">Wish &#x2A2F;X</button>
+        </div>
+        <div id="about-starglitter">
+            <span class="about-starglitter-header">ABOUT STARGLITTER</span>
+            <span class="about-line">5* Character Event</span>
+            <span class="about-line">0 (C0), 10 (C1-C6), 25 (C7+)</span>
+            <span class="about-line">5* Character Standard</span>
+            <span class="about-line">10 (C0+)</span>
+            <span class="about-line">4* Character Event</span>
+            <span class="about-line">0 (C0), 2 (C1-C6), 5 (C7+)</span>
+            <span class="about-line">4* Character Standard</span>
+            <span class="about-line">2 (C0+)</span>
+            <span class="about-line">5* Weapon</span>
+            <span class="about-line">10</span>
+            <span class="about-line">4* Weapon</span>
+            <span class="about-line">5</span>
         </div>
     </div>
 </div>

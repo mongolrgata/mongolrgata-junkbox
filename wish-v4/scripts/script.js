@@ -49,6 +49,13 @@ function drawStats(chart, ctx, clusters, labels) {
             }]
         },
         options: {
+            scales: {
+                y: {
+                    ticks: {
+                        display: false
+                    }
+                }
+            },
             plugins: {
                 legend: {
                     display: false

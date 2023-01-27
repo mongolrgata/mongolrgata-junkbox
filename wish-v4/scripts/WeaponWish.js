@@ -21,7 +21,6 @@ class WeaponWish {
                 ++this.STATE['weaponBannerLegendary' + index];
                 this.STATE.starglitterCount += 10;
                 break;
-                break;
             case 'standard legendary':
                 ++this.STATE.weaponStandardLegendary;
                 this.STATE.starglitterCount += 10;

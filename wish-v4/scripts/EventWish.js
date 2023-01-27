@@ -16,16 +16,19 @@ class EventWish {
     }
 
     giveItem(type) {
+        let count;
         switch (type) {
             case 'banner legendary':
-                this.STATE.starglitterCount += ++this.STATE.bannerLegendary <= 1 ? 0 : 10;
+                count = ++this.STATE.bannerLegendary;
+                this.STATE.starglitterCount += count === 1 ? 0 : count <= 7 ? 10 : 25;
                 break;
             case 'standard legendary':
                 ++this.STATE.standardLegendary;
                 this.STATE.starglitterCount += 10;
                 break;
             case 'banner rare':
-                this.STATE.starglitterCount += ++STATE['bannerRare' + Math.floor(Math.random() * 3 + 1)] <= 7 ? 2 : 5;
+                count = ++STATE['bannerRare' + Math.floor(Math.random() * 3 + 1)];
+                this.STATE.starglitterCount += count === 1 ? 0 : count <= 7 ? 2 : 5;
                 break;
             case 'standard rare':
                 ++this.STATE.standardRare;

@@ -136,19 +136,32 @@ body {
     grid-template-columns: max-content max-content;
     grid-auto-rows: max-content;
     gap: 16px;
+    padding: 16px;
 }
 
 #event-banner-stats,
 #weapon-banner-stats,
-#wish-until-settings {
+#wish-until-settings,
+#about-starglitter {
     display: grid;
+    box-sizing: border-box;
+    padding: 16px;
     grid-template-columns: max-content 1fr;
     grid-auto-rows: max-content;
     gap: 16px;
+    border-radius: 16px;
     width: 100%;
-    padding-top: 35px;
-    padding-left: 16px;
-    padding-right: 16px;
+}
+
+#event-banner-stats {
+    background-color: #bff0ff;
+}
+#weapon-banner-stats {
+    background-color: #ffdcbf;
+}
+#wish-until-settings,
+#about-starglitter {
+    background-color: #bfbfbf;
 }
 
 .event-banner-stats-header {
@@ -167,11 +180,18 @@ body {
     color: #ef7c1c;
 }
 
-.wish-until-header {
+.wish-until-header,
+.about-starglitter-header {
     grid-column: span 2;
     text-align: center;
     font-size: 24px;
     font-family: GenshinFont;
+}
+
+.invisible {
+    font-size: 24px;
+    font-family: GenshinFont;
+    visibility: hidden;
 }
 
 #legendary-pity-label,
@@ -187,15 +207,10 @@ body {
 #epitomized-path-value,
 #weapon-rare-pity-label,
 #weapon-rare-pity-value,
-#weapon-rare-guaranteed-label,
-.invisible {
+#weapon-rare-guaranteed-label {
     font-size: 24px;
     font-family: GenshinFont;
     color: #808080;
-}
-
-.invisible {
-    visibility: hidden;
 }
 
 #pull-count-label,
@@ -221,14 +236,35 @@ body {
 #weapon-common2-label,
 #wish-until-c-label,
 #wish-until-r-label,
-#wish-until-samples-label {
+#wish-until-samples-label,
+#wish-until-character-legendary-pity-label,
+#wish-until-character-legendary-guaranteed-label,
+#wish-until-weapon-legendary-pity-label,
+#wish-until-weapon-legendary-guaranteed-label,
+#use-starglitter-label,
+#constellation-rare1-label,
+#constellation-rare2-label,
+#constellation-rare3-label,
+.about-line {
     font-size: 24px;
     font-family: GenshinFont;
     color: #000000;
 }
 
+#use-starglitter-value:not(:checked) ~ #constellation-rare1-label,
+#use-starglitter-value:not(:checked) ~ #constellation-rare1-value,
+#use-starglitter-value:not(:checked) ~ #constellation-rare2-label,
+#use-starglitter-value:not(:checked) ~ #constellation-rare2-value,
+#use-starglitter-value:not(:checked) ~ #constellation-rare3-label,
+#use-starglitter-value:not(:checked) ~ #constellation-rare3-value {
+    color: #808080;
+}
+
 #wish-button {
+    grid-column: span 2;
+    margin: auto;
     height: 58px;
+    width: 50%;
     font-size: 24px;
     font-family: GenshinFont;
 }
