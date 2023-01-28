@@ -84,6 +84,7 @@ function toggleScreen(value) {
 }
 
 const worker = new Worker('scripts/worker.js');
+
 function wishUntilStats(C, R, N) {
     toggleScreen(true);
 
@@ -97,19 +98,26 @@ function wishUntilStats(C, R, N) {
 let clusters;
 let mainChart;
 let additionalChart;
-worker.onmessage = function(event) {
+worker.onmessage = function (event) {
+    const getRange = function (i) {
+        if (steps === 1) {
+            return `${i * steps}`;
+        }
+        return `${i * steps}-${i * steps + steps - 1}`;
+    };
+
     if (event.data.progress) {
         document.getElementById('progress').innerHTML = 'IN PROGRESS (' + event.data.progress + ')';
         return;
     }
 
+    const steps = STATE.wishUntilSteps;
     clusters = event.data.clusters;
-
     mainChart = drawStats(mainChart, document.getElementById('mainChart').getContext('2d'), clusters,
         (function () {
             const result = new Array(clusters.length);
             for (let i = 0; i < result.length; ++i) {
-                result[i] = `${i*10}-${i*10 + 9}`;
+                result[i] = getRange(i);
             }
             return result;
         })()
@@ -121,13 +129,13 @@ worker.onmessage = function(event) {
         clusters[i] = s;
     }
     for (let i = 0; i < clusters.length; ++i) {
-        clusters[i] = clusters[i] * 100 / s;
+        clusters[i] = Math.floor(clusters[i] * 1000 / s) / 10;
     }
     additionalChart = drawStats(additionalChart, document.getElementById('additionalChart').getContext('2d'), clusters,
         (function () {
             const result = new Array(clusters.length);
             for (let i = 0; i < result.length; ++i) {
-                result[i] = `${i*10}-${i*10 + 9}`;
+                result[i] = getRange(i);
             }
             return result;
         })()

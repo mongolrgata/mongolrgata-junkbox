@@ -49,6 +49,7 @@ Object.defineProperty(STATE, 'selectedBanner', {
     ['wishUntilC', 'wish-until-c-value', null],
     ['wishUntilR', 'wish-until-r-value', null],
     ['wishUntilSamples', 'wish-until-samples-value', null],
+    ['wishUntilSteps', 'wish-until-steps-value', null],
     ['wishUntilCharacterLegendaryPity', 'wish-until-character-legendary-pity-value', null],
     ['wishUntilWeaponLegendaryPity', 'wish-until-weapon-legendary-pity-value', null],
     ['constellationRare1', 'constellation-rare1-value', null],

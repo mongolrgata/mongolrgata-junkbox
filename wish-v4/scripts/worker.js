@@ -39,12 +39,12 @@ function wishUntilCR(C, R) {
     return Math.ceil(-STATE.primogemsCount / 160);
 }
 
-onmessage = function(event) {
+onmessage = function (event) {
     const [C, R, N] = event.data.arguments;
     DEFAULT_STATE = event.data.DEFAULT_STATE;
     DEFAULT_STATE.legendaryPity = DEFAULT_STATE.wishUntilCharacterLegendaryPity;
     DEFAULT_STATE.weaponLegendaryPity = DEFAULT_STATE.wishUntilWeaponLegendaryPity;
-    DEFAULT_STATE.legendaryGuaranteed= DEFAULT_STATE.wishUntilCharacterLegendaryGuaranteed;
+    DEFAULT_STATE.legendaryGuaranteed = DEFAULT_STATE.wishUntilCharacterLegendaryGuaranteed;
     DEFAULT_STATE.weaponLegendaryGuaranteed = DEFAULT_STATE.wishUntilWeaponLegendaryGuaranteed;
     DEFAULT_STATE.bannerRare1 = DEFAULT_STATE.constellationRare1 + 1;
     DEFAULT_STATE.bannerRare2 = DEFAULT_STATE.constellationRare2 + 1;
@@ -54,11 +54,17 @@ onmessage = function(event) {
     eventWish = new EventWish(STATE);
     weaponWish = new WeaponWish(STATE);
 
-    clusters = new Array(((C + 1)*90*2 + R*80*3) / 10 + 1).fill(0);
+    const legendaryGuaranteed = DEFAULT_STATE.wishUntilCharacterLegendaryGuaranteed;
+    const characterWishCountMax = ((C + 1) * 2 - legendaryGuaranteed) * 90;
+    const weaponWishCountMax = R * 80 * 3;
+
+    const steps = DEFAULT_STATE.wishUntilSteps;
+    const clusterCount = Math.floor((characterWishCountMax + weaponWishCountMax) / steps) + 1;
+    clusters = new Array(clusterCount).fill(0);
     for (let i = 0; i < N; ++i) {
         const wishCount = wishUntilCR(C, R);
-        ++clusters[Math.floor(wishCount / 10)];
-        if (i%1000 === 0) {
+        ++clusters[Math.floor(wishCount / steps)];
+        if (i % 1000 === 0) {
             postMessage({progress: i + '/' + N});
         }
     }
