@@ -68,6 +68,7 @@ function drawStats(chart, ctx, clusters, labels) {
 function wishUntil() {
     wishUntilStats(
         STATE.wishUntilC,
+        STATE.wishUntilRareC,
         STATE.wishUntilR,
         STATE.wishUntilSamples
     );
@@ -85,12 +86,12 @@ function toggleScreen(value) {
 
 const worker = new Worker('scripts/worker.js');
 
-function wishUntilStats(C, R, N) {
+function wishUntilStats(C, rareC, R, N) {
     toggleScreen(true);
 
     reset();
     worker.postMessage({
-        arguments: [C, R, N],
+        arguments: [C, rareC, R, N],
         DEFAULT_STATE: STATE
     });
 }

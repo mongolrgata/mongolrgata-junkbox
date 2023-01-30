@@ -47,6 +47,7 @@ Object.defineProperty(STATE, 'selectedBanner', {
     ['weaponCommon2', 'weapon-common2-value'],
 
     ['wishUntilC', 'wish-until-c-value', null],
+    ['wishUntilRareC', 'wish-until-rare-c-value', null],
     ['wishUntilR', 'wish-until-r-value', null],
     ['wishUntilSamples', 'wish-until-samples-value', null],
     ['wishUntilSteps', 'wish-until-steps-value', null],

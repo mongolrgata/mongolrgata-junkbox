@@ -11,8 +11,8 @@ function reset() {
     }
 }
 
-function wishUntilC(C) {
-    while (STATE.bannerLegendary <= C) {
+function wishUntilC(C, rareC) {
+    while (STATE.bannerLegendary <= C || STATE.bannerRare1 <= rareC) {
         eventWish.doWish();
     }
 }
@@ -28,9 +28,9 @@ function exchangeStarglitter() {
     STATE.starglitterCount %= 5;
 }
 
-function wishUntilCR(C, R) {
+function wishUntilCR(C, rareC, R) {
     reset();
-    wishUntilC(C);
+    wishUntilC(C, rareC);
     wishUntilR(R);
     if (STATE.useStarglitter) {
         exchangeStarglitter();
@@ -40,7 +40,7 @@ function wishUntilCR(C, R) {
 }
 
 onmessage = function (event) {
-    const [C, R, N] = event.data.arguments;
+    const [C, rareC, R, N] = event.data.arguments;
     DEFAULT_STATE = event.data.DEFAULT_STATE;
     DEFAULT_STATE.legendaryPity = DEFAULT_STATE.wishUntilCharacterLegendaryPity;
     DEFAULT_STATE.weaponLegendaryPity = DEFAULT_STATE.wishUntilWeaponLegendaryPity;
@@ -54,20 +54,25 @@ onmessage = function (event) {
     eventWish = new EventWish(STATE);
     weaponWish = new WeaponWish(STATE);
 
-    const legendaryGuaranteed = DEFAULT_STATE.wishUntilCharacterLegendaryGuaranteed;
-    const characterWishCountMax = ((C + 1) * 2 - legendaryGuaranteed) * 90;
-    const weaponWishCountMax = R * 80 * 3;
-
     const steps = DEFAULT_STATE.wishUntilSteps;
-    const clusterCount = Math.floor((characterWishCountMax + weaponWishCountMax) / steps) + 1;
-    clusters = new Array(clusterCount).fill(0);
+    clusters = [];
     for (let i = 0; i < N; ++i) {
-        const wishCount = wishUntilCR(C, R);
-        ++clusters[Math.floor(wishCount / steps)];
+        const wishCount = wishUntilCR(C, rareC, R);
+        const clusterIndex = Math.floor(wishCount / steps);
+        if (!clusters[clusterIndex]) {
+            clusters[clusterIndex] = 0;
+        }
+        ++clusters[clusterIndex];
+
         if (i % 1000 === 0) {
             postMessage({progress: i + '/' + N});
         }
     }
 
-    postMessage({clusters: clusters});
+    const characterWishCountMax = ((C + 1) * 2 - DEFAULT_STATE.wishUntilCharacterLegendaryGuaranteed) * 90;
+    const weaponWishCountMax = R * 80 * 3;
+    const clusterCountMin = Math.floor((characterWishCountMax + weaponWishCountMax) / steps) + 1;
+    const result = new Array(Math.max(clusters.length, clusterCountMin)).fill(0).map((v, i) => clusters[i] || 0);
+
+    postMessage({clusters: result});
 };
