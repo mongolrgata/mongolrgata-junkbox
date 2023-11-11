@@ -1,30 +1,37 @@
 function generateCode(jsonText) {
     const PATH = 'https://pom.moe/_app//immutable/chunks/db.716410df.js';
-
     return `
-        const {d: currentDb} = await import('${PATH}');
-    
-        function clearDb() {
-            const tables = currentDb.tables;
-    
-            for (const table of tables) {
-                currentDb[table.name].clear();
-            }
-        }
+const {d: currentDb} = await import('${PATH}');
 
-        function importDb() {
-            const data = ${jsonText}.default;
+function clearDb() {
+    console.log('CLEAR BEGIN');
+
+    const tables = currentDb.tables;
+
+    for (const table of tables) {
+        currentDb[table.name].clear();
+    }
     
-            for (let tableName in data) {
-                currentDb[tableName].clear();
-                for (let i = 0; i < data[tableName].length; ++i) {
-                    currentDb[tableName].add(data[tableName][i]);
-                }
-            }
+    console.log('CLEAR END');
+}
+
+function importDb() {
+    console.log('IMPORT BEGIN');
+
+    const data = ${jsonText}.default;
+
+    for (let tableName in data) {
+        currentDb[tableName].clear();
+        for (let i = 0; i < data[tableName].length; ++i) {
+            currentDb[tableName].add(data[tableName][i]);
         }
+    }
     
-        clearDb();
-        importDb();
+    console.log('IMPORT END');
+}
+
+clearDb();
+setTimeout(importDb, 3000);
     `;
 }
 
