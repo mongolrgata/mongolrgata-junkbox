@@ -55,7 +55,8 @@ Object.defineProperty(STATE, 'selectedBanner', {
     ['wishUntilWeaponLegendaryPity', 'wish-until-weapon-legendary-pity-value', null],
     ['constellationRare1', 'constellation-rare1-value', null],
     ['constellationRare2', 'constellation-rare2-value', null],
-    ['constellationRare3', 'constellation-rare3-value', null]
+    ['constellationRare3', 'constellation-rare3-value', null],
+    ['allPrimogemsCount', 'all-primogems-count-value', null]
 ].map(([propertyName, id, resetValue]) => {
     Object.defineProperty(STATE, propertyName, {
         enumerable: true,

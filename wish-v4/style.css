@@ -247,6 +247,7 @@ body {
 #constellation-rare1-label,
 #constellation-rare2-label,
 #constellation-rare3-label,
+#all-primogems-count-label,
 .about-line {
     font-size: 24px;
     font-family: GenshinFont;
@@ -262,7 +263,8 @@ body {
     color: #808080;
 }
 
-#wish-button {
+#wish-button,
+#wish-all-in {
     grid-column: span 2;
     margin: auto;
     height: 58px;

@@ -74,6 +74,13 @@ function wishUntil() {
     );
 }
 
+function wishAllIn() {
+    wishAllStats(
+        STATE.allPrimogemsCount,
+        STATE.wishUntilSamples
+    );
+}
+
 function toggleScreen(value) {
     const screen = document.getElementById('screen');
 
@@ -91,15 +98,28 @@ function wishUntilStats(C, rareC, R, N) {
 
     reset();
     worker.postMessage({
+        operation: 'wishUntil',
         arguments: [C, rareC, R, N],
         DEFAULT_STATE: STATE
     });
 }
 
-let clusters;
-let mainChart;
-let additionalChart;
-worker.onmessage = function (event) {
+function wishAllStats(pC, N) {
+    toggleScreen(true);
+
+    reset();
+    worker.postMessage({
+        operation: 'wishAll',
+        arguments: [pC, N],
+        DEFAULT_STATE: STATE
+    });
+}
+
+function progressMessage(progress) {
+    document.getElementById('progress').innerHTML = 'IN PROGRESS (' + progress + ')';
+}
+
+function clustersMessage(clusters) {
     const getRange = function (i) {
         if (steps === 1) {
             return `${i * steps}`;
@@ -107,13 +127,7 @@ worker.onmessage = function (event) {
         return `${i * steps}-${i * steps + steps - 1}`;
     };
 
-    if (event.data.progress) {
-        document.getElementById('progress').innerHTML = 'IN PROGRESS (' + event.data.progress + ')';
-        return;
-    }
-
     const steps = STATE.wishUntilSteps;
-    clusters = event.data.clusters;
     mainChart = drawStats(mainChart, document.getElementById('mainChart').getContext('2d'), clusters,
         (function () {
             const result = new Array(clusters.length);
@@ -143,4 +157,60 @@ worker.onmessage = function (event) {
     );
 
     toggleScreen(false);
+}
+
+function stateMessage(state) {
+    for (let key in state) {
+        if (state.hasOwnProperty(key)) {
+            if (STATE.hasOwnProperty(key)) {
+                STATE[key] = state[key];
+            }
+        }
+    }
+
+    const clusters = state.bannerLegendaryRates;
+    mainChart = drawStats(mainChart, document.getElementById('mainChart').getContext('2d'), clusters,
+        (function () {
+            const result = new Array(clusters.length);
+            for (let i = 0; i < result.length; ++i) {
+                result[i] = '' + i;
+            }
+            return result;
+        })()
+    );
+
+    let s = 0;
+    for (let i = clusters.length - 1; i >= 0; --i) {
+        s += clusters[i] || 0;
+        clusters[i] = s;
+    }
+    for (let i = 0; i < clusters.length; ++i) {
+        clusters[i] = Math.floor(clusters[i] * 1000 / s) / 10;
+    }
+    additionalChart = drawStats(additionalChart, document.getElementById('additionalChart').getContext('2d'), clusters,
+        (function () {
+            const result = new Array(clusters.length);
+            for (let i = 0; i < result.length; ++i) {
+                result[i] = '' + i;
+            }
+            return result;
+        })()
+    );
+
+    toggleScreen(false);
+}
+
+let clusters;
+let mainChart;
+let additionalChart;
+worker.onmessage = function (event) {
+    if (event.data.progress) {
+        progressMessage(event.data.progress);
+    }
+    if (event.data.clusters) {
+        clustersMessage(event.data.clusters);
+    }
+    if (event.data.state) {
+        stateMessage(event.data.state);
+    }
 };
