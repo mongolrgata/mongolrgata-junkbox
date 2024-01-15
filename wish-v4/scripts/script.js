@@ -21,6 +21,19 @@ function reset() {
     save();
 }
 
+function loadSettings() {
+    reset();
+
+    STATE.legendaryPity = STATE.wishUntilCharacterLegendaryPity;
+    STATE.weaponLegendaryPity = STATE.wishUntilWeaponLegendaryPity;
+    STATE.legendaryGuaranteed = STATE.wishUntilCharacterLegendaryGuaranteed;
+    STATE.weaponLegendaryGuaranteed = STATE.wishUntilWeaponLegendaryGuaranteed;
+    STATE.bannerRare1 = STATE.constellationRare1 + 1;
+    STATE.bannerRare2 = STATE.constellationRare2 + 1;
+    STATE.bannerRare3 = STATE.constellationRare3 + 1;
+    STATE.primogemsCount = STATE.allPrimogemsCount;
+}
+
 function wish(N) {
     for (let i = 0; i < N; ++i) {
         switch (STATE.selectedBanner) {

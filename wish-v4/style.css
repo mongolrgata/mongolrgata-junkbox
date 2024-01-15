@@ -116,6 +116,20 @@ body {
     cursor: pointer;
 }
 
+#load-settings {
+    position: absolute;
+    top: 942px;
+    left: 804px;
+    padding: 8px 44px;
+    font-size: 24px;
+    font-family: GenshinFont;
+    border-radius: 28px;
+    background-color: #e4e0d5;
+    color: #3b4255;
+    text-shadow: 0px 0px 6px #bbbbbb;
+    cursor: pointer;
+}
+
 #wish-x1 {
     position: absolute;
     top: 979px;
