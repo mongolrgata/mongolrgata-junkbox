@@ -46,9 +46,10 @@ class WeaponWish {
         this.STATE.primogemsCount -= 160;
         ++this.STATE.weaponLegendaryPity;
         ++this.STATE.weaponRarePity;
+        const EPITOMIZED_PATH_MAX = this.STATE.wishUntil5Rules ? 1 : 2;
 
         if (this.isLegendary()) {
-            if (this.STATE.weaponEpitomizedPath === 2) {
+            if (this.STATE.weaponEpitomizedPath === EPITOMIZED_PATH_MAX) {
                 this.giveItem('banner legendary', 1);
                 this.STATE.weaponEpitomizedPath = 0;
                 this.STATE.weaponLegendaryGuaranteed = false;

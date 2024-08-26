@@ -80,6 +80,7 @@ Object.defineProperty(STATE, 'selectedBanner', {
     ['rareGuaranteed', 'rare-guaranteed-value'],
     ['weaponLegendaryGuaranteed', 'weapon-legendary-guaranteed-value'],
     ['weaponRareGuaranteed', 'weapon-rare-guaranteed-value'],
+    ['wishUntil5Rules', 'wish-until-5-rules-value', null],
     ['wishUntilCharacterLegendaryGuaranteed', 'wish-until-character-legendary-guaranteed-value', null],
     ['wishUntilWeaponLegendaryGuaranteed', 'wish-until-weapon-legendary-guaranteed-value', null],
     ['useStarglitter', 'use-starglitter-value', null]

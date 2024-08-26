@@ -8,7 +8,10 @@ class EventWish {
     }
 
     isLegendaryBanner() {
-        return this.STATE.legendaryGuaranteed || Math.random() < 0.5;
+        const firstChance = this.STATE.legendaryGuaranteed || Math.random() < 0.5;
+        const secondChance = Math.random() < 0.1;
+
+        return firstChance || this.STATE.wishUntil5Rules && secondChance;
     }
 
     isRare() {
