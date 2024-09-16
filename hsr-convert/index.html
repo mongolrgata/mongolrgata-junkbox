@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>From pom.moe to Star Rail Station</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="data/pom_moe_achiev.js"></script>
+    <script src="data/srs-achiev.js"></script>
+    <script src="data/warp-data.js"></script>
+    <script src="data-generation.js"></script>
+    <script src="data-helpers.js"></script>
+    <script src="lz-string.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="block">
+    I. Создание файла-болванки
+    <ol>
+        <li>Перейти на страницу <a href="https://starrailstation.com/en/achievements">Achievements</a></li>
+        <li>Убедиться в том, что включён английский язык</a></li>
+        <li>Установить чекбокс на любом достижении</a></li>
+        <li>Перейти на страницу <a href="https://starrailstation.com/en/warp#settings">Settings</a></li>
+        <li>Export Backup</li>
+    </ol>
+</div>
+<div class="decode-area">
+    <div class="block">Decode Test</div>
+    <div class="block">
+        <input id="decode-origin-file" type="file">
+        <button id="decode-button" onclick="decodeTest()">Decode</button>
+    </div>
+    <div class="block">
+        <textarea id="decode-result-json"></textarea>
+    </div>
+    <div class="block">
+        <input id="correct-json" type="checkbox" readonly>Correct JSON
+    </div>
+</div>
+<div class="data-check-area">
+    <div class="block">
+        <button id="data-check-button" onclick="dataCheck()">Data Check</button>
+    </div>
+</div>
+<div class="main-area">
+    <div class="block">II. Загрузить файл-болванку</div>
+    <div class="block">
+        <input id="clean-srs-file" type="file">
+    </div>
+    <div class="block">III. Загрузить данные с pom.moe</div>
+    <div class="block">
+        <input id="pom-moe-file" type="file">
+    </div>
+    <div class="block">IV. Сконвертировать файл</div>
+    <div class="block">
+        <button id="convert-button" onclick="convert()">Выполнить</button>
+    </div>
+    <div class="block debug">
+        <textarea id="convert-result-json"></textarea>
+    </div>
+</div>
+</body>
+</html>
