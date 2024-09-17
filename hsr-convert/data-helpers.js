@@ -24,11 +24,15 @@ function convertAchiev(pomJSON, srsJSON) {
     }
 }
 
-function getNameFromPomMoe(category, id) {
-    const achiev = POM_MOE_ACHIEV[category].achievements;
-    for (let i = 0; i < achiev.length; ++i) {
-        if (achiev[i].id === id) {
-            return achiev[i].name;
+function getNameFromPomMoe(_, id) {
+    for (let category in POM_MOE_ACHIEV) {
+        if (POM_MOE_ACHIEV.hasOwnProperty(category)) {
+            const achiev = POM_MOE_ACHIEV[category].achievements;
+            for (let i = 0; i < achiev.length; ++i) {
+                if (achiev[i].id === id) {
+                    return achiev[i].name;
+                }
+            }
         }
     }
 }
