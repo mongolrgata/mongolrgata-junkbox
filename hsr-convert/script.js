@@ -74,12 +74,16 @@ function saveFile(json) {
 }
 
 function convert() {
-    const pomJSON = JSON.parse(pommoeData);
-    const result = getBaseSRS();
+    try {
+        const pomJSON = JSON.parse(pommoeData);
+        const result = getBaseSRS();
 
-    convertAchiev(pomJSON, result);
-    convertItems(pomJSON, result);
-    saveFile(result);
+        convertAchiev(pomJSON, result);
+        convertItems(pomJSON, result);
+        saveFile(result);
 
-    document.getElementById('convert-result-json').innerHTML = JSON.stringify(result, null, 4);
+        document.getElementById('convert-result-json').innerHTML = JSON.stringify(result, null, 4);
+    } catch (e) {
+        document.getElementById('error-message').innerHTML = e.message;
+    }
 }

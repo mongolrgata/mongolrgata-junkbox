@@ -28,6 +28,7 @@ body {
     display: none;
 }
 
+#error-message,
 .warning {
     color: darkred;
 }
