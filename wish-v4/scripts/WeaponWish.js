@@ -74,16 +74,9 @@ class WeaponWish {
                 this.giveItem('banner rare');
                 this.STATE.weaponRareGuaranteed = false;
             } else {
-                if (Math.random() < 0.5) {
-                    // weapon
-                    if (Math.random() < 0.5) {
-                        // win 50/50
-                        this.giveItem('banner rare');
-                    } else {
-                        // lose 50/50
-                        this.giveItem('standard rare');
-                        this.STATE.weaponRareGuaranteed = true;
-                    }
+                if (Math.random() < 0.75) {
+                    // win 75/25
+                    this.giveItem('banner rare');
                 } else {
                     // character
                     this.giveItem('character rare');

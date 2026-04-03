@@ -221,7 +221,9 @@ body {
 #epitomized-path-value,
 #weapon-rare-pity-label,
 #weapon-rare-pity-value,
-#weapon-rare-guaranteed-label {
+#weapon-rare-guaranteed-label,
+#weapon-standard-rare-label,
+#weapon-standard-rare-value {
     font-size: 24px;
     font-family: GenshinFont;
     color: #808080;
@@ -245,7 +247,6 @@ body {
 #weapon-banner-rare3-label,
 #weapon-banner-rare4-label,
 #weapon-banner-rare5-label,
-#weapon-standard-rare-label,
 #character-rare-label,
 #weapon-common2-label,
 #wish-until-5-rules-label,
